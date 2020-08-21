@@ -101,6 +101,7 @@ MANIFESTATION_type is derived from the type of MANIFESTATION</xs:documentation>
 													</xs:element>
 												</xs:choice>
 											</xs:sequence>
+											<xs:attribute ref="display"/>
 										</xs:complexType>
 									</xs:element>
 								</xs:sequence>
@@ -180,19 +181,8 @@ MANIFESTATION_type is derived from the type of MANIFESTATION</xs:documentation>
 								</xs:sequence>
 							</xs:complexType>
 						</xs:element>
-						<xs:element ref="INVERSE" minOccurs="0"/>
 					</xs:sequence>
 				</xs:choice>
-				<xs:sequence>
-					<xs:annotation>
-						<xs:documentation xml:lang="en">This object is available on notices with @type = 'identifier'</xs:documentation>
-					</xs:annotation>
-					<xs:element ref="OBJECT" maxOccurs="unbounded">
-						<xs:annotation>
-							<xs:documentation/>
-						</xs:annotation>
-					</xs:element>
-				</xs:sequence>
 			</xs:choice>
 			<xs:attribute name="type" use="required">
 				<xs:annotation>
@@ -427,7 +417,13 @@ The structure is set by the @type attribute of the sub-elements.</xs:documentati
 				</xs:annotation>
 			</xs:element>
 			<xs:element ref="p_name_rel"/>
-			<xs:element ref="p_name_inverse_rel" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element ref="p_name_inverse_rel"/>
+			<xs:element name="annotation_property" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>annotation_property is a dynamic assigned name (derived from the cdm ontology).
+it's value is a string value.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
 		</xs:choice>
 	</xs:group>
 	<xs:group name="item-property">
@@ -961,7 +957,7 @@ These relationships where not provided to CELLAR. but they were inferred from in
 		</xs:annotation>
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element name="annotation_propperty" type="xs:string" maxOccurs="unbounded">
+				<xs:element name="annotation_property" type="xs:string" maxOccurs="unbounded">
 					<xs:annotation>
 						<xs:documentation>annotation_property is a dynamic assigned name (derived from the cdm ontology).
 it's value is a string value.</xs:documentation>
@@ -1093,4 +1089,5 @@ zip
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
+	<xs:attribute name="display"/>
 </xs:schema>
