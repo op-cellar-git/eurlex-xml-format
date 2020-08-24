@@ -418,12 +418,6 @@ The structure is set by the @type attribute of the sub-elements.</xs:documentati
 			</xs:element>
 			<xs:element ref="p_name_rel"/>
 			<xs:element ref="p_name_inverse_rel"/>
-			<xs:element name="annotation_property" type="xs:string">
-				<xs:annotation>
-					<xs:documentation>annotation_property is a dynamic assigned name (derived from the cdm ontology).
-it's value is a string value.</xs:documentation>
-				</xs:annotation>
-			</xs:element>
 		</xs:choice>
 	</xs:group>
 	<xs:group name="item-property">
@@ -823,7 +817,12 @@ The contained URI is a Production System (PS) URI</xs:documentation>
 					<xs:documentation xml:lang="en">The ideintifier of the link target</xs:documentation>
 				</xs:annotation>
 			</xs:group>
-			<xs:element ref="ANNOTATION" minOccurs="0"/>
+			<xs:element name="annotation_property" type="xs:string" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>annotation_property is a dynamic assigned name (derived from the cdm ontology).
+it's value is a string value.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
 			<xs:element ref="EMBEDDED_NOTICE">
 				<xs:annotation>
 					<xs:documentation xml:lang="en">Only occurs on links that are configured to be expanded in the notice.
@@ -922,7 +921,12 @@ The name of the element is dynamic and is replaced by the metadata property name
 					<xs:documentation xml:lang="en">The ideintifier of the link target</xs:documentation>
 				</xs:annotation>
 			</xs:group>
-			<xs:element ref="ANNOTATION" minOccurs="0"/>
+			<xs:element name="annotation_property" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>annotation_property is a dynamic assigned name (derived from the cdm ontology).
+it's value is a string value.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
 			<xs:element ref="EMBEDDED_NOTICE"/>
 		</xs:sequence>
 		<xs:attribute ref="type" fixed="link">
@@ -956,14 +960,7 @@ These relationships where not provided to CELLAR. but they were inferred from in
 			<xs:documentation>ANNOTATION is a reserved name and may not occur as property name.</xs:documentation>
 		</xs:annotation>
 		<xs:complexType>
-			<xs:sequence>
-				<xs:element name="annotation_property" type="xs:string" maxOccurs="unbounded">
-					<xs:annotation>
-						<xs:documentation>annotation_property is a dynamic assigned name (derived from the cdm ontology).
-it's value is a string value.</xs:documentation>
-					</xs:annotation>
-				</xs:element>
-			</xs:sequence>
+			<xs:sequence/>
 		</xs:complexType>
 	</xs:element>
 	<xs:group name="t_property">
