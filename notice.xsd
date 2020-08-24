@@ -16,13 +16,13 @@ Also note: The order of child elements typically is NOT fixed.</xs:documentation
 		</xs:annotation>
 		<xs:complexType>
 			<xs:choice>
-				<xs:choice>
+				<xs:annotation>
+					<xs:documentation xml:lang="en">The order of the elements within a notice is not important.</xs:documentation>
+					<xs:documentation xml:lang="en"/>
+				</xs:annotation>
+				<xs:element name="WORK">
 					<xs:annotation>
-						<xs:documentation xml:lang="en">The order of the elements within a notice is not important.</xs:documentation>
-					</xs:annotation>
-					<xs:sequence>
-						<xs:annotation>
-							<xs:documentation xml:lang="en">In Object notice there is 
+						<xs:documentation xml:lang="en">Work wrapper as used in Tree, Branch and Object notice. In Object notice there is 
 - either 1 WORK
 - either 1 EXPRESSION
 - or 1 MANIFESTATION
@@ -34,118 +34,94 @@ In Tree notice there is
 - 1 WORK
 - 0 or more EXPRESSIONs
 - 0 or more MANIFESTATIONs</xs:documentation>
-						</xs:annotation>
-						<xs:element name="WORK">
+					</xs:annotation>
+					<xs:complexType>
+						<xs:sequence>
 							<xs:annotation>
-								<xs:documentation xml:lang="en">Work wrapper as used in Tree, Branch and Object notice.</xs:documentation>
+								<xs:documentation xml:lang="en">The order of the sub-elements is not relevant</xs:documentation>
 							</xs:annotation>
-							<xs:complexType>
-								<xs:sequence>
-									<xs:annotation>
-										<xs:documentation xml:lang="en">The order of the sub-elements is not relevant</xs:documentation>
-									</xs:annotation>
-									<xs:group ref="Identifier">
-										<xs:annotation>
-											<xs:documentation>The identifiers of the work.</xs:documentation>
-										</xs:annotation>
-									</xs:group>
-									<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
-									<xs:element name="WORK_HAS_EXPRESSION" type="WORK_HAS_EXPRESSIONType" maxOccurs="unbounded">
-										<xs:annotation>
-											<xs:documentation xml:lang="en">Implements cellar-66 and cellar-110</xs:documentation>
-										</xs:annotation>
-									</xs:element>
-									<xs:element name="EXPRESSION" minOccurs="0" maxOccurs="unbounded">
-										<xs:annotation>
-											<xs:documentation xml:lang="en">Expression wrapper as used in Tree, Branch and Object notice.
+							<xs:group ref="Identifier">
+								<xs:annotation>
+									<xs:documentation>The identifiers of the work.</xs:documentation>
+								</xs:annotation>
+							</xs:group>
+							<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
+							<xs:element name="WORK_HAS_EXPRESSION" type="WORK_HAS_EXPRESSIONType" maxOccurs="unbounded">
+								<xs:annotation>
+									<xs:documentation xml:lang="en">Implements cellar-66 and cellar-110</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="EXPRESSION" minOccurs="0" maxOccurs="unbounded">
+								<xs:annotation>
+									<xs:documentation xml:lang="en">Expression wrapper as used in Tree, Branch and Object notice.
 
 For /NOTICE[type="indexing"],
 expression may be a fallback (see cellar 108)
 This can be detected because the expression language does not match the NOTICE decoding language.</xs:documentation>
-										</xs:annotation>
-										<xs:complexType>
-											<xs:sequence>
-												<xs:annotation>
-													<xs:documentation xml:lang="en">The order of the sub-elements is not relevant</xs:documentation>
-												</xs:annotation>
-												<xs:group ref="Identifier">
-													<xs:annotation>
-														<xs:documentation>The expression identifiers</xs:documentation>
-													</xs:annotation>
-												</xs:group>
-												<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
-												<xs:element name="EXPRESSION_BELONGS_TO_WORK">
-													<xs:complexType>
-														<xs:group ref="Identifier"/>
-													</xs:complexType>
-												</xs:element>
-												<xs:element name="EXPRESSION_MANIFESTED_BY_MANIFESTATION" minOccurs="0" maxOccurs="unbounded">
-													<xs:complexType>
-														<xs:group ref="Identifier"/>
-													</xs:complexType>
-												</xs:element>
-												<xs:choice minOccurs="0" maxOccurs="unbounded">
-													<xs:element name="MANIFESTATION" type="MANIFESTATIONType">
-														<xs:annotation>
-															<xs:documentation xml:lang="en">Manifestation wrapper as used in Tree, Branch and Object notice.</xs:documentation>
-														</xs:annotation>
-													</xs:element>
-													<xs:element name="MANIFESTATION_type" type="MANIFESTATION_typeType">
-														<xs:annotation>
-															<xs:documentation xml:lang="en">_type := the manifestation type
-Only used in indexing notice
-Only provided is available
-
-MANIFESTATION_type is derived from the type of MANIFESTATION</xs:documentation>
-														</xs:annotation>
-													</xs:element>
-												</xs:choice>
-											</xs:sequence>
-											<xs:attribute ref="display"/>
-										</xs:complexType>
-									</xs:element>
-								</xs:sequence>
-							</xs:complexType>
-						</xs:element>
-					</xs:sequence>
-					<xs:sequence>
-						<xs:annotation>
-							<xs:documentation>Different combinations can be used or
-- tree notice of Dossier (one dossier, multiple events)
-- object notice of either one Dossier or one Event
-- indexing notice Dossier (one dosier all event) or Event (one event and its dossier)</xs:documentation>
-						</xs:annotation>
-						<xs:choice>
-							<xs:element name="DOSSIER">
+								</xs:annotation>
 								<xs:complexType>
 									<xs:sequence>
 										<xs:annotation>
 											<xs:documentation xml:lang="en">The order of the sub-elements is not relevant</xs:documentation>
 										</xs:annotation>
-										<xs:group ref="Identifier"/>
+										<xs:group ref="Identifier">
+											<xs:annotation>
+												<xs:documentation>The expression identifiers</xs:documentation>
+											</xs:annotation>
+										</xs:group>
 										<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
-										<xs:element name="DOSSIER_CONTAINS_EVENT_LEGAL" minOccurs="0" maxOccurs="unbounded">
+										<xs:element name="EXPRESSION_BELONGS_TO_WORK">
 											<xs:complexType>
 												<xs:group ref="Identifier"/>
 											</xs:complexType>
 										</xs:element>
-										<xs:element name="EVENT" minOccurs="0" maxOccurs="unbounded">
+										<xs:element name="EXPRESSION_MANIFESTED_BY_MANIFESTATION" minOccurs="0" maxOccurs="unbounded">
 											<xs:complexType>
-												<xs:sequence>
-													<xs:annotation>
-														<xs:documentation xml:lang="en">The order of the sub-elements is not relevant</xs:documentation>
-													</xs:annotation>
-													<xs:group ref="Identifier"/>
-													<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
-													<xs:element name="EVENT_LEGAL_PART_OF_DOSSIER" minOccurs="0">
-														<xs:complexType>
-															<xs:group ref="Identifier"/>
-														</xs:complexType>
-													</xs:element>
-												</xs:sequence>
+												<xs:group ref="Identifier"/>
 											</xs:complexType>
 										</xs:element>
+										<xs:choice minOccurs="0" maxOccurs="unbounded">
+											<xs:element name="MANIFESTATION" type="MANIFESTATIONType">
+												<xs:annotation>
+													<xs:documentation xml:lang="en">Manifestation wrapper as used in Tree, Branch and Object notice.</xs:documentation>
+												</xs:annotation>
+											</xs:element>
+											<xs:element name="MANIFESTATION_type" type="MANIFESTATION_typeType">
+												<xs:annotation>
+													<xs:documentation xml:lang="en">_type := the manifestation type
+Only used in indexing notice
+Only provided is available
+
+MANIFESTATION_type is derived from the type of MANIFESTATION</xs:documentation>
+												</xs:annotation>
+											</xs:element>
+										</xs:choice>
 									</xs:sequence>
+									<xs:attribute ref="display"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="DOSSIER">
+					<xs:annotation>
+						<xs:documentation>
+								Different combinations can be used or
+- tree notice of Dossier (one dossier, multiple events)
+- object notice of either one Dossier or one Event
+- indexing notice Dossier (one dosier all event) or Event (one event and its dossier)
+							</xs:documentation>
+					</xs:annotation>
+					<xs:complexType>
+						<xs:sequence>
+							<xs:annotation>
+								<xs:documentation xml:lang="en">The order of the sub-elements is not relevant</xs:documentation>
+							</xs:annotation>
+							<xs:group ref="Identifier"/>
+							<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
+							<xs:element name="DOSSIER_CONTAINS_EVENT_LEGAL" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:group ref="Identifier"/>
 								</xs:complexType>
 							</xs:element>
 							<xs:element name="EVENT" minOccurs="0" maxOccurs="unbounded">
@@ -164,25 +140,36 @@ MANIFESTATION_type is derived from the type of MANIFESTATION</xs:documentation>
 									</xs:sequence>
 								</xs:complexType>
 							</xs:element>
-						</xs:choice>
-					</xs:sequence>
-					<xs:sequence>
-						<xs:annotation>
-							<xs:documentation xml:lang="en">Index, Tree and Object notice for an Agent.</xs:documentation>
-						</xs:annotation>
-						<xs:element name="AGENT">
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="AGENT">
+					<xs:annotation>
+						<xs:documentation xml:lang="en">Agent wrapper as used in Indexing, Tree, Branch and Object notice.</xs:documentation>
+					</xs:annotation>
+					<xs:complexType>
+						<xs:sequence>
+							<xs:group ref="Identifier"/>
+							<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="EVENT">
+					<xs:complexType>
+						<xs:sequence>
 							<xs:annotation>
-								<xs:documentation xml:lang="en">Agent wrapper as used in Indexing, Tree, Branch and Object notice.</xs:documentation>
+								<xs:documentation xml:lang="en">The order of the sub-elements is not relevant</xs:documentation>
 							</xs:annotation>
-							<xs:complexType>
-								<xs:sequence>
+							<xs:group ref="Identifier"/>
+							<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
+							<xs:element name="EVENT_LEGAL_PART_OF_DOSSIER" minOccurs="0">
+								<xs:complexType>
 									<xs:group ref="Identifier"/>
-									<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
-								</xs:sequence>
-							</xs:complexType>
-						</xs:element>
-					</xs:sequence>
-				</xs:choice>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
 			</xs:choice>
 			<xs:attribute name="type" use="required">
 				<xs:annotation>
@@ -209,82 +196,59 @@ The language is provided using the ISO 639.2 code (terminology)</xs:documentatio
 		</xs:complexType>
 	</xs:element>
 	<xs:complexType name="EMBEDDED_NOTICEType">
-		<xs:sequence>
-			<xs:annotation>
-				<xs:documentation xml:lang="en">The embedded notice is one of four constructs (only ONE of the child sequences can be used)
-- Work (including one expression and its manifestations)
-- Expression (one expression + its manifestations - Cellar-110)
-- Dossier (Including one dossier and its events)
-- Agent
-
-Note, embedded notices do not have
-- an identifier section
-- an INVERSE section.</xs:documentation>
-			</xs:annotation>
-			<xs:sequence>
-				<xs:annotation>
-					<xs:documentation xml:lang="en">The order of the elements is not relevant.</xs:documentation>
-				</xs:annotation>
-				<xs:element name="WORK" minOccurs="0" maxOccurs="0">
-					<xs:annotation>
-						<xs:documentation xml:lang="en">Work is prohibited in case the embedded notice is the notice of an expression object.
-
-(The expression objext is used in indexing notice and branch notice with WORK_HAS_EXPRESSION.)</xs:documentation>
-					</xs:annotation>
-					<xs:complexType>
+		<xs:choice>
+			<xs:element name="WORK">
+				<xs:complexType>
+					<xs:sequence>
 						<xs:group ref="embedded-property" maxOccurs="unbounded"/>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="EXPRESSION">
-					<xs:annotation>
-						<xs:documentation xml:lang="en">EXPRESSION is required in case the expanding property has range expression.</xs:documentation>
-					</xs:annotation>
-					<xs:complexType>
+						<xs:element name="EXPRESSION" maxOccurs="unbounded">
+							<xs:annotation>
+								<xs:documentation xml:lang="en">EXPRESSION is required in case the expanding property has range expression.</xs:documentation>
+							</xs:annotation>
+							<xs:complexType>
+								<xs:sequence>
+									<xs:group ref="embedded-property" maxOccurs="unbounded"/>
+									<xs:element name="MANIFESTATION" minOccurs="0" maxOccurs="unbounded">
+										<xs:annotation>
+											<xs:documentation xml:lang="en">only used if there is a parent expression.</xs:documentation>
+										</xs:annotation>
+										<xs:complexType>
+											<xs:sequence>
+												<xs:group ref="embedded-property" maxOccurs="unbounded"/>
+												<xs:element ref="MANIFESTATION_HAS_ITEM"/>
+											</xs:sequence>
+											<xs:attribute ref="manifestation-type"/>
+										</xs:complexType>
+									</xs:element>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="DOSSIER">
+				<xs:complexType>
+					<xs:sequence>
 						<xs:group ref="embedded-property" maxOccurs="unbounded"/>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="MANIFESTATION" minOccurs="0" maxOccurs="unbounded">
-					<xs:annotation>
-						<xs:documentation xml:lang="en">only used if there is a parent expression.</xs:documentation>
-					</xs:annotation>
-					<xs:complexType>
-						<xs:sequence>
-							<xs:group ref="embedded-property" maxOccurs="unbounded"/>
-							<xs:element ref="MANIFESTATION_HAS_ITEM"/>
-						</xs:sequence>
-						<xs:attribute ref="manifestation-type"/>
-					</xs:complexType>
-				</xs:element>
-			</xs:sequence>
-			<xs:sequence minOccurs="0" maxOccurs="0">
-				<xs:annotation>
-					<xs:documentation xml:lang="en">The order of the elements is not relevant.
-
-Used if the range of the expanding property is a dossier or an event.
-In both cases, the dossier and all its events are given.</xs:documentation>
-				</xs:annotation>
-				<xs:element name="DOSSIER">
-					<xs:complexType>
-						<xs:group ref="embedded-property" maxOccurs="unbounded"/>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="EVENT" maxOccurs="unbounded">
-					<xs:complexType>
-						<xs:group ref="embedded-property" maxOccurs="unbounded"/>
-					</xs:complexType>
-				</xs:element>
-			</xs:sequence>
-			<xs:sequence minOccurs="0" maxOccurs="0">
-				<xs:element name="AGENT">
-					<xs:annotation>
-						<xs:documentation xml:lang="en">An embedded Agent property.</xs:documentation>
-					</xs:annotation>
-					<xs:complexType>
-						<xs:group ref="embedded-property" maxOccurs="unbounded"/>
-					</xs:complexType>
-				</xs:element>
-			</xs:sequence>
-		</xs:sequence>
+						<xs:element name="EVENT" minOccurs="0" maxOccurs="unbounded">
+							<xs:complexType>
+								<xs:group ref="embedded-property" maxOccurs="unbounded"/>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="AGENT">
+				<xs:complexType>
+					<xs:group ref="embedded-property" maxOccurs="unbounded"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="EVENT">
+				<xs:complexType>
+					<xs:group ref="embedded-property" maxOccurs="unbounded"/>
+				</xs:complexType>
+			</xs:element>
+		</xs:choice>
 	</xs:complexType>
 	<xs:complexType name="EMBEDDED_EXPRESSIONType">
 		<xs:complexContent>
