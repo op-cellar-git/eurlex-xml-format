@@ -16,10 +16,6 @@ Also note: The order of child elements typically is NOT fixed.</xs:documentation
 		</xs:annotation>
 		<xs:complexType>
 			<xs:choice>
-				<xs:annotation>
-					<xs:documentation xml:lang="en">The order of the elements within a notice is not important.</xs:documentation>
-					<xs:documentation xml:lang="en"/>
-				</xs:annotation>
 				<xs:element name="WORK">
 					<xs:annotation>
 						<xs:documentation xml:lang="en">Work wrapper as used in Tree, Branch and Object notice. In Object notice there is 
@@ -48,10 +44,10 @@ In Tree notice there is
 							<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
 							<xs:element name="WORK_HAS_EXPRESSION" type="WORK_HAS_EXPRESSIONType" maxOccurs="unbounded">
 								<xs:annotation>
-									<xs:documentation xml:lang="en">Implements cellar-66 and cellar-110</xs:documentation>
+									<xs:documentation xml:lang="en">[TBD - keep this elements] Implements cellar-66 and cellar-110</xs:documentation>
 								</xs:annotation>
 							</xs:element>
-							<xs:element name="EXPRESSION" minOccurs="0" maxOccurs="unbounded">
+							<xs:element name="EXPRESSION" maxOccurs="unbounded">
 								<xs:annotation>
 									<xs:documentation xml:lang="en">Expression wrapper as used in Tree, Branch and Object notice.
 
@@ -71,11 +67,17 @@ This can be detected because the expression language does not match the NOTICE d
 										</xs:group>
 										<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
 										<xs:element name="EXPRESSION_BELONGS_TO_WORK">
+											<xs:annotation>
+												<xs:documentation>[TBD - keep this element]</xs:documentation>
+											</xs:annotation>
 											<xs:complexType>
 												<xs:group ref="Identifier"/>
 											</xs:complexType>
 										</xs:element>
 										<xs:element name="EXPRESSION_MANIFESTED_BY_MANIFESTATION" minOccurs="0" maxOccurs="unbounded">
+											<xs:annotation>
+												<xs:documentation>[TBD - keep this element]</xs:documentation>
+											</xs:annotation>
 											<xs:complexType>
 												<xs:group ref="Identifier"/>
 											</xs:complexType>
@@ -88,7 +90,7 @@ This can be detected because the expression language does not match the NOTICE d
 											</xs:element>
 											<xs:element name="MANIFESTATION_type" type="MANIFESTATION_typeType">
 												<xs:annotation>
-													<xs:documentation xml:lang="en">_type := the manifestation type
+													<xs:documentation xml:lang="en">[TBD - clarify role of this element] _type := the manifestation type
 Only used in indexing notice
 Only provided is available
 
@@ -795,7 +797,7 @@ The expansion consists in adding metadata of the the targetted dossier or work b
 			</xs:element>
 			<xs:sequence minOccurs="0">
 				<xs:annotation>
-					<xs:documentation xml:lang="en">Can be available for target of type agent or unit_administrative.</xs:documentation>
+					<xs:documentation xml:lang="en">[TBD - redundant to p_name_concept?] Can be available for target of type agent or unit_administrative.</xs:documentation>
 				</xs:annotation>
 				<xs:element name="IDENTIFIER" type="xs:string" minOccurs="0"/>
 				<xs:element name="PREFLABEL"/>
@@ -1009,7 +1011,7 @@ zip
 				</xs:complexType>
 			</xs:element>
 			<xs:element ref="MANIFESTATION_HAS_ITEM" minOccurs="0" maxOccurs="unbounded"/>
-			<xs:element name="ITEM">
+			<xs:element name="ITEM" minOccurs="0" maxOccurs="unbounded">
 				<xs:complexType>
 					<xs:sequence>
 						<xs:annotation>
@@ -1051,4 +1053,9 @@ zip
 		</xs:complexType>
 	</xs:element>
 	<xs:attribute name="display"/>
+	<xs:attribute name="leaf" type="xs:boolean">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">fixed value = 'concept'</xs:documentation>
+		</xs:annotation>
+	</xs:attribute>
 </xs:schema>
