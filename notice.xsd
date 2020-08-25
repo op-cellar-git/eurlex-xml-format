@@ -18,18 +18,28 @@ Also note: The order of child elements typically is NOT fixed.</xs:documentation
 			<xs:choice>
 				<xs:element name="WORK">
 					<xs:annotation>
-						<xs:documentation xml:lang="en">Work wrapper as used in Tree, Branch and Object notice. In Object notice there is 
+						<xs:documentation xml:lang="en">Work wrapper as used in Tree, Branch, Object and Indexation notices. In Object notice there is 
 - either 1 WORK
 - either 1 EXPRESSION
-- or 1 MANIFESTATION
+- either 1 MANIFESTATION
+- or 1 ITEM
 In Branch notice there is 
 - 1 WORK
-- 0 or 1 EXPRESSION
-- 0 or more MANIFESTATIONS
+- 1 EXPRESSION (display)
+- 0 or more EXPRESSIONs (non-display)
+- 0 or more MANIFESTATIONs
+- 0 or more ITEMs
 In Tree notice there is
 - 1 WORK
+- 1 or more EXPRESSIONs
+- 0 or more MANIFESTATIONs
+- 0 or more ITEMs
+In Indexation notice there is [TBD]
+- 1 WORK
 - 0 or more EXPRESSIONs
-- 0 or more MANIFESTATIONs</xs:documentation>
+- 0 or more MANIFESTATIONs
+- 0 or more ITEMs
+</xs:documentation>
 					</xs:annotation>
 					<xs:complexType>
 						<xs:sequence>
@@ -157,6 +167,9 @@ MANIFESTATION_type is derived from the type of MANIFESTATION</xs:documentation>
 					</xs:complexType>
 				</xs:element>
 				<xs:element name="EVENT">
+					<xs:annotation>
+						<xs:documentation xml:lang="en">[TBD - Does Cellar support indexing notices for events?] Event wrapper as used in Indexing, Tree, Branch and Object notice.</xs:documentation>
+					</xs:annotation>
 					<xs:complexType>
 						<xs:sequence>
 							<xs:annotation>
@@ -181,10 +194,11 @@ Possible values are enumerated in this schema.</xs:documentation>
 				<xs:simpleType>
 					<xs:restriction base="xs:string">
 						<xs:enumeration value="indexing"/>
-						<xs:enumeration value="identifier"/>
 						<xs:enumeration value="object"/>
 						<xs:enumeration value="tree"/>
 						<xs:enumeration value="branch"/>
+						<!-- [TBD - removal of indentifier notice] -->
+						<!-- xs:enumeration value="identifier"/ -->
 					</xs:restriction>
 				</xs:simpleType>
 			</xs:attribute>
@@ -450,7 +464,7 @@ It just gives the the identifiers of the target and occasional annotations on th
 		</xs:choice>
 	</xs:group>
 	<xs:complexType name="Literal">
-		<xs:choice>
+		<xs:sequence>
 			<xs:element name="VALUE" type="xs:anyType">
 				<xs:annotation>
 					<xs:documentation xml:lang="en">literal value, except when ../@mdtypes='XMLLiteral'
@@ -460,8 +474,13 @@ In case such value ranges would be introduced, the 'any' type attribute will be 
 PO/Metaconv would need to make its type definition syntax available.</xs:documentation>
 				</xs:annotation>
 			</xs:element>
-			<xs:element ref="ANNOTATION" minOccurs="0"/>
-		</xs:choice>
+			<xs:element name="annotation_property" type="xs:string" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>annotation_property is a dynamic assigned name (derived from the cdm ontology).
+it's value is a string value.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
 		<xs:attribute ref="type" use="required" fixed="data">
 			<xs:annotation>
 				<xs:documentation xml:lang="en">fixed value = 'data'</xs:documentation>
@@ -485,7 +504,7 @@ The name of the element is dynamic and is replaced by the metadata property name
 		</xs:annotation>
 	</xs:element>
 	<xs:complexType name="Date">
-		<xs:all>
+		<xs:sequence>
 			<xs:element name="VALUE" type="xs:date">
 				<xs:annotation>
 					<xs:documentation>Special values are used for unknown dates
@@ -522,8 +541,13 @@ The name of the element is dynamic and is replaced by the metadata property name
 					</xs:restriction>
 				</xs:simpleType>
 			</xs:element>
-			<xs:element ref="ANNOTATION" minOccurs="0"/>
-		</xs:all>
+			<xs:element name="annotation_property" type="xs:string" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>annotation_property is a dynamic assigned name (derived from the cdm ontology).
+it's value is a string value.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
 		<xs:attribute ref="type" use="required" fixed="date">
 			<xs:annotation>
 				<xs:documentation xml:lang="en">fixed value = "date"</xs:documentation>
@@ -538,7 +562,7 @@ The name of the element is dynamic and is replaced by the metadata property name
 		</xs:annotation>
 	</xs:element>
 	<xs:complexType name="Concept">
-		<xs:all>
+		<xs:sequence>
 			<xs:element ref="URI"/>
 			<xs:element name="IDENTIFIER">
 				<xs:annotation>
@@ -577,7 +601,6 @@ The value may be empty if the label is not available in the decoding language of
 Actually occurs 0 or more times.</xs:documentation>
 				</xs:annotation>
 			</xs:element>
-			<xs:element ref="ANNOTATION" minOccurs="0"/>
 			<xs:element name="OP-CODE" type="xs:string" minOccurs="0">
 				<xs:annotation>
 					<xs:documentation xml:lang="en">There can be 0 or 1 OP-CODE element.
@@ -585,7 +608,13 @@ Actually occurs 0 or more times.</xs:documentation>
 Implements cellar-107</xs:documentation>
 				</xs:annotation>
 			</xs:element>
-		</xs:all>
+			<xs:element name="annotation_property" type="xs:string" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>annotation_property is a dynamic assigned name (derived from the cdm ontology).
+it's value is a string value.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
 		<xs:attribute ref="type" use="required" fixed="concept">
 			<xs:annotation>
 				<xs:documentation xml:lang="en">fixed value = 'concept'</xs:documentation>
