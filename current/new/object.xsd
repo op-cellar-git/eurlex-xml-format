@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2019 rel. 3 sp1 (x64) (http://www.altova.com) by Simone Gasperoni (OP Publications Office of the European Union) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:include schemaLocation="./common.xsd"/>
+	<xs:element name="NOTICE">
+		<xs:annotation>
+			<xs:documentation>This Notice schema is: Object notice, it reuses other schemas defined in common.xsd. 
+In this kind of notice, there is either 1 WORK, either 1 EXPRESSION, either 1 MANIFESTATION, or 1 ITEM</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:choice>
+				<xs:element name="WORK">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:annotation>
+								<xs:documentation xml:lang="en">The order of the sub-elements is not relevant</xs:documentation>
+							</xs:annotation>
+							<xs:group ref="Identifier">
+								<xs:annotation>
+									<xs:documentation>The identifiers of the work.</xs:documentation>
+								</xs:annotation>
+							</xs:group>
+							<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
+							<xs:element name="WORK_HAS_EXPRESSION" type="WORK_HAS_EXPRESSIONType" maxOccurs="unbounded">
+								<xs:annotation>
+									<xs:documentation xml:lang="en">[TBD - keep this elements] Implements cellar-66 and cellar-110</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="EXPRESSION" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:annotation>
+											<xs:documentation xml:lang="en">The order of the sub-elements is not relevant</xs:documentation>
+										</xs:annotation>
+										<xs:group ref="Identifier">
+											<xs:annotation>
+												<xs:documentation>The expression identifiers</xs:documentation>
+											</xs:annotation>
+										</xs:group>
+										<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
+										<xs:element name="EXPRESSION_BELONGS_TO_WORK">
+											<xs:annotation>
+												<xs:documentation>[TBD - keep this element]</xs:documentation>
+											</xs:annotation>
+											<xs:complexType>
+												<xs:group ref="Identifier"/>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="EXPRESSION_MANIFESTED_BY_MANIFESTATION" minOccurs="0" maxOccurs="unbounded">
+											<xs:annotation>
+												<xs:documentation>[TBD - keep this element]</xs:documentation>
+											</xs:annotation>
+											<xs:complexType>
+												<xs:group ref="Identifier"/>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="MANIFESTATION" type="MANIFESTATIONType" minOccurs="0" maxOccurs="unbounded">
+											<xs:annotation>
+												<xs:documentation xml:lang="en">Manifestation wrapper as used in Tree, Branch and Object notice.</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute ref="display"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="DOSSIER">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:annotation>
+								<xs:documentation xml:lang="en">The order of the sub-elements is not relevant</xs:documentation>
+							</xs:annotation>
+							<xs:group ref="Identifier"/>
+							<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
+							<xs:element name="DOSSIER_CONTAINS_EVENT_LEGAL" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:group ref="Identifier"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="EVENT" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:annotation>
+											<xs:documentation xml:lang="en">The order of the sub-elements is not relevant</xs:documentation>
+										</xs:annotation>
+										<xs:group ref="Identifier"/>
+										<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
+										<xs:element name="EVENT_LEGAL_PART_OF_DOSSIER" minOccurs="0">
+											<xs:complexType>
+												<xs:group ref="Identifier"/>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="AGENT">
+					<xs:annotation>
+						<xs:documentation xml:lang="en">Agent wrapper as used in Indexing, Tree, Branch and Object notice.</xs:documentation>
+					</xs:annotation>
+					<xs:complexType>
+						<xs:sequence>
+							<xs:group ref="Identifier"/>
+							<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="EVENT" maxOccurs="unbounded">
+					<xs:annotation>
+						<xs:documentation xml:lang="en">[TBD - Does Cellar support indexing notices for events?] Event wrapper as used in Indexing, Tree, Branch and Object notice.</xs:documentation>
+					</xs:annotation>
+					<xs:complexType>
+						<xs:sequence>
+							<xs:annotation>
+								<xs:documentation xml:lang="en">The order of the sub-elements is not relevant</xs:documentation>
+							</xs:annotation>
+							<xs:group ref="Identifier"/>
+							<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
+							<xs:element name="EVENT_LEGAL_PART_OF_DOSSIER" minOccurs="0">
+								<xs:complexType>
+									<xs:group ref="Identifier"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+			<xs:attribute name="type" use="required">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">The type of notice.
+Possible values are enumerated in this schema.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="object"/>
+						<!-- [TBD - removal of indentifier notice] -->
+						<!-- xs:enumeration value="identifier"/ -->
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="decoding">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Decoding language used to build the notice.
+Not provided on identifier notice.
+The language is provided using the ISO 639.2 code (terminology)</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
