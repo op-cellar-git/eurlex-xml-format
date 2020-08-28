@@ -17,30 +17,6 @@ Also note: The order of child elements typically is NOT fixed.</xs:documentation
 		<xs:complexType>
 			<xs:choice>
 				<xs:element name="WORK">
-					<xs:annotation>
-						<xs:documentation xml:lang="en">Work wrapper as used in Tree, Branch, Object and Indexation notices. In Object notice there is 
-- either 1 WORK
-- either 1 EXPRESSION
-- either 1 MANIFESTATION
-- or 1 ITEM
-In Branch notice there is 
-- 1 WORK
-- 1 EXPRESSION (display)
-- 0 or more EXPRESSIONs (non-display)
-- 0 or more MANIFESTATIONs
-- 0 or more ITEMs
-In Tree notice there is
-- 1 WORK
-- 1 or more EXPRESSIONs
-- 0 or more MANIFESTATIONs
-- 0 or more ITEMs
-In Indexation notice there is [TBD]
-- 1 WORK
-- 0 or more EXPRESSIONs
-- 0 or more MANIFESTATIONs
-- 0 or more ITEMs
-</xs:documentation>
-					</xs:annotation>
 					<xs:complexType>
 						<xs:sequence>
 							<xs:annotation>
@@ -51,13 +27,9 @@ In Indexation notice there is [TBD]
 									<xs:documentation>The identifiers of the work.</xs:documentation>
 								</xs:annotation>
 							</xs:group>
-							<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
-							<xs:element name="WORK_HAS_EXPRESSION" type="WORK_HAS_EXPRESSIONType" maxOccurs="unbounded">
-								<xs:annotation>
-									<xs:documentation xml:lang="en">[TBD - keep this elements] Implements cellar-66 and cellar-110</xs:documentation>
-								</xs:annotation>
-							</xs:element>
-							<xs:element name="EXPRESSION" maxOccurs="unbounded">
+							<xs:group ref="property"/>
+							<xs:element name="WORK_HAS_EXPRESSION" type="WORK_HAS_EXPRESSIONType"/>
+							<xs:element name="EXPRESSION">
 								<xs:annotation>
 									<xs:documentation xml:lang="en">Expression wrapper as used in Tree, Branch and Object notice.
 
@@ -84,7 +56,7 @@ This can be detected because the expression language does not match the NOTICE d
 												<xs:group ref="Identifier"/>
 											</xs:complexType>
 										</xs:element>
-										<xs:element name="EXPRESSION_MANIFESTED_BY_MANIFESTATION" minOccurs="0" maxOccurs="unbounded">
+										<xs:element name="EXPRESSION_MANIFESTED_BY_MANIFESTATION">
 											<xs:annotation>
 												<xs:documentation>[TBD - keep this element]</xs:documentation>
 											</xs:annotation>
@@ -92,12 +64,8 @@ This can be detected because the expression language does not match the NOTICE d
 												<xs:group ref="Identifier"/>
 											</xs:complexType>
 										</xs:element>
-										<xs:choice minOccurs="0" maxOccurs="unbounded">
-											<xs:element name="MANIFESTATION" type="MANIFESTATIONType">
-												<xs:annotation>
-													<xs:documentation xml:lang="en">Manifestation wrapper as used in Tree, Branch and Object notice.</xs:documentation>
-												</xs:annotation>
-											</xs:element>
+										<xs:choice>
+											<xs:element name="MANIFESTATION" type="MANIFESTATIONType"/>
 											<xs:element name="MANIFESTATION_type" type="MANIFESTATION_typeType">
 												<xs:annotation>
 													<xs:documentation xml:lang="en">[TBD - clarify role of this element] _type := the manifestation type
@@ -116,14 +84,6 @@ MANIFESTATION_type is derived from the type of MANIFESTATION</xs:documentation>
 					</xs:complexType>
 				</xs:element>
 				<xs:element name="DOSSIER">
-					<xs:annotation>
-						<xs:documentation>
-								Different combinations can be used or
-- tree notice of Dossier (one dossier, multiple events)
-- object notice of either one Dossier or one Event
-- indexing notice Dossier (one dosier all event) or Event (one event and its dossier)
-							</xs:documentation>
-					</xs:annotation>
 					<xs:complexType>
 						<xs:sequence>
 							<xs:annotation>
@@ -131,12 +91,12 @@ MANIFESTATION_type is derived from the type of MANIFESTATION</xs:documentation>
 							</xs:annotation>
 							<xs:group ref="Identifier"/>
 							<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
-							<xs:element name="DOSSIER_CONTAINS_EVENT_LEGAL" minOccurs="0" maxOccurs="unbounded">
+							<xs:element name="DOSSIER_CONTAINS_EVENT_LEGAL">
 								<xs:complexType>
 									<xs:group ref="Identifier"/>
 								</xs:complexType>
 							</xs:element>
-							<xs:element name="EVENT" minOccurs="0" maxOccurs="unbounded">
+							<xs:element name="EVENT">
 								<xs:complexType>
 									<xs:sequence>
 										<xs:annotation>
@@ -144,7 +104,7 @@ MANIFESTATION_type is derived from the type of MANIFESTATION</xs:documentation>
 										</xs:annotation>
 										<xs:group ref="Identifier"/>
 										<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
-										<xs:element name="EVENT_LEGAL_PART_OF_DOSSIER" minOccurs="0">
+										<xs:element name="EVENT_LEGAL_PART_OF_DOSSIER">
 											<xs:complexType>
 												<xs:group ref="Identifier"/>
 											</xs:complexType>
@@ -156,9 +116,6 @@ MANIFESTATION_type is derived from the type of MANIFESTATION</xs:documentation>
 					</xs:complexType>
 				</xs:element>
 				<xs:element name="AGENT">
-					<xs:annotation>
-						<xs:documentation xml:lang="en">Agent wrapper as used in Indexing, Tree, Branch and Object notice.</xs:documentation>
-					</xs:annotation>
 					<xs:complexType>
 						<xs:sequence>
 							<xs:group ref="Identifier"/>
@@ -167,9 +124,6 @@ MANIFESTATION_type is derived from the type of MANIFESTATION</xs:documentation>
 					</xs:complexType>
 				</xs:element>
 				<xs:element name="EVENT">
-					<xs:annotation>
-						<xs:documentation xml:lang="en">[TBD - Does Cellar support indexing notices for events?] Event wrapper as used in Indexing, Tree, Branch and Object notice.</xs:documentation>
-					</xs:annotation>
 					<xs:complexType>
 						<xs:sequence>
 							<xs:annotation>
@@ -177,7 +131,7 @@ MANIFESTATION_type is derived from the type of MANIFESTATION</xs:documentation>
 							</xs:annotation>
 							<xs:group ref="Identifier"/>
 							<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
-							<xs:element name="EVENT_LEGAL_PART_OF_DOSSIER" minOccurs="0">
+							<xs:element name="EVENT_LEGAL_PART_OF_DOSSIER">
 								<xs:complexType>
 									<xs:group ref="Identifier"/>
 								</xs:complexType>
@@ -396,8 +350,22 @@ The structure is set by the @type attribute.</xs:documentation>
 The structure is set by the @type attribute of the sub-elements.</xs:documentation>
 				</xs:annotation>
 			</xs:element>
-			<xs:element ref="p_name_rel"/>
-			<xs:element ref="p_name_inverse_rel"/>
+			<xs:element ref="p_name_rel">
+				<xs:annotation>
+					<xs:documentation>A relation to a related content object.  
+e.g. an object (WORK, DOSSIER, AGENT) that is not a skos:Concept.
+
+The name of the element is dynamic and is replaced by the metadata property name.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element ref="p_name_inverse_rel">
+				<xs:annotation>
+					<xs:documentation>An inverse relation to a related content object.  
+e.g. an object (WORK, DOSSIER, AGENT) that is not skos:Concept
+
+The name of the element is dynamic and is replaced by the metadata property name.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
 		</xs:choice>
 	</xs:group>
 	<xs:group name="item-property">
@@ -916,7 +884,7 @@ The name of the element is dynamic and is replaced by the metadata property name
 					<xs:documentation xml:lang="en">The ideintifier of the link target</xs:documentation>
 				</xs:annotation>
 			</xs:group>
-			<xs:element name="annotation_property" type="xs:string" minOccurs="0">
+			<xs:element name="annotation_property" type="xs:string" minOccurs="0" maxOccurs="unbounded">
 				<xs:annotation>
 					<xs:documentation>annotation_property is a dynamic assigned name (derived from the cdm ontology).
 it's value is a string value.</xs:documentation>
@@ -1039,8 +1007,8 @@ zip
 					<xs:group ref="Identifier"/>
 				</xs:complexType>
 			</xs:element>
-			<xs:element ref="MANIFESTATION_HAS_ITEM" minOccurs="0" maxOccurs="unbounded"/>
-			<xs:element name="ITEM" minOccurs="0" maxOccurs="unbounded">
+			<xs:element ref="MANIFESTATION_HAS_ITEM"/>
+			<xs:element name="ITEM">
 				<xs:complexType>
 					<xs:sequence>
 						<xs:annotation>
