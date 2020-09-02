@@ -33,7 +33,7 @@ In this kind of notice, there are: 1 WORK, 1 or more EXPRESSIONs, 0 or more MANI
 											</xs:annotation>
 										</xs:group>
 										<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
-										<xs:element name="MANIFESTATION" type="MANIFESTATIONType" minOccurs="0" maxOccurs="unbounded">
+										<xs:element name="MANIFESTATION" type="MANIFESTATIONObjectType" minOccurs="0" maxOccurs="unbounded">
 											<xs:annotation>
 												<xs:documentation xml:lang="en">Manifestation wrapper as used in Tree, Branch and Object notice.</xs:documentation>
 											</xs:annotation>

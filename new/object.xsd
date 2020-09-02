@@ -61,7 +61,7 @@ In this kind of notice, there is either 1 WORK, either 1 EXPRESSION, either 1 MA
 						<xs:attribute ref="display"/>
 					</xs:complexType>
 				</xs:element>
-				<xs:element name="MANIFESTATION" type="MANIFESTATIONObjectType">
+				<xs:element name="MANIFESTATION" type="MANIFESTATIONType">
 					<xs:annotation>
 						<xs:documentation xml:lang="en">Manifestation wrapper as used in Tree, Branch and Object notice.</xs:documentation>
 					</xs:annotation>

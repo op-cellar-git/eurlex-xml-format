@@ -4,22 +4,7 @@
 	<xs:annotation>
 		<xs:documentation xml:lang="en">This is not an XML schema. Rather it is an XML-schema template which is filled in depending the properties defined by the CDM and TDM ontology (http://publications.europa.eu/ontology/cdm# and http://publications.europa.eu/ontology/tdm). In this specification, element names (or name parts) in UPPER CASE are definite (fixed).  The lower case parts are dynamic. Also note: The order of child elements typically is NOT fixed. This schema will be reused by the more specific ones for describing particulars notices.</xs:documentation>
 	</xs:annotation>
-	<xs:complexType name="EMBEDDED_NOTICEType"/>
-	<xs:complexType name="EMBEDDED_EXPRESSIONType">
-		<xs:complexContent>
-			<xs:extension base="EMBEDDED_NOTICEType"/>
-		</xs:complexContent>
-	</xs:complexType>
-	<xs:element name="EMBEDDED_NOTICE" type="EMBEDDED_NOTICEType">
-		<xs:annotation>
-			<xs:documentation xml:lang="en">Implements cellar-66,-108,-110</xs:documentation>
-		</xs:annotation>
-	</xs:element>
 	<xs:element name="OBJECT">
-		<xs:annotation>
-			<xs:documentation xml:lang="en">An object in an identifier notice.
-For this object, all known identifiers will be listed.</xs:documentation>
-		</xs:annotation>
 		<xs:complexType>
 			<xs:sequence>
 				<xs:element ref="URI" minOccurs="0" maxOccurs="unbounded"/>
@@ -56,48 +41,6 @@ The list of alternative identifiers for this URI are requested.</xs:documentatio
 			<xs:documentation>Determines the content model (structure) of the element.</xs:documentation>
 		</xs:annotation>
 	</xs:attribute>
-	<xs:simpleType name="mdtypes">
-		<xs:restriction base="xs:NMTOKEN">
-			<xs:enumeration value="string"/>
-			<xs:enumeration value="boolean"/>
-			<xs:enumeration value="decimal"/>
-			<xs:enumeration value="float"/>
-			<xs:enumeration value="double"/>
-			<xs:enumeration value="dateTime"/>
-			<xs:enumeration value="time"/>
-			<xs:enumeration value="date"/>
-			<xs:enumeration value="gYearMonth"/>
-			<xs:enumeration value="gYear"/>
-			<xs:enumeration value="gMonthDay"/>
-			<xs:enumeration value="gDay"/>
-			<xs:enumeration value="gMonth"/>
-			<xs:enumeration value="hexBinary"/>
-			<xs:enumeration value="base64Binary"/>
-			<xs:enumeration value="anyURI"/>
-			<xs:enumeration value="normalizedString"/>
-			<xs:enumeration value="token"/>
-			<xs:enumeration value="language"/>
-			<xs:enumeration value="NMTOKEN"/>
-			<xs:enumeration value="Name"/>
-			<xs:enumeration value="NCName"/>
-			<xs:enumeration value="integer"/>
-			<xs:enumeration value="nonPositiveInteger"/>
-			<xs:enumeration value="negativeInteger"/>
-			<xs:enumeration value="long"/>
-			<xs:enumeration value="int"/>
-			<xs:enumeration value="short"/>
-			<xs:enumeration value="byte"/>
-			<xs:enumeration value="nonNegativeInteger"/>
-			<xs:enumeration value="unsignedLong"/>
-			<xs:enumeration value="unsignedInt"/>
-			<xs:enumeration value="unsignedShort"/>
-			<xs:enumeration value="unsignedByte"/>
-			<xs:enumeration value="positiveInteger"/>
-			<xs:enumeration value="PlainLiteral"/>
-			<xs:enumeration value="XMLLiteral"/>
-			<xs:enumeration value="Literal"/>
-		</xs:restriction>
-	</xs:simpleType>
 	<xs:group name="property">
 		<xs:annotation>
 			<xs:documentation xml:lang="en">groups all properties that can be used in a notice.</xs:documentation>
@@ -181,6 +124,7 @@ The structure is set by the @type attribute.</xs:documentation>
 The structure is set by the @type attribute.</xs:documentation>
 				</xs:annotation>
 			</xs:element>
+			<xs:element ref="p_name_nested"/>
 			<xs:element ref="p_name_embedded_rel">
 				<xs:annotation>
 					<xs:documentation xml:lang="en">An embedded relation cannot be extended anymore.
@@ -210,15 +154,6 @@ it's value is a string value.</xs:documentation>
 		<xs:attribute ref="type" use="required" fixed="data">
 			<xs:annotation>
 				<xs:documentation xml:lang="en">fixed value = 'data'</xs:documentation>
-			</xs:annotation>
-		</xs:attribute>
-		<xs:attribute name="xsdType" type="mdtypes">
-			<xs:annotation>
-				<xs:documentation xml:lang="en">The literal type (RDF or XML-Schema) defining the content format of the child element VALUE.
-If no type is set on ingest, no type will be specified
-
-Note: we do not use the global attribute xi:type
-where the alias xi stands for the XML schema instance type (xmlns:xi="http://www.w3.org/2001/XMLSchema-instance") because the value is captured in sub-element VALUE, a sibling of possible annotations.</xs:documentation>
 			</xs:annotation>
 		</xs:attribute>
 	</xs:complexType>
@@ -599,9 +534,9 @@ The name of the element is dynamic and is replaced by the metadata property name
 					<xs:documentation xml:lang="en">The ideintifier of the link target</xs:documentation>
 				</xs:annotation>
 			</xs:group>
-			<xs:element ref="ANNOTATION" minOccurs="0"/>
+			<xs:element name="annotation_property" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
 		</xs:sequence>
-		<xs:attribute ref="type" fixed="embedded_link">
+		<xs:attribute ref="type" use="required" fixed="embedded_link">
 			<xs:annotation>
 				<xs:documentation xml:lang="en">embedded_link</xs:documentation>
 			</xs:annotation>
@@ -614,61 +549,6 @@ I.e. an object (WORK, DOSSIER, AGENT) that is not skos:Concept.
 
 The name of the element is dynamic and is replaced by the metadata property name.</xs:documentation>
 		</xs:annotation>
-	</xs:element>
-	<xs:complexType name="InverseRelation">
-		<xs:annotation>
-			<xs:documentation>Cellar-94</xs:documentation>
-		</xs:annotation>
-		<xs:sequence>
-			<xs:annotation>
-				<xs:documentation xml:lang="en">Order sub-elements is not important</xs:documentation>
-			</xs:annotation>
-			<xs:group ref="Identifier">
-				<xs:annotation>
-					<xs:documentation xml:lang="en">The ideintifier of the link target</xs:documentation>
-				</xs:annotation>
-			</xs:group>
-			<xs:element name="annotation_property" type="xs:string" minOccurs="0" maxOccurs="unbounded">
-				<xs:annotation>
-					<xs:documentation>annotation_property is a dynamic assigned name (derived from the cdm ontology).
-it's value is a string value.</xs:documentation>
-				</xs:annotation>
-			</xs:element>
-			<xs:element ref="EMBEDDED_NOTICE"/>
-		</xs:sequence>
-		<xs:attribute ref="type" fixed="link">
-			<xs:annotation>
-				<xs:documentation xml:lang="en">fixed value = 'link'</xs:documentation>
-			</xs:annotation>
-		</xs:attribute>
-	</xs:complexType>
-	<xs:element name="p_name_inverse_rel" type="InverseRelation">
-		<xs:annotation>
-			<xs:documentation xml:lang="en">An inverse relation to a related content object.  
-I.e. an object (WORK, DOSSIER, AGENT) that is not skos:Concept
-
-The name of the element is dynamic and is replaced by the metadata property name.</xs:documentation>
-		</xs:annotation>
-	</xs:element>
-	<xs:element name="INVERSE">
-		<xs:annotation>
-			<xs:documentation xml:lang="en">Inverses of incoming relationships for this object.
-
-These relationships where not provided to CELLAR. but they were inferred from incoming relationships.</xs:documentation>
-		</xs:annotation>
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element ref="p_name_inverse_rel" minOccurs="0" maxOccurs="unbounded"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="ANNOTATION">
-		<xs:annotation>
-			<xs:documentation>ANNOTATION is a reserved name and may not occur as property name.</xs:documentation>
-		</xs:annotation>
-		<xs:complexType>
-			<xs:sequence/>
-		</xs:complexType>
 	</xs:element>
 	<xs:group name="t_property">
 		<xs:annotation>

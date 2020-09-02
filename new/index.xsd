@@ -4,8 +4,7 @@
 	<xs:include schemaLocation="./common.xsd"/>
 	<xs:element name="NOTICE">
 		<xs:annotation>
-			<xs:documentation>This Notice schema is: Branch notice, it reuses other schemas defined in common.xsd. 
-In this kind of notice, there are: 1 WORK, 1 EXPRESSION (display), 0 or more EXPRESSIONs (non-display), 0 or more MANIFESTATIONs, 0 or more ITEMs</xs:documentation>
+			<xs:documentation>Indexation notice In this kind of notice, there are: 1 WORK, 0 or more EXPRESSIONs, 0 or more MANIFESTATIONs, 0 or more ITEMs</xs:documentation>
 		</xs:annotation>
 		<xs:complexType>
 			<xs:choice>
@@ -21,7 +20,7 @@ In this kind of notice, there are: 1 WORK, 1 EXPRESSION (display), 0 or more EXP
 								</xs:annotation>
 							</xs:group>
 							<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
-							<xs:element name="EXPRESSION" maxOccurs="unbounded">
+							<xs:element name="EXPRESSION" minOccurs="0" maxOccurs="unbounded">
 								<xs:complexType>
 									<xs:sequence>
 										<xs:annotation>
@@ -39,21 +38,68 @@ In this kind of notice, there are: 1 WORK, 1 EXPRESSION (display), 0 or more EXP
 											</xs:annotation>
 										</xs:element>
 									</xs:sequence>
-									<xs:attribute ref="display" use="required"/>
+									<xs:attribute ref="display"/>
 								</xs:complexType>
 							</xs:element>
 						</xs:sequence>
 					</xs:complexType>
 				</xs:element>
+				<xs:element name="DOSSIER">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:annotation>
+								<xs:documentation xml:lang="en">The order of the sub-elements is not relevant</xs:documentation>
+							</xs:annotation>
+							<xs:group ref="Identifier"/>
+							<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
+							<xs:element name="EVENT" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:annotation>
+											<xs:documentation xml:lang="en">The order of the sub-elements is not relevant</xs:documentation>
+										</xs:annotation>
+										<xs:group ref="Identifier"/>
+										<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="AGENT">
+					<xs:annotation>
+						<xs:documentation xml:lang="en">Agent wrapper as used in Indexing, Tree, Branch and Object notice.</xs:documentation>
+					</xs:annotation>
+					<xs:complexType>
+						<xs:sequence>
+							<xs:group ref="Identifier"/>
+							<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="EVENT">
+					<xs:annotation>
+						<xs:documentation xml:lang="en">[TBD - Does Cellar support indexing notices for events?] Event wrapper as used in Indexing, Tree, Branch and Object notice.</xs:documentation>
+					</xs:annotation>
+					<xs:complexType>
+						<xs:sequence>
+							<xs:annotation>
+								<xs:documentation xml:lang="en">The order of the sub-elements is not relevant</xs:documentation>
+							</xs:annotation>
+							<xs:group ref="Identifier"/>
+							<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
 			</xs:choice>
-			<xs:attribute name="type" use="required" fixed="branch">
+			<xs:attribute name="type" use="required" fixed="index">
 				<xs:annotation>
 					<xs:documentation xml:lang="en">The type of notice.
 Possible values are enumerated in this schema.</xs:documentation>
 				</xs:annotation>
 				<xs:simpleType>
 					<xs:restriction base="xs:string">
-						<xs:enumeration value="branch"/>
+						<xs:enumeration value="index"/>
 						<!-- [TBD - removal of indentifier notice] -->
 						<!-- xs:enumeration value="identifier"/ -->
 					</xs:restriction>
