@@ -36,13 +36,9 @@ a script will compute the commonConcrete.xsd making use of the current version o
 
 I could not find an override mechanism in XSD1.0, that s why there is some replication for the node <NOTICE>. I think it is acceptable
 
-1) CHOICE in NOTICE (?) for me it is not right
-2) How to manage the cardinalities with the flag display (?) it is my lack in XSD, not sure it is possible in XSD1.0
-3) restriction in the type of notice via enumerating values with cardinality 1 (?) for me it is ok 
+ 
 4) I removed MANIFESTATION_type with the exception of the indexation notice, should be clarified the role
 5) I did not touch the indexation notice, because I still have too many doubts
-6) how to handle the cardinalities of dossier event agent and work at the same time (?) it is my lack in XSD, not sure it is possible in XSD1.0, probably we can split the XSDs schemas further
-
 
 
 
