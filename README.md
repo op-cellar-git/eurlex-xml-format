@@ -33,14 +33,3 @@ a script will compute the commonConcrete.xsd making use of the current version o
 
  - commonTemplate.xsd will be used for the specification 
  - commonConcrete.xsd will be used for the XSD validation
-
-I could not find an override mechanism in XSD1.0, that s why there is some replication for the node <NOTICE>. I think it is acceptable
-
- 
-4) I removed MANIFESTATION_type with the exception of the indexation notice, should be clarified the role
-5) I did not touch the indexation notice, because I still have too many doubts
-
-
-
-
-
