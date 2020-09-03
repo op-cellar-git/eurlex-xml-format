@@ -82,26 +82,6 @@ The name of the element is dynamic and is replaced by the metadata property name
 			</xs:element>
 		</xs:choice>
 	</xs:group>
-	<xs:group name="item-property">
-		<xs:annotation>
-			<xs:documentation xml:lang="en">groups all properties that can be used in a notice for an item element.</xs:documentation>
-		</xs:annotation>
-		<xs:choice>
-			<xs:element ref="p_name_literal">
-				<xs:annotation>
-					<xs:documentation>The name of the element is dynamic, this is not a real element name.
-The structure is set by the @type attribute.</xs:documentation>
-				</xs:annotation>
-			</xs:element>
-			<xs:element ref="p_name_date">
-				<xs:annotation>
-					<xs:documentation>The name of the element is dynamic, this is not a real element name.
-The structure is set by the @type attribute.</xs:documentation>
-				</xs:annotation>
-			</xs:element>
-			<xs:element ref="p_name_item_rel"/>
-		</xs:choice>
-	</xs:group>
 	<xs:group name="embedded-property">
 		<xs:annotation>
 			<xs:documentation xml:lang="en">groups all properties that can be used in an embedded notice.</xs:documentation>
@@ -512,13 +492,6 @@ The name of the element is dynamic and is replaced by the metadata property name
 			</xs:annotation>
 		</xs:attribute>
 	</xs:complexType>
-	<xs:element name="p_name_item_rel" type="ItemRelation">
-		<xs:annotation>
-			<xs:documentation xml:lang="en">A relation to a related content object of an ITEM
-
-The name of the element is dynamic and is replaced by the metadata property name.</xs:documentation>
-		</xs:annotation>
-	</xs:element>
 	<xs:complexType name="EmbeddedRelation">
 		<xs:annotation>
 			<xs:documentation>Cellar-94</xs:documentation>
@@ -568,14 +541,6 @@ The name of the element is dynamic and is replaced by the metadata property name
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
-	<xs:complexType name="WORK_HAS_EXPRESSIONType">
-		<xs:annotation>
-			<xs:documentation xml:lang="en">Implements cellar-66 and cellar-110</xs:documentation>
-		</xs:annotation>
-		<xs:sequence>
-			<xs:group ref="Identifier"/>
-		</xs:sequence>
-	</xs:complexType>
 	<xs:attribute name="manifestation-type">
 		<xs:annotation>
 			<xs:documentation>A dynamic list of values of manifestation types (if provided).

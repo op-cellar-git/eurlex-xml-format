@@ -21,7 +21,15 @@ In this kind of notice, there is either 1 WORK, either 1 EXPRESSION, either 1 MA
 								</xs:annotation>
 							</xs:group>
 							<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
-							<xs:element name="WORK_HAS_EXPRESSION" type="WORK_HAS_EXPRESSIONType" maxOccurs="unbounded"/>
+							<xs:element name="WORK_HAS_EXPRESSION" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:group ref="Identifier">
+										<xs:annotation>
+											<xs:documentation>The identifiers of the work.</xs:documentation>
+										</xs:annotation>
+									</xs:group>
+								</xs:complexType>
+							</xs:element>
 						</xs:sequence>
 					</xs:complexType>
 				</xs:element>
