@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- edited with XMLSpy v2019 rel. 3 sp1 (x64) (http://www.altova.com) by Simone Gasperoni (OP Publications Office of the European Union) -->
+<!-- edited with XMLSpy v2019 rel. 3 sp1 (http://www.altova.com) by DG OP (OP Publications Office of the European Union) -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
 	<xs:annotation>
 		<xs:documentation xml:lang="en">This is not an XML schema. Rather it is an XML-schema template which is filled in depending the properties defined by the CDM and TDM ontology (http://publications.europa.eu/ontology/cdm# and http://publications.europa.eu/ontology/tdm). In this specification, element names (or name parts) in UPPER CASE are definite (fixed).  The lower case parts are dynamic. Also note: The order of child elements typically is NOT fixed. This schema will be reused by the more specific ones for describing particulars notices.</xs:documentation>
@@ -24,11 +24,12 @@ The list of alternative identifiers for this URI are requested.</xs:documentatio
 	</xs:element>
 	<xs:simpleType name="types">
 		<xs:annotation>
-			<xs:documentation xml:lang="en">Implements cellar-76</xs:documentation>
+			<xs:documentation xml:lang="en">List of supported @type values</xs:documentation>
 		</xs:annotation>
 		<xs:restriction base="xs:string">
 			<xs:enumeration value="date"/>
-			<xs:enumeration value="concept_hierarchical"/>
+			<xs:enumeration value="concept_hierarchy"/>
+			<xs:enumeration value="concept_hierarchy_concept"/>
 			<xs:enumeration value="concept"/>
 			<xs:enumeration value="data"/>
 			<xs:enumeration value="memberlist"/>
@@ -64,7 +65,7 @@ The structure is set by the @type attribute.</xs:documentation>
 The structure is set by the @type attribute.</xs:documentation>
 				</xs:annotation>
 			</xs:element>
-			<xs:element ref="p_name_nested"/>
+			<xs:element ref="p_name_concept_hierarchy"/>
 			<xs:element ref="p_name.MEMBERLIST">
 				<xs:annotation>
 					<xs:documentation>The name of the element is dynamic, this is not a real element name.
@@ -124,7 +125,7 @@ The structure is set by the @type attribute.</xs:documentation>
 The structure is set by the @type attribute.</xs:documentation>
 				</xs:annotation>
 			</xs:element>
-			<xs:element ref="p_name_nested"/>
+			<xs:element ref="p_name_concept_hierarchy"/>
 			<xs:element ref="p_name_embedded_rel">
 				<xs:annotation>
 					<xs:documentation xml:lang="en">An embedded relation cannot be extended anymore.
@@ -137,11 +138,7 @@ It just gives the the identifiers of the target and occasional annotations on th
 		<xs:sequence>
 			<xs:element name="VALUE" type="xs:anyType">
 				<xs:annotation>
-					<xs:documentation xml:lang="en">literal value, except when ../@mdtypes='XMLLiteral'
-
-To date, no XMLLiteral type values are defined.
-In case such value ranges would be introduced, the 'any' type attribute will be set.
-PO/Metaconv would need to make its type definition syntax available.</xs:documentation>
+					<xs:documentation xml:lang="en">literal value</xs:documentation>
 				</xs:annotation>
 			</xs:element>
 			<xs:element name="annotation_property" type="xs:string" minOccurs="0" maxOccurs="unbounded">
@@ -296,13 +293,14 @@ The name of the element is dynamic and is replaced by the metadata property name
 			<xs:annotation>
 				<xs:documentation xml:lang="en">the order of the child elements is arbitrary.</xs:documentation>
 			</xs:annotation>
-			<xs:element name="p_name_nested" maxOccurs="unbounded">
+			<xs:element name="p_name_concept_hierarchy_concept" maxOccurs="unbounded">
 				<xs:annotation>
 					<xs:documentation xml:lang="en">The prefix 'p_name' is dynamic and takes the value of the classifying property name</xs:documentation>
 				</xs:annotation>
 				<xs:complexType>
 					<xs:complexContent>
 						<xs:extension base="Concept">
+							<xs:attribute name="type" type="types" use="required" fixed="concept_hierarchy_concept"/>
 							<xs:attribute ref="path" use="required"/>
 							<xs:attribute ref="level" use="required"/>
 						</xs:extension>
@@ -310,21 +308,21 @@ The name of the element is dynamic and is replaced by the metadata property name
 				</xs:complexType>
 			</xs:element>
 		</xs:sequence>
-		<xs:attribute ref="type" use="required" fixed="concept_hierarchical"/>
+		<xs:attribute ref="type" use="required" fixed="concept_hierarchy"/>
 	</xs:complexType>
-	<xs:element name="p_name_nested" type="Level">
+	<xs:element name="p_name_concept_hierarchy" type="Level">
 		<xs:annotation>
-			<xs:documentation xml:lang="en">The child elements are hierarchically related properties.
+			<xs:documentation xml:lang="en">The child elements represent a concepts hierarchy. This new type replaces the former facet type and levels type.
 </xs:documentation>
 		</xs:annotation>
 	</xs:element>
 	<xs:complexType name="Memberlist">
 		<xs:annotation>
-			<xs:documentation>Cellar-21, 22, 23</xs:documentation>
+			<xs:documentation>XML serialization of a nested RDF list</xs:documentation>
 		</xs:annotation>
 		<xs:choice maxOccurs="unbounded">
 			<xs:element ref="p_name_concept"/>
-			<xs:element ref="p_name_nested"/>
+			<xs:element ref="p_name_concept_hierarchy"/>
 			<xs:element name="NESTEDLIST" type="Memberlist">
 				<xs:annotation>
 					<xs:documentation xml:lang="en">A nested memberlist group.
@@ -348,7 +346,7 @@ A memberlist can have a nested structure (NESTEDLIST element) as well as referen
 	</xs:element>
 	<xs:group name="Identifier">
 		<xs:annotation>
-			<xs:documentation>On request of AHRS, no Jira issue made</xs:documentation>
+			<xs:documentation>Serialization of the identifiers of a resource</xs:documentation>
 		</xs:annotation>
 		<xs:sequence>
 			<xs:annotation>
@@ -409,7 +407,7 @@ The contained URI is a Production System (PS) URI</xs:documentation>
 	</xs:element>
 	<xs:complexType name="Relation">
 		<xs:annotation>
-			<xs:documentation>Cellar-94</xs:documentation>
+			<xs:documentation>XML serialization of an owl:ObjectProperty</xs:documentation>
 		</xs:annotation>
 		<xs:sequence>
 			<xs:annotation>
@@ -576,35 +574,6 @@ The name of the element is dynamic and is replaced by the metadata property name
 		</xs:annotation>
 		<xs:sequence>
 			<xs:group ref="Identifier"/>
-			<xs:element name="WORK">
-				<xs:complexType>
-					<xs:sequence>
-						<xs:group ref="embedded-property" maxOccurs="unbounded"/>
-						<xs:element name="EXPRESSION" maxOccurs="unbounded">
-							<xs:annotation>
-								<xs:documentation xml:lang="en">EXPRESSION is required in case the expanding property has range expression.</xs:documentation>
-							</xs:annotation>
-							<xs:complexType>
-								<xs:sequence>
-									<xs:group ref="embedded-property" maxOccurs="unbounded"/>
-									<xs:element name="MANIFESTATION" minOccurs="0" maxOccurs="unbounded">
-										<xs:annotation>
-											<xs:documentation xml:lang="en">only used if there is a parent expression.</xs:documentation>
-										</xs:annotation>
-										<xs:complexType>
-											<xs:sequence>
-												<xs:group ref="embedded-property" maxOccurs="unbounded"/>
-												<xs:element ref="MANIFESTATION_HAS_ITEM"/>
-											</xs:sequence>
-											<xs:attribute ref="manifestation-type"/>
-										</xs:complexType>
-									</xs:element>
-								</xs:sequence>
-							</xs:complexType>
-						</xs:element>
-					</xs:sequence>
-				</xs:complexType>
-			</xs:element>
 		</xs:sequence>
 	</xs:complexType>
 	<xs:attribute name="manifestation-type">
@@ -646,7 +615,7 @@ zip
 			</xs:annotation>
 			<xs:group ref="Identifier">
 				<xs:annotation>
-					<xs:documentation>The manifestation identifiers</xs:documentation>
+					<xs:documentation>The resource identifiers</xs:documentation>
 				</xs:annotation>
 			</xs:group>
 			<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
@@ -727,10 +696,22 @@ zip
 			<xs:extension base="MANIFESTATIONType"/>
 		</xs:complexContent>
 	</xs:complexType>
-	<xs:element name="MANIFESTATION_HAS_ITEM" type="ITEMType">
+	<xs:element name="MANIFESTATION_HAS_ITEM">
 		<xs:annotation>
 			<xs:documentation xml:lang="en">Captures ITEM information under a manifestation.</xs:documentation>
 		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Order of sub-element is not relevant</xs:documentation>
+				</xs:annotation>
+				<xs:group ref="Identifier">
+					<xs:annotation>
+						<xs:documentation>The manifestation identifiers</xs:documentation>
+					</xs:annotation>
+				</xs:group>
+			</xs:sequence>
+		</xs:complexType>
 	</xs:element>
 	<xs:attribute name="display"/>
 	<xs:attribute name="leaf" type="xs:boolean">
