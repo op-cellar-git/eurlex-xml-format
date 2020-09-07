@@ -49,4 +49,10 @@
 		</p_name_concept_hierarchy_concept>
 	</xsl:template>
 	
+	<xsl:template match="*/*[@type ='memberlist']">
+		<p_name.MEMBERLIST>
+			<xsl:apply-templates select="@*|node()"/>
+		</p_name.MEMBERLIST>
+	</xsl:template>
+	
 </xsl:stylesheet>
