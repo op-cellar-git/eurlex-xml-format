@@ -46,13 +46,16 @@ In this kind of notice, there are: 1 WORK, 1 EXPRESSION (display), 0 or more EXP
 													</xs:group>
 													<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
 													<xs:element name="ITEM" type="ITEMType" minOccurs="0" maxOccurs="unbounded"/>
+													<xs:element ref="TYPE" maxOccurs="unbounded"/>
 												</xs:sequence>
 											</xs:complexType>
 										</xs:element>
+										<xs:element ref="TYPE" maxOccurs="unbounded"/>
 									</xs:sequence>
 									<xs:attribute ref="display" use="required"/>
 								</xs:complexType>
 							</xs:element>
+							<xs:element ref="TYPE" maxOccurs="unbounded"/>
 						</xs:sequence>
 					</xs:complexType>
 				</xs:element>

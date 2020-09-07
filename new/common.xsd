@@ -35,6 +35,8 @@ The list of alternative identifiers for this URI are requested.</xs:documentatio
 			<xs:enumeration value="memberlist"/>
 			<xs:enumeration value="link"/>
 			<xs:enumeration value="embedded_link"/>
+			<xs:enumeration value="annotation"/>
+			<xs:enumeration value="type"/>
 		</xs:restriction>
 	</xs:simpleType>
 	<xs:attribute name="type" type="types">
@@ -121,7 +123,7 @@ It just gives the the identifiers of the target and occasional annotations on th
 					<xs:documentation xml:lang="en">literal value</xs:documentation>
 				</xs:annotation>
 			</xs:element>
-			<xs:element name="annotation_property" type="xs:string" minOccurs="0" maxOccurs="unbounded">
+			<xs:element name="annotation_property" type="types" fixed="annotation" minOccurs="0" maxOccurs="unbounded">
 				<xs:annotation>
 					<xs:documentation>annotation_property is a dynamic assigned name (derived from the cdm ontology).
 it's value is a string value.</xs:documentation>
@@ -179,7 +181,7 @@ The name of the element is dynamic and is replaced by the metadata property name
 					</xs:restriction>
 				</xs:simpleType>
 			</xs:element>
-			<xs:element name="annotation_property" type="xs:string" minOccurs="0" maxOccurs="unbounded">
+			<xs:element name="annotation_property" type="types" fixed="annotation" minOccurs="0" maxOccurs="unbounded">
 				<xs:annotation>
 					<xs:documentation>annotation_property is a dynamic assigned name (derived from the cdm ontology).
 it's value is a string value.</xs:documentation>
@@ -246,7 +248,7 @@ Actually occurs 0 or more times.</xs:documentation>
 Implements cellar-107</xs:documentation>
 				</xs:annotation>
 			</xs:element>
-			<xs:element name="annotation_property" type="xs:string" minOccurs="0" maxOccurs="unbounded">
+			<xs:element name="annotation_property" type="types" fixed="annotation" minOccurs="0" maxOccurs="unbounded">
 				<xs:annotation>
 					<xs:documentation>annotation_property is a dynamic assigned name (derived from the cdm ontology).
 it's value is a string value.</xs:documentation>
@@ -398,12 +400,7 @@ The contained URI is a Production System (PS) URI</xs:documentation>
 					<xs:documentation xml:lang="en">The ideintifier of the link target</xs:documentation>
 				</xs:annotation>
 			</xs:group>
-			<xs:element name="annotation_property" type="xs:string" minOccurs="0" maxOccurs="unbounded">
-				<xs:annotation>
-					<xs:documentation>annotation_property is a dynamic assigned name (derived from the cdm ontology).
-it's value is a string value.</xs:documentation>
-				</xs:annotation>
-			</xs:element>
+			<xs:element name="annotation_property" type="types" fixed="annotation" minOccurs="0" maxOccurs="unbounded"/>
 			<xs:choice>
 				<xs:element name="WORK">
 					<xs:complexType>
@@ -505,7 +502,7 @@ The name of the element is dynamic and is replaced by the metadata property name
 					<xs:documentation xml:lang="en">The ideintifier of the link target</xs:documentation>
 				</xs:annotation>
 			</xs:group>
-			<xs:element name="annotation_property" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="annotation_property" type="types" fixed="annotation" minOccurs="0" maxOccurs="unbounded"/>
 		</xs:sequence>
 		<xs:attribute ref="type" use="required" fixed="embedded_link">
 			<xs:annotation>
@@ -585,6 +582,7 @@ zip
 			</xs:group>
 			<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
 			<xs:element ref="TECHMD" minOccurs="0"/>
+			<xs:element ref="TYPE" maxOccurs="unbounded"/>
 		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="ITEMObjectType">
@@ -611,6 +609,7 @@ zip
 					</xs:group>
 				</xs:complexType>
 			</xs:element>
+			<xs:element ref="TYPE" maxOccurs="unbounded"/>
 		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="MANIFESTATIONType">
@@ -653,6 +652,7 @@ zip
 				</xs:complexType>
 			</xs:element>
 			<xs:element ref="MANIFESTATION_HAS_ITEM" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element ref="TYPE" maxOccurs="unbounded"/>
 		</xs:sequence>
 		<xs:attribute ref="manifestation-type" use="prohibited"/>
 	</xs:complexType>
@@ -686,4 +686,12 @@ zip
 	</xs:attribute>
 	<xs:attribute name="path" type="xs:integer"/>
 	<xs:attribute name="level" type="xs:integer"/>
+	<xs:element name="TYPE">
+		<xs:annotation>
+			<xs:documentation>This element represents the serialization of the property rdf:type</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:attribute name="type" type="types" use="required" fixed="type"/>
+		</xs:complexType>
+	</xs:element>
 </xs:schema>

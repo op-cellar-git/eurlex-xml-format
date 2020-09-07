@@ -30,6 +30,7 @@ In this kind of notice, there is either 1 WORK, either 1 EXPRESSION, either 1 MA
 									</xs:group>
 								</xs:complexType>
 							</xs:element>
+							<xs:element ref="TYPE" maxOccurs="unbounded"/>
 						</xs:sequence>
 					</xs:complexType>
 				</xs:element>
@@ -61,6 +62,7 @@ In this kind of notice, there is either 1 WORK, either 1 EXPRESSION, either 1 MA
 									<xs:group ref="Identifier"/>
 								</xs:complexType>
 							</xs:element>
+							<xs:element ref="TYPE" maxOccurs="unbounded"/>
 						</xs:sequence>
 						<xs:attribute ref="display"/>
 					</xs:complexType>
@@ -84,6 +86,7 @@ In this kind of notice, there is either 1 WORK, either 1 EXPRESSION, either 1 MA
 									<xs:group ref="Identifier"/>
 								</xs:complexType>
 							</xs:element>
+							<xs:element ref="TYPE" maxOccurs="unbounded"/>
 						</xs:sequence>
 					</xs:complexType>
 				</xs:element>
@@ -103,6 +106,7 @@ In this kind of notice, there is either 1 WORK, either 1 EXPRESSION, either 1 MA
 									<xs:group ref="Identifier"/>
 								</xs:complexType>
 							</xs:element>
+							<xs:element ref="TYPE" maxOccurs="unbounded"/>
 						</xs:sequence>
 					</xs:complexType>
 				</xs:element>
@@ -114,6 +118,7 @@ In this kind of notice, there is either 1 WORK, either 1 EXPRESSION, either 1 MA
 						<xs:sequence>
 							<xs:group ref="Identifier"/>
 							<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
+							<xs:element ref="TYPE" maxOccurs="unbounded"/>
 						</xs:sequence>
 					</xs:complexType>
 				</xs:element>

@@ -45,13 +45,16 @@
 													</xs:group>
 													<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
 													<xs:element name="ITEM" type="ITEMType" minOccurs="0" maxOccurs="unbounded"/>
+													<xs:element ref="TYPE" maxOccurs="unbounded"/>
 												</xs:sequence>
 											</xs:complexType>
 										</xs:element>
+										<xs:element ref="TYPE" maxOccurs="unbounded"/>
 									</xs:sequence>
 									<xs:attribute ref="display"/>
 								</xs:complexType>
 							</xs:element>
+							<xs:element ref="TYPE" maxOccurs="unbounded"/>
 						</xs:sequence>
 					</xs:complexType>
 				</xs:element>
@@ -71,9 +74,11 @@
 										</xs:annotation>
 										<xs:group ref="Identifier"/>
 										<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
+										<xs:element ref="TYPE" maxOccurs="unbounded"/>
 									</xs:sequence>
 								</xs:complexType>
 							</xs:element>
+							<xs:element ref="TYPE" maxOccurs="unbounded"/>
 						</xs:sequence>
 					</xs:complexType>
 				</xs:element>
@@ -85,6 +90,7 @@
 						<xs:sequence>
 							<xs:group ref="Identifier"/>
 							<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
+							<xs:element ref="TYPE" maxOccurs="unbounded"/>
 						</xs:sequence>
 					</xs:complexType>
 				</xs:element>
@@ -99,6 +105,7 @@
 							</xs:annotation>
 							<xs:group ref="Identifier"/>
 							<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
+							<xs:element ref="TYPE" maxOccurs="unbounded"/>
 						</xs:sequence>
 					</xs:complexType>
 				</xs:element>
