@@ -339,7 +339,7 @@ If present it must be the CELLAR URI.</xs:documentation>
 			<xs:element ref="SAMEAS" maxOccurs="unbounded"/>
 		</xs:sequence>
 	</xs:group>
-	<xs:complexType name="URI">
+	<xs:complexType name="URIType">
 		<xs:annotation>
 			<xs:documentation xml:lang="en">TYPE and IDENTIFIER are optional in case the URI is not according a known identifier format.  (see comment on TYPE)</xs:documentation>
 		</xs:annotation>
@@ -371,7 +371,7 @@ The value is percent decoded (URI %-decoding rules).</xs:documentation>
 			</xs:element>
 		</xs:all>
 	</xs:complexType>
-	<xs:element name="URI" type="URI">
+	<xs:element name="URI" type="URIType">
 		<xs:annotation>
 			<xs:documentation>URI is a reserved name and may not occur as property name.</xs:documentation>
 		</xs:annotation>
