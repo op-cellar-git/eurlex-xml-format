@@ -401,59 +401,57 @@ The contained URI is a Production System (PS) URI</xs:documentation>
 				</xs:annotation>
 			</xs:group>
 			<xs:element name="annotation_property" type="types" fixed="annotation" minOccurs="0" maxOccurs="unbounded"/>
-			<xs:choice>
-				<xs:element name="WORK">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:group ref="embedded-property" maxOccurs="unbounded"/>
-							<xs:element name="EXPRESSION" maxOccurs="unbounded">
-								<xs:annotation>
-									<xs:documentation xml:lang="en">EXPRESSION is required in case the expanding property has range expression.</xs:documentation>
-								</xs:annotation>
-								<xs:complexType>
-									<xs:sequence>
-										<xs:group ref="embedded-property" maxOccurs="unbounded"/>
-										<xs:element name="MANIFESTATION" minOccurs="0" maxOccurs="unbounded">
-											<xs:annotation>
-												<xs:documentation xml:lang="en">only used if there is a parent expression.</xs:documentation>
-											</xs:annotation>
-											<xs:complexType>
-												<xs:sequence>
-													<xs:group ref="embedded-property" maxOccurs="unbounded"/>
-													<xs:element ref="MANIFESTATION_HAS_ITEM"/>
-												</xs:sequence>
-												<xs:attribute ref="manifestation-type"/>
-											</xs:complexType>
-										</xs:element>
-									</xs:sequence>
-								</xs:complexType>
-							</xs:element>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="DOSSIER">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:group ref="embedded-property" maxOccurs="unbounded"/>
-							<xs:element name="EVENT" minOccurs="0" maxOccurs="unbounded">
-								<xs:complexType>
+			<xs:element name="WORK" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:group ref="embedded-property" maxOccurs="unbounded"/>
+						<xs:element name="EXPRESSION" maxOccurs="unbounded">
+							<xs:annotation>
+								<xs:documentation xml:lang="en">EXPRESSION is required in case the expanding property has range expression.</xs:documentation>
+							</xs:annotation>
+							<xs:complexType>
+								<xs:sequence>
 									<xs:group ref="embedded-property" maxOccurs="unbounded"/>
-								</xs:complexType>
-							</xs:element>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="AGENT">
-					<xs:complexType>
+									<xs:element name="MANIFESTATION" minOccurs="0" maxOccurs="unbounded">
+										<xs:annotation>
+											<xs:documentation xml:lang="en">only used if there is a parent expression.</xs:documentation>
+										</xs:annotation>
+										<xs:complexType>
+											<xs:sequence>
+												<xs:group ref="embedded-property" maxOccurs="unbounded"/>
+												<xs:element ref="MANIFESTATION_HAS_ITEM"/>
+											</xs:sequence>
+											<xs:attribute ref="manifestation-type"/>
+										</xs:complexType>
+									</xs:element>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="DOSSIER" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
 						<xs:group ref="embedded-property" maxOccurs="unbounded"/>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="EVENT">
-					<xs:complexType>
-						<xs:group ref="embedded-property" maxOccurs="unbounded"/>
-					</xs:complexType>
-				</xs:element>
-			</xs:choice>
+						<xs:element name="EVENT" minOccurs="0" maxOccurs="unbounded">
+							<xs:complexType>
+								<xs:group ref="embedded-property" maxOccurs="unbounded"/>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="AGENT" minOccurs="0">
+				<xs:complexType>
+					<xs:group ref="embedded-property" maxOccurs="unbounded"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="EVENT" minOccurs="0">
+				<xs:complexType>
+					<xs:group ref="embedded-property" maxOccurs="unbounded"/>
+				</xs:complexType>
+			</xs:element>
 		</xs:sequence>
 		<xs:attribute ref="type" fixed="link">
 			<xs:annotation>
@@ -580,9 +578,9 @@ zip
 					<xs:documentation>The resource identifiers</xs:documentation>
 				</xs:annotation>
 			</xs:group>
+			<xs:element ref="TYPE" maxOccurs="unbounded"/>
 			<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
 			<xs:element ref="TECHMD" minOccurs="0"/>
-			<xs:element ref="TYPE" maxOccurs="unbounded"/>
 		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="ITEMObjectType">
@@ -595,6 +593,7 @@ zip
 					<xs:documentation>The manifestation identifiers</xs:documentation>
 				</xs:annotation>
 			</xs:group>
+			<xs:element ref="TYPE" maxOccurs="unbounded"/>
 			<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
 			<xs:element ref="TECHMD" minOccurs="0"/>
 			<xs:element name="ITEM_BELONGS_TO_MANIFESTATION">
@@ -609,7 +608,6 @@ zip
 					</xs:group>
 				</xs:complexType>
 			</xs:element>
-			<xs:element ref="TYPE" maxOccurs="unbounded"/>
 		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="MANIFESTATIONType">
@@ -636,6 +634,7 @@ zip
 					<xs:documentation>The manifestation identifiers</xs:documentation>
 				</xs:annotation>
 			</xs:group>
+			<xs:element ref="TYPE" maxOccurs="unbounded"/>
 			<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
 			<xs:element name="MANIFESTATION_MANIFESTS_EXPRESSION">
 				<xs:complexType>
@@ -652,7 +651,6 @@ zip
 				</xs:complexType>
 			</xs:element>
 			<xs:element ref="MANIFESTATION_HAS_ITEM" minOccurs="0" maxOccurs="unbounded"/>
-			<xs:element ref="TYPE" maxOccurs="unbounded"/>
 		</xs:sequence>
 		<xs:attribute ref="manifestation-type" use="prohibited"/>
 	</xs:complexType>
@@ -691,7 +689,11 @@ zip
 			<xs:documentation>This element represents the serialization of the property rdf:type</xs:documentation>
 		</xs:annotation>
 		<xs:complexType>
-			<xs:attribute name="type" type="types" use="required" fixed="type"/>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute name="type" type="types" use="required" fixed="type"/>
+				</xs:extension>
+			</xs:simpleContent>
 		</xs:complexType>
 	</xs:element>
 </xs:schema>

@@ -20,6 +20,7 @@ In this kind of notice, there are: 1 WORK, 1 or more EXPRESSIONs, 0 or more MANI
 									<xs:documentation>The resource identifiers</xs:documentation>
 								</xs:annotation>
 							</xs:group>
+							<xs:element ref="TYPE" maxOccurs="unbounded"/>
 							<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
 							<xs:element name="EXPRESSION" maxOccurs="unbounded">
 								<xs:complexType>
@@ -32,6 +33,7 @@ In this kind of notice, there are: 1 WORK, 1 or more EXPRESSIONs, 0 or more MANI
 												<xs:documentation>The resource identifiers</xs:documentation>
 											</xs:annotation>
 										</xs:group>
+										<xs:element ref="TYPE" maxOccurs="unbounded"/>
 										<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
 										<xs:element name="MANIFESTATION" minOccurs="0" maxOccurs="unbounded">
 											<xs:annotation>
@@ -44,17 +46,15 @@ In this kind of notice, there are: 1 WORK, 1 or more EXPRESSIONs, 0 or more MANI
 															<xs:documentation>The resource identifiers</xs:documentation>
 														</xs:annotation>
 													</xs:group>
+													<xs:element ref="TYPE" maxOccurs="unbounded"/>
 													<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
 													<xs:element name="ITEM" type="ITEMType" minOccurs="0" maxOccurs="unbounded"/>
-													<xs:element ref="TYPE" maxOccurs="unbounded"/>
 												</xs:sequence>
 											</xs:complexType>
 										</xs:element>
-										<xs:element ref="TYPE" maxOccurs="unbounded"/>
 									</xs:sequence>
 								</xs:complexType>
 							</xs:element>
-							<xs:element ref="TYPE" maxOccurs="unbounded"/>
 						</xs:sequence>
 					</xs:complexType>
 				</xs:element>
@@ -65,6 +65,7 @@ In this kind of notice, there are: 1 WORK, 1 or more EXPRESSIONs, 0 or more MANI
 								<xs:documentation xml:lang="en">The order of the sub-elements is not relevant</xs:documentation>
 							</xs:annotation>
 							<xs:group ref="Identifier"/>
+							<xs:element ref="TYPE" maxOccurs="unbounded"/>
 							<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
 							<xs:element name="EVENT" maxOccurs="unbounded">
 								<xs:complexType>
@@ -73,12 +74,11 @@ In this kind of notice, there are: 1 WORK, 1 or more EXPRESSIONs, 0 or more MANI
 											<xs:documentation xml:lang="en">The order of the sub-elements is not relevant</xs:documentation>
 										</xs:annotation>
 										<xs:group ref="Identifier"/>
-										<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
 										<xs:element ref="TYPE" maxOccurs="unbounded"/>
+										<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
 									</xs:sequence>
 								</xs:complexType>
 							</xs:element>
-							<xs:element ref="TYPE" maxOccurs="unbounded"/>
 						</xs:sequence>
 					</xs:complexType>
 				</xs:element>
@@ -89,8 +89,8 @@ In this kind of notice, there are: 1 WORK, 1 or more EXPRESSIONs, 0 or more MANI
 					<xs:complexType>
 						<xs:sequence>
 							<xs:group ref="Identifier"/>
-							<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
 							<xs:element ref="TYPE" maxOccurs="unbounded"/>
+							<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
 						</xs:sequence>
 					</xs:complexType>
 				</xs:element>
@@ -101,8 +101,8 @@ In this kind of notice, there are: 1 WORK, 1 or more EXPRESSIONs, 0 or more MANI
 								<xs:documentation xml:lang="en">The order of the sub-elements is not relevant</xs:documentation>
 							</xs:annotation>
 							<xs:group ref="Identifier"/>
-							<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
 							<xs:element ref="TYPE" maxOccurs="unbounded"/>
+							<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
 						</xs:sequence>
 					</xs:complexType>
 				</xs:element>

@@ -80,13 +80,13 @@ In this kind of notice, there is either 1 WORK, either 1 EXPRESSION, either 1 MA
 								<xs:documentation xml:lang="en">The order of the sub-elements is not relevant</xs:documentation>
 							</xs:annotation>
 							<xs:group ref="Identifier"/>
+							<xs:element ref="TYPE" maxOccurs="unbounded"/>
 							<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
 							<xs:element name="DOSSIER_CONTAINS_EVENT_LEGAL" minOccurs="0" maxOccurs="unbounded">
 								<xs:complexType>
 									<xs:group ref="Identifier"/>
 								</xs:complexType>
 							</xs:element>
-							<xs:element ref="TYPE" maxOccurs="unbounded"/>
 						</xs:sequence>
 					</xs:complexType>
 				</xs:element>
@@ -100,13 +100,13 @@ In this kind of notice, there is either 1 WORK, either 1 EXPRESSION, either 1 MA
 								<xs:documentation xml:lang="en">The order of the sub-elements is not relevant</xs:documentation>
 							</xs:annotation>
 							<xs:group ref="Identifier"/>
+							<xs:element ref="TYPE" maxOccurs="unbounded"/>
 							<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
 							<xs:element name="EVENT_LEGAL_PART_OF_DOSSIER" minOccurs="0">
 								<xs:complexType>
 									<xs:group ref="Identifier"/>
 								</xs:complexType>
 							</xs:element>
-							<xs:element ref="TYPE" maxOccurs="unbounded"/>
 						</xs:sequence>
 					</xs:complexType>
 				</xs:element>
@@ -117,8 +117,8 @@ In this kind of notice, there is either 1 WORK, either 1 EXPRESSION, either 1 MA
 					<xs:complexType>
 						<xs:sequence>
 							<xs:group ref="Identifier"/>
-							<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
 							<xs:element ref="TYPE" maxOccurs="unbounded"/>
+							<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
 						</xs:sequence>
 					</xs:complexType>
 				</xs:element>
