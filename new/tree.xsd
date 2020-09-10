@@ -48,7 +48,23 @@ In this kind of notice, there are: 1 WORK, 1 or more EXPRESSIONs, 0 or more MANI
 													</xs:group>
 													<xs:element ref="TYPE" maxOccurs="unbounded"/>
 													<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
-													<xs:element name="ITEM" type="ITEMType" minOccurs="0" maxOccurs="unbounded"/>
+													<xs:element name="ITEM" minOccurs="0" maxOccurs="unbounded">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:annotation>
+																	<xs:documentation xml:lang="en">Order of sub-element is not relevant</xs:documentation>
+																</xs:annotation>
+																<xs:group ref="Identifier">
+																	<xs:annotation>
+																		<xs:documentation>The resource identifiers</xs:documentation>
+																	</xs:annotation>
+																</xs:group>
+																<xs:element ref="TYPE" maxOccurs="unbounded"/>
+																<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
+																<xs:element ref="TECHMD" minOccurs="0"/>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
 												</xs:sequence>
 											</xs:complexType>
 										</xs:element>

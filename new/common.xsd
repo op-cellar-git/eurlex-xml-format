@@ -419,7 +419,11 @@ The contained URI is a Production System (PS) URI</xs:documentation>
 										<xs:complexType>
 											<xs:sequence>
 												<xs:group ref="embedded-property" maxOccurs="unbounded"/>
-												<xs:element ref="MANIFESTATION_HAS_ITEM"/>
+												<xs:element name="ITEM">
+													<xs:complexType>
+														<xs:group ref="Identifier"/>
+													</xs:complexType>
+												</xs:element>
 											</xs:sequence>
 											<xs:attribute ref="manifestation-type"/>
 										</xs:complexType>
@@ -568,114 +572,6 @@ zip
 (and more ..)</xs:documentation>
 		</xs:annotation>
 	</xs:attribute>
-	<xs:complexType name="ITEMType">
-		<xs:sequence>
-			<xs:annotation>
-				<xs:documentation xml:lang="en">Order of sub-element is not relevant</xs:documentation>
-			</xs:annotation>
-			<xs:group ref="Identifier">
-				<xs:annotation>
-					<xs:documentation>The resource identifiers</xs:documentation>
-				</xs:annotation>
-			</xs:group>
-			<xs:element ref="TYPE" maxOccurs="unbounded"/>
-			<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
-			<xs:element ref="TECHMD" minOccurs="0"/>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:complexType name="ITEMObjectType">
-		<xs:sequence>
-			<xs:annotation>
-				<xs:documentation xml:lang="en">Order of sub-element is not relevant</xs:documentation>
-			</xs:annotation>
-			<xs:group ref="Identifier">
-				<xs:annotation>
-					<xs:documentation>The manifestation identifiers</xs:documentation>
-				</xs:annotation>
-			</xs:group>
-			<xs:element ref="TYPE" maxOccurs="unbounded"/>
-			<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
-			<xs:element ref="TECHMD" minOccurs="0"/>
-			<xs:element name="ITEM_BELONGS_TO_MANIFESTATION">
-				<xs:complexType>
-					<xs:annotation>
-						<xs:documentation xml:lang="en">Order of sub-element is not relevant</xs:documentation>
-					</xs:annotation>
-					<xs:group ref="Identifier">
-						<xs:annotation>
-							<xs:documentation>The manifestation identifiers</xs:documentation>
-						</xs:annotation>
-					</xs:group>
-				</xs:complexType>
-			</xs:element>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:complexType name="MANIFESTATIONType">
-		<xs:sequence>
-			<xs:annotation>
-				<xs:documentation xml:lang="en">Order of sub-element is not relevant</xs:documentation>
-			</xs:annotation>
-			<xs:group ref="Identifier">
-				<xs:annotation>
-					<xs:documentation>The manifestation identifiers</xs:documentation>
-				</xs:annotation>
-			</xs:group>
-			<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
-		</xs:sequence>
-		<xs:attribute ref="manifestation-type" use="prohibited"/>
-	</xs:complexType>
-	<xs:complexType name="MANIFESTATIONObjectType">
-		<xs:sequence>
-			<xs:annotation>
-				<xs:documentation xml:lang="en">Order of sub-element is not relevant</xs:documentation>
-			</xs:annotation>
-			<xs:group ref="Identifier">
-				<xs:annotation>
-					<xs:documentation>The manifestation identifiers</xs:documentation>
-				</xs:annotation>
-			</xs:group>
-			<xs:element ref="TYPE" maxOccurs="unbounded"/>
-			<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
-			<xs:element name="MANIFESTATION_MANIFESTS_EXPRESSION">
-				<xs:complexType>
-					<xs:sequence>
-						<xs:annotation>
-							<xs:documentation xml:lang="en">Order of sub-element is not relevant</xs:documentation>
-						</xs:annotation>
-						<xs:group ref="Identifier">
-							<xs:annotation>
-								<xs:documentation>The manifestation identifiers</xs:documentation>
-							</xs:annotation>
-						</xs:group>
-					</xs:sequence>
-				</xs:complexType>
-			</xs:element>
-			<xs:element ref="MANIFESTATION_HAS_ITEM" minOccurs="0" maxOccurs="unbounded"/>
-		</xs:sequence>
-		<xs:attribute ref="manifestation-type" use="prohibited"/>
-	</xs:complexType>
-	<xs:complexType name="MANIFESTATION_typeType">
-		<xs:complexContent>
-			<xs:extension base="MANIFESTATIONType"/>
-		</xs:complexContent>
-	</xs:complexType>
-	<xs:element name="MANIFESTATION_HAS_ITEM">
-		<xs:annotation>
-			<xs:documentation xml:lang="en">Captures ITEM information under a manifestation.</xs:documentation>
-		</xs:annotation>
-		<xs:complexType>
-			<xs:sequence>
-				<xs:annotation>
-					<xs:documentation xml:lang="en">Order of sub-element is not relevant</xs:documentation>
-				</xs:annotation>
-				<xs:group ref="Identifier">
-					<xs:annotation>
-						<xs:documentation>The manifestation identifiers</xs:documentation>
-					</xs:annotation>
-				</xs:group>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
 	<xs:attribute name="display"/>
 	<xs:attribute name="leaf" type="xs:boolean">
 		<xs:annotation>

@@ -67,12 +67,49 @@ In this kind of notice, there is either 1 WORK, either 1 EXPRESSION, either 1 MA
 						<xs:attribute ref="display"/>
 					</xs:complexType>
 				</xs:element>
-				<xs:element name="MANIFESTATION" type="MANIFESTATIONObjectType">
+				<xs:element name="MANIFESTATION">
 					<xs:annotation>
 						<xs:documentation xml:lang="en">Manifestation wrapper as used in Tree, Branch and Object notice.</xs:documentation>
 					</xs:annotation>
+					<xs:complexType>
+						<xs:sequence>
+							<xs:annotation>
+								<xs:documentation>Order of subelements is not relevant</xs:documentation>
+							</xs:annotation>
+							<xs:group ref="Identifier"/>
+							<xs:element ref="TYPE" maxOccurs="unbounded"/>
+							<xs:group ref="property"/>
+							<xs:element name="MANIFESTATION_MANIFESTS_EXPRESSION">
+								<xs:complexType>
+									<xs:group ref="Identifier"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="MANIFESTATION_HAS_ITEM" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:group ref="Identifier"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
 				</xs:element>
-				<xs:element name="ITEM" type="ITEMObjectType"/>
+				<xs:element name="ITEM">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:annotation>
+								<xs:documentation>Order of subelements is not relevant</xs:documentation>
+							</xs:annotation>
+							<xs:group ref="Identifier"/>
+							<xs:element ref="TYPE" maxOccurs="unbounded"/>
+							<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
+							<xs:element ref="TECHMD" minOccurs="0"/>
+							<xs:element name="ITEM_BELONGS_TO_MANIFESTATION">
+								<xs:complexType>
+									<xs:group ref="Identifier"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
 				<xs:element name="DOSSIER">
 					<xs:complexType>
 						<xs:sequence>
