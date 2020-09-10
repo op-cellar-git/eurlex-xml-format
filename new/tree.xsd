@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- edited with XMLSpy v2019 rel. 3 sp1 (http://www.altova.com) by DG OP (OP Publications Office of the European Union) -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
-	<xs:include schemaLocation="./common.xsd"/>
+	<xs:include schemaLocation="https://raw.githubusercontent.com/op-cellar-git/eurlex-xml-format/master/new/common.xsd"/>
 	<xs:element name="NOTICE">
 		<xs:annotation>
 			<xs:documentation>This Notice schema is: Tree notice, it reuses other schemas defined in common.xsd. 
