@@ -18,7 +18,7 @@ In this repository, there are all the artifacts for specifying and validating th
 Combinations that can occur for DOSSIERs and EVENTs:
 - tree notice of Dossier (one dossier, multiple events)
 - object notice of either one Dossier or one Event
-- indexing notice Dossier (one dossier all event) or Event (one event and its dossier)
+- index notice Dossier (one dossier all event) or Event (one event and its dossier)
 ## validation
 In order to validate properly the notices we have to perform thi: XSLT trasformation https://raw.githubusercontent.com/op-cellar-git/eurlex-xml-format/master/xslt/notice_to_schema_template.xslt and then the XSD validation using the right schema. Each schema depends on common.xsd that is a collection of elements.
 | notice | XSDs | XSLT to apply before valdating |

@@ -7,7 +7,7 @@
   
   <p:xslt name="xslt-transformation">
     <p:input port="stylesheet">
-      <p:document href="https://raw.githubusercontent.com/op-cellar-git/eurlex-xml-format/master/xslt/notice_to_schema_template.xslt"/>
+      <p:document href="https://raw.githubusercontent.com/op-cellar-git/eurlex-xml-format/master/new/xslt/notice_to_schema_template.xslt"/>
     </p:input>
     <p:input port="parameters">
       <p:empty/>
