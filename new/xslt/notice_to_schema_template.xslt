@@ -113,17 +113,7 @@
 		<xsl:element name="p_name_rel">
 			<xsl:apply-templates select="@*"/>
 			<xsl:apply-templates select="URI"/>
-			<xsl:apply-templates select="SAMEAS"/>
-			<xsl:apply-templates select="annotation_property"/>
-			<xsl:apply-templates select="p_name_literal"/>
-			<xsl:apply-templates select="p_name_date"/>
-			<xsl:apply-templates select="p_name_concept"/>
-			<xsl:apply-templates select="p_name_concept_hierarchy"/>
-			<xsl:apply-templates select="p_name_embedded_rel"/>
-			<xsl:apply-templates select="EXPRESSION"/>
-			<xsl:apply-templates select="DOSSIER"/>
-			<xsl:apply-templates select="AGENT"/>
-			<xsl:apply-templates select="EVENT"/>
+			<xsl:apply-templates select="!URI"/>
 		</xsl:element>
 	</xsl:template>
 	
