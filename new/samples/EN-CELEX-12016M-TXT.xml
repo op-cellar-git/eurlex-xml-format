@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NOTICE decoding="eng" type="branch">
+	<WORK>
+		<URI>
+			<VALUE>http://publications.europa.eu/resource/cellar/2021d50a-3468-11e6-969e-01aa75ed71a1</VALUE>
+			<IDENTIFIER>2021d50a-3468-11e6-969e-01aa75ed71a1</IDENTIFIER>
+			<TYPE>cellar</TYPE>
+		</URI>
+		<SAMEAS>
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/celex/12016M%2FTXT</VALUE>
+				<IDENTIFIER>12016M/TXT</IDENTIFIER>
+				<TYPE>celex</TYPE>
+			</URI>
+		</SAMEAS>
+		<SAMEAS>
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/eli/treaty/teu_2016/oj</VALUE>
+				<IDENTIFIER>treaty:teu_2016:oj</IDENTIFIER>
+				<TYPE>eli</TYPE>
+			</URI>
+		</SAMEAS>
+		<ELI type="data">
+			<VALUE>http://data.europa.eu/eli/treaty/teu_2016/oj</VALUE>
+		</ELI>
+		<TYPE type="type">cdm:treaty</TYPE>
+		<TYPE type="type">cdm:resource_legal</TYPE>
+		<TYPE type="type">cdm:work</TYPE>
+		<TYPE>M</TYPE>
+		<ID_SECTOR type="data">
+			<VALUE>1</VALUE>
+		</ID_SECTOR>
+		<RESOURCE_LEGAL_TYPE type="data">
+			<VALUE>M</VALUE>
+		</RESOURCE_LEGAL_TYPE>
+		<RESOURCE_LEGAL_ID_CELEX type="data">
+			<VALUE>12016M/TXT</VALUE>
+		</RESOURCE_LEGAL_ID_CELEX>
+		<RESOURCE_LEGAL_IN-FORCE type="data">
+			<VALUE>true</VALUE>
+		</RESOURCE_LEGAL_IN-FORCE>
+		<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_hierarchy">
+			<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_hierarchy" path="1" level="1">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/authority/fd_070/PRIN</VALUE>
+					<IDENTIFIER>PRIN</IDENTIFIER>
+					<TYPE>fd_070</TYPE>
+				</URI>
+				<OP-CODE>PRIN</OP-CODE>
+				<IDENTIFIER>PRIN</IDENTIFIER>
+				<PREFLABEL>Principles, objectives and tasks of the Treaties</PREFLABEL>
+			</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER>
+		</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER>
+		<WORK_CREATED_BY_AGENT type="concept">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/authority/corporate-body/OP_DATPRO</VALUE>
+				<IDENTIFIER>OP_DATPRO</IDENTIFIER>
+				<TYPE>corporate-body</TYPE>
+			</URI>
+			<OP-CODE>OP_DATPRO</OP-CODE>
+			<IDENTIFIER>OP_DATPRO</IDENTIFIER>
+			<PREFLABEL>Provisional data</PREFLABEL>
+		</WORK_CREATED_BY_AGENT>
+		<WORK_HAS_RESOURCE-TYPE type="concept">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/authority/resource-type/TREATY</VALUE>
+				<IDENTIFIER>TREATY</IDENTIFIER>
+				<TYPE>resource-type</TYPE>
+			</URI>
+			<OP-CODE>TREATY</OP-CODE>
+			<IDENTIFIER>TREATY</IDENTIFIER>
+			<PREFLABEL>Treaty</PREFLABEL>
+			<ALTLABLE>Treaties</ALTLABLE>
+		</WORK_HAS_RESOURCE-TYPE>
+		<EXPRESSION display="true">
+			<EXPRESSION_TITLE type="data">
+				<VALUE>Consolidated version of the Treaty on European Union</VALUE>
+			</EXPRESSION_TITLE>
+			<LANG type="data">
+				<VALUE>ENG</VALUE>
+			</LANG>
+			<RESOURCE_LEGAL_PUBLISHED_IN_OFFICIAL-JOURNAL type="link">
+				<OFFICIAL-JOURNAL_CLASS type="data">
+					<VALUE>R</VALUE>
+				</OFFICIAL-JOURNAL_CLASS>
+				<OFFICIAL-JOURNAL_PART_OF_COLLECTION_DOCUMENT type="concept">
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/authority/document-collection/OJ-C</VALUE>
+						<IDENTIFIER>OJ-C</IDENTIFIER>
+						<TYPE>document-collection</TYPE>
+					</URI>
+					<IDENTIFIER>OJ-C</IDENTIFIER>
+					<PREFLABEL>OJ-C</PREFLABEL>
+				</OFFICIAL-JOURNAL_PART_OF_COLLECTION_DOCUMENT>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/oj/JOC_2016_202_R</VALUE>
+					<IDENTIFIER>JOC_2016_202_R</IDENTIFIER>
+					<TYPE>oj</TYPE>
+				</URI>
+			</RESOURCE_LEGAL_PUBLISHED_IN_OFFICIAL-JOURNAL>
+			<MANIFESTATION>
+				<TYPE type="type">xhtml</TYPE>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/cellar/2021d50a-3468-11e6-969e-01aa75ed71a1.0005.01</VALUE>
+					<IDENTIFIER>2021d50a-3468-11e6-969e-01aa75ed71a1.0005.01</IDENTIFIER>
+					<TYPE>cellar</TYPE>
+				</URI>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/celex/12016M%2FTXT.ENG.xhtml</VALUE>
+						<IDENTIFIER>12016M/TXT.ENG.xhtml</IDENTIFIER>
+						<TYPE>celex</TYPE>
+					</URI>
+				</SAMEAS>
+			</MANIFESTATION>
+			<MANIFESTATION>
+				<TYPE type="type">pdfa1a</TYPE>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/cellar/2021d50a-3468-11e6-969e-01aa75ed71a1.0005.02</VALUE>
+					<IDENTIFIER>2021d50a-3468-11e6-969e-01aa75ed71a1.0005.02</IDENTIFIER>
+					<TYPE>cellar</TYPE>
+				</URI>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/celex/12016M%2FTXT.ENG.pdfa1a</VALUE>
+						<IDENTIFIER>12016M/TXT.ENG.pdfa1a</IDENTIFIER>
+						<TYPE>celex</TYPE>
+					</URI>
+				</SAMEAS>
+			</MANIFESTATION>
+		</EXPRESSION>
+		<EXPRESSION display="false">
+			<EXPRESSION_TITLE type="data">
+				<VALUE>Wersja skonsolidowana Traktatu o Unii Europejskiej</VALUE>
+			</EXPRESSION_TITLE>
+			<LANG type="data">
+				<VALUE>POL</VALUE>
+			</LANG>
+			<RESOURCE_LEGAL_PUBLISHED_IN_OFFICIAL-JOURNAL>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/oj/JOC_2016_202_R</VALUE>
+					<IDENTIFIER>JOC_2016_202_R</IDENTIFIER>
+					<TYPE>oj</TYPE>
+				</URI>
+			</RESOURCE_LEGAL_PUBLISHED_IN_OFFICIAL-JOURNAL>
+			<MANIFESTATION>
+				<TYPE type="type">pdfa1a</TYPE>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/celex/12016M%2FTXT.POL.pdfa1a</VALUE>
+						<IDENTIFIER>12016M/TXT.POL.pdfa1a</IDENTIFIER>
+						<TYPE>celex</TYPE>
+					</URI>
+				</SAMEAS>
+			</MANIFESTATION>
+			<MANIFESTATION>
+				<TYPE type="type">xhtml</TYPE>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/celex/12016M%2FTXT.POL.xhtml</VALUE>
+						<IDENTIFIER>12016M/TXT.POL.xhtml</IDENTIFIER>
+						<TYPE>celex</TYPE>
+					</URI>
+				</SAMEAS>
+			</MANIFESTATION>
+		</EXPRESSION>
+		<RESOURCE_LEGAL_CORRECTED_BY_RESOURCE_LEGAL type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/5ba18b86-df2a-4959-9ee0-29f9f27369f4</VALUE>
+				<IDENTIFIER>5ba18b86-df2a-4959-9ee0-29f9f27369f4</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/12016E%2FTXTR%2803%29</VALUE>
+					<IDENTIFIER>12016E/TXTR(03)</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+			<WORK>
+				<TYPE_OF_LINK_TARGET type="annotation">
+					<VALUE>MS</VALUE>
+				</TYPE_OF_LINK_TARGET>
+				<LANGUAGE_LIST type="data">
+					<VALUE>DA</VALUE>
+				</LANGUAGE_LIST>
+			</WORK>
+		</RESOURCE_LEGAL_CORRECTED_BY_RESOURCE_LEGAL>
+		<RESOURCE_LEGAL_AMENDMENT_PROPOSED_BY_RESOURCE_LEGAL type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/5193658b-20a6-4a72-b46f-6167ff953974</VALUE>
+				<IDENTIFIER>5193658b-20a6-4a72-b46f-6167ff953974</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/22013A0302%2801%29</VALUE>
+					<IDENTIFIER>22013A0302(01)</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/eli/prot/2013/106/oj</VALUE>
+					<IDENTIFIER>prot:2013:106:oj</IDENTIFIER>
+					<TYPE>eli</TYPE>
+				</URI>
+			</SAMEAS>
+			<WORK>
+				<TYPE_OF_LINK_TARGET type="annotation">
+					<VALUE>EA</VALUE>
+				</TYPE_OF_LINK_TARGET>
+				<ROLE2 type="annotation">
+					<VALUE>{J|http://publications.europa.eu/resource/authority/fd_375/J}</VALUE>
+				</ROLE2>
+				<REFERENCE_TO_MODIFIED_LOCATION type="annotation">
+					<VALUE>{PROT|http://publications.europa.eu/resource/authority/fd_370/PROT} 38</VALUE>
+				</REFERENCE_TO_MODIFIED_LOCATION>
+			</WORK>
+		</RESOURCE_LEGAL_AMENDMENT_PROPOSED_BY_RESOURCE_LEGAL>
+		<RESOURCE_LEGAL_BASIS_FOR_ACT_CONSOLIDATED type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/f0644d0c-5d85-11ea-b735-01aa75ed71a1</VALUE>
+				<IDENTIFIER>f0644d0c-5d85-11ea-b735-01aa75ed71a1</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/02016M%2FTXT-20200301</VALUE>
+					<IDENTIFIER>02016M/TXT-20200301</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/consolidation/2016M%2FTXT%2F20200301</VALUE>
+					<IDENTIFIER>2016M/TXT/20200301</IDENTIFIER>
+					<TYPE>consolidation</TYPE>
+				</URI>
+			</SAMEAS>
+			<WORK>
+				<WORK_DATE_DOCUMENT type="date">
+					<VALUE>2020-03-01</VALUE>
+					<YEAR>2020</YEAR>
+					<MONTH>03</MONTH>
+					<DAY>01</DAY>
+				</WORK_DATE_DOCUMENT>
+			</WORK>
+		</RESOURCE_LEGAL_BASIS_FOR_ACT_CONSOLIDATED>
+		<RESOURCE_LEGAL_PRELIMINARY_QUESTION-SUBMITTED_BY_COMMUNICATION_CASE_NEW type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/93b71c76-88fb-11e8-ac6a-01aa75ed71a1</VALUE>
+				<IDENTIFIER>93b71c76-88fb-11e8-ac6a-01aa75ed71a1</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/oj/JOC_2018_249_R_0021</VALUE>
+					<IDENTIFIER>JOC_2018_249_R_0021</IDENTIFIER>
+					<TYPE>oj</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/62018CN0311</VALUE>
+					<IDENTIFIER>62018CN0311</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+			<WORK>
+				<TYPE_OF_LINK_TARGET type="annotation">
+					<VALUE>AJ</VALUE>
+				</TYPE_OF_LINK_TARGET>
+			</WORK>
+		</RESOURCE_LEGAL_PRELIMINARY_QUESTION-SUBMITTED_BY_COMMUNICATION_CASE_NEW>
+		<WORK_RELATED_TO_WORK type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/433f7aeb-00a2-49a6-bbbf-9cd6859a4cd1</VALUE>
+				<IDENTIFIER>433f7aeb-00a2-49a6-bbbf-9cd6859a4cd1</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/11992M%2FTXT</VALUE>
+					<IDENTIFIER>11992M/TXT</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/oj/JOC_1992_191_R_0001_01</VALUE>
+					<IDENTIFIER>JOC_1992_191_R_0001_01</IDENTIFIER>
+					<TYPE>oj</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/eli/treaty/teu/sign</VALUE>
+					<IDENTIFIER>treaty:teu:sign</IDENTIFIER>
+					<TYPE>eli</TYPE>
+				</URI>
+			</SAMEAS>
+			<WORK>
+				<ROLE2 type="annotation">
+					<VALUE>{CL_VERSION|http://publications.europa.eu/resource/authority/fd_375/CL_VERSION}</VALUE>
+				</ROLE2>
+				<TYPE_OF_LINK_TARGET type="annotation">
+					<VALUE>RD</VALUE>
+				</TYPE_OF_LINK_TARGET>
+			</WORK>
+		</WORK_RELATED_TO_WORK>
+	</WORK>
+</NOTICE>
