@@ -64,7 +64,11 @@
 		</xsl:element>
 	</xsl:template>
 	
-
+	<xsl:template match="*[@type ='link']">
+		<xsl:element name="p_name_rel">
+			<xsl:apply-templates select="@*|node()"/>
+		</xsl:element>
+	</xsl:template>
 	
 	<xsl:template match="*[@type ='data']">
 		<xsl:element name="p_name_literal">
@@ -106,14 +110,6 @@
 	<xsl:template match="*[@type ='memberlist']">
 		<xsl:element name="p_name.MEMBERLIST">
 			<xsl:apply-templates select="@*|node()"/>
-		</xsl:element>
-	</xsl:template>
-	
-	<xsl:template match="*[@type ='link']">
-		<xsl:element name="p_name_rel">
-			<xsl:apply-templates select="@*"/>
-			<xsl:apply-templates select="URI"/>
-			<xsl:apply-templates select="!URI"/>
 		</xsl:element>
 	</xsl:template>
 	
