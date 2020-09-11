@@ -405,7 +405,7 @@ The contained URI is a Production System (PS) URI</xs:documentation>
 				<xs:complexType>
 					<xs:sequence>
 						<xs:group ref="embedded-property" maxOccurs="unbounded"/>
-						<xs:element name="EXPRESSION" maxOccurs="unbounded">
+						<xs:element name="EXPRESSION" minOccurs="0" maxOccurs="unbounded">
 							<xs:annotation>
 								<xs:documentation xml:lang="en">EXPRESSION is required in case the expanding property has range expression.</xs:documentation>
 							</xs:annotation>
