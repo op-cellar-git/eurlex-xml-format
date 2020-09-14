@@ -234,7 +234,7 @@ The value may be empty if the label is not available in the decoding language of
 					</xs:all>
 				</xs:complexType>
 			</xs:element>
-			<xs:element name="ALTLABEL" minOccurs="0">
+			<xs:element name="ALTLABEL" minOccurs="0" maxOccurs="unbounded">
 				<xs:annotation>
 					<xs:documentation xml:lang="en">A synonym for the PREFLABEL
 
