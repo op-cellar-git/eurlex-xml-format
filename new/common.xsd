@@ -426,7 +426,7 @@ The contained URI is a Production System (PS) URI</xs:documentation>
 										<xs:complexType>
 											<xs:sequence>
 												<xs:group ref="embedded-property" maxOccurs="unbounded"/>
-												<xs:element name="ITEM">
+												<xs:element name="ITEM" minOccurs="0">
 													<xs:complexType>
 														<xs:group ref="Identifier"/>
 													</xs:complexType>
