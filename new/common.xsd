@@ -39,7 +39,7 @@ The list of alternative identifiers for this URI are requested.</xs:documentatio
 			<xs:enumeration value="type"/>
 		</xs:restriction>
 	</xs:simpleType>
-	<xs:attribute name="type" type="types">
+	<xs:attribute name="type" type="xs:string">
 		<xs:annotation>
 			<xs:documentation>Determines the content model (structure) of the element.</xs:documentation>
 		</xs:annotation>
