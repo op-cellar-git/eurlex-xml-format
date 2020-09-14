@@ -70,6 +70,12 @@
 		</xsl:element>
 	</xsl:template>
 	
+	<xsl:template match="*[@type ='embedded_link']">
+		<xsl:element name="p_name_embedded_rel">
+			<xsl:apply-templates select="@*|node()"/>
+		</xsl:element>
+	</xsl:template>
+	
 	<xsl:template match="*[@type ='data']">
 		<xsl:element name="p_name_literal">
 			<xsl:apply-templates select="@*|node()"/>
