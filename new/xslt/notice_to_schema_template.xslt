@@ -17,6 +17,7 @@
 			<!-- everything except rdf:type -->			
 			<xsl:apply-templates select="*[@type[.!='type']]"/>
 			<xsl:apply-templates select="EXPRESSION"/>
+			<xsl:apply-templates select="WORK_HAS_EXPRESSION"/>
 		</xsl:element>
 	</xsl:template>
 	
@@ -55,6 +56,14 @@
 			<xsl:apply-templates select="*[@type[.='type']]"/>
 			<!-- everything except rdf:type -->			
 			<xsl:apply-templates select="*[@type[.!='type']]"/>
+		</xsl:element>
+	</xsl:template>
+	
+	<xsl:template match="WORK_HAS_EXPRESSION">
+		<xsl:element name="WORK_HAS_EXPRESSION">
+			<xsl:apply-templates select="@*"/>
+			<xsl:apply-templates select="URI"/>
+			<xsl:apply-templates select="SAMEAS"/>
 		</xsl:element>
 	</xsl:template>
   
