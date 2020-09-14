@@ -103,7 +103,14 @@
 	
 	<xsl:template match="*[@type ='concept_hierarchy_concept']">
 		<xsl:element name="p_name_concept_hierarchy_concept">
-			<xsl:apply-templates select="@*|node()"/>
+			<xsl:apply-templates select="@*"/>
+			<xsl:apply-templates select="URI"/>
+			<xsl:apply-templates select="IDENTIFIER"/>
+			<xsl:apply-templates select="PREFLABEL"/>
+			<xsl:apply-templates select="FALLBACK"/>
+			<xsl:apply-templates select="ALTLABEL"/>
+			<xsl:apply-templates select="OP-CODE"/>
+			<!--xsl:apply-templates select="@*|node()"/-->
 		</xsl:element>
 	</xsl:template>
 	
