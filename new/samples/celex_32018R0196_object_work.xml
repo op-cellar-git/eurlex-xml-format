@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2019 rel. 3 sp1 (x64) (http://www.altova.com) by Simone Gasperoni (OP Publications Office of the European Union) -->
+<NOTICE decoding="eng" type="object">
+	<WORK>
+		<URI>
+			<VALUE>http://publications.europa.eu/resource/cellar/fa9532bb-12e6-11e8-9253-01aa75ed71a1</VALUE>
+			<IDENTIFIER>fa9532bb-12e6-11e8-9253-01aa75ed71a1</IDENTIFIER>
+			<TYPE>cellar</TYPE>
+		</URI>
+		<SAMEAS>
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/oj/JOL_2018_044_R_0001</VALUE>
+				<IDENTIFIER>JOL_2018_044_R_0001</IDENTIFIER>
+				<TYPE>oj</TYPE>
+			</URI>
+		</SAMEAS>
+		<SAMEAS>
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/eli/reg/2018/196/oj</VALUE>
+				<IDENTIFIER>reg:2018:196:oj</IDENTIFIER>
+				<TYPE>eli</TYPE>
+			</URI>
+		</SAMEAS>
+		<SAMEAS>
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/celex/32018R0196</VALUE>
+				<IDENTIFIER>32018R0196</IDENTIFIER>
+				<TYPE>celex</TYPE>
+			</URI>
+		</SAMEAS>
+		<WORK_HAS_EXPRESSION>
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/fa9532bb-12e6-11e8-9253-01aa75ed71a1.0004</VALUE>
+				<IDENTIFIER>fa9532bb-12e6-11e8-9253-01aa75ed71a1.0004</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/oj/JOL_2018_044_R_0001.DEU</VALUE>
+					<IDENTIFIER>JOL_2018_044_R_0001.DEU</IDENTIFIER>
+					<TYPE>oj</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/32018R0196.DEU</VALUE>
+					<IDENTIFIER>32018R0196.DEU</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/uriserv/OJ.L_.2018.044.01.0001.01.DEU</VALUE>
+					<IDENTIFIER>OJ.L_.2018.044.01.0001.01.DEU</IDENTIFIER>
+					<TYPE>uriserv</TYPE>
+				</URI>
+			</SAMEAS>
+		</WORK_HAS_EXPRESSION>
+		<WORK_HAS_EXPRESSION>
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/fa9532bb-12e6-11e8-9253-01aa75ed71a1.0013</VALUE>
+				<IDENTIFIER>fa9532bb-12e6-11e8-9253-01aa75ed71a1.0013</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/uriserv/OJ.L_.2018.044.01.0001.01.ITA</VALUE>
+					<IDENTIFIER>OJ.L_.2018.044.01.0001.01.ITA</IDENTIFIER>
+					<TYPE>uriserv</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/32018R0196.ITA</VALUE>
+					<IDENTIFIER>32018R0196.ITA</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/oj/JOL_2018_044_R_0001.ITA</VALUE>
+					<IDENTIFIER>JOL_2018_044_R_0001.ITA</IDENTIFIER>
+					<TYPE>oj</TYPE>
+				</URI>
+			</SAMEAS>
+		</WORK_HAS_EXPRESSION>
+		<WORK_HAS_EXPRESSION>
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/fa9532bb-12e6-11e8-9253-01aa75ed71a1.0022</VALUE>
+				<IDENTIFIER>fa9532bb-12e6-11e8-9253-01aa75ed71a1.0022</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/oj/JOL_2018_044_R_0001.SLV</VALUE>
+					<IDENTIFIER>JOL_2018_044_R_0001.SLV</IDENTIFIER>
+					<TYPE>oj</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/32018R0196.SLV</VALUE>
+					<IDENTIFIER>32018R0196.SLV</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/uriserv/OJ.L_.2018.044.01.0001.01.SLV</VALUE>
+					<IDENTIFIER>OJ.L_.2018.044.01.0001.01.SLV</IDENTIFIER>
+					<TYPE>uriserv</TYPE>
+				</URI>
+			</SAMEAS>
+		</WORK_HAS_EXPRESSION>
+		<WORK_HAS_EXPRESSION>
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/fa9532bb-12e6-11e8-9253-01aa75ed71a1.0005</VALUE>
+				<IDENTIFIER>fa9532bb-12e6-11e8-9253-01aa75ed71a1.0005</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/32018R0196.ELL</VALUE>
+					<IDENTIFIER>32018R0196.ELL</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/oj/JOL_2018_044_R_0001.ELL</VALUE>
+					<IDENTIFIER>JOL_2018_044_R_0001.ELL</IDENTIFIER>
+					<TYPE>oj</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/uriserv/OJ.L_.2018.044.01.0001.01.ELL</VALUE>
+					<IDENTIFIER>OJ.L_.2018.044.01.0001.01.ELL</IDENTIFIER>
+					<TYPE>uriserv</TYPE>
+				</URI>
+			</SAMEAS>
+		</WORK_HAS_EXPRESSION>
+		<IDENTIFIER type="data">
+			<VALUE>32018R0196</VALUE>
+		</IDENTIFIER>
+		<IDENTIFIER type="data">
+			<VALUE>oj:JOL_2018_044_R_0001</VALUE>
+		</IDENTIFIER>
+		<DATE type="date">
+			<VALUE>2018-02-07</VALUE>
+			<YEAR>2018</YEAR>
+			<MONTH>02</MONTH>
+			<DAY>07</DAY>
+		</DATE>
+		<DATE type="date">
+			<VALUE>2018-03-08</VALUE>
+			<YEAR>2018</YEAR>
+			<MONTH>03</MONTH>
+			<DAY>08</DAY>
+		</DATE>
+		<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy">
+			<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="4">
+				<URI>
+					<VALUE>http://eurovoc.europa.eu/5498</VALUE>
+					<IDENTIFIER>5498</IDENTIFIER>
+					<TYPE>EUROVOC</TYPE>
+				</URI>
+				<IDENTIFIER>5498</IDENTIFIER>
+				<PREFLABEL>codification of EU law</PREFLABEL>
+				<ALTLABEL>codification of Community law</ALTLABEL>
+				<ALTLABEL>codification of European Union law</ALTLABEL>
+			</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+			<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="3">
+				<URI>
+					<VALUE>http://eurovoc.europa.eu/525</VALUE>
+					<IDENTIFIER>525</IDENTIFIER>
+					<TYPE>EUROVOC</TYPE>
+				</URI>
+				<IDENTIFIER>525</IDENTIFIER>
+				<PREFLABEL>EU law</PREFLABEL>
+				<ALTLABEL>European law</ALTLABEL>
+				<ALTLABEL>European Union law</ALTLABEL>
+				<ALTLABEL>Community regulations</ALTLABEL>
+				<ALTLABEL>Community law</ALTLABEL>
+			</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+			<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="2">
+				<URI>
+					<VALUE>http://eurovoc.europa.eu/100144</VALUE>
+					<IDENTIFIER>100144</IDENTIFIER>
+					<TYPE>EUROVOC</TYPE>
+				</URI>
+				<IDENTIFIER>10</IDENTIFIER>
+				<PREFLABEL>10 EUROPEAN UNION</PREFLABEL>
+			</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+			<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="1">
+				<URI>
+					<VALUE>http://eurovoc.europa.eu/100175</VALUE>
+					<IDENTIFIER>100175</IDENTIFIER>
+					<TYPE>EUROVOC</TYPE>
+				</URI>
+				<IDENTIFIER>1011</IDENTIFIER>
+				<PREFLABEL>1011 European Union law</PREFLABEL>
+			</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+		</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+		<IS_ABOUT type="concept">
+			<URI>
+				<VALUE>http://eurovoc.europa.eu/4350</VALUE>
+				<IDENTIFIER>4350</IDENTIFIER>
+				<TYPE>EUROVOC</TYPE>
+			</URI>
+			<IDENTIFIER>4350</IDENTIFIER>
+			<PREFLABEL>suspension of customs duties</PREFLABEL>
+			<ALTLABEL>customs procedure suspending import duties</ALTLABEL>
+			<ALTLABEL>suspension of tariff duty</ALTLABEL>
+			<ALTLABEL>tariff dismantling</ALTLABEL>
+		</IS_ABOUT>
+		<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_hierarchy">
+			<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_hierarchy_concept" path="1" level="4">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/authority/fd_555/02303040</VALUE>
+					<IDENTIFIER>02303040</IDENTIFIER>
+					<TYPE>fd_555</TYPE>
+				</URI>
+				<OP-CODE>02303040</OP-CODE>
+				<IDENTIFIER>02303040</IDENTIFIER>
+				<PREFLABEL>Reintroduction of customs duties</PREFLABEL>
+			</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE>
+			<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_hierarchy_concept" path="1" level="3">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/authority/fd_555/023030</VALUE>
+					<IDENTIFIER>023030</IDENTIFIER>
+					<TYPE>fd_555</TYPE>
+				</URI>
+				<OP-CODE>023030</OP-CODE>
+				<IDENTIFIER>023030</IDENTIFIER>
+				<PREFLABEL>Tariff derogations</PREFLABEL>
+			</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE>
+			<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_hierarchy_concept" path="1" level="1">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/authority/fd_555/02</VALUE>
+					<IDENTIFIER>02</IDENTIFIER>
+					<TYPE>fd_555</TYPE>
+				</URI>
+				<OP-CODE>02</OP-CODE>
+				<IDENTIFIER>02</IDENTIFIER>
+				<PREFLABEL>Customs Union and free movement of goods</PREFLABEL>
+			</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE>
+			<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_hierarchy_concept" path="1" level="2">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/authority/fd_555/0230</VALUE>
+					<IDENTIFIER>0230</IDENTIFIER>
+					<TYPE>fd_555</TYPE>
+				</URI>
+				<OP-CODE>0230</OP-CODE>
+				<IDENTIFIER>0230</IDENTIFIER>
+				<PREFLABEL>Application of the Common Customs Tariff</PREFLABEL>
+			</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE>
+		</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE>
+		<WORK_ID_DOCUMENT type="data">
+			<VALUE>immc:PE 60 2017 REV 1</VALUE>
+		</WORK_ID_DOCUMENT>
+		<RESOURCE_LEGAL_DATE_ENTRY-INTO-FORCE type="date">
+			<VALUE>2018-03-08</VALUE>
+			<YEAR>2018</YEAR>
+			<MONTH>03</MONTH>
+			<DAY>08</DAY>
+			<TYPE_OF_DATE type="annotation">{EV|http://publications.europa.eu/resource/authority/fd_335/EV}</TYPE_OF_DATE>
+			<COMMENT_ON_DATE type="annotation">{DATPUB|http://publications.europa.eu/resource/authority/fd_335/DATPUB} +20 {V|http://publications.europa.eu/resource/authority/fd_335/V} {ART|http://publications.europa.eu/resource/authority/fd_335/ART} 9</COMMENT_ON_DATE>
+		</RESOURCE_LEGAL_DATE_ENTRY-INTO-FORCE>
+		<IDENTIFIER type="data">
+			<VALUE>http://data.europa.eu/eli/reg/2018/196/oj</VALUE>
+		</IDENTIFIER>
+		<DATE_CREATION_LEGACY type="date">
+			<VALUE>2018-02-16</VALUE>
+			<YEAR>2018</YEAR>
+			<MONTH>02</MONTH>
+			<DAY>16</DAY>
+		</DATE_CREATION_LEGACY>
+		<VERSION type="data">
+			<VALUE>1.56</VALUE>
+		</VERSION>
+		<TYPE type="type">cdm:legislation_secondary</TYPE>
+		<TYPE type="type">R</TYPE>
+		<TYPE type="type">cdm:work</TYPE>
+		<TYPE type="type">cdm:resource_legal</TYPE>
+		<RESOURCE_LEGAL_BASIS_FOR_ACT_CONSOLIDATED type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/aabe4f55-31d1-4085-acf5-3c12b51fbf0e</VALUE>
+				<IDENTIFIER>aabe4f55-31d1-4085-acf5-3c12b51fbf0e</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/consolidation/2018R0196%2F20180501_0010010</VALUE>
+					<IDENTIFIER>2018R0196/20180501_0010010</IDENTIFIER>
+					<TYPE>consolidation</TYPE>
+				</URI>
+			</SAMEAS>
+			<WORK>
+				<WORK_DATE_DOCUMENT type="date">
+					<VALUE>2018-05-01</VALUE>
+					<YEAR>2018</YEAR>
+					<MONTH>05</MONTH>
+					<DAY>01</DAY>
+				</WORK_DATE_DOCUMENT>
+				<WORK_HAS_RESOURCE-TYPE type="concept">
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/authority/resource-type/CONS_TEXT</VALUE>
+						<IDENTIFIER>CONS_TEXT</IDENTIFIER>
+						<TYPE>resource-type</TYPE>
+					</URI>
+					<OP-CODE>CONS_TEXT</OP-CODE>
+					<IDENTIFIER>CONS_TEXT</IDENTIFIER>
+					<PREFLABEL>Consolidated text</PREFLABEL>
+				</WORK_HAS_RESOURCE-TYPE>
+				<TYPE>cdm:act_consolidated</TYPE>
+				<TYPE>cdm:work</TYPE>
+				<TYPE>cdm:resource_legal</TYPE>
+				<EXPRESSION>
+					<EXPRESSION_TITLE type="data">
+						<VALUE>Regulation (EU) 2018/196 of the European Parliament and of the Council of 7 February 2018 on additional customs duties on imports of certain products originating in the United States of America (codification) </VALUE>
+					</EXPRESSION_TITLE>
+					<EXPRESSION_USES_LANGUAGE type="concept">
+						<URI>
+							<VALUE>http://publications.europa.eu/resource/authority/language/ENG</VALUE>
+							<IDENTIFIER>ENG</IDENTIFIER>
+							<TYPE>language</TYPE>
+						</URI>
+						<OP-CODE>ENG</OP-CODE>
+						<IDENTIFIER>ENG</IDENTIFIER>
+						<PREFLABEL>English</PREFLABEL>
+						<ALTLABEL>English</ALTLABEL>
+					</EXPRESSION_USES_LANGUAGE>
+					<EXPRESSION_MANIFESTED_BY_MANIFESTATION type="embedded_link">
+						<SAMEAS>
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/consolidation/2018R0196%2F20180501_0010010.ENG.pdfa1a</VALUE>
+								<IDENTIFIER>2018R0196/20180501_0010010.ENG.pdfa1a</IDENTIFIER>
+								<TYPE>consolidation</TYPE>
+							</URI>
+						</SAMEAS>
+					</EXPRESSION_MANIFESTED_BY_MANIFESTATION>
+					<EXPRESSION_MANIFESTED_BY_MANIFESTATION type="embedded_link">
+						<SAMEAS>
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/consolidation/2018R0196%2F20180501_0010010.ENG.fmx4</VALUE>
+								<IDENTIFIER>2018R0196/20180501_0010010.ENG.fmx4</IDENTIFIER>
+								<TYPE>consolidation</TYPE>
+							</URI>
+						</SAMEAS>
+					</EXPRESSION_MANIFESTED_BY_MANIFESTATION>
+					<MANIFESTATION manifestation-type="pdfa1a">
+						<MANIFESTATION_TYPE type="data">
+							<VALUE>pdfa1a</VALUE>
+						</MANIFESTATION_TYPE>
+					</MANIFESTATION>
+					<MANIFESTATION manifestation-type="fmx4">
+						<MANIFESTATION_TYPE type="data">
+							<VALUE>fmx4</VALUE>
+						</MANIFESTATION_TYPE>
+					</MANIFESTATION>
+				</EXPRESSION>
+			</WORK>
+		</RESOURCE_LEGAL_BASIS_FOR_ACT_CONSOLIDATED>
+		<WORK_HAS_EXPRESSION>
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/fa9532bb-12e6-11e8-9253-01aa75ed71a1.0018</VALUE>
+				<IDENTIFIER>fa9532bb-12e6-11e8-9253-01aa75ed71a1.0018</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/uriserv/OJ.L_.2018.044.01.0001.01.POL</VALUE>
+					<IDENTIFIER>OJ.L_.2018.044.01.0001.01.POL</IDENTIFIER>
+					<TYPE>uriserv</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/oj/JOL_2018_044_R_0001.POL</VALUE>
+					<IDENTIFIER>JOL_2018_044_R_0001.POL</IDENTIFIER>
+					<TYPE>oj</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/32018R0196.POL</VALUE>
+					<IDENTIFIER>32018R0196.POL</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+		</WORK_HAS_EXPRESSION>
+		<WORK_HAS_EXPRESSION>
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/fa9532bb-12e6-11e8-9253-01aa75ed71a1.0012</VALUE>
+				<IDENTIFIER>fa9532bb-12e6-11e8-9253-01aa75ed71a1.0012</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/uriserv/OJ.L_.2018.044.01.0001.01.ENG</VALUE>
+					<IDENTIFIER>OJ.L_.2018.044.01.0001.01.ENG</IDENTIFIER>
+					<TYPE>uriserv</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/oj/JOL_2018_044_R_0001.ENG</VALUE>
+					<IDENTIFIER>JOL_2018_044_R_0001.ENG</IDENTIFIER>
+					<TYPE>oj</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/32018R0196.ENG</VALUE>
+					<IDENTIFIER>32018R0196.ENG</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+		</WORK_HAS_EXPRESSION>
+	</WORK>
+</NOTICE>
