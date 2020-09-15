@@ -20,7 +20,7 @@ In this kind of notice, there is either 1 WORK, either 1 EXPRESSION, either 1 MA
 									<xs:documentation>The identifiers of the work.</xs:documentation>
 								</xs:annotation>
 							</xs:group>
-							<xs:element ref="TYPE" maxOccurs="unbounded"/>
+							<xs:element ref="TYPE" minOccurs="0" maxOccurs="unbounded"/>
 							<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
 							<xs:element name="WORK_HAS_EXPRESSION" maxOccurs="unbounded">
 								<xs:complexType>
@@ -45,7 +45,7 @@ In this kind of notice, there is either 1 WORK, either 1 EXPRESSION, either 1 MA
 									<xs:documentation>The expression identifiers</xs:documentation>
 								</xs:annotation>
 							</xs:group>
-							<xs:element ref="TYPE" maxOccurs="unbounded"/>
+							<xs:element ref="TYPE" minOccurs="0" maxOccurs="unbounded"/>
 							<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
 							<xs:element name="EXPRESSION_BELONGS_TO_WORK">
 								<xs:annotation>
@@ -77,7 +77,7 @@ In this kind of notice, there is either 1 WORK, either 1 EXPRESSION, either 1 MA
 								<xs:documentation>Order of subelements is not relevant</xs:documentation>
 							</xs:annotation>
 							<xs:group ref="Identifier"/>
-							<xs:element ref="TYPE" maxOccurs="unbounded"/>
+							<xs:element ref="TYPE" minOccurs="0" maxOccurs="unbounded"/>
 							<xs:group ref="property"/>
 							<xs:element name="MANIFESTATION_MANIFESTS_EXPRESSION">
 								<xs:complexType>
@@ -99,7 +99,7 @@ In this kind of notice, there is either 1 WORK, either 1 EXPRESSION, either 1 MA
 								<xs:documentation>Order of subelements is not relevant</xs:documentation>
 							</xs:annotation>
 							<xs:group ref="Identifier"/>
-							<xs:element ref="TYPE" maxOccurs="unbounded"/>
+							<xs:element ref="TYPE" minOccurs="0" maxOccurs="unbounded"/>
 							<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
 							<xs:element ref="TECHMD" minOccurs="0"/>
 							<xs:element name="ITEM_BELONGS_TO_MANIFESTATION">
