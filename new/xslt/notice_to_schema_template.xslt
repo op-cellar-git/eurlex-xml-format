@@ -31,6 +31,9 @@
 			<!-- everything except rdf:type -->			
 			<xsl:apply-templates select="*[@type[.!='type']]"/>
 			<xsl:apply-templates select="MANIFESTATION"/>
+			<xsl:apply-templates select="EXPRESSION_BELONGS_TO_WORK"/>
+			<xsl:apply-templates select="EXPRESSION_MANIFESTED_BY_MANIFESTATION"/>
+			
 		</xsl:element>
 	</xsl:template>
 	
