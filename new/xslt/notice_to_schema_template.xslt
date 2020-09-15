@@ -47,6 +47,8 @@
 			<!-- everything except rdf:type -->			
 			<xsl:apply-templates select="*[@type[.!='type']]"/>
 			<xsl:apply-templates select="ITEM"/>
+			<xsl:apply-templates select="MANIFESTATION_MANIFESTS_EXPRESSION"/>
+			<xsl:apply-templates select="MANIFESTATION_HAS_ITEM"/>
 		</xsl:element>
 	</xsl:template>
 	
@@ -59,6 +61,8 @@
 			<xsl:apply-templates select="*[@type[.='type']]"/>
 			<!-- everything except rdf:type -->			
 			<xsl:apply-templates select="*[@type[.!='type']]"/>
+			<xsl:apply-templates select="TECHMD"/>
+			<xsl:apply-templates select="ITEM_BELONGS_TO_MANIFESTATION"/>
 		</xsl:element>
 	</xsl:template>
 	
