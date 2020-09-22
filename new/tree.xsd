@@ -139,7 +139,6 @@ Possible values are enumerated in this schema.</xs:documentation>
 			<xs:attribute name="decoding" use="required">
 				<xs:annotation>
 					<xs:documentation xml:lang="en">Decoding language used to build the notice.
-Not provided on identifier notice.
 The language is provided using the ISO 639.2 code (terminology)</xs:documentation>
 				</xs:annotation>
 			</xs:attribute>
