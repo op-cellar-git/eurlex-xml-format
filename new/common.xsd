@@ -152,7 +152,7 @@ The name of the element is dynamic and is replaced by the metadata property name
 	</xs:element>
 	<xs:complexType name="Date">
 		<xs:sequence>
-			<xs:element name="VALUE" type="xs:date">
+			<xs:element name="VALUE" type="xs:string">
 				<xs:annotation>
 					<xs:documentation>Special values are used for unknown dates
 - 9999-12-31

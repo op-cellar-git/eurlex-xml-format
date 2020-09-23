@@ -16,8 +16,8 @@
 			<xsl:apply-templates select="*[@type[.='type']]"/>
 			<!-- everything except rdf:type -->			
 			<xsl:apply-templates select="*[@type[.!='type']]"/>
-			<xsl:apply-templates select="EXPRESSION"/>
-			<xsl:apply-templates select="WORK_HAS_EXPRESSION"/>
+			<xsl:apply-templates select="EXPRESSION[not(@type)]"/>
+			<xsl:apply-templates select="WORK_HAS_EXPRESSION[not(@type)]"/>
 		</xsl:element>
 	</xsl:template>
 	
@@ -27,13 +27,18 @@
 			<xsl:apply-templates select="URI"/>
 			<xsl:apply-templates select="SAMEAS"/>
 			<!-- rdf:type -->
+			<xsl:comment>type attribute</xsl:comment>
 			<xsl:apply-templates select="*[@type[.='type']]"/>
 			<!-- everything except rdf:type -->			
+			<xsl:comment>type NOT TYPE  attribute</xsl:comment>
 			<xsl:apply-templates select="*[@type[.!='type']]"/>
-			<xsl:apply-templates select="MANIFESTATION"/>
-			<xsl:apply-templates select="EXPRESSION_BELONGS_TO_WORK"/>
-			<xsl:apply-templates select="EXPRESSION_MANIFESTED_BY_MANIFESTATION"/>
-			
+			<xsl:comment>remaining 0</xsl:comment>
+			<xsl:apply-templates select="MANIFESTATION[not(@type)]"/>
+			<xsl:comment>remaining 1</xsl:comment>
+			<xsl:apply-templates select="EXPRESSION_BELONGS_TO_WORK[not(@type)]"/>
+			<xsl:comment>remaining 2</xsl:comment>
+			<xsl:apply-templates select="EXPRESSION_MANIFESTED_BY_MANIFESTATION[not(@type)]"/>
+			<xsl:comment>REMAINING END</xsl:comment>
 		</xsl:element>
 	</xsl:template>
 	
@@ -46,9 +51,9 @@
 			<xsl:apply-templates select="*[@type[.='type']]"/>
 			<!-- everything except rdf:type -->			
 			<xsl:apply-templates select="*[@type[.!='type']]"/>
-			<xsl:apply-templates select="ITEM"/>
-			<xsl:apply-templates select="MANIFESTATION_MANIFESTS_EXPRESSION"/>
-			<xsl:apply-templates select="MANIFESTATION_HAS_ITEM"/>
+			<xsl:apply-templates select="ITEM[not(@type)]"/>
+			<xsl:apply-templates select="MANIFESTATION_MANIFESTS_EXPRESSION[not(@type)]"/>
+			<xsl:apply-templates select="MANIFESTATION_HAS_ITEM[not(@type)]"/>
 		</xsl:element>
 	</xsl:template>
 	
@@ -61,8 +66,8 @@
 			<xsl:apply-templates select="*[@type[.='type']]"/>
 			<!-- everything except rdf:type -->			
 			<xsl:apply-templates select="*[@type[.!='type']]"/>
-			<xsl:apply-templates select="TECHMD"/>
-			<xsl:apply-templates select="ITEM_BELONGS_TO_MANIFESTATION"/>
+			<xsl:apply-templates select="TECHMD[not(@type)]"/>
+			<xsl:apply-templates select="ITEM_BELONGS_TO_MANIFESTATION[not(@type)]"/>
 		</xsl:element>
 	</xsl:template>
 	
