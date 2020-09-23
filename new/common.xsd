@@ -421,15 +421,7 @@ The contained URI is a Production System (PS) URI</xs:documentation>
 					<xs:documentation xml:lang="en">The ideintifier of the link target</xs:documentation>
 				</xs:annotation>
 			</xs:group>
-			<xs:element name="annotation_property" minOccurs="0" maxOccurs="unbounded">
-				<xs:complexType>
-					<xs:simpleContent>
-						<xs:extension base="xs:string">
-							<xs:attribute ref="type" use="required" fixed="annotation"/>
-						</xs:extension>
-					</xs:simpleContent>
-				</xs:complexType>
-			</xs:element>
+			<xs:element ref="annotation_property" minOccurs="0" maxOccurs="unbounded"/>
 			<xs:choice>
 				<xs:element name="WORK" minOccurs="0">
 					<xs:complexType>
@@ -656,6 +648,19 @@ zip
 					<xs:attribute name="type" type="types" use="required" fixed="type"/>
 				</xs:extension>
 			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="annotation_property">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="VALUE"/>
+			</xs:sequence>
+			<xs:attribute name="type" type="types" use="required" fixed="annotation"/>
+			<!--xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute ref="type" use="required" fixed="annotation"/>
+				</xs:extension>
+			</xs:simpleContent-->
 		</xs:complexType>
 	</xs:element>
 </xs:schema>
