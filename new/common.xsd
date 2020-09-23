@@ -358,7 +358,6 @@ If present it must be the CELLAR URI.</xs:documentation>
 			</xs:annotation>
 			<xs:element ref="URI" minOccurs="0"/>
 			<xs:element ref="SAMEAS" maxOccurs="unbounded"/>
-			<xs:element ref="annotation_property" minOccurs="0" maxOccurs="unbounded"/>
 		</xs:sequence>
 	</xs:group>
 	<xs:complexType name="URIType">
@@ -531,15 +530,7 @@ The name of the element is dynamic and is replaced by the metadata property name
 					<xs:documentation xml:lang="en">The ideintifier of the link target</xs:documentation>
 				</xs:annotation>
 			</xs:group>
-			<xs:element name="annotation_property" minOccurs="0" maxOccurs="unbounded">
-				<xs:complexType>
-					<xs:simpleContent>
-						<xs:extension base="xs:string">
-							<xs:attribute ref="type" use="required" fixed="annotation"/>
-						</xs:extension>
-					</xs:simpleContent>
-				</xs:complexType>
-			</xs:element>
+			<xs:element ref="annotation_property" minOccurs="0" maxOccurs="unbounded"/>
 		</xs:sequence>
 		<xs:attribute ref="type" use="required" fixed="embedded_link">
 			<xs:annotation>
