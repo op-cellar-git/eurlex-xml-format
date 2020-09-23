@@ -40,7 +40,7 @@
 			<VALUE>true</VALUE>
 		</RESOURCE_LEGAL_IN-FORCE>
 		<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_hierarchy">
-			<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_hierarchy" path="1" level="1">
+			<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_hierarchy_concept" path="1" level="1">
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/authority/fd_070/PRIN</VALUE>
 					<IDENTIFIER>PRIN</IDENTIFIER>
