@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- edited with XMLSpy v2019 rel. 3 sp1 (x64) (http://www.altova.com) by Simone Gasperoni (OP Publications Office of the European Union) -->
+<!-- edited with XMLSpy v2019 rel. 3 sp1 (http://www.altova.com) by DG OP (OP Publications Office of the European Union) -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
 	<xs:annotation>
 		<xs:documentation xml:lang="en">This is not an XML schema. Rather it is an XML-schema template which is filled in depending the properties defined by the CDM and TDM ontology (http://publications.europa.eu/ontology/cdm# and http://publications.europa.eu/ontology/tdm). In this specification, element names (or name parts) in UPPER CASE are definite (fixed).  The lower case parts are dynamic. Also note: The order of child elements typically is NOT fixed. This schema will be reused by the more specific ones for describing particulars notices.</xs:documentation>
@@ -152,7 +152,7 @@ The name of the element is dynamic and is replaced by the metadata property name
 	</xs:element>
 	<xs:complexType name="Date">
 		<xs:sequence>
-			<xs:element name="VALUE" type="xs:dateTime">
+			<xs:element name="VALUE" type="xs:date">
 				<xs:annotation>
 					<xs:documentation>Special values are used for unknown dates
 - 9999-12-31
