@@ -73,13 +73,27 @@
 			<ALTLABLE>Treaties</ALTLABLE>
 		</WORK_HAS_RESOURCE-TYPE>
 		<EXPRESSION display="true">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/2021d50a-3468-11e6-969e-01aa75ed71a1.0005</VALUE>
+				<IDENTIFIER>2021d50a-3468-11e6-969e-01aa75ed71a1.0005</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/12016M%2FTXT.ENG</VALUE>
+					<IDENTIFIER>12016M/TXT.ENG</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+			<TYPE type="type">cdm:expression</TYPE>
 			<EXPRESSION_TITLE type="data">
 				<VALUE>Consolidated version of the Treaty on European Union</VALUE>
 			</EXPRESSION_TITLE>
 			<LANG type="data">
 				<VALUE>ENG</VALUE>
 			</LANG>
-			<RESOURCE_LEGAL_PUBLISHED_IN_OFFICIAL-JOURNAL type="link">
+			<!-- must go at work level
+				RESOURCE_LEGAL_PUBLISHED_IN_OFFICIAL-JOURNAL type="link"
 				<OFFICIAL-JOURNAL_CLASS type="data">
 					<VALUE>R</VALUE>
 				</OFFICIAL-JOURNAL_CLASS>
@@ -97,9 +111,8 @@
 					<IDENTIFIER>JOC_2016_202_R</IDENTIFIER>
 					<TYPE>oj</TYPE>
 				</URI>
-			</RESOURCE_LEGAL_PUBLISHED_IN_OFFICIAL-JOURNAL>
+			</RESOURCE_LEGAL_PUBLISHED_IN_OFFICIAL-JOURNAL-->
 			<MANIFESTATION>
-				<TYPE type="type">xhtml</TYPE>
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/2021d50a-3468-11e6-969e-01aa75ed71a1.0005.01</VALUE>
 					<IDENTIFIER>2021d50a-3468-11e6-969e-01aa75ed71a1.0005.01</IDENTIFIER>
@@ -112,9 +125,14 @@
 						<TYPE>celex</TYPE>
 					</URI>
 				</SAMEAS>
+				<TYPE type="type">cdm:manifestation</TYPE>
+				<TYPE type="data">
+					<VALUE>
+						xhtml
+					</VALUE>
+				</TYPE>
 			</MANIFESTATION>
 			<MANIFESTATION>
-				<TYPE type="type">pdfa1a</TYPE>
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/2021d50a-3468-11e6-969e-01aa75ed71a1.0005.02</VALUE>
 					<IDENTIFIER>2021d50a-3468-11e6-969e-01aa75ed71a1.0005.02</IDENTIFIER>
@@ -127,24 +145,45 @@
 						<TYPE>celex</TYPE>
 					</URI>
 				</SAMEAS>
+				<TYPE type="type">cdm:manifestation</TYPE>
+				<TYPE type="data">
+					<VALUE>pdfa1a</VALUE>
+				</TYPE>
 			</MANIFESTATION>
 		</EXPRESSION>
 		<EXPRESSION display="false">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/cellar/2021d50a-3468-11e6-969e-01aa75ed71a1.0001</VALUE>
+					<IDENTIFIER>2021d50a-3468-11e6-969e-01aa75ed71a1.0001</IDENTIFIER>
+					<TYPE>cellar</TYPE>
+				</URI>				
+				<SAMEAS>				
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/celex/12016M%2FTXT.POL.pdfa1a</VALUE>
+						<IDENTIFIER>12016M/TXT.POL.pdfa1a</IDENTIFIER>
+						<TYPE>celex</TYPE>
+					</URI>
+				</SAMEAS>
+			<TYPE type="type">cdm:expression</TYPE>
 			<EXPRESSION_TITLE type="data">
 				<VALUE>Wersja skonsolidowana Traktatu o Unii Europejskiej</VALUE>
 			</EXPRESSION_TITLE>
 			<LANG type="data">
 				<VALUE>POL</VALUE>
 			</LANG>
-			<RESOURCE_LEGAL_PUBLISHED_IN_OFFICIAL-JOURNAL>
+			<!--RESOURCE_LEGAL_PUBLISHED_IN_OFFICIAL-JOURNAL>
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/oj/JOC_2016_202_R</VALUE>
 					<IDENTIFIER>JOC_2016_202_R</IDENTIFIER>
 					<TYPE>oj</TYPE>
 				</URI>
-			</RESOURCE_LEGAL_PUBLISHED_IN_OFFICIAL-JOURNAL>
+			</RESOURCE_LEGAL_PUBLISHED_IN_OFFICIAL-JOURNAL-->
 			<MANIFESTATION>
-				<TYPE type="type">pdfa1a</TYPE>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/cellar/2021d50a-3468-11e6-969e-01aa75ed71a1.0001.01</VALUE>
+					<IDENTIFIER>2021d50a-3468-11e6-969e-01aa75ed71a1.0001.01</IDENTIFIER>
+					<TYPE>cellar</TYPE>
+				</URI>	
 				<SAMEAS>
 					<URI>
 						<VALUE>http://publications.europa.eu/resource/celex/12016M%2FTXT.POL.pdfa1a</VALUE>
@@ -152,9 +191,15 @@
 						<TYPE>celex</TYPE>
 					</URI>
 				</SAMEAS>
+				<TYPE type="type">cdm:manifestation</TYPE>
+				<TYPE type="data"><VALUE>pdfa1a</VALUE></TYPE>
 			</MANIFESTATION>
 			<MANIFESTATION>
-				<TYPE type="type">xhtml</TYPE>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/cellar/2021d50a-3468-11e6-969e-01aa75ed71a1.0001.01</VALUE>
+					<IDENTIFIER>2021d50a-3468-11e6-969e-01aa75ed71a1.0001.02</IDENTIFIER>
+					<TYPE>cellar</TYPE>
+				</URI>	
 				<SAMEAS>
 					<URI>
 						<VALUE>http://publications.europa.eu/resource/celex/12016M%2FTXT.POL.xhtml</VALUE>
@@ -162,6 +207,8 @@
 						<TYPE>celex</TYPE>
 					</URI>
 				</SAMEAS>
+				<TYPE type="type">cdm:manifestation</TYPE>
+				<TYPE type="data"><VALUE>xhtml</VALUE></TYPE>
 			</MANIFESTATION>
 		</EXPRESSION>
 		<RESOURCE_LEGAL_CORRECTED_BY_RESOURCE_LEGAL type="link">
