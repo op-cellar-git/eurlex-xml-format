@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- edited with XMLSpy v2019 rel. 3 sp1 (http://www.altova.com) by DG OP (OP Publications Office of the European Union) -->
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1">
 	<xs:annotation>
 		<xs:documentation xml:lang="en">This is not an XML schema. Rather it is an XML-schema template which is filled in depending the properties defined by the CDM and TDM ontology (http://publications.europa.eu/ontology/cdm# and http://publications.europa.eu/ontology/tdm). In this specification, element names (or name parts) in UPPER CASE are definite (fixed).  The lower case parts are dynamic. Also note: The order of child elements typically is NOT fixed. This schema will be reused by the more specific ones for describing particulars notices.</xs:documentation>
 	</xs:annotation>
@@ -488,6 +488,10 @@ The contained URI is a Production System (PS) URI</xs:documentation>
 				<xs:documentation xml:lang="en">fixed value = 'link'</xs:documentation>
 			</xs:annotation>
 		</xs:attribute>
+		<xs:assert test="if (boolean(WORK)) then (boolean(URI)) else true()" xpathDefaultNamespace="##targetNamespace"/>
+		<xs:assert test="if (boolean(DOSSIER)) then (boolean(URI)) else true()" xpathDefaultNamespace="##targetNamespace"/>
+		<xs:assert test="if (boolean(AGENT)) then (boolean(URI)) else true()" xpathDefaultNamespace="##targetNamespace"/>
+		<xs:assert test="if (boolean(EVENT)) then (boolean(URI)) else true()" xpathDefaultNamespace="##targetNamespace"/>
 	</xs:complexType>
 	<xs:element name="p_name_rel" type="Relation">
 		<xs:annotation>
