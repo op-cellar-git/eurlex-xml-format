@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NOTICE decoding="eng" type="tree" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<WORK>
+		<URI>
+			<VALUE>http://publications.europa.eu/resource/cellar/576f1b4b-f78f-11e3-831f-01aa75ed71a1</VALUE>
+			<IDENTIFIER>576f1b4b-f78f-11e3-831f-01aa75ed71a1</IDENTIFIER>
+			<TYPE>cellar</TYPE>
+		</URI>
+		<SAMEAS>
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/ecli/ECLI%3AEU%3AF%3A2014%3A164</VALUE>
+				<IDENTIFIER>ECLI:EU:F:2014:164</IDENTIFIER>
+				<TYPE>ecli</TYPE>
+			</URI>
+		</SAMEAS>
+		<SAMEAS>
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/celex/62012FJ0157</VALUE>
+				<IDENTIFIER>62012FJ0157</IDENTIFIER>
+				<TYPE>celex</TYPE>
+			</URI>
+		</SAMEAS>
+		<IS_ABOUT type="concept">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/authority/fd_578/1.04.02.02.03</VALUE>
+				<IDENTIFIER>1.04.02.02.03</IDENTIFIER>
+				<TYPE>fd_578</TYPE>
+			</URI>
+			<OP-CODE>1.04.02.02.03</OP-CODE>
+			<IDENTIFIER>1.04.02.02.03</IDENTIFIER>
+			<PREFLABEL>Conditions of interpretation of the Charter (Article 52(4), (6) and (7) of the Charter of Fundamental Rights)</PREFLABEL>
+		</IS_ABOUT>
+		<YEAR type="data">
+			<VALUE>2012</VALUE>
+		</YEAR>
+		<IDENTIFIER type="data">
+			<VALUE>celex:62012FJ0157</VALUE>
+		</IDENTIFIER>
+		<RESOURCE_LEGAL_YEAR type="data">
+			<VALUE>2012</VALUE>
+		</RESOURCE_LEGAL_YEAR>
+		<CASE-LAW_IS_ABOUT_CONCEPT.MEMBERLIST type="memberlist">
+			<CASE-LAW_IS_ABOUT_CONCEPT type="concept_hierarchy">
+				<CASE-LAW_IS_ABOUT_CONCEPT type="concept_hierarchy_concept" path="1" level="3">
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/authority/fd_578/9.02.03</VALUE>
+						<IDENTIFIER>9.02.03</IDENTIFIER>
+						<TYPE>fd_578</TYPE>
+					</URI>
+					<OP-CODE>9.02.03</OP-CODE>
+					<IDENTIFIER>9.02.03</IDENTIFIER>
+					<PREFLABEL>Organization of departments</PREFLABEL>
+				</CASE-LAW_IS_ABOUT_CONCEPT>
+				<CASE-LAW_IS_ABOUT_CONCEPT type="concept_hierarchy_concept" path="1" level="1">
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/authority/fd_578/9</VALUE>
+						<IDENTIFIER>9</IDENTIFIER>
+						<TYPE>fd_578</TYPE>
+					</URI>
+					<OP-CODE>9</OP-CODE>
+					<IDENTIFIER>9</IDENTIFIER>
+					<PREFLABEL>Staff cases</PREFLABEL>
+				</CASE-LAW_IS_ABOUT_CONCEPT>
+				<CASE-LAW_IS_ABOUT_CONCEPT type="concept_hierarchy_concept" path="1" level="2">
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/authority/fd_578/9.02</VALUE>
+						<IDENTIFIER>9.02</IDENTIFIER>
+						<TYPE>fd_578</TYPE>
+					</URI>
+					<OP-CODE>9.02</OP-CODE>
+					<IDENTIFIER>9.02</IDENTIFIER>
+					<PREFLABEL>General provisions of the Staff Regulations</PREFLABEL>
+				</CASE-LAW_IS_ABOUT_CONCEPT>
+			</CASE-LAW_IS_ABOUT_CONCEPT>
+			<CASE-LAW_IS_ABOUT_CONCEPT type="concept_hierarchy">
+				<CASE-LAW_IS_ABOUT_CONCEPT type="concept_hierarchy_concept" path="1" level="3">
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/authority/fd_578/9.02.03</VALUE>
+						<IDENTIFIER>9.02.03</IDENTIFIER>
+						<TYPE>fd_578</TYPE>
+					</URI>
+					<OP-CODE>9.02.03</OP-CODE>
+					<IDENTIFIER>9.02.03</IDENTIFIER>
+					<PREFLABEL>Organization of departments</PREFLABEL>
+				</CASE-LAW_IS_ABOUT_CONCEPT>
+				<CASE-LAW_IS_ABOUT_CONCEPT type="concept_hierarchy_concept" path="1" level="1">
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/authority/fd_578/9</VALUE>
+						<IDENTIFIER>9</IDENTIFIER>
+						<TYPE>fd_578</TYPE>
+					</URI>
+					<OP-CODE>9</OP-CODE>
+					<IDENTIFIER>9</IDENTIFIER>
+					<PREFLABEL>Staff cases</PREFLABEL>
+				</CASE-LAW_IS_ABOUT_CONCEPT>
+				<CASE-LAW_IS_ABOUT_CONCEPT type="concept_hierarchy_concept" path="1" level="2">
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/authority/fd_578/9.02</VALUE>
+						<IDENTIFIER>9.02</IDENTIFIER>
+						<TYPE>fd_578</TYPE>
+					</URI>
+					<OP-CODE>9.02</OP-CODE>
+					<IDENTIFIER>9.02</IDENTIFIER>
+					<PREFLABEL>General provisions of the Staff Regulations</PREFLABEL>
+				</CASE-LAW_IS_ABOUT_CONCEPT>
+			</CASE-LAW_IS_ABOUT_CONCEPT>
+			<NESTEDLIST type="memberlist">
+				<CASE-LAW_IS_ABOUT_CONCEPT type="concept_hierarchy">
+					<CASE-LAW_IS_ABOUT_CONCEPT type="concept_hierarchy_concept" path="1" level="3">
+						<URI>
+							<VALUE>http://publications.europa.eu/resource/authority/fd_578/9.02.03</VALUE>
+							<IDENTIFIER>9.02.03</IDENTIFIER>
+							<TYPE>fd_578</TYPE>
+						</URI>
+						<OP-CODE>9.02.03</OP-CODE>
+						<IDENTIFIER>9.02.03</IDENTIFIER>
+						<PREFLABEL>Organization of departments</PREFLABEL>
+					</CASE-LAW_IS_ABOUT_CONCEPT>
+					<CASE-LAW_IS_ABOUT_CONCEPT type="concept_hierarchy_concept" path="1" level="1">
+						<URI>
+							<VALUE>http://publications.europa.eu/resource/authority/fd_578/9</VALUE>
+							<IDENTIFIER>9</IDENTIFIER>
+							<TYPE>fd_578</TYPE>
+						</URI>
+						<OP-CODE>9</OP-CODE>
+						<IDENTIFIER>9</IDENTIFIER>
+						<PREFLABEL>Staff cases</PREFLABEL>
+					</CASE-LAW_IS_ABOUT_CONCEPT>
+					<CASE-LAW_IS_ABOUT_CONCEPT type="concept_hierarchy_concept" path="1" level="2">
+						<URI>
+							<VALUE>http://publications.europa.eu/resource/authority/fd_578/9.02</VALUE>
+							<IDENTIFIER>9.02</IDENTIFIER>
+							<TYPE>fd_578</TYPE>
+						</URI>
+						<OP-CODE>9.02</OP-CODE>
+						<IDENTIFIER>9.02</IDENTIFIER>
+						<PREFLABEL>General provisions of the Staff Regulations</PREFLABEL>
+					</CASE-LAW_IS_ABOUT_CONCEPT>
+				</CASE-LAW_IS_ABOUT_CONCEPT>
+			</NESTEDLIST>
+			<CASE-LAW_HAS_TYPE_PROCEDURE_CONCEPT_TYPE_PROCEDURE type="concept">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/authority/fd_100/FONC%3DRI</VALUE>
+					<IDENTIFIER>FONC=RI</IDENTIFIER>
+					<TYPE>fd_100</TYPE>
+				</URI>
+				<OP-CODE>FONC=RI</OP-CODE>
+				<IDENTIFIER>FONC=RI</IDENTIFIER>
+				<PREFLABEL>Staff cases - inadmissible</PREFLABEL>
+			</CASE-LAW_HAS_TYPE_PROCEDURE_CONCEPT_TYPE_PROCEDURE>
+			<NESTEDLIST type="memberlist">
+				<CASE-LAW_HAS_TYPE_PROCEDURE_CONCEPT_TYPE_PROCEDURE type="concept">
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/authority/fd_100/FONC%3DRI</VALUE>
+						<IDENTIFIER>FONC=RI</IDENTIFIER>
+						<TYPE>fd_100</TYPE>
+					</URI>
+					<OP-CODE>FONC=RI</OP-CODE>
+					<IDENTIFIER>FONC=RI</IDENTIFIER>
+					<PREFLABEL>Staff cases - inadmissible</PREFLABEL>
+				</CASE-LAW_HAS_TYPE_PROCEDURE_CONCEPT_TYPE_PROCEDURE>
+			</NESTEDLIST>
+		</CASE-LAW_IS_ABOUT_CONCEPT.MEMBERLIST>
+		<DATE type="date">
+			<VALUE>2014-06-19</VALUE>
+			<YEAR>2014</YEAR>
+			<MONTH>06</MONTH>
+			<DAY>19</DAY>
+		</DATE>
+		<IS_ABOUT type="concept">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/authority/fd_578/1.04.03.31</VALUE>
+				<IDENTIFIER>1.04.03.31</IDENTIFIER>
+				<TYPE>fd_578</TYPE>
+			</URI>
+			<OP-CODE>1.04.03.31</OP-CODE>
+			<IDENTIFIER>1.04.03.31</IDENTIFIER>
+			<PREFLABEL>Fair and just working conditions</PREFLABEL>
+		</IS_ABOUT>
+		<IDENTIFIER type="data">
+			<VALUE>62012FJ0157</VALUE>
+		</IDENTIFIER>
+		<ECLI type="data">
+			<VALUE>ECLI:EU:F:2014:164</VALUE>
+		</ECLI>
+		<VERSION type="data">
+			<VALUE>final</VALUE>
+		</VERSION>
+		<ID_SECTOR type="data">
+			<VALUE>6</VALUE>
+		</ID_SECTOR>
+		<DATE_CREATION_LEGACY type="date">
+			<VALUE>2014-06-19</VALUE>
+			<YEAR>2014</YEAR>
+			<MONTH>06</MONTH>
+			<DAY>19</DAY>
+		</DATE_CREATION_LEGACY>
+		<CASE-LAW_IS_ABOUT_CONCEPT type="concept_hierarchy">
+			<CASE-LAW_IS_ABOUT_CONCEPT type="concept_hierarchy_concept" path="1" level="2">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/authority/fd_578/9.02.03</VALUE>
+					<IDENTIFIER>9.02.03</IDENTIFIER>
+					<TYPE>fd_578</TYPE>
+				</URI>
+				<OP-CODE>9.02.03</OP-CODE>
+				<IDENTIFIER>9.02.03</IDENTIFIER>
+				<PREFLABEL>Organization of departments</PREFLABEL>
+			</CASE-LAW_IS_ABOUT_CONCEPT>
+			<CASE-LAW_IS_ABOUT_CONCEPT type="concept_hierarchy_concept"  path="1" level="1">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/authority/fd_578/9</VALUE>
+					<IDENTIFIER>9</IDENTIFIER>
+					<TYPE>fd_578</TYPE>
+				</URI>
+				<OP-CODE>9</OP-CODE>
+				<IDENTIFIER>9</IDENTIFIER>
+				<PREFLABEL>Staff cases</PREFLABEL>
+			</CASE-LAW_IS_ABOUT_CONCEPT>
+			<CASE-LAW_IS_ABOUT_CONCEPT type="concept_hierarchy_concept"  path="1" level="3">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/authority/fd_578/9.02</VALUE>
+					<IDENTIFIER>9.02</IDENTIFIER>
+					<TYPE>fd_578</TYPE>
+				</URI>
+				<OP-CODE>9.02</OP-CODE>
+				<IDENTIFIER>9.02</IDENTIFIER>
+				<PREFLABEL>General provisions of the Staff Regulations</PREFLABEL>
+			</CASE-LAW_IS_ABOUT_CONCEPT>
+		</CASE-LAW_IS_ABOUT_CONCEPT>
+		<WORK_CITES_WORK type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/c776a2af-019e-4f31-806b-422ee6650a88</VALUE>
+				<IDENTIFIER>c776a2af-019e-4f31-806b-422ee6650a88</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/62011FJ0050</VALUE>
+					<IDENTIFIER>62011FJ0050</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/ecli/ECLI%3AEU%3AF%3A2012%3A51</VALUE>
+					<IDENTIFIER>ECLI:EU:F:2012:51</IDENTIFIER>
+					<TYPE>ecli</TYPE>
+				</URI>
+			</SAMEAS>
+				<FRAGMENT_CITING_SOURCE type="annotation"><VALUE>N 34</VALUE></FRAGMENT_CITING_SOURCE>
+		</WORK_CITES_WORK>
+		<WORK_ID_DOCUMENT type="data">
+			<VALUE>ecli:ECLI:EU:F:2014:164</VALUE>
+		</WORK_ID_DOCUMENT>
+		<IS_ABOUT type="concept">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/authority/fd_578/9.06.01.01</VALUE>
+				<IDENTIFIER>9.06.01.01</IDENTIFIER>
+				<TYPE>fd_578</TYPE>
+			</URI>
+			<OP-CODE>9.06.01.01</OP-CODE>
+			<IDENTIFIER>9.06.01.01</IDENTIFIER>
+			<PREFLABEL>Prior consultation of the person concerned</PREFLABEL>
+		</IS_ABOUT>
+		<DATE_DOCUMENT type="date">
+			<VALUE>2014-06-19</VALUE>
+			<YEAR>2014</YEAR>
+			<MONTH>06</MONTH>
+			<DAY>19</DAY>
+		</DATE_DOCUMENT>
+		<CREATIONDATE type="date">
+			<VALUE>1001-01-01T00:00:00.000+00:00</VALUE>
+			<YEAR>1001</YEAR>
+			<MONTH>01</MONTH>
+			<DAY>01</DAY>
+		</CREATIONDATE>
+		<WORK_HAS_RESOURCE-TYPE type="concept">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/authority/resource-type/JUDG</VALUE>
+				<IDENTIFIER>JUDG</IDENTIFIER>
+				<TYPE>resource-type</TYPE>
+			</URI>
+			<OP-CODE>JUDG</OP-CODE>
+			<IDENTIFIER>JUDG</IDENTIFIER>
+			<PREFLABEL>Judgment</PREFLABEL>
+		</WORK_HAS_RESOURCE-TYPE>
+		<WORK_DATE_DOCUMENT type="date">
+			<VALUE>2014-06-19</VALUE>
+			<YEAR>2014</YEAR>
+			<MONTH>06</MONTH>
+			<DAY>19</DAY>
+		</WORK_DATE_DOCUMENT>
+		<IDENTIFIER type="data">
+			<VALUE>ecli:ECLI:EU:F:2014:164</VALUE>
+		</IDENTIFIER>
+		<ID_CELEX type="data">
+			<VALUE>62012FJ0157</VALUE>
+		</ID_CELEX>
+		<WORK_ID_DOCUMENT type="data">
+			<VALUE>celex:62012FJ0157</VALUE>
+		</WORK_ID_DOCUMENT>
+		<TYPE type="type">cdm:serial_work</TYPE>
+		<TYPE type="type">cdm:evolutive_work</TYPE>
+		<TYPE type="type">FJ</TYPE>
+		<TYPE type="type">cdm:case-law</TYPE>
+		<TYPE type="type">cdm:resource_legal</TYPE>
+		<TYPE type="type">cdm:work</TYPE>
+		<TYPE type="type">cdm:complex_work</TYPE>
+		<TYPE type="type">cdm:judgement</TYPE>
+		<EXPRESSION>
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/576f1b4b-f78f-11e3-831f-01aa75ed71a1.0010</VALUE>
+				<IDENTIFIER>576f1b4b-f78f-11e3-831f-01aa75ed71a1.0010</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/ecli/ECLI%3AEU%3AF%3A2014%3A164.FRA</VALUE>
+					<IDENTIFIER>ECLI:EU:F:2014:164.FRA</IDENTIFIER>
+					<TYPE>ecli</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/62012FJ0157.FRA</VALUE>
+					<IDENTIFIER>62012FJ0157.FRA</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+			<TYPE type="type">cdm:expression</TYPE>
+			<LANG type="data">
+				<VALUE>fra</VALUE>
+			</LANG>
+			<CREATIONDATE type="date">
+				<VALUE>1001-01-01T00:00:00.000+00:00</VALUE>
+				<YEAR>1001</YEAR>
+				<MONTH>01</MONTH>
+				<DAY>01</DAY>
+			</CREATIONDATE>
+			<TITLE type="data">
+				<VALUE>TITJUR</VALUE>
+			</TITLE>
+			<TITLE type="data">
+				<VALUE>BN / Parlement</VALUE>
+			</TITLE>
+			<TITLE type="data">
+				<VALUE>Arrêt du Tribunal de la fonction publique (deuxième chambre) du 19 juin 2014. # BN contre Parlement européen. # Fonction publique - Fonctionnaires - Recours en annulation - Fonctionnaire de grade AD 14 occupant provisoirement un poste de conseiller auprès d’un directeur - Allégation de harcèlement moral à l’encontre du directeur général - Congé de maladie de longue durée - Décision de nomination à un poste de conseiller dans une autre direction générale - Devoir de sollicitude - Principe de bonne administration - Intérêt du service - Règle de la correspondance entre le grade et l’emploi - Recours en indemnité - Préjudice découlant d’un comportement non décisionnel. # Affaire F-157/12.</VALUE>
+			</TITLE>
+			<EXPRESSION_TITLE_ALTERNATIVE type="data">
+				<VALUE>BN / Parlement</VALUE>
+			</EXPRESSION_TITLE_ALTERNATIVE>
+			<EXPRESSION_USES_LANGUAGE type="concept">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/authority/language/FRA</VALUE>
+					<IDENTIFIER>FRA</IDENTIFIER>
+					<TYPE>language</TYPE>
+				</URI>
+				<OP-CODE>FRA</OP-CODE>
+				<IDENTIFIER>FRA</IDENTIFIER>
+				<PREFLABEL>French</PREFLABEL>
+			</EXPRESSION_USES_LANGUAGE>
+			<LASTMODIFICATIONDATE type="date">
+				<VALUE>2015-10-21T16:37:30.253+02:00</VALUE>
+				<YEAR>2015</YEAR>
+				<MONTH>10</MONTH>
+				<DAY>21</DAY>
+			</LASTMODIFICATIONDATE>
+			<EXPRESSION_TITLE type="data">
+				<VALUE>Arrêt du Tribunal de la fonction publique (deuxième chambre) du 19 juin 2014. # BN contre Parlement européen. # Fonction publique - Fonctionnaires - Recours en annulation - Fonctionnaire de grade AD 14 occupant provisoirement un poste de conseiller auprès d’un directeur - Allégation de harcèlement moral à l’encontre du directeur général - Congé de maladie de longue durée - Décision de nomination à un poste de conseiller dans une autre direction générale - Devoir de sollicitude - Principe de bonne administration - Intérêt du service - Règle de la correspondance entre le grade et l’emploi - Recours en indemnité - Préjudice découlant d’un comportement non décisionnel. # Affaire F-157/12.</VALUE>
+			</EXPRESSION_TITLE>
+			<LANG type="data">
+				<VALUE>fr</VALUE>
+			</LANG>
+			<MANIFESTATION>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/cellar/576f1b4b-f78f-11e3-831f-01aa75ed71a1.0010.04</VALUE>
+					<IDENTIFIER>576f1b4b-f78f-11e3-831f-01aa75ed71a1.0010.04</IDENTIFIER>
+					<TYPE>cellar</TYPE>
+				</URI>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/celex/62012FJ0157.FRA.pdfa1a</VALUE>
+						<IDENTIFIER>62012FJ0157.FRA.pdfa1a</IDENTIFIER>
+						<TYPE>celex</TYPE>
+					</URI>
+				</SAMEAS>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/ecli/ECLI%3AEU%3AF%3A2014%3A164.FRA.pdfa1a</VALUE>
+						<IDENTIFIER>ECLI:EU:F:2014:164.FRA.pdfa1a</IDENTIFIER>
+						<TYPE>ecli</TYPE>
+					</URI>
+				</SAMEAS>
+				<TYPE type="type">cdm:manifestation</TYPE>
+				<MANIFESTATION_TYPE type="data">
+					<VALUE>pdfa1a</VALUE>
+				</MANIFESTATION_TYPE>
+				<LASTMODIFICATIONDATE type="date">
+					<VALUE>2015-10-21T16:37:30.253+02:00</VALUE>
+					<YEAR>2015</YEAR>
+					<MONTH>10</MONTH>
+					<DAY>21</DAY>
+				</LASTMODIFICATIONDATE>
+				<ITEM>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/cellar/576f1b4b-f78f-11e3-831f-01aa75ed71a1.0010.04/DOC_1</VALUE>
+						<IDENTIFIER>576f1b4b-f78f-11e3-831f-01aa75ed71a1.0010.04:DOC_1</IDENTIFIER>
+						<TYPE>cellar</TYPE>
+					</URI>
+					<SAMEAS>
+						<URI>
+							<VALUE>http://publications.europa.eu/resource/celex/62012FJ0157.FRA.pdfa1a.ECR_62012FJ0157_FR_01.pdf</VALUE>
+							<IDENTIFIER>62012FJ0157.FRA.pdfa1a.ECR_62012FJ0157_FR_01.pdf</IDENTIFIER>
+							<TYPE>celex</TYPE>
+						</URI>
+					</SAMEAS>
+					<SAMEAS>
+						<URI>
+							<VALUE>http://publications.europa.eu/resource/ecli/ECLI%3AEU%3AF%3A2014%3A164.FRA.pdfa1a.ECR_62012FJ0157_FR_01.pdf</VALUE>
+							<IDENTIFIER>ECLI:EU:F:2014:164.FRA.pdfa1a.ECR_62012FJ0157_FR_01.pdf</IDENTIFIER>
+							<TYPE>ecli</TYPE>
+						</URI>
+					</SAMEAS>
+					<TYPE type="type">cdm:item</TYPE>
+
+					<TECHMD>
+						<STREAM_ORDER type="data">
+							<VALUE>1</VALUE>
+						</STREAM_ORDER>
+						<STREAM_NAME type="data">
+							<VALUE>ECR_62012FJ0157_FR_01.pdf</VALUE>
+						</STREAM_NAME>
+						<STREAM_LABEL type="data">
+							<VALUE>celex-62012FJ0157.FRA.pdfa1a.techmd.rdf</VALUE>
+						</STREAM_LABEL>
+						<STREAM_COMPOSITION_LEVEL type="data">
+							<VALUE>0</VALUE>
+						</STREAM_COMPOSITION_LEVEL>
+						<STREAM_SIZE type="data">
+							<VALUE>1083491</VALUE>
+						</STREAM_SIZE>
+					</TECHMD>
+					<ITEM_IDENTIFIER type="data">
+						<VALUE>DOC_1</VALUE>
+					</ITEM_IDENTIFIER>
+					<IDENTIFIER type="data">
+						<VALUE>DOC_1</VALUE>
+					</IDENTIFIER>
+				</ITEM>
+				<CREATIONDATE type="date">
+					<VALUE>1001-01-01T00:00:00.000+00:00</VALUE>
+					<YEAR>1001</YEAR>
+					<MONTH>01</MONTH>
+					<DAY>01</DAY>
+				</CREATIONDATE>
+				<TYPE>pdfa1a</TYPE>
+			</MANIFESTATION>
+			<MANIFESTATION>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/cellar/576f1b4b-f78f-11e3-831f-01aa75ed71a1.0010.03</VALUE>
+					<IDENTIFIER>576f1b4b-f78f-11e3-831f-01aa75ed71a1.0010.03</IDENTIFIER>
+					<TYPE>cellar</TYPE>
+				</URI>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/ecli/ECLI%3AEU%3AF%3A2014%3A164.FRA.html</VALUE>
+						<IDENTIFIER>ECLI:EU:F:2014:164.FRA.html</IDENTIFIER>
+						<TYPE>ecli</TYPE>
+					</URI>
+				</SAMEAS>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/celex/62012FJ0157.FRA.html</VALUE>
+						<IDENTIFIER>62012FJ0157.FRA.html</IDENTIFIER>
+						<TYPE>celex</TYPE>
+					</URI>
+				</SAMEAS>
+								<TYPE type="type">cdm:manifestation</TYPE>
+
+				<MANIFESTATION_TYPE type="data">
+					<VALUE>html</VALUE>
+				</MANIFESTATION_TYPE>
+				<LASTMODIFICATIONDATE type="date">
+					<VALUE>2015-09-22T23:15:40.228+02:00</VALUE>
+					<YEAR>2015</YEAR>
+					<MONTH>09</MONTH>
+					<DAY>22</DAY>
+				</LASTMODIFICATIONDATE>
+				<ITEM>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/cellar/576f1b4b-f78f-11e3-831f-01aa75ed71a1.0010.03/DOC_2</VALUE>
+						<IDENTIFIER>576f1b4b-f78f-11e3-831f-01aa75ed71a1.0010.03:DOC_2</IDENTIFIER>
+						<TYPE>cellar</TYPE>
+					</URI>
+					<SAMEAS>
+						<URI>
+							<VALUE>http://publications.europa.eu/resource/ecli/ECLI%3AEU%3AF%3A2014%3A164.FRA.html.62012FJ0157_DEC_fr.html</VALUE>
+							<IDENTIFIER>ECLI:EU:F:2014:164.FRA.html.62012FJ0157_DEC_fr.html</IDENTIFIER>
+							<TYPE>ecli</TYPE>
+						</URI>
+					</SAMEAS>
+					<SAMEAS>
+						<URI>
+							<VALUE>http://publications.europa.eu/resource/celex/62012FJ0157.FRA.html.62012FJ0157_DEC_fr.html</VALUE>
+							<IDENTIFIER>62012FJ0157.FRA.html.62012FJ0157_DEC_fr.html</IDENTIFIER>
+							<TYPE>celex</TYPE>
+						</URI>
+					</SAMEAS>
+					<TYPE type="type">cdm:item</TYPE>
+					<TECHMD>
+						<STREAM_LABEL type="data">
+							<VALUE>celex-62012FJ0157.FRA.html.techmd.rdf</VALUE>
+						</STREAM_LABEL>
+						<STREAM_SIZE type="data">
+							<VALUE>109905</VALUE>
+						</STREAM_SIZE>
+						<STREAM_COMPOSITION_LEVEL type="data">
+							<VALUE>0</VALUE>
+						</STREAM_COMPOSITION_LEVEL>
+						<STREAM_ORDER type="data">
+							<VALUE>1</VALUE>
+						</STREAM_ORDER>
+						<STREAM_NAME type="data">
+							<VALUE>62012FJ0157_DEC_fr.html</VALUE>
+						</STREAM_NAME>
+					</TECHMD>
+					<ITEM_IDENTIFIER type="data">
+						<VALUE>DOC_2</VALUE>
+					</ITEM_IDENTIFIER>
+					<IDENTIFIER type="data">
+						<VALUE>DOC_2</VALUE>
+					</IDENTIFIER>
+				</ITEM>
+				<CREATIONDATE type="date">
+					<VALUE>1001-01-01T00:00:00.000+00:00</VALUE>
+					<YEAR>1001</YEAR>
+					<MONTH>01</MONTH>
+					<DAY>01</DAY>
+				</CREATIONDATE>
+				<TYPE>html</TYPE>
+			</MANIFESTATION>
+		</EXPRESSION>
+	</WORK>
+</NOTICE>
