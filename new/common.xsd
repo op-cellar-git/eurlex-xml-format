@@ -326,12 +326,7 @@ The name of the element is dynamic and is replaced by the metadata property name
 		<xs:choice maxOccurs="unbounded">
 			<xs:element ref="p_name_concept"/>
 			<xs:element ref="p_name_concept_hierarchy"/>
-			<xs:element name="NESTEDLIST" type="Memberlist">
-				<xs:annotation>
-					<xs:documentation xml:lang="en">A nested memberlist group.
-A NESTEDLIST defines a subgroup of classifying properties or other NESTEDLIST sub-groups.</xs:documentation>
-				</xs:annotation>
-			</xs:element>
+			<xs:element ref="p_name.MEMBERLIST"/>
 		</xs:choice>
 		<xs:attribute ref="type" use="required" fixed="memberlist">
 			<xs:annotation>
