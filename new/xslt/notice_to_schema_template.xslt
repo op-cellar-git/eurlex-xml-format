@@ -7,6 +7,20 @@
 			<xsl:apply-templates select="node()"/>
 		</xsl:copy>
 	</xsl:template>
+
+	<xsl:template match="EVENT">
+		<xsl:element name="EVENT">
+			<xsl:apply-templates select="@*"/>
+			<xsl:comment>match="EVENT"</xsl:comment>
+			<xsl:apply-templates select="URI"/>
+			<xsl:apply-templates select="SAMEAS"/>
+			<!-- rdf:type -->
+			<xsl:apply-templates select="*[@type[.='type']]"/>
+			<!-- everything except rdf:type -->
+			<xsl:apply-templates select="*[@type[.!='type']]"/>
+		</xsl:element>
+	</xsl:template>
+	
 	
 	<xsl:template match="WORK">
 		<xsl:element name="WORK">
