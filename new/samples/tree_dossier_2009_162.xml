@@ -1,0 +1,2887 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NOTICE decoding="eng" type="tree">
+	<DOSSIER>
+		<URI>
+			<VALUE>http://publications.europa.eu/resource/cellar/7980e781-d354-11e1-905c-01aa75ed71a1</VALUE>
+			<IDENTIFIER>7980e781-d354-11e1-905c-01aa75ed71a1</IDENTIFIER>
+			<TYPE>cellar</TYPE>
+		</URI>
+		<SAMEAS>
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/procedure/2009_162</VALUE>
+				<IDENTIFIER>2009_162</IDENTIFIER>
+				<TYPE>procedure</TYPE>
+			</URI>
+		</SAMEAS>
+		<SAMEAS>
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/pegase/198759</VALUE>
+				<IDENTIFIER>198759</IDENTIFIER>
+				<TYPE>pegase</TYPE>
+			</URI>
+		</SAMEAS>
+		<TYPE type="type">cdm:entity_temporal</TYPE>
+		<TYPE type="type">cdm:period</TYPE>
+		<TYPE type="type">cdm:procedure_code_interinstitutional</TYPE>
+		<TYPE type="type">cdm:dossier</TYPE>
+		<CONTAINS type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/3055b8ca-9faf-47ad-837b-d16508381c7a</VALUE>
+				<IDENTIFIER>3055b8ca-9faf-47ad-837b-d16508381c7a</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/eli/dec/2010/388/oj</VALUE>
+					<IDENTIFIER>dec:2010:388:oj</IDENTIFIER>
+					<TYPE>eli</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/oj/JOL_2010_179_R_0001_01</VALUE>
+					<IDENTIFIER>JOL_2010_179_R_0001_01</IDENTIFIER>
+					<TYPE>oj</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/32010D0388</VALUE>
+					<IDENTIFIER>32010D0388</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+		</CONTAINS>
+		<CONTAINS type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/bb26d801-2972-4ae6-b504-159451553692</VALUE>
+				<IDENTIFIER>bb26d801-2972-4ae6-b504-159451553692</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/comnat/COM_2009_0665_FIN</VALUE>
+					<IDENTIFIER>COM_2009_0665_FIN</IDENTIFIER>
+					<TYPE>comnat</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/com/COM_2009_704</VALUE>
+					<IDENTIFIER>COM_2009_704</IDENTIFIER>
+					<TYPE>com</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/52009DC0665</VALUE>
+					<IDENTIFIER>52009DC0665</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+		</CONTAINS>
+		<CONTAINS type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/3c99bb05-fb16-4686-98a0-05abc79ef58b</VALUE>
+				<IDENTIFIER>3c99bb05-fb16-4686-98a0-05abc79ef58b</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/52009PC0580</VALUE>
+					<IDENTIFIER>52009PC0580</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/com/COM_2009_627</VALUE>
+					<IDENTIFIER>COM_2009_627</IDENTIFIER>
+					<TYPE>com</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/comnat/COM_2009_0580_FIN</VALUE>
+					<IDENTIFIER>COM_2009_0580_FIN</IDENTIFIER>
+					<TYPE>comnat</TYPE>
+				</URI>
+			</SAMEAS>
+		</CONTAINS>
+		<CONTAINS type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/40163816-9591-4460-b69d-b96c2c8330fa</VALUE>
+				<IDENTIFIER>40163816-9591-4460-b69d-b96c2c8330fa</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/52009SC1428</VALUE>
+					<IDENTIFIER>52009SC1428</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/swd/SEC_2009_1428</VALUE>
+					<IDENTIFIER>SEC_2009_1428</IDENTIFIER>
+					<TYPE>swd</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/comnat/SEC_2009_1428_FIN</VALUE>
+					<IDENTIFIER>SEC_2009_1428_FIN</IDENTIFIER>
+					<TYPE>comnat</TYPE>
+				</URI>
+			</SAMEAS>
+		</CONTAINS>
+		<CONTAINS type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/f7f3366d-1e3b-4101-a675-125848917580</VALUE>
+				<IDENTIFIER>f7f3366d-1e3b-4101-a675-125848917580</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/oj/JOC_2011_161_E_0256_01</VALUE>
+					<IDENTIFIER>JOC_2011_161_E_0256_01</IDENTIFIER>
+					<TYPE>oj</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/52010AP0169</VALUE>
+					<IDENTIFIER>52010AP0169</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+		</CONTAINS>
+		<CONTAINS type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/b46af963-46f5-42aa-b8ab-3e5c800b3856</VALUE>
+				<IDENTIFIER>b46af963-46f5-42aa-b8ab-3e5c800b3856</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/52010DC0147</VALUE>
+					<IDENTIFIER>52010DC0147</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/comnat/COM_2010_0147_FIN</VALUE>
+					<IDENTIFIER>COM_2010_0147_FIN</IDENTIFIER>
+					<TYPE>comnat</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/com/COM_2010_165</VALUE>
+					<IDENTIFIER>COM_2010_165</IDENTIFIER>
+					<TYPE>com</TYPE>
+				</URI>
+			</SAMEAS>
+		</CONTAINS>
+		<CONTAINS type="link">
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/oj/JOC_2011_026_R_0015_01</VALUE>
+					<IDENTIFIER>JOC_2011_026_R_0015_01</IDENTIFIER>
+					<TYPE>oj</TYPE>
+				</URI>
+			</SAMEAS>
+		</CONTAINS>
+		<DOSSIER_INITIATED_BY_ACT_PREPARATORY type="link">
+			<WORK>
+				<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+						<URI>
+							<VALUE>http://eurovoc.europa.eu/1728</VALUE>
+							<IDENTIFIER>1728</IDENTIFIER>
+							<TYPE>EUROVOC</TYPE>
+						</URI>
+						<IDENTIFIER>1728</IDENTIFIER>
+						<PREFLABEL>macroeconomics</PREFLABEL>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+						<URI>
+							<VALUE>http://eurovoc.europa.eu/1800</VALUE>
+							<IDENTIFIER>1800</IDENTIFIER>
+							<TYPE>EUROVOC</TYPE>
+						</URI>
+						<IDENTIFIER>1800</IDENTIFIER>
+						<PREFLABEL>economic analysis</PREFLABEL>
+						<ALTLABEL>economic study</ALTLABEL>
+						<ALTLABEL>economic evaluation</ALTLABEL>
+						<ALTLABEL>analysis of economic activity</ALTLABEL>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+						<URI>
+							<VALUE>http://eurovoc.europa.eu/100146</VALUE>
+							<IDENTIFIER>100146</IDENTIFIER>
+							<TYPE>EUROVOC</TYPE>
+						</URI>
+						<IDENTIFIER>16</IDENTIFIER>
+						<PREFLABEL>16 ECONOMICS</PREFLABEL>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+						<URI>
+							<VALUE>http://eurovoc.europa.eu/100190</VALUE>
+							<IDENTIFIER>100190</IDENTIFIER>
+							<TYPE>EUROVOC</TYPE>
+						</URI>
+						<IDENTIFIER>1631</IDENTIFIER>
+						<PREFLABEL>1631 economic analysis</PREFLABEL>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+				</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+				<WORK_DATE_DOCUMENT type="date">
+					<VALUE>2009-10-29</VALUE>
+					<YEAR>2009</YEAR>
+					<MONTH>10</MONTH>
+					<DAY>29</DAY>
+				</WORK_DATE_DOCUMENT>
+				<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_level">
+					<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1 type="concept">
+						<URI>
+							<VALUE>http://publications.europa.eu/resource/authority/fd_070/EXT</VALUE>
+							<IDENTIFIER>EXT</IDENTIFIER>
+							<TYPE>fd_070</TYPE>
+						</URI>
+						<OP-CODE>EXT</OP-CODE>
+						<IDENTIFIER>EXT</IDENTIFIER>
+						<PREFLABEL>External relations</PREFLABEL>
+					</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1>
+				</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER>
+				<ID_SECTOR type="data">
+					<VALUE>5</VALUE>
+				</ID_SECTOR>
+				<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+						<URI>
+							<VALUE>http://eurovoc.europa.eu/7932</VALUE>
+							<IDENTIFIER>7932</IDENTIFIER>
+							<TYPE>EUROVOC</TYPE>
+						</URI>
+						<IDENTIFIER>7932</IDENTIFIER>
+						<PREFLABEL>European neighbourhood policy</PREFLABEL>
+						<ALTLABEL>ENP</ALTLABEL>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+						<URI>
+							<VALUE>http://eurovoc.europa.eu/4040</VALUE>
+							<IDENTIFIER>4040</IDENTIFIER>
+							<TYPE>EUROVOC</TYPE>
+						</URI>
+						<IDENTIFIER>4040</IDENTIFIER>
+						<PREFLABEL>EU relations</PREFLABEL>
+						<ALTLABEL>Community relations</ALTLABEL>
+						<ALTLABEL>European Union relations</ALTLABEL>
+						<ALTLABEL>EC external relations</ALTLABEL>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+						<URI>
+							<VALUE>http://eurovoc.europa.eu/100144</VALUE>
+							<IDENTIFIER>100144</IDENTIFIER>
+							<TYPE>EUROVOC</TYPE>
+						</URI>
+						<IDENTIFIER>10</IDENTIFIER>
+						<PREFLABEL>10 EUROPEAN UNION</PREFLABEL>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+						<URI>
+							<VALUE>http://eurovoc.europa.eu/100176</VALUE>
+							<IDENTIFIER>100176</IDENTIFIER>
+							<TYPE>EUROVOC</TYPE>
+						</URI>
+						<IDENTIFIER>1016</IDENTIFIER>
+						<PREFLABEL>1016 European construction</PREFLABEL>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+				</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+				<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+						<URI>
+							<VALUE>http://eurovoc.europa.eu/922</VALUE>
+							<IDENTIFIER>922</IDENTIFIER>
+							<TYPE>EUROVOC</TYPE>
+						</URI>
+						<IDENTIFIER>922</IDENTIFIER>
+						<PREFLABEL>financial aid</PREFLABEL>
+						<ALTLABEL>capital grant</ALTLABEL>
+						<ALTLABEL>financial grant</ALTLABEL>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+						<URI>
+							<VALUE>http://eurovoc.europa.eu/2460</VALUE>
+							<IDENTIFIER>2460</IDENTIFIER>
+							<TYPE>EUROVOC</TYPE>
+						</URI>
+						<IDENTIFIER>2460</IDENTIFIER>
+						<PREFLABEL>aid policy</PREFLABEL>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+						<URI>
+							<VALUE>http://eurovoc.europa.eu/100143</VALUE>
+							<IDENTIFIER>100143</IDENTIFIER>
+							<TYPE>EUROVOC</TYPE>
+						</URI>
+						<IDENTIFIER>08</IDENTIFIER>
+						<PREFLABEL>08 INTERNATIONAL RELATIONS</PREFLABEL>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+						<URI>
+							<VALUE>http://eurovoc.europa.eu/100171</VALUE>
+							<IDENTIFIER>100171</IDENTIFIER>
+							<TYPE>EUROVOC</TYPE>
+						</URI>
+						<IDENTIFIER>0811</IDENTIFIER>
+						<PREFLABEL>0811 cooperation policy</PREFLABEL>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+				</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+				<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+						<URI>
+							<VALUE>http://eurovoc.europa.eu/4250</VALUE>
+							<IDENTIFIER>4250</IDENTIFIER>
+							<TYPE>EUROVOC</TYPE>
+						</URI>
+						<IDENTIFIER>4250</IDENTIFIER>
+						<PREFLABEL>economic stabilisation</PREFLABEL>
+						<ALTLABEL>economic stability</ALTLABEL>
+						<ALTLABEL>economic stabilization</ALTLABEL>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+						<URI>
+							<VALUE>http://eurovoc.europa.eu/335</VALUE>
+							<IDENTIFIER>335</IDENTIFIER>
+							<TYPE>EUROVOC</TYPE>
+						</URI>
+						<IDENTIFIER>335</IDENTIFIER>
+						<PREFLABEL>economic cycle</PREFLABEL>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+						<URI>
+							<VALUE>http://eurovoc.europa.eu/100146</VALUE>
+							<IDENTIFIER>100146</IDENTIFIER>
+							<TYPE>EUROVOC</TYPE>
+						</URI>
+						<IDENTIFIER>16</IDENTIFIER>
+						<PREFLABEL>16 ECONOMICS</PREFLABEL>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+						<URI>
+							<VALUE>http://eurovoc.europa.eu/100186</VALUE>
+							<IDENTIFIER>100186</IDENTIFIER>
+							<TYPE>EUROVOC</TYPE>
+						</URI>
+						<IDENTIFIER>1611</IDENTIFIER>
+						<PREFLABEL>1611 economic conditions</PREFLABEL>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+				</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+				<RESOURCE_LEGAL_YEAR type="data">
+					<VALUE>2009</VALUE>
+				</RESOURCE_LEGAL_YEAR>
+				<RESOURCE_LEGAL_NUMBER_NATURAL_CELEX type="data">
+					<VALUE>0580</VALUE>
+				</RESOURCE_LEGAL_NUMBER_NATURAL_CELEX>
+				<WORK_HAS_RESOURCE-TYPE type="concept">
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/authority/resource-type/PROP_DEC_NO_ADDRESSEE</VALUE>
+						<IDENTIFIER>PROP_DEC_NO_ADDRESSEE</IDENTIFIER>
+						<TYPE>resource-type</TYPE>
+					</URI>
+					<OP-CODE>PROP_DEC_NO_ADDRESSEE</OP-CODE>
+					<IDENTIFIER>PROP_DEC_NO_ADDRESSEE</IDENTIFIER>
+					<PREFLABEL>Proposal for a decision without addressee</PREFLABEL>
+				</WORK_HAS_RESOURCE-TYPE>
+				<RESOURCE_LEGAL_TYPE type="data">
+					<VALUE>PC</VALUE>
+				</RESOURCE_LEGAL_TYPE>
+				<ID_CELEX type="data">
+					<VALUE>52009PC0580</VALUE>
+				</ID_CELEX>
+				<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_level">
+					<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_3 type="concept">
+						<URI>
+							<VALUE>http://publications.europa.eu/resource/authority/fd_555/115020</VALUE>
+							<IDENTIFIER>115020</IDENTIFIER>
+							<TYPE>fd_555</TYPE>
+						</URI>
+						<OP-CODE>115020</OP-CODE>
+						<IDENTIFIER>115020</IDENTIFIER>
+						<PREFLABEL>Financial and economic Aid</PREFLABEL>
+					</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_3>
+					<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_1 type="concept">
+						<URI>
+							<VALUE>http://publications.europa.eu/resource/authority/fd_555/11</VALUE>
+							<IDENTIFIER>11</IDENTIFIER>
+							<TYPE>fd_555</TYPE>
+						</URI>
+						<OP-CODE>11</OP-CODE>
+						<IDENTIFIER>11</IDENTIFIER>
+						<PREFLABEL>External relations</PREFLABEL>
+					</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_1>
+					<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_2 type="concept">
+						<URI>
+							<VALUE>http://publications.europa.eu/resource/authority/fd_555/1150</VALUE>
+							<IDENTIFIER>1150</IDENTIFIER>
+							<TYPE>fd_555</TYPE>
+						</URI>
+						<OP-CODE>1150</OP-CODE>
+						<IDENTIFIER>1150</IDENTIFIER>
+						<PREFLABEL>Action in favour of countries in transition</PREFLABEL>
+					</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_2>
+				</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE>
+				<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_level">
+					<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1 type="concept">
+						<URI>
+							<VALUE>http://publications.europa.eu/resource/authority/fd_070/ASSI</VALUE>
+							<IDENTIFIER>ASSI</IDENTIFIER>
+							<TYPE>fd_070</TYPE>
+						</URI>
+						<OP-CODE>ASSI</OP-CODE>
+						<IDENTIFIER>ASSI</IDENTIFIER>
+						<PREFLABEL>Assistance</PREFLABEL>
+					</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1>
+				</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER>
+				<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+						<URI>
+							<VALUE>http://eurovoc.europa.eu/5146</VALUE>
+							<IDENTIFIER>5146</IDENTIFIER>
+							<TYPE>EUROVOC</TYPE>
+						</URI>
+						<IDENTIFIER>5146</IDENTIFIER>
+						<PREFLABEL>economic situation</PREFLABEL>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+						<URI>
+							<VALUE>http://eurovoc.europa.eu/84</VALUE>
+							<IDENTIFIER>84</IDENTIFIER>
+							<TYPE>EUROVOC</TYPE>
+						</URI>
+						<IDENTIFIER>84</IDENTIFIER>
+						<PREFLABEL>economic conditions</PREFLABEL>
+						<ALTLABEL>economic aspect</ALTLABEL>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+						<URI>
+							<VALUE>http://eurovoc.europa.eu/100146</VALUE>
+							<IDENTIFIER>100146</IDENTIFIER>
+							<TYPE>EUROVOC</TYPE>
+						</URI>
+						<IDENTIFIER>16</IDENTIFIER>
+						<PREFLABEL>16 ECONOMICS</PREFLABEL>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+						<URI>
+							<VALUE>http://eurovoc.europa.eu/100186</VALUE>
+							<IDENTIFIER>100186</IDENTIFIER>
+							<TYPE>EUROVOC</TYPE>
+						</URI>
+						<IDENTIFIER>1611</IDENTIFIER>
+						<PREFLABEL>1611 economic conditions</PREFLABEL>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+				</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+				<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+						<URI>
+							<VALUE>http://eurovoc.europa.eu/5946</VALUE>
+							<IDENTIFIER>5946</IDENTIFIER>
+							<TYPE>EUROVOC</TYPE>
+						</URI>
+						<IDENTIFIER>5946</IDENTIFIER>
+						<PREFLABEL>Ukraine</PREFLABEL>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+						<URI>
+							<VALUE>http://eurovoc.europa.eu/914</VALUE>
+							<IDENTIFIER>914</IDENTIFIER>
+							<TYPE>EUROVOC</TYPE>
+						</URI>
+						<IDENTIFIER>914</IDENTIFIER>
+						<PREFLABEL>Central and Eastern Europe</PREFLABEL>
+						<ALTLABEL>Central Europe</ALTLABEL>
+						<ALTLABEL>Eastern Europe</ALTLABEL>
+						<ALTLABEL>CEE</ALTLABEL>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+						<URI>
+							<VALUE>http://eurovoc.europa.eu/122</VALUE>
+							<IDENTIFIER>122</IDENTIFIER>
+							<TYPE>EUROVOC</TYPE>
+						</URI>
+						<IDENTIFIER>122</IDENTIFIER>
+						<PREFLABEL>Council of Europe countries</PREFLABEL>
+						<ALTLABEL>Countries of the Council of Europe</ALTLABEL>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+						<URI>
+							<VALUE>http://eurovoc.europa.eu/5775</VALUE>
+							<IDENTIFIER>5775</IDENTIFIER>
+							<TYPE>EUROVOC</TYPE>
+						</URI>
+						<IDENTIFIER>5775</IDENTIFIER>
+						<PREFLABEL>CIS countries</PREFLABEL>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+						<URI>
+							<VALUE>http://eurovoc.europa.eu/100161</VALUE>
+							<IDENTIFIER>100161</IDENTIFIER>
+							<TYPE>EUROVOC</TYPE>
+						</URI>
+						<IDENTIFIER>72</IDENTIFIER>
+						<PREFLABEL>72 GEOGRAPHY</PREFLABEL>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+						<URI>
+							<VALUE>http://eurovoc.europa.eu/100277</VALUE>
+							<IDENTIFIER>100277</IDENTIFIER>
+							<TYPE>EUROVOC</TYPE>
+						</URI>
+						<IDENTIFIER>7206</IDENTIFIER>
+						<PREFLABEL>7206 Europe</PREFLABEL>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+						<URI>
+							<VALUE>http://eurovoc.europa.eu/100283</VALUE>
+							<IDENTIFIER>100283</IDENTIFIER>
+							<TYPE>EUROVOC</TYPE>
+						</URI>
+						<IDENTIFIER>7236</IDENTIFIER>
+						<PREFLABEL>7236 political geography</PREFLABEL>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+				</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+				<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+						<URI>
+							<VALUE>http://eurovoc.europa.eu/862</VALUE>
+							<IDENTIFIER>862</IDENTIFIER>
+							<TYPE>EUROVOC</TYPE>
+						</URI>
+						<IDENTIFIER>862</IDENTIFIER>
+						<PREFLABEL>EU aid</PREFLABEL>
+						<ALTLABEL>aid from the European Union</ALTLABEL>
+						<ALTLABEL>Community aid</ALTLABEL>
+						<ALTLABEL>aid from the EU</ALTLABEL>
+						<ALTLABEL>Community support</ALTLABEL>
+						<ALTLABEL>European Union aid</ALTLABEL>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+						<URI>
+							<VALUE>http://eurovoc.europa.eu/712</VALUE>
+							<IDENTIFIER>712</IDENTIFIER>
+							<TYPE>EUROVOC</TYPE>
+						</URI>
+						<IDENTIFIER>712</IDENTIFIER>
+						<PREFLABEL>economic support</PREFLABEL>
+						<ALTLABEL>granting of aid</ALTLABEL>
+						<ALTLABEL>subvention</ALTLABEL>
+						<ALTLABEL>aid</ALTLABEL>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+						<URI>
+							<VALUE>http://eurovoc.europa.eu/100146</VALUE>
+							<IDENTIFIER>100146</IDENTIFIER>
+							<TYPE>EUROVOC</TYPE>
+						</URI>
+						<IDENTIFIER>16</IDENTIFIER>
+						<PREFLABEL>16 ECONOMICS</PREFLABEL>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+						<URI>
+							<VALUE>http://eurovoc.europa.eu/100185</VALUE>
+							<IDENTIFIER>100185</IDENTIFIER>
+							<TYPE>EUROVOC</TYPE>
+						</URI>
+						<IDENTIFIER>1606</IDENTIFIER>
+						<PREFLABEL>1606 economic policy</PREFLABEL>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+				</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+				<RESOURCE_LEGAL_ID_CELEX type="data">
+					<VALUE>52009PC0580</VALUE>
+				</RESOURCE_LEGAL_ID_CELEX>
+				<TYPE>cdm:proposal_act</TYPE>
+				<TYPE>cdm:act_preparatory</TYPE>
+				<TYPE>cdm:proposal_other</TYPE>
+				<TYPE>cdm:resource_legal</TYPE>
+				<TYPE>cdm:work</TYPE>
+			</WORK>
+			<EXPRESSION>
+				<EXPRESSION_MANIFESTED_BY_MANIFESTATION type="embedded_link">
+					<SAMEAS>
+						<URI>
+							<VALUE>http://publications.europa.eu/resource/com/COM_2009_627.ENG.html</VALUE>
+							<IDENTIFIER>COM_2009_627.ENG.html</IDENTIFIER>
+							<TYPE>com</TYPE>
+						</URI>
+					</SAMEAS>
+				</EXPRESSION_MANIFESTED_BY_MANIFESTATION>
+				<EXPRESSION_TITLE type="data">
+					<VALUE>Proposal for a Council Decision providing macro-financial assistance to Ukraine (SEC(2009)1428)</VALUE>
+				</EXPRESSION_TITLE>
+				<EXPRESSION_MANIFESTED_BY_MANIFESTATION type="embedded_link">
+					<SAMEAS>
+						<URI>
+							<VALUE>http://publications.europa.eu/resource/com/COM_2009_627.ENG.doc</VALUE>
+							<IDENTIFIER>COM_2009_627.ENG.doc</IDENTIFIER>
+							<TYPE>com</TYPE>
+						</URI>
+					</SAMEAS>
+				</EXPRESSION_MANIFESTED_BY_MANIFESTATION>
+				<EXPRESSION_USES_LANGUAGE type="concept">
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/authority/language/ENG</VALUE>
+						<IDENTIFIER>ENG</IDENTIFIER>
+						<TYPE>language</TYPE>
+					</URI>
+					<OP-CODE>ENG</OP-CODE>
+					<IDENTIFIER>ENG</IDENTIFIER>
+					<PREFLABEL>English</PREFLABEL>
+					<ALTLABEL>English</ALTLABEL>
+				</EXPRESSION_USES_LANGUAGE>
+				<EXPRESSION_MANIFESTED_BY_MANIFESTATION type="embedded_link">
+					<SAMEAS>
+						<URI>
+							<VALUE>http://publications.europa.eu/resource/com/COM_2009_627.ENG.pdf</VALUE>
+							<IDENTIFIER>COM_2009_627.ENG.pdf</IDENTIFIER>
+							<TYPE>com</TYPE>
+						</URI>
+					</SAMEAS>
+				</EXPRESSION_MANIFESTED_BY_MANIFESTATION>
+			</EXPRESSION>
+			<MANIFESTATION manifestation-type="doc"/>
+			<MANIFESTATION manifestation-type="html"/>
+			<MANIFESTATION manifestation-type="pdf"/>
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/3c99bb05-fb16-4686-98a0-05abc79ef58b</VALUE>
+				<IDENTIFIER>3c99bb05-fb16-4686-98a0-05abc79ef58b</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/52009PC0580</VALUE>
+					<IDENTIFIER>52009PC0580</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/com/COM_2009_627</VALUE>
+					<IDENTIFIER>COM_2009_627</IDENTIFIER>
+					<TYPE>com</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/comnat/COM_2009_0580_FIN</VALUE>
+					<IDENTIFIER>COM_2009_0580_FIN</IDENTIFIER>
+					<TYPE>comnat</TYPE>
+				</URI>
+			</SAMEAS>
+		</DOSSIER_INITIATED_BY_ACT_PREPARATORY>
+		<TITLE type="data">
+			<VALUE>Proposal for a COUNCIL DECISION providing macro-financial assistance to Ukraine</VALUE>
+		</TITLE>
+		<DOSSIER_TITLE type="data">
+			<VALUE>Ehdotus: NEUVOSTON PÄÄTÖS makrotaloudellisen rahoitusavun myöntämisestä Ukrainalle</VALUE>
+			<LANG type="annotation">fi</LANG>
+		</DOSSIER_TITLE>
+		<DATE_CREATION_LEGACY type="date">
+			<VALUE>2009-10-29</VALUE>
+			<YEAR>2009</YEAR>
+			<MONTH>10</MONTH>
+			<DAY>29</DAY>
+		</DATE_CREATION_LEGACY>
+		<DOSSIER_TITLE type="data">
+			<VALUE>Πρόταση ΑΠΟΦΑΣΗ ΤΟΥ ΣΥΜΒΟΥΛΙΟΥ για τη χορήγηση μακροοικονομικής χρηματοδοτικής συνδρομής στην Ουκρανία</VALUE>
+			<LANG type="annotation">el</LANG>
+		</DOSSIER_TITLE>
+		<DOSSIER_TITLE type="data">
+			<VALUE>Návrh ROZHODNUTÍ RADY o poskytnutí makrofinanční pomoci Ukrajině</VALUE>
+			<LANG type="annotation">cs</LANG>
+		</DOSSIER_TITLE>
+		<BASIS_LEGAL type="data">
+			<VALUE>TFUE/art 212</VALUE>
+		</BASIS_LEGAL>
+		<DATE type="date">
+			<VALUE>2009-10-29</VALUE>
+			<YEAR>2009</YEAR>
+			<MONTH>10</MONTH>
+			<DAY>29</DAY>
+		</DATE>
+		<TITLE type="data">
+			<VALUE>Förslag till RÅDETS BESLUT om makroekonomiskt stöd till Ukraina</VALUE>
+			<LANG type="annotation">sv</LANG>
+		</TITLE>
+		<DOSSIER_TITLE type="data">
+			<VALUE>Vorschlag für einen BESCHLUSS DES RATES über eine Makrofinanzhilfe für die Ukraine</VALUE>
+			<LANG type="annotation">de</LANG>
+		</DOSSIER_TITLE>
+		<TITLE type="data">
+			<VALUE>Proposta di DECISIONE DEL CONSIGLIO relativa alla concessione di assistenza macrofinanziaria a favore dell’Ucraina</VALUE>
+			<LANG type="annotation">it</LANG>
+		</TITLE>
+		<DOSSIER_PENDING-PROPOSAL type="data">
+			<VALUE>false</VALUE>
+		</DOSSIER_PENDING-PROPOSAL>
+		<EVENT>
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/7980e781-d354-11e1-905c-01aa75ed71a1.0009</VALUE>
+				<IDENTIFIER>7980e781-d354-11e1-905c-01aa75ed71a1.0009</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/pegase/198759.406028</VALUE>
+					<IDENTIFIER>198759.406028</IDENTIFIER>
+					<TYPE>pegase</TYPE>
+				</URI>
+			</SAMEAS>
+			<CREATIONDATE type="date">
+				<VALUE>1001-01-01T00:00:00.000+00:00</VALUE>
+				<YEAR>1001</YEAR>
+				<MONTH>01</MONTH>
+				<DAY>01</DAY>
+			</CREATIONDATE>
+			<DATE type="date">
+				<VALUE>2010-06-29</VALUE>
+				<YEAR>2010</YEAR>
+				<MONTH>06</MONTH>
+				<DAY>29</DAY>
+			</DATE>
+			<EVENT_LEGAL_IS_ABOUT_CONCEPT_AGENDA_COUNCIL type="concept">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/authority/fd_600/102949</VALUE>
+					<IDENTIFIER>102949</IDENTIFIER>
+					<TYPE>fd_600</TYPE>
+				</URI>
+				<OP-CODE>102949</OP-CODE>
+				<IDENTIFIER>102949</IDENTIFIER>
+				<PREFLABEL>AGRICULTURE/FISHERIES</PREFLABEL>
+				<ALTLABEL>AGRICULTURE/FISHERIES</ALTLABEL>
+			</EVENT_LEGAL_IS_ABOUT_CONCEPT_AGENDA_COUNCIL>
+			<EVENT_LEGAL_HAS_TYPE_CONCEPT_TYPE_EVENT_LEGAL type="concept">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/authority/event/APR_R1_byCONSIL</VALUE>
+					<IDENTIFIER>APR_R1_byCONSIL</IDENTIFIER>
+					<TYPE>event</TYPE>
+				</URI>
+				<OP-CODE>APR_R1_byCONSIL</OP-CODE>
+				<IDENTIFIER>APR_R1_byCONSIL</IDENTIFIER>
+				<PREFLABEL>Approval by the Council of the EP position at 1st reading</PREFLABEL>
+				<ALTLABEL>Council approval 1st rdg</ALTLABEL>
+			</EVENT_LEGAL_HAS_TYPE_CONCEPT_TYPE_EVENT_LEGAL>
+			<IS_ABOUT type="concept">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/authority/fd_600/102949</VALUE>
+					<IDENTIFIER>102949</IDENTIFIER>
+					<TYPE>fd_600</TYPE>
+				</URI>
+				<OP-CODE>102949</OP-CODE>
+				<IDENTIFIER>102949</IDENTIFIER>
+				<PREFLABEL>AGRICULTURE/FISHERIES</PREFLABEL>
+				<ALTLABEL>AGRICULTURE/FISHERIES</ALTLABEL>
+			</IS_ABOUT>
+			<EVENT_LEGAL_DOCUMENT_REFERENCE type="data">
+				<VALUE>PRES/2010/192</VALUE>
+			</EVENT_LEGAL_DOCUMENT_REFERENCE>
+			<EVENT_LEGAL_INITIATED_BY_INSTITUTION type="concept">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/authority/corporate-body/CONSIL</VALUE>
+					<IDENTIFIER>CONSIL</IDENTIFIER>
+					<TYPE>corporate-body</TYPE>
+				</URI>
+				<OP-CODE>CONSIL</OP-CODE>
+				<IDENTIFIER>CONSIL</IDENTIFIER>
+				<PREFLABEL>Council of the European Union</PREFLABEL>
+				<ALTLABEL>Council</ALTLABEL>
+				<ALTLABEL>Council of the European Communities</ALTLABEL>
+			</EVENT_LEGAL_INITIATED_BY_INSTITUTION>
+			<EVENT_LEGAL_DOCUMENT_REFERENCE type="data">
+				<VALUE>CS/2010/11377</VALUE>
+			</EVENT_LEGAL_DOCUMENT_REFERENCE>
+			<ON_AGENDA type="concept">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/authority/fd_600/10004</VALUE>
+					<IDENTIFIER>10004</IDENTIFIER>
+					<TYPE>fd_600</TYPE>
+				</URI>
+				<OP-CODE>10004</OP-CODE>
+				<IDENTIFIER>10004</IDENTIFIER>
+				<PREFLABEL>ITEM "A" ON COUNCIL AGENDA</PREFLABEL>
+				<ALTLABEL>POINT "A" ON COUNCIL AGENDA</ALTLABEL>
+			</ON_AGENDA>
+			<LASTMODIFICATIONDATE type="date">
+				<VALUE>2014-03-14T14:53:11.359+01:00</VALUE>
+				<YEAR>2014</YEAR>
+				<MONTH>03</MONTH>
+				<DAY>14</DAY>
+			</LASTMODIFICATIONDATE>
+			<EVENT_LEGAL_ON_AGENDA_CONCEPT_AGENDA_COUNCIL type="concept">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/authority/fd_600/10004</VALUE>
+					<IDENTIFIER>10004</IDENTIFIER>
+					<TYPE>fd_600</TYPE>
+				</URI>
+				<OP-CODE>10004</OP-CODE>
+				<IDENTIFIER>10004</IDENTIFIER>
+				<PREFLABEL>ITEM "A" ON COUNCIL AGENDA</PREFLABEL>
+				<ALTLABEL>POINT "A" ON COUNCIL AGENDA</ALTLABEL>
+			</EVENT_LEGAL_ON_AGENDA_CONCEPT_AGENDA_COUNCIL>
+			<EVENT_LEGAL_PART_OF_DOSSIER type="link">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/cellar/7980e781-d354-11e1-905c-01aa75ed71a1</VALUE>
+					<IDENTIFIER>7980e781-d354-11e1-905c-01aa75ed71a1</IDENTIFIER>
+					<TYPE>cellar</TYPE>
+				</URI>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/procedure/2009_162</VALUE>
+						<IDENTIFIER>2009_162</IDENTIFIER>
+						<TYPE>procedure</TYPE>
+					</URI>
+				</SAMEAS>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/pegase/198759</VALUE>
+						<IDENTIFIER>198759</IDENTIFIER>
+						<TYPE>pegase</TYPE>
+					</URI>
+				</SAMEAS>
+			</EVENT_LEGAL_PART_OF_DOSSIER>
+			<EVENT_LEGAL_SESSION_COUNCIL type="data">
+				<VALUE>3025</VALUE>
+			</EVENT_LEGAL_SESSION_COUNCIL>
+			<EVENT_LEGAL_DATE type="date">
+				<VALUE>2010-06-29</VALUE>
+				<YEAR>2010</YEAR>
+				<MONTH>06</MONTH>
+				<DAY>29</DAY>
+			</EVENT_LEGAL_DATE>
+			<TYPE type="type">Approbation du Conseil en 1ère  lecture</TYPE>
+		</EVENT>
+		<EVENT>
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/7980e781-d354-11e1-905c-01aa75ed71a1.0008</VALUE>
+				<IDENTIFIER>7980e781-d354-11e1-905c-01aa75ed71a1.0008</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/pegase/198759.405164</VALUE>
+					<IDENTIFIER>198759.405164</IDENTIFIER>
+					<TYPE>pegase</TYPE>
+				</URI>
+			</SAMEAS>
+			<EVENT_REPORTED_BY_PERSON type="link">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/cellar/33ec0e1f-d29a-11e1-905c-01aa75ed71a1</VALUE>
+					<IDENTIFIER>33ec0e1f-d29a-11e1-905c-01aa75ed71a1</IDENTIFIER>
+					<TYPE>cellar</TYPE>
+				</URI>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/agent/Vital%20MOREIRA</VALUE>
+						<IDENTIFIER>Vital MOREIRA</IDENTIFIER>
+						<TYPE>agent</TYPE>
+					</URI>
+				</SAMEAS>
+			</EVENT_REPORTED_BY_PERSON>
+			<EVENT_LEGAL_CONTAINS_WORK type="link">
+				<WORK>
+					<RESOURCE_LEGAL_TYPE type="data">
+						<VALUE>AP</VALUE>
+					</RESOURCE_LEGAL_TYPE>
+					<ID_SECTOR type="data">
+						<VALUE>5</VALUE>
+					</ID_SECTOR>
+					<ID_CELEX type="data">
+						<VALUE>52010AP0169</VALUE>
+					</ID_CELEX>
+					<RESOURCE_LEGAL_ID_CELEX type="data">
+						<VALUE>52010AP0169</VALUE>
+					</RESOURCE_LEGAL_ID_CELEX>
+					<RESOURCE_LEGAL_NUMBER_NATURAL_CELEX type="data">
+						<VALUE>0169</VALUE>
+					</RESOURCE_LEGAL_NUMBER_NATURAL_CELEX>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/862</VALUE>
+								<IDENTIFIER>862</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>862</IDENTIFIER>
+							<PREFLABEL>EU aid</PREFLABEL>
+							<ALTLABEL>aid from the European Union</ALTLABEL>
+							<ALTLABEL>Community aid</ALTLABEL>
+							<ALTLABEL>aid from the EU</ALTLABEL>
+							<ALTLABEL>Community support</ALTLABEL>
+							<ALTLABEL>European Union aid</ALTLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/712</VALUE>
+								<IDENTIFIER>712</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>712</IDENTIFIER>
+							<PREFLABEL>economic support</PREFLABEL>
+							<ALTLABEL>granting of aid</ALTLABEL>
+							<ALTLABEL>subvention</ALTLABEL>
+							<ALTLABEL>aid</ALTLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100146</VALUE>
+								<IDENTIFIER>100146</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>16</IDENTIFIER>
+							<PREFLABEL>16 ECONOMICS</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100185</VALUE>
+								<IDENTIFIER>100185</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>1606</IDENTIFIER>
+							<PREFLABEL>1606 economic policy</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+					<RESOURCE_LEGAL_YEAR type="data">
+						<VALUE>2010</VALUE>
+					</RESOURCE_LEGAL_YEAR>
+					<WORK_DATE_DOCUMENT type="date">
+						<VALUE>2011-05-18</VALUE>
+						<YEAR>2011</YEAR>
+						<MONTH>05</MONTH>
+						<DAY>18</DAY>
+						<COMMENT_ON_DATE type="annotation">{DATVOT|http://publications.europa.eu/resource/authority/fd_365/DATVOT}</COMMENT_ON_DATE>
+						<BUILD_INFO type="annotation">cdm:CDM_2.1.7  tdm:1523  xslt:3945 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:1.1.9 builddate:12/01/2014 14:00:09</BUILD_INFO>
+					</WORK_DATE_DOCUMENT>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/5946</VALUE>
+								<IDENTIFIER>5946</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>5946</IDENTIFIER>
+							<PREFLABEL>Ukraine</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/914</VALUE>
+								<IDENTIFIER>914</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>914</IDENTIFIER>
+							<PREFLABEL>Eastern Europe</PREFLABEL>
+							<ALTLABEL>Central Europe</ALTLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/122</VALUE>
+								<IDENTIFIER>122</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>122</IDENTIFIER>
+							<PREFLABEL>Council of Europe countries</PREFLABEL>
+							<ALTLABEL>Countries of the Council of Europe</ALTLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/5775</VALUE>
+								<IDENTIFIER>5775</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>5775</IDENTIFIER>
+							<PREFLABEL>CIS countries</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100161</VALUE>
+								<IDENTIFIER>100161</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>72</IDENTIFIER>
+							<PREFLABEL>72 GEOGRAPHY</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100277</VALUE>
+								<IDENTIFIER>100277</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>7206</IDENTIFIER>
+							<PREFLABEL>7206 Europe</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100283</VALUE>
+								<IDENTIFIER>100283</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>7236</IDENTIFIER>
+							<PREFLABEL>7236 political geography</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/922</VALUE>
+								<IDENTIFIER>922</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>922</IDENTIFIER>
+							<PREFLABEL>financial aid</PREFLABEL>
+							<ALTLABEL>capital grant</ALTLABEL>
+							<ALTLABEL>financial grant</ALTLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/2460</VALUE>
+								<IDENTIFIER>2460</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>2460</IDENTIFIER>
+							<PREFLABEL>aid policy</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100143</VALUE>
+								<IDENTIFIER>100143</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>08</IDENTIFIER>
+							<PREFLABEL>08 INTERNATIONAL RELATIONS</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100171</VALUE>
+								<IDENTIFIER>100171</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>0811</IDENTIFIER>
+							<PREFLABEL>0811 cooperation policy</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/5146</VALUE>
+								<IDENTIFIER>5146</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>5146</IDENTIFIER>
+							<PREFLABEL>economic situation</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/84</VALUE>
+								<IDENTIFIER>84</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>84</IDENTIFIER>
+							<PREFLABEL>economic conditions</PREFLABEL>
+							<ALTLABEL>economic aspect</ALTLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100146</VALUE>
+								<IDENTIFIER>100146</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>16</IDENTIFIER>
+							<PREFLABEL>16 ECONOMICS</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100186</VALUE>
+								<IDENTIFIER>100186</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>1611</IDENTIFIER>
+							<PREFLABEL>1611 economic growth</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+					<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_level">
+						<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1 type="concept">
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/authority/fd_070/EXT</VALUE>
+								<IDENTIFIER>EXT</IDENTIFIER>
+								<TYPE>fd_070</TYPE>
+							</URI>
+							<OP-CODE>EXT</OP-CODE>
+							<IDENTIFIER>EXT</IDENTIFIER>
+							<PREFLABEL>External relations</PREFLABEL>
+						</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1>
+					</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER>
+					<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_level">
+						<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1 type="concept">
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/authority/fd_070/ASSI</VALUE>
+								<IDENTIFIER>ASSI</IDENTIFIER>
+								<TYPE>fd_070</TYPE>
+							</URI>
+							<OP-CODE>ASSI</OP-CODE>
+							<IDENTIFIER>ASSI</IDENTIFIER>
+							<PREFLABEL>Assistance</PREFLABEL>
+						</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1>
+					</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER>
+					<EXPRESSION>
+						<EXPRESSION_USES_LANGUAGE type="concept">
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/authority/language/ENG</VALUE>
+								<IDENTIFIER>ENG</IDENTIFIER>
+								<TYPE>language</TYPE>
+							</URI>
+							<OP-CODE>ENG</OP-CODE>
+							<IDENTIFIER>ENG</IDENTIFIER>
+							<PREFLABEL>English</PREFLABEL>
+						</EXPRESSION_USES_LANGUAGE>
+						<EXPRESSION_TITLE type="data">
+							<VALUE>Macro-financial assistance for Ukraine ***I European Parliament legislative resolution of 18 May 2010 on the proposal for a decision of the European Parliament and of the Council providing macro-financial assistance to Ukraine (COM(2009)0580 – C7-0277/2009 – 2009/0162(COD))#P7_TC1-COD(2009)0162 Position of the European Parliament adopted at first reading on 18 May 2010 with a view to the adoption of Decision No …/2010/EU of the European Parliament and of the Council providing macro-financial assistance to Ukraine</VALUE>
+						</EXPRESSION_TITLE>
+						<MANIFESTATION manifestation-type="pdfa1a"/>
+						<MANIFESTATION manifestation-type="xhtml"/>
+						<MANIFESTATION manifestation-type="print">
+							<MANIFESTATION_PART_OF_MANIFESTATION type="embedded_link">
+								<SAMEAS>
+									<URI>
+										<VALUE>http://publications.europa.eu/resource/oj/JOC_2011_161_E.ENG.print</VALUE>
+										<IDENTIFIER>JOC_2011_161_E.ENG.print</IDENTIFIER>
+										<TYPE>oj</TYPE>
+									</URI>
+								</SAMEAS>
+							</MANIFESTATION_PART_OF_MANIFESTATION>
+							<MANIFESTATION_OFFICIAL-JOURNAL_PART_PAGE_LAST type="data">
+								<VALUE>0257</VALUE>
+							</MANIFESTATION_OFFICIAL-JOURNAL_PART_PAGE_LAST>
+							<MANIFESTATION_OFFICIAL-JOURNAL_PART_PAGE_FIRST type="data">
+								<VALUE>0256</VALUE>
+							</MANIFESTATION_OFFICIAL-JOURNAL_PART_PAGE_FIRST>
+						</MANIFESTATION>
+						<MANIFESTATION manifestation-type="fmx4"/>
+					</EXPRESSION>
+					<TYPE>cdm:work</TYPE>
+					<TYPE>cdm:resource_legal</TYPE>
+					<TYPE>cdm:resolution_legislative_ep</TYPE>
+					<TYPE>cdm:act_preparatory</TYPE>
+				</WORK>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/cellar/f7f3366d-1e3b-4101-a675-125848917580</VALUE>
+					<IDENTIFIER>f7f3366d-1e3b-4101-a675-125848917580</IDENTIFIER>
+					<TYPE>cellar</TYPE>
+				</URI>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/oj/JOC_2011_161_E_0256_01</VALUE>
+						<IDENTIFIER>JOC_2011_161_E_0256_01</IDENTIFIER>
+						<TYPE>oj</TYPE>
+					</URI>
+				</SAMEAS>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/celex/52010AP0169</VALUE>
+						<IDENTIFIER>52010AP0169</IDENTIFIER>
+						<TYPE>celex</TYPE>
+					</URI>
+				</SAMEAS>
+			</EVENT_LEGAL_CONTAINS_WORK>
+			<EVENT_LEGAL_INITIATED_BY_INSTITUTION type="concept">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/authority/corporate-body/EP</VALUE>
+					<IDENTIFIER>EP</IDENTIFIER>
+					<TYPE>corporate-body</TYPE>
+				</URI>
+				<OP-CODE>EP</OP-CODE>
+				<IDENTIFIER>EP</IDENTIFIER>
+				<PREFLABEL>European Parliament</PREFLABEL>
+				<ALTLABEL>Common Assembly of the European Coal and Steel Community</ALTLABEL>
+				<ALTLABEL>Common Assembly</ALTLABEL>
+				<ALTLABEL>European Parliamentary Assembly</ALTLABEL>
+				<ALTLABEL>EP</ALTLABEL>
+			</EVENT_LEGAL_INITIATED_BY_INSTITUTION>
+			<EVENT_LEGAL_DATE type="date">
+				<VALUE>2010-05-18</VALUE>
+				<YEAR>2010</YEAR>
+				<MONTH>05</MONTH>
+				<DAY>18</DAY>
+			</EVENT_LEGAL_DATE>
+			<EVENT_LEGAL_DOCUMENT_REFERENCE type="data">
+				<VALUE>A7/2010/58</VALUE>
+			</EVENT_LEGAL_DOCUMENT_REFERENCE>
+			<EVENT_LEGAL_RESPONSIBILITY_OF_PERSON type="link">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/cellar/fd728e4d-d1be-11e1-905c-01aa75ed71a1</VALUE>
+					<IDENTIFIER>fd728e4d-d1be-11e1-905c-01aa75ed71a1</IDENTIFIER>
+					<TYPE>cellar</TYPE>
+				</URI>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/agent/Olli%20REHN</VALUE>
+						<IDENTIFIER>Olli REHN</IDENTIFIER>
+						<TYPE>agent</TYPE>
+					</URI>
+				</SAMEAS>
+			</EVENT_LEGAL_RESPONSIBILITY_OF_PERSON>
+			<REPORTED_BY type="link">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/cellar/33ec0e1f-d29a-11e1-905c-01aa75ed71a1</VALUE>
+					<IDENTIFIER>33ec0e1f-d29a-11e1-905c-01aa75ed71a1</IDENTIFIER>
+					<TYPE>cellar</TYPE>
+				</URI>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/agent/Vital%20MOREIRA</VALUE>
+						<IDENTIFIER>Vital MOREIRA</IDENTIFIER>
+						<TYPE>agent</TYPE>
+					</URI>
+				</SAMEAS>
+			</REPORTED_BY>
+			<DATE type="date">
+				<VALUE>2010-05-18</VALUE>
+				<YEAR>2010</YEAR>
+				<MONTH>05</MONTH>
+				<DAY>18</DAY>
+			</DATE>
+			<EVENT_LEGAL_DOCUMENT_REFERENCE type="data">
+				<VALUE>JO C E/2011/161/256</VALUE>
+			</EVENT_LEGAL_DOCUMENT_REFERENCE>
+			<CONTAINS type="link">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/cellar/f7f3366d-1e3b-4101-a675-125848917580</VALUE>
+					<IDENTIFIER>f7f3366d-1e3b-4101-a675-125848917580</IDENTIFIER>
+					<TYPE>cellar</TYPE>
+				</URI>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/oj/JOC_2011_161_E_0256_01</VALUE>
+						<IDENTIFIER>JOC_2011_161_E_0256_01</IDENTIFIER>
+						<TYPE>oj</TYPE>
+					</URI>
+				</SAMEAS>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/celex/52010AP0169</VALUE>
+						<IDENTIFIER>52010AP0169</IDENTIFIER>
+						<TYPE>celex</TYPE>
+					</URI>
+				</SAMEAS>
+			</CONTAINS>
+			<EVENT_LEGAL_PART_OF_DOSSIER type="link">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/cellar/7980e781-d354-11e1-905c-01aa75ed71a1</VALUE>
+					<IDENTIFIER>7980e781-d354-11e1-905c-01aa75ed71a1</IDENTIFIER>
+					<TYPE>cellar</TYPE>
+				</URI>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/procedure/2009_162</VALUE>
+						<IDENTIFIER>2009_162</IDENTIFIER>
+						<TYPE>procedure</TYPE>
+					</URI>
+				</SAMEAS>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/pegase/198759</VALUE>
+						<IDENTIFIER>198759</IDENTIFIER>
+						<TYPE>pegase</TYPE>
+					</URI>
+				</SAMEAS>
+			</EVENT_LEGAL_PART_OF_DOSSIER>
+			<EVENT_LEGAL_REPORTED_BY_PERSON type="link">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/cellar/33ec0e1f-d29a-11e1-905c-01aa75ed71a1</VALUE>
+					<IDENTIFIER>33ec0e1f-d29a-11e1-905c-01aa75ed71a1</IDENTIFIER>
+					<TYPE>cellar</TYPE>
+				</URI>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/agent/Vital%20MOREIRA</VALUE>
+						<IDENTIFIER>Vital MOREIRA</IDENTIFIER>
+						<TYPE>agent</TYPE>
+					</URI>
+				</SAMEAS>
+			</EVENT_LEGAL_REPORTED_BY_PERSON>
+			<CREATIONDATE type="date">
+				<VALUE>1001-01-01T00:00:00.000+00:00</VALUE>
+				<YEAR>1001</YEAR>
+				<MONTH>01</MONTH>
+				<DAY>01</DAY>
+			</CREATIONDATE>
+			<EVENT_LEGAL_DOCUMENT_REFERENCE type="data">
+				<VALUE>TA/2010/169/P7</VALUE>
+			</EVENT_LEGAL_DOCUMENT_REFERENCE>
+			<EVENT_LEGAL_USES_CONCEPT_TYPE_DECISION type="concept">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/authority/fd_602/1010</VALUE>
+					<IDENTIFIER>1010</IDENTIFIER>
+					<TYPE>fd_602</TYPE>
+				</URI>
+				<OP-CODE>1010</OP-CODE>
+				<IDENTIFIER>1010</IDENTIFIER>
+				<PREFLABEL>Approval with amendments</PREFLABEL>
+				<ALTLABEL>Approval with amendments</ALTLABEL>
+			</EVENT_LEGAL_USES_CONCEPT_TYPE_DECISION>
+			<LASTMODIFICATIONDATE type="date">
+				<VALUE>2019-10-08T15:39:12.107+02:00</VALUE>
+				<YEAR>2019</YEAR>
+				<MONTH>10</MONTH>
+				<DAY>08</DAY>
+			</LASTMODIFICATIONDATE>
+			<EVENT_LEGAL_HAS_TYPE_CONCEPT_TYPE_EVENT_LEGAL type="concept">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/authority/event/OPI_R1_byEP</VALUE>
+					<IDENTIFIER>OPI_R1_byEP</IDENTIFIER>
+					<TYPE>event</TYPE>
+				</URI>
+				<OP-CODE>OPI_R1_byEP</OP-CODE>
+				<IDENTIFIER>OPI_R1_byEP</IDENTIFIER>
+				<PREFLABEL>EP opinion on 1st reading</PREFLABEL>
+				<ALTLABEL>EP opinion 1st rdg</ALTLABEL>
+			</EVENT_LEGAL_HAS_TYPE_CONCEPT_TYPE_EVENT_LEGAL>
+			<TYPE type="type">Avis du Parlement européen en 1ère lecture</TYPE>
+		</EVENT>
+		<EVENT>
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/7980e781-d354-11e1-905c-01aa75ed71a1.0010</VALUE>
+				<IDENTIFIER>7980e781-d354-11e1-905c-01aa75ed71a1.0010</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/pegase/198759.406206</VALUE>
+					<IDENTIFIER>198759.406206</IDENTIFIER>
+					<TYPE>pegase</TYPE>
+				</URI>
+			</SAMEAS>
+			<EVENT_LEGAL_INITIATED_BY_INSTITUTION type="concept">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/authority/corporate-body/EP</VALUE>
+					<IDENTIFIER>EP</IDENTIFIER>
+					<TYPE>corporate-body</TYPE>
+				</URI>
+				<OP-CODE>EP</OP-CODE>
+				<IDENTIFIER>EP</IDENTIFIER>
+				<PREFLABEL>European Parliament</PREFLABEL>
+				<ALTLABEL>Common Assembly of the European Coal and Steel Community</ALTLABEL>
+				<ALTLABEL>Common Assembly</ALTLABEL>
+				<ALTLABEL>European Parliamentary Assembly</ALTLABEL>
+				<ALTLABEL>EP</ALTLABEL>
+			</EVENT_LEGAL_INITIATED_BY_INSTITUTION>
+			<EVENT_LEGAL_DOCUMENT_REFERENCE type="data">
+				<VALUE>PE-CONS/2010/20</VALUE>
+			</EVENT_LEGAL_DOCUMENT_REFERENCE>
+			<LASTMODIFICATIONDATE type="date">
+				<VALUE>2019-10-08T15:39:12.108+02:00</VALUE>
+				<YEAR>2019</YEAR>
+				<MONTH>10</MONTH>
+				<DAY>08</DAY>
+			</LASTMODIFICATIONDATE>
+			<EVENT_LEGAL_DATE type="date">
+				<VALUE>2010-07-07</VALUE>
+				<YEAR>2010</YEAR>
+				<MONTH>07</MONTH>
+				<DAY>07</DAY>
+			</EVENT_LEGAL_DATE>
+			<CONTAINS type="link">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/cellar/3055b8ca-9faf-47ad-837b-d16508381c7a</VALUE>
+					<IDENTIFIER>3055b8ca-9faf-47ad-837b-d16508381c7a</IDENTIFIER>
+					<TYPE>cellar</TYPE>
+				</URI>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/eli/dec/2010/388/oj</VALUE>
+						<IDENTIFIER>dec:2010:388:oj</IDENTIFIER>
+						<TYPE>eli</TYPE>
+					</URI>
+				</SAMEAS>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/oj/JOL_2010_179_R_0001_01</VALUE>
+						<IDENTIFIER>JOL_2010_179_R_0001_01</IDENTIFIER>
+						<TYPE>oj</TYPE>
+					</URI>
+				</SAMEAS>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/celex/32010D0388</VALUE>
+						<IDENTIFIER>32010D0388</IDENTIFIER>
+						<TYPE>celex</TYPE>
+					</URI>
+				</SAMEAS>
+			</CONTAINS>
+			<CREATIONDATE type="date">
+				<VALUE>1001-01-01T00:00:00.000+00:00</VALUE>
+				<YEAR>1001</YEAR>
+				<MONTH>01</MONTH>
+				<DAY>01</DAY>
+			</CREATIONDATE>
+			<EVENT_LEGAL_DOCUMENT_REFERENCE type="data">
+				<VALUE>JO L/2010/189/28</VALUE>
+			</EVENT_LEGAL_DOCUMENT_REFERENCE>
+			<EVENT_LEGAL_INITIATED_BY_INSTITUTION type="concept">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/authority/corporate-body/CONSIL</VALUE>
+					<IDENTIFIER>CONSIL</IDENTIFIER>
+					<TYPE>corporate-body</TYPE>
+				</URI>
+				<OP-CODE>CONSIL</OP-CODE>
+				<IDENTIFIER>CONSIL</IDENTIFIER>
+				<PREFLABEL>Council of the European Union</PREFLABEL>
+				<ALTLABEL>Council</ALTLABEL>
+				<ALTLABEL>Council of the European Communities</ALTLABEL>
+			</EVENT_LEGAL_INITIATED_BY_INSTITUTION>
+			<DATE type="date">
+				<VALUE>2010-07-07</VALUE>
+				<YEAR>2010</YEAR>
+				<MONTH>07</MONTH>
+				<DAY>07</DAY>
+			</DATE>
+			<EVENT_LEGAL_CONTAINS_WORK type="link">
+				<WORK>
+					<RESOURCE_LEGAL_YEAR type="data">
+						<VALUE>2010</VALUE>
+					</RESOURCE_LEGAL_YEAR>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/862</VALUE>
+								<IDENTIFIER>862</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>862</IDENTIFIER>
+							<PREFLABEL>EU aid</PREFLABEL>
+							<ALTLABEL>aid from the European Union</ALTLABEL>
+							<ALTLABEL>Community aid</ALTLABEL>
+							<ALTLABEL>aid from the EU</ALTLABEL>
+							<ALTLABEL>Community support</ALTLABEL>
+							<ALTLABEL>European Union aid</ALTLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/712</VALUE>
+								<IDENTIFIER>712</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>712</IDENTIFIER>
+							<PREFLABEL>economic support</PREFLABEL>
+							<ALTLABEL>granting of aid</ALTLABEL>
+							<ALTLABEL>subvention</ALTLABEL>
+							<ALTLABEL>aid</ALTLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100146</VALUE>
+								<IDENTIFIER>100146</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>16</IDENTIFIER>
+							<PREFLABEL>16 ECONOMICS</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100185</VALUE>
+								<IDENTIFIER>100185</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>1606</IDENTIFIER>
+							<PREFLABEL>1606 economic policy</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+					<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_level">
+						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_3 type="concept">
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/authority/fd_555/115020</VALUE>
+								<IDENTIFIER>115020</IDENTIFIER>
+								<TYPE>fd_555</TYPE>
+							</URI>
+							<OP-CODE>115020</OP-CODE>
+							<IDENTIFIER>115020</IDENTIFIER>
+							<PREFLABEL>Financial and economic Aid</PREFLABEL>
+						</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_3>
+						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_1 type="concept">
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/authority/fd_555/11</VALUE>
+								<IDENTIFIER>11</IDENTIFIER>
+								<TYPE>fd_555</TYPE>
+							</URI>
+							<OP-CODE>11</OP-CODE>
+							<IDENTIFIER>11</IDENTIFIER>
+							<PREFLABEL>External relations</PREFLABEL>
+						</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_1>
+						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_2 type="concept">
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/authority/fd_555/1150</VALUE>
+								<IDENTIFIER>1150</IDENTIFIER>
+								<TYPE>fd_555</TYPE>
+							</URI>
+							<OP-CODE>1150</OP-CODE>
+							<IDENTIFIER>1150</IDENTIFIER>
+							<PREFLABEL>Action in favour of countries in transition</PREFLABEL>
+						</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_2>
+					</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/5946</VALUE>
+								<IDENTIFIER>5946</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>5946</IDENTIFIER>
+							<PREFLABEL>Ukraine</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/914</VALUE>
+								<IDENTIFIER>914</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>914</IDENTIFIER>
+							<PREFLABEL>Eastern Europe</PREFLABEL>
+							<ALTLABEL>Central Europe</ALTLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/122</VALUE>
+								<IDENTIFIER>122</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>122</IDENTIFIER>
+							<PREFLABEL>Council of Europe countries</PREFLABEL>
+							<ALTLABEL>Countries of the Council of Europe</ALTLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/5775</VALUE>
+								<IDENTIFIER>5775</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>5775</IDENTIFIER>
+							<PREFLABEL>CIS countries</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100161</VALUE>
+								<IDENTIFIER>100161</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>72</IDENTIFIER>
+							<PREFLABEL>72 GEOGRAPHY</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100277</VALUE>
+								<IDENTIFIER>100277</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>7206</IDENTIFIER>
+							<PREFLABEL>7206 Europe</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100283</VALUE>
+								<IDENTIFIER>100283</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>7236</IDENTIFIER>
+							<PREFLABEL>7236 political geography</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+					<RESOURCE_LEGAL_TYPE type="data">
+						<VALUE>D</VALUE>
+					</RESOURCE_LEGAL_TYPE>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/7932</VALUE>
+								<IDENTIFIER>7932</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>7932</IDENTIFIER>
+							<PREFLABEL>European neighbourhood policy</PREFLABEL>
+							<ALTLABEL>ENP</ALTLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/4040</VALUE>
+								<IDENTIFIER>4040</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>4040</IDENTIFIER>
+							<PREFLABEL>EU relations</PREFLABEL>
+							<ALTLABEL>Community relations</ALTLABEL>
+							<ALTLABEL>European Union relations</ALTLABEL>
+							<ALTLABEL>EC external relations</ALTLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100144</VALUE>
+								<IDENTIFIER>100144</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>10</IDENTIFIER>
+							<PREFLABEL>10 EUROPEAN UNION</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100176</VALUE>
+								<IDENTIFIER>100176</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>1016</IDENTIFIER>
+							<PREFLABEL>1016 European construction</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/1728</VALUE>
+								<IDENTIFIER>1728</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>1728</IDENTIFIER>
+							<PREFLABEL>macroeconomics</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/1800</VALUE>
+								<IDENTIFIER>1800</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>1800</IDENTIFIER>
+							<PREFLABEL>economic analysis</PREFLABEL>
+							<ALTLABEL>economic study</ALTLABEL>
+							<ALTLABEL>economic evaluation</ALTLABEL>
+							<ALTLABEL>analysis of economic activity</ALTLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100146</VALUE>
+								<IDENTIFIER>100146</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>16</IDENTIFIER>
+							<PREFLABEL>16 ECONOMICS</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100190</VALUE>
+								<IDENTIFIER>100190</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>1631</IDENTIFIER>
+							<PREFLABEL>1631 economic analysis</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/4250</VALUE>
+								<IDENTIFIER>4250</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>4250</IDENTIFIER>
+							<PREFLABEL>economic stabilisation</PREFLABEL>
+							<ALTLABEL>economic stability</ALTLABEL>
+							<ALTLABEL>economic stabilization</ALTLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/335</VALUE>
+								<IDENTIFIER>335</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>335</IDENTIFIER>
+							<PREFLABEL>economic cycle</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100146</VALUE>
+								<IDENTIFIER>100146</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>16</IDENTIFIER>
+							<PREFLABEL>16 ECONOMICS</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100186</VALUE>
+								<IDENTIFIER>100186</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>1611</IDENTIFIER>
+							<PREFLABEL>1611 economic growth</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+					<ID_CELEX type="data">
+						<VALUE>32010D0388</VALUE>
+					</ID_CELEX>
+					<RESOURCE_LEGAL_ID_CELEX type="data">
+						<VALUE>32010D0388</VALUE>
+					</RESOURCE_LEGAL_ID_CELEX>
+					<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_level">
+						<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1 type="concept">
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/authority/fd_070/EXT</VALUE>
+								<IDENTIFIER>EXT</IDENTIFIER>
+								<TYPE>fd_070</TYPE>
+							</URI>
+							<OP-CODE>EXT</OP-CODE>
+							<IDENTIFIER>EXT</IDENTIFIER>
+							<PREFLABEL>External relations</PREFLABEL>
+						</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1>
+					</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER>
+					<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_level">
+						<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1 type="concept">
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/authority/fd_070/ASSI</VALUE>
+								<IDENTIFIER>ASSI</IDENTIFIER>
+								<TYPE>fd_070</TYPE>
+							</URI>
+							<OP-CODE>ASSI</OP-CODE>
+							<IDENTIFIER>ASSI</IDENTIFIER>
+							<PREFLABEL>Assistance</PREFLABEL>
+						</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1>
+					</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER>
+					<WORK_HAS_RESOURCE-TYPE type="concept">
+						<URI>
+							<VALUE>http://publications.europa.eu/resource/authority/resource-type/DEC</VALUE>
+							<IDENTIFIER>DEC</IDENTIFIER>
+							<TYPE>resource-type</TYPE>
+						</URI>
+						<OP-CODE>DEC</OP-CODE>
+						<IDENTIFIER>DEC</IDENTIFIER>
+						<PREFLABEL>Decision</PREFLABEL>
+						<ALTLABEL>Decisions</ALTLABEL>
+					</WORK_HAS_RESOURCE-TYPE>
+					<WORK_DATE_DOCUMENT type="date">
+						<VALUE>2010-07-07</VALUE>
+						<YEAR>2010</YEAR>
+						<MONTH>07</MONTH>
+						<DAY>07</DAY>
+					</WORK_DATE_DOCUMENT>
+					<RESOURCE_LEGAL_NUMBER_NATURAL_CELEX type="data">
+						<VALUE>0388</VALUE>
+					</RESOURCE_LEGAL_NUMBER_NATURAL_CELEX>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/922</VALUE>
+								<IDENTIFIER>922</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>922</IDENTIFIER>
+							<PREFLABEL>financial aid</PREFLABEL>
+							<ALTLABEL>capital grant</ALTLABEL>
+							<ALTLABEL>financial grant</ALTLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/2460</VALUE>
+								<IDENTIFIER>2460</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>2460</IDENTIFIER>
+							<PREFLABEL>aid policy</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100143</VALUE>
+								<IDENTIFIER>100143</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>08</IDENTIFIER>
+							<PREFLABEL>08 INTERNATIONAL RELATIONS</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100171</VALUE>
+								<IDENTIFIER>100171</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>0811</IDENTIFIER>
+							<PREFLABEL>0811 cooperation policy</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+					<ID_SECTOR type="data">
+						<VALUE>3</VALUE>
+					</ID_SECTOR>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/3194</VALUE>
+								<IDENTIFIER>3194</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>3194</IDENTIFIER>
+							<PREFLABEL>reflation</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/2497</VALUE>
+								<IDENTIFIER>2497</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>2497</IDENTIFIER>
+							<PREFLABEL>economic policy</PREFLABEL>
+							<ALTLABEL>economic approach</ALTLABEL>
+							<ALTLABEL>economic choice</ALTLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100146</VALUE>
+								<IDENTIFIER>100146</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>16</IDENTIFIER>
+							<PREFLABEL>16 ECONOMICS</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100185</VALUE>
+								<IDENTIFIER>100185</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>1606</IDENTIFIER>
+							<PREFLABEL>1606 economic policy</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/5146</VALUE>
+								<IDENTIFIER>5146</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>5146</IDENTIFIER>
+							<PREFLABEL>economic situation</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/84</VALUE>
+								<IDENTIFIER>84</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>84</IDENTIFIER>
+							<PREFLABEL>economic conditions</PREFLABEL>
+							<ALTLABEL>economic aspect</ALTLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100146</VALUE>
+								<IDENTIFIER>100146</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>16</IDENTIFIER>
+							<PREFLABEL>16 ECONOMICS</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100186</VALUE>
+								<IDENTIFIER>100186</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>1611</IDENTIFIER>
+							<PREFLABEL>1611 economic growth</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+					<TYPE>cdm:legislation_secondary</TYPE>
+					<TYPE>cdm:decision</TYPE>
+					<TYPE>cdm:resource_legal</TYPE>
+					<TYPE>cdm:work</TYPE>
+					<EXPRESSION>
+						<EXPRESSION_MANIFESTED_BY_MANIFESTATION type="embedded_link">
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/cellar/3055b8ca-9faf-47ad-837b-d16508381c7a.0009.01</VALUE>
+								<IDENTIFIER>3055b8ca-9faf-47ad-837b-d16508381c7a.0009.01</IDENTIFIER>
+								<TYPE>cellar</TYPE>
+							</URI>
+							<SAMEAS>
+								<URI>
+									<VALUE>http://publications.europa.eu/resource/oj/JOL_2010_179_R_0001_01.ENG.fmx4</VALUE>
+									<IDENTIFIER>JOL_2010_179_R_0001_01.ENG.fmx4</IDENTIFIER>
+									<TYPE>oj</TYPE>
+								</URI>
+							</SAMEAS>
+						</EXPRESSION_MANIFESTED_BY_MANIFESTATION>
+						<EXPRESSION_MANIFESTED_BY_MANIFESTATION type="embedded_link">
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/cellar/3055b8ca-9faf-47ad-837b-d16508381c7a.0009.04</VALUE>
+								<IDENTIFIER>3055b8ca-9faf-47ad-837b-d16508381c7a.0009.04</IDENTIFIER>
+								<TYPE>cellar</TYPE>
+							</URI>
+							<SAMEAS>
+								<URI>
+									<VALUE>http://publications.europa.eu/resource/oj/JOL_2010_179_R_0001_01.ENG.print</VALUE>
+									<IDENTIFIER>JOL_2010_179_R_0001_01.ENG.print</IDENTIFIER>
+									<TYPE>oj</TYPE>
+								</URI>
+							</SAMEAS>
+						</EXPRESSION_MANIFESTED_BY_MANIFESTATION>
+						<EXPRESSION_USES_LANGUAGE type="concept">
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/authority/language/ENG</VALUE>
+								<IDENTIFIER>ENG</IDENTIFIER>
+								<TYPE>language</TYPE>
+							</URI>
+							<OP-CODE>ENG</OP-CODE>
+							<IDENTIFIER>ENG</IDENTIFIER>
+							<PREFLABEL>English</PREFLABEL>
+						</EXPRESSION_USES_LANGUAGE>
+						<EXPRESSION_TITLE type="data">
+							<VALUE>Decision No 388/2010/EU of the European Parliament and of the Council of 7 July 2010 providing macrofinancial assistance to Ukraine</VALUE>
+						</EXPRESSION_TITLE>
+						<EXPRESSION_MANIFESTED_BY_MANIFESTATION type="embedded_link">
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/cellar/3055b8ca-9faf-47ad-837b-d16508381c7a.0009.03</VALUE>
+								<IDENTIFIER>3055b8ca-9faf-47ad-837b-d16508381c7a.0009.03</IDENTIFIER>
+								<TYPE>cellar</TYPE>
+							</URI>
+							<SAMEAS>
+								<URI>
+									<VALUE>http://publications.europa.eu/resource/oj/JOL_2010_179_R_0001_01.ENG.xhtml</VALUE>
+									<IDENTIFIER>JOL_2010_179_R_0001_01.ENG.xhtml</IDENTIFIER>
+									<TYPE>oj</TYPE>
+								</URI>
+							</SAMEAS>
+						</EXPRESSION_MANIFESTED_BY_MANIFESTATION>
+						<EXPRESSION_MANIFESTED_BY_MANIFESTATION type="embedded_link">
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/cellar/3055b8ca-9faf-47ad-837b-d16508381c7a.0009.02</VALUE>
+								<IDENTIFIER>3055b8ca-9faf-47ad-837b-d16508381c7a.0009.02</IDENTIFIER>
+								<TYPE>cellar</TYPE>
+							</URI>
+							<SAMEAS>
+								<URI>
+									<VALUE>http://publications.europa.eu/resource/oj/JOL_2010_179_R_0001_01.ENG.pdfa1a</VALUE>
+									<IDENTIFIER>JOL_2010_179_R_0001_01.ENG.pdfa1a</IDENTIFIER>
+									<TYPE>oj</TYPE>
+								</URI>
+							</SAMEAS>
+						</EXPRESSION_MANIFESTED_BY_MANIFESTATION>
+						<MANIFESTATION manifestation-type="fmx4"/>
+						<MANIFESTATION manifestation-type="pdfa1a"/>
+						<MANIFESTATION manifestation-type="xhtml"/>
+						<MANIFESTATION manifestation-type="print">
+							<MANIFESTATION_PART_OF_MANIFESTATION type="embedded_link">
+								<SAMEAS>
+									<URI>
+										<VALUE>http://publications.europa.eu/resource/oj/JOL_2010_179_R.ENG.print</VALUE>
+										<IDENTIFIER>JOL_2010_179_R.ENG.print</IDENTIFIER>
+										<TYPE>oj</TYPE>
+									</URI>
+								</SAMEAS>
+							</MANIFESTATION_PART_OF_MANIFESTATION>
+							<MANIFESTATION_OFFICIAL-JOURNAL_PART_PAGE_FIRST type="data">
+								<VALUE>0001</VALUE>
+							</MANIFESTATION_OFFICIAL-JOURNAL_PART_PAGE_FIRST>
+							<MANIFESTATION_OFFICIAL-JOURNAL_PART_PAGE_LAST type="data">
+								<VALUE>0003</VALUE>
+							</MANIFESTATION_OFFICIAL-JOURNAL_PART_PAGE_LAST>
+						</MANIFESTATION>
+					</EXPRESSION>
+				</WORK>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/cellar/3055b8ca-9faf-47ad-837b-d16508381c7a</VALUE>
+					<IDENTIFIER>3055b8ca-9faf-47ad-837b-d16508381c7a</IDENTIFIER>
+					<TYPE>cellar</TYPE>
+				</URI>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/eli/dec/2010/388/oj</VALUE>
+						<IDENTIFIER>dec:2010:388:oj</IDENTIFIER>
+						<TYPE>eli</TYPE>
+					</URI>
+				</SAMEAS>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/oj/JOL_2010_179_R_0001_01</VALUE>
+						<IDENTIFIER>JOL_2010_179_R_0001_01</IDENTIFIER>
+						<TYPE>oj</TYPE>
+					</URI>
+				</SAMEAS>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/celex/32010D0388</VALUE>
+						<IDENTIFIER>32010D0388</IDENTIFIER>
+						<TYPE>celex</TYPE>
+					</URI>
+				</SAMEAS>
+			</EVENT_LEGAL_CONTAINS_WORK>
+			<EVENT_LEGAL_HAS_TYPE_CONCEPT_TYPE_EVENT_LEGAL type="concept">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/authority/event/SIGN_byEP_CONSIL</VALUE>
+					<IDENTIFIER>SIGN_byEP_CONSIL</IDENTIFIER>
+					<TYPE>event</TYPE>
+				</URI>
+				<OP-CODE>SIGN_byEP_CONSIL</OP-CODE>
+				<IDENTIFIER>SIGN_byEP_CONSIL</IDENTIFIER>
+				<PREFLABEL>Signature by the President of the EP and by the President of the Council</PREFLABEL>
+				<ALTLABEL>Signature by EP and Council</ALTLABEL>
+			</EVENT_LEGAL_HAS_TYPE_CONCEPT_TYPE_EVENT_LEGAL>
+			<EVENT_LEGAL_WAS_HISTORICALLY_ABOUT_CONCEPT_TYPE_DOSSIER type="concept">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/authority/fd_612/1085</VALUE>
+					<IDENTIFIER>1085</IDENTIFIER>
+					<TYPE>fd_612</TYPE>
+				</URI>
+				<OP-CODE>1085</OP-CODE>
+				<IDENTIFIER>1085</IDENTIFIER>
+				<PREFLABEL>Decision</PREFLABEL>
+				<ALTLABEL>Decision</ALTLABEL>
+			</EVENT_LEGAL_WAS_HISTORICALLY_ABOUT_CONCEPT_TYPE_DOSSIER>
+			<EVENT_LEGAL_PART_OF_DOSSIER type="link">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/cellar/7980e781-d354-11e1-905c-01aa75ed71a1</VALUE>
+					<IDENTIFIER>7980e781-d354-11e1-905c-01aa75ed71a1</IDENTIFIER>
+					<TYPE>cellar</TYPE>
+				</URI>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/procedure/2009_162</VALUE>
+						<IDENTIFIER>2009_162</IDENTIFIER>
+						<TYPE>procedure</TYPE>
+					</URI>
+				</SAMEAS>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/pegase/198759</VALUE>
+						<IDENTIFIER>198759</IDENTIFIER>
+						<TYPE>pegase</TYPE>
+					</URI>
+				</SAMEAS>
+			</EVENT_LEGAL_PART_OF_DOSSIER>
+			<EVENT_LEGAL_DOCUMENT_REFERENCE type="data">
+				<VALUE>JO L/2010/179/1</VALUE>
+			</EVENT_LEGAL_DOCUMENT_REFERENCE>
+			<TYPE type="type">Signature par le Parlement européen et le Conseil</TYPE>
+		</EVENT>
+		<EVENT>
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/7980e781-d354-11e1-905c-01aa75ed71a1.0002</VALUE>
+				<IDENTIFIER>7980e781-d354-11e1-905c-01aa75ed71a1.0002</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/pegase/198759.402253</VALUE>
+					<IDENTIFIER>198759.402253</IDENTIFIER>
+					<TYPE>pegase</TYPE>
+				</URI>
+			</SAMEAS>
+			<CONTAINS type="link">
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/oj/JOC_2011_026_R_0015_01</VALUE>
+						<IDENTIFIER>JOC_2011_026_R_0015_01</IDENTIFIER>
+						<TYPE>oj</TYPE>
+					</URI>
+				</SAMEAS>
+			</CONTAINS>
+			<EVENT_LEGAL_HAS_TYPE_CONCEPT_TYPE_EVENT_LEGAL type="concept">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/authority/event/ADP_byCOM</VALUE>
+					<IDENTIFIER>ADP_byCOM</IDENTIFIER>
+					<TYPE>event</TYPE>
+				</URI>
+				<OP-CODE>ADP_byCOM</OP-CODE>
+				<IDENTIFIER>ADP_byCOM</IDENTIFIER>
+				<PREFLABEL>Adoption by Commission</PREFLABEL>
+				<ALTLABEL>Adoption by Commission</ALTLABEL>
+			</EVENT_LEGAL_HAS_TYPE_CONCEPT_TYPE_EVENT_LEGAL>
+			<EVENT_LEGAL_DOCUMENT_REFERENCE type="data">
+				<VALUE>CS/2009/15429</VALUE>
+			</EVENT_LEGAL_DOCUMENT_REFERENCE>
+			<EVENT_LEGAL_FORMALLY-ADDRESSES_INSTITUTION type="concept">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/authority/corporate-body/CONSIL</VALUE>
+					<IDENTIFIER>CONSIL</IDENTIFIER>
+					<TYPE>corporate-body</TYPE>
+				</URI>
+				<OP-CODE>CONSIL</OP-CODE>
+				<IDENTIFIER>CONSIL</IDENTIFIER>
+				<PREFLABEL>Council of the European Union</PREFLABEL>
+				<ALTLABEL>Council</ALTLABEL>
+				<ALTLABEL>Council of the European Communities</ALTLABEL>
+			</EVENT_LEGAL_FORMALLY-ADDRESSES_INSTITUTION>
+			<CONTAINS type="link">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/cellar/3c99bb05-fb16-4686-98a0-05abc79ef58b</VALUE>
+					<IDENTIFIER>3c99bb05-fb16-4686-98a0-05abc79ef58b</IDENTIFIER>
+					<TYPE>cellar</TYPE>
+				</URI>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/celex/52009PC0580</VALUE>
+						<IDENTIFIER>52009PC0580</IDENTIFIER>
+						<TYPE>celex</TYPE>
+					</URI>
+				</SAMEAS>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/com/COM_2009_627</VALUE>
+						<IDENTIFIER>COM_2009_627</IDENTIFIER>
+						<TYPE>com</TYPE>
+					</URI>
+				</SAMEAS>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/comnat/COM_2009_0580_FIN</VALUE>
+						<IDENTIFIER>COM_2009_0580_FIN</IDENTIFIER>
+						<TYPE>comnat</TYPE>
+					</URI>
+				</SAMEAS>
+			</CONTAINS>
+			<CREATIONDATE type="date">
+				<VALUE>1001-01-01T00:00:00.000+00:00</VALUE>
+				<YEAR>1001</YEAR>
+				<MONTH>01</MONTH>
+				<DAY>01</DAY>
+			</CREATIONDATE>
+			<EVENT_LEGAL_RESPONSIBILITY_OF_PERSON type="link">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/cellar/2fabfb78-d28c-11e1-905c-01aa75ed71a1</VALUE>
+					<IDENTIFIER>2fabfb78-d28c-11e1-905c-01aa75ed71a1</IDENTIFIER>
+					<TYPE>cellar</TYPE>
+				</URI>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/agent/Joaquin%20ALMUNIA</VALUE>
+						<IDENTIFIER>Joaquin ALMUNIA</IDENTIFIER>
+						<TYPE>agent</TYPE>
+					</URI>
+				</SAMEAS>
+			</EVENT_LEGAL_RESPONSIBILITY_OF_PERSON>
+			<EVENT_LEGAL_BASED_ON_RESOURCE_LEGAL type="link">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/cellar/171e521a-3ffe-46ac-90eb-ed97dbb7dcd2</VALUE>
+					<IDENTIFIER>171e521a-3ffe-46ac-90eb-ed97dbb7dcd2</IDENTIFIER>
+					<TYPE>cellar</TYPE>
+				</URI>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/eli/treaty/tec_2006/art_251/oj</VALUE>
+						<IDENTIFIER>treaty:tec_2006:art_251:oj</IDENTIFIER>
+						<TYPE>eli</TYPE>
+					</URI>
+				</SAMEAS>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/celex/12006E251</VALUE>
+						<IDENTIFIER>12006E251</IDENTIFIER>
+						<TYPE>celex</TYPE>
+					</URI>
+				</SAMEAS>
+			</EVENT_LEGAL_BASED_ON_RESOURCE_LEGAL>
+			<EVENT_LEGAL_WAS_HISTORICALLY_ABOUT_CONCEPT_TYPE_DOSSIER type="concept">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/authority/fd_612/1095</VALUE>
+					<IDENTIFIER>1095</IDENTIFIER>
+					<TYPE>fd_612</TYPE>
+				</URI>
+				<OP-CODE>1095</OP-CODE>
+				<IDENTIFIER>1095</IDENTIFIER>
+				<PREFLABEL>Proposal for a Decision</PREFLABEL>
+				<ALTLABEL>Proposal for a Decision</ALTLABEL>
+			</EVENT_LEGAL_WAS_HISTORICALLY_ABOUT_CONCEPT_TYPE_DOSSIER>
+			<EVENT_LEGAL_MANDATORILY-CONSULTS_INSTITUTION type="concept">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/authority/corporate-body/EP</VALUE>
+					<IDENTIFIER>EP</IDENTIFIER>
+					<TYPE>corporate-body</TYPE>
+				</URI>
+				<OP-CODE>EP</OP-CODE>
+				<IDENTIFIER>EP</IDENTIFIER>
+				<PREFLABEL>European Parliament</PREFLABEL>
+				<ALTLABEL>Common Assembly of the European Coal and Steel Community</ALTLABEL>
+				<ALTLABEL>Common Assembly</ALTLABEL>
+				<ALTLABEL>European Parliamentary Assembly</ALTLABEL>
+				<ALTLABEL>EP</ALTLABEL>
+			</EVENT_LEGAL_MANDATORILY-CONSULTS_INSTITUTION>
+			<EVENT_LEGAL_CONTAINS_WORK type="link">
+				<WORK>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/1728</VALUE>
+								<IDENTIFIER>1728</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>1728</IDENTIFIER>
+							<PREFLABEL>macroeconomics</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/1800</VALUE>
+								<IDENTIFIER>1800</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>1800</IDENTIFIER>
+							<PREFLABEL>economic analysis</PREFLABEL>
+							<ALTLABEL>economic study</ALTLABEL>
+							<ALTLABEL>economic evaluation</ALTLABEL>
+							<ALTLABEL>analysis of economic activity</ALTLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100146</VALUE>
+								<IDENTIFIER>100146</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>16</IDENTIFIER>
+							<PREFLABEL>16 ECONOMICS</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100190</VALUE>
+								<IDENTIFIER>100190</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>1631</IDENTIFIER>
+							<PREFLABEL>1631 economic analysis</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+					<WORK_DATE_DOCUMENT type="date">
+						<VALUE>2009-10-29</VALUE>
+						<YEAR>2009</YEAR>
+						<MONTH>10</MONTH>
+						<DAY>29</DAY>
+					</WORK_DATE_DOCUMENT>
+					<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_level">
+						<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1 type="concept">
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/authority/fd_070/EXT</VALUE>
+								<IDENTIFIER>EXT</IDENTIFIER>
+								<TYPE>fd_070</TYPE>
+							</URI>
+							<OP-CODE>EXT</OP-CODE>
+							<IDENTIFIER>EXT</IDENTIFIER>
+							<PREFLABEL>External relations</PREFLABEL>
+						</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1>
+					</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER>
+					<ID_SECTOR type="data">
+						<VALUE>5</VALUE>
+					</ID_SECTOR>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/7932</VALUE>
+								<IDENTIFIER>7932</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>7932</IDENTIFIER>
+							<PREFLABEL>European neighbourhood policy</PREFLABEL>
+							<ALTLABEL>ENP</ALTLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/4040</VALUE>
+								<IDENTIFIER>4040</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>4040</IDENTIFIER>
+							<PREFLABEL>EU relations</PREFLABEL>
+							<ALTLABEL>Community relations</ALTLABEL>
+							<ALTLABEL>European Union relations</ALTLABEL>
+							<ALTLABEL>EC external relations</ALTLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100144</VALUE>
+								<IDENTIFIER>100144</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>10</IDENTIFIER>
+							<PREFLABEL>10 EUROPEAN UNION</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100176</VALUE>
+								<IDENTIFIER>100176</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>1016</IDENTIFIER>
+							<PREFLABEL>1016 European construction</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/922</VALUE>
+								<IDENTIFIER>922</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>922</IDENTIFIER>
+							<PREFLABEL>financial aid</PREFLABEL>
+							<ALTLABEL>capital grant</ALTLABEL>
+							<ALTLABEL>financial grant</ALTLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/2460</VALUE>
+								<IDENTIFIER>2460</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>2460</IDENTIFIER>
+							<PREFLABEL>aid policy</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100143</VALUE>
+								<IDENTIFIER>100143</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>08</IDENTIFIER>
+							<PREFLABEL>08 INTERNATIONAL RELATIONS</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100171</VALUE>
+								<IDENTIFIER>100171</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>0811</IDENTIFIER>
+							<PREFLABEL>0811 cooperation policy</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/4250</VALUE>
+								<IDENTIFIER>4250</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>4250</IDENTIFIER>
+							<PREFLABEL>economic stabilisation</PREFLABEL>
+							<ALTLABEL>economic stability</ALTLABEL>
+							<ALTLABEL>economic stabilization</ALTLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/335</VALUE>
+								<IDENTIFIER>335</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>335</IDENTIFIER>
+							<PREFLABEL>economic cycle</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100146</VALUE>
+								<IDENTIFIER>100146</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>16</IDENTIFIER>
+							<PREFLABEL>16 ECONOMICS</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100186</VALUE>
+								<IDENTIFIER>100186</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>1611</IDENTIFIER>
+							<PREFLABEL>1611 economic conditions</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+					<RESOURCE_LEGAL_YEAR type="data">
+						<VALUE>2009</VALUE>
+					</RESOURCE_LEGAL_YEAR>
+					<RESOURCE_LEGAL_NUMBER_NATURAL_CELEX type="data">
+						<VALUE>0580</VALUE>
+					</RESOURCE_LEGAL_NUMBER_NATURAL_CELEX>
+					<WORK_HAS_RESOURCE-TYPE type="concept">
+						<URI>
+							<VALUE>http://publications.europa.eu/resource/authority/resource-type/PROP_DEC_NO_ADDRESSEE</VALUE>
+							<IDENTIFIER>PROP_DEC_NO_ADDRESSEE</IDENTIFIER>
+							<TYPE>resource-type</TYPE>
+						</URI>
+						<OP-CODE>PROP_DEC_NO_ADDRESSEE</OP-CODE>
+						<IDENTIFIER>PROP_DEC_NO_ADDRESSEE</IDENTIFIER>
+						<PREFLABEL>Proposal for a decision without addressee</PREFLABEL>
+					</WORK_HAS_RESOURCE-TYPE>
+					<RESOURCE_LEGAL_TYPE type="data">
+						<VALUE>PC</VALUE>
+					</RESOURCE_LEGAL_TYPE>
+					<ID_CELEX type="data">
+						<VALUE>52009PC0580</VALUE>
+					</ID_CELEX>
+					<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_level">
+						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_3 type="concept">
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/authority/fd_555/115020</VALUE>
+								<IDENTIFIER>115020</IDENTIFIER>
+								<TYPE>fd_555</TYPE>
+							</URI>
+							<OP-CODE>115020</OP-CODE>
+							<IDENTIFIER>115020</IDENTIFIER>
+							<PREFLABEL>Financial and economic Aid</PREFLABEL>
+						</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_3>
+						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_1 type="concept">
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/authority/fd_555/11</VALUE>
+								<IDENTIFIER>11</IDENTIFIER>
+								<TYPE>fd_555</TYPE>
+							</URI>
+							<OP-CODE>11</OP-CODE>
+							<IDENTIFIER>11</IDENTIFIER>
+							<PREFLABEL>External relations</PREFLABEL>
+						</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_1>
+						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_2 type="concept">
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/authority/fd_555/1150</VALUE>
+								<IDENTIFIER>1150</IDENTIFIER>
+								<TYPE>fd_555</TYPE>
+							</URI>
+							<OP-CODE>1150</OP-CODE>
+							<IDENTIFIER>1150</IDENTIFIER>
+							<PREFLABEL>Action in favour of countries in transition</PREFLABEL>
+						</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_2>
+					</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE>
+					<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_level">
+						<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1 type="concept">
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/authority/fd_070/ASSI</VALUE>
+								<IDENTIFIER>ASSI</IDENTIFIER>
+								<TYPE>fd_070</TYPE>
+							</URI>
+							<OP-CODE>ASSI</OP-CODE>
+							<IDENTIFIER>ASSI</IDENTIFIER>
+							<PREFLABEL>Assistance</PREFLABEL>
+						</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1>
+					</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/5146</VALUE>
+								<IDENTIFIER>5146</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>5146</IDENTIFIER>
+							<PREFLABEL>economic situation</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/84</VALUE>
+								<IDENTIFIER>84</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>84</IDENTIFIER>
+							<PREFLABEL>economic conditions</PREFLABEL>
+							<ALTLABEL>economic aspect</ALTLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100146</VALUE>
+								<IDENTIFIER>100146</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>16</IDENTIFIER>
+							<PREFLABEL>16 ECONOMICS</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100186</VALUE>
+								<IDENTIFIER>100186</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>1611</IDENTIFIER>
+							<PREFLABEL>1611 economic conditions</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/5946</VALUE>
+								<IDENTIFIER>5946</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>5946</IDENTIFIER>
+							<PREFLABEL>Ukraine</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/914</VALUE>
+								<IDENTIFIER>914</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>914</IDENTIFIER>
+							<PREFLABEL>Central and Eastern Europe</PREFLABEL>
+							<ALTLABEL>Central Europe</ALTLABEL>
+							<ALTLABEL>Eastern Europe</ALTLABEL>
+							<ALTLABEL>CEE</ALTLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/122</VALUE>
+								<IDENTIFIER>122</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>122</IDENTIFIER>
+							<PREFLABEL>Council of Europe countries</PREFLABEL>
+							<ALTLABEL>Countries of the Council of Europe</ALTLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/5775</VALUE>
+								<IDENTIFIER>5775</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>5775</IDENTIFIER>
+							<PREFLABEL>CIS countries</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100161</VALUE>
+								<IDENTIFIER>100161</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>72</IDENTIFIER>
+							<PREFLABEL>72 GEOGRAPHY</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100277</VALUE>
+								<IDENTIFIER>100277</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>7206</IDENTIFIER>
+							<PREFLABEL>7206 Europe</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100283</VALUE>
+								<IDENTIFIER>100283</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>7236</IDENTIFIER>
+							<PREFLABEL>7236 political geography</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/862</VALUE>
+								<IDENTIFIER>862</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>862</IDENTIFIER>
+							<PREFLABEL>EU aid</PREFLABEL>
+							<ALTLABEL>aid from the European Union</ALTLABEL>
+							<ALTLABEL>Community aid</ALTLABEL>
+							<ALTLABEL>aid from the EU</ALTLABEL>
+							<ALTLABEL>Community support</ALTLABEL>
+							<ALTLABEL>European Union aid</ALTLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/712</VALUE>
+								<IDENTIFIER>712</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>712</IDENTIFIER>
+							<PREFLABEL>economic support</PREFLABEL>
+							<ALTLABEL>granting of aid</ALTLABEL>
+							<ALTLABEL>subvention</ALTLABEL>
+							<ALTLABEL>aid</ALTLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100146</VALUE>
+								<IDENTIFIER>100146</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>16</IDENTIFIER>
+							<PREFLABEL>16 ECONOMICS</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100185</VALUE>
+								<IDENTIFIER>100185</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>1606</IDENTIFIER>
+							<PREFLABEL>1606 economic policy</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+					<RESOURCE_LEGAL_ID_CELEX type="data">
+						<VALUE>52009PC0580</VALUE>
+					</RESOURCE_LEGAL_ID_CELEX>
+					<TYPE>cdm:proposal_act</TYPE>
+					<TYPE>cdm:act_preparatory</TYPE>
+					<TYPE>cdm:proposal_other</TYPE>
+					<TYPE>cdm:resource_legal</TYPE>
+					<TYPE>cdm:work</TYPE>
+					<EXPRESSION>
+						<EXPRESSION_MANIFESTED_BY_MANIFESTATION type="embedded_link">
+							<SAMEAS>
+								<URI>
+									<VALUE>http://publications.europa.eu/resource/com/COM_2009_627.ENG.html</VALUE>
+									<IDENTIFIER>COM_2009_627.ENG.html</IDENTIFIER>
+									<TYPE>com</TYPE>
+								</URI>
+							</SAMEAS>
+						</EXPRESSION_MANIFESTED_BY_MANIFESTATION>
+						<EXPRESSION_TITLE type="data">
+							<VALUE>Proposal for a Council Decision providing macro-financial assistance to Ukraine (SEC(2009)1428)</VALUE>
+						</EXPRESSION_TITLE>
+						<EXPRESSION_MANIFESTED_BY_MANIFESTATION type="embedded_link">
+							<SAMEAS>
+								<URI>
+									<VALUE>http://publications.europa.eu/resource/com/COM_2009_627.ENG.doc</VALUE>
+									<IDENTIFIER>COM_2009_627.ENG.doc</IDENTIFIER>
+									<TYPE>com</TYPE>
+								</URI>
+							</SAMEAS>
+						</EXPRESSION_MANIFESTED_BY_MANIFESTATION>
+						<EXPRESSION_USES_LANGUAGE type="concept">
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/authority/language/ENG</VALUE>
+								<IDENTIFIER>ENG</IDENTIFIER>
+								<TYPE>language</TYPE>
+							</URI>
+							<OP-CODE>ENG</OP-CODE>
+							<IDENTIFIER>ENG</IDENTIFIER>
+							<PREFLABEL>English</PREFLABEL>
+							<ALTLABEL>English</ALTLABEL>
+						</EXPRESSION_USES_LANGUAGE>
+						<EXPRESSION_MANIFESTED_BY_MANIFESTATION type="embedded_link">
+							<SAMEAS>
+								<URI>
+									<VALUE>http://publications.europa.eu/resource/com/COM_2009_627.ENG.pdf</VALUE>
+									<IDENTIFIER>COM_2009_627.ENG.pdf</IDENTIFIER>
+									<TYPE>com</TYPE>
+								</URI>
+							</SAMEAS>
+						</EXPRESSION_MANIFESTED_BY_MANIFESTATION>
+						<MANIFESTATION manifestation-type="doc"/>
+						<MANIFESTATION manifestation-type="html"/>
+						<MANIFESTATION manifestation-type="pdf"/>
+					</EXPRESSION>
+				</WORK>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/cellar/3c99bb05-fb16-4686-98a0-05abc79ef58b</VALUE>
+					<IDENTIFIER>3c99bb05-fb16-4686-98a0-05abc79ef58b</IDENTIFIER>
+					<TYPE>cellar</TYPE>
+				</URI>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/celex/52009PC0580</VALUE>
+						<IDENTIFIER>52009PC0580</IDENTIFIER>
+						<TYPE>celex</TYPE>
+					</URI>
+				</SAMEAS>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/com/COM_2009_627</VALUE>
+						<IDENTIFIER>COM_2009_627</IDENTIFIER>
+						<TYPE>com</TYPE>
+					</URI>
+				</SAMEAS>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/comnat/COM_2009_0580_FIN</VALUE>
+						<IDENTIFIER>COM_2009_0580_FIN</IDENTIFIER>
+						<TYPE>comnat</TYPE>
+					</URI>
+				</SAMEAS>
+			</EVENT_LEGAL_CONTAINS_WORK>
+			<EVENT_LEGAL_DATE type="date">
+				<VALUE>2009-10-29</VALUE>
+				<YEAR>2009</YEAR>
+				<MONTH>10</MONTH>
+				<DAY>29</DAY>
+			</EVENT_LEGAL_DATE>
+			<EVENT_LEGAL_BASED_ON_RESOURCE_LEGAL type="link">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/cellar/25668d5e-b354-4087-b611-3756007fd5d9</VALUE>
+					<IDENTIFIER>25668d5e-b354-4087-b611-3756007fd5d9</IDENTIFIER>
+					<TYPE>cellar</TYPE>
+				</URI>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/eli/treaty/tec_2006/art_308/oj</VALUE>
+						<IDENTIFIER>treaty:tec_2006:art_308:oj</IDENTIFIER>
+						<TYPE>eli</TYPE>
+					</URI>
+				</SAMEAS>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/celex/12006E308</VALUE>
+						<IDENTIFIER>12006E308</IDENTIFIER>
+						<TYPE>celex</TYPE>
+					</URI>
+				</SAMEAS>
+			</EVENT_LEGAL_BASED_ON_RESOURCE_LEGAL>
+			<EVENT_LEGAL_PART_OF_DOSSIER type="link">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/cellar/7980e781-d354-11e1-905c-01aa75ed71a1</VALUE>
+					<IDENTIFIER>7980e781-d354-11e1-905c-01aa75ed71a1</IDENTIFIER>
+					<TYPE>cellar</TYPE>
+				</URI>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/procedure/2009_162</VALUE>
+						<IDENTIFIER>2009_162</IDENTIFIER>
+						<TYPE>procedure</TYPE>
+					</URI>
+				</SAMEAS>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/pegase/198759</VALUE>
+						<IDENTIFIER>198759</IDENTIFIER>
+						<TYPE>pegase</TYPE>
+					</URI>
+				</SAMEAS>
+			</EVENT_LEGAL_PART_OF_DOSSIER>
+			<EVENT_LEGAL_CONTAINS_WORK type="link">
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/oj/JOC_2011_026_R_0015_01</VALUE>
+						<IDENTIFIER>JOC_2011_026_R_0015_01</IDENTIFIER>
+						<TYPE>oj</TYPE>
+					</URI>
+				</SAMEAS>
+			</EVENT_LEGAL_CONTAINS_WORK>
+			<EVENT_LEGAL_WAS_HISTORICALLY_ABOUT_CONCEPT_TYPE_PROCEDURE_CODE_INTERINSTITUTIONAL type="concept">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/authority/procedure/COD</VALUE>
+					<IDENTIFIER>COD</IDENTIFIER>
+					<TYPE>procedure</TYPE>
+				</URI>
+				<OP-CODE>COD</OP-CODE>
+				<IDENTIFIER>COD</IDENTIFIER>
+				<PREFLABEL>Co-decision procedure (COD)</PREFLABEL>
+			</EVENT_LEGAL_WAS_HISTORICALLY_ABOUT_CONCEPT_TYPE_PROCEDURE_CODE_INTERINSTITUTIONAL>
+			<EVENT_LEGAL_BASIS_LEGAL type="data">
+				<VALUE>TFUE/art 212 par 2</VALUE>
+			</EVENT_LEGAL_BASIS_LEGAL>
+			<BASED_ON type="link">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/cellar/171e521a-3ffe-46ac-90eb-ed97dbb7dcd2</VALUE>
+					<IDENTIFIER>171e521a-3ffe-46ac-90eb-ed97dbb7dcd2</IDENTIFIER>
+					<TYPE>cellar</TYPE>
+				</URI>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/eli/treaty/tec_2006/art_251/oj</VALUE>
+						<IDENTIFIER>treaty:tec_2006:art_251:oj</IDENTIFIER>
+						<TYPE>eli</TYPE>
+					</URI>
+				</SAMEAS>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/celex/12006E251</VALUE>
+						<IDENTIFIER>12006E251</IDENTIFIER>
+						<TYPE>celex</TYPE>
+					</URI>
+				</SAMEAS>
+			</BASED_ON>
+			<EVENT_LEGAL_RESPONSIBILITY_OF_INSTITUTION type="concept">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/authority/corporate-body/ECFIN</VALUE>
+					<IDENTIFIER>ECFIN</IDENTIFIER>
+					<TYPE>corporate-body</TYPE>
+				</URI>
+				<OP-CODE>ECFIN</OP-CODE>
+				<IDENTIFIER>ECFIN</IDENTIFIER>
+				<PREFLABEL>Directorate-General for Economic and Financial Affairs</PREFLABEL>
+				<ALTLABEL>DG Economic and Financial Affairs</ALTLABEL>
+			</EVENT_LEGAL_RESPONSIBILITY_OF_INSTITUTION>
+			<BASIS_LEGAL type="data">
+				<VALUE>TFUE/art 212</VALUE>
+			</BASIS_LEGAL>
+			<LASTMODIFICATIONDATE type="date">
+				<VALUE>2019-10-08T15:39:12.111+02:00</VALUE>
+				<YEAR>2019</YEAR>
+				<MONTH>10</MONTH>
+				<DAY>08</DAY>
+			</LASTMODIFICATIONDATE>
+			<EVENT_LEGAL_INITIATED_BY_INSTITUTION type="concept">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/authority/corporate-body/COM</VALUE>
+					<IDENTIFIER>COM</IDENTIFIER>
+					<TYPE>corporate-body</TYPE>
+				</URI>
+				<OP-CODE>COM</OP-CODE>
+				<IDENTIFIER>COM</IDENTIFIER>
+				<PREFLABEL>European Commission</PREFLABEL>
+				<ALTLABEL>EC</ALTLABEL>
+				<ALTLABEL>Commission of the European Communities</ALTLABEL>
+				<ALTLABEL>European Commission</ALTLABEL>
+				<ALTLABEL>Commission</ALTLABEL>
+			</EVENT_LEGAL_INITIATED_BY_INSTITUTION>
+			<DATE type="date">
+				<VALUE>2009-10-29</VALUE>
+				<YEAR>2009</YEAR>
+				<MONTH>10</MONTH>
+				<DAY>29</DAY>
+			</DATE>
+			<EVENT_LEGAL_DOCUMENT_REFERENCE type="data">
+				<VALUE>COM/2009/580/FINAL</VALUE>
+			</EVENT_LEGAL_DOCUMENT_REFERENCE>
+			<BASED_ON type="link">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/cellar/25668d5e-b354-4087-b611-3756007fd5d9</VALUE>
+					<IDENTIFIER>25668d5e-b354-4087-b611-3756007fd5d9</IDENTIFIER>
+					<TYPE>cellar</TYPE>
+				</URI>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/eli/treaty/tec_2006/art_308/oj</VALUE>
+						<IDENTIFIER>treaty:tec_2006:art_308:oj</IDENTIFIER>
+						<TYPE>eli</TYPE>
+					</URI>
+				</SAMEAS>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/celex/12006E308</VALUE>
+						<IDENTIFIER>12006E308</IDENTIFIER>
+						<TYPE>celex</TYPE>
+					</URI>
+				</SAMEAS>
+			</BASED_ON>
+			<EVENT_RESPONSIBILITY_OF_INSTITUTION type="concept">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/authority/corporate-body/ECFIN</VALUE>
+					<IDENTIFIER>ECFIN</IDENTIFIER>
+					<TYPE>corporate-body</TYPE>
+				</URI>
+				<OP-CODE>ECFIN</OP-CODE>
+				<IDENTIFIER>ECFIN</IDENTIFIER>
+				<PREFLABEL>Directorate-General for Economic and Financial Affairs</PREFLABEL>
+				<ALTLABEL>DG Economic and Financial Affairs</ALTLABEL>
+			</EVENT_RESPONSIBILITY_OF_INSTITUTION>
+			<EVENT_LEGAL_DOCUMENT_REFERENCE type="data">
+				<VALUE>JO C/2011/26/15</VALUE>
+			</EVENT_LEGAL_DOCUMENT_REFERENCE>
+			<EVENT_LEGAL_BASIS_LEGAL type="data">
+				<VALUE>TFUE/art 212</VALUE>
+			</EVENT_LEGAL_BASIS_LEGAL>
+			<EVENT_LEGAL_USES_CONCEPT_MODE_DECISION type="concept">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/authority/fd_606/1010</VALUE>
+					<IDENTIFIER>1010</IDENTIFIER>
+					<TYPE>fd_606</TYPE>
+				</URI>
+				<OP-CODE>1010</OP-CODE>
+				<IDENTIFIER>1010</IDENTIFIER>
+				<PREFLABEL>Written procedure</PREFLABEL>
+				<ALTLABEL>Written procedure</ALTLABEL>
+			</EVENT_LEGAL_USES_CONCEPT_MODE_DECISION>
+			<BASIS_LEGAL type="data">
+				<VALUE>TFUE/art 212 par 2</VALUE>
+			</BASIS_LEGAL>
+			<TYPE type="type">Adoption par Commission</TYPE>
+		</EVENT>
+	</DOSSIER>
+</NOTICE>
