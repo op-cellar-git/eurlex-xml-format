@@ -196,29 +196,34 @@
 		</CONTAINS>
 		<DOSSIER_INITIATED_BY_ACT_PREPARATORY type="link">
 			<WORK>
-				<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+				<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy">
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="4">
 						<URI>
-							<VALUE>http://eurovoc.europa.eu/1728</VALUE>
-							<IDENTIFIER>1728</IDENTIFIER>
+							<VALUE>http://eurovoc.europa.eu/862</VALUE>
+							<IDENTIFIER>862</IDENTIFIER>
 							<TYPE>EUROVOC</TYPE>
 						</URI>
-						<IDENTIFIER>1728</IDENTIFIER>
-						<PREFLABEL>macroeconomics</PREFLABEL>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+						<IDENTIFIER>862</IDENTIFIER>
+						<PREFLABEL>EU aid</PREFLABEL>
+						<ALTLABEL>aid from the European Union</ALTLABEL>
+						<ALTLABEL>Community aid</ALTLABEL>
+						<ALTLABEL>aid from the EU</ALTLABEL>
+						<ALTLABEL>Community support</ALTLABEL>
+						<ALTLABEL>European Union aid</ALTLABEL>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="3">
 						<URI>
-							<VALUE>http://eurovoc.europa.eu/1800</VALUE>
-							<IDENTIFIER>1800</IDENTIFIER>
+							<VALUE>http://eurovoc.europa.eu/712</VALUE>
+							<IDENTIFIER>712</IDENTIFIER>
 							<TYPE>EUROVOC</TYPE>
 						</URI>
-						<IDENTIFIER>1800</IDENTIFIER>
-						<PREFLABEL>economic analysis</PREFLABEL>
-						<ALTLABEL>economic study</ALTLABEL>
-						<ALTLABEL>economic evaluation</ALTLABEL>
-						<ALTLABEL>analysis of economic activity</ALTLABEL>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+						<IDENTIFIER>712</IDENTIFIER>
+						<PREFLABEL>economic support</PREFLABEL>
+						<ALTLABEL>granting of aid</ALTLABEL>
+						<ALTLABEL>subvention</ALTLABEL>
+						<ALTLABEL>aid</ALTLABEL>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="2">
 						<URI>
 							<VALUE>http://eurovoc.europa.eu/100146</VALUE>
 							<IDENTIFIER>100146</IDENTIFIER>
@@ -226,16 +231,16 @@
 						</URI>
 						<IDENTIFIER>16</IDENTIFIER>
 						<PREFLABEL>16 ECONOMICS</PREFLABEL>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="1">
 						<URI>
-							<VALUE>http://eurovoc.europa.eu/100190</VALUE>
-							<IDENTIFIER>100190</IDENTIFIER>
+							<VALUE>http://eurovoc.europa.eu/100185</VALUE>
+							<IDENTIFIER>100185</IDENTIFIER>
 							<TYPE>EUROVOC</TYPE>
 						</URI>
-						<IDENTIFIER>1631</IDENTIFIER>
-						<PREFLABEL>1631 economic analysis</PREFLABEL>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+						<IDENTIFIER>1606</IDENTIFIER>
+						<PREFLABEL>1606 economic policy</PREFLABEL>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 				</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 				<WORK_DATE_DOCUMENT type="date">
 					<VALUE>2009-10-29</VALUE>
@@ -243,125 +248,37 @@
 					<MONTH>10</MONTH>
 					<DAY>29</DAY>
 				</WORK_DATE_DOCUMENT>
-				<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_level">
-					<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1 type="concept">
-						<URI>
-							<VALUE>http://publications.europa.eu/resource/authority/fd_070/EXT</VALUE>
-							<IDENTIFIER>EXT</IDENTIFIER>
-							<TYPE>fd_070</TYPE>
-						</URI>
-						<OP-CODE>EXT</OP-CODE>
-						<IDENTIFIER>EXT</IDENTIFIER>
-						<PREFLABEL>External relations</PREFLABEL>
-					</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1>
-				</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER>
 				<ID_SECTOR type="data">
 					<VALUE>5</VALUE>
 				</ID_SECTOR>
-				<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+				<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy">
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="4">
 						<URI>
-							<VALUE>http://eurovoc.europa.eu/7932</VALUE>
-							<IDENTIFIER>7932</IDENTIFIER>
+							<VALUE>http://eurovoc.europa.eu/862</VALUE>
+							<IDENTIFIER>862</IDENTIFIER>
 							<TYPE>EUROVOC</TYPE>
 						</URI>
-						<IDENTIFIER>7932</IDENTIFIER>
-						<PREFLABEL>European neighbourhood policy</PREFLABEL>
-						<ALTLABEL>ENP</ALTLABEL>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+						<IDENTIFIER>862</IDENTIFIER>
+						<PREFLABEL>EU aid</PREFLABEL>
+						<ALTLABEL>aid from the European Union</ALTLABEL>
+						<ALTLABEL>Community aid</ALTLABEL>
+						<ALTLABEL>aid from the EU</ALTLABEL>
+						<ALTLABEL>Community support</ALTLABEL>
+						<ALTLABEL>European Union aid</ALTLABEL>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="3">
 						<URI>
-							<VALUE>http://eurovoc.europa.eu/4040</VALUE>
-							<IDENTIFIER>4040</IDENTIFIER>
+							<VALUE>http://eurovoc.europa.eu/712</VALUE>
+							<IDENTIFIER>712</IDENTIFIER>
 							<TYPE>EUROVOC</TYPE>
 						</URI>
-						<IDENTIFIER>4040</IDENTIFIER>
-						<PREFLABEL>EU relations</PREFLABEL>
-						<ALTLABEL>Community relations</ALTLABEL>
-						<ALTLABEL>European Union relations</ALTLABEL>
-						<ALTLABEL>EC external relations</ALTLABEL>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
-						<URI>
-							<VALUE>http://eurovoc.europa.eu/100144</VALUE>
-							<IDENTIFIER>100144</IDENTIFIER>
-							<TYPE>EUROVOC</TYPE>
-						</URI>
-						<IDENTIFIER>10</IDENTIFIER>
-						<PREFLABEL>10 EUROPEAN UNION</PREFLABEL>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
-						<URI>
-							<VALUE>http://eurovoc.europa.eu/100176</VALUE>
-							<IDENTIFIER>100176</IDENTIFIER>
-							<TYPE>EUROVOC</TYPE>
-						</URI>
-						<IDENTIFIER>1016</IDENTIFIER>
-						<PREFLABEL>1016 European construction</PREFLABEL>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
-				</WORK_IS_ABOUT_CONCEPT_EUROVOC>
-				<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
-						<URI>
-							<VALUE>http://eurovoc.europa.eu/922</VALUE>
-							<IDENTIFIER>922</IDENTIFIER>
-							<TYPE>EUROVOC</TYPE>
-						</URI>
-						<IDENTIFIER>922</IDENTIFIER>
-						<PREFLABEL>financial aid</PREFLABEL>
-						<ALTLABEL>capital grant</ALTLABEL>
-						<ALTLABEL>financial grant</ALTLABEL>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
-						<URI>
-							<VALUE>http://eurovoc.europa.eu/2460</VALUE>
-							<IDENTIFIER>2460</IDENTIFIER>
-							<TYPE>EUROVOC</TYPE>
-						</URI>
-						<IDENTIFIER>2460</IDENTIFIER>
-						<PREFLABEL>aid policy</PREFLABEL>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
-						<URI>
-							<VALUE>http://eurovoc.europa.eu/100143</VALUE>
-							<IDENTIFIER>100143</IDENTIFIER>
-							<TYPE>EUROVOC</TYPE>
-						</URI>
-						<IDENTIFIER>08</IDENTIFIER>
-						<PREFLABEL>08 INTERNATIONAL RELATIONS</PREFLABEL>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
-						<URI>
-							<VALUE>http://eurovoc.europa.eu/100171</VALUE>
-							<IDENTIFIER>100171</IDENTIFIER>
-							<TYPE>EUROVOC</TYPE>
-						</URI>
-						<IDENTIFIER>0811</IDENTIFIER>
-						<PREFLABEL>0811 cooperation policy</PREFLABEL>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
-				</WORK_IS_ABOUT_CONCEPT_EUROVOC>
-				<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
-						<URI>
-							<VALUE>http://eurovoc.europa.eu/4250</VALUE>
-							<IDENTIFIER>4250</IDENTIFIER>
-							<TYPE>EUROVOC</TYPE>
-						</URI>
-						<IDENTIFIER>4250</IDENTIFIER>
-						<PREFLABEL>economic stabilisation</PREFLABEL>
-						<ALTLABEL>economic stability</ALTLABEL>
-						<ALTLABEL>economic stabilization</ALTLABEL>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
-						<URI>
-							<VALUE>http://eurovoc.europa.eu/335</VALUE>
-							<IDENTIFIER>335</IDENTIFIER>
-							<TYPE>EUROVOC</TYPE>
-						</URI>
-						<IDENTIFIER>335</IDENTIFIER>
-						<PREFLABEL>economic cycle</PREFLABEL>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+						<IDENTIFIER>712</IDENTIFIER>
+						<PREFLABEL>economic support</PREFLABEL>
+						<ALTLABEL>granting of aid</ALTLABEL>
+						<ALTLABEL>subvention</ALTLABEL>
+						<ALTLABEL>aid</ALTLABEL>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="2">
 						<URI>
 							<VALUE>http://eurovoc.europa.eu/100146</VALUE>
 							<IDENTIFIER>100146</IDENTIFIER>
@@ -369,16 +286,16 @@
 						</URI>
 						<IDENTIFIER>16</IDENTIFIER>
 						<PREFLABEL>16 ECONOMICS</PREFLABEL>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="1">
 						<URI>
-							<VALUE>http://eurovoc.europa.eu/100186</VALUE>
-							<IDENTIFIER>100186</IDENTIFIER>
+							<VALUE>http://eurovoc.europa.eu/100185</VALUE>
+							<IDENTIFIER>100185</IDENTIFIER>
 							<TYPE>EUROVOC</TYPE>
 						</URI>
-						<IDENTIFIER>1611</IDENTIFIER>
-						<PREFLABEL>1611 economic conditions</PREFLABEL>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+						<IDENTIFIER>1606</IDENTIFIER>
+						<PREFLABEL>1606 economic policy</PREFLABEL>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 				</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 				<RESOURCE_LEGAL_YEAR type="data">
 					<VALUE>2009</VALUE>
@@ -402,160 +319,8 @@
 				<ID_CELEX type="data">
 					<VALUE>52009PC0580</VALUE>
 				</ID_CELEX>
-				<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_level">
-					<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_3 type="concept">
-						<URI>
-							<VALUE>http://publications.europa.eu/resource/authority/fd_555/115020</VALUE>
-							<IDENTIFIER>115020</IDENTIFIER>
-							<TYPE>fd_555</TYPE>
-						</URI>
-						<OP-CODE>115020</OP-CODE>
-						<IDENTIFIER>115020</IDENTIFIER>
-						<PREFLABEL>Financial and economic Aid</PREFLABEL>
-					</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_3>
-					<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_1 type="concept">
-						<URI>
-							<VALUE>http://publications.europa.eu/resource/authority/fd_555/11</VALUE>
-							<IDENTIFIER>11</IDENTIFIER>
-							<TYPE>fd_555</TYPE>
-						</URI>
-						<OP-CODE>11</OP-CODE>
-						<IDENTIFIER>11</IDENTIFIER>
-						<PREFLABEL>External relations</PREFLABEL>
-					</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_1>
-					<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_2 type="concept">
-						<URI>
-							<VALUE>http://publications.europa.eu/resource/authority/fd_555/1150</VALUE>
-							<IDENTIFIER>1150</IDENTIFIER>
-							<TYPE>fd_555</TYPE>
-						</URI>
-						<OP-CODE>1150</OP-CODE>
-						<IDENTIFIER>1150</IDENTIFIER>
-						<PREFLABEL>Action in favour of countries in transition</PREFLABEL>
-					</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_2>
-				</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE>
-				<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_level">
-					<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1 type="concept">
-						<URI>
-							<VALUE>http://publications.europa.eu/resource/authority/fd_070/ASSI</VALUE>
-							<IDENTIFIER>ASSI</IDENTIFIER>
-							<TYPE>fd_070</TYPE>
-						</URI>
-						<OP-CODE>ASSI</OP-CODE>
-						<IDENTIFIER>ASSI</IDENTIFIER>
-						<PREFLABEL>Assistance</PREFLABEL>
-					</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1>
-				</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER>
-				<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
-						<URI>
-							<VALUE>http://eurovoc.europa.eu/5146</VALUE>
-							<IDENTIFIER>5146</IDENTIFIER>
-							<TYPE>EUROVOC</TYPE>
-						</URI>
-						<IDENTIFIER>5146</IDENTIFIER>
-						<PREFLABEL>economic situation</PREFLABEL>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
-						<URI>
-							<VALUE>http://eurovoc.europa.eu/84</VALUE>
-							<IDENTIFIER>84</IDENTIFIER>
-							<TYPE>EUROVOC</TYPE>
-						</URI>
-						<IDENTIFIER>84</IDENTIFIER>
-						<PREFLABEL>economic conditions</PREFLABEL>
-						<ALTLABEL>economic aspect</ALTLABEL>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
-						<URI>
-							<VALUE>http://eurovoc.europa.eu/100146</VALUE>
-							<IDENTIFIER>100146</IDENTIFIER>
-							<TYPE>EUROVOC</TYPE>
-						</URI>
-						<IDENTIFIER>16</IDENTIFIER>
-						<PREFLABEL>16 ECONOMICS</PREFLABEL>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
-						<URI>
-							<VALUE>http://eurovoc.europa.eu/100186</VALUE>
-							<IDENTIFIER>100186</IDENTIFIER>
-							<TYPE>EUROVOC</TYPE>
-						</URI>
-						<IDENTIFIER>1611</IDENTIFIER>
-						<PREFLABEL>1611 economic conditions</PREFLABEL>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
-				</WORK_IS_ABOUT_CONCEPT_EUROVOC>
-				<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
-						<URI>
-							<VALUE>http://eurovoc.europa.eu/5946</VALUE>
-							<IDENTIFIER>5946</IDENTIFIER>
-							<TYPE>EUROVOC</TYPE>
-						</URI>
-						<IDENTIFIER>5946</IDENTIFIER>
-						<PREFLABEL>Ukraine</PREFLABEL>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
-						<URI>
-							<VALUE>http://eurovoc.europa.eu/914</VALUE>
-							<IDENTIFIER>914</IDENTIFIER>
-							<TYPE>EUROVOC</TYPE>
-						</URI>
-						<IDENTIFIER>914</IDENTIFIER>
-						<PREFLABEL>Central and Eastern Europe</PREFLABEL>
-						<ALTLABEL>Central Europe</ALTLABEL>
-						<ALTLABEL>Eastern Europe</ALTLABEL>
-						<ALTLABEL>CEE</ALTLABEL>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
-						<URI>
-							<VALUE>http://eurovoc.europa.eu/122</VALUE>
-							<IDENTIFIER>122</IDENTIFIER>
-							<TYPE>EUROVOC</TYPE>
-						</URI>
-						<IDENTIFIER>122</IDENTIFIER>
-						<PREFLABEL>Council of Europe countries</PREFLABEL>
-						<ALTLABEL>Countries of the Council of Europe</ALTLABEL>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
-						<URI>
-							<VALUE>http://eurovoc.europa.eu/5775</VALUE>
-							<IDENTIFIER>5775</IDENTIFIER>
-							<TYPE>EUROVOC</TYPE>
-						</URI>
-						<IDENTIFIER>5775</IDENTIFIER>
-						<PREFLABEL>CIS countries</PREFLABEL>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
-						<URI>
-							<VALUE>http://eurovoc.europa.eu/100161</VALUE>
-							<IDENTIFIER>100161</IDENTIFIER>
-							<TYPE>EUROVOC</TYPE>
-						</URI>
-						<IDENTIFIER>72</IDENTIFIER>
-						<PREFLABEL>72 GEOGRAPHY</PREFLABEL>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
-						<URI>
-							<VALUE>http://eurovoc.europa.eu/100277</VALUE>
-							<IDENTIFIER>100277</IDENTIFIER>
-							<TYPE>EUROVOC</TYPE>
-						</URI>
-						<IDENTIFIER>7206</IDENTIFIER>
-						<PREFLABEL>7206 Europe</PREFLABEL>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
-						<URI>
-							<VALUE>http://eurovoc.europa.eu/100283</VALUE>
-							<IDENTIFIER>100283</IDENTIFIER>
-							<TYPE>EUROVOC</TYPE>
-						</URI>
-						<IDENTIFIER>7236</IDENTIFIER>
-						<PREFLABEL>7236 political geography</PREFLABEL>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
-				</WORK_IS_ABOUT_CONCEPT_EUROVOC>
-				<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+				<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy">
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="4">
 						<URI>
 							<VALUE>http://eurovoc.europa.eu/862</VALUE>
 							<IDENTIFIER>862</IDENTIFIER>
@@ -568,8 +333,8 @@
 						<ALTLABEL>aid from the EU</ALTLABEL>
 						<ALTLABEL>Community support</ALTLABEL>
 						<ALTLABEL>European Union aid</ALTLABEL>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="3">
 						<URI>
 							<VALUE>http://eurovoc.europa.eu/712</VALUE>
 							<IDENTIFIER>712</IDENTIFIER>
@@ -580,8 +345,8 @@
 						<ALTLABEL>granting of aid</ALTLABEL>
 						<ALTLABEL>subvention</ALTLABEL>
 						<ALTLABEL>aid</ALTLABEL>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="2">
 						<URI>
 							<VALUE>http://eurovoc.europa.eu/100146</VALUE>
 							<IDENTIFIER>100146</IDENTIFIER>
@@ -589,8 +354,8 @@
 						</URI>
 						<IDENTIFIER>16</IDENTIFIER>
 						<PREFLABEL>16 ECONOMICS</PREFLABEL>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="1">
 						<URI>
 							<VALUE>http://eurovoc.europa.eu/100185</VALUE>
 							<IDENTIFIER>100185</IDENTIFIER>
@@ -598,7 +363,7 @@
 						</URI>
 						<IDENTIFIER>1606</IDENTIFIER>
 						<PREFLABEL>1606 economic policy</PREFLABEL>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 				</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 				<RESOURCE_LEGAL_ID_CELEX type="data">
 					<VALUE>52009PC0580</VALUE>
@@ -608,53 +373,53 @@
 				<TYPE>cdm:proposal_other</TYPE>
 				<TYPE>cdm:resource_legal</TYPE>
 				<TYPE>cdm:work</TYPE>
-			</WORK>
-			<EXPRESSION>
-				<EXPRESSION_MANIFESTED_BY_MANIFESTATION type="embedded_link">
-					<SAMEAS>
+				<EXPRESSION>
+					<EXPRESSION_MANIFESTED_BY_MANIFESTATION type="embedded_link">
+						<SAMEAS>
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/com/COM_2009_627.ENG.html</VALUE>
+								<IDENTIFIER>COM_2009_627.ENG.html</IDENTIFIER>
+								<TYPE>com</TYPE>
+							</URI>
+						</SAMEAS>
+					</EXPRESSION_MANIFESTED_BY_MANIFESTATION>
+					<EXPRESSION_TITLE type="data">
+						<VALUE>Proposal for a Council Decision providing macro-financial assistance to Ukraine (SEC(2009)1428)</VALUE>
+					</EXPRESSION_TITLE>
+					<EXPRESSION_MANIFESTED_BY_MANIFESTATION type="embedded_link">
+						<SAMEAS>
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/com/COM_2009_627.ENG.doc</VALUE>
+								<IDENTIFIER>COM_2009_627.ENG.doc</IDENTIFIER>
+								<TYPE>com</TYPE>
+							</URI>
+						</SAMEAS>
+					</EXPRESSION_MANIFESTED_BY_MANIFESTATION>
+					<EXPRESSION_USES_LANGUAGE type="concept">
 						<URI>
-							<VALUE>http://publications.europa.eu/resource/com/COM_2009_627.ENG.html</VALUE>
-							<IDENTIFIER>COM_2009_627.ENG.html</IDENTIFIER>
-							<TYPE>com</TYPE>
+							<VALUE>http://publications.europa.eu/resource/authority/language/ENG</VALUE>
+							<IDENTIFIER>ENG</IDENTIFIER>
+							<TYPE>language</TYPE>
 						</URI>
-					</SAMEAS>
-				</EXPRESSION_MANIFESTED_BY_MANIFESTATION>
-				<EXPRESSION_TITLE type="data">
-					<VALUE>Proposal for a Council Decision providing macro-financial assistance to Ukraine (SEC(2009)1428)</VALUE>
-				</EXPRESSION_TITLE>
-				<EXPRESSION_MANIFESTED_BY_MANIFESTATION type="embedded_link">
-					<SAMEAS>
-						<URI>
-							<VALUE>http://publications.europa.eu/resource/com/COM_2009_627.ENG.doc</VALUE>
-							<IDENTIFIER>COM_2009_627.ENG.doc</IDENTIFIER>
-							<TYPE>com</TYPE>
-						</URI>
-					</SAMEAS>
-				</EXPRESSION_MANIFESTED_BY_MANIFESTATION>
-				<EXPRESSION_USES_LANGUAGE type="concept">
-					<URI>
-						<VALUE>http://publications.europa.eu/resource/authority/language/ENG</VALUE>
+						<OP-CODE>ENG</OP-CODE>
 						<IDENTIFIER>ENG</IDENTIFIER>
-						<TYPE>language</TYPE>
-					</URI>
-					<OP-CODE>ENG</OP-CODE>
-					<IDENTIFIER>ENG</IDENTIFIER>
-					<PREFLABEL>English</PREFLABEL>
-					<ALTLABEL>English</ALTLABEL>
-				</EXPRESSION_USES_LANGUAGE>
-				<EXPRESSION_MANIFESTED_BY_MANIFESTATION type="embedded_link">
-					<SAMEAS>
-						<URI>
-							<VALUE>http://publications.europa.eu/resource/com/COM_2009_627.ENG.pdf</VALUE>
-							<IDENTIFIER>COM_2009_627.ENG.pdf</IDENTIFIER>
-							<TYPE>com</TYPE>
-						</URI>
-					</SAMEAS>
-				</EXPRESSION_MANIFESTED_BY_MANIFESTATION>
-			</EXPRESSION>
-			<MANIFESTATION manifestation-type="doc"/>
-			<MANIFESTATION manifestation-type="html"/>
-			<MANIFESTATION manifestation-type="pdf"/>
+						<PREFLABEL>English</PREFLABEL>
+						<ALTLABEL>English</ALTLABEL>
+					</EXPRESSION_USES_LANGUAGE>
+					<EXPRESSION_MANIFESTED_BY_MANIFESTATION type="embedded_link">
+						<SAMEAS>
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/com/COM_2009_627.ENG.pdf</VALUE>
+								<IDENTIFIER>COM_2009_627.ENG.pdf</IDENTIFIER>
+								<TYPE>com</TYPE>
+							</URI>
+						</SAMEAS>
+					</EXPRESSION_MANIFESTED_BY_MANIFESTATION>
+					<MANIFESTATION manifestation-type="doc"/>
+					<MANIFESTATION manifestation-type="html"/>
+					<MANIFESTATION manifestation-type="pdf"/>
+				</EXPRESSION>
+			</WORK>
 			<URI>
 				<VALUE>http://publications.europa.eu/resource/cellar/3c99bb05-fb16-4686-98a0-05abc79ef58b</VALUE>
 				<IDENTIFIER>3c99bb05-fb16-4686-98a0-05abc79ef58b</IDENTIFIER>
@@ -907,8 +672,8 @@
 					<RESOURCE_LEGAL_NUMBER_NATURAL_CELEX type="data">
 						<VALUE>0169</VALUE>
 					</RESOURCE_LEGAL_NUMBER_NATURAL_CELEX>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="4">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/862</VALUE>
 								<IDENTIFIER>862</IDENTIFIER>
@@ -921,8 +686,8 @@
 							<ALTLABEL>aid from the EU</ALTLABEL>
 							<ALTLABEL>Community support</ALTLABEL>
 							<ALTLABEL>European Union aid</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="3">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/712</VALUE>
 								<IDENTIFIER>712</IDENTIFIER>
@@ -933,8 +698,8 @@
 							<ALTLABEL>granting of aid</ALTLABEL>
 							<ALTLABEL>subvention</ALTLABEL>
 							<ALTLABEL>aid</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="2">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/100146</VALUE>
 								<IDENTIFIER>100146</IDENTIFIER>
@@ -942,8 +707,8 @@
 							</URI>
 							<IDENTIFIER>16</IDENTIFIER>
 							<PREFLABEL>16 ECONOMICS</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="1">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/100185</VALUE>
 								<IDENTIFIER>100185</IDENTIFIER>
@@ -951,7 +716,7 @@
 							</URI>
 							<IDENTIFIER>1606</IDENTIFIER>
 							<PREFLABEL>1606 economic policy</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					<RESOURCE_LEGAL_YEAR type="data">
 						<VALUE>2010</VALUE>
@@ -964,134 +729,34 @@
 						<COMMENT_ON_DATE type="annotation">{DATVOT|http://publications.europa.eu/resource/authority/fd_365/DATVOT}</COMMENT_ON_DATE>
 						<BUILD_INFO type="annotation">cdm:CDM_2.1.7  tdm:1523  xslt:3945 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:1.1.9 builddate:12/01/2014 14:00:09</BUILD_INFO>
 					</WORK_DATE_DOCUMENT>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="4">
 							<URI>
-								<VALUE>http://eurovoc.europa.eu/5946</VALUE>
-								<IDENTIFIER>5946</IDENTIFIER>
+								<VALUE>http://eurovoc.europa.eu/862</VALUE>
+								<IDENTIFIER>862</IDENTIFIER>
 								<TYPE>EUROVOC</TYPE>
 							</URI>
-							<IDENTIFIER>5946</IDENTIFIER>
-							<PREFLABEL>Ukraine</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+							<IDENTIFIER>862</IDENTIFIER>
+							<PREFLABEL>EU aid</PREFLABEL>
+							<ALTLABEL>aid from the European Union</ALTLABEL>
+							<ALTLABEL>Community aid</ALTLABEL>
+							<ALTLABEL>aid from the EU</ALTLABEL>
+							<ALTLABEL>Community support</ALTLABEL>
+							<ALTLABEL>European Union aid</ALTLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="3">
 							<URI>
-								<VALUE>http://eurovoc.europa.eu/914</VALUE>
-								<IDENTIFIER>914</IDENTIFIER>
+								<VALUE>http://eurovoc.europa.eu/712</VALUE>
+								<IDENTIFIER>712</IDENTIFIER>
 								<TYPE>EUROVOC</TYPE>
 							</URI>
-							<IDENTIFIER>914</IDENTIFIER>
-							<PREFLABEL>Eastern Europe</PREFLABEL>
-							<ALTLABEL>Central Europe</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/122</VALUE>
-								<IDENTIFIER>122</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>122</IDENTIFIER>
-							<PREFLABEL>Council of Europe countries</PREFLABEL>
-							<ALTLABEL>Countries of the Council of Europe</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/5775</VALUE>
-								<IDENTIFIER>5775</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>5775</IDENTIFIER>
-							<PREFLABEL>CIS countries</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100161</VALUE>
-								<IDENTIFIER>100161</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>72</IDENTIFIER>
-							<PREFLABEL>72 GEOGRAPHY</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100277</VALUE>
-								<IDENTIFIER>100277</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>7206</IDENTIFIER>
-							<PREFLABEL>7206 Europe</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100283</VALUE>
-								<IDENTIFIER>100283</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>7236</IDENTIFIER>
-							<PREFLABEL>7236 political geography</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/922</VALUE>
-								<IDENTIFIER>922</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>922</IDENTIFIER>
-							<PREFLABEL>financial aid</PREFLABEL>
-							<ALTLABEL>capital grant</ALTLABEL>
-							<ALTLABEL>financial grant</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/2460</VALUE>
-								<IDENTIFIER>2460</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>2460</IDENTIFIER>
-							<PREFLABEL>aid policy</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100143</VALUE>
-								<IDENTIFIER>100143</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>08</IDENTIFIER>
-							<PREFLABEL>08 INTERNATIONAL RELATIONS</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100171</VALUE>
-								<IDENTIFIER>100171</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>0811</IDENTIFIER>
-							<PREFLABEL>0811 cooperation policy</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/5146</VALUE>
-								<IDENTIFIER>5146</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>5146</IDENTIFIER>
-							<PREFLABEL>economic situation</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/84</VALUE>
-								<IDENTIFIER>84</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>84</IDENTIFIER>
-							<PREFLABEL>economic conditions</PREFLABEL>
-							<ALTLABEL>economic aspect</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+							<IDENTIFIER>712</IDENTIFIER>
+							<PREFLABEL>economic support</PREFLABEL>
+							<ALTLABEL>granting of aid</ALTLABEL>
+							<ALTLABEL>subvention</ALTLABEL>
+							<ALTLABEL>aid</ALTLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="2">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/100146</VALUE>
 								<IDENTIFIER>100146</IDENTIFIER>
@@ -1099,41 +764,17 @@
 							</URI>
 							<IDENTIFIER>16</IDENTIFIER>
 							<PREFLABEL>16 ECONOMICS</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="1">
 							<URI>
-								<VALUE>http://eurovoc.europa.eu/100186</VALUE>
-								<IDENTIFIER>100186</IDENTIFIER>
+								<VALUE>http://eurovoc.europa.eu/100185</VALUE>
+								<IDENTIFIER>100185</IDENTIFIER>
 								<TYPE>EUROVOC</TYPE>
 							</URI>
-							<IDENTIFIER>1611</IDENTIFIER>
-							<PREFLABEL>1611 economic growth</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+							<IDENTIFIER>1606</IDENTIFIER>
+							<PREFLABEL>1606 economic policy</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
-					<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_level">
-						<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1 type="concept">
-							<URI>
-								<VALUE>http://publications.europa.eu/resource/authority/fd_070/EXT</VALUE>
-								<IDENTIFIER>EXT</IDENTIFIER>
-								<TYPE>fd_070</TYPE>
-							</URI>
-							<OP-CODE>EXT</OP-CODE>
-							<IDENTIFIER>EXT</IDENTIFIER>
-							<PREFLABEL>External relations</PREFLABEL>
-						</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1>
-					</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER>
-					<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_level">
-						<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1 type="concept">
-							<URI>
-								<VALUE>http://publications.europa.eu/resource/authority/fd_070/ASSI</VALUE>
-								<IDENTIFIER>ASSI</IDENTIFIER>
-								<TYPE>fd_070</TYPE>
-							</URI>
-							<OP-CODE>ASSI</OP-CODE>
-							<IDENTIFIER>ASSI</IDENTIFIER>
-							<PREFLABEL>Assistance</PREFLABEL>
-						</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1>
-					</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER>
 					<EXPRESSION>
 						<EXPRESSION_USES_LANGUAGE type="concept">
 							<URI>
@@ -1146,7 +787,7 @@
 							<PREFLABEL>English</PREFLABEL>
 						</EXPRESSION_USES_LANGUAGE>
 						<EXPRESSION_TITLE type="data">
-							<VALUE>Macro-financial assistance for Ukraine ***I European Parliament legislative resolution of 18 May 2010 on the proposal for a decision of the European Parliament and of the Council providing macro-financial assistance to Ukraine (COM(2009)0580 – C7-0277/2009 – 2009/0162(COD))#P7_TC1-COD(2009)0162 Position of the European Parliament adopted at first reading on 18 May 2010 with a view to the adoption of Decision No …/2010/EU of the European Parliament and of the Council providing macro-financial assistance to Ukraine</VALUE>
+							<VALUE>Macro-financial assistance for Ukraine ***I European Parliament legislative resolution of 18 May 2010 on the proposal for a decision of the European Parliament and of the Council providing macro-financial assistance to Ukraine (COM(2009)0580 – C7-0277/2009 – 2009/0162(COD))#P7_TC1-COD(2009)0162 Position of the European Parliament adopted at first reading on 18 May 2010 with a view to the adoption of Decision No …/2010/EU of the European Parliament and of the Council providing macro-financial assistance to Ukraine</VALUE>
 						</EXPRESSION_TITLE>
 						<MANIFESTATION manifestation-type="pdfa1a"/>
 						<MANIFESTATION manifestation-type="xhtml"/>
@@ -1451,8 +1092,8 @@
 					<RESOURCE_LEGAL_YEAR type="data">
 						<VALUE>2010</VALUE>
 					</RESOURCE_LEGAL_YEAR>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="4">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/862</VALUE>
 								<IDENTIFIER>862</IDENTIFIER>
@@ -1465,8 +1106,8 @@
 							<ALTLABEL>aid from the EU</ALTLABEL>
 							<ALTLABEL>Community support</ALTLABEL>
 							<ALTLABEL>European Union aid</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="3">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/712</VALUE>
 								<IDENTIFIER>712</IDENTIFIER>
@@ -1477,8 +1118,8 @@
 							<ALTLABEL>granting of aid</ALTLABEL>
 							<ALTLABEL>subvention</ALTLABEL>
 							<ALTLABEL>aid</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="2">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/100146</VALUE>
 								<IDENTIFIER>100146</IDENTIFIER>
@@ -1486,8 +1127,8 @@
 							</URI>
 							<IDENTIFIER>16</IDENTIFIER>
 							<PREFLABEL>16 ECONOMICS</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="1">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/100185</VALUE>
 								<IDENTIFIER>100185</IDENTIFIER>
@@ -1495,175 +1136,85 @@
 							</URI>
 							<IDENTIFIER>1606</IDENTIFIER>
 							<PREFLABEL>1606 economic policy</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
-					<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_level">
-						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_3 type="concept">
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="4">
 							<URI>
-								<VALUE>http://publications.europa.eu/resource/authority/fd_555/115020</VALUE>
-								<IDENTIFIER>115020</IDENTIFIER>
-								<TYPE>fd_555</TYPE>
-							</URI>
-							<OP-CODE>115020</OP-CODE>
-							<IDENTIFIER>115020</IDENTIFIER>
-							<PREFLABEL>Financial and economic Aid</PREFLABEL>
-						</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_3>
-						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_1 type="concept">
-							<URI>
-								<VALUE>http://publications.europa.eu/resource/authority/fd_555/11</VALUE>
-								<IDENTIFIER>11</IDENTIFIER>
-								<TYPE>fd_555</TYPE>
-							</URI>
-							<OP-CODE>11</OP-CODE>
-							<IDENTIFIER>11</IDENTIFIER>
-							<PREFLABEL>External relations</PREFLABEL>
-						</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_1>
-						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_2 type="concept">
-							<URI>
-								<VALUE>http://publications.europa.eu/resource/authority/fd_555/1150</VALUE>
-								<IDENTIFIER>1150</IDENTIFIER>
-								<TYPE>fd_555</TYPE>
-							</URI>
-							<OP-CODE>1150</OP-CODE>
-							<IDENTIFIER>1150</IDENTIFIER>
-							<PREFLABEL>Action in favour of countries in transition</PREFLABEL>
-						</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_2>
-					</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/5946</VALUE>
-								<IDENTIFIER>5946</IDENTIFIER>
+								<VALUE>http://eurovoc.europa.eu/862</VALUE>
+								<IDENTIFIER>862</IDENTIFIER>
 								<TYPE>EUROVOC</TYPE>
 							</URI>
-							<IDENTIFIER>5946</IDENTIFIER>
-							<PREFLABEL>Ukraine</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+							<IDENTIFIER>862</IDENTIFIER>
+							<PREFLABEL>EU aid</PREFLABEL>
+							<ALTLABEL>aid from the European Union</ALTLABEL>
+							<ALTLABEL>Community aid</ALTLABEL>
+							<ALTLABEL>aid from the EU</ALTLABEL>
+							<ALTLABEL>Community support</ALTLABEL>
+							<ALTLABEL>European Union aid</ALTLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="3">
 							<URI>
-								<VALUE>http://eurovoc.europa.eu/914</VALUE>
-								<IDENTIFIER>914</IDENTIFIER>
+								<VALUE>http://eurovoc.europa.eu/712</VALUE>
+								<IDENTIFIER>712</IDENTIFIER>
 								<TYPE>EUROVOC</TYPE>
 							</URI>
-							<IDENTIFIER>914</IDENTIFIER>
-							<PREFLABEL>Eastern Europe</PREFLABEL>
-							<ALTLABEL>Central Europe</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+							<IDENTIFIER>712</IDENTIFIER>
+							<PREFLABEL>economic support</PREFLABEL>
+							<ALTLABEL>granting of aid</ALTLABEL>
+							<ALTLABEL>subvention</ALTLABEL>
+							<ALTLABEL>aid</ALTLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="2">
 							<URI>
-								<VALUE>http://eurovoc.europa.eu/122</VALUE>
-								<IDENTIFIER>122</IDENTIFIER>
+								<VALUE>http://eurovoc.europa.eu/100146</VALUE>
+								<IDENTIFIER>100146</IDENTIFIER>
 								<TYPE>EUROVOC</TYPE>
 							</URI>
-							<IDENTIFIER>122</IDENTIFIER>
-							<PREFLABEL>Council of Europe countries</PREFLABEL>
-							<ALTLABEL>Countries of the Council of Europe</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+							<IDENTIFIER>16</IDENTIFIER>
+							<PREFLABEL>16 ECONOMICS</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="1">
 							<URI>
-								<VALUE>http://eurovoc.europa.eu/5775</VALUE>
-								<IDENTIFIER>5775</IDENTIFIER>
+								<VALUE>http://eurovoc.europa.eu/100185</VALUE>
+								<IDENTIFIER>100185</IDENTIFIER>
 								<TYPE>EUROVOC</TYPE>
 							</URI>
-							<IDENTIFIER>5775</IDENTIFIER>
-							<PREFLABEL>CIS countries</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100161</VALUE>
-								<IDENTIFIER>100161</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>72</IDENTIFIER>
-							<PREFLABEL>72 GEOGRAPHY</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100277</VALUE>
-								<IDENTIFIER>100277</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>7206</IDENTIFIER>
-							<PREFLABEL>7206 Europe</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100283</VALUE>
-								<IDENTIFIER>100283</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>7236</IDENTIFIER>
-							<PREFLABEL>7236 political geography</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+							<IDENTIFIER>1606</IDENTIFIER>
+							<PREFLABEL>1606 economic policy</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					<RESOURCE_LEGAL_TYPE type="data">
 						<VALUE>D</VALUE>
 					</RESOURCE_LEGAL_TYPE>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="4">
 							<URI>
-								<VALUE>http://eurovoc.europa.eu/7932</VALUE>
-								<IDENTIFIER>7932</IDENTIFIER>
+								<VALUE>http://eurovoc.europa.eu/862</VALUE>
+								<IDENTIFIER>862</IDENTIFIER>
 								<TYPE>EUROVOC</TYPE>
 							</URI>
-							<IDENTIFIER>7932</IDENTIFIER>
-							<PREFLABEL>European neighbourhood policy</PREFLABEL>
-							<ALTLABEL>ENP</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+							<IDENTIFIER>862</IDENTIFIER>
+							<PREFLABEL>EU aid</PREFLABEL>
+							<ALTLABEL>aid from the European Union</ALTLABEL>
+							<ALTLABEL>Community aid</ALTLABEL>
+							<ALTLABEL>aid from the EU</ALTLABEL>
+							<ALTLABEL>Community support</ALTLABEL>
+							<ALTLABEL>European Union aid</ALTLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="3">
 							<URI>
-								<VALUE>http://eurovoc.europa.eu/4040</VALUE>
-								<IDENTIFIER>4040</IDENTIFIER>
+								<VALUE>http://eurovoc.europa.eu/712</VALUE>
+								<IDENTIFIER>712</IDENTIFIER>
 								<TYPE>EUROVOC</TYPE>
 							</URI>
-							<IDENTIFIER>4040</IDENTIFIER>
-							<PREFLABEL>EU relations</PREFLABEL>
-							<ALTLABEL>Community relations</ALTLABEL>
-							<ALTLABEL>European Union relations</ALTLABEL>
-							<ALTLABEL>EC external relations</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100144</VALUE>
-								<IDENTIFIER>100144</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>10</IDENTIFIER>
-							<PREFLABEL>10 EUROPEAN UNION</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100176</VALUE>
-								<IDENTIFIER>100176</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>1016</IDENTIFIER>
-							<PREFLABEL>1016 European construction</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/1728</VALUE>
-								<IDENTIFIER>1728</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>1728</IDENTIFIER>
-							<PREFLABEL>macroeconomics</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/1800</VALUE>
-								<IDENTIFIER>1800</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>1800</IDENTIFIER>
-							<PREFLABEL>economic analysis</PREFLABEL>
-							<ALTLABEL>economic study</ALTLABEL>
-							<ALTLABEL>economic evaluation</ALTLABEL>
-							<ALTLABEL>analysis of economic activity</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+							<IDENTIFIER>712</IDENTIFIER>
+							<PREFLABEL>economic support</PREFLABEL>
+							<ALTLABEL>granting of aid</ALTLABEL>
+							<ALTLABEL>subvention</ALTLABEL>
+							<ALTLABEL>aid</ALTLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="2">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/100146</VALUE>
 								<IDENTIFIER>100146</IDENTIFIER>
@@ -1671,56 +1222,16 @@
 							</URI>
 							<IDENTIFIER>16</IDENTIFIER>
 							<PREFLABEL>16 ECONOMICS</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="1">
 							<URI>
-								<VALUE>http://eurovoc.europa.eu/100190</VALUE>
-								<IDENTIFIER>100190</IDENTIFIER>
+								<VALUE>http://eurovoc.europa.eu/100185</VALUE>
+								<IDENTIFIER>100185</IDENTIFIER>
 								<TYPE>EUROVOC</TYPE>
 							</URI>
-							<IDENTIFIER>1631</IDENTIFIER>
-							<PREFLABEL>1631 economic analysis</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/4250</VALUE>
-								<IDENTIFIER>4250</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>4250</IDENTIFIER>
-							<PREFLABEL>economic stabilisation</PREFLABEL>
-							<ALTLABEL>economic stability</ALTLABEL>
-							<ALTLABEL>economic stabilization</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/335</VALUE>
-								<IDENTIFIER>335</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>335</IDENTIFIER>
-							<PREFLABEL>economic cycle</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100146</VALUE>
-								<IDENTIFIER>100146</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>16</IDENTIFIER>
-							<PREFLABEL>16 ECONOMICS</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100186</VALUE>
-								<IDENTIFIER>100186</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>1611</IDENTIFIER>
-							<PREFLABEL>1611 economic growth</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+							<IDENTIFIER>1606</IDENTIFIER>
+							<PREFLABEL>1606 economic policy</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					<ID_CELEX type="data">
 						<VALUE>32010D0388</VALUE>
@@ -1728,30 +1239,6 @@
 					<RESOURCE_LEGAL_ID_CELEX type="data">
 						<VALUE>32010D0388</VALUE>
 					</RESOURCE_LEGAL_ID_CELEX>
-					<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_level">
-						<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1 type="concept">
-							<URI>
-								<VALUE>http://publications.europa.eu/resource/authority/fd_070/EXT</VALUE>
-								<IDENTIFIER>EXT</IDENTIFIER>
-								<TYPE>fd_070</TYPE>
-							</URI>
-							<OP-CODE>EXT</OP-CODE>
-							<IDENTIFIER>EXT</IDENTIFIER>
-							<PREFLABEL>External relations</PREFLABEL>
-						</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1>
-					</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER>
-					<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_level">
-						<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1 type="concept">
-							<URI>
-								<VALUE>http://publications.europa.eu/resource/authority/fd_070/ASSI</VALUE>
-								<IDENTIFIER>ASSI</IDENTIFIER>
-								<TYPE>fd_070</TYPE>
-							</URI>
-							<OP-CODE>ASSI</OP-CODE>
-							<IDENTIFIER>ASSI</IDENTIFIER>
-							<PREFLABEL>Assistance</PREFLABEL>
-						</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1>
-					</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER>
 					<WORK_HAS_RESOURCE-TYPE type="concept">
 						<URI>
 							<VALUE>http://publications.europa.eu/resource/authority/resource-type/DEC</VALUE>
@@ -1772,71 +1259,34 @@
 					<RESOURCE_LEGAL_NUMBER_NATURAL_CELEX type="data">
 						<VALUE>0388</VALUE>
 					</RESOURCE_LEGAL_NUMBER_NATURAL_CELEX>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="4">
 							<URI>
-								<VALUE>http://eurovoc.europa.eu/922</VALUE>
-								<IDENTIFIER>922</IDENTIFIER>
+								<VALUE>http://eurovoc.europa.eu/862</VALUE>
+								<IDENTIFIER>862</IDENTIFIER>
 								<TYPE>EUROVOC</TYPE>
 							</URI>
-							<IDENTIFIER>922</IDENTIFIER>
-							<PREFLABEL>financial aid</PREFLABEL>
-							<ALTLABEL>capital grant</ALTLABEL>
-							<ALTLABEL>financial grant</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+							<IDENTIFIER>862</IDENTIFIER>
+							<PREFLABEL>EU aid</PREFLABEL>
+							<ALTLABEL>aid from the European Union</ALTLABEL>
+							<ALTLABEL>Community aid</ALTLABEL>
+							<ALTLABEL>aid from the EU</ALTLABEL>
+							<ALTLABEL>Community support</ALTLABEL>
+							<ALTLABEL>European Union aid</ALTLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="3">
 							<URI>
-								<VALUE>http://eurovoc.europa.eu/2460</VALUE>
-								<IDENTIFIER>2460</IDENTIFIER>
+								<VALUE>http://eurovoc.europa.eu/712</VALUE>
+								<IDENTIFIER>712</IDENTIFIER>
 								<TYPE>EUROVOC</TYPE>
 							</URI>
-							<IDENTIFIER>2460</IDENTIFIER>
-							<PREFLABEL>aid policy</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100143</VALUE>
-								<IDENTIFIER>100143</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>08</IDENTIFIER>
-							<PREFLABEL>08 INTERNATIONAL RELATIONS</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100171</VALUE>
-								<IDENTIFIER>100171</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>0811</IDENTIFIER>
-							<PREFLABEL>0811 cooperation policy</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
-					<ID_SECTOR type="data">
-						<VALUE>3</VALUE>
-					</ID_SECTOR>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/3194</VALUE>
-								<IDENTIFIER>3194</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>3194</IDENTIFIER>
-							<PREFLABEL>reflation</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/2497</VALUE>
-								<IDENTIFIER>2497</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>2497</IDENTIFIER>
-							<PREFLABEL>economic policy</PREFLABEL>
-							<ALTLABEL>economic approach</ALTLABEL>
-							<ALTLABEL>economic choice</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+							<IDENTIFIER>712</IDENTIFIER>
+							<PREFLABEL>economic support</PREFLABEL>
+							<ALTLABEL>granting of aid</ALTLABEL>
+							<ALTLABEL>subvention</ALTLABEL>
+							<ALTLABEL>aid</ALTLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="2">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/100146</VALUE>
 								<IDENTIFIER>100146</IDENTIFIER>
@@ -1844,8 +1294,8 @@
 							</URI>
 							<IDENTIFIER>16</IDENTIFIER>
 							<PREFLABEL>16 ECONOMICS</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="1">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/100185</VALUE>
 								<IDENTIFIER>100185</IDENTIFIER>
@@ -1853,29 +1303,39 @@
 							</URI>
 							<IDENTIFIER>1606</IDENTIFIER>
 							<PREFLABEL>1606 economic policy</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+					<ID_SECTOR type="data">
+						<VALUE>3</VALUE>
+					</ID_SECTOR>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="4">
 							<URI>
-								<VALUE>http://eurovoc.europa.eu/5146</VALUE>
-								<IDENTIFIER>5146</IDENTIFIER>
+								<VALUE>http://eurovoc.europa.eu/862</VALUE>
+								<IDENTIFIER>862</IDENTIFIER>
 								<TYPE>EUROVOC</TYPE>
 							</URI>
-							<IDENTIFIER>5146</IDENTIFIER>
-							<PREFLABEL>economic situation</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+							<IDENTIFIER>862</IDENTIFIER>
+							<PREFLABEL>EU aid</PREFLABEL>
+							<ALTLABEL>aid from the European Union</ALTLABEL>
+							<ALTLABEL>Community aid</ALTLABEL>
+							<ALTLABEL>aid from the EU</ALTLABEL>
+							<ALTLABEL>Community support</ALTLABEL>
+							<ALTLABEL>European Union aid</ALTLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="3">
 							<URI>
-								<VALUE>http://eurovoc.europa.eu/84</VALUE>
-								<IDENTIFIER>84</IDENTIFIER>
+								<VALUE>http://eurovoc.europa.eu/712</VALUE>
+								<IDENTIFIER>712</IDENTIFIER>
 								<TYPE>EUROVOC</TYPE>
 							</URI>
-							<IDENTIFIER>84</IDENTIFIER>
-							<PREFLABEL>economic conditions</PREFLABEL>
-							<ALTLABEL>economic aspect</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+							<IDENTIFIER>712</IDENTIFIER>
+							<PREFLABEL>economic support</PREFLABEL>
+							<ALTLABEL>granting of aid</ALTLABEL>
+							<ALTLABEL>subvention</ALTLABEL>
+							<ALTLABEL>aid</ALTLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="2">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/100146</VALUE>
 								<IDENTIFIER>100146</IDENTIFIER>
@@ -1883,16 +1343,16 @@
 							</URI>
 							<IDENTIFIER>16</IDENTIFIER>
 							<PREFLABEL>16 ECONOMICS</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="1">
 							<URI>
-								<VALUE>http://eurovoc.europa.eu/100186</VALUE>
-								<IDENTIFIER>100186</IDENTIFIER>
+								<VALUE>http://eurovoc.europa.eu/100185</VALUE>
+								<IDENTIFIER>100185</IDENTIFIER>
 								<TYPE>EUROVOC</TYPE>
 							</URI>
-							<IDENTIFIER>1611</IDENTIFIER>
-							<PREFLABEL>1611 economic growth</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+							<IDENTIFIER>1606</IDENTIFIER>
+							<PREFLABEL>1606 economic policy</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					<TYPE>cdm:legislation_secondary</TYPE>
 					<TYPE>cdm:decision</TYPE>
@@ -2209,29 +1669,34 @@
 			</EVENT_LEGAL_MANDATORILY-CONSULTS_INSTITUTION>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
 				<WORK>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="4">
 							<URI>
-								<VALUE>http://eurovoc.europa.eu/1728</VALUE>
-								<IDENTIFIER>1728</IDENTIFIER>
+								<VALUE>http://eurovoc.europa.eu/862</VALUE>
+								<IDENTIFIER>862</IDENTIFIER>
 								<TYPE>EUROVOC</TYPE>
 							</URI>
-							<IDENTIFIER>1728</IDENTIFIER>
-							<PREFLABEL>macroeconomics</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+							<IDENTIFIER>862</IDENTIFIER>
+							<PREFLABEL>EU aid</PREFLABEL>
+							<ALTLABEL>aid from the European Union</ALTLABEL>
+							<ALTLABEL>Community aid</ALTLABEL>
+							<ALTLABEL>aid from the EU</ALTLABEL>
+							<ALTLABEL>Community support</ALTLABEL>
+							<ALTLABEL>European Union aid</ALTLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="3">
 							<URI>
-								<VALUE>http://eurovoc.europa.eu/1800</VALUE>
-								<IDENTIFIER>1800</IDENTIFIER>
+								<VALUE>http://eurovoc.europa.eu/712</VALUE>
+								<IDENTIFIER>712</IDENTIFIER>
 								<TYPE>EUROVOC</TYPE>
 							</URI>
-							<IDENTIFIER>1800</IDENTIFIER>
-							<PREFLABEL>economic analysis</PREFLABEL>
-							<ALTLABEL>economic study</ALTLABEL>
-							<ALTLABEL>economic evaluation</ALTLABEL>
-							<ALTLABEL>analysis of economic activity</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+							<IDENTIFIER>712</IDENTIFIER>
+							<PREFLABEL>economic support</PREFLABEL>
+							<ALTLABEL>granting of aid</ALTLABEL>
+							<ALTLABEL>subvention</ALTLABEL>
+							<ALTLABEL>aid</ALTLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="2">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/100146</VALUE>
 								<IDENTIFIER>100146</IDENTIFIER>
@@ -2239,16 +1704,16 @@
 							</URI>
 							<IDENTIFIER>16</IDENTIFIER>
 							<PREFLABEL>16 ECONOMICS</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="1">
 							<URI>
-								<VALUE>http://eurovoc.europa.eu/100190</VALUE>
-								<IDENTIFIER>100190</IDENTIFIER>
+								<VALUE>http://eurovoc.europa.eu/100185</VALUE>
+								<IDENTIFIER>100185</IDENTIFIER>
 								<TYPE>EUROVOC</TYPE>
 							</URI>
-							<IDENTIFIER>1631</IDENTIFIER>
-							<PREFLABEL>1631 economic analysis</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+							<IDENTIFIER>1606</IDENTIFIER>
+							<PREFLABEL>1606 economic policy</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					<WORK_DATE_DOCUMENT type="date">
 						<VALUE>2009-10-29</VALUE>
@@ -2256,125 +1721,37 @@
 						<MONTH>10</MONTH>
 						<DAY>29</DAY>
 					</WORK_DATE_DOCUMENT>
-					<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_level">
-						<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1 type="concept">
-							<URI>
-								<VALUE>http://publications.europa.eu/resource/authority/fd_070/EXT</VALUE>
-								<IDENTIFIER>EXT</IDENTIFIER>
-								<TYPE>fd_070</TYPE>
-							</URI>
-							<OP-CODE>EXT</OP-CODE>
-							<IDENTIFIER>EXT</IDENTIFIER>
-							<PREFLABEL>External relations</PREFLABEL>
-						</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1>
-					</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER>
 					<ID_SECTOR type="data">
 						<VALUE>5</VALUE>
 					</ID_SECTOR>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="4">
 							<URI>
-								<VALUE>http://eurovoc.europa.eu/7932</VALUE>
-								<IDENTIFIER>7932</IDENTIFIER>
+								<VALUE>http://eurovoc.europa.eu/862</VALUE>
+								<IDENTIFIER>862</IDENTIFIER>
 								<TYPE>EUROVOC</TYPE>
 							</URI>
-							<IDENTIFIER>7932</IDENTIFIER>
-							<PREFLABEL>European neighbourhood policy</PREFLABEL>
-							<ALTLABEL>ENP</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+							<IDENTIFIER>862</IDENTIFIER>
+							<PREFLABEL>EU aid</PREFLABEL>
+							<ALTLABEL>aid from the European Union</ALTLABEL>
+							<ALTLABEL>Community aid</ALTLABEL>
+							<ALTLABEL>aid from the EU</ALTLABEL>
+							<ALTLABEL>Community support</ALTLABEL>
+							<ALTLABEL>European Union aid</ALTLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="3">
 							<URI>
-								<VALUE>http://eurovoc.europa.eu/4040</VALUE>
-								<IDENTIFIER>4040</IDENTIFIER>
+								<VALUE>http://eurovoc.europa.eu/712</VALUE>
+								<IDENTIFIER>712</IDENTIFIER>
 								<TYPE>EUROVOC</TYPE>
 							</URI>
-							<IDENTIFIER>4040</IDENTIFIER>
-							<PREFLABEL>EU relations</PREFLABEL>
-							<ALTLABEL>Community relations</ALTLABEL>
-							<ALTLABEL>European Union relations</ALTLABEL>
-							<ALTLABEL>EC external relations</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100144</VALUE>
-								<IDENTIFIER>100144</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>10</IDENTIFIER>
-							<PREFLABEL>10 EUROPEAN UNION</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100176</VALUE>
-								<IDENTIFIER>100176</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>1016</IDENTIFIER>
-							<PREFLABEL>1016 European construction</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/922</VALUE>
-								<IDENTIFIER>922</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>922</IDENTIFIER>
-							<PREFLABEL>financial aid</PREFLABEL>
-							<ALTLABEL>capital grant</ALTLABEL>
-							<ALTLABEL>financial grant</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/2460</VALUE>
-								<IDENTIFIER>2460</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>2460</IDENTIFIER>
-							<PREFLABEL>aid policy</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100143</VALUE>
-								<IDENTIFIER>100143</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>08</IDENTIFIER>
-							<PREFLABEL>08 INTERNATIONAL RELATIONS</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100171</VALUE>
-								<IDENTIFIER>100171</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>0811</IDENTIFIER>
-							<PREFLABEL>0811 cooperation policy</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/4250</VALUE>
-								<IDENTIFIER>4250</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>4250</IDENTIFIER>
-							<PREFLABEL>economic stabilisation</PREFLABEL>
-							<ALTLABEL>economic stability</ALTLABEL>
-							<ALTLABEL>economic stabilization</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/335</VALUE>
-								<IDENTIFIER>335</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>335</IDENTIFIER>
-							<PREFLABEL>economic cycle</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+							<IDENTIFIER>712</IDENTIFIER>
+							<PREFLABEL>economic support</PREFLABEL>
+							<ALTLABEL>granting of aid</ALTLABEL>
+							<ALTLABEL>subvention</ALTLABEL>
+							<ALTLABEL>aid</ALTLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="2">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/100146</VALUE>
 								<IDENTIFIER>100146</IDENTIFIER>
@@ -2382,16 +1759,16 @@
 							</URI>
 							<IDENTIFIER>16</IDENTIFIER>
 							<PREFLABEL>16 ECONOMICS</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="1">
 							<URI>
-								<VALUE>http://eurovoc.europa.eu/100186</VALUE>
-								<IDENTIFIER>100186</IDENTIFIER>
+								<VALUE>http://eurovoc.europa.eu/100185</VALUE>
+								<IDENTIFIER>100185</IDENTIFIER>
 								<TYPE>EUROVOC</TYPE>
 							</URI>
-							<IDENTIFIER>1611</IDENTIFIER>
-							<PREFLABEL>1611 economic conditions</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+							<IDENTIFIER>1606</IDENTIFIER>
+							<PREFLABEL>1606 economic policy</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					<RESOURCE_LEGAL_YEAR type="data">
 						<VALUE>2009</VALUE>
@@ -2415,160 +1792,8 @@
 					<ID_CELEX type="data">
 						<VALUE>52009PC0580</VALUE>
 					</ID_CELEX>
-					<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_level">
-						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_3 type="concept">
-							<URI>
-								<VALUE>http://publications.europa.eu/resource/authority/fd_555/115020</VALUE>
-								<IDENTIFIER>115020</IDENTIFIER>
-								<TYPE>fd_555</TYPE>
-							</URI>
-							<OP-CODE>115020</OP-CODE>
-							<IDENTIFIER>115020</IDENTIFIER>
-							<PREFLABEL>Financial and economic Aid</PREFLABEL>
-						</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_3>
-						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_1 type="concept">
-							<URI>
-								<VALUE>http://publications.europa.eu/resource/authority/fd_555/11</VALUE>
-								<IDENTIFIER>11</IDENTIFIER>
-								<TYPE>fd_555</TYPE>
-							</URI>
-							<OP-CODE>11</OP-CODE>
-							<IDENTIFIER>11</IDENTIFIER>
-							<PREFLABEL>External relations</PREFLABEL>
-						</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_1>
-						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_2 type="concept">
-							<URI>
-								<VALUE>http://publications.europa.eu/resource/authority/fd_555/1150</VALUE>
-								<IDENTIFIER>1150</IDENTIFIER>
-								<TYPE>fd_555</TYPE>
-							</URI>
-							<OP-CODE>1150</OP-CODE>
-							<IDENTIFIER>1150</IDENTIFIER>
-							<PREFLABEL>Action in favour of countries in transition</PREFLABEL>
-						</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_2>
-					</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE>
-					<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_level">
-						<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1 type="concept">
-							<URI>
-								<VALUE>http://publications.europa.eu/resource/authority/fd_070/ASSI</VALUE>
-								<IDENTIFIER>ASSI</IDENTIFIER>
-								<TYPE>fd_070</TYPE>
-							</URI>
-							<OP-CODE>ASSI</OP-CODE>
-							<IDENTIFIER>ASSI</IDENTIFIER>
-							<PREFLABEL>Assistance</PREFLABEL>
-						</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1>
-					</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/5146</VALUE>
-								<IDENTIFIER>5146</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>5146</IDENTIFIER>
-							<PREFLABEL>economic situation</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/84</VALUE>
-								<IDENTIFIER>84</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>84</IDENTIFIER>
-							<PREFLABEL>economic conditions</PREFLABEL>
-							<ALTLABEL>economic aspect</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100146</VALUE>
-								<IDENTIFIER>100146</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>16</IDENTIFIER>
-							<PREFLABEL>16 ECONOMICS</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100186</VALUE>
-								<IDENTIFIER>100186</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>1611</IDENTIFIER>
-							<PREFLABEL>1611 economic conditions</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/5946</VALUE>
-								<IDENTIFIER>5946</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>5946</IDENTIFIER>
-							<PREFLABEL>Ukraine</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/914</VALUE>
-								<IDENTIFIER>914</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>914</IDENTIFIER>
-							<PREFLABEL>Central and Eastern Europe</PREFLABEL>
-							<ALTLABEL>Central Europe</ALTLABEL>
-							<ALTLABEL>Eastern Europe</ALTLABEL>
-							<ALTLABEL>CEE</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/122</VALUE>
-								<IDENTIFIER>122</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>122</IDENTIFIER>
-							<PREFLABEL>Council of Europe countries</PREFLABEL>
-							<ALTLABEL>Countries of the Council of Europe</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/5775</VALUE>
-								<IDENTIFIER>5775</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>5775</IDENTIFIER>
-							<PREFLABEL>CIS countries</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100161</VALUE>
-								<IDENTIFIER>100161</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>72</IDENTIFIER>
-							<PREFLABEL>72 GEOGRAPHY</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100277</VALUE>
-								<IDENTIFIER>100277</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>7206</IDENTIFIER>
-							<PREFLABEL>7206 Europe</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100283</VALUE>
-								<IDENTIFIER>100283</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>7236</IDENTIFIER>
-							<PREFLABEL>7236 political geography</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="4">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/862</VALUE>
 								<IDENTIFIER>862</IDENTIFIER>
@@ -2581,8 +1806,8 @@
 							<ALTLABEL>aid from the EU</ALTLABEL>
 							<ALTLABEL>Community support</ALTLABEL>
 							<ALTLABEL>European Union aid</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="3">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/712</VALUE>
 								<IDENTIFIER>712</IDENTIFIER>
@@ -2593,8 +1818,8 @@
 							<ALTLABEL>granting of aid</ALTLABEL>
 							<ALTLABEL>subvention</ALTLABEL>
 							<ALTLABEL>aid</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="2">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/100146</VALUE>
 								<IDENTIFIER>100146</IDENTIFIER>
@@ -2602,8 +1827,8 @@
 							</URI>
 							<IDENTIFIER>16</IDENTIFIER>
 							<PREFLABEL>16 ECONOMICS</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" path="1" level="1">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/100185</VALUE>
 								<IDENTIFIER>100185</IDENTIFIER>
@@ -2611,7 +1836,7 @@
 							</URI>
 							<IDENTIFIER>1606</IDENTIFIER>
 							<PREFLABEL>1606 economic policy</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					<RESOURCE_LEGAL_ID_CELEX type="data">
 						<VALUE>52009PC0580</VALUE>
