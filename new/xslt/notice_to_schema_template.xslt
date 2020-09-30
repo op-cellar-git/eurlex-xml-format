@@ -119,7 +119,9 @@
 		<xsl:element name="p_name_rel">
 			<xsl:apply-templates select="@*"/>
 			<xsl:comment>match="*[@type ='link']"</xsl:comment>
-			<xsl:apply-templates select="node()"/>
+			<xsl:apply-templates select="URI"/>
+			<xsl:apply-templates select="SAMEAS"/>
+			<xsl:apply-templates select="WORK"/>
 		</xsl:element>
 	</xsl:template>
 	
