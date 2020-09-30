@@ -8,6 +8,19 @@
 		</xsl:copy>
 	</xsl:template>
 
+	<xsl:template match="DOSSIER">
+		<xsl:element name="DOSSIER">
+			<xsl:apply-templates select="@*"/>
+			<xsl:comment>match="DOSSIER"</xsl:comment>
+			<xsl:apply-templates select="URI"/>
+			<xsl:apply-templates select="SAMEAS"/>
+			<!-- rdf:type -->
+			<xsl:apply-templates select="*[@type[.='type']]"/>
+			<!-- everything except rdf:type -->
+			<xsl:apply-templates select="*[@type[.!='type']]"/>
+		</xsl:element>
+	</xsl:template>
+	
 	<xsl:template match="EVENT">
 		<xsl:element name="EVENT">
 			<xsl:apply-templates select="@*"/>
