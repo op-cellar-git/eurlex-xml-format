@@ -18,6 +18,7 @@
 			<xsl:apply-templates select="*[@type[.='type']]"/>
 			<!-- everything except rdf:type -->
 			<xsl:apply-templates select="*[@type[.!='type']]"/>
+			<xsl:apply-templates select="EVENT[not(@type)]"/>
 		</xsl:element>
 	</xsl:template>
 	
