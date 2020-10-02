@@ -9,6 +9,8 @@ The [Eurlex Layer](https://citnet.tech.ec.europa.eu/CITnet/confluence/display/CE
 	- JSON sample: [here](https://raw.githubusercontent.com/op-cellar-git/eurlex-xml-format/master/new/filtering_rules/samples/exceptions.json)
 	- JSON schema: [here](https://raw.githubusercontent.com/op-cellar-git/eurlex-xml-format/master/new/filtering_rules/json_schema/schema_exceptions.json)
 
+In the samples there is only a hypothetical set of properties. The samples serve to give an idea of the structure. They are clearly not exhaustive for Eurlex's business.
+
 ## rules.json
 They look like the current approach, but instead of spreading these annotations all over the CDM, they are collected in an external JSON configuration file:
 -   `to_expand`: triggers an embedding of the target resource in all notice types.
