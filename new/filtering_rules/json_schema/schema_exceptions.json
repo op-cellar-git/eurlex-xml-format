@@ -1,0 +1,409 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "title": "The root schema",
+    "description": "The root schema comprises the entire JSON document.",
+    "default": {},
+    "examples": [
+        {
+            "exceptions": [
+                {
+                    "class": "cdm:act_preparatory",
+                    "rules": [
+                        {
+                            "to_embed": false,
+                            "level": [
+                                "work",
+                                "expression"
+                            ],
+                            "to_target": "cdm:resource_legal_based_on_concept_treaty"
+                        },
+                        {
+                            "to_embed": true,
+                            "level": [
+                                "work",
+                                "expression"
+                            ],
+                            "to_target": "cdm:resource_legal_published_in_official-journal",
+                            "inclusions": [
+                                "cdm:official-journal_number",
+                                "cdm:work_created_by_agent",
+                                "cdm:official-journal_part_of_collection_document"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "class": "cdm:official-journal",
+                    "rules": [
+                        {
+                            "to_embed": false,
+                            "level": [
+                                "work",
+                                "expression",
+                                "manifesation"
+                            ],
+                            "to_target": "cdm:work_created_by_agent"
+                        },
+                        {
+                            "to_embed": true,
+                            "level": [
+                                "work",
+                                "expression"
+                            ],
+                            "to_target": "cdm:work_id_obsolete_notice"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "required": [
+        "exceptions"
+    ],
+    "properties": {
+        "exceptions": {
+            "$id": "#/properties/exceptions",
+            "type": "array",
+            "title": "The exceptions schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": [],
+            "examples": [
+                [
+                    {
+                        "class": "cdm:act_preparatory",
+                        "rules": [
+                            {
+                                "to_embed": false,
+                                "level": [
+                                    "work",
+                                    "expression"
+                                ],
+                                "to_target": "cdm:resource_legal_based_on_concept_treaty"
+                            },
+                            {
+                                "to_embed": true,
+                                "level": [
+                                    "work",
+                                    "expression"
+                                ],
+                                "to_target": "cdm:resource_legal_published_in_official-journal",
+                                "inclusions": [
+                                    "cdm:official-journal_number",
+                                    "cdm:work_created_by_agent",
+                                    "cdm:official-journal_part_of_collection_document"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "class": "cdm:official-journal",
+                        "rules": [
+                            {
+                                "to_embed": false,
+                                "level": [
+                                    "work",
+                                    "expression",
+                                    "manifesation"
+                                ],
+                                "to_target": "cdm:work_created_by_agent"
+                            },
+                            {
+                                "to_embed": true,
+                                "level": [
+                                    "work",
+                                    "expression"
+                                ],
+                                "to_target": "cdm:work_id_obsolete_notice"
+                            }
+                        ]
+                    }
+                ]
+            ],
+            "additionalItems": false,
+            "items": {
+                "$id": "#/properties/exceptions/items",
+                "anyOf": [
+                    {
+                        "$id": "#/properties/exceptions/items/anyOf/0",
+                        "type": "object",
+                        "title": "The first anyOf schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": {},
+                        "examples": [
+                            {
+                                "class": "cdm:act_preparatory",
+                                "rules": [
+                                    {
+                                        "to_embed": false,
+                                        "level": [
+                                            "work",
+                                            "expression"
+                                        ],
+                                        "to_target": "cdm:resource_legal_based_on_concept_treaty"
+                                    },
+                                    {
+                                        "to_embed": true,
+                                        "level": [
+                                            "work",
+                                            "expression"
+                                        ],
+                                        "to_target": "cdm:resource_legal_published_in_official-journal",
+                                        "inclusions": [
+                                            "cdm:official-journal_number",
+                                            "cdm:work_created_by_agent",
+                                            "cdm:official-journal_part_of_collection_document"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "required": [
+                            "class",
+                            "rules"
+                        ],
+                        "properties": {
+                            "class": {
+                                "$id": "#/properties/exceptions/items/anyOf/0/properties/class",
+                                "type": "string",
+                                "title": "The class schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "cdm:act_preparatory"
+                                ]
+                            },
+                            "rules": {
+                                "$id": "#/properties/exceptions/items/anyOf/0/properties/rules",
+                                "type": "array",
+                                "title": "The rules schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": [],
+                                "examples": [
+                                    [
+                                        {
+                                            "to_embed": false,
+                                            "level": [
+                                                "work",
+                                                "expression"
+                                            ],
+                                            "to_target": "cdm:resource_legal_based_on_concept_treaty"
+                                        },
+                                        {
+                                            "to_embed": true,
+                                            "level": [
+                                                "work",
+                                                "expression"
+                                            ],
+                                            "to_target": "cdm:resource_legal_published_in_official-journal",
+                                            "inclusions": [
+                                                "cdm:official-journal_number",
+                                                "cdm:work_created_by_agent",
+                                                "cdm:official-journal_part_of_collection_document"
+                                            ]
+                                        }
+                                    ]
+                                ],
+                                "additionalItems": false,
+                                "items": {
+                                    "$id": "#/properties/exceptions/items/anyOf/0/properties/rules/items",
+                                    "anyOf": [
+                                        {
+                                            "$id": "#/properties/exceptions/items/anyOf/0/properties/rules/items/anyOf/0",
+                                            "type": "object",
+                                            "title": "The first anyOf schema",
+                                            "description": "An explanation about the purpose of this instance.",
+                                            "default": {},
+                                            "examples": [
+                                                {
+                                                    "to_embed": false,
+                                                    "level": [
+                                                        "work",
+                                                        "expression"
+                                                    ],
+                                                    "to_target": "cdm:resource_legal_based_on_concept_treaty"
+                                                }
+                                            ],
+                                            "required": [
+                                                "to_embed",
+                                                "level",
+                                                "to_target"
+                                            ],
+                                            "properties": {
+                                                "to_embed": {
+                                                    "$id": "#/properties/exceptions/items/anyOf/0/properties/rules/items/anyOf/0/properties/to_embed",
+                                                    "type": "boolean",
+                                                    "title": "The to_embed schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": false,
+                                                    "examples": [
+                                                        false
+                                                    ]
+                                                },
+                                                "level": {
+                                                    "$id": "#/properties/exceptions/items/anyOf/0/properties/rules/items/anyOf/0/properties/level",
+                                                    "type": "array",
+                                                    "title": "The level schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": [],
+                                                    "examples": [
+                                                        [
+                                                            "work",
+                                                            "expression"
+                                                        ]
+                                                    ],
+                                                    "additionalItems": false,
+                                                    "items": {
+                                                        "$id": "#/properties/exceptions/items/anyOf/0/properties/rules/items/anyOf/0/properties/level/items",
+                                                        "anyOf": [
+                                                            {
+                                                                "$id": "#/properties/exceptions/items/anyOf/0/properties/rules/items/anyOf/0/properties/level/items/anyOf/0",
+                                                                "type": "string",
+                                                                "title": "The first anyOf schema",
+                                                                "description": "An explanation about the purpose of this instance.",
+                                                                "default": "",
+                                                                "examples": [
+                                                                    "work",
+                                                                    "expression"
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                "to_target": {
+                                                    "$id": "#/properties/exceptions/items/anyOf/0/properties/rules/items/anyOf/0/properties/to_target",
+                                                    "type": "string",
+                                                    "title": "The to_target schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": "",
+                                                    "examples": [
+                                                        "cdm:resource_legal_based_on_concept_treaty"
+                                                    ]
+                                                }
+                                            },
+                                            "additionalProperties": false
+                                        },
+                                        {
+                                            "$id": "#/properties/exceptions/items/anyOf/0/properties/rules/items/anyOf/1",
+                                            "type": "object",
+                                            "title": "The second anyOf schema",
+                                            "description": "An explanation about the purpose of this instance.",
+                                            "default": {},
+                                            "examples": [
+                                                {
+                                                    "to_embed": true,
+                                                    "level": [
+                                                        "work",
+                                                        "expression"
+                                                    ],
+                                                    "to_target": "cdm:resource_legal_published_in_official-journal",
+                                                    "inclusions": [
+                                                        "cdm:official-journal_number",
+                                                        "cdm:work_created_by_agent",
+                                                        "cdm:official-journal_part_of_collection_document"
+                                                    ]
+                                                }
+                                            ],
+                                            "required": [
+                                                "to_embed",
+                                                "level",
+                                                "to_target",
+                                                "inclusions"
+                                            ],
+                                            "properties": {
+                                                "to_embed": {
+                                                    "$id": "#/properties/exceptions/items/anyOf/0/properties/rules/items/anyOf/1/properties/to_embed",
+                                                    "type": "boolean",
+                                                    "title": "The to_embed schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": false,
+                                                    "examples": [
+                                                        true
+                                                    ]
+                                                },
+                                                "level": {
+                                                    "$id": "#/properties/exceptions/items/anyOf/0/properties/rules/items/anyOf/1/properties/level",
+                                                    "type": "array",
+                                                    "title": "The level schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": [],
+                                                    "examples": [
+                                                        [
+                                                            "work",
+                                                            "expression"
+                                                        ]
+                                                    ],
+                                                    "additionalItems": false,
+                                                    "items": {
+                                                        "$id": "#/properties/exceptions/items/anyOf/0/properties/rules/items/anyOf/1/properties/level/items",
+                                                        "anyOf": [
+                                                            {
+                                                                "$id": "#/properties/exceptions/items/anyOf/0/properties/rules/items/anyOf/1/properties/level/items/anyOf/0",
+                                                                "type": "string",
+                                                                "title": "The first anyOf schema",
+                                                                "description": "An explanation about the purpose of this instance.",
+                                                                "default": "",
+                                                                "examples": [
+                                                                    "work",
+                                                                    "expression"
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                "to_target": {
+                                                    "$id": "#/properties/exceptions/items/anyOf/0/properties/rules/items/anyOf/1/properties/to_target",
+                                                    "type": "string",
+                                                    "title": "The to_target schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": "",
+                                                    "examples": [
+                                                        "cdm:resource_legal_published_in_official-journal"
+                                                    ]
+                                                },
+                                                "inclusions": {
+                                                    "$id": "#/properties/exceptions/items/anyOf/0/properties/rules/items/anyOf/1/properties/inclusions",
+                                                    "type": "array",
+                                                    "title": "The inclusions schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": [],
+                                                    "examples": [
+                                                        [
+                                                            "cdm:official-journal_number",
+                                                            "cdm:work_created_by_agent"
+                                                        ]
+                                                    ],
+                                                    "additionalItems": false,
+                                                    "items": {
+                                                        "$id": "#/properties/exceptions/items/anyOf/0/properties/rules/items/anyOf/1/properties/inclusions/items",
+                                                        "anyOf": [
+                                                            {
+                                                                "$id": "#/properties/exceptions/items/anyOf/0/properties/rules/items/anyOf/1/properties/inclusions/items/anyOf/0",
+                                                                "type": "string",
+                                                                "title": "The first anyOf schema",
+                                                                "description": "An explanation about the purpose of this instance.",
+                                                                "default": "",
+                                                                "examples": [
+                                                                    "cdm:official-journal_number",
+                                                                    "cdm:work_created_by_agent"
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            },
+                                            "additionalProperties": false
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "additionalProperties": false
+                    }
+                ]
+            }
+        }
+    },
+    "additionalProperties": false
+}

@@ -1,0 +1,40 @@
+{
+    "rules": [
+		{
+			"propety": "cdm:resource_legal_based_on_concept_treaty",
+			"annotations": {
+				"to_expand": false,
+				"in_embedded_notice": true,
+				"to_be_indexed": true,
+				"is_concept_hierarchy": true
+			}
+		},
+		{
+			"propety": "cdm:resource_legal_published_in_official-journal",
+			"annotations": {
+				"to_expand": true,
+				"in_embedded_notice": true,
+				"to_be_indexed": true,
+				"is_concept_hierarchy": false
+			}
+		},
+		{
+			"propety": "cdm:work_created_by_agent",
+			"annotations": {
+				"to_expand": true,
+				"in_embedded_notice": true,
+				"to_be_indexed": true,
+				"is_concept_hierarchy": false
+        }
+		},
+		{
+			"propety": "cdm:work_id_obsolete_notice",
+			"annotations": {
+				"to_expand": true,
+				"in_embedded_notice": false,
+				"to_be_indexed": false,
+				"is_concept_hierarchy": false
+			}
+		}
+	]
+}

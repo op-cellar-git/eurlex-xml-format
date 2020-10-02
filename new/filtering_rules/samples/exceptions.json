@@ -1,0 +1,32 @@
+{
+    "exceptions": [{
+            "class": "cdm:act_preparatory",
+            "rules": [{
+                    "to_embed": false,
+                    "level": ["work", "expression"],
+                    "to_target": "cdm:resource_legal_based_on_concept_treaty"
+                },
+                {
+                    "to_embed": true,
+                    "level": ["work", "expression"],
+                    "to_target": "cdm:resource_legal_published_in_official-journal",
+                    "inclusions": ["cdm:official-journal_number", "cdm:work_created_by_agent", "cdm:official-journal_part_of_collection_document"]
+                }
+            ]
+        },
+        {
+            "class": "cdm:official-journal",
+            "rules": [{
+                    "to_embed": false,
+                    "level": ["work", "expression", "manifesation"],
+                    "to_target": "cdm:work_created_by_agent"
+                },
+                {
+                    "to_embed": true,
+                    "level": ["work", "expression"],
+                    "to_target": "cdm:work_id_obsolete_notice"
+                }
+            ]
+        }
+    ]
+}
