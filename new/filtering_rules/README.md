@@ -1,12 +1,13 @@
+
 # Filtering rules
 The [Eurlex Layer](https://citnet.tech.ec.europa.eu/CITnet/confluence/display/CELLAR/Eurlex+Layer) is responsible for building the aggregated RDF model that is transformed into the new XML format. Here there is a proposal to extract the annotations from the ontology (CDM) and use two configuration files:
 
  1. **rules.json** to define the general behavior
-	 - JSON sample 
-	- JSON schema
+	- JSON sample: [here](https://raw.githubusercontent.com/op-cellar-git/eurlex-xml-format/master/new/filtering_rules/samples/rules.json)
+	- JSON schema: [here](https://raw.githubusercontent.com/op-cellar-git/eurlex-xml-format/master/new/filtering_rules/json_schema/schema_exceptions.json)
  2. **exceptions.json**  to define some exceptions in the embedding rules
-	 - JSON sample 
-	- JSON schema
+	- JSON sample: [here](https://raw.githubusercontent.com/op-cellar-git/eurlex-xml-format/master/new/filtering_rules/samples/exceptions.json)
+	- JSON schema: [here](https://raw.githubusercontent.com/op-cellar-git/eurlex-xml-format/master/new/filtering_rules/json_schema/schema_exceptions.json)
 
 ## rules.json
 They look like the current approach, but instead of spreading these annotations all over the CDM, they are collected in an external JSON configuration file:
@@ -35,21 +36,21 @@ In some cases, Eurlex is interested in obtaining a specific behavior relative to
 -   `to_embed`:  flag to activate or deactivate the embedding of a target property. The value `false` must be used when Cellar must ignore a "to_expand" in *rules.json* for a given class.
 -   `level`: this field indicates at what level of the FRBR the exception is valid.
 -   `to_target`: this is the target property for the embedding.
--   `inclusions`: these properties are exceptionally "in_embedded_notice".
+-   `inclusions`: these properties are exceptionally "in_embedded_notice" in the context of the target property already set.
 ### Example of entry in JSON:
 ```
 {
       "class": "cdm:act_preparatory",
       "rules": [
-			      { "to_embed": "false",
-		            "level": ["work", "expression"],
-		            "to_target": "cdm:resource_legal_based_on_concept_treaty"
-			      },
+		  { "to_embed": "false",
+		    "level": ["work", "expression"],
+		    "to_target": "cdm:resource_legal_based_on_concept_treaty"
+		  },
                   { "to_embed": "true",
                     "level": ["work", "expression"],
                     "to_target": "cdm:resource_legal_published_in_official-journal",
                     "inclusions": ["cdm:official-journal_number", "cdm:work_created_by_agent", "cdm:official-journal_part_of_collection_document"]
-	              }
-	           ]
+	          }
+	       ]
 }
 ```
