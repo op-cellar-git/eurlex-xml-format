@@ -42,11 +42,11 @@ In some cases, Eurlex is interested in obtaining a specific behavior relative to
 {
       "class": "cdm:act_preparatory",
       "rules": [
-		  { "to_embed": "false",
+		  { "to_embed": false,
 		    "level": ["work", "expression"],
 		    "to_target": "cdm:resource_legal_based_on_concept_treaty"
 		  },
-                  { "to_embed": "true",
+                  { "to_embed": true,
                     "level": ["work", "expression"],
                     "to_target": "cdm:resource_legal_published_in_official-journal",
                     "inclusions": ["cdm:official-journal_number", "cdm:work_created_by_agent", "cdm:official-journal_part_of_collection_document"]
