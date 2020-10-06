@@ -1,0 +1,3546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2019 rel. 3 sp1 (http://www.altova.com) by DG OP (OP Publications Office of the European Union) -->
+<NOTICE decoding="eng" type="branch" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Users/thelese/workspace/git/eurlex-xml-format/new/branch.xsd">
+	<WORK>
+		<URI>
+			<VALUE>http://publications.europa.eu/resource/cellar/fc5c74e0-6255-11e8-ab9c-01aa75ed71a1</VALUE>
+			<IDENTIFIER>fc5c74e0-6255-11e8-ab9c-01aa75ed71a1</IDENTIFIER>
+			<TYPE>cellar</TYPE>
+		</URI>
+		<SAMEAS>
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/immc/COM%282018%29340%20final</VALUE>
+				<IDENTIFIER>COM(2018)340 final</IDENTIFIER>
+				<TYPE>immc</TYPE>
+			</URI>
+		</SAMEAS>
+		<SAMEAS>
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/comnat/COM_2018_0340_FIN</VALUE>
+				<IDENTIFIER>COM_2018_0340_FIN</IDENTIFIER>
+				<TYPE>comnat</TYPE>
+			</URI>
+		</SAMEAS>
+		<SAMEAS>
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/celex/52018PC0340</VALUE>
+				<IDENTIFIER>52018PC0340</IDENTIFIER>
+				<TYPE>celex</TYPE>
+			</URI>
+		</SAMEAS>
+		<!--RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_hierarchy">
+			<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_hierarchy_concept" path="1" level="4">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/authority/fd_555/15103030</VALUE>
+					<IDENTIFIER>15103030</IDENTIFIER>
+					<TYPE>fd_555</TYPE>
+				</URI>
+				<OP-CODE>15103030</OP-CODE>
+				<IDENTIFIER>15103030</IDENTIFIER>
+				<PREFLABEL>Waste management and clean technology</PREFLABEL>
+			</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE>
+			<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_hierarchy_concept" path="1" level="3">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/authority/fd_555/151030</VALUE>
+					<IDENTIFIER>151030</IDENTIFIER>
+					<TYPE>fd_555</TYPE>
+				</URI>
+				<OP-CODE>151030</OP-CODE>
+				<IDENTIFIER>151030</IDENTIFIER>
+				<PREFLABEL>Space, environment and natural resources</PREFLABEL>
+			</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE>
+			<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_hierarchy_concept" path="1" level="1">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/authority/fd_555/15</VALUE>
+					<IDENTIFIER>15</IDENTIFIER>
+					<TYPE>fd_555</TYPE>
+				</URI>
+				<OP-CODE>15</OP-CODE>
+				<IDENTIFIER>15</IDENTIFIER>
+				<PREFLABEL>Environment, consumers and health protection</PREFLABEL>
+			</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE>
+			<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_hierarchy_concept" path="1" level="2">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/authority/fd_555/1510</VALUE>
+					<IDENTIFIER>1510</IDENTIFIER>
+					<TYPE>fd_555</TYPE>
+				</URI>
+				<OP-CODE>1510</OP-CODE>
+				<IDENTIFIER>1510</IDENTIFIER>
+				<PREFLABEL>Environment</PREFLABEL>
+			</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE>
+		</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE-->
+		<DATE_CREATION_LEGACY type="date">
+			<VALUE>2018-05-28</VALUE>
+			<YEAR>2018</YEAR>
+			<MONTH>05</MONTH>
+			<DAY>28</DAY>
+		</DATE_CREATION_LEGACY>
+		<LASTMODIFICATIONDATE type="date">
+			<VALUE>2020-09-27T17:43:28.234+02:00</VALUE>
+			<YEAR>2020</YEAR>
+			<MONTH>09</MONTH>
+			<DAY>27</DAY>
+		</LASTMODIFICATIONDATE>
+		<CREATED_BY type="concept">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/authority/corporate-body/COM</VALUE>
+				<IDENTIFIER>COM</IDENTIFIER>
+				<TYPE>corporate-body</TYPE>
+			</URI>
+			<OP-CODE>COM</OP-CODE>
+			<IDENTIFIER>COM</IDENTIFIER>
+			<PREFLABEL>European Commission</PREFLABEL>
+			<ALTLABEL>Commission</ALTLABEL>
+			<ALTLABEL>European Commission</ALTLABEL>
+			<ALTLABEL>Commission of the European Communities</ALTLABEL>
+			<ALTLABEL>EC</ALTLABEL>
+		</CREATED_BY>
+		<IS_ABOUT type="concept">
+			<URI>
+				<VALUE>http://eurovoc.europa.eu/1837</VALUE>
+				<IDENTIFIER>1837</IDENTIFIER>
+				<TYPE>EUROVOC</TYPE>
+			</URI>
+			<IDENTIFIER>1837</IDENTIFIER>
+			<PREFLABEL>plastics</PREFLABEL>
+			<ALTLABEL>polyurethane</ALTLABEL>
+			<ALTLABEL>polyurethane foam</ALTLABEL>
+			<ALTLABEL>polypropylene</ALTLABEL>
+			<ALTLABEL>plastic</ALTLABEL>
+			<ALTLABEL>PVC</ALTLABEL>
+			<ALTLABEL>polyethylene</ALTLABEL>
+			<ALTLABEL>polyvinyl chloride</ALTLABEL>
+			<ALTLABEL>polyester</ALTLABEL>
+		</IS_ABOUT>
+		<IS_ABOUT type="concept">
+			<URI>
+				<VALUE>http://eurovoc.europa.eu/5794</VALUE>
+				<IDENTIFIER>5794</IDENTIFIER>
+				<TYPE>EUROVOC</TYPE>
+			</URI>
+			<IDENTIFIER>5794</IDENTIFIER>
+			<PREFLABEL>EU environmental policy</PREFLABEL>
+			<ALTLABEL>EU environment policy</ALTLABEL>
+			<ALTLABEL>European Union environment policy</ALTLABEL>
+			<ALTLABEL>European Union environmental policy</ALTLABEL>
+			<ALTLABEL>Community environmental policy</ALTLABEL>
+		</IS_ABOUT>
+		<IS_ABOUT type="concept">
+			<URI>
+				<VALUE>http://eurovoc.europa.eu/2535</VALUE>
+				<IDENTIFIER>2535</IDENTIFIER>
+				<TYPE>EUROVOC</TYPE>
+			</URI>
+			<IDENTIFIER>2535</IDENTIFIER>
+			<PREFLABEL>marine pollution</PREFLABEL>
+			<ALTLABEL>pollution of the seas</ALTLABEL>
+			<ALTLABEL>disposal of waste at sea</ALTLABEL>
+		</IS_ABOUT>
+		<IS_ABOUT type="concept">
+			<URI>
+				<VALUE>http://eurovoc.europa.eu/1158</VALUE>
+				<IDENTIFIER>1158</IDENTIFIER>
+				<TYPE>EUROVOC</TYPE>
+			</URI>
+			<IDENTIFIER>1158</IDENTIFIER>
+			<PREFLABEL>waste management</PREFLABEL>
+			<ALTLABEL>rubbish dump</ALTLABEL>
+			<ALTLABEL>landfill site</ALTLABEL>
+			<ALTLABEL>waste treatment</ALTLABEL>
+		</IS_ABOUT>
+		<IS_ABOUT type="concept">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/authority/fd_555/15102020</VALUE>
+				<IDENTIFIER>15102020</IDENTIFIER>
+				<TYPE>fd_555</TYPE>
+			</URI>
+			<OP-CODE>15102020</OP-CODE>
+			<IDENTIFIER>15102020</IDENTIFIER>
+			<PREFLABEL>Water protection and management</PREFLABEL>
+		</IS_ABOUT>
+		<SERVICE_RESPONSIBLE type="data">
+			<VALUE>ENV</VALUE>
+		</SERVICE_RESPONSIBLE>
+		<WORK_ID_DOCUMENT type="data">
+			<VALUE>comnat:COM_2018_0340_FIN</VALUE>
+		</WORK_ID_DOCUMENT>
+		<WORK_ID_DOCUMENT type="data">
+			<VALUE>celex:52018PC0340</VALUE>
+		</WORK_ID_DOCUMENT>
+		<WORK_CITES_WORK type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/591f82a6-a6a1-4398-b531-41ac8b97ffa9</VALUE>
+				<IDENTIFIER>591f82a6-a6a1-4398-b531-41ac8b97ffa9</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/eli/convention/1993/98/oj</VALUE>
+					<IDENTIFIER>convention:1993:98:oj</IDENTIFIER>
+					<TYPE>eli</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/21993A0216%2802%29</VALUE>
+					<IDENTIFIER>21993A0216(02)</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+		</WORK_CITES_WORK>
+		<WORK_CITES_WORK type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/65bee8e7-6e37-49c9-a431-67083fe22157</VALUE>
+				<IDENTIFIER>65bee8e7-6e37-49c9-a431-67083fe22157</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/eli/dir/2003/4/oj</VALUE>
+					<IDENTIFIER>dir:2003:4:oj</IDENTIFIER>
+					<TYPE>eli</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/oj/JOL_2003_041_R_0026_01</VALUE>
+					<IDENTIFIER>JOL_2003_041_R_0026_01</IDENTIFIER>
+					<TYPE>oj</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/32003L0004</VALUE>
+					<IDENTIFIER>32003L0004</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+		</WORK_CITES_WORK>
+		<WORK_CITES_WORK type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/a32ddb30-1a98-4911-964a-e4f4f638f20d</VALUE>
+				<IDENTIFIER>a32ddb30-1a98-4911-964a-e4f4f638f20d</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/oj/JOL_2008_312_R_0003_01</VALUE>
+					<IDENTIFIER>JOL_2008_312_R_0003_01</IDENTIFIER>
+					<TYPE>oj</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/32008L0098</VALUE>
+					<IDENTIFIER>32008L0098</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/eli/dir/2008/98/oj</VALUE>
+					<IDENTIFIER>dir:2008:98:oj</IDENTIFIER>
+					<TYPE>eli</TYPE>
+				</URI>
+			</SAMEAS>
+		</WORK_CITES_WORK>
+		<WORK_CITES_WORK type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/af47b123-2eed-44a4-9079-c232e318f5ad</VALUE>
+				<IDENTIFIER>af47b123-2eed-44a4-9079-c232e318f5ad</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/22005A0517%2801%29</VALUE>
+					<IDENTIFIER>22005A0517(01)</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/eli/convention/2005/370/oj</VALUE>
+					<IDENTIFIER>convention:2005:370:oj</IDENTIFIER>
+					<TYPE>eli</TYPE>
+				</URI>
+			</SAMEAS>
+		</WORK_CITES_WORK>
+		<WORK_CITES_WORK type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/2df5d1d2-fac7-11e7-b8f5-01aa75ed71a1</VALUE>
+				<IDENTIFIER>2df5d1d2-fac7-11e7-b8f5-01aa75ed71a1</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/52018DC0028</VALUE>
+					<IDENTIFIER>52018DC0028</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/comnat/COM_2018_0028_FIN</VALUE>
+					<IDENTIFIER>COM_2018_0028_FIN</IDENTIFIER>
+					<TYPE>comnat</TYPE>
+				</URI>
+			</SAMEAS>
+		</WORK_CITES_WORK>
+		<WORK_CITES_WORK type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/127ceea5-76cc-11e3-b889-01aa75ed71a1</VALUE>
+				<IDENTIFIER>127ceea5-76cc-11e3-b889-01aa75ed71a1</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/eli/reg/2013/1380/oj</VALUE>
+					<IDENTIFIER>reg:2013:1380:oj</IDENTIFIER>
+					<TYPE>eli</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/oj/JOL_2013_354_R_0022_01</VALUE>
+					<IDENTIFIER>JOL_2013_354_R_0022_01</IDENTIFIER>
+					<TYPE>oj</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/32013R1380</VALUE>
+					<IDENTIFIER>32013R1380</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+		</WORK_CITES_WORK>
+		<!-- NOT CLEAR WHY TARGET IS A CONCEPT -->
+		<!-- WORK_CITES_WORK type="concept_level">
+			<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1 type="concept">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/authority/fd_070/DECH</VALUE>
+					<IDENTIFIER>DECH</IDENTIFIER>
+					<TYPE>fd_070</TYPE>
+				</URI>
+				<OP-CODE>DECH</OP-CODE>
+				<IDENTIFIER>DECH</IDENTIFIER>
+				<PREFLABEL>Waste</PREFLABEL>
+			</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1>
+		</WORK_CITES_WORK-->
+		<WORK_CITES_WORK type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/571a59f5-fac7-11e7-b8f5-01aa75ed71a1</VALUE>
+				<IDENTIFIER>571a59f5-fac7-11e7-b8f5-01aa75ed71a1</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/52018PC0033</VALUE>
+					<IDENTIFIER>52018PC0033</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/comnat/COM_2018_0033_FIN</VALUE>
+					<IDENTIFIER>COM_2018_0033_FIN</IDENTIFIER>
+					<TYPE>comnat</TYPE>
+				</URI>
+			</SAMEAS>
+		</WORK_CITES_WORK>
+		<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy">
+			<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="4" path="1">
+				<URI>
+					<VALUE>http://eurovoc.europa.eu/1707</VALUE>
+					<IDENTIFIER>1707</IDENTIFIER>
+					<TYPE>EUROVOC</TYPE>
+				</URI>
+				<IDENTIFIER>1707</IDENTIFIER>
+				<PREFLABEL>pollution control measures</PREFLABEL>
+				<ALTLABEL>reduction of pollution</ALTLABEL>
+			</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+			<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="3" path="1">
+				<URI>
+					<VALUE>http://eurovoc.europa.eu/1707</VALUE>
+					<IDENTIFIER>1707</IDENTIFIER>
+					<TYPE>EUROVOC</TYPE>
+				</URI>
+				<IDENTIFIER>1707</IDENTIFIER>
+				<PREFLABEL>pollution control measures</PREFLABEL>
+				<ALTLABEL>reduction of pollution</ALTLABEL>
+			</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+			<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="1" path="1">
+				<URI>
+					<VALUE>http://eurovoc.europa.eu/100155</VALUE>
+					<IDENTIFIER>100155</IDENTIFIER>
+					<TYPE>EUROVOC</TYPE>
+				</URI>
+				<IDENTIFIER>52</IDENTIFIER>
+				<PREFLABEL>52 ENVIRONMENT</PREFLABEL>
+			</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+			<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="2" path="1">
+				<URI>
+					<VALUE>http://eurovoc.europa.eu/100242</VALUE>
+					<IDENTIFIER>100242</IDENTIFIER>
+					<TYPE>EUROVOC</TYPE>
+				</URI>
+				<IDENTIFIER>5206</IDENTIFIER>
+				<PREFLABEL>5206 environmental policy</PREFLABEL>
+			</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+		</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+		<RESOURCE_LEGAL_INFORMATION_MISCELLANEOUS type="data">
+			<VALUE>{P/EEE|http://publications.europa.eu/resource/authority/fd_400/P%2FEEE}</VALUE>
+		</RESOURCE_LEGAL_INFORMATION_MISCELLANEOUS>
+		<RESOURCE_LEGAL_BASED_ON_RESOURCE_LEGAL type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/cdbccbd7-06ae-4c9b-9076-57fc645256c2</VALUE>
+				<IDENTIFIER>cdbccbd7-06ae-4c9b-9076-57fc645256c2</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/12016E192</VALUE>
+					<IDENTIFIER>12016E192</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/eli/treaty/tfeu_2016/art_192/oj</VALUE>
+					<IDENTIFIER>treaty:tfeu_2016:art_192:oj</IDENTIFIER>
+					<TYPE>eli</TYPE>
+				</URI>
+			</SAMEAS>
+			<PARAGRAPH>1</PARAGRAPH>
+			<COMMENT_ON_LEGAL_BASIS type="annotation">P1</COMMENT_ON_LEGAL_BASIS>
+		</RESOURCE_LEGAL_BASED_ON_RESOURCE_LEGAL>
+		<DATE_DOCUMENT type="date">
+			<VALUE>2018-05-28</VALUE>
+			<YEAR>2018</YEAR>
+			<MONTH>05</MONTH>
+			<DAY>28</DAY>
+		</DATE_DOCUMENT>
+		<WORK_PART_OF_DOSSIER type="link">
+			<DOSSIER>
+				<TYPE type="type">cdm:period</TYPE>
+				<TYPE type="type">cdm:procedure_internal</TYPE>
+				<TYPE type="type">cdm:entity_temporal</TYPE>
+				<TYPE type="type">cdm:dossier</TYPE>
+			</DOSSIER>
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/0099fab9-625a-11e8-ab9c-01aa75ed71a1</VALUE>
+				<IDENTIFIER>0099fab9-625a-11e8-ab9c-01aa75ed71a1</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/internal_proc/4EA5A439811F4F0D7522C7952DFC12ECCCE0FBA14846EC9F7681F23CDA431DC9</VALUE>
+					<IDENTIFIER>4EA5A439811F4F0D7522C7952DFC12ECCCE0FBA14846EC9F7681F23CDA431DC9</IDENTIFIER>
+					<TYPE>internal_proc</TYPE>
+				</URI>
+			</SAMEAS>
+		</WORK_PART_OF_DOSSIER>
+		<DATE type="date">
+			<VALUE>2018-05-28</VALUE>
+			<YEAR>2018</YEAR>
+			<MONTH>05</MONTH>
+			<DAY>28</DAY>
+		</DATE>
+		<RESOURCE_LEGAL_NUMBER_NATURAL_CELEX type="data">
+			<VALUE>340</VALUE>
+		</RESOURCE_LEGAL_NUMBER_NATURAL_CELEX>
+		<WORK_CITES_WORK type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/49604e33-fec8-11e4-a4c8-01aa75ed71a1</VALUE>
+				<IDENTIFIER>49604e33-fec8-11e4-a4c8-01aa75ed71a1</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/comnat/SWD_2015_0111_FIN</VALUE>
+					<IDENTIFIER>SWD_2015_0111_FIN</IDENTIFIER>
+					<TYPE>comnat</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/52015SC0111</VALUE>
+					<IDENTIFIER>52015SC0111</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/swd/SWD_2015_0111</VALUE>
+					<IDENTIFIER>SWD_2015_0111</IDENTIFIER>
+					<TYPE>swd</TYPE>
+				</URI>
+			</SAMEAS>
+		</WORK_CITES_WORK>
+		<RESOURCE_LEGAL_ID_CELEX type="data">
+			<VALUE>52018PC0340</VALUE>
+		</RESOURCE_LEGAL_ID_CELEX>
+		<WORK_CITES_WORK type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/f07ab00e-3795-4146-8739-07dc585b97ad</VALUE>
+				<IDENTIFIER>f07ab00e-3795-4146-8739-07dc585b97ad</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/oj/JOL_1998_179_R_0003_002</VALUE>
+					<IDENTIFIER>JOL_1998_179_R_0003_002</IDENTIFIER>
+					<TYPE>oj</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/21998A0623%2801%29</VALUE>
+					<IDENTIFIER>21998A0623(01)</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/eli/convention/1998/392/oj</VALUE>
+					<IDENTIFIER>convention:1998:392:oj</IDENTIFIER>
+					<TYPE>eli</TYPE>
+				</URI>
+			</SAMEAS>
+		</WORK_CITES_WORK>
+		<RESOURCE_LEGAL_COR_OPINION_CONTAINED_IN_RESOURCE_LEGAL type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/ebbe9489-04e8-11e9-adde-01aa75ed71a1</VALUE>
+				<IDENTIFIER>ebbe9489-04e8-11e9-adde-01aa75ed71a1</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/immc/COR-2018-03652</VALUE>
+					<IDENTIFIER>COR-2018-03652</IDENTIFIER>
+					<TYPE>immc</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/cor/COR-2018-03652</VALUE>
+					<IDENTIFIER>COR-2018-03652</IDENTIFIER>
+					<TYPE>cor</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/52018AR3652</VALUE>
+					<IDENTIFIER>52018AR3652</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/oj/JOC_2018_461_R_0017</VALUE>
+					<IDENTIFIER>JOC_2018_461_R_0017</IDENTIFIER>
+					<TYPE>oj</TYPE>
+				</URI>
+			</SAMEAS>
+			<TYPE_OF_LINK_TARGET>EA</TYPE_OF_LINK_TARGET>
+			<ROLE2>{MD|http://publications.europa.eu/resource/authority/fd_375/MD}</ROLE2>
+		</RESOURCE_LEGAL_COR_OPINION_CONTAINED_IN_RESOURCE_LEGAL>
+		<WORK_CITES_WORK type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/6339d1bf-a2e0-4f88-9b39-7845c82d253c</VALUE>
+				<IDENTIFIER>6339d1bf-a2e0-4f88-9b39-7845c82d253c</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/12016P047</VALUE>
+					<IDENTIFIER>12016P047</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/eli/treaty/char_2016/art_47/oj</VALUE>
+					<IDENTIFIER>treaty:char_2016:art_47:oj</IDENTIFIER>
+					<TYPE>eli</TYPE>
+				</URI>
+			</SAMEAS>
+		</WORK_CITES_WORK>
+		<CREATIONDATE type="date">
+			<VALUE>2018-05-28T11:03:29.778+02:00</VALUE>
+			<YEAR>2018</YEAR>
+			<MONTH>05</MONTH>
+			<DAY>28</DAY>
+		</CREATIONDATE>
+		<WORK_RELATED_TO_WORK type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/240d5355-6257-11e8-ab9c-01aa75ed71a1</VALUE>
+				<IDENTIFIER>240d5355-6257-11e8-ab9c-01aa75ed71a1</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/comnat/SWD_2018_0257_FIN</VALUE>
+					<IDENTIFIER>SWD_2018_0257_FIN</IDENTIFIER>
+					<TYPE>comnat</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/immc/SWD%282018%29257%20final</VALUE>
+					<IDENTIFIER>SWD(2018)257 final</IDENTIFIER>
+					<TYPE>immc</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/52018SC0257</VALUE>
+					<IDENTIFIER>52018SC0257</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+			<TYPE_OF_LINK_TARGET>RD</TYPE_OF_LINK_TARGET>
+		</WORK_RELATED_TO_WORK>
+		<WORK_CREATED_BY_AGENT type="concept">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/authority/corporate-body/COM</VALUE>
+				<IDENTIFIER>COM</IDENTIFIER>
+				<TYPE>corporate-body</TYPE>
+			</URI>
+			<OP-CODE>COM</OP-CODE>
+			<IDENTIFIER>COM</IDENTIFIER>
+			<PREFLABEL>European Commission</PREFLABEL>
+			<ALTLABEL>Commission</ALTLABEL>
+			<ALTLABEL>European Commission</ALTLABEL>
+			<ALTLABEL>Commission of the European Communities</ALTLABEL>
+			<ALTLABEL>EC</ALTLABEL>
+		</WORK_CREATED_BY_AGENT>
+		<!-- COMMENTED OUT FOR THE SAKE OF SIMPLICITY -->
+		<!--WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
+			<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+				<URI>
+					<VALUE>http://eurovoc.europa.eu/3139</VALUE>
+					<IDENTIFIER>3139</IDENTIFIER>
+					<TYPE>EUROVOC</TYPE>
+				</URI>
+				<IDENTIFIER>3139</IDENTIFIER>
+				<PREFLABEL>environmental impact</PREFLABEL>
+				<ALTLABEL>effect on the environment</ALTLABEL>
+				<ALTLABEL>ecological balance sheet</ALTLABEL>
+				<ALTLABEL>eco-balance</ALTLABEL>
+				<ALTLABEL>environmental assessment</ALTLABEL>
+				<ALTLABEL>ecological assessment</ALTLABEL>
+				<ALTLABEL>environmental footprint</ALTLABEL>
+				<ALTLABEL>environmental effect</ALTLABEL>
+			</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
+			<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+				<URI>
+					<VALUE>http://eurovoc.europa.eu/2470</VALUE>
+					<IDENTIFIER>2470</IDENTIFIER>
+					<TYPE>EUROVOC</TYPE>
+				</URI>
+				<IDENTIFIER>2470</IDENTIFIER>
+				<PREFLABEL>environmental policy</PREFLABEL>
+				<ALTLABEL>environmental management</ALTLABEL>
+			</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
+			<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+				<URI>
+					<VALUE>http://eurovoc.europa.eu/100155</VALUE>
+					<IDENTIFIER>100155</IDENTIFIER>
+					<TYPE>EUROVOC</TYPE>
+				</URI>
+				<IDENTIFIER>52</IDENTIFIER>
+				<PREFLABEL>52 ENVIRONMENT</PREFLABEL>
+			</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
+			<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+				<URI>
+					<VALUE>http://eurovoc.europa.eu/100242</VALUE>
+					<IDENTIFIER>100242</IDENTIFIER>
+					<TYPE>EUROVOC</TYPE>
+				</URI>
+				<IDENTIFIER>5206</IDENTIFIER>
+				<PREFLABEL>5206 environmental policy</PREFLABEL>
+			</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+		</WORK_IS_ABOUT_CONCEPT_EUROVOC -->
+		<WORK_RELATED_TO_WORK type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/5136acfd-56ce-11e9-a8ed-01aa75ed71a1</VALUE>
+				<IDENTIFIER>5136acfd-56ce-11e9-a8ed-01aa75ed71a1</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/immc/P8_TA%282019%290305</VALUE>
+					<IDENTIFIER>P8_TA(2019)0305</IDENTIFIER>
+					<TYPE>immc</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/ep/P8_TA%282019%290305</VALUE>
+					<IDENTIFIER>P8_TA(2019)0305</IDENTIFIER>
+					<TYPE>ep</TYPE>
+				</URI>
+			</SAMEAS>
+		</WORK_RELATED_TO_WORK>
+		<RESOURCE_LEGAL_DATE_DISPATCH type="date">
+			<VALUE>2018-05-28</VALUE>
+			<YEAR>2018</YEAR>
+			<MONTH>05</MONTH>
+			<DAY>28</DAY>
+			<COMMENT_ON_DATE type="annotation">{TRANS/PARL|http://publications.europa.eu/resource/authority/fd_340/TRANS%2FPARL}</COMMENT_ON_DATE>
+			<COMMENT_ON_DATE type="annotation">{TRANS/CONS|http://publications.europa.eu/resource/authority/fd_340/TRANS%2FCONS}</COMMENT_ON_DATE>
+		</RESOURCE_LEGAL_DATE_DISPATCH>
+		<!-- COMMENTED OUT FOR THE SAKE OF SIMPLICITY -->
+		<!-- WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
+			<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+				<URI>
+					<VALUE>http://eurovoc.europa.eu/1372</VALUE>
+					<IDENTIFIER>1372</IDENTIFIER>
+					<TYPE>EUROVOC</TYPE>
+				</URI>
+				<IDENTIFIER>1372</IDENTIFIER>
+				<PREFLABEL>fishing industry</PREFLABEL>
+				<ALTLABEL>fishing</ALTLABEL>
+				<ALTLABEL>fishing activity</ALTLABEL>
+			</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
+			<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+				<URI>
+					<VALUE>http://eurovoc.europa.eu/1372</VALUE>
+					<IDENTIFIER>1372</IDENTIFIER>
+					<TYPE>EUROVOC</TYPE>
+				</URI>
+				<IDENTIFIER>1372</IDENTIFIER>
+				<PREFLABEL>fishing industry</PREFLABEL>
+				<ALTLABEL>fishing</ALTLABEL>
+				<ALTLABEL>fishing activity</ALTLABEL>
+			</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
+			<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+				<URI>
+					<VALUE>http://eurovoc.europa.eu/100156</VALUE>
+					<IDENTIFIER>100156</IDENTIFIER>
+					<TYPE>EUROVOC</TYPE>
+				</URI>
+				<IDENTIFIER>56</IDENTIFIER>
+				<PREFLABEL>56 AGRICULTURE, FORESTRY AND FISHERIES</PREFLABEL>
+			</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
+			<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+				<URI>
+					<VALUE>http://eurovoc.europa.eu/100252</VALUE>
+					<IDENTIFIER>100252</IDENTIFIER>
+					<TYPE>EUROVOC</TYPE>
+				</URI>
+				<IDENTIFIER>5641</IDENTIFIER>
+				<PREFLABEL>5641 fisheries</PREFLABEL>
+			</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+		</WORK_IS_ABOUT_CONCEPT_EUROVOC -->
+		<WORK_CITES_WORK type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/bfae6994-0c12-11e3-8d1c-01aa75ed71a1</VALUE>
+				<IDENTIFIER>bfae6994-0c12-11e3-8d1c-01aa75ed71a1</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/eli/reco/2013/396/oj</VALUE>
+					<IDENTIFIER>reco:2013:396:oj</IDENTIFIER>
+					<TYPE>eli</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/32013H0396</VALUE>
+					<IDENTIFIER>32013H0396</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/oj/JOL_2013_201_R_NS0013</VALUE>
+					<IDENTIFIER>JOL_2013_201_R_NS0013</IDENTIFIER>
+					<TYPE>oj</TYPE>
+				</URI>
+			</SAMEAS>
+		</WORK_CITES_WORK>
+		<WORK_CITES_WORK type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/f082e37e-180d-11e6-ba9a-01aa75ed71a1</VALUE>
+				<IDENTIFIER>f082e37e-180d-11e6-ba9a-01aa75ed71a1</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/32016Q0512%2801%29</VALUE>
+					<IDENTIFIER>32016Q0512(01)</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/oj/JOL_2016_123_R_0001</VALUE>
+					<IDENTIFIER>JOL_2016_123_R_0001</IDENTIFIER>
+					<TYPE>oj</TYPE>
+				</URI>
+			</SAMEAS>
+		</WORK_CITES_WORK>
+		<!-- COMMENTED OUT FOR THE SAKE OF SIMPLICITY -->
+		<!--WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
+			<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+				<URI>
+					<VALUE>http://eurovoc.europa.eu/4880</VALUE>
+					<IDENTIFIER>4880</IDENTIFIER>
+					<TYPE>EUROVOC</TYPE>
+				</URI>
+				<IDENTIFIER>4880</IDENTIFIER>
+				<PREFLABEL>non-durable goods</PREFLABEL>
+				<ALTLABEL>disposable article</ALTLABEL>
+				<ALTLABEL>expendable goods</ALTLABEL>
+				<ALTLABEL>non-durables</ALTLABEL>
+				<ALTLABEL>disposable goods</ALTLABEL>
+			</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
+			<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+				<URI>
+					<VALUE>http://eurovoc.europa.eu/3193</VALUE>
+					<IDENTIFIER>3193</IDENTIFIER>
+					<TYPE>EUROVOC</TYPE>
+				</URI>
+				<IDENTIFIER>3193</IDENTIFIER>
+				<PREFLABEL>goods and services</PREFLABEL>
+			</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
+			<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+				<URI>
+					<VALUE>http://eurovoc.europa.eu/100147</VALUE>
+					<IDENTIFIER>100147</IDENTIFIER>
+					<TYPE>EUROVOC</TYPE>
+				</URI>
+				<IDENTIFIER>20</IDENTIFIER>
+				<PREFLABEL>20 TRADE</PREFLABEL>
+			</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
+			<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+				<URI>
+					<VALUE>http://eurovoc.europa.eu/100195</VALUE>
+					<IDENTIFIER>100195</IDENTIFIER>
+					<TYPE>EUROVOC</TYPE>
+				</URI>
+				<IDENTIFIER>2026</IDENTIFIER>
+				<PREFLABEL>2026 consumption</PREFLABEL>
+			</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+		</WORK_IS_ABOUT_CONCEPT_EUROVOC -->
+		<WORK_CITES_WORK type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/5db3ea5e-1358-4f47-a4a8-875497618631</VALUE>
+				<IDENTIFIER>5db3ea5e-1358-4f47-a4a8-875497618631</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/eli/treaty/tfeu_2016/art_288/oj</VALUE>
+					<IDENTIFIER>treaty:tfeu_2016:art_288:oj</IDENTIFIER>
+					<TYPE>eli</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/12016E288</VALUE>
+					<IDENTIFIER>12016E288</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+		</WORK_CITES_WORK>
+		<RESOURCE_LEGAL_BASED_ON_CONCEPT_TREATY type="concept">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/authority/treaty/TFEU_2012</VALUE>
+				<IDENTIFIER>TFEU_2012</IDENTIFIER>
+				<TYPE>treaty</TYPE>
+			</URI>
+			<OP-CODE>TFEU_2012</OP-CODE>
+			<IDENTIFIER>TFEU_2012</IDENTIFIER>
+			<PREFLABEL>Treaty on the Functioning of the European Union (consolidated version 2012)</PREFLABEL>
+			<ALTLABEL>TFEU (2012)</ALTLABEL>
+			<ALTLABEL>Consolidated version of the Treaty on the Functioning of the European Union (2012)</ALTLABEL>
+		</RESOURCE_LEGAL_BASED_ON_CONCEPT_TREATY>
+		<RESOURCE_LEGAL_ADOPTED_BY_RESOURCE_LEGAL type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/ab83570c-8cc8-11e9-9369-01aa75ed71a1</VALUE>
+				<IDENTIFIER>ab83570c-8cc8-11e9-9369-01aa75ed71a1</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/eli/dir/2019/904/oj</VALUE>
+					<IDENTIFIER>dir:2019:904:oj</IDENTIFIER>
+					<TYPE>eli</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/32019L0904</VALUE>
+					<IDENTIFIER>32019L0904</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/oj/JOL_2019_155_R_0001</VALUE>
+					<IDENTIFIER>JOL_2019_155_R_0001</IDENTIFIER>
+					<TYPE>oj</TYPE>
+				</URI>
+			</SAMEAS>
+			<TYPE_OF_LINK_TARGET>MS</TYPE_OF_LINK_TARGET>
+			<START_OF_VALIDITY>2019-06-05</START_OF_VALIDITY>
+		</RESOURCE_LEGAL_ADOPTED_BY_RESOURCE_LEGAL>
+		<RESOURCE_LEGAL_EESC_OPINION_CONTAINED_IN_RESOURCE_LEGAL type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/eca1b3ec-30fd-11e9-8d04-01aa75ed71a1</VALUE>
+				<IDENTIFIER>eca1b3ec-30fd-11e9-8d04-01aa75ed71a1</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/52018AE3041</VALUE>
+					<IDENTIFIER>52018AE3041</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/oj/JOC_2019_062_R_0034</VALUE>
+					<IDENTIFIER>JOC_2019_062_R_0034</IDENTIFIER>
+					<TYPE>oj</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/immc/EESC-2018-05568</VALUE>
+					<IDENTIFIER>EESC-2018-05568</IDENTIFIER>
+					<TYPE>immc</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/eesc/EESC-2018-05568</VALUE>
+					<IDENTIFIER>EESC-2018-05568</IDENTIFIER>
+					<TYPE>eesc</TYPE>
+				</URI>
+			</SAMEAS>
+			<TYPE_OF_LINK_TARGET>EA</TYPE_OF_LINK_TARGET>
+		</RESOURCE_LEGAL_EESC_OPINION_CONTAINED_IN_RESOURCE_LEGAL>
+		<!-- COMMENTED OUT FOR THE SAKE OF SIMPLICITY -->
+		<!--WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
+			<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+				<URI>
+					<VALUE>http://eurovoc.europa.eu/2825</VALUE>
+					<IDENTIFIER>2825</IDENTIFIER>
+					<TYPE>EUROVOC</TYPE>
+				</URI>
+				<IDENTIFIER>2825</IDENTIFIER>
+				<PREFLABEL>environmental protection</PREFLABEL>
+				<ALTLABEL>protection of nature</ALTLABEL>
+				<ALTLABEL>preservation of the environment</ALTLABEL>
+				<ALTLABEL>conservation of nature</ALTLABEL>
+				<ALTLABEL>nature protection</ALTLABEL>
+			</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
+			<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+				<URI>
+					<VALUE>http://eurovoc.europa.eu/2825</VALUE>
+					<IDENTIFIER>2825</IDENTIFIER>
+					<TYPE>EUROVOC</TYPE>
+				</URI>
+				<IDENTIFIER>2825</IDENTIFIER>
+				<PREFLABEL>environmental protection</PREFLABEL>
+				<ALTLABEL>protection of nature</ALTLABEL>
+				<ALTLABEL>preservation of the environment</ALTLABEL>
+				<ALTLABEL>conservation of nature</ALTLABEL>
+				<ALTLABEL>nature protection</ALTLABEL>
+			</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
+			<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+				<URI>
+					<VALUE>http://eurovoc.europa.eu/100155</VALUE>
+					<IDENTIFIER>100155</IDENTIFIER>
+					<TYPE>EUROVOC</TYPE>
+				</URI>
+				<IDENTIFIER>52</IDENTIFIER>
+				<PREFLABEL>52 ENVIRONMENT</PREFLABEL>
+			</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
+			<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+				<URI>
+					<VALUE>http://eurovoc.europa.eu/100242</VALUE>
+					<IDENTIFIER>100242</IDENTIFIER>
+					<TYPE>EUROVOC</TYPE>
+				</URI>
+				<IDENTIFIER>5206</IDENTIFIER>
+				<PREFLABEL>5206 environmental policy</PREFLABEL>
+			</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+		</WORK_IS_ABOUT_CONCEPT_EUROVOC -->
+		<TITLE type="data">
+			<VALUE>Proposition de directive du Parlement européen et du Conseil relative à la réduction de l'incidence de certains produits en plastique sur l'environnement</VALUE>
+		</TITLE>
+		<IS_ABOUT type="concept">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/authority/fd_070/DECH</VALUE>
+				<IDENTIFIER>DECH</IDENTIFIER>
+				<TYPE>fd_070</TYPE>
+			</URI>
+			<OP-CODE>DECH</OP-CODE>
+			<IDENTIFIER>DECH</IDENTIFIER>
+			<PREFLABEL>Waste</PREFLABEL>
+		</IS_ABOUT>
+		<BASED_ON type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/cdbccbd7-06ae-4c9b-9076-57fc645256c2</VALUE>
+				<IDENTIFIER>cdbccbd7-06ae-4c9b-9076-57fc645256c2</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/12016E192</VALUE>
+					<IDENTIFIER>12016E192</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/eli/treaty/tfeu_2016/art_192/oj</VALUE>
+					<IDENTIFIER>treaty:tfeu_2016:art_192:oj</IDENTIFIER>
+					<TYPE>eli</TYPE>
+				</URI>
+			</SAMEAS>
+		</BASED_ON>
+		<WORK_CITES_WORK type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/d78a7890-06c9-434c-8c6b-e7c865bd2b28</VALUE>
+				<IDENTIFIER>d78a7890-06c9-434c-8c6b-e7c865bd2b28</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/oj/JOL_2009_343_R_0001_01</VALUE>
+					<IDENTIFIER>JOL_2009_343_R_0001_01</IDENTIFIER>
+					<TYPE>oj</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/eli/reg/2009/1224/oj</VALUE>
+					<IDENTIFIER>reg:2009:1224:oj</IDENTIFIER>
+					<TYPE>eli</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/32009R1224</VALUE>
+					<IDENTIFIER>32009R1224</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+		</WORK_CITES_WORK>
+		<ID_SECTOR type="data">
+			<VALUE>5</VALUE>
+		</ID_SECTOR>
+		<WORK_CITES_WORK type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/72de3b0c-c182-4754-9a9c-8cc5217c60f8</VALUE>
+				<IDENTIFIER>72de3b0c-c182-4754-9a9c-8cc5217c60f8</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/oj/JOL_2002_031_R_0001_01</VALUE>
+					<IDENTIFIER>JOL_2002_031_R_0001_01</IDENTIFIER>
+					<TYPE>oj</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/eli/reg/2002/178/oj</VALUE>
+					<IDENTIFIER>reg:2002:178:oj</IDENTIFIER>
+					<TYPE>eli</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/32002R0178</VALUE>
+					<IDENTIFIER>32002R0178</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+		</WORK_CITES_WORK>
+		<WORK_RELATED_TO_WORK type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/4d0542a2-6256-11e8-ab9c-01aa75ed71a1</VALUE>
+				<IDENTIFIER>4d0542a2-6256-11e8-ab9c-01aa75ed71a1</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/immc/SWD%282018%29254%20final</VALUE>
+					<IDENTIFIER>SWD(2018)254 final</IDENTIFIER>
+					<TYPE>immc</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/52018SC0254</VALUE>
+					<IDENTIFIER>52018SC0254</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/comnat/SWD_2018_0254_FIN</VALUE>
+					<IDENTIFIER>SWD_2018_0254_FIN</IDENTIFIER>
+					<TYPE>comnat</TYPE>
+				</URI>
+			</SAMEAS>
+			<TYPE_OF_LINK_TARGET>RD</TYPE_OF_LINK_TARGET>
+		</WORK_RELATED_TO_WORK>
+		<IDENTIFIER type="data">
+			<VALUE>immc:COM(2018)340 final</VALUE>
+		</IDENTIFIER>
+		<WORK_CITES_WORK type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/1d7cd2ba-cce0-4977-be4b-d5042e1dea0c</VALUE>
+				<IDENTIFIER>1d7cd2ba-cce0-4977-be4b-d5042e1dea0c</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/oj/JOL_1994_365_R_0010_010</VALUE>
+					<IDENTIFIER>JOL_1994_365_R_0010_010</IDENTIFIER>
+					<TYPE>oj</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/31994L0062</VALUE>
+					<IDENTIFIER>31994L0062</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/eli/dir/1994/62/oj</VALUE>
+					<IDENTIFIER>dir:1994:62:oj</IDENTIFIER>
+					<TYPE>eli</TYPE>
+				</URI>
+			</SAMEAS>
+		</WORK_CITES_WORK>
+		<WORK_CITES_WORK type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/15945efb-a7e8-4840-ab4d-0535f12692a8</VALUE>
+				<IDENTIFIER>15945efb-a7e8-4840-ab4d-0535f12692a8</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/eli/dir/2000/59/oj</VALUE>
+					<IDENTIFIER>dir:2000:59:oj</IDENTIFIER>
+					<TYPE>eli</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/32000L0059</VALUE>
+					<IDENTIFIER>32000L0059</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/oj/JOL_2000_332_R_0081_01</VALUE>
+					<IDENTIFIER>JOL_2000_332_R_0081_01</IDENTIFIER>
+					<TYPE>oj</TYPE>
+				</URI>
+			</SAMEAS>
+		</WORK_CITES_WORK>
+		<ID_CELEX type="data">
+			<VALUE>52018PC0340</VALUE>
+		</ID_CELEX>
+		<WORK_CITES_WORK type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/08e6cf53-2e33-11e2-ad46-01aa75ed71a1</VALUE>
+				<IDENTIFIER>08e6cf53-2e33-11e2-ad46-01aa75ed71a1</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/32012R1025</VALUE>
+					<IDENTIFIER>32012R1025</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/oj/JOL_2012_316_R_0012_01</VALUE>
+					<IDENTIFIER>JOL_2012_316_R_0012_01</IDENTIFIER>
+					<TYPE>oj</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/eli/reg/2012/1025/oj</VALUE>
+					<IDENTIFIER>reg:2012:1025:oj</IDENTIFIER>
+					<TYPE>eli</TYPE>
+				</URI>
+			</SAMEAS>
+		</WORK_CITES_WORK>
+		<!-- COMMENTED OUT FOR THE SAKE OF SIMPLICITY -->
+		<!--WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
+			<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+				<URI>
+					<VALUE>http://eurovoc.europa.eu/343</VALUE>
+					<IDENTIFIER>343</IDENTIFIER>
+					<TYPE>EUROVOC</TYPE>
+				</URI>
+				<IDENTIFIER>343</IDENTIFIER>
+				<PREFLABEL>waste</PREFLABEL>
+				<ALTLABEL>refuse</ALTLABEL>
+				<ALTLABEL>residue</ALTLABEL>
+			</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
+			<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+				<URI>
+					<VALUE>http://eurovoc.europa.eu/343</VALUE>
+					<IDENTIFIER>343</IDENTIFIER>
+					<TYPE>EUROVOC</TYPE>
+				</URI>
+				<IDENTIFIER>343</IDENTIFIER>
+				<PREFLABEL>waste</PREFLABEL>
+				<ALTLABEL>refuse</ALTLABEL>
+				<ALTLABEL>residue</ALTLABEL>
+			</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
+			<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+				<URI>
+					<VALUE>http://eurovoc.europa.eu/100155</VALUE>
+					<IDENTIFIER>100155</IDENTIFIER>
+					<TYPE>EUROVOC</TYPE>
+				</URI>
+				<IDENTIFIER>52</IDENTIFIER>
+				<PREFLABEL>52 ENVIRONMENT</PREFLABEL>
+			</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
+			<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+				<URI>
+					<VALUE>http://eurovoc.europa.eu/100244</VALUE>
+					<IDENTIFIER>100244</IDENTIFIER>
+					<TYPE>EUROVOC</TYPE>
+				</URI>
+				<IDENTIFIER>5216</IDENTIFIER>
+				<PREFLABEL>5216 deterioration of the environment</PREFLABEL>
+			</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+		</WORK_IS_ABOUT_CONCEPT_EUROVOC -->
+		<WORK_CITES_WORK type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/1521e39a-a206-41fb-afb0-ac8973511bf8</VALUE>
+				<IDENTIFIER>1521e39a-a206-41fb-afb0-ac8973511bf8</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/eli/dir/2007/2/oj</VALUE>
+					<IDENTIFIER>dir:2007:2:oj</IDENTIFIER>
+					<TYPE>eli</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/32007L0002</VALUE>
+					<IDENTIFIER>32007L0002</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/oj/JOL_2007_108_R_0001_01</VALUE>
+					<IDENTIFIER>JOL_2007_108_R_0001_01</IDENTIFIER>
+					<TYPE>oj</TYPE>
+				</URI>
+			</SAMEAS>
+		</WORK_CITES_WORK>
+		<IS_ABOUT type="concept">
+			<URI>
+				<VALUE>http://eurovoc.europa.eu/343</VALUE>
+				<IDENTIFIER>343</IDENTIFIER>
+				<TYPE>EUROVOC</TYPE>
+			</URI>
+			<IDENTIFIER>343</IDENTIFIER>
+			<PREFLABEL>waste</PREFLABEL>
+			<ALTLABEL>refuse</ALTLABEL>
+			<ALTLABEL>residue</ALTLABEL>
+		</IS_ABOUT>
+		<WORK_ID_DOCUMENT type="data">
+			<VALUE>immc:COM(2018)340 final</VALUE>
+		</WORK_ID_DOCUMENT>
+		<RESOURCE_LEGAL_RELATED_TO_RESOURCE_LEGAL type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/5136acfd-56ce-11e9-a8ed-01aa75ed71a1</VALUE>
+				<IDENTIFIER>5136acfd-56ce-11e9-a8ed-01aa75ed71a1</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/immc/P8_TA%282019%290305</VALUE>
+					<IDENTIFIER>P8_TA(2019)0305</IDENTIFIER>
+					<TYPE>immc</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/ep/P8_TA%282019%290305</VALUE>
+					<IDENTIFIER>P8_TA(2019)0305</IDENTIFIER>
+					<TYPE>ep</TYPE>
+				</URI>
+			</SAMEAS>
+			<TYPE_OF_LINK_TARGET>EA</TYPE_OF_LINK_TARGET>
+			<ROLE2>{PSP|http://publications.europa.eu/resource/authority/fd_375/PSP}</ROLE2>
+		</RESOURCE_LEGAL_RELATED_TO_RESOURCE_LEGAL>
+		<VERSION type="data">
+			<VALUE>final</VALUE>
+		</VERSION>
+		<WORK_PART_OF_EVENT_LEGAL type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/f03de40f-6255-11e8-ab9c-01aa75ed71a1.0001</VALUE>
+				<IDENTIFIER>f03de40f-6255-11e8-ab9c-01aa75ed71a1.0001</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/procedure-event/2018_172.2018-05-28_ADP_byCOM</VALUE>
+					<IDENTIFIER>2018_172.2018-05-28_ADP_byCOM</IDENTIFIER>
+					<TYPE>procedure-event</TYPE>
+				</URI>
+			</SAMEAS>
+		</WORK_PART_OF_EVENT_LEGAL>
+		<WORK_RELATED_TO_WORK type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/daba6bc3-6256-11e8-ab9c-01aa75ed71a1</VALUE>
+				<IDENTIFIER>daba6bc3-6256-11e8-ab9c-01aa75ed71a1</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/immc/SWD%282018%29256%20final</VALUE>
+					<IDENTIFIER>SWD(2018)256 final</IDENTIFIER>
+					<TYPE>immc</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/comnat/SWD_2018_0256_FIN</VALUE>
+					<IDENTIFIER>SWD_2018_0256_FIN</IDENTIFIER>
+					<TYPE>comnat</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/52018SC0256</VALUE>
+					<IDENTIFIER>52018SC0256</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+			<TYPE_OF_LINK_TARGET>RD</TYPE_OF_LINK_TARGET>
+		</WORK_RELATED_TO_WORK>
+		<IS_ABOUT type="concept">
+			<URI>
+				<VALUE>http://eurovoc.europa.eu/4880</VALUE>
+				<IDENTIFIER>4880</IDENTIFIER>
+				<TYPE>EUROVOC</TYPE>
+			</URI>
+			<IDENTIFIER>4880</IDENTIFIER>
+			<PREFLABEL>non-durable goods</PREFLABEL>
+			<ALTLABEL>disposable article</ALTLABEL>
+			<ALTLABEL>expendable goods</ALTLABEL>
+			<ALTLABEL>non-durables</ALTLABEL>
+			<ALTLABEL>disposable goods</ALTLABEL>
+		</IS_ABOUT>
+		<WORK_CITES_WORK type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/6c8e7593-7a75-4b58-b709-542f06ee7a28</VALUE>
+				<IDENTIFIER>6c8e7593-7a75-4b58-b709-542f06ee7a28</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/32011L0083</VALUE>
+					<IDENTIFIER>32011L0083</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/eli/dir/2011/83/oj</VALUE>
+					<IDENTIFIER>dir:2011:83:oj</IDENTIFIER>
+					<TYPE>eli</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/oj/JOL_2011_304_R_0064_01</VALUE>
+					<IDENTIFIER>JOL_2011_304_R_0064_01</IDENTIFIER>
+					<TYPE>oj</TYPE>
+				</URI>
+			</SAMEAS>
+		</WORK_CITES_WORK>
+		<IS_ABOUT type="concept">
+			<URI>
+				<VALUE>http://eurovoc.europa.eu/2825</VALUE>
+				<IDENTIFIER>2825</IDENTIFIER>
+				<TYPE>EUROVOC</TYPE>
+			</URI>
+			<IDENTIFIER>2825</IDENTIFIER>
+			<PREFLABEL>environmental protection</PREFLABEL>
+			<ALTLABEL>protection of nature</ALTLABEL>
+			<ALTLABEL>preservation of the environment</ALTLABEL>
+			<ALTLABEL>conservation of nature</ALTLABEL>
+			<ALTLABEL>nature protection</ALTLABEL>
+		</IS_ABOUT>
+		<IS_ABOUT type="concept">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/authority/fd_555/15103030</VALUE>
+				<IDENTIFIER>15103030</IDENTIFIER>
+				<TYPE>fd_555</TYPE>
+			</URI>
+			<OP-CODE>15103030</OP-CODE>
+			<IDENTIFIER>15103030</IDENTIFIER>
+			<PREFLABEL>Waste management and clean technology</PREFLABEL>
+		</IS_ABOUT>
+		<RESOURCE_LEGAL_REPERTOIRE type="data">
+			<VALUE>REP</VALUE>
+		</RESOURCE_LEGAL_REPERTOIRE>
+		<RESOURCE_LEGAL_EESC_OPINION_CONTAINED_IN_RESOURCE_LEGAL type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/19a9150f-d012-11e8-9424-01aa75ed71a1</VALUE>
+				<IDENTIFIER>19a9150f-d012-11e8-9424-01aa75ed71a1</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/immc/EESC-2018-03041-AS</VALUE>
+					<IDENTIFIER>EESC-2018-03041-AS</IDENTIFIER>
+					<TYPE>immc</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/pi_eesc/EESC-2018-03041-AS</VALUE>
+					<IDENTIFIER>EESC-2018-03041-AS</IDENTIFIER>
+					<TYPE>pi_eesc</TYPE>
+				</URI>
+			</SAMEAS>
+		</RESOURCE_LEGAL_EESC_OPINION_CONTAINED_IN_RESOURCE_LEGAL>
+		<WORK_CITES_WORK type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/621f0605-a73e-11e6-aab7-01aa75ed71a1</VALUE>
+				<IDENTIFIER>621f0605-a73e-11e6-aab7-01aa75ed71a1</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/52016SC0352</VALUE>
+					<IDENTIFIER>52016SC0352</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/comnat/SWD_2016_0352_FIN</VALUE>
+					<IDENTIFIER>SWD_2016_0352_FIN</IDENTIFIER>
+					<TYPE>comnat</TYPE>
+				</URI>
+			</SAMEAS>
+		</WORK_CITES_WORK>
+		<!--RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_level">
+			<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_4 type="concept">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/authority/fd_555/15102020</VALUE>
+					<IDENTIFIER>15102020</IDENTIFIER>
+					<TYPE>fd_555</TYPE>
+				</URI>
+				<OP-CODE>15102020</OP-CODE>
+				<IDENTIFIER>15102020</IDENTIFIER>
+				<PREFLABEL>Water protection and management</PREFLABEL>
+			</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_4>
+			<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_3 type="concept">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/authority/fd_555/151020</VALUE>
+					<IDENTIFIER>151020</IDENTIFIER>
+					<TYPE>fd_555</TYPE>
+				</URI>
+				<OP-CODE>151020</OP-CODE>
+				<IDENTIFIER>151020</IDENTIFIER>
+				<PREFLABEL>Pollution and nuisances</PREFLABEL>
+			</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_3>
+			<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_2 type="concept">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/authority/fd_555/1510</VALUE>
+					<IDENTIFIER>1510</IDENTIFIER>
+					<TYPE>fd_555</TYPE>
+				</URI>
+				<OP-CODE>1510</OP-CODE>
+				<IDENTIFIER>1510</IDENTIFIER>
+				<PREFLABEL>Environment</PREFLABEL>
+			</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_2>
+			<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_1 type="concept">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/authority/fd_555/15</VALUE>
+					<IDENTIFIER>15</IDENTIFIER>
+					<TYPE>fd_555</TYPE>
+				</URI>
+				<OP-CODE>15</OP-CODE>
+				<IDENTIFIER>15</IDENTIFIER>
+				<PREFLABEL>Environment, consumers and health protection</PREFLABEL>
+			</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_1>
+		</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE-->
+		<IS_ABOUT type="concept">
+			<URI>
+				<VALUE>http://eurovoc.europa.eu/1372</VALUE>
+				<IDENTIFIER>1372</IDENTIFIER>
+				<TYPE>EUROVOC</TYPE>
+			</URI>
+			<IDENTIFIER>1372</IDENTIFIER>
+			<PREFLABEL>fishing industry</PREFLABEL>
+			<ALTLABEL>fishing</ALTLABEL>
+			<ALTLABEL>fishing activity</ALTLABEL>
+		</IS_ABOUT>
+		<WORK_PART_OF_COLLECTION_DOCUMENT type="concept">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/authority/document-collection/COM_NAT</VALUE>
+				<IDENTIFIER>COM_NAT</IDENTIFIER>
+				<TYPE>document-collection</TYPE>
+			</URI>
+			<OP-CODE>COM_NAT</OP-CODE>
+			<IDENTIFIER>COM_NAT</IDENTIFIER>
+			<PREFLABEL>COM_NAT</PREFLABEL>
+		</WORK_PART_OF_COLLECTION_DOCUMENT>
+		<WORK_CITES_WORK type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/08a6f2ca-ddae-4630-801b-debd699a5af2</VALUE>
+				<IDENTIFIER>08a6f2ca-ddae-4630-801b-debd699a5af2</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/32004R1935</VALUE>
+					<IDENTIFIER>32004R1935</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/eli/reg/2004/1935/oj</VALUE>
+					<IDENTIFIER>reg:2004:1935:oj</IDENTIFIER>
+					<TYPE>eli</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/oj/JOL_2004_338_R_0004_01</VALUE>
+					<IDENTIFIER>JOL_2004_338_R_0004_01</IDENTIFIER>
+					<TYPE>oj</TYPE>
+				</URI>
+			</SAMEAS>
+		</WORK_CITES_WORK>
+		<WORK_CITES_WORK type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/b8e613ef-76de-11e3-b889-01aa75ed71a1</VALUE>
+				<IDENTIFIER>b8e613ef-76de-11e3-b889-01aa75ed71a1</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/32013D1386</VALUE>
+					<IDENTIFIER>32013D1386</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/oj/JOL_2013_354_R_0171_01</VALUE>
+					<IDENTIFIER>JOL_2013_354_R_0171_01</IDENTIFIER>
+					<TYPE>oj</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/eli/dec/2013/1386/oj</VALUE>
+					<IDENTIFIER>dec:2013:1386:oj</IDENTIFIER>
+					<TYPE>eli</TYPE>
+				</URI>
+			</SAMEAS>
+		</WORK_CITES_WORK>
+		<WORK_CITES_WORK type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/8a8ef5e8-99a0-11e5-b3b7-01aa75ed71a1</VALUE>
+				<IDENTIFIER>8a8ef5e8-99a0-11e5-b3b7-01aa75ed71a1</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/52015DC0614</VALUE>
+					<IDENTIFIER>52015DC0614</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/comnat/COM_2015_0614_FIN</VALUE>
+					<IDENTIFIER>COM_2015_0614_FIN</IDENTIFIER>
+					<TYPE>comnat</TYPE>
+				</URI>
+			</SAMEAS>
+		</WORK_CITES_WORK>
+		<BASED_ON type="concept">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/authority/treaty/TFEU_2012</VALUE>
+				<IDENTIFIER>TFEU_2012</IDENTIFIER>
+				<TYPE>treaty</TYPE>
+			</URI>
+			<OP-CODE>TFEU_2012</OP-CODE>
+			<IDENTIFIER>TFEU_2012</IDENTIFIER>
+			<PREFLABEL>Treaty on the Functioning of the European Union (consolidated version 2012)</PREFLABEL>
+			<ALTLABEL>TFEU (2012)</ALTLABEL>
+			<ALTLABEL>Consolidated version of the Treaty on the Functioning of the European Union (2012)</ALTLABEL>
+		</BASED_ON>
+		<WORK_HAS_RESOURCE-TYPE type="concept">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/authority/resource-type/PROP_DIR</VALUE>
+				<IDENTIFIER>PROP_DIR</IDENTIFIER>
+				<TYPE>resource-type</TYPE>
+			</URI>
+			<OP-CODE>PROP_DIR</OP-CODE>
+			<IDENTIFIER>PROP_DIR</IDENTIFIER>
+			<PREFLABEL>Proposal for a directive</PREFLABEL>
+		</WORK_HAS_RESOURCE-TYPE>
+		<!--RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_level">
+			<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1 type="concept">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/authority/fd_070/ENV</VALUE>
+					<IDENTIFIER>ENV</IDENTIFIER>
+					<TYPE>fd_070</TYPE>
+				</URI>
+				<OP-CODE>ENV</OP-CODE>
+				<IDENTIFIER>ENV</IDENTIFIER>
+				<PREFLABEL>Environment</PREFLABEL>
+			</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1>
+		</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER-->
+		<WORK_CREATED_BY_AGENT type="concept">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/authority/corporate-body/ENV</VALUE>
+				<IDENTIFIER>ENV</IDENTIFIER>
+				<TYPE>corporate-body</TYPE>
+			</URI>
+			<OP-CODE>ENV</OP-CODE>
+			<IDENTIFIER>ENV</IDENTIFIER>
+			<PREFLABEL>Directorate-General for Environment</PREFLABEL>
+			<ALTLABEL>DG XI – Environment, Nuclear Safety and Civil Protection</ALTLABEL>
+			<ALTLABEL>Directorate-General "Environment, Consumer Protection and Nuclear Safety"</ALTLABEL>
+			<ALTLABEL>DG Environment</ALTLABEL>
+			<ALTLABEL>DG XI – Environment, Consumer Protection and Nuclear Safety</ALTLABEL>
+			<ALTLABEL>Directorate-General "Environment, Nuclear Safety and Civil Protection"</ALTLABEL>
+		</WORK_CREATED_BY_AGENT>
+		<IS_ABOUT type="concept">
+			<URI>
+				<VALUE>http://eurovoc.europa.eu/3139</VALUE>
+				<IDENTIFIER>3139</IDENTIFIER>
+				<TYPE>EUROVOC</TYPE>
+			</URI>
+			<IDENTIFIER>3139</IDENTIFIER>
+			<PREFLABEL>environmental impact</PREFLABEL>
+			<ALTLABEL>effect on the environment</ALTLABEL>
+			<ALTLABEL>ecological balance sheet</ALTLABEL>
+			<ALTLABEL>eco-balance</ALTLABEL>
+			<ALTLABEL>environmental assessment</ALTLABEL>
+			<ALTLABEL>ecological assessment</ALTLABEL>
+			<ALTLABEL>environmental footprint</ALTLABEL>
+			<ALTLABEL>environmental effect</ALTLABEL>
+		</IS_ABOUT>
+		<IDENTIFIER type="data">
+			<VALUE>52018PC0340</VALUE>
+		</IDENTIFIER>
+		<WORK_RELATED_TO_WORK type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/18b36681-6256-11e8-ab9c-01aa75ed71a1</VALUE>
+				<IDENTIFIER>18b36681-6256-11e8-ab9c-01aa75ed71a1</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/comnat/SWD_2018_0255_FIN</VALUE>
+					<IDENTIFIER>SWD_2018_0255_FIN</IDENTIFIER>
+					<TYPE>comnat</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/52018SC0255</VALUE>
+					<IDENTIFIER>52018SC0255</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/immc/SWD%282018%29255%20final</VALUE>
+					<IDENTIFIER>SWD(2018)255 final</IDENTIFIER>
+					<TYPE>immc</TYPE>
+				</URI>
+			</SAMEAS>
+			<TYPE_OF_LINK_TARGET>RD</TYPE_OF_LINK_TARGET>
+		</WORK_RELATED_TO_WORK>
+		<RESOURCE_LEGAL_TYPE type="data">
+			<VALUE>PC</VALUE>
+		</RESOURCE_LEGAL_TYPE>
+		<WORK_CITES_WORK type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/34860b42-95cc-4a57-b998-2e445d5befa9</VALUE>
+				<IDENTIFIER>34860b42-95cc-4a57-b998-2e445d5befa9</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/oj/JOL_1991_135_R_0040_045</VALUE>
+					<IDENTIFIER>JOL_1991_135_R_0040_045</IDENTIFIER>
+					<TYPE>oj</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/31991L0271</VALUE>
+					<IDENTIFIER>31991L0271</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/eli/dir/1991/271/oj</VALUE>
+					<IDENTIFIER>dir:1991:271:oj</IDENTIFIER>
+					<TYPE>eli</TYPE>
+				</URI>
+			</SAMEAS>
+		</WORK_CITES_WORK>
+		<WORK_DATE_DOCUMENT type="date">
+			<VALUE>2018-05-28</VALUE>
+			<YEAR>2018</YEAR>
+			<MONTH>05</MONTH>
+			<DAY>28</DAY>
+		</WORK_DATE_DOCUMENT>
+		<!--WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
+			<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+				<URI>
+					<VALUE>http://eurovoc.europa.eu/1158</VALUE>
+					<IDENTIFIER>1158</IDENTIFIER>
+					<TYPE>EUROVOC</TYPE>
+				</URI>
+				<IDENTIFIER>1158</IDENTIFIER>
+				<PREFLABEL>waste management</PREFLABEL>
+				<ALTLABEL>rubbish dump</ALTLABEL>
+				<ALTLABEL>landfill site</ALTLABEL>
+				<ALTLABEL>waste treatment</ALTLABEL>
+			</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
+			<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+				<URI>
+					<VALUE>http://eurovoc.europa.eu/1158</VALUE>
+					<IDENTIFIER>1158</IDENTIFIER>
+					<TYPE>EUROVOC</TYPE>
+				</URI>
+				<IDENTIFIER>1158</IDENTIFIER>
+				<PREFLABEL>waste management</PREFLABEL>
+				<ALTLABEL>rubbish dump</ALTLABEL>
+				<ALTLABEL>landfill site</ALTLABEL>
+				<ALTLABEL>waste treatment</ALTLABEL>
+			</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
+			<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+				<URI>
+					<VALUE>http://eurovoc.europa.eu/100155</VALUE>
+					<IDENTIFIER>100155</IDENTIFIER>
+					<TYPE>EUROVOC</TYPE>
+				</URI>
+				<IDENTIFIER>52</IDENTIFIER>
+				<PREFLABEL>52 ENVIRONMENT</PREFLABEL>
+			</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
+			<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+				<URI>
+					<VALUE>http://eurovoc.europa.eu/100242</VALUE>
+					<IDENTIFIER>100242</IDENTIFIER>
+					<TYPE>EUROVOC</TYPE>
+				</URI>
+				<IDENTIFIER>5206</IDENTIFIER>
+				<PREFLABEL>5206 environmental policy</PREFLABEL>
+			</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+		</WORK_IS_ABOUT_CONCEPT_EUROVOC -->
+		<IDENTIFIER type="data">
+			<VALUE>celex:52018PC0340</VALUE>
+		</IDENTIFIER>
+		<WORK_CITES_WORK type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/32f72786-b980-11e7-a7f8-01aa75ed71a1</VALUE>
+				<IDENTIFIER>32f72786-b980-11e7-a7f8-01aa75ed71a1</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/comnat/COM_2017_0623_FIN</VALUE>
+					<IDENTIFIER>COM_2017_0623_FIN</IDENTIFIER>
+					<TYPE>comnat</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/52017DC0623</VALUE>
+					<IDENTIFIER>52017DC0623</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+		</WORK_CITES_WORK>
+		<WORK_CITES_WORK type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/8984490e-4d06-11e7-a5ca-01aa75ed71a1</VALUE>
+				<IDENTIFIER>8984490e-4d06-11e7-a5ca-01aa75ed71a1</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/comnat/COM_2017_0312_FIN</VALUE>
+					<IDENTIFIER>COM_2017_0312_FIN</IDENTIFIER>
+					<TYPE>comnat</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/52017DC0312</VALUE>
+					<IDENTIFIER>52017DC0312</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+		</WORK_CITES_WORK>
+		<WORK_CITES_WORK type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/cccf5222-feb3-4dc3-a4ca-9a5ec75e49af</VALUE>
+				<IDENTIFIER>cccf5222-feb3-4dc3-a4ca-9a5ec75e49af</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/oj/JOL_2011_055_R_0013_01</VALUE>
+					<IDENTIFIER>JOL_2011_055_R_0013_01</IDENTIFIER>
+					<TYPE>oj</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/eli/reg/2011/182/oj</VALUE>
+					<IDENTIFIER>reg:2011:182:oj</IDENTIFIER>
+					<TYPE>eli</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/32011R0182</VALUE>
+					<IDENTIFIER>32011R0182</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+		</WORK_CITES_WORK>
+		<RESOURCE_LEGAL_DATE_END-OF-VALIDITY type="date">
+			<VALUE>2019-06-05</VALUE>
+			<YEAR>2019</YEAR>
+			<MONTH>06</MONTH>
+			<DAY>05</DAY>
+			<COMMENT_ON_DATE type="annotation">{YD|http://publications.europa.eu/resource/authority/fd_330/YD} 32019L0904</COMMENT_ON_DATE>
+		</RESOURCE_LEGAL_DATE_END-OF-VALIDITY>
+		<!--WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
+			<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+				<URI>
+					<VALUE>http://eurovoc.europa.eu/5794</VALUE>
+					<IDENTIFIER>5794</IDENTIFIER>
+					<TYPE>EUROVOC</TYPE>
+				</URI>
+				<IDENTIFIER>5794</IDENTIFIER>
+				<PREFLABEL>EU environmental policy</PREFLABEL>
+				<ALTLABEL>EU environment policy</ALTLABEL>
+				<ALTLABEL>European Union environment policy</ALTLABEL>
+				<ALTLABEL>European Union environmental policy</ALTLABEL>
+				<ALTLABEL>Community environmental policy</ALTLABEL>
+			</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
+			<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+				<URI>
+					<VALUE>http://eurovoc.europa.eu/2470</VALUE>
+					<IDENTIFIER>2470</IDENTIFIER>
+					<TYPE>EUROVOC</TYPE>
+				</URI>
+				<IDENTIFIER>2470</IDENTIFIER>
+				<PREFLABEL>environmental policy</PREFLABEL>
+				<ALTLABEL>environmental management</ALTLABEL>
+			</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
+			<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+				<URI>
+					<VALUE>http://eurovoc.europa.eu/100155</VALUE>
+					<IDENTIFIER>100155</IDENTIFIER>
+					<TYPE>EUROVOC</TYPE>
+				</URI>
+				<IDENTIFIER>52</IDENTIFIER>
+				<PREFLABEL>52 ENVIRONMENT</PREFLABEL>
+			</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
+			<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+				<URI>
+					<VALUE>http://eurovoc.europa.eu/100242</VALUE>
+					<IDENTIFIER>100242</IDENTIFIER>
+					<TYPE>EUROVOC</TYPE>
+				</URI>
+				<IDENTIFIER>5206</IDENTIFIER>
+				<PREFLABEL>5206 environmental policy</PREFLABEL>
+			</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+		</WORK_IS_ABOUT_CONCEPT_EUROVOC-->
+		<WORK_CITES_WORK type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/5c835afb-2ec6-4577-bdf8-756d3d694eeb</VALUE>
+				<IDENTIFIER>5c835afb-2ec6-4577-bdf8-756d3d694eeb</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/eli/dir/2000/60/oj</VALUE>
+					<IDENTIFIER>dir:2000:60:oj</IDENTIFIER>
+					<TYPE>eli</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/oj/JOL_2000_327_R_0001_01</VALUE>
+					<IDENTIFIER>JOL_2000_327_R_0001_01</IDENTIFIER>
+					<TYPE>oj</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/32000L0060</VALUE>
+					<IDENTIFIER>32000L0060</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+		</WORK_CITES_WORK>
+		<RESOURCE_LEGAL_YEAR type="data">
+			<VALUE>2018</VALUE>
+		</RESOURCE_LEGAL_YEAR>
+		<!-- COMMENTED OUT FOR THE SAKE OF SIMPLICITY -->
+		<!--WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
+			<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+				<URI>
+					<VALUE>http://eurovoc.europa.eu/2535</VALUE>
+					<IDENTIFIER>2535</IDENTIFIER>
+					<TYPE>EUROVOC</TYPE>
+				</URI>
+				<IDENTIFIER>2535</IDENTIFIER>
+				<PREFLABEL>marine pollution</PREFLABEL>
+				<ALTLABEL>pollution of the seas</ALTLABEL>
+				<ALTLABEL>disposal of waste at sea</ALTLABEL>
+			</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
+			<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+				<URI>
+					<VALUE>http://eurovoc.europa.eu/2524</VALUE>
+					<IDENTIFIER>2524</IDENTIFIER>
+					<TYPE>EUROVOC</TYPE>
+				</URI>
+				<IDENTIFIER>2524</IDENTIFIER>
+				<PREFLABEL>pollution</PREFLABEL>
+				<ALTLABEL>contamination</ALTLABEL>
+				<ALTLABEL>discharge of pollutants</ALTLABEL>
+			</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
+			<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+				<URI>
+					<VALUE>http://eurovoc.europa.eu/100155</VALUE>
+					<IDENTIFIER>100155</IDENTIFIER>
+					<TYPE>EUROVOC</TYPE>
+				</URI>
+				<IDENTIFIER>52</IDENTIFIER>
+				<PREFLABEL>52 ENVIRONMENT</PREFLABEL>
+			</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
+			<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+				<URI>
+					<VALUE>http://eurovoc.europa.eu/100244</VALUE>
+					<IDENTIFIER>100244</IDENTIFIER>
+					<TYPE>EUROVOC</TYPE>
+				</URI>
+				<IDENTIFIER>5216</IDENTIFIER>
+				<PREFLABEL>5216 deterioration of the environment</PREFLABEL>
+			</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+		</WORK_IS_ABOUT_CONCEPT_EUROVOC -->
+		<YEAR type="data">
+			<VALUE>2018</VALUE>
+		</YEAR>
+		<WORK_CITES_WORK type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/6d308a02-5fa9-4bf6-815b-b1fc40431a18</VALUE>
+				<IDENTIFIER>6d308a02-5fa9-4bf6-815b-b1fc40431a18</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/32000L0056</VALUE>
+					<IDENTIFIER>32000L0056</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/eli/dir/2000/56/oj</VALUE>
+					<IDENTIFIER>dir:2000:56:oj</IDENTIFIER>
+					<TYPE>eli</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/oj/JOL_2000_237_R_0045_01</VALUE>
+					<IDENTIFIER>JOL_2000_237_R_0045_01</IDENTIFIER>
+					<TYPE>oj</TYPE>
+				</URI>
+			</SAMEAS>
+		</WORK_CITES_WORK>
+		<WORK_CITES_WORK type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/6a6b2a43-24c4-47b6-a602-40ca8c461a82</VALUE>
+				<IDENTIFIER>6a6b2a43-24c4-47b6-a602-40ca8c461a82</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/eli/dir/2008/56/oj</VALUE>
+					<IDENTIFIER>dir:2008:56:oj</IDENTIFIER>
+					<TYPE>eli</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/oj/JOL_2008_164_R_0019_01</VALUE>
+					<IDENTIFIER>JOL_2008_164_R_0019_01</IDENTIFIER>
+					<TYPE>oj</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/32008L0056</VALUE>
+					<IDENTIFIER>32008L0056</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+		</WORK_CITES_WORK>
+		<DATE type="date">
+			<VALUE>2019-06-05</VALUE>
+			<YEAR>2019</YEAR>
+			<MONTH>06</MONTH>
+			<DAY>05</DAY>
+		</DATE>
+		<IS_ABOUT type="concept">
+			<URI>
+				<VALUE>http://eurovoc.europa.eu/1707</VALUE>
+				<IDENTIFIER>1707</IDENTIFIER>
+				<TYPE>EUROVOC</TYPE>
+			</URI>
+			<IDENTIFIER>1707</IDENTIFIER>
+			<PREFLABEL>pollution control measures</PREFLABEL>
+			<ALTLABEL>reduction of pollution</ALTLABEL>
+		</IS_ABOUT>
+		<WORK_CITES_WORK type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/c404f9ba-4b2f-403c-8517-f911d61cbbd7</VALUE>
+				<IDENTIFIER>c404f9ba-4b2f-403c-8517-f911d61cbbd7</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/12016M005</VALUE>
+					<IDENTIFIER>12016M005</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/eli/treaty/teu_2016/art_5/oj</VALUE>
+					<IDENTIFIER>treaty:teu_2016:art_5:oj</IDENTIFIER>
+					<TYPE>eli</TYPE>
+				</URI>
+			</SAMEAS>
+		</WORK_CITES_WORK>
+		<WORK_CITES_WORK type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/5a380587-970b-46c6-80b0-985dd1d4812d</VALUE>
+				<IDENTIFIER>5a380587-970b-46c6-80b0-985dd1d4812d</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/eli/reg/2006/1907/oj</VALUE>
+					<IDENTIFIER>reg:2006:1907:oj</IDENTIFIER>
+					<TYPE>eli</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/oj/JOL_2006_396_R_NS001</VALUE>
+					<IDENTIFIER>JOL_2006_396_R_NS001</IDENTIFIER>
+					<TYPE>oj</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/32006R1907</VALUE>
+					<IDENTIFIER>32006R1907</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+		</WORK_CITES_WORK>
+		<IS_ABOUT type="concept">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/authority/fd_070/ENV</VALUE>
+				<IDENTIFIER>ENV</IDENTIFIER>
+				<TYPE>fd_070</TYPE>
+			</URI>
+			<OP-CODE>ENV</OP-CODE>
+			<IDENTIFIER>ENV</IDENTIFIER>
+			<PREFLABEL>Environment</PREFLABEL>
+		</IS_ABOUT>
+		<CREATED_BY type="concept">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/authority/corporate-body/ENV</VALUE>
+				<IDENTIFIER>ENV</IDENTIFIER>
+				<TYPE>corporate-body</TYPE>
+			</URI>
+			<OP-CODE>ENV</OP-CODE>
+			<IDENTIFIER>ENV</IDENTIFIER>
+			<PREFLABEL>Directorate-General for Environment</PREFLABEL>
+			<ALTLABEL>DG XI – Environment, Nuclear Safety and Civil Protection</ALTLABEL>
+			<ALTLABEL>Directorate-General "Environment, Consumer Protection and Nuclear Safety"</ALTLABEL>
+			<ALTLABEL>DG Environment</ALTLABEL>
+			<ALTLABEL>DG XI – Environment, Consumer Protection and Nuclear Safety</ALTLABEL>
+			<ALTLABEL>Directorate-General "Environment, Nuclear Safety and Civil Protection"</ALTLABEL>
+		</CREATED_BY>
+		<IDENTIFIER type="data">
+			<VALUE>comnat:COM_2018_0340_FIN</VALUE>
+		</IDENTIFIER>
+		<WORK_PART_OF_DOSSIER type="link">
+			<DOSSIER>
+				<PROCEDURE_CODE_INTERINSTITUTIONAL_HAS_TYPE_CONCEPT_TYPE_PROCEDURE_CODE_INTERINSTITUTIONAL type="concept">
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/authority/procedure/OLP</VALUE>
+						<IDENTIFIER>OLP</IDENTIFIER>
+						<TYPE>procedure</TYPE>
+					</URI>
+					<OP-CODE>OLP</OP-CODE>
+					<IDENTIFIER>OLP</IDENTIFIER>
+					<PREFLABEL>Ordinary legislative procedure (COD)</PREFLABEL>
+				</PROCEDURE_CODE_INTERINSTITUTIONAL_HAS_TYPE_CONCEPT_TYPE_PROCEDURE_CODE_INTERINSTITUTIONAL>
+				<PROCEDURE_CODE_INTERINSTITUTIONAL_NUMBER_PROCEDURE type="data">
+					<VALUE>0172</VALUE>
+				</PROCEDURE_CODE_INTERINSTITUTIONAL_NUMBER_PROCEDURE>
+				<PROCEDURE_CODE_INTERINSTITUTIONAL_REFERENCE_PROCEDURE type="data">
+					<VALUE>2018/0172/COD</VALUE>
+				</PROCEDURE_CODE_INTERINSTITUTIONAL_REFERENCE_PROCEDURE>
+				<PROCEDURE_CODE_INTERINSTITUTIONAL_YEAR_PROCEDURE type="data">
+					<VALUE>2018</VALUE>
+				</PROCEDURE_CODE_INTERINSTITUTIONAL_YEAR_PROCEDURE>
+				<TYPE>cdm:procedure_code_interinstitutional</TYPE>
+				<TYPE>cdm:dossier</TYPE>
+				<TYPE>cdm:entity_temporal</TYPE>
+				<TYPE>cdm:period</TYPE>
+			</DOSSIER>
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/f03de40f-6255-11e8-ab9c-01aa75ed71a1</VALUE>
+				<IDENTIFIER>f03de40f-6255-11e8-ab9c-01aa75ed71a1</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/procedure/2018_172</VALUE>
+					<IDENTIFIER>2018_172</IDENTIFIER>
+					<TYPE>procedure</TYPE>
+				</URI>
+			</SAMEAS>
+		</WORK_PART_OF_DOSSIER>
+		<!--WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
+			<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+				<URI>
+					<VALUE>http://eurovoc.europa.eu/1837</VALUE>
+					<IDENTIFIER>1837</IDENTIFIER>
+					<TYPE>EUROVOC</TYPE>
+				</URI>
+				<IDENTIFIER>1837</IDENTIFIER>
+				<PREFLABEL>plastics</PREFLABEL>
+				<ALTLABEL>polyurethane</ALTLABEL>
+				<ALTLABEL>polyurethane foam</ALTLABEL>
+				<ALTLABEL>polypropylene</ALTLABEL>
+				<ALTLABEL>plastic</ALTLABEL>
+				<ALTLABEL>PVC</ALTLABEL>
+				<ALTLABEL>polyethylene</ALTLABEL>
+				<ALTLABEL>polyvinyl chloride</ALTLABEL>
+				<ALTLABEL>polyester</ALTLABEL>
+			</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
+			<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
+				<URI>
+					<VALUE>http://eurovoc.europa.eu/1362</VALUE>
+					<IDENTIFIER>1362</IDENTIFIER>
+					<TYPE>EUROVOC</TYPE>
+				</URI>
+				<IDENTIFIER>1362</IDENTIFIER>
+				<PREFLABEL>chemical industry</PREFLABEL>
+				<ALTLABEL>chemical production</ALTLABEL>
+			</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
+			<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+				<URI>
+					<VALUE>http://eurovoc.europa.eu/100160</VALUE>
+					<IDENTIFIER>100160</IDENTIFIER>
+					<TYPE>EUROVOC</TYPE>
+				</URI>
+				<IDENTIFIER>68</IDENTIFIER>
+				<PREFLABEL>68 INDUSTRY</PREFLABEL>
+			</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
+			<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+				<URI>
+					<VALUE>http://eurovoc.europa.eu/100269</VALUE>
+					<IDENTIFIER>100269</IDENTIFIER>
+					<TYPE>EUROVOC</TYPE>
+				</URI>
+				<IDENTIFIER>6811</IDENTIFIER>
+				<PREFLABEL>6811 chemistry</PREFLABEL>
+			</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+		</WORK_IS_ABOUT_CONCEPT_EUROVOC-->
+		<TYPE type="type">cdm:act_preparatory</TYPE>
+		<TYPE type="data">
+			<VALUE>PC</VALUE>
+		</TYPE>
+		<TYPE type="type">cdm:resource_legal</TYPE>
+		<TYPE type="type">cdm:work</TYPE>
+		<RESOURCE_LEGAL_COR_OPINION_CONTAINED_IN_RESOURCE_LEGAL type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/ebbe9489-04e8-11e9-adde-01aa75ed71a1</VALUE>
+				<IDENTIFIER>ebbe9489-04e8-11e9-adde-01aa75ed71a1</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/52018AR3652</VALUE>
+					<IDENTIFIER>52018AR3652</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/cor/COR-2018-03652</VALUE>
+					<IDENTIFIER>COR-2018-03652</IDENTIFIER>
+					<TYPE>cor</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/immc/COR-2018-03652</VALUE>
+					<IDENTIFIER>COR-2018-03652</IDENTIFIER>
+					<TYPE>immc</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/oj/JOC_2018_461_R_0017</VALUE>
+					<IDENTIFIER>JOC_2018_461_R_0017</IDENTIFIER>
+					<TYPE>oj</TYPE>
+				</URI>
+			</SAMEAS>
+			<ROLE2>{MD|http://publications.europa.eu/resource/authority/fd_375/MD}</ROLE2>
+			<TYPE_OF_LINK_TARGET>EA</TYPE_OF_LINK_TARGET>
+		</RESOURCE_LEGAL_COR_OPINION_CONTAINED_IN_RESOURCE_LEGAL>
+		<WORK_RELATED_TO_WORK type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/240d5355-6257-11e8-ab9c-01aa75ed71a1</VALUE>
+				<IDENTIFIER>240d5355-6257-11e8-ab9c-01aa75ed71a1</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/comnat/SWD_2018_0257_FIN</VALUE>
+					<IDENTIFIER>SWD_2018_0257_FIN</IDENTIFIER>
+					<TYPE>comnat</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/52018SC0257</VALUE>
+					<IDENTIFIER>52018SC0257</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/immc/SWD%282018%29257%20final</VALUE>
+					<IDENTIFIER>SWD(2018)257 final</IDENTIFIER>
+					<TYPE>immc</TYPE>
+				</URI>
+			</SAMEAS>
+			<TYPE_OF_LINK_TARGET>RD</TYPE_OF_LINK_TARGET>
+		</WORK_RELATED_TO_WORK>
+		<WORK_RELATED_TO_WORK type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/5136acfd-56ce-11e9-a8ed-01aa75ed71a1</VALUE>
+				<IDENTIFIER>5136acfd-56ce-11e9-a8ed-01aa75ed71a1</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/immc/P8_TA%282019%290305</VALUE>
+					<IDENTIFIER>P8_TA(2019)0305</IDENTIFIER>
+					<TYPE>immc</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/ep/P8_TA%282019%290305</VALUE>
+					<IDENTIFIER>P8_TA(2019)0305</IDENTIFIER>
+					<TYPE>ep</TYPE>
+				</URI>
+			</SAMEAS>
+		</WORK_RELATED_TO_WORK>
+		<RESOURCE_LEGAL_RELATED_TO_RESOURCE_LEGAL type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/5136acfd-56ce-11e9-a8ed-01aa75ed71a1</VALUE>
+				<IDENTIFIER>5136acfd-56ce-11e9-a8ed-01aa75ed71a1</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/immc/P8_TA%282019%290305</VALUE>
+					<IDENTIFIER>P8_TA(2019)0305</IDENTIFIER>
+					<TYPE>immc</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/ep/P8_TA%282019%290305</VALUE>
+					<IDENTIFIER>P8_TA(2019)0305</IDENTIFIER>
+					<TYPE>ep</TYPE>
+				</URI>
+			</SAMEAS>
+			<ROLE2>{PSP|http://publications.europa.eu/resource/authority/fd_375/PSP}</ROLE2>
+			<TYPE_OF_LINK_TARGET>EA</TYPE_OF_LINK_TARGET>
+		</RESOURCE_LEGAL_RELATED_TO_RESOURCE_LEGAL>
+		<WORK_PART_OF_EVENT_LEGAL type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/f03de40f-6255-11e8-ab9c-01aa75ed71a1.0001</VALUE>
+				<IDENTIFIER>f03de40f-6255-11e8-ab9c-01aa75ed71a1.0001</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/procedure-event/2018_172.2018-05-28_ADP_byCOM</VALUE>
+					<IDENTIFIER>2018_172.2018-05-28_ADP_byCOM</IDENTIFIER>
+					<TYPE>procedure-event</TYPE>
+				</URI>
+			</SAMEAS>
+		</WORK_PART_OF_EVENT_LEGAL>
+		<WORK_RELATED_TO_WORK type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/daba6bc3-6256-11e8-ab9c-01aa75ed71a1</VALUE>
+				<IDENTIFIER>daba6bc3-6256-11e8-ab9c-01aa75ed71a1</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/immc/SWD%282018%29256%20final</VALUE>
+					<IDENTIFIER>SWD(2018)256 final</IDENTIFIER>
+					<TYPE>immc</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/comnat/SWD_2018_0256_FIN</VALUE>
+					<IDENTIFIER>SWD_2018_0256_FIN</IDENTIFIER>
+					<TYPE>comnat</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/52018SC0256</VALUE>
+					<IDENTIFIER>52018SC0256</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+			<TYPE_OF_LINK_TARGET>RD</TYPE_OF_LINK_TARGET>
+		</WORK_RELATED_TO_WORK>
+		<RESOURCE_LEGAL_EESC_OPINION_CONTAINED_IN_RESOURCE_LEGAL type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/19a9150f-d012-11e8-9424-01aa75ed71a1</VALUE>
+				<IDENTIFIER>19a9150f-d012-11e8-9424-01aa75ed71a1</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/immc/EESC-2018-03041-AS</VALUE>
+					<IDENTIFIER>EESC-2018-03041-AS</IDENTIFIER>
+					<TYPE>immc</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/pi_eesc/EESC-2018-03041-AS</VALUE>
+					<IDENTIFIER>EESC-2018-03041-AS</IDENTIFIER>
+					<TYPE>pi_eesc</TYPE>
+				</URI>
+			</SAMEAS>
+		</RESOURCE_LEGAL_EESC_OPINION_CONTAINED_IN_RESOURCE_LEGAL>
+		<RESOURCE_LEGAL_ADOPTED_BY_RESOURCE_LEGAL type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/ab83570c-8cc8-11e9-9369-01aa75ed71a1</VALUE>
+				<IDENTIFIER>ab83570c-8cc8-11e9-9369-01aa75ed71a1</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/eli/dir/2019/904/oj</VALUE>
+					<IDENTIFIER>dir:2019:904:oj</IDENTIFIER>
+					<TYPE>eli</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/32019L0904</VALUE>
+					<IDENTIFIER>32019L0904</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/oj/JOL_2019_155_R_0001</VALUE>
+					<IDENTIFIER>JOL_2019_155_R_0001</IDENTIFIER>
+					<TYPE>oj</TYPE>
+				</URI>
+			</SAMEAS>
+			<START_OF_VALIDITY>2019-06-05</START_OF_VALIDITY>
+			<TYPE_OF_LINK_TARGET>MS</TYPE_OF_LINK_TARGET>
+		</RESOURCE_LEGAL_ADOPTED_BY_RESOURCE_LEGAL>
+		<RESOURCE_LEGAL_EESC_OPINION_CONTAINED_IN_RESOURCE_LEGAL type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/eca1b3ec-30fd-11e9-8d04-01aa75ed71a1</VALUE>
+				<IDENTIFIER>eca1b3ec-30fd-11e9-8d04-01aa75ed71a1</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/52018AE3041</VALUE>
+					<IDENTIFIER>52018AE3041</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/immc/EESC-2018-05568</VALUE>
+					<IDENTIFIER>EESC-2018-05568</IDENTIFIER>
+					<TYPE>immc</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/oj/JOC_2019_062_R_0034</VALUE>
+					<IDENTIFIER>JOC_2019_062_R_0034</IDENTIFIER>
+					<TYPE>oj</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/eesc/EESC-2018-05568</VALUE>
+					<IDENTIFIER>EESC-2018-05568</IDENTIFIER>
+					<TYPE>eesc</TYPE>
+				</URI>
+			</SAMEAS>
+			<TYPE_OF_LINK_TARGET>EA</TYPE_OF_LINK_TARGET>
+		</RESOURCE_LEGAL_EESC_OPINION_CONTAINED_IN_RESOURCE_LEGAL>
+		<WORK_PART_OF_DOSSIER type="link">
+			<DOSSIER>
+				<PROCEDURE_CODE_INTERINSTITUTIONAL_HAS_TYPE_CONCEPT_TYPE_PROCEDURE_CODE_INTERINSTITUTIONAL type="concept">
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/authority/procedure/OLP</VALUE>
+						<IDENTIFIER>OLP</IDENTIFIER>
+						<TYPE>procedure</TYPE>
+					</URI>
+					<OP-CODE>OLP</OP-CODE>
+					<IDENTIFIER>OLP</IDENTIFIER>
+					<PREFLABEL>Ordinary legislative procedure (COD)</PREFLABEL>
+				</PROCEDURE_CODE_INTERINSTITUTIONAL_HAS_TYPE_CONCEPT_TYPE_PROCEDURE_CODE_INTERINSTITUTIONAL>
+				<PROCEDURE_CODE_INTERINSTITUTIONAL_NUMBER_PROCEDURE type="data">
+					<VALUE>0172</VALUE>
+				</PROCEDURE_CODE_INTERINSTITUTIONAL_NUMBER_PROCEDURE>
+				<PROCEDURE_CODE_INTERINSTITUTIONAL_REFERENCE_PROCEDURE type="data">
+					<VALUE>2018/0172/COD</VALUE>
+				</PROCEDURE_CODE_INTERINSTITUTIONAL_REFERENCE_PROCEDURE>
+				<PROCEDURE_CODE_INTERINSTITUTIONAL_YEAR_PROCEDURE type="data">
+					<VALUE>2018</VALUE>
+				</PROCEDURE_CODE_INTERINSTITUTIONAL_YEAR_PROCEDURE>
+				<TYPE>cdm:procedure_code_interinstitutional</TYPE>
+				<TYPE>cdm:dossier</TYPE>
+				<TYPE>cdm:entity_temporal</TYPE>
+				<TYPE>cdm:period</TYPE>
+			</DOSSIER>
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/f03de40f-6255-11e8-ab9c-01aa75ed71a1</VALUE>
+				<IDENTIFIER>f03de40f-6255-11e8-ab9c-01aa75ed71a1</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/procedure/2018_172</VALUE>
+					<IDENTIFIER>2018_172</IDENTIFIER>
+					<TYPE>procedure</TYPE>
+				</URI>
+			</SAMEAS>
+		</WORK_PART_OF_DOSSIER>
+		<WORK_RELATED_TO_WORK type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/4d0542a2-6256-11e8-ab9c-01aa75ed71a1</VALUE>
+				<IDENTIFIER>4d0542a2-6256-11e8-ab9c-01aa75ed71a1</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/immc/SWD%282018%29254%20final</VALUE>
+					<IDENTIFIER>SWD(2018)254 final</IDENTIFIER>
+					<TYPE>immc</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/52018SC0254</VALUE>
+					<IDENTIFIER>52018SC0254</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/comnat/SWD_2018_0254_FIN</VALUE>
+					<IDENTIFIER>SWD_2018_0254_FIN</IDENTIFIER>
+					<TYPE>comnat</TYPE>
+				</URI>
+			</SAMEAS>
+			<TYPE_OF_LINK_TARGET>RD</TYPE_OF_LINK_TARGET>
+		</WORK_RELATED_TO_WORK>
+		<WORK_RELATED_TO_WORK type="link">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/18b36681-6256-11e8-ab9c-01aa75ed71a1</VALUE>
+				<IDENTIFIER>18b36681-6256-11e8-ab9c-01aa75ed71a1</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/comnat/SWD_2018_0255_FIN</VALUE>
+					<IDENTIFIER>SWD_2018_0255_FIN</IDENTIFIER>
+					<TYPE>comnat</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/celex/52018SC0255</VALUE>
+					<IDENTIFIER>52018SC0255</IDENTIFIER>
+					<TYPE>celex</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/immc/SWD%282018%29255%20final</VALUE>
+					<IDENTIFIER>SWD(2018)255 final</IDENTIFIER>
+					<TYPE>immc</TYPE>
+				</URI>
+			</SAMEAS>
+			<TYPE_OF_LINK_TARGET>RD</TYPE_OF_LINK_TARGET>
+		</WORK_RELATED_TO_WORK>
+		<WORK_PART_OF_DOSSIER type="link">
+			<DOSSIER>
+				<TYPE>cdm:period</TYPE>
+				<TYPE>cdm:procedure_internal</TYPE>
+				<TYPE>cdm:entity_temporal</TYPE>
+				<TYPE>cdm:dossier</TYPE>
+			</DOSSIER>
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/0099fab9-625a-11e8-ab9c-01aa75ed71a1</VALUE>
+				<IDENTIFIER>0099fab9-625a-11e8-ab9c-01aa75ed71a1</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/internal_proc/4EA5A439811F4F0D7522C7952DFC12ECCCE0FBA14846EC9F7681F23CDA431DC9</VALUE>
+					<IDENTIFIER>4EA5A439811F4F0D7522C7952DFC12ECCCE0FBA14846EC9F7681F23CDA431DC9</IDENTIFIER>
+					<TYPE>internal_proc</TYPE>
+				</URI>
+			</SAMEAS>
+		</WORK_PART_OF_DOSSIER>
+		<EXPRESSION display="true">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002</VALUE>
+				<IDENTIFIER>fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/comnat/COM_2018_0340_FIN.ENG</VALUE>
+					<IDENTIFIER>COM_2018_0340_FIN.ENG</IDENTIFIER>
+					<TYPE>comnat</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/immc/COM%282018%29340%20final.ENG</VALUE>
+					<IDENTIFIER>COM(2018)340 final.ENG</IDENTIFIER>
+					<TYPE>immc</TYPE>
+				</URI>
+			</SAMEAS>
+			<TYPE type="type">cdm:expression</TYPE>
+			<LANG type="data">
+				<VALUE>eng</VALUE>
+			</LANG>
+			<CREATIONDATE type="date">
+				<VALUE>2018-05-28T11:03:29.778+02:00</VALUE>
+				<YEAR>2018</YEAR>
+				<MONTH>05</MONTH>
+				<DAY>28</DAY>
+			</CREATIONDATE>
+			<EXPRESSION_SUBTITLE type="data">
+				<VALUE>COM/2018/340 final - 2018/0172 (COD)</VALUE>
+			</EXPRESSION_SUBTITLE>
+			<EXPRESSION_TITLE type="data">
+				<VALUE>Proposal for a DIRECTIVE OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on the reduction of the impact of certain plastic products on the environment</VALUE>
+				<LANG>en</LANG>
+			</EXPRESSION_TITLE>
+			<EXPRESSION_BELONGS_TO_WORK type="link">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/cellar/fc5c74e0-6255-11e8-ab9c-01aa75ed71a1</VALUE>
+					<IDENTIFIER>fc5c74e0-6255-11e8-ab9c-01aa75ed71a1</IDENTIFIER>
+					<TYPE>cellar</TYPE>
+				</URI>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/comnat/COM_2018_0340_FIN</VALUE>
+						<IDENTIFIER>COM_2018_0340_FIN</IDENTIFIER>
+						<TYPE>comnat</TYPE>
+					</URI>
+				</SAMEAS>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/immc/COM%282018%29340%20final</VALUE>
+						<IDENTIFIER>COM(2018)340 final</IDENTIFIER>
+						<TYPE>immc</TYPE>
+					</URI>
+				</SAMEAS>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/celex/52018PC0340</VALUE>
+						<IDENTIFIER>52018PC0340</IDENTIFIER>
+						<TYPE>celex</TYPE>
+					</URI>
+				</SAMEAS>
+			</EXPRESSION_BELONGS_TO_WORK>
+			<EXPRESSION_USES_LANGUAGE type="concept">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/authority/language/ENG</VALUE>
+					<IDENTIFIER>ENG</IDENTIFIER>
+					<TYPE>language</TYPE>
+				</URI>
+				<OP-CODE>ENG</OP-CODE>
+				<IDENTIFIER>ENG</IDENTIFIER>
+				<PREFLABEL>English</PREFLABEL>
+				<ALTLABEL>English</ALTLABEL>
+			</EXPRESSION_USES_LANGUAGE>
+			<LANG type="data">
+				<VALUE>en</VALUE>
+			</LANG>
+			<TITLE type="data">
+				<VALUE>Proposal for a DIRECTIVE OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on the reduction of the impact of certain plastic products on the environment</VALUE>
+				<LANG>en</LANG>
+			</TITLE>
+			<LASTMODIFICATIONDATE type="date">
+				<VALUE>2020-09-27T17:43:28.234+02:00</VALUE>
+				<YEAR>2020</YEAR>
+				<MONTH>09</MONTH>
+				<DAY>27</DAY>
+			</LASTMODIFICATIONDATE>
+			<TITLE type="data">
+				<VALUE>COM/2018/340 final - 2018/0172 (COD)</VALUE>
+			</TITLE>
+			<MANIFESTATION>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/cellar/fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.03</VALUE>
+					<IDENTIFIER>fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.03</IDENTIFIER>
+					<TYPE>cellar</TYPE>
+				</URI>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/immc/COM%282018%29340%20final.ENG.xhtml</VALUE>
+						<IDENTIFIER>COM(2018)340 final.ENG.xhtml</IDENTIFIER>
+						<TYPE>immc</TYPE>
+					</URI>
+				</SAMEAS>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/comnat/COM_2018_0340_FIN.ENG.xhtml</VALUE>
+						<IDENTIFIER>COM_2018_0340_FIN.ENG.xhtml</IDENTIFIER>
+						<TYPE>comnat</TYPE>
+					</URI>
+				</SAMEAS>
+				<TYPE type="type">cdm:manifestation</TYPE>
+				<LASTMODIFICATIONDATE type="date">
+					<VALUE>2020-09-27T17:43:28.234+02:00</VALUE>
+					<YEAR>2020</YEAR>
+					<MONTH>09</MONTH>
+					<DAY>27</DAY>
+				</LASTMODIFICATIONDATE>
+				<CREATIONDATE type="date">
+					<VALUE>2018-05-28T11:03:29.778+02:00</VALUE>
+					<YEAR>2018</YEAR>
+					<MONTH>05</MONTH>
+					<DAY>28</DAY>
+				</CREATIONDATE>
+				<MANIFESTATION_TYPE type="data">
+					<VALUE>xhtml</VALUE>
+				</MANIFESTATION_TYPE>
+				<TYPE>xhtml</TYPE>
+				<ITEM>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/cellar/fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.03/DOC_1</VALUE>
+						<IDENTIFIER>fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.03:DOC_1</IDENTIFIER>
+						<TYPE>cellar</TYPE>
+					</URI>
+					<SAMEAS>
+						<URI>
+							<VALUE>http://publications.europa.eu/resource/comnat/COM_2018_0340_FIN.ENG.xhtml.2_EN_ACT_part1_v10.html</VALUE>
+							<IDENTIFIER>COM_2018_0340_FIN.ENG.xhtml.2_EN_ACT_part1_v10.html</IDENTIFIER>
+							<TYPE>comnat</TYPE>
+						</URI>
+					</SAMEAS>
+					<SAMEAS>
+						<URI>
+							<VALUE>http://publications.europa.eu/resource/immc/COM%282018%29340%20final.ENG.xhtml.2_EN_ACT_part1_v10.html</VALUE>
+							<IDENTIFIER>COM(2018)340 final.ENG.xhtml.2_EN_ACT_part1_v10.html</IDENTIFIER>
+							<TYPE>immc</TYPE>
+						</URI>
+					</SAMEAS>
+					<TYPE type="type">cdm:item</TYPE>
+					<TECHMD>
+						<STREAM_NAME type="data">
+							<VALUE>2_EN_ACT_part1_v10.html</VALUE>
+						</STREAM_NAME>
+						<STREAM_COMPOSITION_LEVEL type="data">
+							<VALUE>0</VALUE>
+						</STREAM_COMPOSITION_LEVEL>
+						<STREAM_LABEL type="data">
+							<VALUE>act</VALUE>
+						</STREAM_LABEL>
+						<STREAM_SIZE type="data">
+							<VALUE>172528</VALUE>
+						</STREAM_SIZE>
+						<STREAM_ORDER type="data">
+							<VALUE>1</VALUE>
+						</STREAM_ORDER>
+					</TECHMD>
+					<ITEM_BELONGS_TO_MANIFESTATION type="link">
+						<URI>
+							<VALUE>http://publications.europa.eu/resource/cellar/fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.03</VALUE>
+							<IDENTIFIER>fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.03</IDENTIFIER>
+							<TYPE>cellar</TYPE>
+						</URI>
+						<SAMEAS>
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/immc/COM%282018%29340%20final.ENG.xhtml</VALUE>
+								<IDENTIFIER>COM(2018)340 final.ENG.xhtml</IDENTIFIER>
+								<TYPE>immc</TYPE>
+							</URI>
+						</SAMEAS>
+						<SAMEAS>
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/comnat/COM_2018_0340_FIN.ENG.xhtml</VALUE>
+								<IDENTIFIER>COM_2018_0340_FIN.ENG.xhtml</IDENTIFIER>
+								<TYPE>comnat</TYPE>
+							</URI>
+						</SAMEAS>
+					</ITEM_BELONGS_TO_MANIFESTATION>
+					<BELONGS_TO type="link">
+						<URI>
+							<VALUE>http://publications.europa.eu/resource/cellar/fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.03</VALUE>
+							<IDENTIFIER>fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.03</IDENTIFIER>
+							<TYPE>cellar</TYPE>
+						</URI>
+						<SAMEAS>
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/immc/COM%282018%29340%20final.ENG.xhtml</VALUE>
+								<IDENTIFIER>COM(2018)340 final.ENG.xhtml</IDENTIFIER>
+								<TYPE>immc</TYPE>
+							</URI>
+						</SAMEAS>
+						<SAMEAS>
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/comnat/COM_2018_0340_FIN.ENG.xhtml</VALUE>
+								<IDENTIFIER>COM_2018_0340_FIN.ENG.xhtml</IDENTIFIER>
+								<TYPE>comnat</TYPE>
+							</URI>
+						</SAMEAS>
+					</BELONGS_TO>
+					<IDENTIFIER type="data">
+						<VALUE>DOC_1</VALUE>
+					</IDENTIFIER>
+					<ITEM_IDENTIFIER type="data">
+						<VALUE>DOC_1</VALUE>
+					</ITEM_IDENTIFIER>
+				</ITEM>
+				<ITEM>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/cellar/fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.03/DOC_2</VALUE>
+						<IDENTIFIER>fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.03:DOC_2</IDENTIFIER>
+						<TYPE>cellar</TYPE>
+					</URI>
+					<SAMEAS>
+						<URI>
+							<VALUE>http://publications.europa.eu/resource/comnat/COM_2018_0340_FIN.ENG.xhtml.COM_2018_0340_FIN_ENG_04001.jpg</VALUE>
+							<IDENTIFIER>COM_2018_0340_FIN.ENG.xhtml.COM_2018_0340_FIN_ENG_04001.jpg</IDENTIFIER>
+							<TYPE>comnat</TYPE>
+						</URI>
+					</SAMEAS>
+					<SAMEAS>
+						<URI>
+							<VALUE>http://publications.europa.eu/resource/immc/COM%282018%29340%20final.ENG.xhtml.COM_2018_0340_FIN_ENG_04001.jpg</VALUE>
+							<IDENTIFIER>COM(2018)340 final.ENG.xhtml.COM_2018_0340_FIN_ENG_04001.jpg</IDENTIFIER>
+							<TYPE>immc</TYPE>
+						</URI>
+					</SAMEAS>
+					<TYPE type="type">cdm:item</TYPE>
+					<TECHMD>
+						<STREAM_SIZE type="data">
+							<VALUE>537448</VALUE>
+						</STREAM_SIZE>
+						<STREAM_ORDER type="data">
+							<VALUE>2</VALUE>
+						</STREAM_ORDER>
+						<STREAM_NAME type="data">
+							<VALUE>COM_2018_0340_FIN_ENG_04001.jpg</VALUE>
+						</STREAM_NAME>
+						<STREAM_COMPOSITION_LEVEL type="data">
+							<VALUE>0</VALUE>
+						</STREAM_COMPOSITION_LEVEL>
+						<STREAM_LABEL type="data">
+							<VALUE>act</VALUE>
+						</STREAM_LABEL>
+					</TECHMD>
+					<IDENTIFIER type="data">
+						<VALUE>DOC_2</VALUE>
+					</IDENTIFIER>
+					<ITEM_IDENTIFIER type="data">
+						<VALUE>DOC_2</VALUE>
+					</ITEM_IDENTIFIER>
+					<ITEM_BELONGS_TO_MANIFESTATION type="link">
+						<URI>
+							<VALUE>http://publications.europa.eu/resource/cellar/fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.03</VALUE>
+							<IDENTIFIER>fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.03</IDENTIFIER>
+							<TYPE>cellar</TYPE>
+						</URI>
+						<SAMEAS>
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/immc/COM%282018%29340%20final.ENG.xhtml</VALUE>
+								<IDENTIFIER>COM(2018)340 final.ENG.xhtml</IDENTIFIER>
+								<TYPE>immc</TYPE>
+							</URI>
+						</SAMEAS>
+						<SAMEAS>
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/comnat/COM_2018_0340_FIN.ENG.xhtml</VALUE>
+								<IDENTIFIER>COM_2018_0340_FIN.ENG.xhtml</IDENTIFIER>
+								<TYPE>comnat</TYPE>
+							</URI>
+						</SAMEAS>
+					</ITEM_BELONGS_TO_MANIFESTATION>
+					<BELONGS_TO type="link">
+						<URI>
+							<VALUE>http://publications.europa.eu/resource/cellar/fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.03</VALUE>
+							<IDENTIFIER>fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.03</IDENTIFIER>
+							<TYPE>cellar</TYPE>
+						</URI>
+						<SAMEAS>
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/immc/COM%282018%29340%20final.ENG.xhtml</VALUE>
+								<IDENTIFIER>COM(2018)340 final.ENG.xhtml</IDENTIFIER>
+								<TYPE>immc</TYPE>
+							</URI>
+						</SAMEAS>
+						<SAMEAS>
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/comnat/COM_2018_0340_FIN.ENG.xhtml</VALUE>
+								<IDENTIFIER>COM_2018_0340_FIN.ENG.xhtml</IDENTIFIER>
+								<TYPE>comnat</TYPE>
+							</URI>
+						</SAMEAS>
+					</BELONGS_TO>
+				</ITEM>
+				<ITEM>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/cellar/fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.03/DOC_3</VALUE>
+						<IDENTIFIER>fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.03:DOC_3</IDENTIFIER>
+						<TYPE>cellar</TYPE>
+					</URI>
+					<SAMEAS>
+						<URI>
+							<VALUE>http://publications.europa.eu/resource/immc/COM%282018%29340%20final.ENG.xhtml.1_EN_annexe_proposition_part1_v8.html</VALUE>
+							<IDENTIFIER>COM(2018)340 final.ENG.xhtml.1_EN_annexe_proposition_part1_v8.html</IDENTIFIER>
+							<TYPE>immc</TYPE>
+						</URI>
+					</SAMEAS>
+					<SAMEAS>
+						<URI>
+							<VALUE>http://publications.europa.eu/resource/comnat/COM_2018_0340_FIN.ENG.xhtml.1_EN_annexe_proposition_part1_v8.html</VALUE>
+							<IDENTIFIER>COM_2018_0340_FIN.ENG.xhtml.1_EN_annexe_proposition_part1_v8.html</IDENTIFIER>
+							<TYPE>comnat</TYPE>
+						</URI>
+					</SAMEAS>
+					<TYPE type="type">cdm:item</TYPE>
+					<TECHMD>
+						<STREAM_ORDER type="data">
+							<VALUE>3</VALUE>
+						</STREAM_ORDER>
+						<STREAM_NAME type="data">
+							<VALUE>1_EN_annexe_proposition_part1_v8.html</VALUE>
+						</STREAM_NAME>
+						<STREAM_LABEL type="data">
+							<VALUE>act</VALUE>
+						</STREAM_LABEL>
+						<STREAM_SIZE type="data">
+							<VALUE>14087</VALUE>
+						</STREAM_SIZE>
+						<STREAM_COMPOSITION_LEVEL type="data">
+							<VALUE>0</VALUE>
+						</STREAM_COMPOSITION_LEVEL>
+					</TECHMD>
+					<ITEM_BELONGS_TO_MANIFESTATION type="link">
+						<URI>
+							<VALUE>http://publications.europa.eu/resource/cellar/fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.03</VALUE>
+							<IDENTIFIER>fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.03</IDENTIFIER>
+							<TYPE>cellar</TYPE>
+						</URI>
+						<SAMEAS>
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/immc/COM%282018%29340%20final.ENG.xhtml</VALUE>
+								<IDENTIFIER>COM(2018)340 final.ENG.xhtml</IDENTIFIER>
+								<TYPE>immc</TYPE>
+							</URI>
+						</SAMEAS>
+						<SAMEAS>
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/comnat/COM_2018_0340_FIN.ENG.xhtml</VALUE>
+								<IDENTIFIER>COM_2018_0340_FIN.ENG.xhtml</IDENTIFIER>
+								<TYPE>comnat</TYPE>
+							</URI>
+						</SAMEAS>
+					</ITEM_BELONGS_TO_MANIFESTATION>
+					<BELONGS_TO type="link">
+						<URI>
+							<VALUE>http://publications.europa.eu/resource/cellar/fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.03</VALUE>
+							<IDENTIFIER>fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.03</IDENTIFIER>
+							<TYPE>cellar</TYPE>
+						</URI>
+						<SAMEAS>
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/immc/COM%282018%29340%20final.ENG.xhtml</VALUE>
+								<IDENTIFIER>COM(2018)340 final.ENG.xhtml</IDENTIFIER>
+								<TYPE>immc</TYPE>
+							</URI>
+						</SAMEAS>
+						<SAMEAS>
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/comnat/COM_2018_0340_FIN.ENG.xhtml</VALUE>
+								<IDENTIFIER>COM_2018_0340_FIN.ENG.xhtml</IDENTIFIER>
+								<TYPE>comnat</TYPE>
+							</URI>
+						</SAMEAS>
+					</BELONGS_TO>
+					<IDENTIFIER type="data">
+						<VALUE>DOC_3</VALUE>
+					</IDENTIFIER>
+					<ITEM_IDENTIFIER type="data">
+						<VALUE>DOC_3</VALUE>
+					</ITEM_IDENTIFIER>
+				</ITEM>
+				<ITEM>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/cellar/fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.03/DOC_4</VALUE>
+						<IDENTIFIER>fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.03:DOC_4</IDENTIFIER>
+						<TYPE>cellar</TYPE>
+					</URI>
+					<SAMEAS>
+						<URI>
+							<VALUE>http://publications.europa.eu/resource/comnat/COM_2018_0340_FIN.ENG.xhtml.COM_2018_0340_FIN_ENG_03001.jpg</VALUE>
+							<IDENTIFIER>COM_2018_0340_FIN.ENG.xhtml.COM_2018_0340_FIN_ENG_03001.jpg</IDENTIFIER>
+							<TYPE>comnat</TYPE>
+						</URI>
+					</SAMEAS>
+					<SAMEAS>
+						<URI>
+							<VALUE>http://publications.europa.eu/resource/immc/COM%282018%29340%20final.ENG.xhtml.COM_2018_0340_FIN_ENG_03001.jpg</VALUE>
+							<IDENTIFIER>COM(2018)340 final.ENG.xhtml.COM_2018_0340_FIN_ENG_03001.jpg</IDENTIFIER>
+							<TYPE>immc</TYPE>
+						</URI>
+					</SAMEAS>
+					<TYPE type="type">cdm:item</TYPE>
+					<TECHMD>
+						<STREAM_NAME type="data">
+							<VALUE>COM_2018_0340_FIN_ENG_03001.jpg</VALUE>
+						</STREAM_NAME>
+						<STREAM_LABEL type="data">
+							<VALUE>act</VALUE>
+						</STREAM_LABEL>
+						<STREAM_COMPOSITION_LEVEL type="data">
+							<VALUE>0</VALUE>
+						</STREAM_COMPOSITION_LEVEL>
+						<STREAM_ORDER type="data">
+							<VALUE>4</VALUE>
+						</STREAM_ORDER>
+						<STREAM_SIZE type="data">
+							<VALUE>503553</VALUE>
+						</STREAM_SIZE>
+					</TECHMD>
+					<ITEM_IDENTIFIER type="data">
+						<VALUE>DOC_4</VALUE>
+					</ITEM_IDENTIFIER>
+					<IDENTIFIER type="data">
+						<VALUE>DOC_4</VALUE>
+					</IDENTIFIER>
+					<ITEM_BELONGS_TO_MANIFESTATION type="link">
+						<URI>
+							<VALUE>http://publications.europa.eu/resource/cellar/fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.03</VALUE>
+							<IDENTIFIER>fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.03</IDENTIFIER>
+							<TYPE>cellar</TYPE>
+						</URI>
+						<SAMEAS>
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/immc/COM%282018%29340%20final.ENG.xhtml</VALUE>
+								<IDENTIFIER>COM(2018)340 final.ENG.xhtml</IDENTIFIER>
+								<TYPE>immc</TYPE>
+							</URI>
+						</SAMEAS>
+						<SAMEAS>
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/comnat/COM_2018_0340_FIN.ENG.xhtml</VALUE>
+								<IDENTIFIER>COM_2018_0340_FIN.ENG.xhtml</IDENTIFIER>
+								<TYPE>comnat</TYPE>
+							</URI>
+						</SAMEAS>
+					</ITEM_BELONGS_TO_MANIFESTATION>
+					<BELONGS_TO type="link">
+						<URI>
+							<VALUE>http://publications.europa.eu/resource/cellar/fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.03</VALUE>
+							<IDENTIFIER>fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.03</IDENTIFIER>
+							<TYPE>cellar</TYPE>
+						</URI>
+						<SAMEAS>
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/immc/COM%282018%29340%20final.ENG.xhtml</VALUE>
+								<IDENTIFIER>COM(2018)340 final.ENG.xhtml</IDENTIFIER>
+								<TYPE>immc</TYPE>
+							</URI>
+						</SAMEAS>
+						<SAMEAS>
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/comnat/COM_2018_0340_FIN.ENG.xhtml</VALUE>
+								<IDENTIFIER>COM_2018_0340_FIN.ENG.xhtml</IDENTIFIER>
+								<TYPE>comnat</TYPE>
+							</URI>
+						</SAMEAS>
+					</BELONGS_TO>
+				</ITEM>
+			</MANIFESTATION>
+			<MANIFESTATION>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/cellar/fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.02</VALUE>
+					<IDENTIFIER>fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.02</IDENTIFIER>
+					<TYPE>cellar</TYPE>
+				</URI>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/immc/COM%282018%29340%20final.ENG.pdf</VALUE>
+						<IDENTIFIER>COM(2018)340 final.ENG.pdf</IDENTIFIER>
+						<TYPE>immc</TYPE>
+					</URI>
+				</SAMEAS>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/comnat/COM_2018_0340_FIN.ENG.pdf</VALUE>
+						<IDENTIFIER>COM_2018_0340_FIN.ENG.pdf</IDENTIFIER>
+						<TYPE>comnat</TYPE>
+					</URI>
+				</SAMEAS>
+				<TYPE type="type">cdm:manifestation</TYPE>
+				<CREATIONDATE type="date">
+					<VALUE>2018-05-28T11:03:29.778+02:00</VALUE>
+					<YEAR>2018</YEAR>
+					<MONTH>05</MONTH>
+					<DAY>28</DAY>
+				</CREATIONDATE>
+				<MANIFESTATION_TYPE type="data">
+					<VALUE>pdf</VALUE>
+				</MANIFESTATION_TYPE>
+				<ITEM>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/cellar/fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.02/DOC_2</VALUE>
+						<IDENTIFIER>fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.02:DOC_2</IDENTIFIER>
+						<TYPE>cellar</TYPE>
+					</URI>
+					<SAMEAS>
+						<URI>
+							<VALUE>http://publications.europa.eu/resource/comnat/COM_2018_0340_FIN.ENG.pdf.1_EN_annexe_proposition_part1_v8.pdf</VALUE>
+							<IDENTIFIER>COM_2018_0340_FIN.ENG.pdf.1_EN_annexe_proposition_part1_v8.pdf</IDENTIFIER>
+							<TYPE>comnat</TYPE>
+						</URI>
+					</SAMEAS>
+					<SAMEAS>
+						<URI>
+							<VALUE>http://publications.europa.eu/resource/immc/COM%282018%29340%20final.ENG.pdf.1_EN_annexe_proposition_part1_v8.pdf</VALUE>
+							<IDENTIFIER>COM(2018)340 final.ENG.pdf.1_EN_annexe_proposition_part1_v8.pdf</IDENTIFIER>
+							<TYPE>immc</TYPE>
+						</URI>
+					</SAMEAS>
+					<TYPE type="type">cdm:item</TYPE>
+					<TECHMD>
+						<STREAM_NAME type="data">
+							<VALUE>1_EN_annexe_proposition_part1_v8.pdf</VALUE>
+						</STREAM_NAME>
+						<STREAM_SIZE type="data">
+							<VALUE>143436</VALUE>
+						</STREAM_SIZE>
+						<STREAM_ORDER type="data">
+							<VALUE>2</VALUE>
+						</STREAM_ORDER>
+						<STREAM_LABEL type="data">
+							<VALUE>act</VALUE>
+						</STREAM_LABEL>
+						<STREAM_COMPOSITION_LEVEL type="data">
+							<VALUE>0</VALUE>
+						</STREAM_COMPOSITION_LEVEL>
+					</TECHMD>
+					<IDENTIFIER type="data">
+						<VALUE>DOC_2</VALUE>
+					</IDENTIFIER>
+					<ITEM_IDENTIFIER type="data">
+						<VALUE>DOC_2</VALUE>
+					</ITEM_IDENTIFIER>
+					<BELONGS_TO type="link">
+						<URI>
+							<VALUE>http://publications.europa.eu/resource/cellar/fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.02</VALUE>
+							<IDENTIFIER>fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.02</IDENTIFIER>
+							<TYPE>cellar</TYPE>
+						</URI>
+						<SAMEAS>
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/immc/COM%282018%29340%20final.ENG.pdf</VALUE>
+								<IDENTIFIER>COM(2018)340 final.ENG.pdf</IDENTIFIER>
+								<TYPE>immc</TYPE>
+							</URI>
+						</SAMEAS>
+						<SAMEAS>
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/comnat/COM_2018_0340_FIN.ENG.pdf</VALUE>
+								<IDENTIFIER>COM_2018_0340_FIN.ENG.pdf</IDENTIFIER>
+								<TYPE>comnat</TYPE>
+							</URI>
+						</SAMEAS>
+					</BELONGS_TO>
+					<ITEM_BELONGS_TO_MANIFESTATION type="link">
+						<URI>
+							<VALUE>http://publications.europa.eu/resource/cellar/fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.02</VALUE>
+							<IDENTIFIER>fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.02</IDENTIFIER>
+							<TYPE>cellar</TYPE>
+						</URI>
+						<SAMEAS>
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/immc/COM%282018%29340%20final.ENG.pdf</VALUE>
+								<IDENTIFIER>COM(2018)340 final.ENG.pdf</IDENTIFIER>
+								<TYPE>immc</TYPE>
+							</URI>
+						</SAMEAS>
+						<SAMEAS>
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/comnat/COM_2018_0340_FIN.ENG.pdf</VALUE>
+								<IDENTIFIER>COM_2018_0340_FIN.ENG.pdf</IDENTIFIER>
+								<TYPE>comnat</TYPE>
+							</URI>
+						</SAMEAS>
+					</ITEM_BELONGS_TO_MANIFESTATION>
+				</ITEM>
+				<ITEM>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/cellar/fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.02/DOC_1</VALUE>
+						<IDENTIFIER>fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.02:DOC_1</IDENTIFIER>
+						<TYPE>cellar</TYPE>
+					</URI>
+					<SAMEAS>
+						<URI>
+							<VALUE>http://publications.europa.eu/resource/immc/COM%282018%29340%20final.ENG.pdf.2_EN_ACT_part1_v10.pdf</VALUE>
+							<IDENTIFIER>COM(2018)340 final.ENG.pdf.2_EN_ACT_part1_v10.pdf</IDENTIFIER>
+							<TYPE>immc</TYPE>
+						</URI>
+					</SAMEAS>
+					<SAMEAS>
+						<URI>
+							<VALUE>http://publications.europa.eu/resource/comnat/COM_2018_0340_FIN.ENG.pdf.2_EN_ACT_part1_v10.pdf</VALUE>
+							<IDENTIFIER>COM_2018_0340_FIN.ENG.pdf.2_EN_ACT_part1_v10.pdf</IDENTIFIER>
+							<TYPE>comnat</TYPE>
+						</URI>
+					</SAMEAS>
+					<TYPE type="type">cdm:item</TYPE>
+					<TECHMD>
+						<STREAM_NAME type="data">
+							<VALUE>2_EN_ACT_part1_v10.pdf</VALUE>
+						</STREAM_NAME>
+						<STREAM_ORDER type="data">
+							<VALUE>1</VALUE>
+						</STREAM_ORDER>
+						<STREAM_COMPOSITION_LEVEL type="data">
+							<VALUE>0</VALUE>
+						</STREAM_COMPOSITION_LEVEL>
+						<STREAM_SIZE type="data">
+							<VALUE>426714</VALUE>
+						</STREAM_SIZE>
+						<STREAM_LABEL type="data">
+							<VALUE>act</VALUE>
+						</STREAM_LABEL>
+					</TECHMD>
+					<BELONGS_TO type="link">
+						<URI>
+							<VALUE>http://publications.europa.eu/resource/cellar/fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.02</VALUE>
+							<IDENTIFIER>fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.02</IDENTIFIER>
+							<TYPE>cellar</TYPE>
+						</URI>
+						<SAMEAS>
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/immc/COM%282018%29340%20final.ENG.pdf</VALUE>
+								<IDENTIFIER>COM(2018)340 final.ENG.pdf</IDENTIFIER>
+								<TYPE>immc</TYPE>
+							</URI>
+						</SAMEAS>
+						<SAMEAS>
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/comnat/COM_2018_0340_FIN.ENG.pdf</VALUE>
+								<IDENTIFIER>COM_2018_0340_FIN.ENG.pdf</IDENTIFIER>
+								<TYPE>comnat</TYPE>
+							</URI>
+						</SAMEAS>
+					</BELONGS_TO>
+					<ITEM_BELONGS_TO_MANIFESTATION type="link">
+						<URI>
+							<VALUE>http://publications.europa.eu/resource/cellar/fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.02</VALUE>
+							<IDENTIFIER>fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.02</IDENTIFIER>
+							<TYPE>cellar</TYPE>
+						</URI>
+						<SAMEAS>
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/immc/COM%282018%29340%20final.ENG.pdf</VALUE>
+								<IDENTIFIER>COM(2018)340 final.ENG.pdf</IDENTIFIER>
+								<TYPE>immc</TYPE>
+							</URI>
+						</SAMEAS>
+						<SAMEAS>
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/comnat/COM_2018_0340_FIN.ENG.pdf</VALUE>
+								<IDENTIFIER>COM_2018_0340_FIN.ENG.pdf</IDENTIFIER>
+								<TYPE>comnat</TYPE>
+							</URI>
+						</SAMEAS>
+					</ITEM_BELONGS_TO_MANIFESTATION>
+					<IDENTIFIER type="data">
+						<VALUE>DOC_1</VALUE>
+					</IDENTIFIER>
+					<ITEM_IDENTIFIER type="data">
+						<VALUE>DOC_1</VALUE>
+					</ITEM_IDENTIFIER>
+				</ITEM>
+				<LASTMODIFICATIONDATE type="date">
+					<VALUE>2020-09-27T17:43:28.234+02:00</VALUE>
+					<YEAR>2020</YEAR>
+					<MONTH>09</MONTH>
+					<DAY>27</DAY>
+				</LASTMODIFICATIONDATE>
+				<TYPE>pdf</TYPE>
+			</MANIFESTATION>
+			<MANIFESTATION>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/cellar/fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.01</VALUE>
+					<IDENTIFIER>fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.01</IDENTIFIER>
+					<TYPE>cellar</TYPE>
+				</URI>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/immc/COM%282018%29340%20final.ENG.docx</VALUE>
+						<IDENTIFIER>COM(2018)340 final.ENG.docx</IDENTIFIER>
+						<TYPE>immc</TYPE>
+					</URI>
+				</SAMEAS>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/comnat/COM_2018_0340_FIN.ENG.docx</VALUE>
+						<IDENTIFIER>COM_2018_0340_FIN.ENG.docx</IDENTIFIER>
+						<TYPE>comnat</TYPE>
+					</URI>
+				</SAMEAS>
+				<TYPE type="type">cdm:manifestation</TYPE>
+				<LASTMODIFICATIONDATE type="date">
+					<VALUE>2020-09-27T17:43:28.234+02:00</VALUE>
+					<YEAR>2020</YEAR>
+					<MONTH>09</MONTH>
+					<DAY>27</DAY>
+				</LASTMODIFICATIONDATE>
+				<ITEM>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/cellar/fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.01/DOC_2</VALUE>
+						<IDENTIFIER>fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.01:DOC_2</IDENTIFIER>
+						<TYPE>cellar</TYPE>
+					</URI>
+					<SAMEAS>
+						<URI>
+							<VALUE>http://publications.europa.eu/resource/immc/COM%282018%29340%20final.ENG.docx.1_EN_annexe_proposition_part1_v8.docx</VALUE>
+							<IDENTIFIER>COM(2018)340 final.ENG.docx.1_EN_annexe_proposition_part1_v8.docx</IDENTIFIER>
+							<TYPE>immc</TYPE>
+						</URI>
+					</SAMEAS>
+					<SAMEAS>
+						<URI>
+							<VALUE>http://publications.europa.eu/resource/comnat/COM_2018_0340_FIN.ENG.docx.1_EN_annexe_proposition_part1_v8.docx</VALUE>
+							<IDENTIFIER>COM_2018_0340_FIN.ENG.docx.1_EN_annexe_proposition_part1_v8.docx</IDENTIFIER>
+							<TYPE>comnat</TYPE>
+						</URI>
+					</SAMEAS>
+					<TYPE type="type">cdm:item</TYPE>
+					<TECHMD>
+						<STREAM_NAME type="data">
+							<VALUE>1_EN_annexe_proposition_part1_v8.docx</VALUE>
+						</STREAM_NAME>
+						<STREAM_ORDER type="data">
+							<VALUE>2</VALUE>
+						</STREAM_ORDER>
+						<STREAM_LABEL type="data">
+							<VALUE>act</VALUE>
+						</STREAM_LABEL>
+						<STREAM_COMPOSITION_LEVEL type="data">
+							<VALUE>0</VALUE>
+						</STREAM_COMPOSITION_LEVEL>
+						<STREAM_SIZE type="data">
+							<VALUE>83220</VALUE>
+						</STREAM_SIZE>
+					</TECHMD>
+					<IDENTIFIER type="data">
+						<VALUE>DOC_2</VALUE>
+					</IDENTIFIER>
+					<ITEM_IDENTIFIER type="data">
+						<VALUE>DOC_2</VALUE>
+					</ITEM_IDENTIFIER>
+					<BELONGS_TO type="link">
+						<URI>
+							<VALUE>http://publications.europa.eu/resource/cellar/fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.01</VALUE>
+							<IDENTIFIER>fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.01</IDENTIFIER>
+							<TYPE>cellar</TYPE>
+						</URI>
+						<SAMEAS>
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/immc/COM%282018%29340%20final.ENG.docx</VALUE>
+								<IDENTIFIER>COM(2018)340 final.ENG.docx</IDENTIFIER>
+								<TYPE>immc</TYPE>
+							</URI>
+						</SAMEAS>
+						<SAMEAS>
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/comnat/COM_2018_0340_FIN.ENG.docx</VALUE>
+								<IDENTIFIER>COM_2018_0340_FIN.ENG.docx</IDENTIFIER>
+								<TYPE>comnat</TYPE>
+							</URI>
+						</SAMEAS>
+					</BELONGS_TO>
+					<ITEM_BELONGS_TO_MANIFESTATION type="link">
+						<URI>
+							<VALUE>http://publications.europa.eu/resource/cellar/fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.01</VALUE>
+							<IDENTIFIER>fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.01</IDENTIFIER>
+							<TYPE>cellar</TYPE>
+						</URI>
+						<SAMEAS>
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/immc/COM%282018%29340%20final.ENG.docx</VALUE>
+								<IDENTIFIER>COM(2018)340 final.ENG.docx</IDENTIFIER>
+								<TYPE>immc</TYPE>
+							</URI>
+						</SAMEAS>
+						<SAMEAS>
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/comnat/COM_2018_0340_FIN.ENG.docx</VALUE>
+								<IDENTIFIER>COM_2018_0340_FIN.ENG.docx</IDENTIFIER>
+								<TYPE>comnat</TYPE>
+							</URI>
+						</SAMEAS>
+					</ITEM_BELONGS_TO_MANIFESTATION>
+				</ITEM>
+				<MANIFESTATION_TYPE type="data">
+					<VALUE>docx</VALUE>
+				</MANIFESTATION_TYPE>
+				<CREATIONDATE type="date">
+					<VALUE>2018-05-28T11:03:29.778+02:00</VALUE>
+					<YEAR>2018</YEAR>
+					<MONTH>05</MONTH>
+					<DAY>28</DAY>
+				</CREATIONDATE>
+				<TYPE>docx</TYPE>
+				<ITEM>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/cellar/fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.01/DOC_1</VALUE>
+						<IDENTIFIER>fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.01:DOC_1</IDENTIFIER>
+						<TYPE>cellar</TYPE>
+					</URI>
+					<SAMEAS>
+						<URI>
+							<VALUE>http://publications.europa.eu/resource/immc/COM%282018%29340%20final.ENG.docx.2_EN_ACT_part1_v10.docx</VALUE>
+							<IDENTIFIER>COM(2018)340 final.ENG.docx.2_EN_ACT_part1_v10.docx</IDENTIFIER>
+							<TYPE>immc</TYPE>
+						</URI>
+					</SAMEAS>
+					<SAMEAS>
+						<URI>
+							<VALUE>http://publications.europa.eu/resource/comnat/COM_2018_0340_FIN.ENG.docx.2_EN_ACT_part1_v10.docx</VALUE>
+							<IDENTIFIER>COM_2018_0340_FIN.ENG.docx.2_EN_ACT_part1_v10.docx</IDENTIFIER>
+							<TYPE>comnat</TYPE>
+						</URI>
+					</SAMEAS>
+					<TYPE type="type">cdm:item</TYPE>
+					<TECHMD>
+						<STREAM_COMPOSITION_LEVEL type="data">
+							<VALUE>0</VALUE>
+						</STREAM_COMPOSITION_LEVEL>
+						<STREAM_LABEL type="data">
+							<VALUE>act</VALUE>
+						</STREAM_LABEL>
+						<STREAM_SIZE type="data">
+							<VALUE>130124</VALUE>
+						</STREAM_SIZE>
+						<STREAM_ORDER type="data">
+							<VALUE>1</VALUE>
+						</STREAM_ORDER>
+						<STREAM_NAME type="data">
+							<VALUE>2_EN_ACT_part1_v10.docx</VALUE>
+						</STREAM_NAME>
+					</TECHMD>
+					<ITEM_IDENTIFIER type="data">
+						<VALUE>DOC_1</VALUE>
+					</ITEM_IDENTIFIER>
+					<IDENTIFIER type="data">
+						<VALUE>DOC_1</VALUE>
+					</IDENTIFIER>
+					<ITEM_BELONGS_TO_MANIFESTATION type="link">
+						<URI>
+							<VALUE>http://publications.europa.eu/resource/cellar/fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.01</VALUE>
+							<IDENTIFIER>fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.01</IDENTIFIER>
+							<TYPE>cellar</TYPE>
+						</URI>
+						<SAMEAS>
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/immc/COM%282018%29340%20final.ENG.docx</VALUE>
+								<IDENTIFIER>COM(2018)340 final.ENG.docx</IDENTIFIER>
+								<TYPE>immc</TYPE>
+							</URI>
+						</SAMEAS>
+						<SAMEAS>
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/comnat/COM_2018_0340_FIN.ENG.docx</VALUE>
+								<IDENTIFIER>COM_2018_0340_FIN.ENG.docx</IDENTIFIER>
+								<TYPE>comnat</TYPE>
+							</URI>
+						</SAMEAS>
+					</ITEM_BELONGS_TO_MANIFESTATION>
+					<BELONGS_TO type="link">
+						<URI>
+							<VALUE>http://publications.europa.eu/resource/cellar/fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.01</VALUE>
+							<IDENTIFIER>fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.01</IDENTIFIER>
+							<TYPE>cellar</TYPE>
+						</URI>
+						<SAMEAS>
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/immc/COM%282018%29340%20final.ENG.docx</VALUE>
+								<IDENTIFIER>COM(2018)340 final.ENG.docx</IDENTIFIER>
+								<TYPE>immc</TYPE>
+							</URI>
+						</SAMEAS>
+						<SAMEAS>
+							<URI>
+								<VALUE>http://publications.europa.eu/resource/comnat/COM_2018_0340_FIN.ENG.docx</VALUE>
+								<IDENTIFIER>COM_2018_0340_FIN.ENG.docx</IDENTIFIER>
+								<TYPE>comnat</TYPE>
+							</URI>
+						</SAMEAS>
+					</BELONGS_TO>
+				</ITEM>
+			</MANIFESTATION>
+		</EXPRESSION>
+		<EXPRESSION display="false">
+			<URI>
+				<VALUE>http://publications.europa.eu/resource/cellar/fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0003</VALUE>
+				<IDENTIFIER>fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0003</IDENTIFIER>
+				<TYPE>cellar</TYPE>
+			</URI>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/immc/COM%282018%29340%20final.DEU</VALUE>
+					<IDENTIFIER>COM(2018)340 final.DEU</IDENTIFIER>
+					<TYPE>immc</TYPE>
+				</URI>
+			</SAMEAS>
+			<SAMEAS>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/comnat/COM_2018_0340_FIN.DEU</VALUE>
+					<IDENTIFIER>COM_2018_0340_FIN.DEU</IDENTIFIER>
+					<TYPE>comnat</TYPE>
+				</URI>
+			</SAMEAS>
+			<TYPE type="type">cdm:expression</TYPE>
+			<EXPRESSION_USES_LANGUAGE type="concept">
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/authority/language/DEU</VALUE>
+					<IDENTIFIER>DEU</IDENTIFIER>
+					<TYPE>language</TYPE>
+				</URI>
+				<OP-CODE>DEU</OP-CODE>
+				<IDENTIFIER>DEU</IDENTIFIER>
+				<PREFLABEL>German</PREFLABEL>
+			</EXPRESSION_USES_LANGUAGE>
+			<EXPRESSION_TITLE type="data">
+				<VALUE>Vorschlag für eine RICHTLINIE DES EUROPÄISCHEN PARLAMENTS UND DES RATES über die Verringerung der Auswirkungen bestimmter Kunststoffprodukte auf die Umwelt</VALUE>
+				<LANG>de</LANG>
+			</EXPRESSION_TITLE>
+			<MANIFESTATION>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/cellar/fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0003.02</VALUE>
+				</URI>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/immc/COM%282018%29340%20final.DEU.pdf</VALUE>
+						<IDENTIFIER>COM(2018)340 final.DEU.pdf</IDENTIFIER>
+						<TYPE>immc</TYPE>
+					</URI>
+				</SAMEAS>
+				<TYPE type="type">cdm:manifestation</TYPE>
+			</MANIFESTATION>
+			<MANIFESTATION>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/cellar/fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0003.01</VALUE>
+				</URI>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/immc/COM%282018%29340%20final.DEU.docx</VALUE>
+						<IDENTIFIER>COM(2018)340 final.DEU.docx</IDENTIFIER>
+						<TYPE>immc</TYPE>
+					</URI>
+				</SAMEAS>
+				<TYPE type="type">cdm:manifestation</TYPE>
+			</MANIFESTATION>
+			<MANIFESTATION>
+				<URI>
+					<VALUE>http://publications.europa.eu/resource/cellar/fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0003.03</VALUE>
+				</URI>
+				<SAMEAS>
+					<URI>
+						<VALUE>http://publications.europa.eu/resource/immc/COM%282018%29340%20final.DEU.xhtml</VALUE>
+						<IDENTIFIER>COM(2018)340 final.DEU.xhtml</IDENTIFIER>
+						<TYPE>immc</TYPE>
+					</URI>
+				</SAMEAS>
+				<TYPE type="type">cdm:manifestation</TYPE>
+			</MANIFESTATION>
+		</EXPRESSION>
+	</WORK>
+</NOTICE>
