@@ -123,6 +123,7 @@ It just gives the the identifiers of the target and occasional annotations on th
 					<xs:documentation xml:lang="en">literal value</xs:documentation>
 				</xs:annotation>
 			</xs:element>
+			<xs:element name="LANG" minOccurs="0"/>
 			<xs:element name="annotation_property" minOccurs="0" maxOccurs="unbounded">
 				<xs:annotation>
 					<xs:documentation>annotation_property is a dynamic assigned name (derived from the cdm ontology).
