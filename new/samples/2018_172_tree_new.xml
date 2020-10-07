@@ -125,7 +125,7 @@
 			<LANG>de</LANG>
 		</DOSSIER_TITLE>
 		<DOSSIER_INITIATED_BY_ACT_PREPARATORY type="link">
-			<EMBEDDED_NOTICE>
+			 
 				<WORK>
 					<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_level">
 						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_4 type="concept">
@@ -766,7 +766,7 @@
 						<VALUE>xhtml</VALUE>
 					</MANIFESTATION_TYPE>
 				</MANIFESTATION>
-			</EMBEDDED_NOTICE>
+			 
 			<URI>
 				<VALUE>http://publications.europa.eu/resource/cellar/fc5c74e0-6255-11e8-ab9c-01aa75ed71a1</VALUE>
 				<IDENTIFIER>fc5c74e0-6255-11e8-ab9c-01aa75ed71a1</IDENTIFIER>
@@ -2418,7 +2418,7 @@
 				</SAMEAS>
 			</CONTAINS>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<WORK_DATE_DOCUMENT type="date">
 							<VALUE>2019-05-08</VALUE>
@@ -2497,7 +2497,7 @@
 							<VALUE>pdf</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/80391618-71a8-11e9-9f05-01aa75ed71a1</VALUE>
 					<IDENTIFIER>80391618-71a8-11e9-9f05-01aa75ed71a1</IDENTIFIER>
@@ -2547,7 +2547,7 @@
 				<DAY>08</DAY>
 			</DATE>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<WORK_DATE_DOCUMENT type="date">
 							<VALUE>2019-05-08</VALUE>
@@ -2626,7 +2626,7 @@
 							<VALUE>pdf</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/80391618-71a8-11e9-9f05-01aa75ed71a1</VALUE>
 					<IDENTIFIER>80391618-71a8-11e9-9f05-01aa75ed71a1</IDENTIFIER>
@@ -2738,7 +2738,7 @@
 				<DAY>10</DAY>
 			</DATE>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<WORK_HAS_RESOURCE-TYPE type="concept">
 							<URI>
@@ -2817,7 +2817,7 @@
 							<VALUE>pdf</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/1297b808-7333-11e9-9f05-01aa75ed71a1</VALUE>
 					<IDENTIFIER>1297b808-7333-11e9-9f05-01aa75ed71a1</IDENTIFIER>
@@ -2894,7 +2894,7 @@
 				<DAY>10</DAY>
 			</CREATIONDATE>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<WORK_DATE_DOCUMENT type="date">
 							<VALUE>2019-05-10</VALUE>
@@ -2973,7 +2973,7 @@
 							<VALUE>pdf</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/43aa8e8d-7336-11e9-9f05-01aa75ed71a1</VALUE>
 					<IDENTIFIER>43aa8e8d-7336-11e9-9f05-01aa75ed71a1</IDENTIFIER>
@@ -3007,7 +3007,7 @@
 				<DAY>10</DAY>
 			</EVENT_LEGAL_DATE>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<WORK_DATE_DOCUMENT type="date">
 							<VALUE>2019-05-10</VALUE>
@@ -3086,7 +3086,7 @@
 							<VALUE>pdf</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/43aa8e8d-7336-11e9-9f05-01aa75ed71a1</VALUE>
 					<IDENTIFIER>43aa8e8d-7336-11e9-9f05-01aa75ed71a1</IDENTIFIER>
@@ -3129,7 +3129,7 @@
 				</SAMEAS>
 			</CONTAINS>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<WORK_HAS_RESOURCE-TYPE type="concept">
 							<URI>
@@ -3208,7 +3208,7 @@
 							<VALUE>pdf</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/1297b808-7333-11e9-9f05-01aa75ed71a1</VALUE>
 					<IDENTIFIER>1297b808-7333-11e9-9f05-01aa75ed71a1</IDENTIFIER>
@@ -3387,7 +3387,7 @@
 				<DAY>28</DAY>
 			</EVENT_LEGAL_DATE>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
 							<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
@@ -4028,7 +4028,7 @@
 							<VALUE>xhtml</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/4d0542a2-6256-11e8-ab9c-01aa75ed71a1</VALUE>
 					<IDENTIFIER>4d0542a2-6256-11e8-ab9c-01aa75ed71a1</IDENTIFIER>
@@ -4181,7 +4181,7 @@
 				<VALUE>TFEU/art 294</VALUE>
 			</EVENT_LEGAL_BASIS_LEGAL>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_level">
 							<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_4 type="concept">
@@ -4822,7 +4822,7 @@
 							<VALUE>xhtml</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/fc5c74e0-6255-11e8-ab9c-01aa75ed71a1</VALUE>
 					<IDENTIFIER>fc5c74e0-6255-11e8-ab9c-01aa75ed71a1</IDENTIFIER>
@@ -4942,7 +4942,7 @@
 				<VALUE>TFEU/art 192 par 1</VALUE>
 			</BASIS_LEGAL>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_level">
 							<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_4 type="concept">
@@ -5583,7 +5583,7 @@
 							<VALUE>xhtml</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/daba6bc3-6256-11e8-ab9c-01aa75ed71a1</VALUE>
 					<IDENTIFIER>daba6bc3-6256-11e8-ab9c-01aa75ed71a1</IDENTIFIER>
@@ -5664,7 +5664,7 @@
 				</SAMEAS>
 			</EVENT_LEGAL_RESPONSIBILITY_OF_PERSON>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
 							<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
@@ -6305,7 +6305,7 @@
 							<VALUE>xhtml</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/240d5355-6257-11e8-ab9c-01aa75ed71a1</VALUE>
 					<IDENTIFIER>240d5355-6257-11e8-ab9c-01aa75ed71a1</IDENTIFIER>
@@ -6334,7 +6334,7 @@
 				</SAMEAS>
 			</EVENT_LEGAL_CONTAINS_WORK>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
 							<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
@@ -6975,7 +6975,7 @@
 							<VALUE>xhtml</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/18b36681-6256-11e8-ab9c-01aa75ed71a1</VALUE>
 					<IDENTIFIER>18b36681-6256-11e8-ab9c-01aa75ed71a1</IDENTIFIER>
@@ -7060,7 +7060,7 @@
 				</SAMEAS>
 			</CONTAINS>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
 							<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
@@ -7701,7 +7701,7 @@
 							<VALUE>xhtml</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/4d0542a2-6256-11e8-ab9c-01aa75ed71a1</VALUE>
 					<IDENTIFIER>4d0542a2-6256-11e8-ab9c-01aa75ed71a1</IDENTIFIER>
@@ -7758,7 +7758,7 @@
 				</SAMEAS>
 			</CONTAINS>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_level">
 							<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_4 type="concept">
@@ -8399,7 +8399,7 @@
 							<VALUE>xhtml</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/daba6bc3-6256-11e8-ab9c-01aa75ed71a1</VALUE>
 					<IDENTIFIER>daba6bc3-6256-11e8-ab9c-01aa75ed71a1</IDENTIFIER>
@@ -8484,7 +8484,7 @@
 				</SAMEAS>
 			</CONTAINS>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_level">
 							<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_4 type="concept">
@@ -9125,7 +9125,7 @@
 							<VALUE>xhtml</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/fc5c74e0-6255-11e8-ab9c-01aa75ed71a1</VALUE>
 					<IDENTIFIER>fc5c74e0-6255-11e8-ab9c-01aa75ed71a1</IDENTIFIER>
@@ -9154,7 +9154,7 @@
 				</SAMEAS>
 			</EVENT_LEGAL_CONTAINS_WORK>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
 							<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
@@ -9795,7 +9795,7 @@
 							<VALUE>xhtml</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/18b36681-6256-11e8-ab9c-01aa75ed71a1</VALUE>
 					<IDENTIFIER>18b36681-6256-11e8-ab9c-01aa75ed71a1</IDENTIFIER>
@@ -9824,7 +9824,7 @@
 				</SAMEAS>
 			</EVENT_LEGAL_CONTAINS_WORK>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
 							<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
@@ -10465,7 +10465,7 @@
 							<VALUE>xhtml</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/240d5355-6257-11e8-ab9c-01aa75ed71a1</VALUE>
 					<IDENTIFIER>240d5355-6257-11e8-ab9c-01aa75ed71a1</IDENTIFIER>
@@ -10531,7 +10531,7 @@
 				<ALTLABEL>EP position at 1st rdg</ALTLABEL>
 			</EVENT_LEGAL_HAS_TYPE_CONCEPT_TYPE_EVENT_LEGAL>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_level">
 							<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1 type="concept">
@@ -11242,7 +11242,7 @@
 							<VALUE>http://www.europarl.europa.eu/RegistreWeb/search/getDocument.htm?reference=P8_TA-PROV(2019)0305&amp;fragment=FULL&amp;language=EN</VALUE>
 						</MANIFESTATION_URI>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/5136acfd-56ce-11e9-a8ed-01aa75ed71a1</VALUE>
 					<IDENTIFIER>5136acfd-56ce-11e9-a8ed-01aa75ed71a1</IDENTIFIER>
@@ -11355,7 +11355,7 @@
 				</SAMEAS>
 			</CONTAINS>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_level">
 							<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1 type="concept">
@@ -12066,7 +12066,7 @@
 							<VALUE>http://www.europarl.europa.eu/RegistreWeb/search/getDocument.htm?reference=P8_TA-PROV(2019)0305&amp;fragment=FULL&amp;language=EN</VALUE>
 						</MANIFESTATION_URI>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/5136acfd-56ce-11e9-a8ed-01aa75ed71a1</VALUE>
 					<IDENTIFIER>5136acfd-56ce-11e9-a8ed-01aa75ed71a1</IDENTIFIER>
@@ -12088,7 +12088,7 @@
 				</SAMEAS>
 			</EVENT_LEGAL_CONTAINS_WORK>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
 							<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
@@ -12750,7 +12750,7 @@
 							<VALUE>URI</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/b600d499-56ce-11e9-a8ed-01aa75ed71a1</VALUE>
 					<IDENTIFIER>b600d499-56ce-11e9-a8ed-01aa75ed71a1</IDENTIFIER>
@@ -12793,7 +12793,7 @@
 				</SAMEAS>
 			</CONTAINS>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
 							<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
@@ -13484,7 +13484,7 @@
 							<VALUE>URI</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/847c7054-56ce-11e9-a8ed-01aa75ed71a1</VALUE>
 					<IDENTIFIER>847c7054-56ce-11e9-a8ed-01aa75ed71a1</IDENTIFIER>
@@ -13506,7 +13506,7 @@
 				</SAMEAS>
 			</EVENT_LEGAL_CONTAINS_WORK>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<OPINION_EP_REPORTED_BY_AGENT type="concept">
 							<URI>
@@ -13600,7 +13600,7 @@
 							<VALUE>http://www.europarl.europa.eu/RegistreWeb/search/getDocument.htm?reference=ECON_AD(2018)625356&amp;fragment=FULL&amp;language=EN</VALUE>
 						</MANIFESTATION_URI>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/9d7e4387-56ce-11e9-a8ed-01aa75ed71a1</VALUE>
 					<IDENTIFIER>9d7e4387-56ce-11e9-a8ed-01aa75ed71a1</IDENTIFIER>
@@ -13706,7 +13706,7 @@
 				</SAMEAS>
 			</CONTAINS>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
 							<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
@@ -14447,7 +14447,7 @@
 							<VALUE>URI</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/6af6ee31-56ce-11e9-a8ed-01aa75ed71a1</VALUE>
 					<IDENTIFIER>6af6ee31-56ce-11e9-a8ed-01aa75ed71a1</IDENTIFIER>
@@ -14469,7 +14469,7 @@
 				</SAMEAS>
 			</EVENT_LEGAL_CONTAINS_WORK>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<RESOURCE_LEGAL_YEAR type="data">
 							<VALUE>2018</VALUE>
@@ -15116,7 +15116,7 @@
 							<VALUE>URI</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/cf9746ab-56ce-11e9-a8ed-01aa75ed71a1</VALUE>
 					<IDENTIFIER>cf9746ab-56ce-11e9-a8ed-01aa75ed71a1</IDENTIFIER>
@@ -15161,7 +15161,7 @@
 				
 			</EVENT_LEGAL_BASED_ON_RESOURCE_LEGAL>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<OPINION_EP_REPORTED_BY_AGENT type="concept">
 							<URI>
@@ -15255,7 +15255,7 @@
 							<VALUE>http://www.europarl.europa.eu/RegistreWeb/search/getDocument.htm?reference=ECON_AD(2018)625356&amp;fragment=FULL&amp;language=EN</VALUE>
 						</MANIFESTATION_URI>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/9d7e4387-56ce-11e9-a8ed-01aa75ed71a1</VALUE>
 					<IDENTIFIER>9d7e4387-56ce-11e9-a8ed-01aa75ed71a1</IDENTIFIER>
@@ -15322,7 +15322,7 @@
 				</SAMEAS>
 			</CONTAINS>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
 							<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
@@ -16063,7 +16063,7 @@
 							<VALUE>URI</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/6af6ee31-56ce-11e9-a8ed-01aa75ed71a1</VALUE>
 					<IDENTIFIER>6af6ee31-56ce-11e9-a8ed-01aa75ed71a1</IDENTIFIER>
@@ -16111,7 +16111,7 @@
 				</SAMEAS>
 			</EVENT_LEGAL_PART_OF_DOSSIER>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
 							<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
@@ -16802,7 +16802,7 @@
 							<VALUE>URI</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/847c7054-56ce-11e9-a8ed-01aa75ed71a1</VALUE>
 					<IDENTIFIER>847c7054-56ce-11e9-a8ed-01aa75ed71a1</IDENTIFIER>
@@ -16884,7 +16884,7 @@
 				<DAY>27</DAY>
 			</DATE>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<RESOURCE_LEGAL_YEAR type="data">
 							<VALUE>2018</VALUE>
@@ -17531,7 +17531,7 @@
 							<VALUE>URI</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/cf9746ab-56ce-11e9-a8ed-01aa75ed71a1</VALUE>
 					<IDENTIFIER>cf9746ab-56ce-11e9-a8ed-01aa75ed71a1</IDENTIFIER>
@@ -17588,7 +17588,7 @@
 				</SAMEAS>
 			</CONTAINS>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
 							<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
@@ -18250,7 +18250,7 @@
 							<VALUE>URI</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/b600d499-56ce-11e9-a8ed-01aa75ed71a1</VALUE>
 					<IDENTIFIER>b600d499-56ce-11e9-a8ed-01aa75ed71a1</IDENTIFIER>
@@ -18443,7 +18443,7 @@
 				</SAMEAS>
 			</EVENT_LEGAL_PART_OF_DOSSIER>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
 							<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
@@ -19107,7 +19107,7 @@
 							<VALUE>xhtml</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/ab83570c-8cc8-11e9-9369-01aa75ed71a1</VALUE>
 					<IDENTIFIER>ab83570c-8cc8-11e9-9369-01aa75ed71a1</IDENTIFIER>
@@ -19164,7 +19164,7 @@
 				</SAMEAS>
 			</CONTAINS>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
 							<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
@@ -19828,7 +19828,7 @@
 							<VALUE>xhtml</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/ab83570c-8cc8-11e9-9369-01aa75ed71a1</VALUE>
 					<IDENTIFIER>ab83570c-8cc8-11e9-9369-01aa75ed71a1</IDENTIFIER>
@@ -19939,7 +19939,7 @@
 				<DAY>24</DAY>
 			</EVENT_LEGAL_DATE>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<WORK_DATE_DOCUMENT type="date">
 							<VALUE>2018-07-24</VALUE>
@@ -20018,7 +20018,7 @@
 							<VALUE>pdf</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/b265e616-8f53-11e8-8bc1-01aa75ed71a1</VALUE>
 					<IDENTIFIER>b265e616-8f53-11e8-8bc1-01aa75ed71a1</IDENTIFIER>
@@ -20091,7 +20091,7 @@
 				</SAMEAS>
 			</CONTAINS>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<WORK_DATE_DOCUMENT type="date">
 							<VALUE>2018-07-24</VALUE>
@@ -20170,7 +20170,7 @@
 							<VALUE>pdf</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/b265e616-8f53-11e8-8bc1-01aa75ed71a1</VALUE>
 					<IDENTIFIER>b265e616-8f53-11e8-8bc1-01aa75ed71a1</IDENTIFIER>
@@ -20304,7 +20304,7 @@
 				</SAMEAS>
 			</CONTAINS>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<WORK_HAS_RESOURCE-TYPE type="concept">
 							<URI>
@@ -20383,7 +20383,7 @@
 							<VALUE>pdf</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/494afc92-d12b-11e8-9424-01aa75ed71a1</VALUE>
 					<IDENTIFIER>494afc92-d12b-11e8-9424-01aa75ed71a1</IDENTIFIER>
@@ -20426,7 +20426,7 @@
 				</SAMEAS>
 			</CONTAINS>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<WORK_HAS_RESOURCE-TYPE type="concept">
 							<URI>
@@ -20505,7 +20505,7 @@
 							<VALUE>pdf</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/494afc92-d12b-11e8-9424-01aa75ed71a1</VALUE>
 					<IDENTIFIER>494afc92-d12b-11e8-9424-01aa75ed71a1</IDENTIFIER>
@@ -20560,7 +20560,7 @@
 				<DAY>29</DAY>
 			</DATE>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<WORK_DATE_DOCUMENT type="date">
 							<VALUE>2018-05-29</VALUE>
@@ -20640,7 +20640,7 @@
 							<VALUE>pdf</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/059679b8-6349-11e8-ab9c-01aa75ed71a1</VALUE>
 					<IDENTIFIER>059679b8-6349-11e8-ab9c-01aa75ed71a1</IDENTIFIER>
@@ -20689,7 +20689,7 @@
 				</SAMEAS>
 			</CONTAINS>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<ID_SECTOR type="data">
 							<VALUE>5</VALUE>
@@ -20769,7 +20769,7 @@
 							<VALUE>pdf</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/4224dd67-6347-11e8-ab9c-01aa75ed71a1</VALUE>
 					<IDENTIFIER>4224dd67-6347-11e8-ab9c-01aa75ed71a1</IDENTIFIER>
@@ -20812,7 +20812,7 @@
 				</SAMEAS>
 			</CONTAINS>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<RESOURCE_LEGAL_YEAR type="data">
 							<VALUE>2018</VALUE>
@@ -20892,7 +20892,7 @@
 							<VALUE>pdf</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/cac4be4f-6343-11e8-ab9c-01aa75ed71a1</VALUE>
 					<IDENTIFIER>cac4be4f-6343-11e8-ab9c-01aa75ed71a1</IDENTIFIER>
@@ -20979,7 +20979,7 @@
 				<ALTLABEL>Council of the European Communities</ALTLABEL>
 			</EVENT_LEGAL_INITIATED_BY_INSTITUTION>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<WORK_DATE_DOCUMENT type="date">
 							<VALUE>2018-05-29</VALUE>
@@ -21059,7 +21059,7 @@
 							<VALUE>pdf</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/dc61f69a-6349-11e8-ab9c-01aa75ed71a1</VALUE>
 					<IDENTIFIER>dc61f69a-6349-11e8-ab9c-01aa75ed71a1</IDENTIFIER>
@@ -21102,7 +21102,7 @@
 				</SAMEAS>
 			</CONTAINS>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<RESOURCE_LEGAL_NUMBER_NATURAL_CELEX type="data">
 							<VALUE>9465</VALUE>
@@ -21182,7 +21182,7 @@
 							<VALUE>pdf</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/8f99fa9c-634b-11e8-ab9c-01aa75ed71a1</VALUE>
 					<IDENTIFIER>8f99fa9c-634b-11e8-ab9c-01aa75ed71a1</IDENTIFIER>
@@ -21207,7 +21207,7 @@
 				<VALUE>ST 9465 2018 ADD 5</VALUE>
 			</EVENT_LEGAL_DOCUMENT_REFERENCE>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<RESOURCE_LEGAL_NUMBER_NATURAL_CELEX type="data">
 							<VALUE>9465</VALUE>
@@ -21287,7 +21287,7 @@
 							<VALUE>pdf</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/fb7191d3-6344-11e8-ab9c-01aa75ed71a1</VALUE>
 					<IDENTIFIER>fb7191d3-6344-11e8-ab9c-01aa75ed71a1</IDENTIFIER>
@@ -21386,7 +21386,7 @@
 				</SAMEAS>
 			</CONTAINS>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<WORK_DATE_DOCUMENT type="date">
 							<VALUE>2018-05-29</VALUE>
@@ -21466,7 +21466,7 @@
 							<VALUE>pdf</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/bc1b85db-634a-11e8-ab9c-01aa75ed71a1</VALUE>
 					<IDENTIFIER>bc1b85db-634a-11e8-ab9c-01aa75ed71a1</IDENTIFIER>
@@ -21515,7 +21515,7 @@
 				</SAMEAS>
 			</CONTAINS>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<RESOURCE_LEGAL_NUMBER_NATURAL_CELEX type="data">
 							<VALUE>9465</VALUE>
@@ -21595,7 +21595,7 @@
 							<VALUE>pdf</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/09065375-6346-11e8-ab9c-01aa75ed71a1</VALUE>
 					<IDENTIFIER>09065375-6346-11e8-ab9c-01aa75ed71a1</IDENTIFIER>
@@ -21617,7 +21617,7 @@
 				</SAMEAS>
 			</EVENT_LEGAL_CONTAINS_WORK>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<RESOURCE_LEGAL_YEAR type="data">
 							<VALUE>2018</VALUE>
@@ -21697,7 +21697,7 @@
 							<VALUE>pdf</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/cac4be4f-6343-11e8-ab9c-01aa75ed71a1</VALUE>
 					<IDENTIFIER>cac4be4f-6343-11e8-ab9c-01aa75ed71a1</IDENTIFIER>
@@ -21740,7 +21740,7 @@
 				</SAMEAS>
 			</CONTAINS>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<WORK_DATE_DOCUMENT type="date">
 							<VALUE>2018-05-29</VALUE>
@@ -21820,7 +21820,7 @@
 							<VALUE>pdf</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/dc61f69a-6349-11e8-ab9c-01aa75ed71a1</VALUE>
 					<IDENTIFIER>dc61f69a-6349-11e8-ab9c-01aa75ed71a1</IDENTIFIER>
@@ -21863,7 +21863,7 @@
 				</SAMEAS>
 			</CONTAINS>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<WORK_DATE_DOCUMENT type="date">
 							<VALUE>2018-05-29</VALUE>
@@ -21943,7 +21943,7 @@
 							<VALUE>pdf</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/059679b8-6349-11e8-ab9c-01aa75ed71a1</VALUE>
 					<IDENTIFIER>059679b8-6349-11e8-ab9c-01aa75ed71a1</IDENTIFIER>
@@ -21986,7 +21986,7 @@
 				</SAMEAS>
 			</CONTAINS>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<WORK_DATE_DOCUMENT type="date">
 							<VALUE>2018-05-29</VALUE>
@@ -22066,7 +22066,7 @@
 							<VALUE>pdf</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/bc1b85db-634a-11e8-ab9c-01aa75ed71a1</VALUE>
 					<IDENTIFIER>bc1b85db-634a-11e8-ab9c-01aa75ed71a1</IDENTIFIER>
@@ -22088,7 +22088,7 @@
 				</SAMEAS>
 			</EVENT_LEGAL_CONTAINS_WORK>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<RESOURCE_LEGAL_NUMBER_NATURAL_CELEX type="data">
 							<VALUE>9465</VALUE>
@@ -22168,7 +22168,7 @@
 							<VALUE>pdf</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/8f99fa9c-634b-11e8-ab9c-01aa75ed71a1</VALUE>
 					<IDENTIFIER>8f99fa9c-634b-11e8-ab9c-01aa75ed71a1</IDENTIFIER>
@@ -22211,7 +22211,7 @@
 				</SAMEAS>
 			</CONTAINS>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<RESOURCE_LEGAL_NUMBER_NATURAL_CELEX type="data">
 							<VALUE>9465</VALUE>
@@ -22291,7 +22291,7 @@
 							<VALUE>pdf</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/fb7191d3-6344-11e8-ab9c-01aa75ed71a1</VALUE>
 					<IDENTIFIER>fb7191d3-6344-11e8-ab9c-01aa75ed71a1</IDENTIFIER>
@@ -22355,7 +22355,7 @@
 				</SAMEAS>
 			</CONTAINS>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<ID_SECTOR type="data">
 							<VALUE>5</VALUE>
@@ -22435,7 +22435,7 @@
 							<VALUE>pdf</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/4224dd67-6347-11e8-ab9c-01aa75ed71a1</VALUE>
 					<IDENTIFIER>4224dd67-6347-11e8-ab9c-01aa75ed71a1</IDENTIFIER>
@@ -22478,7 +22478,7 @@
 				</SAMEAS>
 			</CONTAINS>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<RESOURCE_LEGAL_NUMBER_NATURAL_CELEX type="data">
 							<VALUE>9465</VALUE>
@@ -22558,7 +22558,7 @@
 							<VALUE>pdf</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/09065375-6346-11e8-ab9c-01aa75ed71a1</VALUE>
 					<IDENTIFIER>09065375-6346-11e8-ab9c-01aa75ed71a1</IDENTIFIER>
@@ -22635,7 +22635,7 @@
 				<ALTLABEL>Council approval 1st rdg</ALTLABEL>
 			</EVENT_LEGAL_HAS_TYPE_CONCEPT_TYPE_EVENT_LEGAL>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<RESOURCE_LEGAL_YEAR type="data">
 							<VALUE>2019</VALUE>
@@ -22716,7 +22716,7 @@
 							<VALUE>pdf</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/9968491c-7ca4-11e9-9f05-01aa75ed71a1</VALUE>
 					<IDENTIFIER>9968491c-7ca4-11e9-9f05-01aa75ed71a1</IDENTIFIER>
@@ -22831,7 +22831,7 @@
 				</SAMEAS>
 			</CONTAINS>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<RESOURCE_LEGAL_YEAR type="data">
 							<VALUE>2019</VALUE>
@@ -22912,7 +22912,7 @@
 							<VALUE>pdf</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/9968491c-7ca4-11e9-9f05-01aa75ed71a1</VALUE>
 					<IDENTIFIER>9968491c-7ca4-11e9-9f05-01aa75ed71a1</IDENTIFIER>
@@ -22999,7 +22999,7 @@
 				<DAY>30</DAY>
 			</DATE>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<RESOURCE_LEGAL_YEAR type="data">
 							<VALUE>2018</VALUE>
@@ -23079,7 +23079,7 @@
 							<VALUE>pdf</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/2cfd7fce-641d-11e8-ab9c-01aa75ed71a1</VALUE>
 					<IDENTIFIER>2cfd7fce-641d-11e8-ab9c-01aa75ed71a1</IDENTIFIER>
@@ -23162,7 +23162,7 @@
 				</SAMEAS>
 			</CONTAINS>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<RESOURCE_LEGAL_YEAR type="data">
 							<VALUE>2018</VALUE>
@@ -23242,7 +23242,7 @@
 							<VALUE>pdf</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/2cfd7fce-641d-11e8-ab9c-01aa75ed71a1</VALUE>
 					<IDENTIFIER>2cfd7fce-641d-11e8-ab9c-01aa75ed71a1</IDENTIFIER>
@@ -23400,7 +23400,7 @@
 				<ALTLABEL>EP</ALTLABEL>
 			</EVENT_LEGAL_INITIATED_BY_INSTITUTION>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<RESOURCE_LEGAL_YEAR type="data">
 							<VALUE>2019</VALUE>
@@ -23479,7 +23479,7 @@
 							<VALUE>pdf</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/555f354e-8843-11e9-9369-01aa75ed71a1</VALUE>
 					<IDENTIFIER>555f354e-8843-11e9-9369-01aa75ed71a1</IDENTIFIER>
@@ -23553,7 +23553,7 @@
 				</SAMEAS>
 			</CONTAINS>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<RESOURCE_LEGAL_YEAR type="data">
 							<VALUE>2019</VALUE>
@@ -23632,7 +23632,7 @@
 							<VALUE>pdf</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/555f354e-8843-11e9-9369-01aa75ed71a1</VALUE>
 					<IDENTIFIER>555f354e-8843-11e9-9369-01aa75ed71a1</IDENTIFIER>
@@ -23808,7 +23808,7 @@
 				</SAMEAS>
 			</CONTAINS>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<RESOURCE_LEGAL_YEAR type="data">
 							<VALUE>2019</VALUE>
@@ -23889,7 +23889,7 @@
 							<VALUE>pdf</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/b6ef81f5-1b1a-11e9-8d04-01aa75ed71a1</VALUE>
 					<IDENTIFIER>b6ef81f5-1b1a-11e9-8d04-01aa75ed71a1</IDENTIFIER>
@@ -23911,7 +23911,7 @@
 				</SAMEAS>
 			</EVENT_LEGAL_CONTAINS_WORK>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<RESOURCE_LEGAL_YEAR type="data">
 							<VALUE>2019</VALUE>
@@ -23992,7 +23992,7 @@
 							<VALUE>pdf</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/b6ef81f5-1b1a-11e9-8d04-01aa75ed71a1</VALUE>
 					<IDENTIFIER>b6ef81f5-1b1a-11e9-8d04-01aa75ed71a1</IDENTIFIER>
@@ -24086,7 +24086,7 @@
 				<DAY>27</DAY>
 			</LASTMODIFICATIONDATE>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<RESOURCE_LEGAL_YEAR type="data">
 							<VALUE>2019</VALUE>
@@ -24165,7 +24165,7 @@
 							<VALUE>pdf</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/d613fdfa-555b-11e9-a8ed-01aa75ed71a1</VALUE>
 					<IDENTIFIER>d613fdfa-555b-11e9-a8ed-01aa75ed71a1</IDENTIFIER>
@@ -24231,7 +24231,7 @@
 				</SAMEAS>
 			</CONTAINS>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<RESOURCE_LEGAL_YEAR type="data">
 							<VALUE>2019</VALUE>
@@ -24310,7 +24310,7 @@
 							<VALUE>pdf</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/d613fdfa-555b-11e9-a8ed-01aa75ed71a1</VALUE>
 					<IDENTIFIER>d613fdfa-555b-11e9-a8ed-01aa75ed71a1</IDENTIFIER>
@@ -24523,7 +24523,7 @@
 				<DAY>08</DAY>
 			</EVENT_SESSION_DATE_START>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_level">
 							<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_4 type="concept">
@@ -25185,7 +25185,7 @@
 							<VALUE>xhtml</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/ebbe9489-04e8-11e9-adde-01aa75ed71a1</VALUE>
 					<IDENTIFIER>ebbe9489-04e8-11e9-adde-01aa75ed71a1</IDENTIFIER>
@@ -25282,7 +25282,7 @@
 				</SAMEAS>
 			</EVENT_LEGAL_REPORTED_BY_PERSON>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
-				<EMBEDDED_NOTICE>
+				 
 					<WORK>
 						<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_level">
 							<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1 type="concept">
@@ -25902,7 +25902,7 @@
 							<VALUE>xhtml</VALUE>
 						</MANIFESTATION_TYPE>
 					</MANIFESTATION>
-				</EMBEDDED_NOTICE>
+				 
 				<URI>
 					<VALUE>http://publications.europa.eu/resource/cellar/eca1b3ec-30fd-11e9-8d04-01aa75ed71a1</VALUE>
 					<IDENTIFIER>eca1b3ec-30fd-11e9-8d04-01aa75ed71a1</IDENTIFIER>
