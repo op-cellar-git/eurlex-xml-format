@@ -13,10 +13,14 @@
 		</xsl:element>
 	</xsl:template>
 	
-	<!--<xsl:template match="*[@type='link']/*/TYPE[@type='type']">
-		<xsl:comment>XXX</xsl:comment>
-	</xsl:template>-->
+	<xsl:template match="TYPE[not(boolean(./@type)) and starts-with(.,'cdm:') and boolean(../../@type='link')]"/>
 	
+	<xsl:template match="ANNOTATION">
+		<xsl:comment>XXX</xsl:comment>
+		<xsl:apply-templates select="*" mode="annotation"/>
+	</xsl:template>
+	
+
 	<xsl:template match="WORK_IS_ABOUT_CONCEPT_EUROVOC[@type='concept_facet']">
 		<xsl:element name="WORK_IS_ABOUT_CONCEPT_EUROVOC">
 			<xsl:attribute name="type">concept_hierarchy</xsl:attribute>
@@ -74,6 +78,18 @@
 			<xsl:attribute name="path">1</xsl:attribute>
 			<xsl:attribute name="level" select="$suffix"/>
 			<xsl:apply-templates select="node()"/>
+		</xsl:element>
+	</xsl:template>
+	
+	<xsl:template match="*" mode="annotation">
+		<xsl:variable name="annotation_element" select="local-name()"/>
+		<xsl:variable name="annotation_value" select="."/>
+		<xsl:element name="{$annotation_element}">
+			<xsl:attribute name="type">annotation</xsl:attribute>
+			<xsl:element name="VALUE">
+				<xsl:value-of select="$annotation_value"/>
+			</xsl:element>
+			<!--<xsl:apply-templates select="node()"/>-->
 		</xsl:element>
 	</xsl:template>
 </xsl:stylesheet>
