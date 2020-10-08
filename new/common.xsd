@@ -189,19 +189,7 @@ The name of the element is dynamic and is replaced by the metadata property name
 					</xs:restriction>
 				</xs:simpleType>
 			</xs:element>
-			<xs:element name="annotation_property" minOccurs="0" maxOccurs="unbounded">
-				<xs:annotation>
-					<xs:documentation>annotation_property is a dynamic assigned name (derived from the cdm ontology).
-it's value is a string value.</xs:documentation>
-				</xs:annotation>
-				<xs:complexType>
-					<xs:simpleContent>
-						<xs:extension base="xs:string">
-							<xs:attribute ref="type" use="required" fixed="annotation"/>
-						</xs:extension>
-					</xs:simpleContent>
-				</xs:complexType>
-			</xs:element>
+			<xs:element ref="annotation_property" minOccurs="0" maxOccurs="unbounded"/>
 		</xs:sequence>
 		<xs:attribute ref="type" use="required" fixed="date">
 			<xs:annotation>
