@@ -1,52 +1,10 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema",
-    "$id": "http://example.com/example.json",
+    "$id": "https://raw.githubusercontent.com/op-cellar-git/eurlex-xml-format/master/new/filtering_rules/json_schema/schema_rules.json",
     "type": "object",
-    "title": "The root schema",
-    "description": "The root schema comprises the entire JSON document.",
+    "title": "The schema for the embedding rules",
+    "description": "The fields have been documented in the README.md: https://raw.githubusercontent.com/op-cellar-git/eurlex-xml-format/master/new/filtering_rules/README.md",
     "default": {},
-    "examples": [
-        {
-            "rules": [
-                {
-                    "propety": "cdm:resource_legal_based_on_concept_treaty",
-                    "annotations": {
-                        "to_expand": false,
-                        "in_embedded_notice": true,
-                        "to_be_indexed": true,
-                        "is_concept_hierarchy": true
-                    }
-                },
-                {
-                    "propety": "cdm:resource_legal_published_in_official-journal",
-                    "annotations": {
-                        "to_expand": true,
-                        "in_embedded_notice": true,
-                        "to_be_indexed": true,
-                        "is_concept_hierarchy": false
-                    }
-                },
-                {
-                    "propety": "cdm:work_created_by_agent",
-                    "annotations": {
-                        "to_expand": true,
-                        "in_embedded_notice": true,
-                        "to_be_indexed": true,
-                        "is_concept_hierarchy": false
-                    }
-                },
-                {
-                    "propety": "cdm:work_id_obsolete_notice",
-                    "annotations": {
-                        "to_expand": true,
-                        "in_embedded_notice": false,
-                        "to_be_indexed": false,
-                        "is_concept_hierarchy": false
-                    }
-                }
-            ]
-        }
-    ],
     "required": [
         "rules"
     ],
@@ -57,28 +15,6 @@
             "title": "The rules schema",
             "description": "An explanation about the purpose of this instance.",
             "default": [],
-            "examples": [
-                [
-                    {
-                        "propety": "cdm:resource_legal_based_on_concept_treaty",
-                        "annotations": {
-                            "to_expand": false,
-                            "in_embedded_notice": true,
-                            "to_be_indexed": true,
-                            "is_concept_hierarchy": true
-                        }
-                    },
-                    {
-                        "propety": "cdm:resource_legal_published_in_official-journal",
-                        "annotations": {
-                            "to_expand": true,
-                            "in_embedded_notice": true,
-                            "to_be_indexed": true,
-                            "is_concept_hierarchy": false
-                        }
-                    }
-                ]
-            ],
             "additionalItems": false,
             "items": {
                 "$id": "#/properties/rules/items",
@@ -89,17 +25,6 @@
                         "title": "The first anyOf schema",
                         "description": "An explanation about the purpose of this instance.",
                         "default": {},
-                        "examples": [
-                            {
-                                "propety": "cdm:resource_legal_based_on_concept_treaty",
-                                "annotations": {
-                                    "to_expand": false,
-                                    "in_embedded_notice": true,
-                                    "to_be_indexed": true,
-                                    "is_concept_hierarchy": true
-                                }
-                            }
-                        ],
                         "required": [
                             "propety",
                             "annotations"
@@ -110,10 +35,7 @@
                                 "type": "string",
                                 "title": "The propety schema",
                                 "description": "An explanation about the purpose of this instance.",
-                                "default": "",
-                                "examples": [
-                                    "cdm:resource_legal_based_on_concept_treaty"
-                                ]
+                                "default": ""
                             },
                             "annotations": {
                                 "$id": "#/properties/rules/items/anyOf/0/properties/annotations",
@@ -121,14 +43,6 @@
                                 "title": "The annotations schema",
                                 "description": "An explanation about the purpose of this instance.",
                                 "default": {},
-                                "examples": [
-                                    {
-                                        "to_expand": false,
-                                        "in_embedded_notice": true,
-                                        "to_be_indexed": true,
-                                        "is_concept_hierarchy": true
-                                    }
-                                ],
                                 "required": [
                                     "to_expand",
                                     "in_embedded_notice",
@@ -141,40 +55,28 @@
                                         "type": "boolean",
                                         "title": "The to_expand schema",
                                         "description": "An explanation about the purpose of this instance.",
-                                        "default": false,
-                                        "examples": [
-                                            false
-                                        ]
+                                        "default": false
                                     },
                                     "in_embedded_notice": {
                                         "$id": "#/properties/rules/items/anyOf/0/properties/annotations/properties/in_embedded_notice",
                                         "type": "boolean",
                                         "title": "The in_embedded_notice schema",
                                         "description": "An explanation about the purpose of this instance.",
-                                        "default": false,
-                                        "examples": [
-                                            true
-                                        ]
+                                        "default": false
                                     },
                                     "to_be_indexed": {
                                         "$id": "#/properties/rules/items/anyOf/0/properties/annotations/properties/to_be_indexed",
                                         "type": "boolean",
                                         "title": "The to_be_indexed schema",
                                         "description": "An explanation about the purpose of this instance.",
-                                        "default": false,
-                                        "examples": [
-                                            true
-                                        ]
+                                        "default": false
                                     },
                                     "is_concept_hierarchy": {
                                         "$id": "#/properties/rules/items/anyOf/0/properties/annotations/properties/is_concept_hierarchy",
                                         "type": "boolean",
                                         "title": "The is_concept_hierarchy schema",
                                         "description": "An explanation about the purpose of this instance.",
-                                        "default": false,
-                                        "examples": [
-                                            true
-                                        ]
+                                        "default": false
                                     }
                                 },
                                 "additionalProperties": false

@@ -1,4 +1,3 @@
-
 # Filtering rules
 The [Eurlex Layer](https://citnet.tech.ec.europa.eu/CITnet/confluence/display/CELLAR/Eurlex+Layer) is responsible for building the aggregated RDF model that is transformed into the new XML format. Here there is a proposal to extract the annotations from the ontology (CDM) and use two configuration files:
 
@@ -9,7 +8,7 @@ The [Eurlex Layer](https://citnet.tech.ec.europa.eu/CITnet/confluence/display/CE
 	- JSON sample: [here](https://raw.githubusercontent.com/op-cellar-git/eurlex-xml-format/master/new/filtering_rules/samples/exceptions.json)
 	- JSON schema: [here](https://raw.githubusercontent.com/op-cellar-git/eurlex-xml-format/master/new/filtering_rules/json_schema/schema_exceptions.json)
 
-In the samples there is only a hypothetical set of properties. The samples serve to give an idea of the structure. They are clearly not exhaustive for Eurlex's business.
+In the samples, there is only a hypothetical set of properties. The samples serve to give an idea of the structure. They are clearly not exhaustive for Eurlex's business.
 
 ## rules.json
 They look like the current approach, but instead of spreading these annotations all over the CDM, they are collected in an external JSON configuration file:
@@ -35,24 +34,54 @@ Based on these annotations and taking into account all the exceptions for a give
 ## exceptions.json
 In some cases, Eurlex is interested in obtaining a specific behavior relative to specific classes involved in the embedding. Therefore, Cellar needs an additional configuration file to drive these exceptional behaviors.
 -   `class`: the owl class for which the dissemination must follow a particular behavior in the embedding policies.
--   `to_embed`:  flag to activate or deactivate the embedding of a target property. The value `false` must be used when Cellar must ignore a "to_expand" in *rules.json* for a given class.
--   `level`: this field indicates at what level of the FRBR the exception is valid.
 -   `to_target`: this is the target property for the embedding.
--   `inclusions`: these properties are exceptionally "in_embedded_notice" in the context of the target property already set.
-### Example of entry in JSON:
+-   `level`: this field indicates at what level of the FRBR (or dossier/event) the exception is valid.
+-   `to_expand`:  flag to activate or deactivate the embedding of a target property. The value `false` must be used when Cellar must ignore an embedding rule defined in *rules.json* for a given class.
+-   `to_index`:  it is analogous to `to_expand` for the policies of embedding in indexation.
+-   `targets_in_embedded_notice`: this is a list of properties that must exceptionally be embedded in the context defined by `class`, `level`, and `to_target`. In the case of concept or data type property, the content of the list will be ignored by Cellar.
+-  `targets_to_be_indexed`: it is analogous to `targets_in_embedded_notice` for the policies of embedding in indexation.
+### Example of entries in JSON:
 ```
-{
-      "class": "cdm:act_preparatory",
-      "rules": [
-		  { "to_embed": false,
-		    "level": ["work", "expression"],
-		    "to_target": "cdm:resource_legal_based_on_concept_treaty"
-		  },
-                  { "to_embed": true,
-                    "level": ["work", "expression"],
-                    "to_target": "cdm:resource_legal_published_in_official-journal",
-                    "inclusions": ["cdm:official-journal_number", "cdm:work_created_by_agent", "cdm:official-journal_part_of_collection_document"]
-	          }
-	       ]
+{     "class": "cdm:act_preparatory",
+      "rules": 
+       [
+        {
+         "to_target": "cdm:resource_legal_based_on_concept_treaty",
+         "level": ["work", "expression"],
+         "to_expand": true,
+         "to_index": true,
+         "targets_in_embedded_notice": [],
+	     "targets_to_be_indexed": []
+        },
+        {
+         "to_target": "cdm:resource_legal_published_in_official-journal",
+         "level": ["work", "expression"],
+         "to_expand": true,
+         "to_index": true,
+         "targets_in_embedded_notice": ["cdm:official-journal_number", "cdm:work_created_by_agent", "cdm:official-journal_part_of_collection_document"],
+         "targets_to_be_indexed": ["cdm:official-journal_number", "cdm:work_created_by_agent"]
+        }
+       ]
+},
+{     "class": "cdm:official-journal",
+      "rules": 
+       [
+        {
+         "to_target": "cdm:work_created_by_agent",
+         "level": ["work", "expression", "manifesation"],
+         "to_expand": false,
+         "to_index": false,
+         "targets_in_embedded_notice": [],
+         "targets_to_be_indexed": []
+        },
+        {
+         "to_target": "cdm:work_id_obsolete_notice",
+         "level": ["work", "expression"],
+         "to_expand": false,
+         "to_index": false,
+         "targets_in_embedded_notice": [],
+         "targets_to_be_indexed": []
+        }
+       ]
 }
 ```

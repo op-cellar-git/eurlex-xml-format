@@ -1,30 +1,42 @@
 {
-    "exceptions": [{
+    "exceptions": [
+		{
             "class": "cdm:act_preparatory",
             "rules": [{
-                    "to_embed": false,
+                    "to_target": "cdm:resource_legal_based_on_concept_treaty",
                     "level": ["work", "expression"],
-                    "to_target": "cdm:resource_legal_based_on_concept_treaty"
+                    "to_expand": true,
+                    "to_index": true,
+                    "targets_in_embedded_notice": [],
+                    "targets_to_be_indexed": []
                 },
                 {
-                    "to_embed": true,
-                    "level": ["work", "expression"],
                     "to_target": "cdm:resource_legal_published_in_official-journal",
-                    "inclusions": ["cdm:official-journal_number", "cdm:work_created_by_agent", "cdm:official-journal_part_of_collection_document"]
+                    "level": ["work", "expression"],
+                    "to_expand": true,
+                    "to_index": true,
+                    "targets_in_embedded_notice": ["cdm:official-journal_number", "cdm:work_created_by_agent", "cdm:official-journal_part_of_collection_document"],
+                    "targets_to_be_indexed": ["cdm:official-journal_number", "cdm:work_created_by_agent"]
                 }
             ]
         },
         {
             "class": "cdm:official-journal",
             "rules": [{
-                    "to_embed": false,
+                    "to_target": "cdm:work_created_by_agent",
                     "level": ["work", "expression", "manifesation"],
-                    "to_target": "cdm:work_created_by_agent"
+                    "to_expand": false,
+                    "to_index": false,
+                    "targets_in_embedded_notice": [],
+                    "targets_to_be_indexed": []
                 },
                 {
-                    "to_embed": true,
+                    "to_target": "cdm:work_id_obsolete_notice",
                     "level": ["work", "expression"],
-                    "to_target": "cdm:work_id_obsolete_notice"
+                    "to_expand": false,
+                    "to_index": false,
+                    "targets_in_embedded_notice": [],
+                    "targets_to_be_indexed": []
                 }
             ]
         }
