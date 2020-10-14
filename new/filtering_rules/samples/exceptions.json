@@ -1,44 +1,75 @@
 {
-    "exceptions": [
-		{
-            "class": "cdm:act_preparatory",
-            "rules": [{
-                    "to_target": "cdm:resource_legal_based_on_concept_treaty",
-                    "level": ["work", "expression"],
-                    "to_expand": true,
-                    "to_index": true,
-                    "targets_in_embedded_notice": [],
-                    "targets_to_be_indexed": []
-                },
-                {
-                    "to_target": "cdm:resource_legal_published_in_official-journal",
-                    "level": ["work", "expression"],
-                    "to_expand": true,
-                    "to_index": true,
-                    "targets_in_embedded_notice": ["cdm:official-journal_number", "cdm:work_created_by_agent", "cdm:official-journal_part_of_collection_document"],
-                    "targets_to_be_indexed": ["cdm:official-journal_number", "cdm:work_created_by_agent"]
-                }
-            ]
+    "exceptions": 
+	[
+		{   
+			"class": "cdm:official-journal",
+            "level": ["work"],
+            "targets_in_embedded_notice": ["cdm:date_publication", "cdm:official-journal_part_of_collection_document", "cdm:work_date_document", "cdm:work_has_resource-type", "cdm:official-journal_class", "cdm:official-journal_number", "cdm:official-journal_year", "rdf:type"],
+            "targets_to_be_indexed": ["cdm:date_publication", "cdm:official-journal_part_of_collection_document", "cdm:work_date_document", "cdm:work_has_resource-type", "cdm:official-journal_class", "cdm:official-journal_number", "cdm:official-journal_year", "rdf:type"]
         },
-        {
-            "class": "cdm:official-journal",
-            "rules": [{
-                    "to_target": "cdm:work_created_by_agent",
-                    "level": ["work", "expression", "manifesation"],
-                    "to_expand": false,
-                    "to_index": false,
-                    "targets_in_embedded_notice": [],
-                    "targets_to_be_indexed": []
-                },
-                {
-                    "to_target": "cdm:work_id_obsolete_notice",
-                    "level": ["work", "expression"],
-                    "to_expand": false,
-                    "to_index": false,
-                    "targets_in_embedded_notice": [],
-                    "targets_to_be_indexed": []
-                }
-            ]
-        }
+		{   
+			"class": "cdm:official-journal",
+            "level": ["expression"],
+            "targets_in_embedded_notice": ["cdm:expression_title", "cdm:expression_uses_language"],
+            "targets_to_be_indexed": ["cdm:expression_title", "cdm:expression_uses_language"]
+        },
+		{   
+		    "property": "cdm:dossier_initiated_by_act_preparatory",
+			"class": "cdm:act_preparatory",
+            "level": ["work"],
+            "targets_in_embedded_notice": ["cdm:work_is_about_concept_eurovoc", "cdm:work_date_document", "cdm:resource_legal_is_about_concept_directory-code", "cdm:id_celex", "rdf:type", "cdm:resource_legal_number_natural_celex", "cdm:id_sector", "cdm:work_has_resource-type"],
+            "targets_to_be_indexed": ["cdm:work_is_about_concept_eurovoc", "cdm:work_date_document", "cdm:resource_legal_is_about_concept_directory-code", "cdm:id_celex", "rdf:type", "cdm:resource_legal_number_natural_celex", "cdm:id_sector", "cdm:work_has_resource-type"]
+        },
+		{   
+		    "property": "cdm:dossier_initiated_by_act_preparatory",
+			"class": "cdm:act_preparatory",
+            "level": ["expression"],
+            "targets_in_embedded_notice": ["cdm:expression_title"],
+            "targets_to_be_indexed": ["cdm:expression_title"]
+        },
+		{
+		    "property": "cdm:dossier_contains_work",
+			"class": "cdm:act_preparatory",
+            "level": ["work"],
+            "targets_in_embedded_notice": ["cdm:work_date_document", "cdm:id_celex", "rdf:type", "cdm:resource_legal_number_natural_celex", "cdm:work_has_resource-type", "cdm:id_sector"],
+            "targets_to_be_indexed": ["cdm:work_date_document", "cdm:id_celex", "rdf:type", "cdm:resource_legal_number_natural_celex", "cdm:work_has_resource-type", "cdm:id_sector"]
+        },
+		{   
+		    "property": "cdm:dossier_contains_work",
+			"class": "cdm:act_preparatory",
+            "level": ["expression"],
+            "targets_in_embedded_notice": ["cdm:expression_title"],
+            "targets_to_be_indexed": ["cdm:expression_title"]
+        },
+		{
+		    "property": "cdm:contains",
+			"class": "cdm:act_preparatory",
+            "level": ["work"],
+            "targets_in_embedded_notice": [],
+            "targets_to_be_indexed": []
+        },
+		{   
+			"class": "cdm:procedure_internal",
+            "level": ["dossier"],
+            "targets_in_embedded_notice": [],
+            "targets_to_be_indexed": []
+        },
+		{   
+			"class": "cdm:dossier",
+            "level": ["dossier"],
+            "targets_in_embedded_notice": ["cdm:procedure_code_interinstitutional_number_procedure", "cdm:procedure_code_interinstitutional_year_procedure", "cdm:procedure_code_interinstitutional_has_type_concept_type_procedure_code_interinstitutional", "cdm:procedure_code_interinstitutional_reference_procedure", "rdf:type",],
+            "targets_to_be_indexed": ["cdm:procedure_code_interinstitutional_number_procedure", "cdm:procedure_code_interinstitutional_year_procedure", "cdm:procedure_code_interinstitutional_has_type_concept_type_procedure_code_interinstitutional", "cdm:procedure_code_interinstitutional_reference_procedure", "rdf:type",]
+        },
     ]
 }
+
+
+
+
+
+
+
+
+
+
+

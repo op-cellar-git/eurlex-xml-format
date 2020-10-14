@@ -43,14 +43,23 @@
                                 "title": "The annotations schema",
                                 "description": "An explanation about the purpose of this instance.",
                                 "default": {},
-                                "required": [
-                                    "to_expand",
-                                    "in_embedded_notice",
-                                    "to_be_indexed",
-                                    "is_concept_hierarchy"
-                                ],
+                                "required": [],
                                 "properties": {
                                     "to_expand": {
+                                        "$id": "#/properties/rules/items/anyOf/0/properties/annotations/properties/to_expand",
+                                        "type": "boolean",
+                                        "title": "The to_expand schema",
+                                        "description": "An explanation about the purpose of this instance.",
+                                        "default": false
+                                    },
+									"in_notice": {
+                                        "$id": "#/properties/rules/items/anyOf/0/properties/annotations/properties/to_expand",
+                                        "type": "boolean",
+                                        "title": "The to_expand schema",
+                                        "description": "An explanation about the purpose of this instance.",
+                                        "default": false
+                                    },
+									"write_once": {
                                         "$id": "#/properties/rules/items/anyOf/0/properties/annotations/properties/to_expand",
                                         "type": "boolean",
                                         "title": "The to_expand schema",
