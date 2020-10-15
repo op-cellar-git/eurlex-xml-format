@@ -440,6 +440,7 @@ The contained URI is a Production System (PS) URI</xs:documentation>
 									</xs:sequence>
 								</xs:complexType>
 							</xs:element>
+							<xs:element ref="TYPE"/>
 						</xs:sequence>
 					</xs:complexType>
 				</xs:element>
