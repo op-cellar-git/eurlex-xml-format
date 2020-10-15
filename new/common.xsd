@@ -341,6 +341,7 @@ A memberlist can have a nested structure (NESTEDLIST element) as well as referen
 If present it must be the CELLAR URI.</xs:documentation>
 			</xs:annotation>
 			<xs:element ref="URI" minOccurs="0"/>
+			<xs:element ref="TYPE" minOccurs="0" maxOccurs="unbounded"/>
 			<xs:element ref="SAMEAS" maxOccurs="unbounded"/>
 		</xs:sequence>
 	</xs:group>
@@ -411,6 +412,7 @@ The contained URI is a Production System (PS) URI</xs:documentation>
 					<xs:complexType>
 						<xs:sequence>
 							<xs:element ref="annotation_property" minOccurs="0" maxOccurs="unbounded"/>
+							<xs:element ref="TYPE" minOccurs="0" maxOccurs="unbounded"/>
 							<xs:group ref="embedded-property" minOccurs="0" maxOccurs="unbounded"/>
 							<xs:element name="EXPRESSION" minOccurs="0" maxOccurs="unbounded">
 								<xs:annotation>
@@ -419,6 +421,7 @@ The contained URI is a Production System (PS) URI</xs:documentation>
 								<xs:complexType>
 									<xs:sequence>
 										<xs:element ref="annotation_property" minOccurs="0" maxOccurs="unbounded"/>
+										<xs:element ref="TYPE" minOccurs="0" maxOccurs="unbounded"/>
 										<xs:group ref="embedded-property" minOccurs="0" maxOccurs="unbounded"/>
 										<xs:element name="MANIFESTATION" minOccurs="0" maxOccurs="unbounded">
 											<xs:annotation>
@@ -427,6 +430,7 @@ The contained URI is a Production System (PS) URI</xs:documentation>
 											<xs:complexType>
 												<xs:sequence>
 													<xs:element ref="annotation_property" minOccurs="0" maxOccurs="unbounded"/>
+													<xs:element ref="TYPE" minOccurs="0" maxOccurs="unbounded"/>
 													<xs:group ref="embedded-property" minOccurs="0" maxOccurs="unbounded"/>
 													<xs:element name="ITEM" minOccurs="0">
 														<xs:complexType>
@@ -440,17 +444,22 @@ The contained URI is a Production System (PS) URI</xs:documentation>
 									</xs:sequence>
 								</xs:complexType>
 							</xs:element>
-							<xs:element ref="TYPE"/>
 						</xs:sequence>
 					</xs:complexType>
 				</xs:element>
 				<xs:element name="DOSSIER" minOccurs="0">
 					<xs:complexType>
 						<xs:sequence>
-							<xs:group ref="embedded-property" maxOccurs="unbounded"/>
+							<xs:element ref="annotation_property" minOccurs="0" maxOccurs="unbounded"/>
+							<xs:element ref="TYPE" minOccurs="0" maxOccurs="unbounded"/>
+							<xs:group ref="embedded-property" minOccurs="0" maxOccurs="unbounded"/>
 							<xs:element name="EVENT" minOccurs="0" maxOccurs="unbounded">
 								<xs:complexType>
-									<xs:group ref="embedded-property" maxOccurs="unbounded"/>
+									<xs:sequence>
+										<xs:element ref="annotation_property" minOccurs="0" maxOccurs="unbounded"/>
+										<xs:element ref="TYPE" minOccurs="0" maxOccurs="unbounded"/>
+										<xs:group ref="embedded-property" minOccurs="0" maxOccurs="unbounded"/>
+									</xs:sequence>
 								</xs:complexType>
 							</xs:element>
 						</xs:sequence>
@@ -458,12 +467,20 @@ The contained URI is a Production System (PS) URI</xs:documentation>
 				</xs:element>
 				<xs:element name="AGENT" minOccurs="0">
 					<xs:complexType>
-						<xs:group ref="embedded-property" maxOccurs="unbounded"/>
+						<xs:sequence>
+							<xs:element ref="annotation_property" minOccurs="0" maxOccurs="unbounded"/>
+							<xs:element ref="TYPE" minOccurs="0" maxOccurs="unbounded"/>
+							<xs:group ref="embedded-property" maxOccurs="unbounded"/>
+						</xs:sequence>
 					</xs:complexType>
 				</xs:element>
 				<xs:element name="EVENT" minOccurs="0">
 					<xs:complexType>
-						<xs:group ref="embedded-property" maxOccurs="unbounded"/>
+						<xs:sequence>
+							<xs:element ref="annotation_property" minOccurs="0" maxOccurs="unbounded"/>
+							<xs:element ref="TYPE" minOccurs="0" maxOccurs="unbounded"/>
+							<xs:group ref="embedded-property" minOccurs="0" maxOccurs="unbounded"/>
+						</xs:sequence>
 					</xs:complexType>
 				</xs:element>
 			</xs:choice>
