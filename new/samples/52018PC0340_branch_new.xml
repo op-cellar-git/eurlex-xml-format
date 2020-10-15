@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- edited with XMLSpy v2019 rel. 3 sp1 (http://www.altova.com) by DG OP (OP Publications Office of the European Union) -->
-<NOTICE decoding="eng" type="branch" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Users/thelese/workspace/git/eurlex-xml-format/new/branch.xsd">
+<NOTICE decoding="eng" type="branch" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/op-cellar-git/eurlex-xml-format/master/new/branch.xsd">
 	<WORK>
 		<URI>
 			<VALUE>http://publications.europa.eu/resource/cellar/fc5c74e0-6255-11e8-ab9c-01aa75ed71a1</VALUE>
@@ -413,7 +413,9 @@
 				</URI>
 			</SAMEAS>
 			<PARAGRAPH>1</PARAGRAPH>
-			<COMMENT_ON_LEGAL_BASIS type="annotation">P1</COMMENT_ON_LEGAL_BASIS>
+			<COMMENT_ON_LEGAL_BASIS type="annotation">
+			<VALUE>P1</VALUE>
+			</COMMENT_ON_LEGAL_BASIS>
 		</RESOURCE_LEGAL_BASED_ON_RESOURCE_LEGAL>
 		<DATE_DOCUMENT type="date">
 			<VALUE>2018-05-28</VALUE>
@@ -689,8 +691,8 @@
 			<YEAR>2018</YEAR>
 			<MONTH>05</MONTH>
 			<DAY>28</DAY>
-			<COMMENT_ON_DATE type="annotation">{TRANS/PARL|http://publications.europa.eu/resource/authority/fd_340/TRANS%2FPARL}</COMMENT_ON_DATE>
-			<COMMENT_ON_DATE type="annotation">{TRANS/CONS|http://publications.europa.eu/resource/authority/fd_340/TRANS%2FCONS}</COMMENT_ON_DATE>
+			<COMMENT_ON_DATE type="annotation"><VALUE>{TRANS/PARL|http://publications.europa.eu/resource/authority/fd_340/TRANS%2FPARL}</VALUE></COMMENT_ON_DATE>
+			<COMMENT_ON_DATE type="annotation"><VALUE>{TRANS/CONS|http://publications.europa.eu/resource/authority/fd_340/TRANS%2FCONS}</VALUE></COMMENT_ON_DATE>
 		</RESOURCE_LEGAL_DATE_DISPATCH>
 		<!-- COMMENTED OUT FOR THE SAKE OF SIMPLICITY -->
 		<!-- WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
@@ -1844,9 +1846,9 @@
 			<YEAR>2019</YEAR>
 			<MONTH>06</MONTH>
 			<DAY>05</DAY>
-			<COMMENT_ON_DATE type="annotation">{YD|http://publications.europa.eu/resource/authority/fd_330/YD} 32019L0904</COMMENT_ON_DATE>
+			<COMMENT_ON_DATE type="annotation"><VALUE>{YD|http://publications.europa.eu/resource/authority/fd_330/YD} 32019L0904</VALUE></COMMENT_ON_DATE>
 		</RESOURCE_LEGAL_DATE_END-OF-VALIDITY>
-		<!--WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
+		<!--WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet>
 			<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
 				<URI>
 					<VALUE>http://eurovoc.europa.eu/5794</VALUE>

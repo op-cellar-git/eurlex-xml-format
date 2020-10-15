@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- edited with XMLSpy v2019 rel. 3 sp1 (http://www.altova.com) by DG OP (OP Publications Office of the European Union) --><NOTICE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" decoding="eng" type="tree" xsi:noNamespaceSchemaLocation="file:///C:/Users/thelese/workspace/git/eurlex-xml-format/new/tree.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2019 rel. 3 sp1 (http://www.altova.com) by DG OP (OP Publications Office of the European Union) -->
+<NOTICE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" decoding="eng" type="tree" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/op-cellar-git/eurlex-xml-format/master/new/tree.xsd">
 	<DOSSIER>
 		<URI>
 			<VALUE>http://publications.europa.eu/resource/cellar/f03de40f-6255-11e8-ab9c-01aa75ed71a1</VALUE>
@@ -13795,7 +13797,7 @@
 						</ORDER>
 						<IN_COMMITTEE type="annotation">
 							<VALUE>http://publications.europa.eu/resource/authority/corporate-body/EP_ENVI</VALUE>
-								</IN_COMMITTEE>
+						</IN_COMMITTEE>
 					</REPORT_EP_REPORTED_BY_AGENT>
 					<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_hierarchy">
 						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_hierarchy_concept" path="1" level="3">

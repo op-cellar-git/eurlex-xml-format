@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- edited with XMLSpy v2019 rel. 3 sp1 (http://www.altova.com) by DG OP (OP Publications Office of the European Union) -->
-<NOTICE decoding="eng" type="tree" xsi:noNamespaceSchemaLocation="file:///C:/Users/thelese/workspace/git/eurlex-xml-format/new/tree.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<NOTICE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" decoding="eng" type="tree" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/op-cellar-git/eurlex-xml-format/master/new/tree.xsd">
 	<DOSSIER>
 		<URI>
 			<VALUE>http://publications.europa.eu/resource/cellar/9c2763b8-796d-11e3-b889-01aa75ed71a1</VALUE>
@@ -123,8 +123,35 @@ transfers and direct debits</VALUE>
 					<IDENTIFIER>PROP_REG</IDENTIFIER>
 					<PREFLABEL>Proposal for a regulation</PREFLABEL>
 				</WORK_HAS_RESOURCE-TYPE>
-				<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+				<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy">
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="1" path="1">
+						<URI>
+							<VALUE>http://eurovoc.europa.eu/100148</VALUE>
+							<IDENTIFIER>100148</IDENTIFIER>
+							<TYPE>EUROVOC</TYPE>
+						</URI>
+						<IDENTIFIER>24</IDENTIFIER>
+						<PREFLABEL>24 FINANCE</PREFLABEL>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="2" path="1">
+						<URI>
+							<VALUE>http://eurovoc.europa.eu/100201</VALUE>
+							<IDENTIFIER>100201</IDENTIFIER>
+							<TYPE>EUROVOC</TYPE>
+						</URI>
+						<IDENTIFIER>2421</IDENTIFIER>
+						<PREFLABEL>2421 free movement of capital</PREFLABEL>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="3" path="1">
+						<URI>
+							<VALUE>http://eurovoc.europa.eu/1630</VALUE>
+							<IDENTIFIER>1630</IDENTIFIER>
+							<TYPE>EUROVOC</TYPE>
+						</URI>
+						<IDENTIFIER>1630</IDENTIFIER>
+						<PREFLABEL>free movement of capital</PREFLABEL>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="4" path="1">
 						<URI>
 							<VALUE>http://eurovoc.europa.eu/4493</VALUE>
 							<IDENTIFIER>4493</IDENTIFIER>
@@ -133,37 +160,10 @@ transfers and direct debits</VALUE>
 						<IDENTIFIER>4493</IDENTIFIER>
 						<PREFLABEL>capital transfer</PREFLABEL>
 						<ALTLABEL>financial transfer</ALTLABEL>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
-						<URI>
-							<VALUE>http://eurovoc.europa.eu/1630</VALUE>
-							<IDENTIFIER>1630</IDENTIFIER>
-							<TYPE>EUROVOC</TYPE>
-						</URI>
-						<IDENTIFIER>1630</IDENTIFIER>
-						<PREFLABEL>free movement of capital</PREFLABEL>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
-						<URI>
-							<VALUE>http://eurovoc.europa.eu/100148</VALUE>
-							<IDENTIFIER>100148</IDENTIFIER>
-							<TYPE>EUROVOC</TYPE>
-						</URI>
-						<IDENTIFIER>24</IDENTIFIER>
-						<PREFLABEL>24 FINANCE</PREFLABEL>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
-						<URI>
-							<VALUE>http://eurovoc.europa.eu/100201</VALUE>
-							<IDENTIFIER>100201</IDENTIFIER>
-							<TYPE>EUROVOC</TYPE>
-						</URI>
-						<IDENTIFIER>2421</IDENTIFIER>
-						<PREFLABEL>2421 free movement of capital</PREFLABEL>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 				</WORK_IS_ABOUT_CONCEPT_EUROVOC>
-				<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_level">
-					<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1 type="concept">
+				<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_hierarchy">
+					<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_hierarchy_concept" path="1" level="1">
 						<URI>
 							<VALUE>http://publications.europa.eu/resource/authority/fd_070/LCC</VALUE>
 							<IDENTIFIER>LCC</IDENTIFIER>
@@ -172,7 +172,7 @@ transfers and direct debits</VALUE>
 						<OP-CODE>LCC</OP-CODE>
 						<IDENTIFIER>LCC</IDENTIFIER>
 						<PREFLABEL>Free movement of capital</PREFLABEL>
-					</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1>
+					</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER>
 				</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER>
 				<WORK_DATE_DOCUMENT type="date">
 					<VALUE>2014-01-09</VALUE>
@@ -180,8 +180,8 @@ transfers and direct debits</VALUE>
 					<MONTH>01</MONTH>
 					<DAY>09</DAY>
 				</WORK_DATE_DOCUMENT>
-				<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_level">
-					<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1 type="concept">
+				<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_hierarchy">
+					<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_hierarchy_concept" path="1" level="1">
 						<URI>
 							<VALUE>http://publications.europa.eu/resource/authority/fd_070/MARI</VALUE>
 							<IDENTIFIER>MARI</IDENTIFIER>
@@ -190,10 +190,38 @@ transfers and direct debits</VALUE>
 						<OP-CODE>MARI</OP-CODE>
 						<IDENTIFIER>MARI</IDENTIFIER>
 						<PREFLABEL>Internal market - Principles</PREFLABEL>
-					</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1>
+					</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER>
 				</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER>
-				<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+				<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy">
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="1" path="1">
+						<URI>
+							<VALUE>http://eurovoc.europa.eu/100148</VALUE>
+							<IDENTIFIER>100148</IDENTIFIER>
+							<TYPE>EUROVOC</TYPE>
+						</URI>
+						<IDENTIFIER>24</IDENTIFIER>
+						<PREFLABEL>24 FINANCE</PREFLABEL>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="2" path="1">
+						<URI>
+							<VALUE>http://eurovoc.europa.eu/100199</VALUE>
+							<IDENTIFIER>100199</IDENTIFIER>
+							<TYPE>EUROVOC</TYPE>
+						</URI>
+						<IDENTIFIER>2411</IDENTIFIER>
+						<PREFLABEL>2411 monetary economics</PREFLABEL>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="3" path="1">
+						<URI>
+							<VALUE>http://eurovoc.europa.eu/1809</VALUE>
+							<IDENTIFIER>1809</IDENTIFIER>
+							<TYPE>EUROVOC</TYPE>
+						</URI>
+						<IDENTIFIER>1809</IDENTIFIER>
+						<PREFLABEL>money market</PREFLABEL>
+						<ALTLABEL>international money market</ALTLABEL>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="4" path="1">
 						<URI>
 							<VALUE>http://eurovoc.europa.eu/1971</VALUE>
 							<IDENTIFIER>1971</IDENTIFIER>
@@ -213,56 +241,10 @@ transfers and direct debits</VALUE>
 						<ALTLABEL>debit card</ALTLABEL>
 						<ALTLABEL>charge card</ALTLABEL>
 						<ALTLABEL>defered debit card</ALTLABEL>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
-						<URI>
-							<VALUE>http://eurovoc.europa.eu/1809</VALUE>
-							<IDENTIFIER>1809</IDENTIFIER>
-							<TYPE>EUROVOC</TYPE>
-						</URI>
-						<IDENTIFIER>1809</IDENTIFIER>
-						<PREFLABEL>money market</PREFLABEL>
-						<ALTLABEL>international money market</ALTLABEL>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
-						<URI>
-							<VALUE>http://eurovoc.europa.eu/100148</VALUE>
-							<IDENTIFIER>100148</IDENTIFIER>
-							<TYPE>EUROVOC</TYPE>
-						</URI>
-						<IDENTIFIER>24</IDENTIFIER>
-						<PREFLABEL>24 FINANCE</PREFLABEL>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
-						<URI>
-							<VALUE>http://eurovoc.europa.eu/100199</VALUE>
-							<IDENTIFIER>100199</IDENTIFIER>
-							<TYPE>EUROVOC</TYPE>
-						</URI>
-						<IDENTIFIER>2411</IDENTIFIER>
-						<PREFLABEL>2411 monetary economics</PREFLABEL>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 				</WORK_IS_ABOUT_CONCEPT_EUROVOC>
-				<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
-						<URI>
-							<VALUE>http://eurovoc.europa.eu/8469</VALUE>
-							<IDENTIFIER>8469</IDENTIFIER>
-							<TYPE>EUROVOC</TYPE>
-						</URI>
-						<IDENTIFIER>8469</IDENTIFIER>
-						<PREFLABEL>financial services</PREFLABEL>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
-						<URI>
-							<VALUE>http://eurovoc.europa.eu/8469</VALUE>
-							<IDENTIFIER>8469</IDENTIFIER>
-							<TYPE>EUROVOC</TYPE>
-						</URI>
-						<IDENTIFIER>8469</IDENTIFIER>
-						<PREFLABEL>financial services</PREFLABEL>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+				<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy">
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="1" path="1">
 						<URI>
 							<VALUE>http://eurovoc.europa.eu/100148</VALUE>
 							<IDENTIFIER>100148</IDENTIFIER>
@@ -270,8 +252,8 @@ transfers and direct debits</VALUE>
 						</URI>
 						<IDENTIFIER>24</IDENTIFIER>
 						<PREFLABEL>24 FINANCE</PREFLABEL>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="2" path="1">
 						<URI>
 							<VALUE>http://eurovoc.europa.eu/100200</VALUE>
 							<IDENTIFIER>100200</IDENTIFIER>
@@ -279,10 +261,55 @@ transfers and direct debits</VALUE>
 						</URI>
 						<IDENTIFIER>2416</IDENTIFIER>
 						<PREFLABEL>2416 financial institutions and credit</PREFLABEL>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="3" path="1">
+						<URI>
+							<VALUE>http://eurovoc.europa.eu/8469</VALUE>
+							<IDENTIFIER>8469</IDENTIFIER>
+							<TYPE>EUROVOC</TYPE>
+						</URI>
+						<IDENTIFIER>8469</IDENTIFIER>
+						<PREFLABEL>financial services</PREFLABEL>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="4" path="1">
+						<URI>
+							<VALUE>http://eurovoc.europa.eu/8469</VALUE>
+							<IDENTIFIER>8469</IDENTIFIER>
+							<TYPE>EUROVOC</TYPE>
+						</URI>
+						<IDENTIFIER>8469</IDENTIFIER>
+						<PREFLABEL>financial services</PREFLABEL>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 				</WORK_IS_ABOUT_CONCEPT_EUROVOC>
-				<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+				<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy">
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="1" path="1">
+						<URI>
+							<VALUE>http://eurovoc.europa.eu/100148</VALUE>
+							<IDENTIFIER>100148</IDENTIFIER>
+							<TYPE>EUROVOC</TYPE>
+						</URI>
+						<IDENTIFIER>24</IDENTIFIER>
+						<PREFLABEL>24 FINANCE</PREFLABEL>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="2" path="1">
+						<URI>
+							<VALUE>http://eurovoc.europa.eu/100201</VALUE>
+							<IDENTIFIER>100201</IDENTIFIER>
+							<TYPE>EUROVOC</TYPE>
+						</URI>
+						<IDENTIFIER>2421</IDENTIFIER>
+						<PREFLABEL>2421 free movement of capital</PREFLABEL>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="3" path="1">
+						<URI>
+							<VALUE>http://eurovoc.europa.eu/1630</VALUE>
+							<IDENTIFIER>1630</IDENTIFIER>
+							<TYPE>EUROVOC</TYPE>
+						</URI>
+						<IDENTIFIER>1630</IDENTIFIER>
+						<PREFLABEL>free movement of capital</PREFLABEL>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="4" path="1">
 						<URI>
 							<VALUE>http://eurovoc.europa.eu/560</VALUE>
 							<IDENTIFIER>560</IDENTIFIER>
@@ -291,34 +318,7 @@ transfers and direct debits</VALUE>
 						<IDENTIFIER>560</IDENTIFIER>
 						<PREFLABEL>financial legislation</PREFLABEL>
 						<ALTLABEL>transaction regulations</ALTLABEL>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
-						<URI>
-							<VALUE>http://eurovoc.europa.eu/1630</VALUE>
-							<IDENTIFIER>1630</IDENTIFIER>
-							<TYPE>EUROVOC</TYPE>
-						</URI>
-						<IDENTIFIER>1630</IDENTIFIER>
-						<PREFLABEL>free movement of capital</PREFLABEL>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
-						<URI>
-							<VALUE>http://eurovoc.europa.eu/100148</VALUE>
-							<IDENTIFIER>100148</IDENTIFIER>
-							<TYPE>EUROVOC</TYPE>
-						</URI>
-						<IDENTIFIER>24</IDENTIFIER>
-						<PREFLABEL>24 FINANCE</PREFLABEL>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
-						<URI>
-							<VALUE>http://eurovoc.europa.eu/100201</VALUE>
-							<IDENTIFIER>100201</IDENTIFIER>
-							<TYPE>EUROVOC</TYPE>
-						</URI>
-						<IDENTIFIER>2421</IDENTIFIER>
-						<PREFLABEL>2421 free movement of capital</PREFLABEL>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 				</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 				<ID_CELEX type="data">
 					<VALUE>52013PC0937</VALUE>
@@ -326,8 +326,38 @@ transfers and direct debits</VALUE>
 				<RESOURCE_LEGAL_TYPE type="data">
 					<VALUE>PC</VALUE>
 				</RESOURCE_LEGAL_TYPE>
-				<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+				<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy">
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="1" path="1">
+						<URI>
+							<VALUE>http://eurovoc.europa.eu/100148</VALUE>
+							<IDENTIFIER>100148</IDENTIFIER>
+							<TYPE>EUROVOC</TYPE>
+						</URI>
+						<IDENTIFIER>24</IDENTIFIER>
+						<PREFLABEL>24 FINANCE</PREFLABEL>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="2" path="1">
+						<URI>
+							<VALUE>http://eurovoc.europa.eu/100199</VALUE>
+							<IDENTIFIER>100199</IDENTIFIER>
+							<TYPE>EUROVOC</TYPE>
+						</URI>
+						<IDENTIFIER>2411</IDENTIFIER>
+						<PREFLABEL>2411 monetary economics</PREFLABEL>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="3" path="1">
+						<URI>
+							<VALUE>http://eurovoc.europa.eu/4602</VALUE>
+							<IDENTIFIER>4602</IDENTIFIER>
+							<TYPE>EUROVOC</TYPE>
+						</URI>
+						<IDENTIFIER>4602</IDENTIFIER>
+						<PREFLABEL>Economic and Monetary Union</PREFLABEL>
+						<ALTLABEL>Werner plan</ALTLABEL>
+						<ALTLABEL>EMU</ALTLABEL>
+						<ALTLABEL>Werner report</ALTLABEL>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="4" path="1">
 						<URI>
 							<VALUE>http://eurovoc.europa.eu/2220</VALUE>
 							<IDENTIFIER>2220</IDENTIFIER>
@@ -341,40 +371,10 @@ transfers and direct debits</VALUE>
 						<ALTLABEL>intra-Eurosystem transaction</ALTLABEL>
 						<ALTLABEL>TARGET2</ALTLABEL>
 						<ALTLABEL>Target payment system</ALTLABEL>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
-						<URI>
-							<VALUE>http://eurovoc.europa.eu/4602</VALUE>
-							<IDENTIFIER>4602</IDENTIFIER>
-							<TYPE>EUROVOC</TYPE>
-						</URI>
-						<IDENTIFIER>4602</IDENTIFIER>
-						<PREFLABEL>Economic and Monetary Union</PREFLABEL>
-						<ALTLABEL>Werner plan</ALTLABEL>
-						<ALTLABEL>EMU</ALTLABEL>
-						<ALTLABEL>Werner report</ALTLABEL>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
-						<URI>
-							<VALUE>http://eurovoc.europa.eu/100148</VALUE>
-							<IDENTIFIER>100148</IDENTIFIER>
-							<TYPE>EUROVOC</TYPE>
-						</URI>
-						<IDENTIFIER>24</IDENTIFIER>
-						<PREFLABEL>24 FINANCE</PREFLABEL>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
-						<URI>
-							<VALUE>http://eurovoc.europa.eu/100199</VALUE>
-							<IDENTIFIER>100199</IDENTIFIER>
-							<TYPE>EUROVOC</TYPE>
-						</URI>
-						<IDENTIFIER>2411</IDENTIFIER>
-						<PREFLABEL>2411 monetary economics</PREFLABEL>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 				</WORK_IS_ABOUT_CONCEPT_EUROVOC>
-				<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_level">
-					<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_4 type="concept">
+				<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_hierarchy">
+					<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_hierarchy_concept" path="1" level="4">
 						<URI>
 							<VALUE>http://publications.europa.eu/resource/authority/fd_555/06202020</VALUE>
 							<IDENTIFIER>06202020</IDENTIFIER>
@@ -383,8 +383,8 @@ transfers and direct debits</VALUE>
 						<OP-CODE>06202020</OP-CODE>
 						<IDENTIFIER>06202020</IDENTIFIER>
 						<PREFLABEL>Banks</PREFLABEL>
-					</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_4>
-					<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_2 type="concept">
+					</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE>
+					<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_hierarchy_concept" path="1" level="2">
 						<URI>
 							<VALUE>http://publications.europa.eu/resource/authority/fd_555/0620</VALUE>
 							<IDENTIFIER>0620</IDENTIFIER>
@@ -393,8 +393,8 @@ transfers and direct debits</VALUE>
 						<OP-CODE>0620</OP-CODE>
 						<IDENTIFIER>0620</IDENTIFIER>
 						<PREFLABEL>Sectoral application</PREFLABEL>
-					</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_2>
-					<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_1 type="concept">
+					</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE>
+					<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_hierarchy_concept" path="1" level="1">
 						<URI>
 							<VALUE>http://publications.europa.eu/resource/authority/fd_555/06</VALUE>
 							<IDENTIFIER>06</IDENTIFIER>
@@ -403,8 +403,8 @@ transfers and direct debits</VALUE>
 						<OP-CODE>06</OP-CODE>
 						<IDENTIFIER>06</IDENTIFIER>
 						<PREFLABEL>Right of establishment and freedom to provide services</PREFLABEL>
-					</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_1>
-					<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_3 type="concept">
+					</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE>
+					<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_hierarchy_concept" path="1" level="3">
 						<URI>
 							<VALUE>http://publications.europa.eu/resource/authority/fd_555/062020</VALUE>
 							<IDENTIFIER>062020</IDENTIFIER>
@@ -413,7 +413,7 @@ transfers and direct debits</VALUE>
 						<OP-CODE>062020</OP-CODE>
 						<IDENTIFIER>062020</IDENTIFIER>
 						<PREFLABEL>Service activities</PREFLABEL>
-					</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_3>
+					</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE>
 				</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE>
 				<RESOURCE_LEGAL_YEAR type="data">
 					<VALUE>2013</VALUE>
@@ -424,11 +424,6 @@ transfers and direct debits</VALUE>
 				<RESOURCE_LEGAL_ID_CELEX type="data">
 					<VALUE>52013PC0937</VALUE>
 				</RESOURCE_LEGAL_ID_CELEX>
-				<TYPE>cdm:proposal_regulation_ec</TYPE>
-				<TYPE>cdm:resource_legal</TYPE>
-				<TYPE>cdm:act_preparatory</TYPE>
-				<TYPE>cdm:proposal_act</TYPE>
-				<TYPE>cdm:work</TYPE>
 			</WORK>
 			<EXPRESSION>
 				<EXPRESSION_USES_LANGUAGE type="concept">
@@ -908,8 +903,35 @@ transfers and direct debits</VALUE>
 						<IDENTIFIER>PROP_REG</IDENTIFIER>
 						<PREFLABEL>Proposal for a regulation</PREFLABEL>
 					</WORK_HAS_RESOURCE-TYPE>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="1" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100148</VALUE>
+								<IDENTIFIER>100148</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>24</IDENTIFIER>
+							<PREFLABEL>24 FINANCE</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="2" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100201</VALUE>
+								<IDENTIFIER>100201</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>2421</IDENTIFIER>
+							<PREFLABEL>2421 free movement of capital</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="3" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/1630</VALUE>
+								<IDENTIFIER>1630</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>1630</IDENTIFIER>
+							<PREFLABEL>free movement of capital</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="4" path="1">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/4493</VALUE>
 								<IDENTIFIER>4493</IDENTIFIER>
@@ -918,37 +940,10 @@ transfers and direct debits</VALUE>
 							<IDENTIFIER>4493</IDENTIFIER>
 							<PREFLABEL>capital transfer</PREFLABEL>
 							<ALTLABEL>financial transfer</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/1630</VALUE>
-								<IDENTIFIER>1630</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>1630</IDENTIFIER>
-							<PREFLABEL>free movement of capital</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100148</VALUE>
-								<IDENTIFIER>100148</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>24</IDENTIFIER>
-							<PREFLABEL>24 FINANCE</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100201</VALUE>
-								<IDENTIFIER>100201</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>2421</IDENTIFIER>
-							<PREFLABEL>2421 free movement of capital</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
-					<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_level">
-						<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1 type="concept">
+					<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_hierarchy">
+						<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_hierarchy_concept" path="1" level="1">
 							<URI>
 								<VALUE>http://publications.europa.eu/resource/authority/fd_070/LCC</VALUE>
 								<IDENTIFIER>LCC</IDENTIFIER>
@@ -957,7 +952,7 @@ transfers and direct debits</VALUE>
 							<OP-CODE>LCC</OP-CODE>
 							<IDENTIFIER>LCC</IDENTIFIER>
 							<PREFLABEL>Free movement of capital</PREFLABEL>
-						</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1>
+						</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER>
 					</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER>
 					<WORK_DATE_DOCUMENT type="date">
 						<VALUE>2014-01-09</VALUE>
@@ -965,8 +960,8 @@ transfers and direct debits</VALUE>
 						<MONTH>01</MONTH>
 						<DAY>09</DAY>
 					</WORK_DATE_DOCUMENT>
-					<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_level">
-						<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1 type="concept">
+					<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_hierarchy">
+						<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_hierarchy_concept" path="1" level="1">
 							<URI>
 								<VALUE>http://publications.europa.eu/resource/authority/fd_070/MARI</VALUE>
 								<IDENTIFIER>MARI</IDENTIFIER>
@@ -975,10 +970,38 @@ transfers and direct debits</VALUE>
 							<OP-CODE>MARI</OP-CODE>
 							<IDENTIFIER>MARI</IDENTIFIER>
 							<PREFLABEL>Internal market - Principles</PREFLABEL>
-						</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1>
+						</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER>
 					</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="1" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100148</VALUE>
+								<IDENTIFIER>100148</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>24</IDENTIFIER>
+							<PREFLABEL>24 FINANCE</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="2" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100199</VALUE>
+								<IDENTIFIER>100199</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>2411</IDENTIFIER>
+							<PREFLABEL>2411 monetary economics</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="3" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/1809</VALUE>
+								<IDENTIFIER>1809</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>1809</IDENTIFIER>
+							<PREFLABEL>money market</PREFLABEL>
+							<ALTLABEL>international money market</ALTLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="4" path="1">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/1971</VALUE>
 								<IDENTIFIER>1971</IDENTIFIER>
@@ -998,56 +1021,10 @@ transfers and direct debits</VALUE>
 							<ALTLABEL>debit card</ALTLABEL>
 							<ALTLABEL>charge card</ALTLABEL>
 							<ALTLABEL>defered debit card</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/1809</VALUE>
-								<IDENTIFIER>1809</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>1809</IDENTIFIER>
-							<PREFLABEL>money market</PREFLABEL>
-							<ALTLABEL>international money market</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100148</VALUE>
-								<IDENTIFIER>100148</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>24</IDENTIFIER>
-							<PREFLABEL>24 FINANCE</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100199</VALUE>
-								<IDENTIFIER>100199</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>2411</IDENTIFIER>
-							<PREFLABEL>2411 monetary economics</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/8469</VALUE>
-								<IDENTIFIER>8469</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>8469</IDENTIFIER>
-							<PREFLABEL>financial services</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/8469</VALUE>
-								<IDENTIFIER>8469</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>8469</IDENTIFIER>
-							<PREFLABEL>financial services</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="1" path="1">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/100148</VALUE>
 								<IDENTIFIER>100148</IDENTIFIER>
@@ -1055,8 +1032,8 @@ transfers and direct debits</VALUE>
 							</URI>
 							<IDENTIFIER>24</IDENTIFIER>
 							<PREFLABEL>24 FINANCE</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="2" path="1">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/100200</VALUE>
 								<IDENTIFIER>100200</IDENTIFIER>
@@ -1064,10 +1041,55 @@ transfers and direct debits</VALUE>
 							</URI>
 							<IDENTIFIER>2416</IDENTIFIER>
 							<PREFLABEL>2416 financial institutions and credit</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="3" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/8469</VALUE>
+								<IDENTIFIER>8469</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>8469</IDENTIFIER>
+							<PREFLABEL>financial services</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="4" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/8469</VALUE>
+								<IDENTIFIER>8469</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>8469</IDENTIFIER>
+							<PREFLABEL>financial services</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="1" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100148</VALUE>
+								<IDENTIFIER>100148</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>24</IDENTIFIER>
+							<PREFLABEL>24 FINANCE</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="2" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100201</VALUE>
+								<IDENTIFIER>100201</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>2421</IDENTIFIER>
+							<PREFLABEL>2421 free movement of capital</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="3" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/1630</VALUE>
+								<IDENTIFIER>1630</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>1630</IDENTIFIER>
+							<PREFLABEL>free movement of capital</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="4" path="1">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/560</VALUE>
 								<IDENTIFIER>560</IDENTIFIER>
@@ -1076,34 +1098,7 @@ transfers and direct debits</VALUE>
 							<IDENTIFIER>560</IDENTIFIER>
 							<PREFLABEL>financial legislation</PREFLABEL>
 							<ALTLABEL>transaction regulations</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/1630</VALUE>
-								<IDENTIFIER>1630</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>1630</IDENTIFIER>
-							<PREFLABEL>free movement of capital</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100148</VALUE>
-								<IDENTIFIER>100148</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>24</IDENTIFIER>
-							<PREFLABEL>24 FINANCE</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100201</VALUE>
-								<IDENTIFIER>100201</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>2421</IDENTIFIER>
-							<PREFLABEL>2421 free movement of capital</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					<ID_CELEX type="data">
 						<VALUE>52013PC0937</VALUE>
@@ -1111,8 +1106,38 @@ transfers and direct debits</VALUE>
 					<RESOURCE_LEGAL_TYPE type="data">
 						<VALUE>PC</VALUE>
 					</RESOURCE_LEGAL_TYPE>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="1" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100148</VALUE>
+								<IDENTIFIER>100148</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>24</IDENTIFIER>
+							<PREFLABEL>24 FINANCE</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="2" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100199</VALUE>
+								<IDENTIFIER>100199</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>2411</IDENTIFIER>
+							<PREFLABEL>2411 monetary economics</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="3" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/4602</VALUE>
+								<IDENTIFIER>4602</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>4602</IDENTIFIER>
+							<PREFLABEL>Economic and Monetary Union</PREFLABEL>
+							<ALTLABEL>Werner plan</ALTLABEL>
+							<ALTLABEL>EMU</ALTLABEL>
+							<ALTLABEL>Werner report</ALTLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="4" path="1">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/2220</VALUE>
 								<IDENTIFIER>2220</IDENTIFIER>
@@ -1126,40 +1151,10 @@ transfers and direct debits</VALUE>
 							<ALTLABEL>intra-Eurosystem transaction</ALTLABEL>
 							<ALTLABEL>TARGET2</ALTLABEL>
 							<ALTLABEL>Target payment system</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/4602</VALUE>
-								<IDENTIFIER>4602</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>4602</IDENTIFIER>
-							<PREFLABEL>Economic and Monetary Union</PREFLABEL>
-							<ALTLABEL>Werner plan</ALTLABEL>
-							<ALTLABEL>EMU</ALTLABEL>
-							<ALTLABEL>Werner report</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100148</VALUE>
-								<IDENTIFIER>100148</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>24</IDENTIFIER>
-							<PREFLABEL>24 FINANCE</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100199</VALUE>
-								<IDENTIFIER>100199</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>2411</IDENTIFIER>
-							<PREFLABEL>2411 monetary economics</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
-					<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_level">
-						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_4 type="concept">
+					<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_hierarchy">
+						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_hierarchy_concept" path="1" level="4">
 							<URI>
 								<VALUE>http://publications.europa.eu/resource/authority/fd_555/06202020</VALUE>
 								<IDENTIFIER>06202020</IDENTIFIER>
@@ -1168,8 +1163,8 @@ transfers and direct debits</VALUE>
 							<OP-CODE>06202020</OP-CODE>
 							<IDENTIFIER>06202020</IDENTIFIER>
 							<PREFLABEL>Banks</PREFLABEL>
-						</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_4>
-						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_2 type="concept">
+						</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE>
+						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_hierarchy_concept" path="1" level="2">
 							<URI>
 								<VALUE>http://publications.europa.eu/resource/authority/fd_555/0620</VALUE>
 								<IDENTIFIER>0620</IDENTIFIER>
@@ -1178,8 +1173,8 @@ transfers and direct debits</VALUE>
 							<OP-CODE>0620</OP-CODE>
 							<IDENTIFIER>0620</IDENTIFIER>
 							<PREFLABEL>Sectoral application</PREFLABEL>
-						</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_2>
-						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_1 type="concept">
+						</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE>
+						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_hierarchy_concept" path="1" level="1">
 							<URI>
 								<VALUE>http://publications.europa.eu/resource/authority/fd_555/06</VALUE>
 								<IDENTIFIER>06</IDENTIFIER>
@@ -1188,8 +1183,8 @@ transfers and direct debits</VALUE>
 							<OP-CODE>06</OP-CODE>
 							<IDENTIFIER>06</IDENTIFIER>
 							<PREFLABEL>Right of establishment and freedom to provide services</PREFLABEL>
-						</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_1>
-						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_3 type="concept">
+						</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE>
+						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_hierarchy_concept" path="1" level="3">
 							<URI>
 								<VALUE>http://publications.europa.eu/resource/authority/fd_555/062020</VALUE>
 								<IDENTIFIER>062020</IDENTIFIER>
@@ -1198,7 +1193,7 @@ transfers and direct debits</VALUE>
 							<OP-CODE>062020</OP-CODE>
 							<IDENTIFIER>062020</IDENTIFIER>
 							<PREFLABEL>Service activities</PREFLABEL>
-						</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_3>
+						</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE>
 					</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE>
 					<RESOURCE_LEGAL_YEAR type="data">
 						<VALUE>2013</VALUE>
@@ -1209,11 +1204,6 @@ transfers and direct debits</VALUE>
 					<RESOURCE_LEGAL_ID_CELEX type="data">
 						<VALUE>52013PC0937</VALUE>
 					</RESOURCE_LEGAL_ID_CELEX>
-					<TYPE>cdm:proposal_regulation_ec</TYPE>
-					<TYPE>cdm:resource_legal</TYPE>
-					<TYPE>cdm:act_preparatory</TYPE>
-					<TYPE>cdm:proposal_act</TYPE>
-					<TYPE>cdm:work</TYPE>
 				</WORK>
 				<EXPRESSION>
 					<EXPRESSION_USES_LANGUAGE type="concept">
@@ -1645,8 +1635,35 @@ transfers and direct debits</VALUE>
 			</EVENT_LEGAL_DOCUMENT_REFERENCE>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
 				<WORK>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="1" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100148</VALUE>
+								<IDENTIFIER>100148</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>24</IDENTIFIER>
+							<PREFLABEL>24 FINANCE</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="2" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100201</VALUE>
+								<IDENTIFIER>100201</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>2421</IDENTIFIER>
+							<PREFLABEL>2421 free movement of capital</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="3" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/1630</VALUE>
+								<IDENTIFIER>1630</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>1630</IDENTIFIER>
+							<PREFLABEL>free movement of capital</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="4" path="1">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/4493</VALUE>
 								<IDENTIFIER>4493</IDENTIFIER>
@@ -1655,47 +1672,23 @@ transfers and direct debits</VALUE>
 							<IDENTIFIER>4493</IDENTIFIER>
 							<PREFLABEL>capital transfer</PREFLABEL>
 							<ALTLABEL>financial transfer</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/1630</VALUE>
-								<IDENTIFIER>1630</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>1630</IDENTIFIER>
-							<PREFLABEL>free movement of capital</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100148</VALUE>
-								<IDENTIFIER>100148</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>24</IDENTIFIER>
-							<PREFLABEL>24 FINANCE</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100201</VALUE>
-								<IDENTIFIER>100201</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>2421</IDENTIFIER>
-							<PREFLABEL>2421 free movement of capital</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					<WORK_DATE_DOCUMENT type="date">
 						<VALUE>2014-01-21</VALUE>
 						<YEAR>2014</YEAR>
 						<MONTH>01</MONTH>
 						<DAY>21</DAY>
-						<ANNOTATION>
-							<COMMENT_ON_DATE>{DATVOT|http://publications.europa.eu/resource/authority/fd_365/DATVOT}</COMMENT_ON_DATE>
-							<BUILD_INFO>cdm:CDM_2.1.7  tdm:1523  xslt:3945 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:1.2.0 builddate:07/07/2014 09:57:24</BUILD_INFO>
-						</ANNOTATION>
+						<!--XXX-->
+						<COMMENT_ON_DATE type="annotation">
+							<VALUE>{DATVOT|http://publications.europa.eu/resource/authority/fd_365/DATVOT}</VALUE>
+						</COMMENT_ON_DATE>
+						<BUILD_INFO type="annotation">
+							<VALUE>cdm:CDM_2.1.7  tdm:1523  xslt:3945 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:1.2.0 builddate:07/07/2014 09:57:24</VALUE>
+						</BUILD_INFO>
 					</WORK_DATE_DOCUMENT>
-					<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_level">
-						<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1 type="concept">
+					<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_hierarchy">
+						<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_hierarchy_concept" path="1" level="1">
 							<URI>
 								<VALUE>http://publications.europa.eu/resource/authority/fd_070/MARI</VALUE>
 								<IDENTIFIER>MARI</IDENTIFIER>
@@ -1704,7 +1697,7 @@ transfers and direct debits</VALUE>
 							<OP-CODE>MARI</OP-CODE>
 							<IDENTIFIER>MARI</IDENTIFIER>
 							<PREFLABEL>Internal market - Principles</PREFLABEL>
-						</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1>
+						</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER>
 					</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER>
 					<WORK_HAS_RESOURCE-TYPE type="concept">
 						<URI>
@@ -1717,8 +1710,8 @@ transfers and direct debits</VALUE>
 						<PREFLABEL>Opinion</PREFLABEL>
 						<ALTLABEL>Opinions</ALTLABEL>
 					</WORK_HAS_RESOURCE-TYPE>
-					<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_level">
-						<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1 type="concept">
+					<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_hierarchy">
+						<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_hierarchy_concept" path="1" level="1">
 							<URI>
 								<VALUE>http://publications.europa.eu/resource/authority/fd_070/LCC</VALUE>
 								<IDENTIFIER>LCC</IDENTIFIER>
@@ -1727,13 +1720,13 @@ transfers and direct debits</VALUE>
 							<OP-CODE>LCC</OP-CODE>
 							<IDENTIFIER>LCC</IDENTIFIER>
 							<PREFLABEL>Free movement of capital</PREFLABEL>
-						</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1>
+						</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER>
 					</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER>
 					<RESOURCE_LEGAL_NUMBER_NATURAL_CELEX type="data">
 						<VALUE>0238</VALUE>
 					</RESOURCE_LEGAL_NUMBER_NATURAL_CELEX>
-					<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_level">
-						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_4 type="concept">
+					<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_hierarchy">
+						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_hierarchy_concept" path="1" level="4">
 							<URI>
 								<VALUE>http://publications.europa.eu/resource/authority/fd_555/06202020</VALUE>
 								<IDENTIFIER>06202020</IDENTIFIER>
@@ -1742,8 +1735,8 @@ transfers and direct debits</VALUE>
 							<OP-CODE>06202020</OP-CODE>
 							<IDENTIFIER>06202020</IDENTIFIER>
 							<PREFLABEL>Banks</PREFLABEL>
-						</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_4>
-						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_2 type="concept">
+						</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE>
+						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_hierarchy_concept" path="1" level="2">
 							<URI>
 								<VALUE>http://publications.europa.eu/resource/authority/fd_555/0620</VALUE>
 								<IDENTIFIER>0620</IDENTIFIER>
@@ -1752,8 +1745,8 @@ transfers and direct debits</VALUE>
 							<OP-CODE>0620</OP-CODE>
 							<IDENTIFIER>0620</IDENTIFIER>
 							<PREFLABEL>Sectoral application</PREFLABEL>
-						</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_2>
-						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_1 type="concept">
+						</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE>
+						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_hierarchy_concept" path="1" level="1">
 							<URI>
 								<VALUE>http://publications.europa.eu/resource/authority/fd_555/06</VALUE>
 								<IDENTIFIER>06</IDENTIFIER>
@@ -1762,8 +1755,8 @@ transfers and direct debits</VALUE>
 							<OP-CODE>06</OP-CODE>
 							<IDENTIFIER>06</IDENTIFIER>
 							<PREFLABEL>Right of establishment and freedom to provide services</PREFLABEL>
-						</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_1>
-						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_3 type="concept">
+						</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE>
+						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_hierarchy_concept" path="1" level="3">
 							<URI>
 								<VALUE>http://publications.europa.eu/resource/authority/fd_555/062020</VALUE>
 								<IDENTIFIER>062020</IDENTIFIER>
@@ -1772,10 +1765,40 @@ transfers and direct debits</VALUE>
 							<OP-CODE>062020</OP-CODE>
 							<IDENTIFIER>062020</IDENTIFIER>
 							<PREFLABEL>Service activities</PREFLABEL>
-						</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_3>
+						</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE>
 					</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="1" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100148</VALUE>
+								<IDENTIFIER>100148</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>24</IDENTIFIER>
+							<PREFLABEL>24 FINANCE</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="2" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100199</VALUE>
+								<IDENTIFIER>100199</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>2411</IDENTIFIER>
+							<PREFLABEL>2411 monetary economics</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="3" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/4602</VALUE>
+								<IDENTIFIER>4602</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>4602</IDENTIFIER>
+							<PREFLABEL>Economic and Monetary Union</PREFLABEL>
+							<ALTLABEL>Werner plan</ALTLABEL>
+							<ALTLABEL>EMU</ALTLABEL>
+							<ALTLABEL>Werner report</ALTLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="4" path="1">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/2220</VALUE>
 								<IDENTIFIER>2220</IDENTIFIER>
@@ -1789,37 +1812,7 @@ transfers and direct debits</VALUE>
 							<ALTLABEL>intra-Eurosystem transaction</ALTLABEL>
 							<ALTLABEL>Target payment system</ALTLABEL>
 							<ALTLABEL>TARGET2</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/4602</VALUE>
-								<IDENTIFIER>4602</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>4602</IDENTIFIER>
-							<PREFLABEL>Economic and Monetary Union</PREFLABEL>
-							<ALTLABEL>Werner plan</ALTLABEL>
-							<ALTLABEL>EMU</ALTLABEL>
-							<ALTLABEL>Werner report</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100148</VALUE>
-								<IDENTIFIER>100148</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>24</IDENTIFIER>
-							<PREFLABEL>24 FINANCE</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100199</VALUE>
-								<IDENTIFIER>100199</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>2411</IDENTIFIER>
-							<PREFLABEL>2411 monetary economics</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					<RESOURCE_LEGAL_TYPE type="data">
 						<VALUE>IE</VALUE>
@@ -1827,26 +1820,8 @@ transfers and direct debits</VALUE>
 					<RESOURCE_LEGAL_ID_CELEX type="data">
 						<VALUE>52014IE0238</VALUE>
 					</RESOURCE_LEGAL_ID_CELEX>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/8469</VALUE>
-								<IDENTIFIER>8469</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>8469</IDENTIFIER>
-							<PREFLABEL>financial services</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/8469</VALUE>
-								<IDENTIFIER>8469</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>8469</IDENTIFIER>
-							<PREFLABEL>financial services</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="1" path="1">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/100148</VALUE>
 								<IDENTIFIER>100148</IDENTIFIER>
@@ -1854,8 +1829,8 @@ transfers and direct debits</VALUE>
 							</URI>
 							<IDENTIFIER>24</IDENTIFIER>
 							<PREFLABEL>24 FINANCE</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="2" path="1">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/100200</VALUE>
 								<IDENTIFIER>100200</IDENTIFIER>
@@ -1863,10 +1838,56 @@ transfers and direct debits</VALUE>
 							</URI>
 							<IDENTIFIER>2416</IDENTIFIER>
 							<PREFLABEL>2416 financial institutions and credit</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="3" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/8469</VALUE>
+								<IDENTIFIER>8469</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>8469</IDENTIFIER>
+							<PREFLABEL>financial services</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="4" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/8469</VALUE>
+								<IDENTIFIER>8469</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>8469</IDENTIFIER>
+							<PREFLABEL>financial services</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="1" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100148</VALUE>
+								<IDENTIFIER>100148</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>24</IDENTIFIER>
+							<PREFLABEL>24 FINANCE</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="2" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100199</VALUE>
+								<IDENTIFIER>100199</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>2411</IDENTIFIER>
+							<PREFLABEL>2411 monetary economics</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="3" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/1809</VALUE>
+								<IDENTIFIER>1809</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>1809</IDENTIFIER>
+							<PREFLABEL>money market</PREFLABEL>
+							<ALTLABEL>international money market</ALTLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="4" path="1">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/1971</VALUE>
 								<IDENTIFIER>1971</IDENTIFIER>
@@ -1886,18 +1907,10 @@ transfers and direct debits</VALUE>
 							<ALTLABEL>debit card</ALTLABEL>
 							<ALTLABEL>charge card</ALTLABEL>
 							<ALTLABEL>defered debit card</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/1809</VALUE>
-								<IDENTIFIER>1809</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>1809</IDENTIFIER>
-							<PREFLABEL>money market</PREFLABEL>
-							<ALTLABEL>international money market</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="1" path="1">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/100148</VALUE>
 								<IDENTIFIER>100148</IDENTIFIER>
@@ -1905,19 +1918,26 @@ transfers and direct debits</VALUE>
 							</URI>
 							<IDENTIFIER>24</IDENTIFIER>
 							<PREFLABEL>24 FINANCE</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="2" path="1">
 							<URI>
-								<VALUE>http://eurovoc.europa.eu/100199</VALUE>
-								<IDENTIFIER>100199</IDENTIFIER>
+								<VALUE>http://eurovoc.europa.eu/100201</VALUE>
+								<IDENTIFIER>100201</IDENTIFIER>
 								<TYPE>EUROVOC</TYPE>
 							</URI>
-							<IDENTIFIER>2411</IDENTIFIER>
-							<PREFLABEL>2411 monetary economics</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+							<IDENTIFIER>2421</IDENTIFIER>
+							<PREFLABEL>2421 free movement of capital</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="3" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/1630</VALUE>
+								<IDENTIFIER>1630</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>1630</IDENTIFIER>
+							<PREFLABEL>free movement of capital</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="4" path="1">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/560</VALUE>
 								<IDENTIFIER>560</IDENTIFIER>
@@ -1926,34 +1946,7 @@ transfers and direct debits</VALUE>
 							<IDENTIFIER>560</IDENTIFIER>
 							<PREFLABEL>financial legislation</PREFLABEL>
 							<ALTLABEL>transaction regulations</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/1630</VALUE>
-								<IDENTIFIER>1630</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>1630</IDENTIFIER>
-							<PREFLABEL>free movement of capital</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100148</VALUE>
-								<IDENTIFIER>100148</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>24</IDENTIFIER>
-							<PREFLABEL>24 FINANCE</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100201</VALUE>
-								<IDENTIFIER>100201</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>2421</IDENTIFIER>
-							<PREFLABEL>2421 free movement of capital</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					<ID_SECTOR type="data">
 						<VALUE>5</VALUE>
@@ -1964,12 +1957,6 @@ transfers and direct debits</VALUE>
 					<RESOURCE_LEGAL_YEAR type="data">
 						<VALUE>2014</VALUE>
 					</RESOURCE_LEGAL_YEAR>
-					<TYPE>cdm:act_preparatory_eesc</TYPE>
-					<TYPE>cdm:act_preparatory</TYPE>
-					<TYPE>cdm:resource_legal</TYPE>
-					<TYPE>cdm:work</TYPE>
-					<TYPE>cdm:opinion_other_eesc</TYPE>
-					<TYPE>cdm:opinion_ec</TYPE>
 				</WORK>
 				<EXPRESSION>
 					<EXPRESSION_TITLE type="data">
@@ -2425,8 +2412,8 @@ transfers and direct debits</VALUE>
 			</EVENT_LEGAL_USES_CONCEPT_TYPE_DECISION>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
 				<WORK>
-					<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_level">
-						<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1 type="concept">
+					<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_hierarchy">
+						<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_hierarchy_concept" path="1" level="1">
 							<URI>
 								<VALUE>http://publications.europa.eu/resource/authority/fd_070/LCC</VALUE>
 								<IDENTIFIER>LCC</IDENTIFIER>
@@ -2435,10 +2422,10 @@ transfers and direct debits</VALUE>
 							<OP-CODE>LCC</OP-CODE>
 							<IDENTIFIER>LCC</IDENTIFIER>
 							<PREFLABEL>Free movement of capital</PREFLABEL>
-						</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1>
+						</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER>
 					</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER>
-					<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_level">
-						<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1 type="concept">
+					<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_hierarchy">
+						<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_hierarchy_concept" path="1" level="1">
 							<URI>
 								<VALUE>http://publications.europa.eu/resource/authority/fd_070/MARI</VALUE>
 								<IDENTIFIER>MARI</IDENTIFIER>
@@ -2447,7 +2434,7 @@ transfers and direct debits</VALUE>
 							<OP-CODE>MARI</OP-CODE>
 							<IDENTIFIER>MARI</IDENTIFIER>
 							<PREFLABEL>Internal market - Principles</PREFLABEL>
-						</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1>
+						</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER>
 					</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER>
 					<WORK_HAS_RESOURCE-TYPE type="concept">
 						<URI>
@@ -2467,12 +2454,40 @@ transfers and direct debits</VALUE>
 						<YEAR>2014</YEAR>
 						<MONTH>02</MONTH>
 						<DAY>04</DAY>
-						<ANNOTATION>
-							<COMMENT_ON_DATE>{DATVOT|http://publications.europa.eu/resource/authority/fd_365/DATVOT}</COMMENT_ON_DATE>
-						</ANNOTATION>
+						<!--XXX-->
+						<COMMENT_ON_DATE type="annotation">
+							<VALUE>{DATVOT|http://publications.europa.eu/resource/authority/fd_365/DATVOT}</VALUE>
+						</COMMENT_ON_DATE>
 					</WORK_DATE_DOCUMENT>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="1" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100148</VALUE>
+								<IDENTIFIER>100148</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>24</IDENTIFIER>
+							<PREFLABEL>24 FINANCE</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="2" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100201</VALUE>
+								<IDENTIFIER>100201</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>2421</IDENTIFIER>
+							<PREFLABEL>2421 free movement of capital</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="3" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/1630</VALUE>
+								<IDENTIFIER>1630</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>1630</IDENTIFIER>
+							<PREFLABEL>free movement of capital</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="4" path="1">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/4493</VALUE>
 								<IDENTIFIER>4493</IDENTIFIER>
@@ -2481,34 +2496,7 @@ transfers and direct debits</VALUE>
 							<IDENTIFIER>4493</IDENTIFIER>
 							<PREFLABEL>capital transfer</PREFLABEL>
 							<ALTLABEL>financial transfer</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/1630</VALUE>
-								<IDENTIFIER>1630</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>1630</IDENTIFIER>
-							<PREFLABEL>free movement of capital</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100148</VALUE>
-								<IDENTIFIER>100148</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>24</IDENTIFIER>
-							<PREFLABEL>24 FINANCE</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100201</VALUE>
-								<IDENTIFIER>100201</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>2421</IDENTIFIER>
-							<PREFLABEL>2421 free movement of capital</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					<RESOURCE_LEGAL_NUMBER_NATURAL_CELEX type="data">
 						<VALUE>0049</VALUE>
@@ -2522,8 +2510,36 @@ transfers and direct debits</VALUE>
 					<ID_CELEX type="data">
 						<VALUE>52014AP0049</VALUE>
 					</ID_CELEX>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="1" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100148</VALUE>
+								<IDENTIFIER>100148</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>24</IDENTIFIER>
+							<PREFLABEL>24 FINANCE</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="2" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100199</VALUE>
+								<IDENTIFIER>100199</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>2411</IDENTIFIER>
+							<PREFLABEL>2411 monetary economics</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="3" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/1809</VALUE>
+								<IDENTIFIER>1809</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>1809</IDENTIFIER>
+							<PREFLABEL>money market</PREFLABEL>
+							<ALTLABEL>international money market</ALTLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="4" path="1">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/1971</VALUE>
 								<IDENTIFIER>1971</IDENTIFIER>
@@ -2543,56 +2559,10 @@ transfers and direct debits</VALUE>
 							<ALTLABEL>debit card</ALTLABEL>
 							<ALTLABEL>charge card</ALTLABEL>
 							<ALTLABEL>defered debit card</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/1809</VALUE>
-								<IDENTIFIER>1809</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>1809</IDENTIFIER>
-							<PREFLABEL>money market</PREFLABEL>
-							<ALTLABEL>international money market</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100148</VALUE>
-								<IDENTIFIER>100148</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>24</IDENTIFIER>
-							<PREFLABEL>24 FINANCE</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100199</VALUE>
-								<IDENTIFIER>100199</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>2411</IDENTIFIER>
-							<PREFLABEL>2411 monetary economics</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/8469</VALUE>
-								<IDENTIFIER>8469</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>8469</IDENTIFIER>
-							<PREFLABEL>financial services</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/8469</VALUE>
-								<IDENTIFIER>8469</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>8469</IDENTIFIER>
-							<PREFLABEL>financial services</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="1" path="1">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/100148</VALUE>
 								<IDENTIFIER>100148</IDENTIFIER>
@@ -2600,8 +2570,8 @@ transfers and direct debits</VALUE>
 							</URI>
 							<IDENTIFIER>24</IDENTIFIER>
 							<PREFLABEL>24 FINANCE</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="2" path="1">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/100200</VALUE>
 								<IDENTIFIER>100200</IDENTIFIER>
@@ -2609,13 +2579,58 @@ transfers and direct debits</VALUE>
 							</URI>
 							<IDENTIFIER>2416</IDENTIFIER>
 							<PREFLABEL>2416 financial institutions and credit</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="3" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/8469</VALUE>
+								<IDENTIFIER>8469</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>8469</IDENTIFIER>
+							<PREFLABEL>financial services</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="4" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/8469</VALUE>
+								<IDENTIFIER>8469</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>8469</IDENTIFIER>
+							<PREFLABEL>financial services</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					<RESOURCE_LEGAL_ID_CELEX type="data">
 						<VALUE>52014AP0049</VALUE>
 					</RESOURCE_LEGAL_ID_CELEX>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="1" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100148</VALUE>
+								<IDENTIFIER>100148</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>24</IDENTIFIER>
+							<PREFLABEL>24 FINANCE</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="2" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100201</VALUE>
+								<IDENTIFIER>100201</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>2421</IDENTIFIER>
+							<PREFLABEL>2421 free movement of capital</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="3" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/1630</VALUE>
+								<IDENTIFIER>1630</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>1630</IDENTIFIER>
+							<PREFLABEL>free movement of capital</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="4" path="1">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/560</VALUE>
 								<IDENTIFIER>560</IDENTIFIER>
@@ -2624,37 +2639,10 @@ transfers and direct debits</VALUE>
 							<IDENTIFIER>560</IDENTIFIER>
 							<PREFLABEL>financial legislation</PREFLABEL>
 							<ALTLABEL>transaction regulations</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/1630</VALUE>
-								<IDENTIFIER>1630</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>1630</IDENTIFIER>
-							<PREFLABEL>free movement of capital</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100148</VALUE>
-								<IDENTIFIER>100148</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>24</IDENTIFIER>
-							<PREFLABEL>24 FINANCE</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100201</VALUE>
-								<IDENTIFIER>100201</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>2421</IDENTIFIER>
-							<PREFLABEL>2421 free movement of capital</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
-					<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_level">
-						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_4 type="concept">
+					<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_hierarchy">
+						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_hierarchy_concept" path="1" level="4">
 							<URI>
 								<VALUE>http://publications.europa.eu/resource/authority/fd_555/06202020</VALUE>
 								<IDENTIFIER>06202020</IDENTIFIER>
@@ -2663,8 +2651,8 @@ transfers and direct debits</VALUE>
 							<OP-CODE>06202020</OP-CODE>
 							<IDENTIFIER>06202020</IDENTIFIER>
 							<PREFLABEL>Banks</PREFLABEL>
-						</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_4>
-						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_2 type="concept">
+						</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE>
+						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_hierarchy_concept" path="1" level="2">
 							<URI>
 								<VALUE>http://publications.europa.eu/resource/authority/fd_555/0620</VALUE>
 								<IDENTIFIER>0620</IDENTIFIER>
@@ -2673,8 +2661,8 @@ transfers and direct debits</VALUE>
 							<OP-CODE>0620</OP-CODE>
 							<IDENTIFIER>0620</IDENTIFIER>
 							<PREFLABEL>Sectoral application</PREFLABEL>
-						</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_2>
-						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_1 type="concept">
+						</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE>
+						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_hierarchy_concept" path="1" level="1">
 							<URI>
 								<VALUE>http://publications.europa.eu/resource/authority/fd_555/06</VALUE>
 								<IDENTIFIER>06</IDENTIFIER>
@@ -2683,8 +2671,8 @@ transfers and direct debits</VALUE>
 							<OP-CODE>06</OP-CODE>
 							<IDENTIFIER>06</IDENTIFIER>
 							<PREFLABEL>Right of establishment and freedom to provide services</PREFLABEL>
-						</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_1>
-						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_3 type="concept">
+						</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE>
+						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_hierarchy_concept" path="1" level="3">
 							<URI>
 								<VALUE>http://publications.europa.eu/resource/authority/fd_555/062020</VALUE>
 								<IDENTIFIER>062020</IDENTIFIER>
@@ -2693,10 +2681,40 @@ transfers and direct debits</VALUE>
 							<OP-CODE>062020</OP-CODE>
 							<IDENTIFIER>062020</IDENTIFIER>
 							<PREFLABEL>Service activities</PREFLABEL>
-						</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_3>
+						</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE>
 					</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="1" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100148</VALUE>
+								<IDENTIFIER>100148</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>24</IDENTIFIER>
+							<PREFLABEL>24 FINANCE</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="2" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100199</VALUE>
+								<IDENTIFIER>100199</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>2411</IDENTIFIER>
+							<PREFLABEL>2411 monetary economics</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="3" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/4602</VALUE>
+								<IDENTIFIER>4602</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>4602</IDENTIFIER>
+							<PREFLABEL>Economic and Monetary Union</PREFLABEL>
+							<ALTLABEL>Werner plan</ALTLABEL>
+							<ALTLABEL>EMU</ALTLABEL>
+							<ALTLABEL>Werner report</ALTLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="4" path="1">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/2220</VALUE>
 								<IDENTIFIER>2220</IDENTIFIER>
@@ -2710,43 +2728,8 @@ transfers and direct debits</VALUE>
 							<ALTLABEL>intra-Eurosystem transaction</ALTLABEL>
 							<ALTLABEL>Target payment system</ALTLABEL>
 							<ALTLABEL>TARGET2</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/4602</VALUE>
-								<IDENTIFIER>4602</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>4602</IDENTIFIER>
-							<PREFLABEL>Economic and Monetary Union</PREFLABEL>
-							<ALTLABEL>Werner plan</ALTLABEL>
-							<ALTLABEL>EMU</ALTLABEL>
-							<ALTLABEL>Werner report</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100148</VALUE>
-								<IDENTIFIER>100148</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>24</IDENTIFIER>
-							<PREFLABEL>24 FINANCE</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100199</VALUE>
-								<IDENTIFIER>100199</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>2411</IDENTIFIER>
-							<PREFLABEL>2411 monetary economics</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
-					<TYPE>cdm:question_parliamentary</TYPE>
-					<TYPE>cdm:work</TYPE>
-					<TYPE>cdm:resource_legal</TYPE>
-					<TYPE>cdm:act_preparatory</TYPE>
-					<TYPE>cdm:legislation_secondary</TYPE>
 				</WORK>
 				<EXPRESSION>
 					<EXPRESSION_TITLE type="data">
@@ -2989,8 +2972,37 @@ transfers and direct debits</VALUE>
 			</CONTAINS>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
 				<WORK>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="1" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100144</VALUE>
+								<IDENTIFIER>100144</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>10</IDENTIFIER>
+							<PREFLABEL>10 EUROPEAN UNION</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="2" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100175</VALUE>
+								<IDENTIFIER>100175</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>1011</IDENTIFIER>
+							<PREFLABEL>1011 European Union law</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="3" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/4017</VALUE>
+								<IDENTIFIER>4017</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>4017</IDENTIFIER>
+							<PREFLABEL>EU legal system</PREFLABEL>
+							<ALTLABEL>European Union legal system</ALTLABEL>
+							<ALTLABEL>Community legal system</ALTLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="4" path="1">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/8468</VALUE>
 								<IDENTIFIER>8468</IDENTIFIER>
@@ -3002,39 +3014,10 @@ transfers and direct debits</VALUE>
 							<ALTLABEL>legal security</ALTLABEL>
 							<ALTLABEL>certainty of law</ALTLABEL>
 							<ALTLABEL>principle of equality and legal certainty</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/4017</VALUE>
-								<IDENTIFIER>4017</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>4017</IDENTIFIER>
-							<PREFLABEL>EU legal system</PREFLABEL>
-							<ALTLABEL>European Union legal system</ALTLABEL>
-							<ALTLABEL>Community legal system</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100144</VALUE>
-								<IDENTIFIER>100144</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>10</IDENTIFIER>
-							<PREFLABEL>10 EUROPEAN UNION</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100175</VALUE>
-								<IDENTIFIER>100175</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>1011</IDENTIFIER>
-							<PREFLABEL>1011 European Union law</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
-					<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_level">
-						<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1 type="concept">
+					<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_hierarchy">
+						<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_hierarchy_concept" path="1" level="1">
 							<URI>
 								<VALUE>http://publications.europa.eu/resource/authority/subject-matter/MARI</VALUE>
 								<IDENTIFIER>MARI</IDENTIFIER>
@@ -3043,7 +3026,7 @@ transfers and direct debits</VALUE>
 							<OP-CODE>MARI</OP-CODE>
 							<IDENTIFIER>MARI</IDENTIFIER>
 							<PREFLABEL>Internal market - Principles</PREFLABEL>
-						</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1>
+						</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER>
 					</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER>
 					<WORK_HAS_RESOURCE-TYPE type="concept">
 						<URI>
@@ -3056,8 +3039,8 @@ transfers and direct debits</VALUE>
 						<PREFLABEL>Opinion</PREFLABEL>
 						<ALTLABEL>Opinions</ALTLABEL>
 					</WORK_HAS_RESOURCE-TYPE>
-					<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_level">
-						<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_2 type="concept">
+					<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_hierarchy">
+						<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_hierarchy_concept" path="1" level="2">
 							<URI>
 								<VALUE>http://publications.europa.eu/resource/authority/subject-matter/c_cd441130</VALUE>
 								<IDENTIFIER>c_cd441130</IDENTIFIER>
@@ -3066,8 +3049,8 @@ transfers and direct debits</VALUE>
 							<OP-CODE>c_cd441130</OP-CODE>
 							<IDENTIFIER>c_cd441130</IDENTIFIER>
 							<PREFLABEL>Payment and settlement systems</PREFLABEL>
-						</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_2>
-						<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1 type="concept">
+						</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER>
+						<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_hierarchy_concept" path="1" level="1">
 							<URI>
 								<VALUE>http://publications.europa.eu/resource/authority/subject-matter/BCE</VALUE>
 								<IDENTIFIER>BCE</IDENTIFIER>
@@ -3076,7 +3059,7 @@ transfers and direct debits</VALUE>
 							<OP-CODE>BCE</OP-CODE>
 							<IDENTIFIER>BCE</IDENTIFIER>
 							<PREFLABEL>European Central Bank (ECB)</PREFLABEL>
-						</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1>
+						</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER>
 					</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER>
 					<RESOURCE_LEGAL_NUMBER_NATURAL_CELEX type="data">
 						<VALUE>0003</VALUE>
@@ -3084,8 +3067,35 @@ transfers and direct debits</VALUE>
 					<RESOURCE_LEGAL_ID_CELEX type="data">
 						<VALUE>52014AB0003</VALUE>
 					</RESOURCE_LEGAL_ID_CELEX>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="1" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100148</VALUE>
+								<IDENTIFIER>100148</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>24</IDENTIFIER>
+							<PREFLABEL>24 FINANCE</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="2" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100201</VALUE>
+								<IDENTIFIER>100201</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>2421</IDENTIFIER>
+							<PREFLABEL>2421 free movement of capital</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="3" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/1630</VALUE>
+								<IDENTIFIER>1630</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>1630</IDENTIFIER>
+							<PREFLABEL>free movement of capital</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="4" path="1">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/4493</VALUE>
 								<IDENTIFIER>4493</IDENTIFIER>
@@ -3094,34 +3104,7 @@ transfers and direct debits</VALUE>
 							<IDENTIFIER>4493</IDENTIFIER>
 							<PREFLABEL>capital transfer</PREFLABEL>
 							<ALTLABEL>financial transfer</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/1630</VALUE>
-								<IDENTIFIER>1630</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>1630</IDENTIFIER>
-							<PREFLABEL>free movement of capital</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100148</VALUE>
-								<IDENTIFIER>100148</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>24</IDENTIFIER>
-							<PREFLABEL>24 FINANCE</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100201</VALUE>
-								<IDENTIFIER>100201</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>2421</IDENTIFIER>
-							<PREFLABEL>2421 free movement of capital</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					<WORK_DATE_DOCUMENT type="date">
 						<VALUE>2014-01-22</VALUE>
@@ -3132,8 +3115,35 @@ transfers and direct debits</VALUE>
 					<ID_CELEX type="data">
 						<VALUE>52014AB0003</VALUE>
 					</ID_CELEX>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="1" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100148</VALUE>
+								<IDENTIFIER>100148</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>24</IDENTIFIER>
+							<PREFLABEL>24 FINANCE</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="2" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100198</VALUE>
+								<IDENTIFIER>100198</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>2406</IDENTIFIER>
+							<PREFLABEL>2406 monetary relations</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="3" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/3239</VALUE>
+								<IDENTIFIER>3239</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>3239</IDENTIFIER>
+							<PREFLABEL>monetary relations</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="4" path="1">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/6151</VALUE>
 								<IDENTIFIER>6151</IDENTIFIER>
@@ -3143,37 +3153,37 @@ transfers and direct debits</VALUE>
 							<PREFLABEL>euro area</PREFLABEL>
 							<ALTLABEL>Euroland</ALTLABEL>
 							<ALTLABEL>eurozone</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/3239</VALUE>
-								<IDENTIFIER>3239</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>3239</IDENTIFIER>
-							<PREFLABEL>monetary relations</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100148</VALUE>
-								<IDENTIFIER>100148</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>24</IDENTIFIER>
-							<PREFLABEL>24 FINANCE</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100198</VALUE>
-								<IDENTIFIER>100198</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>2406</IDENTIFIER>
-							<PREFLABEL>2406 monetary relations</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="1" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100147</VALUE>
+								<IDENTIFIER>100147</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>20</IDENTIFIER>
+							<PREFLABEL>20 TRADE</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="2" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100195</VALUE>
+								<IDENTIFIER>100195</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>2026</IDENTIFIER>
+							<PREFLABEL>2026 consumption</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="3" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/138</VALUE>
+								<IDENTIFIER>138</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>138</IDENTIFIER>
+							<PREFLABEL>consumer</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="4" path="1">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/2836</VALUE>
 								<IDENTIFIER>2836</IDENTIFIER>
@@ -3184,40 +3194,13 @@ transfers and direct debits</VALUE>
 							<ALTLABEL>consumerism</ALTLABEL>
 							<ALTLABEL>consumer policy action plan</ALTLABEL>
 							<ALTLABEL>consumers' rights</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/138</VALUE>
-								<IDENTIFIER>138</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>138</IDENTIFIER>
-							<PREFLABEL>consumer</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100147</VALUE>
-								<IDENTIFIER>100147</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>20</IDENTIFIER>
-							<PREFLABEL>20 TRADE</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100195</VALUE>
-								<IDENTIFIER>100195</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>2026</IDENTIFIER>
-							<PREFLABEL>2026 consumption</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					<ID_SECTOR type="data">
 						<VALUE>5</VALUE>
 					</ID_SECTOR>
-					<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_level">
-						<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1 type="concept">
+					<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_hierarchy">
+						<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_hierarchy_concept" path="1" level="1">
 							<URI>
 								<VALUE>http://publications.europa.eu/resource/authority/subject-matter/LCC</VALUE>
 								<IDENTIFIER>LCC</IDENTIFIER>
@@ -3226,13 +3209,43 @@ transfers and direct debits</VALUE>
 							<OP-CODE>LCC</OP-CODE>
 							<IDENTIFIER>LCC</IDENTIFIER>
 							<PREFLABEL>Free movement of capital</PREFLABEL>
-						</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1>
+						</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER>
 					</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER>
 					<RESOURCE_LEGAL_YEAR type="data">
 						<VALUE>2014</VALUE>
 					</RESOURCE_LEGAL_YEAR>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="1" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100148</VALUE>
+								<IDENTIFIER>100148</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>24</IDENTIFIER>
+							<PREFLABEL>24 FINANCE</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="2" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100199</VALUE>
+								<IDENTIFIER>100199</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>2411</IDENTIFIER>
+							<PREFLABEL>2411 monetary economics</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="3" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/4602</VALUE>
+								<IDENTIFIER>4602</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>4602</IDENTIFIER>
+							<PREFLABEL>Economic and Monetary Union</PREFLABEL>
+							<ALTLABEL>Werner plan</ALTLABEL>
+							<ALTLABEL>EMU</ALTLABEL>
+							<ALTLABEL>Werner report</ALTLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="4" path="1">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/2220</VALUE>
 								<IDENTIFIER>2220</IDENTIFIER>
@@ -3246,40 +3259,10 @@ transfers and direct debits</VALUE>
 							<ALTLABEL>intra-Eurosystem transaction</ALTLABEL>
 							<ALTLABEL>TARGET2</ALTLABEL>
 							<ALTLABEL>Target payment system</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/4602</VALUE>
-								<IDENTIFIER>4602</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>4602</IDENTIFIER>
-							<PREFLABEL>Economic and Monetary Union</PREFLABEL>
-							<ALTLABEL>Werner plan</ALTLABEL>
-							<ALTLABEL>EMU</ALTLABEL>
-							<ALTLABEL>Werner report</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100148</VALUE>
-								<IDENTIFIER>100148</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>24</IDENTIFIER>
-							<PREFLABEL>24 FINANCE</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100199</VALUE>
-								<IDENTIFIER>100199</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>2411</IDENTIFIER>
-							<PREFLABEL>2411 monetary economics</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
-					<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_level">
-						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_4 type="concept">
+					<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_hierarchy">
+						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_hierarchy_concept" path="1" level="4">
 							<URI>
 								<VALUE>http://publications.europa.eu/resource/authority/fd_555/06202020</VALUE>
 								<IDENTIFIER>06202020</IDENTIFIER>
@@ -3288,8 +3271,8 @@ transfers and direct debits</VALUE>
 							<OP-CODE>06202020</OP-CODE>
 							<IDENTIFIER>06202020</IDENTIFIER>
 							<PREFLABEL>Banks</PREFLABEL>
-						</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_4>
-						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_2 type="concept">
+						</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE>
+						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_hierarchy_concept" path="1" level="2">
 							<URI>
 								<VALUE>http://publications.europa.eu/resource/authority/fd_555/0620</VALUE>
 								<IDENTIFIER>0620</IDENTIFIER>
@@ -3298,8 +3281,8 @@ transfers and direct debits</VALUE>
 							<OP-CODE>0620</OP-CODE>
 							<IDENTIFIER>0620</IDENTIFIER>
 							<PREFLABEL>Sectoral application</PREFLABEL>
-						</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_2>
-						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_1 type="concept">
+						</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE>
+						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_hierarchy_concept" path="1" level="1">
 							<URI>
 								<VALUE>http://publications.europa.eu/resource/authority/fd_555/06</VALUE>
 								<IDENTIFIER>06</IDENTIFIER>
@@ -3308,8 +3291,8 @@ transfers and direct debits</VALUE>
 							<OP-CODE>06</OP-CODE>
 							<IDENTIFIER>06</IDENTIFIER>
 							<PREFLABEL>Right of establishment and freedom to provide services</PREFLABEL>
-						</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_1>
-						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_3 type="concept">
+						</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE>
+						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_hierarchy_concept" path="1" level="3">
 							<URI>
 								<VALUE>http://publications.europa.eu/resource/authority/fd_555/062020</VALUE>
 								<IDENTIFIER>062020</IDENTIFIER>
@@ -3318,10 +3301,41 @@ transfers and direct debits</VALUE>
 							<OP-CODE>062020</OP-CODE>
 							<IDENTIFIER>062020</IDENTIFIER>
 							<PREFLABEL>Service activities</PREFLABEL>
-						</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_3>
+						</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE>
 					</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="1" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100144</VALUE>
+								<IDENTIFIER>100144</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>10</IDENTIFIER>
+							<PREFLABEL>10 EUROPEAN UNION</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="2" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100175</VALUE>
+								<IDENTIFIER>100175</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>1011</IDENTIFIER>
+							<PREFLABEL>1011 European Union law</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="3" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/525</VALUE>
+								<IDENTIFIER>525</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>525</IDENTIFIER>
+							<PREFLABEL>EU law</PREFLABEL>
+							<ALTLABEL>Community law</ALTLABEL>
+							<ALTLABEL>Community regulations</ALTLABEL>
+							<ALTLABEL>European Union law</ALTLABEL>
+							<ALTLABEL>European law</ALTLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="4" path="1">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/3866</VALUE>
 								<IDENTIFIER>3866</IDENTIFIER>
@@ -3334,41 +3348,38 @@ transfers and direct debits</VALUE>
 							<ALTLABEL>EU fine</ALTLABEL>
 							<ALTLABEL>EU fining policy</ALTLABEL>
 							<ALTLABEL>EU penalty payment</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/525</VALUE>
-								<IDENTIFIER>525</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>525</IDENTIFIER>
-							<PREFLABEL>EU law</PREFLABEL>
-							<ALTLABEL>Community law</ALTLABEL>
-							<ALTLABEL>Community regulations</ALTLABEL>
-							<ALTLABEL>European Union law</ALTLABEL>
-							<ALTLABEL>European law</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100144</VALUE>
-								<IDENTIFIER>100144</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>10</IDENTIFIER>
-							<PREFLABEL>10 EUROPEAN UNION</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100175</VALUE>
-								<IDENTIFIER>100175</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>1011</IDENTIFIER>
-							<PREFLABEL>1011 European Union law</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="1" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100148</VALUE>
+								<IDENTIFIER>100148</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>24</IDENTIFIER>
+							<PREFLABEL>24 FINANCE</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="2" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100199</VALUE>
+								<IDENTIFIER>100199</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>2411</IDENTIFIER>
+							<PREFLABEL>2411 monetary economics</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="3" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/1809</VALUE>
+								<IDENTIFIER>1809</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>1809</IDENTIFIER>
+							<PREFLABEL>money market</PREFLABEL>
+							<ALTLABEL>international money market</ALTLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="4" path="1">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/1971</VALUE>
 								<IDENTIFIER>1971</IDENTIFIER>
@@ -3388,59 +3399,13 @@ transfers and direct debits</VALUE>
 							<ALTLABEL>debit card</ALTLABEL>
 							<ALTLABEL>charge card</ALTLABEL>
 							<ALTLABEL>defered debit card</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/1809</VALUE>
-								<IDENTIFIER>1809</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>1809</IDENTIFIER>
-							<PREFLABEL>money market</PREFLABEL>
-							<ALTLABEL>international money market</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100148</VALUE>
-								<IDENTIFIER>100148</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>24</IDENTIFIER>
-							<PREFLABEL>24 FINANCE</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100199</VALUE>
-								<IDENTIFIER>100199</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>2411</IDENTIFIER>
-							<PREFLABEL>2411 monetary economics</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					<RESOURCE_LEGAL_TYPE type="data">
 						<VALUE>AB</VALUE>
 					</RESOURCE_LEGAL_TYPE>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/8469</VALUE>
-								<IDENTIFIER>8469</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>8469</IDENTIFIER>
-							<PREFLABEL>financial services</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/8469</VALUE>
-								<IDENTIFIER>8469</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>8469</IDENTIFIER>
-							<PREFLABEL>financial services</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="1" path="1">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/100148</VALUE>
 								<IDENTIFIER>100148</IDENTIFIER>
@@ -3448,8 +3413,8 @@ transfers and direct debits</VALUE>
 							</URI>
 							<IDENTIFIER>24</IDENTIFIER>
 							<PREFLABEL>24 FINANCE</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="2" path="1">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/100200</VALUE>
 								<IDENTIFIER>100200</IDENTIFIER>
@@ -3457,10 +3422,55 @@ transfers and direct debits</VALUE>
 							</URI>
 							<IDENTIFIER>2416</IDENTIFIER>
 							<PREFLABEL>2416 financial institutions and credit</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="3" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/8469</VALUE>
+								<IDENTIFIER>8469</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>8469</IDENTIFIER>
+							<PREFLABEL>financial services</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="4" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/8469</VALUE>
+								<IDENTIFIER>8469</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>8469</IDENTIFIER>
+							<PREFLABEL>financial services</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="1" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100148</VALUE>
+								<IDENTIFIER>100148</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>24</IDENTIFIER>
+							<PREFLABEL>24 FINANCE</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="2" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100201</VALUE>
+								<IDENTIFIER>100201</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>2421</IDENTIFIER>
+							<PREFLABEL>2421 free movement of capital</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="3" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/1630</VALUE>
+								<IDENTIFIER>1630</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>1630</IDENTIFIER>
+							<PREFLABEL>free movement of capital</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="4" path="1">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/560</VALUE>
 								<IDENTIFIER>560</IDENTIFIER>
@@ -3469,40 +3479,8 @@ transfers and direct debits</VALUE>
 							<IDENTIFIER>560</IDENTIFIER>
 							<PREFLABEL>financial legislation</PREFLABEL>
 							<ALTLABEL>transaction regulations</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/1630</VALUE>
-								<IDENTIFIER>1630</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>1630</IDENTIFIER>
-							<PREFLABEL>free movement of capital</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100148</VALUE>
-								<IDENTIFIER>100148</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>24</IDENTIFIER>
-							<PREFLABEL>24 FINANCE</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100201</VALUE>
-								<IDENTIFIER>100201</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>2421</IDENTIFIER>
-							<PREFLABEL>2421 free movement of capital</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
-					<TYPE>cdm:opinion_ecb</TYPE>
-					<TYPE>cdm:work</TYPE>
-					<TYPE>cdm:opinion_ec</TYPE>
-					<TYPE>cdm:resource_legal</TYPE>
-					<TYPE>cdm:act_preparatory</TYPE>
 				</WORK>
 				<EXPRESSION>
 					<EXPRESSION_MANIFESTED_BY_MANIFESTATION type="embedded_link">
@@ -3919,8 +3897,8 @@ transfers and direct debits</VALUE>
 			</CREATIONDATE>
 			<EVENT_LEGAL_CONTAINS_WORK type="link">
 				<WORK>
-					<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_level">
-						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_4 type="concept">
+					<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_hierarchy">
+						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_hierarchy_concept" path="1" level="4">
 							<URI>
 								<VALUE>http://publications.europa.eu/resource/authority/fd_555/06202020</VALUE>
 								<IDENTIFIER>06202020</IDENTIFIER>
@@ -3929,8 +3907,8 @@ transfers and direct debits</VALUE>
 							<OP-CODE>06202020</OP-CODE>
 							<IDENTIFIER>06202020</IDENTIFIER>
 							<PREFLABEL>Banks</PREFLABEL>
-						</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_4>
-						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_2 type="concept">
+						</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE>
+						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_hierarchy_concept" path="1" level="2">
 							<URI>
 								<VALUE>http://publications.europa.eu/resource/authority/fd_555/0620</VALUE>
 								<IDENTIFIER>0620</IDENTIFIER>
@@ -3939,8 +3917,8 @@ transfers and direct debits</VALUE>
 							<OP-CODE>0620</OP-CODE>
 							<IDENTIFIER>0620</IDENTIFIER>
 							<PREFLABEL>Sectoral application</PREFLABEL>
-						</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_2>
-						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_1 type="concept">
+						</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE>
+						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_hierarchy_concept" path="1" level="1">
 							<URI>
 								<VALUE>http://publications.europa.eu/resource/authority/fd_555/06</VALUE>
 								<IDENTIFIER>06</IDENTIFIER>
@@ -3949,8 +3927,8 @@ transfers and direct debits</VALUE>
 							<OP-CODE>06</OP-CODE>
 							<IDENTIFIER>06</IDENTIFIER>
 							<PREFLABEL>Right of establishment and freedom to provide services</PREFLABEL>
-						</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_1>
-						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_3 type="concept">
+						</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE>
+						<RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE type="concept_hierarchy_concept" path="1" level="3">
 							<URI>
 								<VALUE>http://publications.europa.eu/resource/authority/fd_555/062020</VALUE>
 								<IDENTIFIER>062020</IDENTIFIER>
@@ -3959,10 +3937,39 @@ transfers and direct debits</VALUE>
 							<OP-CODE>062020</OP-CODE>
 							<IDENTIFIER>062020</IDENTIFIER>
 							<PREFLABEL>Service activities</PREFLABEL>
-						</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE_3>
+						</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE>
 					</RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="1" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100148</VALUE>
+								<IDENTIFIER>100148</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>24</IDENTIFIER>
+							<PREFLABEL>24 FINANCE</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="2" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100198</VALUE>
+								<IDENTIFIER>100198</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>2406</IDENTIFIER>
+							<PREFLABEL>2406 monetary relations</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="3" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/4370</VALUE>
+								<IDENTIFIER>4370</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>4370</IDENTIFIER>
+							<PREFLABEL>European Monetary System</PREFLABEL>
+							<ALTLABEL>monetary snake</ALTLABEL>
+							<ALTLABEL>EMS</ALTLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="4" path="1">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/2220</VALUE>
 								<IDENTIFIER>2220</IDENTIFIER>
@@ -3973,19 +3980,10 @@ transfers and direct debits</VALUE>
 							<ALTLABEL>intra-Community payment</ALTLABEL>
 							<ALTLABEL>Target system</ALTLABEL>
 							<ALTLABEL>Target payment system</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/4370</VALUE>
-								<IDENTIFIER>4370</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>4370</IDENTIFIER>
-							<PREFLABEL>European Monetary System</PREFLABEL>
-							<ALTLABEL>monetary snake</ALTLABEL>
-							<ALTLABEL>EMS</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="1" path="1">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/100148</VALUE>
 								<IDENTIFIER>100148</IDENTIFIER>
@@ -3993,19 +3991,26 @@ transfers and direct debits</VALUE>
 							</URI>
 							<IDENTIFIER>24</IDENTIFIER>
 							<PREFLABEL>24 FINANCE</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="2" path="1">
 							<URI>
-								<VALUE>http://eurovoc.europa.eu/100198</VALUE>
-								<IDENTIFIER>100198</IDENTIFIER>
+								<VALUE>http://eurovoc.europa.eu/100201</VALUE>
+								<IDENTIFIER>100201</IDENTIFIER>
 								<TYPE>EUROVOC</TYPE>
 							</URI>
-							<IDENTIFIER>2406</IDENTIFIER>
-							<PREFLABEL>2406 monetary relations</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
-					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+							<IDENTIFIER>2421</IDENTIFIER>
+							<PREFLABEL>2421 free movement of capital</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="3" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/1630</VALUE>
+								<IDENTIFIER>1630</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>1630</IDENTIFIER>
+							<PREFLABEL>free movement of capital</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="4" path="1">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/4493</VALUE>
 								<IDENTIFIER>4493</IDENTIFIER>
@@ -4014,34 +4019,7 @@ transfers and direct debits</VALUE>
 							<IDENTIFIER>4493</IDENTIFIER>
 							<PREFLABEL>capital transfer</PREFLABEL>
 							<ALTLABEL>financial transfer</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/1630</VALUE>
-								<IDENTIFIER>1630</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>1630</IDENTIFIER>
-							<PREFLABEL>free movement of capital</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100148</VALUE>
-								<IDENTIFIER>100148</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>24</IDENTIFIER>
-							<PREFLABEL>24 FINANCE</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100201</VALUE>
-								<IDENTIFIER>100201</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>2421</IDENTIFIER>
-							<PREFLABEL>2421 free movement of capital</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					<RESOURCE_LEGAL_ID_CELEX type="data">
 						<VALUE>32014R0248</VALUE>
@@ -4049,26 +4027,8 @@ transfers and direct debits</VALUE>
 					<ID_CELEX type="data">
 						<VALUE>32014R0248</VALUE>
 					</ID_CELEX>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/8469</VALUE>
-								<IDENTIFIER>8469</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>8469</IDENTIFIER>
-							<PREFLABEL>financial services</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/8469</VALUE>
-								<IDENTIFIER>8469</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>8469</IDENTIFIER>
-							<PREFLABEL>financial services</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="1" path="1">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/100148</VALUE>
 								<IDENTIFIER>100148</IDENTIFIER>
@@ -4076,8 +4036,8 @@ transfers and direct debits</VALUE>
 							</URI>
 							<IDENTIFIER>24</IDENTIFIER>
 							<PREFLABEL>24 FINANCE</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="2" path="1">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/100200</VALUE>
 								<IDENTIFIER>100200</IDENTIFIER>
@@ -4085,10 +4045,55 @@ transfers and direct debits</VALUE>
 							</URI>
 							<IDENTIFIER>2416</IDENTIFIER>
 							<PREFLABEL>2416 financial institutions and credit</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="3" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/8469</VALUE>
+								<IDENTIFIER>8469</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>8469</IDENTIFIER>
+							<PREFLABEL>financial services</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="4" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/8469</VALUE>
+								<IDENTIFIER>8469</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>8469</IDENTIFIER>
+							<PREFLABEL>financial services</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="1" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100148</VALUE>
+								<IDENTIFIER>100148</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>24</IDENTIFIER>
+							<PREFLABEL>24 FINANCE</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="2" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100201</VALUE>
+								<IDENTIFIER>100201</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>2421</IDENTIFIER>
+							<PREFLABEL>2421 free movement of capital</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="3" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/1630</VALUE>
+								<IDENTIFIER>1630</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>1630</IDENTIFIER>
+							<PREFLABEL>free movement of capital</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="4" path="1">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/560</VALUE>
 								<IDENTIFIER>560</IDENTIFIER>
@@ -4097,40 +4102,13 @@ transfers and direct debits</VALUE>
 							<IDENTIFIER>560</IDENTIFIER>
 							<PREFLABEL>financial legislation</PREFLABEL>
 							<ALTLABEL>transaction regulations</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/1630</VALUE>
-								<IDENTIFIER>1630</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>1630</IDENTIFIER>
-							<PREFLABEL>free movement of capital</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100148</VALUE>
-								<IDENTIFIER>100148</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>24</IDENTIFIER>
-							<PREFLABEL>24 FINANCE</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100201</VALUE>
-								<IDENTIFIER>100201</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>2421</IDENTIFIER>
-							<PREFLABEL>2421 free movement of capital</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					<ID_SECTOR type="data">
 						<VALUE>3</VALUE>
 					</ID_SECTOR>
-					<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_level">
-						<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1 type="concept">
+					<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_hierarchy">
+						<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_hierarchy_concept" path="1" level="1">
 							<URI>
 								<VALUE>http://publications.europa.eu/resource/authority/fd_070/MARI</VALUE>
 								<IDENTIFIER>MARI</IDENTIFIER>
@@ -4139,7 +4117,7 @@ transfers and direct debits</VALUE>
 							<OP-CODE>MARI</OP-CODE>
 							<IDENTIFIER>MARI</IDENTIFIER>
 							<PREFLABEL>Internal market - Principles</PREFLABEL>
-						</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1>
+						</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER>
 					</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER>
 					<WORK_DATE_DOCUMENT type="date">
 						<VALUE>2014-02-26</VALUE>
@@ -4147,8 +4125,36 @@ transfers and direct debits</VALUE>
 						<MONTH>02</MONTH>
 						<DAY>26</DAY>
 					</WORK_DATE_DOCUMENT>
-					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
+					<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy">
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="1" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100148</VALUE>
+								<IDENTIFIER>100148</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>24</IDENTIFIER>
+							<PREFLABEL>24 FINANCE</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="2" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/100199</VALUE>
+								<IDENTIFIER>100199</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>2411</IDENTIFIER>
+							<PREFLABEL>2411 monetary economics</PREFLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="3" path="1">
+							<URI>
+								<VALUE>http://eurovoc.europa.eu/1809</VALUE>
+								<IDENTIFIER>1809</IDENTIFIER>
+								<TYPE>EUROVOC</TYPE>
+							</URI>
+							<IDENTIFIER>1809</IDENTIFIER>
+							<PREFLABEL>money market</PREFLABEL>
+							<ALTLABEL>international money market</ALTLABEL>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
+						<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="4" path="1">
 							<URI>
 								<VALUE>http://eurovoc.europa.eu/1971</VALUE>
 								<IDENTIFIER>1971</IDENTIFIER>
@@ -4161,35 +4167,7 @@ transfers and direct debits</VALUE>
 							<ALTLABEL>auto-bank card</ALTLABEL>
 							<ALTLABEL>credit card</ALTLABEL>
 							<ALTLABEL>payment card</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_TT type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/1809</VALUE>
-								<IDENTIFIER>1809</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>1809</IDENTIFIER>
-							<PREFLABEL>money market</PREFLABEL>
-							<ALTLABEL>international money market</ALTLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_TT>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100148</VALUE>
-								<IDENTIFIER>100148</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>24</IDENTIFIER>
-							<PREFLABEL>24 FINANCE</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM>
-						<WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH type="concept">
-							<URI>
-								<VALUE>http://eurovoc.europa.eu/100199</VALUE>
-								<IDENTIFIER>100199</IDENTIFIER>
-								<TYPE>EUROVOC</TYPE>
-							</URI>
-							<IDENTIFIER>2411</IDENTIFIER>
-							<PREFLABEL>2411 monetary economics</PREFLABEL>
-						</WORK_IS_ABOUT_CONCEPT_EUROVOC_MTH>
+						</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 					<WORK_HAS_RESOURCE-TYPE type="concept">
 						<URI>
@@ -4205,8 +4183,8 @@ transfers and direct debits</VALUE>
 					<RESOURCE_LEGAL_YEAR type="data">
 						<VALUE>2014</VALUE>
 					</RESOURCE_LEGAL_YEAR>
-					<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_level">
-						<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1 type="concept">
+					<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_hierarchy">
+						<RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER type="concept_hierarchy_concept" path="1" level="1">
 							<URI>
 								<VALUE>http://publications.europa.eu/resource/authority/fd_070/LCC</VALUE>
 								<IDENTIFIER>LCC</IDENTIFIER>
@@ -4215,7 +4193,7 @@ transfers and direct debits</VALUE>
 							<OP-CODE>LCC</OP-CODE>
 							<IDENTIFIER>LCC</IDENTIFIER>
 							<PREFLABEL>Free movement of capital</PREFLABEL>
-						</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER_1>
+						</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER>
 					</RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER>
 					<RESOURCE_LEGAL_NUMBER_NATURAL_CELEX type="data">
 						<VALUE>0248</VALUE>
@@ -4223,10 +4201,6 @@ transfers and direct debits</VALUE>
 					<RESOURCE_LEGAL_TYPE type="data">
 						<VALUE>R</VALUE>
 					</RESOURCE_LEGAL_TYPE>
-					<TYPE>cdm:legislation_secondary</TYPE>
-					<TYPE>cdm:work</TYPE>
-					<TYPE>cdm:resource_legal</TYPE>
-					<TYPE>cdm:regulation</TYPE>
 				</WORK>
 				<EXPRESSION>
 					<EXPRESSION_MANIFESTED_BY_MANIFESTATION type="embedded_link">
@@ -4359,9 +4333,9 @@ transfers and direct debits</VALUE>
 				<DAY>05</DAY>
 			</LASTMODIFICATIONDATE>
 		</EVENT>
-		<TYPE>cdm:period</TYPE>
-		<TYPE>cdm:procedure_code_interinstitutional</TYPE>
-		<TYPE>cdm:dossier</TYPE>
-		<TYPE>cdm:entity_temporal</TYPE>
+		<TYPE type="type">cdm:period</TYPE>
+		<TYPE type="type">cdm:procedure_code_interinstitutional</TYPE>
+		<TYPE type="type">cdm:dossier</TYPE>
+		<TYPE type="type">cdm:entity_temporal</TYPE>
 	</DOSSIER>
 </NOTICE>
