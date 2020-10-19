@@ -29,7 +29,8 @@ The list of alternative identifiers for this URI are requested.</xs:documentatio
 		<xs:restriction base="xs:string">
 			<xs:enumeration value="date"/>
 			<xs:enumeration value="concept_hierarchy"/>
-			<xs:enumeration value="concept_hierarchy_concept"/>
+			<xs:enumeration value="concept_hierarchy_path"/>
+			<xs:enumeration value="concept_hierarchy_path_concept"/>
 			<xs:enumeration value="concept"/>
 			<xs:enumeration value="data"/>
 			<xs:enumeration value="memberlist"/>
@@ -285,18 +286,25 @@ The name of the element is dynamic and is replaced by the metadata property name
 			<xs:annotation>
 				<xs:documentation xml:lang="en">the order of the child elements is arbitrary.</xs:documentation>
 			</xs:annotation>
-			<xs:element name="p_name_concept_hierarchy_concept" maxOccurs="unbounded">
-				<xs:annotation>
-					<xs:documentation xml:lang="en">The prefix 'p_name' is dynamic and takes the value of the classifying property name</xs:documentation>
-				</xs:annotation>
+			<xs:element name="concept_hierarchy_path" maxOccurs="unbounded">
 				<xs:complexType>
-					<xs:complexContent>
-						<xs:extension base="Concept">
-							<xs:attribute name="type" type="types" use="required" fixed="concept_hierarchy_concept"/>
-							<xs:attribute ref="path" use="required"/>
-							<xs:attribute ref="level" use="required"/>
-						</xs:extension>
-					</xs:complexContent>
+					<xs:sequence>
+						<xs:element name="p_name_concept_hierarchy_concept" maxOccurs="unbounded">
+							<xs:annotation>
+								<xs:documentation xml:lang="en">The prefix 'p_name' is dynamic and takes the value of the classifying property name</xs:documentation>
+							</xs:annotation>
+							<xs:complexType>
+								<xs:complexContent>
+									<xs:extension base="Concept">
+										<xs:attribute name="type" type="types" use="required" fixed="concept_hierarchy_path_concept"/>
+										<xs:attribute ref="leaf" use="required"/>
+										<xs:attribute ref="level" use="required"/>
+									</xs:extension>
+								</xs:complexContent>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+					<xs:attribute name="type" type="types" use="required" fixed="concept_hierarchy_path"/>
 				</xs:complexType>
 			</xs:element>
 		</xs:sequence>
