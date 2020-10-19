@@ -286,10 +286,10 @@ The name of the element is dynamic and is replaced by the metadata property name
 			<xs:annotation>
 				<xs:documentation xml:lang="en">the order of the child elements is arbitrary.</xs:documentation>
 			</xs:annotation>
-			<xs:element name="concept_hierarchy_path" maxOccurs="unbounded">
+			<xs:element name="p_name_concept_hierarchy_path" maxOccurs="unbounded">
 				<xs:complexType>
 					<xs:sequence>
-						<xs:element name="p_name_concept_hierarchy_concept" maxOccurs="unbounded">
+						<xs:element name="p_name_concept_hierarchy_path_concept" maxOccurs="unbounded">
 							<xs:annotation>
 								<xs:documentation xml:lang="en">The prefix 'p_name' is dynamic and takes the value of the classifying property name</xs:documentation>
 							</xs:annotation>

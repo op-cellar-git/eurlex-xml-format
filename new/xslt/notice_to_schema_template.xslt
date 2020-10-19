@@ -166,14 +166,22 @@
 		<xsl:element name="p_name_concept_hierarchy">
 			<xsl:apply-templates select="@*"/>
 			<xsl:comment>match="*[@type ='concept_hierarchy']"</xsl:comment>
-			<xsl:apply-templates/>
+			<xsl:apply-templates select="node()"/>
 		</xsl:element>
 	</xsl:template>
 	
-	<xsl:template match="*[@type ='concept_hierarchy_concept']">
-		<xsl:element name="p_name_concept_hierarchy_concept">
+	<xsl:template match="*[@type ='concept_hierarchy_path']">
+		<xsl:element name="p_name_concept_hierarchy_path">
 			<xsl:apply-templates select="@*"/>
-			<xsl:comment>match="*[@type ='concept_hierarchy_concept']</xsl:comment>
+			<xsl:comment>match="*[@type ='concept_hierarchy_path']</xsl:comment>
+			<xsl:apply-templates select="node()"/>
+		</xsl:element>
+	</xsl:template>
+	
+	<xsl:template match="*[@type='concept_hierarchy_path_concept']">
+		<xsl:element name="p_name_concept_hierarchy_path_concept">
+			<xsl:apply-templates select="@*"/>
+			<xsl:comment>match="*[@type ='concept_hierarchy_path']</xsl:comment>
 			<xsl:apply-templates select="URI"/>
 			<xsl:apply-templates select="IDENTIFIER"/>
 			<xsl:apply-templates select="PREFLABEL"/>

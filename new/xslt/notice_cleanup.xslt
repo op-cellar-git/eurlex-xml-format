@@ -74,7 +74,7 @@
 	<!-- alternative handling of eurovoc codes in case stylesheet has already been applied to input file -->
 	<!--xsl:template match="WORK_IS_ABOUT_CONCEPT_EUROVOC[@type='concept_hierarchy']">
 		<xsl:element name="WORK_IS_ABOUT_CONCEPT_EUROVOC">
-			<xsl:attribute name="type">concept_hierachy</xsl:attribute>
+			<xsl:attribute name="type">concept_hierarchy</xsl:attribute>
 			<xsl:element name="WORK_IS_ABOUT_CONCEPT_EUROVOC">
 				<xsl:attribute name="type">concept_hierarchy_path</xsl:attribute>
 				<xsl:apply-templates select="WORK_IS_ABOUT_CONCEPT_EUROVOC[@type='concept_hierarchy_concept']"/>
@@ -94,7 +94,7 @@
 	
 	<xsl:template match="*[@type='concept_hierarchy']">
 		<xsl:element name="{name()}">
-			<xsl:attribute name="type">concept_hierachy</xsl:attribute>
+			<xsl:attribute name="type">concept_hierarchy</xsl:attribute>
 			<xsl:comment>match="*[@type='concept_hierarchy']"</xsl:comment>
 			<xsl:element name="{name()}">
 				<xsl:attribute name="type">concept_hierarchy_path</xsl:attribute>
