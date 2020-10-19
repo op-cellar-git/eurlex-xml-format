@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- edited with XMLSpy v2019 rel. 3 sp1 (http://www.altova.com) by DG OP (OP Publications Office of the European Union) -->
-<NOTICE decoding="eng" type="branch" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/op-cellar-git/eurlex-xml-format/master/new/branch.xsd">
+<?xml version="1.0" encoding="UTF-8"?><!-- edited with XMLSpy v2019 rel. 3 sp1 (http://www.altova.com) by DG OP (OP Publications Office of the European Union) --><NOTICE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" decoding="eng" type="branch" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/op-cellar-git/eurlex-xml-format/master/new/branch.xsd">
 	<WORK>
 		<URI>
 			<VALUE>http://publications.europa.eu/resource/cellar/fc5c74e0-6255-11e8-ab9c-01aa75ed71a1</VALUE>
@@ -349,8 +347,8 @@
 				</URI>
 			</SAMEAS>
 		</WORK_CITES_WORK>
-		<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy">
-			<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="4" path="1">
+		<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy"><!--match="*[@type='concept_hierarchy']"--><WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_path">
+				<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_path_concept" level="4" leaf="true">
 				<URI>
 					<VALUE>http://eurovoc.europa.eu/1707</VALUE>
 					<IDENTIFIER>1707</IDENTIFIER>
@@ -360,7 +358,7 @@
 				<PREFLABEL>pollution control measures</PREFLABEL>
 				<ALTLABEL>reduction of pollution</ALTLABEL>
 			</WORK_IS_ABOUT_CONCEPT_EUROVOC>
-			<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="3" path="1">
+				<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_path_concept" level="3" leaf="false">
 				<URI>
 					<VALUE>http://eurovoc.europa.eu/1707</VALUE>
 					<IDENTIFIER>1707</IDENTIFIER>
@@ -370,7 +368,7 @@
 				<PREFLABEL>pollution control measures</PREFLABEL>
 				<ALTLABEL>reduction of pollution</ALTLABEL>
 			</WORK_IS_ABOUT_CONCEPT_EUROVOC>
-			<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="1" path="1">
+				<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_path_concept" level="1" leaf="false">
 				<URI>
 					<VALUE>http://eurovoc.europa.eu/100155</VALUE>
 					<IDENTIFIER>100155</IDENTIFIER>
@@ -379,7 +377,7 @@
 				<IDENTIFIER>52</IDENTIFIER>
 				<PREFLABEL>52 ENVIRONMENT</PREFLABEL>
 			</WORK_IS_ABOUT_CONCEPT_EUROVOC>
-			<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_concept" level="2" path="1">
+				<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_path_concept" level="2" leaf="false">
 				<URI>
 					<VALUE>http://eurovoc.europa.eu/100242</VALUE>
 					<IDENTIFIER>100242</IDENTIFIER>
@@ -387,6 +385,7 @@
 				</URI>
 				<IDENTIFIER>5206</IDENTIFIER>
 				<PREFLABEL>5206 environmental policy</PREFLABEL>
+			</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 			</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 		</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 		<RESOURCE_LEGAL_INFORMATION_MISCELLANEOUS type="data">
@@ -691,8 +690,12 @@
 			<YEAR>2018</YEAR>
 			<MONTH>05</MONTH>
 			<DAY>28</DAY>
-			<COMMENT_ON_DATE type="annotation"><VALUE>{TRANS/PARL|http://publications.europa.eu/resource/authority/fd_340/TRANS%2FPARL}</VALUE></COMMENT_ON_DATE>
-			<COMMENT_ON_DATE type="annotation"><VALUE>{TRANS/CONS|http://publications.europa.eu/resource/authority/fd_340/TRANS%2FCONS}</VALUE></COMMENT_ON_DATE>
+			<COMMENT_ON_DATE type="annotation">
+				<VALUE>{TRANS/PARL|http://publications.europa.eu/resource/authority/fd_340/TRANS%2FPARL}</VALUE>
+			</COMMENT_ON_DATE>
+			<COMMENT_ON_DATE type="annotation">
+				<VALUE>{TRANS/CONS|http://publications.europa.eu/resource/authority/fd_340/TRANS%2FCONS}</VALUE>
+			</COMMENT_ON_DATE>
 		</RESOURCE_LEGAL_DATE_DISPATCH>
 		<!-- COMMENTED OUT FOR THE SAKE OF SIMPLICITY -->
 		<!-- WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet">
@@ -1846,7 +1849,9 @@
 			<YEAR>2019</YEAR>
 			<MONTH>06</MONTH>
 			<DAY>05</DAY>
-			<COMMENT_ON_DATE type="annotation"><VALUE>{YD|http://publications.europa.eu/resource/authority/fd_330/YD} 32019L0904</VALUE></COMMENT_ON_DATE>
+			<COMMENT_ON_DATE type="annotation">
+				<VALUE>{YD|http://publications.europa.eu/resource/authority/fd_330/YD} 32019L0904</VALUE>
+			</COMMENT_ON_DATE>
 		</RESOURCE_LEGAL_DATE_END-OF-VALIDITY>
 		<!--WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_facet>
 			<WORK_IS_ABOUT_CONCEPT_EUROVOC_CONCEPT type="concept">
@@ -2138,10 +2143,10 @@
 				<PROCEDURE_CODE_INTERINSTITUTIONAL_YEAR_PROCEDURE type="data">
 					<VALUE>2018</VALUE>
 				</PROCEDURE_CODE_INTERINSTITUTIONAL_YEAR_PROCEDURE>
-				<TYPE>cdm:procedure_code_interinstitutional</TYPE>
-				<TYPE>cdm:dossier</TYPE>
-				<TYPE>cdm:entity_temporal</TYPE>
-				<TYPE>cdm:period</TYPE>
+				
+				
+				
+				
 			</DOSSIER>
 			<URI>
 				<VALUE>http://publications.europa.eu/resource/cellar/f03de40f-6255-11e8-ab9c-01aa75ed71a1</VALUE>
@@ -2470,10 +2475,10 @@
 				<PROCEDURE_CODE_INTERINSTITUTIONAL_YEAR_PROCEDURE type="data">
 					<VALUE>2018</VALUE>
 				</PROCEDURE_CODE_INTERINSTITUTIONAL_YEAR_PROCEDURE>
-				<TYPE>cdm:procedure_code_interinstitutional</TYPE>
-				<TYPE>cdm:dossier</TYPE>
-				<TYPE>cdm:entity_temporal</TYPE>
-				<TYPE>cdm:period</TYPE>
+				
+				
+				
+				
 			</DOSSIER>
 			<URI>
 				<VALUE>http://publications.europa.eu/resource/cellar/f03de40f-6255-11e8-ab9c-01aa75ed71a1</VALUE>
@@ -2548,10 +2553,10 @@
 		</WORK_RELATED_TO_WORK>
 		<WORK_PART_OF_DOSSIER type="link">
 			<DOSSIER>
-				<TYPE>cdm:period</TYPE>
-				<TYPE>cdm:procedure_internal</TYPE>
-				<TYPE>cdm:entity_temporal</TYPE>
-				<TYPE>cdm:dossier</TYPE>
+				
+				
+				
+				
 			</DOSSIER>
 			<URI>
 				<VALUE>http://publications.europa.eu/resource/cellar/0099fab9-625a-11e8-ab9c-01aa75ed71a1</VALUE>
