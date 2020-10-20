@@ -1402,28 +1402,14 @@
          "propety":"http://publications.europa.eu/ontology/cdm#date_creation_legacy",
          "annotations":{
             "in_notice":true,
-            "to_be_indexed":true,
-            "write_once":true
+            "to_be_indexed":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_published_in_erecueil",
          "annotations":{
             "in_notice":true,
-            "to_be_indexed":true,
-            "write_once":true
-         }
-      },
-      {
-         "propety":"http://publications.europa.eu/ontology/cdm#work_date_creation_legacy",
-         "annotations":{
-            "write_once":true
-         }
-      },
-      {
-         "propety":"http://publications.europa.eu/ontology/cdm#dossier_date_creation_legacy",
-         "annotations":{
-            "write_once":true
+            "to_be_indexed":true
          }
       },
       {
@@ -2255,14 +2241,7 @@
          "annotations":{
             "in_embedded_notice":true,
             "in_notice":true,
-            "to_be_indexed":true,
-            "write_once":true
-         }
-      },
-      {
-         "propety":"http://publications.europa.eu/ontology/cdm#official-journal_legal_effect_paper",
-         "annotations":{
-            "write_once":true
+            "to_be_indexed":true
          }
       },
       {
@@ -2604,12 +2583,6 @@
          "propety":"http://publications.europa.eu/ontology/cdm#lastmodificationdate",
          "annotations":{
             "in_notice":true
-         }
-      },
-      {
-         "propety":"http://publications.europa.eu/ontology/cdm#case-law_ecli",
-         "annotations":{
-            "write_once":true
          }
       },
       {

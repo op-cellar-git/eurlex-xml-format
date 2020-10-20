@@ -37,7 +37,7 @@ In some cases, Eurlex is interested in obtaining a specific behavior relative to
 -   `class`: the owl class for which the embedding policy must follow a particular behavior. This field is mandatory.
 -   `level`: this field indicates at what level of the FRBR (or dossier/event) the exception is valid. This field is mandatory.
 -   `targets_in_embedded_notice`: this is a list of properties that must exceptionally be embedded in the context defined by `class`, `level` and the `property` to expand. In case this list is empty Cellar will embed only the "URI" and the relative "same as". This field is mandatory.
--  `targets_to_be_indexed`: it is analogous to `targets_in_embedded_notice` for the 	indexation.
+-   `targets_to_be_indexed`: it is analogous to `targets_in_embedded_notice` for the 	indexation.
 ### Example of entry in JSON:
 ```
 {
