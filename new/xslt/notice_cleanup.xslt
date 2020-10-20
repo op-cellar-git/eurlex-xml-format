@@ -27,8 +27,8 @@
 	<!-- handle eurovoc codes -->
 	<xsl:template match="WORK_IS_ABOUT_CONCEPT_EUROVOC[@type='concept_facet']">
 		<xsl:element name="WORK_IS_ABOUT_CONCEPT_EUROVOC">
-			<xsl:comment>match="WORK_IS_ABOUT_CONCEPT_EUROVOC[@type='concept_facet']</xsl:comment>
 			<xsl:attribute name="type">concept_hierarchy</xsl:attribute>
+			<xsl:comment>match="WORK_IS_ABOUT_CONCEPT_EUROVOC[@type='concept_facet']</xsl:comment>
 			<xsl:element name="WORK_IS_ABOUT_CONCEPT_EUROVOC">
 				<xsl:attribute name="type">concept_hierarchy_path</xsl:attribute>
 				<xsl:apply-templates select="WORK_IS_ABOUT_CONCEPT_EUROVOC_DOM"/>
@@ -72,25 +72,27 @@
 	</xsl:template>
 	
 	<!-- alternative handling of eurovoc codes in case stylesheet has already been applied to input file -->
-	<!--xsl:template match="WORK_IS_ABOUT_CONCEPT_EUROVOC[@type='concept_hierarchy']">
+	<xsl:template match="WORK_IS_ABOUT_CONCEPT_EUROVOC[@type='concept_hierarchy']">
 		<xsl:element name="WORK_IS_ABOUT_CONCEPT_EUROVOC">
 			<xsl:attribute name="type">concept_hierarchy</xsl:attribute>
+			<xsl:comment>match="WORK_IS_ABOUT_CONCEPT_EUROVOC[@type='concept_hierarchy']"</xsl:comment>
 			<xsl:element name="WORK_IS_ABOUT_CONCEPT_EUROVOC">
 				<xsl:attribute name="type">concept_hierarchy_path</xsl:attribute>
 				<xsl:apply-templates select="WORK_IS_ABOUT_CONCEPT_EUROVOC[@type='concept_hierarchy_concept']"/>
 			</xsl:element>
 		</xsl:element>
-	</xsl:template-->
+	</xsl:template>
 
 	<!-- alternative handling of eurovoc codes in case stylesheet has already been applied to input file -->
-	<!--xsl:template match="WORK_IS_ABOUT_CONCEPT_EUROVOC[@type='concept_hierarchy_concept']">
+	<xsl:template match="WORK_IS_ABOUT_CONCEPT_EUROVOC[@type='concept_hierarchy_concept']">
 		<xsl:element name="WORK_IS_ABOUT_CONCEPT_EUROVOC">
 			<xsl:attribute name="type">concept_hierarchy_path_concept</xsl:attribute>
 			<xsl:attribute name="level" select="@level"/>
 			<xsl:attribute name="leaf" select="boolean(@level='4')"/>
+			<xsl:comment>match="WORK_IS_ABOUT_CONCEPT_EUROVOC[@type='concept_hierarchy_concept']"</xsl:comment>
 			<xsl:apply-templates select="node()"/>
 		</xsl:element>
-	</xsl:template-->
+	</xsl:template>
 	
 	<xsl:template match="*[@type='concept_hierarchy']">
 		<xsl:element name="{name()}">
@@ -128,8 +130,8 @@
 	<!-- handling of level serialization -->
 	<xsl:template match="*[@type='concept_level']">
 		<xsl:element name="{name()}">
-			<xsl:comment>match="*[@type='concept_level']"</xsl:comment>
 			<xsl:attribute name="type">concept_hierarchy</xsl:attribute>
+			<xsl:comment>match="*[@type='concept_level']"</xsl:comment>
 			<xsl:element name="{name()}">
 				<xsl:attribute name="type">concept_hierarchy_path</xsl:attribute>
 				<xsl:apply-templates select="*" mode="level_serialization"/>
@@ -144,15 +146,15 @@
 		<xsl:variable name="next_suffix" select="concat('_',number($suffix)+1, '$')"/>
 		<xsl:variable name="isLeaf">
 			<xsl:choose>
-				<xsl:when test="../*[matches(local-name(), $next_suffix)]">no</xsl:when>
-				<xsl:otherwise>yes</xsl:otherwise>
+				<xsl:when test="../*[matches(local-name(), $next_suffix)]">false</xsl:when>
+				<xsl:otherwise>true</xsl:otherwise>
 			</xsl:choose>
 		</xsl:variable>
 		<xsl:element name="{$element_name}">
-			<xsl:comment>match="*" mode="level_serialization"</xsl:comment>
 			<xsl:attribute name="type">concept_hierarchy_path_concept</xsl:attribute>
 			<xsl:attribute name="level" select="$suffix"/>
 			<xsl:attribute name="leaf" select="$isLeaf"/>
+			<xsl:comment>match="*" mode="level_serialization"</xsl:comment>
 			<xsl:apply-templates select="node()"/>
 		</xsl:element>
 	</xsl:template>
