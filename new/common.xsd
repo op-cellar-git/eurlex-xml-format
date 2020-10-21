@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- edited with XMLSpy v2019 rel. 3 sp1 (http://www.altova.com) by DG OP (OP Publications Office of the European Union) -->
+<!-- edited with XMLSpy v2019 rel. 3 sp1 (x64) (http://www.altova.com) by Simone Gasperoni (OP Publications Office of the European Union) -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1">
 	<xs:annotation>
 		<xs:documentation xml:lang="en">This is not an XML schema. Rather it is an XML-schema template which is filled in depending the properties defined by the CDM and TDM ontology (http://publications.europa.eu/ontology/cdm# and http://publications.europa.eu/ontology/tdm). In this specification, element names (or name parts) in UPPER CASE are definite (fixed).  The lower case parts are dynamic. Also note: The order of child elements typically is NOT fixed. This schema will be reused by the more specific ones for describing particulars notices.</xs:documentation>
@@ -339,6 +339,19 @@ The 'p_name' prefix is a dynamic name.  It is the name of the properties being g
 A memberlist can have a nested structure (NESTEDLIST element) as well as references to classification properties.</xs:documentation>
 		</xs:annotation>
 	</xs:element>
+	<xs:group name="Identifier_with_URI_mandatory">
+		<xs:annotation>
+			<xs:documentation>Serialization of the identifiers of a resource with URI mandatory</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:annotation>
+				<xs:documentation xml:lang="en">The URI child element is optional.
+If present it must be the CELLAR URI.</xs:documentation>
+			</xs:annotation>
+			<xs:element ref="URI"/>
+			<xs:element ref="SAMEAS" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:group>
 	<xs:group name="Identifier">
 		<xs:annotation>
 			<xs:documentation>Serialization of the identifiers of a resource</xs:documentation>
@@ -349,7 +362,6 @@ A memberlist can have a nested structure (NESTEDLIST element) as well as referen
 If present it must be the CELLAR URI.</xs:documentation>
 			</xs:annotation>
 			<xs:element ref="URI" minOccurs="0"/>
-			<xs:element ref="TYPE" minOccurs="0" maxOccurs="unbounded"/>
 			<xs:element ref="SAMEAS" maxOccurs="unbounded"/>
 		</xs:sequence>
 	</xs:group>
@@ -420,7 +432,7 @@ The contained URI is a Production System (PS) URI</xs:documentation>
 					<xs:complexType>
 						<xs:sequence>
 							<xs:element ref="annotation_property" minOccurs="0" maxOccurs="unbounded"/>
-							<xs:element ref="TYPE" minOccurs="0" maxOccurs="unbounded"/>
+							<xs:element ref="TYPE" maxOccurs="unbounded"/>
 							<xs:group ref="embedded-property" minOccurs="0" maxOccurs="unbounded"/>
 							<xs:element name="EXPRESSION" minOccurs="0" maxOccurs="unbounded">
 								<xs:annotation>
@@ -459,7 +471,7 @@ The contained URI is a Production System (PS) URI</xs:documentation>
 					<xs:complexType>
 						<xs:sequence>
 							<xs:element ref="annotation_property" minOccurs="0" maxOccurs="unbounded"/>
-							<xs:element ref="TYPE" minOccurs="0" maxOccurs="unbounded"/>
+							<xs:element ref="TYPE" maxOccurs="unbounded"/>
 							<xs:group ref="embedded-property" minOccurs="0" maxOccurs="unbounded"/>
 							<xs:element name="EVENT" minOccurs="0" maxOccurs="unbounded">
 								<xs:complexType>
@@ -477,7 +489,7 @@ The contained URI is a Production System (PS) URI</xs:documentation>
 					<xs:complexType>
 						<xs:sequence>
 							<xs:element ref="annotation_property" minOccurs="0" maxOccurs="unbounded"/>
-							<xs:element ref="TYPE" minOccurs="0" maxOccurs="unbounded"/>
+							<xs:element ref="TYPE" maxOccurs="unbounded"/>
 							<xs:group ref="embedded-property" maxOccurs="unbounded"/>
 						</xs:sequence>
 					</xs:complexType>
@@ -486,7 +498,7 @@ The contained URI is a Production System (PS) URI</xs:documentation>
 					<xs:complexType>
 						<xs:sequence>
 							<xs:element ref="annotation_property" minOccurs="0" maxOccurs="unbounded"/>
-							<xs:element ref="TYPE" minOccurs="0" maxOccurs="unbounded"/>
+							<xs:element ref="TYPE" maxOccurs="unbounded"/>
 							<xs:group ref="embedded-property" minOccurs="0" maxOccurs="unbounded"/>
 						</xs:sequence>
 					</xs:complexType>
@@ -634,9 +646,6 @@ zip
 	</xs:element>
 	<xs:element name="annotation_property">
 		<xs:complexType>
-			<xs:sequence>
-				<xs:element name="VALUE"/>
-			</xs:sequence>
 			<xs:attribute name="type" type="types" use="required" fixed="annotation"/>
 			<!--xs:simpleContent>
 				<xs:extension base="xs:string">
