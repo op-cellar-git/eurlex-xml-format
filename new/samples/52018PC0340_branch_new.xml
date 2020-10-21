@@ -1260,7 +1260,7 @@
 				</URI>
 			</SAMEAS>
 			<TYPE_OF_LINK_TARGET type="annotation">EA</TYPE_OF_LINK_TARGET>
-			<ROLE2>{PSP|http://publications.europa.eu/resource/authority/fd_375/PSP}</ROLE2>
+			<ROLE2 type="annotation">{PSP|http://publications.europa.eu/resource/authority/fd_375/PSP}</ROLE2>
 		</RESOURCE_LEGAL_RELATED_TO_RESOURCE_LEGAL>
 		<VERSION type="data">
 			<VALUE>final</VALUE>
@@ -2243,7 +2243,7 @@
 					<TYPE>oj</TYPE>
 				</URI>
 			</SAMEAS>
-			<ROLE2>{MD|http://publications.europa.eu/resource/authority/fd_375/MD}</ROLE2>
+			<ROLE2 type="annotation">{MD|http://publications.europa.eu/resource/authority/fd_375/MD}</ROLE2>
 			<TYPE_OF_LINK_TARGET type="annotation">EA</TYPE_OF_LINK_TARGET>
 		</RESOURCE_LEGAL_COR_OPINION_CONTAINED_IN_RESOURCE_LEGAL>
 		<WORK_RELATED_TO_WORK type="link">
@@ -2316,7 +2316,7 @@
 					<TYPE>ep</TYPE>
 				</URI>
 			</SAMEAS>
-			<ROLE2>{PSP|http://publications.europa.eu/resource/authority/fd_375/PSP}</ROLE2>
+			<ROLE2 type="annotation">{PSP|http://publications.europa.eu/resource/authority/fd_375/PSP}</ROLE2>
 			<TYPE_OF_LINK_TARGET type="annotation">EA</TYPE_OF_LINK_TARGET>
 		</RESOURCE_LEGAL_RELATED_TO_RESOURCE_LEGAL>
 		<WORK_PART_OF_EVENT_LEGAL type="link">
