@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- edited with XMLSpy v2019 rel. 3 sp1 (http://www.altova.com) by DG OP (OP Publications Office of the European Union) -->
+<!-- edited with XMLSpy v2019 rel. 3 sp1 (x64) (http://www.altova.com) by Simone Gasperoni (OP Publications Office of the European Union) -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1">
-	<xs:include schemaLocation="https://raw.githubusercontent.com/op-cellar-git/eurlex-xml-format/master/new/common.xsd"/>
+	<xs:include schemaLocation="./common.xsd"/>
 	<xs:element name="NOTICE">
 		<xs:annotation>
 			<xs:documentation>This Notice schema is: Tree notice, it reuses other schemas defined in common.xsd. 
@@ -15,7 +15,7 @@ In this kind of notice, there are: 1 WORK, 1 or more EXPRESSIONs, 0 or more MANI
 							<xs:annotation>
 								<xs:documentation xml:lang="en">The order of the sub-elements is not relevant</xs:documentation>
 							</xs:annotation>
-							<xs:group ref="Identifier">
+							<xs:group ref="Identifier_with_URI_mandatory">
 								<xs:annotation>
 									<xs:documentation>The resource identifiers</xs:documentation>
 								</xs:annotation>
@@ -80,7 +80,7 @@ In this kind of notice, there are: 1 WORK, 1 or more EXPRESSIONs, 0 or more MANI
 							<xs:annotation>
 								<xs:documentation xml:lang="en">The order of the sub-elements is not relevant</xs:documentation>
 							</xs:annotation>
-							<xs:group ref="Identifier"/>
+							<xs:group ref="Identifier_with_URI_mandatory"/>
 							<xs:element ref="TYPE" maxOccurs="unbounded"/>
 							<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
 							<xs:element name="EVENT" maxOccurs="unbounded">
@@ -104,7 +104,7 @@ In this kind of notice, there are: 1 WORK, 1 or more EXPRESSIONs, 0 or more MANI
 					</xs:annotation>
 					<xs:complexType>
 						<xs:sequence>
-							<xs:group ref="Identifier"/>
+							<xs:group ref="Identifier_with_URI_mandatory"/>
 							<xs:element ref="TYPE" maxOccurs="unbounded"/>
 							<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
 						</xs:sequence>
@@ -116,7 +116,7 @@ In this kind of notice, there are: 1 WORK, 1 or more EXPRESSIONs, 0 or more MANI
 							<xs:annotation>
 								<xs:documentation xml:lang="en">The order of the sub-elements is not relevant</xs:documentation>
 							</xs:annotation>
-							<xs:group ref="Identifier"/>
+							<xs:group ref="Identifier_with_URI_mandatory"/>
 							<xs:element ref="TYPE" maxOccurs="unbounded"/>
 							<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
 						</xs:sequence>

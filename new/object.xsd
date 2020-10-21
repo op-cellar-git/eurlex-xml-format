@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- edited with XMLSpy v2019 rel. 3 sp1 (http://www.altova.com) by DG OP (OP Publications Office of the European Union) -->
+<!-- edited with XMLSpy v2019 rel. 3 sp1 (x64) (http://www.altova.com) by Simone Gasperoni (OP Publications Office of the European Union) -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1">
-	<xs:include schemaLocation="https://raw.githubusercontent.com/op-cellar-git/eurlex-xml-format/master/new/common.xsd"/>
+	<xs:include schemaLocation="./common.xsd"/>
 	<xs:element name="NOTICE">
 		<xs:annotation>
 			<xs:documentation>This Notice schema is: Object notice, it reuses other schemas defined in common.xsd. 
@@ -15,16 +15,16 @@ In this kind of notice, there is either 1 WORK, either 1 EXPRESSION, either 1 MA
 							<xs:annotation>
 								<xs:documentation xml:lang="en">The order of the sub-elements is not relevant</xs:documentation>
 							</xs:annotation>
-							<xs:group ref="Identifier">
+							<xs:group ref="Identifier_with_URI_mandatory">
 								<xs:annotation>
 									<xs:documentation>The identifiers of the work.</xs:documentation>
 								</xs:annotation>
 							</xs:group>
-							<xs:element ref="TYPE" minOccurs="0" maxOccurs="unbounded"/>
+							<xs:element ref="TYPE" maxOccurs="unbounded"/>
 							<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
 							<xs:element name="WORK_HAS_EXPRESSION" maxOccurs="unbounded">
 								<xs:complexType>
-									<xs:group ref="Identifier">
+									<xs:group ref="Identifier_with_URI_mandatory">
 										<xs:annotation>
 											<xs:documentation>The identifiers of the work.</xs:documentation>
 										</xs:annotation>
@@ -40,19 +40,19 @@ In this kind of notice, there is either 1 WORK, either 1 EXPRESSION, either 1 MA
 							<xs:annotation>
 								<xs:documentation xml:lang="en">The order of the sub-elements is not relevant</xs:documentation>
 							</xs:annotation>
-							<xs:group ref="Identifier">
+							<xs:group ref="Identifier_with_URI_mandatory">
 								<xs:annotation>
 									<xs:documentation>The expression identifiers</xs:documentation>
 								</xs:annotation>
 							</xs:group>
-							<xs:element ref="TYPE" minOccurs="0" maxOccurs="unbounded"/>
+							<xs:element ref="TYPE" maxOccurs="unbounded"/>
 							<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
 							<xs:element name="EXPRESSION_BELONGS_TO_WORK">
 								<xs:annotation>
 									<xs:documentation>[TBD - keep this element]</xs:documentation>
 								</xs:annotation>
 								<xs:complexType>
-									<xs:group ref="Identifier"/>
+									<xs:group ref="Identifier_with_URI_mandatory"/>
 								</xs:complexType>
 							</xs:element>
 							<xs:element name="EXPRESSION_MANIFESTED_BY_MANIFESTATION" minOccurs="0" maxOccurs="unbounded">
@@ -60,7 +60,7 @@ In this kind of notice, there is either 1 WORK, either 1 EXPRESSION, either 1 MA
 									<xs:documentation>[TBD - keep this element]</xs:documentation>
 								</xs:annotation>
 								<xs:complexType>
-									<xs:group ref="Identifier"/>
+									<xs:group ref="Identifier_with_URI_mandatory"/>
 								</xs:complexType>
 							</xs:element>
 						</xs:sequence>
@@ -76,17 +76,17 @@ In this kind of notice, there is either 1 WORK, either 1 EXPRESSION, either 1 MA
 							<xs:annotation>
 								<xs:documentation>Order of subelements is not relevant</xs:documentation>
 							</xs:annotation>
-							<xs:group ref="Identifier"/>
-							<xs:element ref="TYPE" minOccurs="0" maxOccurs="unbounded"/>
+							<xs:group ref="Identifier_with_URI_mandatory"/>
+							<xs:element ref="TYPE" maxOccurs="unbounded"/>
 							<xs:group ref="property"/>
 							<xs:element name="MANIFESTATION_MANIFESTS_EXPRESSION">
 								<xs:complexType>
-									<xs:group ref="Identifier"/>
+									<xs:group ref="Identifier_with_URI_mandatory"/>
 								</xs:complexType>
 							</xs:element>
 							<xs:element name="MANIFESTATION_HAS_ITEM" minOccurs="0" maxOccurs="unbounded">
 								<xs:complexType>
-									<xs:group ref="Identifier"/>
+									<xs:group ref="Identifier_with_URI_mandatory"/>
 								</xs:complexType>
 							</xs:element>
 						</xs:sequence>
@@ -98,13 +98,13 @@ In this kind of notice, there is either 1 WORK, either 1 EXPRESSION, either 1 MA
 							<xs:annotation>
 								<xs:documentation>Order of subelements is not relevant</xs:documentation>
 							</xs:annotation>
-							<xs:group ref="Identifier"/>
-							<xs:element ref="TYPE" minOccurs="0" maxOccurs="unbounded"/>
+							<xs:group ref="Identifier_with_URI_mandatory"/>
+							<xs:element ref="TYPE" maxOccurs="unbounded"/>
 							<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
 							<xs:element ref="TECHMD" minOccurs="0"/>
 							<xs:element name="ITEM_BELONGS_TO_MANIFESTATION">
 								<xs:complexType>
-									<xs:group ref="Identifier"/>
+									<xs:group ref="Identifier_with_URI_mandatory"/>
 								</xs:complexType>
 							</xs:element>
 						</xs:sequence>
@@ -116,12 +116,12 @@ In this kind of notice, there is either 1 WORK, either 1 EXPRESSION, either 1 MA
 							<xs:annotation>
 								<xs:documentation xml:lang="en">The order of the sub-elements is not relevant</xs:documentation>
 							</xs:annotation>
-							<xs:group ref="Identifier"/>
+							<xs:group ref="Identifier_with_URI_mandatory"/>
 							<xs:element ref="TYPE" maxOccurs="unbounded"/>
 							<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
 							<xs:element name="DOSSIER_CONTAINS_EVENT_LEGAL" minOccurs="0" maxOccurs="unbounded">
 								<xs:complexType>
-									<xs:group ref="Identifier"/>
+									<xs:group ref="Identifier_with_URI_mandatory"/>
 								</xs:complexType>
 							</xs:element>
 						</xs:sequence>
@@ -136,12 +136,12 @@ In this kind of notice, there is either 1 WORK, either 1 EXPRESSION, either 1 MA
 							<xs:annotation>
 								<xs:documentation xml:lang="en">The order of the sub-elements is not relevant</xs:documentation>
 							</xs:annotation>
-							<xs:group ref="Identifier"/>
+							<xs:group ref="Identifier_with_URI_mandatory"/>
 							<xs:element ref="TYPE" maxOccurs="unbounded"/>
 							<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
 							<xs:element name="EVENT_LEGAL_PART_OF_DOSSIER" minOccurs="0">
 								<xs:complexType>
-									<xs:group ref="Identifier"/>
+									<xs:group ref="Identifier_with_URI_mandatory"/>
 								</xs:complexType>
 							</xs:element>
 						</xs:sequence>
@@ -153,7 +153,7 @@ In this kind of notice, there is either 1 WORK, either 1 EXPRESSION, either 1 MA
 					</xs:annotation>
 					<xs:complexType>
 						<xs:sequence>
-							<xs:group ref="Identifier"/>
+							<xs:group ref="Identifier_with_URI_mandatory"/>
 							<xs:element ref="TYPE" maxOccurs="unbounded"/>
 							<xs:group ref="property" minOccurs="0" maxOccurs="unbounded"/>
 						</xs:sequence>
