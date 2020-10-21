@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- edited with XMLSpy v2019 rel. 3 sp1 (http://www.altova.com) by DG OP (OP Publications Office of the European Union) -->
-<NOTICE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" decoding="eng" type="branch" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/op-cellar-git/eurlex-xml-format/master/new/branch.xsd">
+<NOTICE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" decoding="eng" type="branch" xsi:noNamespaceSchemaLocation="../branch.xsd">
 	<WORK>
 		<URI>
 			<VALUE>http://publications.europa.eu/resource/cellar/fc5c74e0-6255-11e8-ab9c-01aa75ed71a1</VALUE>
@@ -2121,6 +2121,10 @@
 				<PROCEDURE_CODE_INTERINSTITUTIONAL_YEAR_PROCEDURE type="data">
 					<VALUE>2018</VALUE>
 				</PROCEDURE_CODE_INTERINSTITUTIONAL_YEAR_PROCEDURE>
+				<TYPE type="type">cdm:period</TYPE>
+				<TYPE type="type">cdm:procedure_internal</TYPE>
+				<TYPE type="type">cdm:entity_temporal</TYPE>
+				<TYPE type="type">cdm:dossier</TYPE>
 			</DOSSIER>
 			<URI>
 				<VALUE>http://publications.europa.eu/resource/cellar/f03de40f-6255-11e8-ab9c-01aa75ed71a1</VALUE>
@@ -2470,6 +2474,10 @@
 				<PROCEDURE_CODE_INTERINSTITUTIONAL_YEAR_PROCEDURE type="data">
 					<VALUE>2018</VALUE>
 				</PROCEDURE_CODE_INTERINSTITUTIONAL_YEAR_PROCEDURE>
+				<TYPE type="type">cdm:period</TYPE>
+				<TYPE type="type">cdm:procedure_internal</TYPE>
+				<TYPE type="type">cdm:entity_temporal</TYPE>
+				<TYPE type="type">cdm:dossier</TYPE>
 			</DOSSIER>
 			<URI>
 				<VALUE>http://publications.europa.eu/resource/cellar/f03de40f-6255-11e8-ab9c-01aa75ed71a1</VALUE>

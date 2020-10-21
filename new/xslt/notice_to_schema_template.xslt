@@ -122,6 +122,9 @@
 			<xsl:apply-templates select="URI"/>
 			<xsl:apply-templates select="SAMEAS"/>
 			<xsl:apply-templates select="WORK"/>
+			<xsl:apply-templates select="DOSSIER"/>
+			<xsl:apply-templates select="EVENT"/>
+			<xsl:apply-templates select="AGENT"/>
 		</xsl:element>
 	</xsl:template>
 	

@@ -646,12 +646,13 @@ zip
 	</xs:element>
 	<xs:element name="annotation_property">
 		<xs:complexType>
-			<xs:attribute name="type" type="types" use="required" fixed="annotation"/>
-			<!--xs:simpleContent>
+			<xs:simpleContent>
 				<xs:extension base="xs:string">
-					<xs:attribute ref="type" use="required" fixed="annotation"/>
+					<xs:attribute name="type" type="types" use="required" fixed="annotation"/>
 				</xs:extension>
-			</xs:simpleContent-->
+			</xs:simpleContent>
 		</xs:complexType>
 	</xs:element>
+	
+
 </xs:schema>
