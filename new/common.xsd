@@ -432,7 +432,7 @@ The contained URI is a Production System (PS) URI</xs:documentation>
 					<xs:complexType>
 						<xs:sequence>
 							<xs:element ref="annotation_property" minOccurs="0" maxOccurs="unbounded"/>
-							<xs:element ref="TYPE" maxOccurs="unbounded"/>
+							<xs:element ref="TYPE" minOccurs="0" maxOccurs="unbounded"/>
 							<xs:group ref="embedded-property" minOccurs="0" maxOccurs="unbounded"/>
 							<xs:element name="EXPRESSION" minOccurs="0" maxOccurs="unbounded">
 								<xs:annotation>
@@ -479,7 +479,7 @@ The contained URI is a Production System (PS) URI</xs:documentation>
 					<xs:complexType>
 						<xs:sequence>
 							<xs:element ref="annotation_property" minOccurs="0" maxOccurs="unbounded"/>
-							<xs:element ref="TYPE" maxOccurs="unbounded"/>
+							<xs:element ref="TYPE" minOccurs="0" maxOccurs="unbounded"/>
 							<xs:group ref="embedded-property" minOccurs="0" maxOccurs="unbounded"/>
 							<xs:element name="EVENT" minOccurs="0" maxOccurs="unbounded">
 								<xs:complexType>
@@ -497,7 +497,7 @@ The contained URI is a Production System (PS) URI</xs:documentation>
 					<xs:complexType>
 						<xs:sequence>
 							<xs:element ref="annotation_property" minOccurs="0" maxOccurs="unbounded"/>
-							<xs:element ref="TYPE" maxOccurs="unbounded"/>
+							<xs:element ref="TYPE" minOccurs="0" maxOccurs="unbounded"/>
 							<xs:group ref="embedded-property" maxOccurs="unbounded"/>
 						</xs:sequence>
 					</xs:complexType>
@@ -506,7 +506,7 @@ The contained URI is a Production System (PS) URI</xs:documentation>
 					<xs:complexType>
 						<xs:sequence>
 							<xs:element ref="annotation_property" minOccurs="0" maxOccurs="unbounded"/>
-							<xs:element ref="TYPE" maxOccurs="unbounded"/>
+							<xs:element ref="TYPE" minOccurs="0" maxOccurs="unbounded"/>
 							<xs:group ref="embedded-property" minOccurs="0" maxOccurs="unbounded"/>
 						</xs:sequence>
 					</xs:complexType>
