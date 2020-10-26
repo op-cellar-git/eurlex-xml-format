@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- edited with XMLSpy v2019 rel. 3 sp1 (http://www.altova.com) by DG OP (OP Publications Office of the European Union) -->
-<NOTICE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" decoding="eng" type="tree" xsi:noNamespaceSchemaLocation="file:///C:/Users/thelese/workspace/git/eurlex-xml-format/new/tree.xsd">
+<?xml version="1.0" encoding="UTF-8"?><!-- edited with XMLSpy v2019 rel. 3 sp1 (http://www.altova.com) by DG OP (OP Publications Office of the European Union) --><NOTICE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" decoding="eng" type="tree">
 	<DOSSIER>
 		<URI>
 			<VALUE>http://publications.europa.eu/resource/cellar/9c2763b8-796d-11e3-b889-01aa75ed71a1</VALUE>
@@ -1991,7 +1989,7 @@ transfers and direct debits</VALUE>
 					</RESOURCE_LEGAL_YEAR>
 					<EXPRESSION>
 						<EXPRESSION_TITLE type="data">
-							<VALUE>Opinion of the European Economic and Social Committee on the Proposal for a Regulation of the European Parliament and of the Council amending Regulation (EU) No 260/2012 as regards the migration to Union-wide credit transfers and direct debits COM(2013) 937 final 2013/0449 (COD)</VALUE>
+							<VALUE>Opinion of the European Economic and Social Committee on the Proposal for a Regulation of the European Parliament and of the Council amending Regulation (EU) No 260/2012 as regards the migration to Union-wide credit transfers and direct debits COM(2013) 937 final 2013/0449 (COD)</VALUE>
 						</EXPRESSION_TITLE>
 						<EXPRESSION_MANIFESTED_BY_MANIFESTATION type="embedded_link">
 							<SAMEAS>
@@ -2031,7 +2029,9 @@ transfers and direct debits</VALUE>
 								</URI>
 							</SAMEAS>
 						</EXPRESSION_MANIFESTED_BY_MANIFESTATION>
-						<MANIFESTATION manifestation-type="pdfa1a">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdfa1a</VALUE>
+							</MANIFESTATION_TYPE>
 							<MANIFESTATION_OFFICIAL-JOURNAL_PART_PAGE_FIRST type="data">
 								<VALUE>0041</VALUE>
 							</MANIFESTATION_OFFICIAL-JOURNAL_PART_PAGE_FIRST>
@@ -2048,8 +2048,13 @@ transfers and direct debits</VALUE>
 								</SAMEAS>
 							</MANIFESTATION_PART_OF_MANIFESTATION>
 						</MANIFESTATION>
-						<MANIFESTATION manifestation-type="fmx4"/>
-						<MANIFESTATION manifestation-type="xhtml">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>fmx4</VALUE>
+							</MANIFESTATION_TYPE>
+						</MANIFESTATION>
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>xhtml</VALUE>
+							</MANIFESTATION_TYPE>
 							<!--URI>
 								<VALUE>http://publications.europa.eu/resource/cellar/cd9fac52-f12e-11e3-8cd4-01aa75ed71a1.0006.03</VALUE>
 								<IDENTIFIER>cd9fac52-f12e-11e3-8cd4-01aa75ed71a1.0006.03</IDENTIFIER>
@@ -2781,7 +2786,9 @@ transfers and direct debits</VALUE>
 								</URI>
 							</SAMEAS>
 						</EXPRESSION_MANIFESTED_BY_MANIFESTATION>
-						<MANIFESTATION manifestation-type="pdfa1a">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdfa1a</VALUE>
+							</MANIFESTATION_TYPE>
 							<MANIFESTATION_PART_OF_MANIFESTATION type="embedded_link">
 								<SAMEAS>
 									<URI>
@@ -2801,12 +2808,16 @@ transfers and direct debits</VALUE>
 								<VALUE>pdfa1a</VALUE>
 							</MANIFESTATION_TYPE>
 						</MANIFESTATION>
-						<MANIFESTATION manifestation-type="fmx4">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>fmx4</VALUE>
+							</MANIFESTATION_TYPE>
 							<MANIFESTATION_TYPE type="data">
 								<VALUE>fmx4</VALUE>
 							</MANIFESTATION_TYPE>
 						</MANIFESTATION>
-						<MANIFESTATION manifestation-type="xhtml">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>xhtml</VALUE>
+							</MANIFESTATION_TYPE>
 							<MANIFESTATION_TYPE type="data">
 								<VALUE>xhtml</VALUE>
 							</MANIFESTATION_TYPE>
@@ -3573,12 +3584,23 @@ transfers and direct debits</VALUE>
 							</SAMEAS>
 						</EXPRESSION_MANIFESTED_BY_MANIFESTATION>
 						<EXPRESSION_TITLE type="data">
-							<VALUE>Opinion of the European Central Bank of 22 January 2014 on a proposal for a regulation on the postponement of SEPA migration date (CON/2014/3)</VALUE>
+							<VALUE>Opinion of the European Central Bank of 22 January 2014 on a proposal for a regulation on the postponement of SEPA migration date (CON/2014/3)</VALUE>
 						</EXPRESSION_TITLE>
-						<MANIFESTATION manifestation-type="pdfa1a"/>
-						<MANIFESTATION manifestation-type="fmx4"/>
-						<MANIFESTATION manifestation-type="xhtml"/>
-						<MANIFESTATION manifestation-type="print">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdfa1a</VALUE>
+							</MANIFESTATION_TYPE>
+						</MANIFESTATION>
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>fmx4</VALUE>
+							</MANIFESTATION_TYPE>
+						</MANIFESTATION>
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>xhtml</VALUE>
+							</MANIFESTATION_TYPE>
+						</MANIFESTATION>
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>print</VALUE>
+							</MANIFESTATION_TYPE>
 							<MANIFESTATION_PART_OF_MANIFESTATION type="embedded_link">
 								<SAMEAS>
 									<URI>
@@ -4307,7 +4329,7 @@ transfers and direct debits</VALUE>
 							</SAMEAS>
 						</EXPRESSION_MANIFESTED_BY_MANIFESTATION>
 						<EXPRESSION_TITLE type="data">
-							<VALUE>Regulation (EU) No 248/2014 of the European Parliament and of the Council of 26 February 2014 amending Regulation (EU) No 260/2012 as regards the migration to Union-wide credit transfers and direct debits  Text with EEA relevance</VALUE>
+							<VALUE>Regulation (EU) No 248/2014 of the European Parliament and of the Council of 26 February 2014 amending Regulation (EU) No 260/2012 as regards the migration to Union-wide credit transfers and direct debits  Text with EEA relevance</VALUE>
 						</EXPRESSION_TITLE>
 						<EXPRESSION_MANIFESTED_BY_MANIFESTATION type="embedded_link">
 							<URI>
@@ -4337,10 +4359,21 @@ transfers and direct debits</VALUE>
 								</URI>
 							</SAMEAS>
 						</EXPRESSION_MANIFESTED_BY_MANIFESTATION>
-						<MANIFESTATION manifestation-type="pdfa1a"/>
-						<MANIFESTATION manifestation-type="fmx4"/>
-						<MANIFESTATION manifestation-type="xhtml"/>
-						<MANIFESTATION manifestation-type="print">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdfa1a</VALUE>
+							</MANIFESTATION_TYPE>
+						</MANIFESTATION>
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>fmx4</VALUE>
+							</MANIFESTATION_TYPE>
+						</MANIFESTATION>
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>xhtml</VALUE>
+							</MANIFESTATION_TYPE>
+						</MANIFESTATION>
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>print</VALUE>
+							</MANIFESTATION_TYPE>
 							<MANIFESTATION_OFFICIAL-JOURNAL_PART_PAGE_FIRST type="data">
 								<VALUE>0001</VALUE>
 							</MANIFESTATION_OFFICIAL-JOURNAL_PART_PAGE_FIRST>

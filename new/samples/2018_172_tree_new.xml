@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- edited with XMLSpy v2019 rel. 3 sp1 (http://www.altova.com) by DG OP (OP Publications Office of the European Union) --><NOTICE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" decoding="eng" type="tree" xsi:noNamespaceSchemaLocation="file:///C:/Users/thelese/workspace/git/eurlex-xml-format/new/tree.xsd">
+<?xml version="1.0" encoding="UTF-8"?><!-- edited with XMLSpy v2019 rel. 3 sp1 (http://www.altova.com) by DG OP (OP Publications Office of the European Union) --><NOTICE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" decoding="eng" type="tree">
 	<DOSSIER>
 		<URI>
 			<VALUE>http://publications.europa.eu/resource/cellar/f03de40f-6255-11e8-ab9c-01aa75ed71a1</VALUE>
@@ -733,17 +733,23 @@
 						</URI>
 					</SAMEAS>
 				</EXPRESSION_MANIFESTED_BY_MANIFESTATION>
-			<MANIFESTATION manifestation-type="docx">
+			<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+							<VALUE>docx</VALUE>
+						</MANIFESTATION_TYPE>
 				<MANIFESTATION_TYPE type="data">
 					<VALUE>docx</VALUE>
 				</MANIFESTATION_TYPE>
 			</MANIFESTATION>
-					<MANIFESTATION manifestation-type="pdf">
+					<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+							<VALUE>pdf</VALUE>
+						</MANIFESTATION_TYPE>
 				<MANIFESTATION_TYPE type="data">
 					<VALUE>pdf</VALUE>
 				</MANIFESTATION_TYPE>
 			</MANIFESTATION>
-					<MANIFESTATION manifestation-type="xhtml">
+					<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+							<VALUE>xhtml</VALUE>
+						</MANIFESTATION_TYPE>
 				<MANIFESTATION_TYPE type="data">
 					<VALUE>xhtml</VALUE>
 				</MANIFESTATION_TYPE>
@@ -2465,7 +2471,9 @@
 							</URI>
 						</SAMEAS>
 					</EXPRESSION_MANIFESTED_BY_MANIFESTATION>
-				<MANIFESTATION manifestation-type="URI">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>URI</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>URI</VALUE>
 					</MANIFESTATION_TYPE>
@@ -2473,7 +2481,9 @@
 						<VALUE>http://data.consilium.europa.eu/doc/document/PE-11-2019-INIT/EN/pdf</VALUE>
 					</MANIFESTATION_URI>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="pdf">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdf</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>pdf</VALUE>
 					</MANIFESTATION_TYPE>
@@ -2592,7 +2602,9 @@
 							</URI>
 						</SAMEAS>
 					</EXPRESSION_MANIFESTED_BY_MANIFESTATION>
-				<MANIFESTATION manifestation-type="URI">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>URI</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>URI</VALUE>
 					</MANIFESTATION_TYPE>
@@ -2600,7 +2612,9 @@
 						<VALUE>http://data.consilium.europa.eu/doc/document/PE-11-2019-INIT/EN/pdf</VALUE>
 					</MANIFESTATION_URI>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="pdf">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdf</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>pdf</VALUE>
 					</MANIFESTATION_TYPE>
@@ -2651,7 +2665,9 @@
 					</URI>
 				</SAMEAS>
 			</CONTAINS>
-			<TYPE type="data"><VALUE>DIS_byCONSIL</VALUE></TYPE>
+			<TYPE type="data">
+				<VALUE>DIS_byCONSIL</VALUE>
+			</TYPE>
 		</EVENT>
 		<EVENT>
 			<URI>
@@ -2781,7 +2797,9 @@
 						<PREFLABEL>English</PREFLABEL>
 						<ALTLABEL>English</ALTLABEL>
 					</EXPRESSION_USES_LANGUAGE>
-				<MANIFESTATION manifestation-type="URI">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>URI</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_URI type="data">
 						<VALUE>http://data.consilium.europa.eu/doc/document/ST-8741-2019-INIT/EN/pdf</VALUE>
 					</MANIFESTATION_URI>
@@ -2789,7 +2807,9 @@
 						<VALUE>URI</VALUE>
 					</MANIFESTATION_TYPE>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="pdf">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdf</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>pdf</VALUE>
 					</MANIFESTATION_TYPE>
@@ -2935,7 +2955,9 @@
 							</URI>
 						</SAMEAS>
 					</EXPRESSION_MANIFESTED_BY_MANIFESTATION>
-				<MANIFESTATION manifestation-type="URI">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>URI</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>URI</VALUE>
 					</MANIFESTATION_TYPE>
@@ -2943,7 +2965,9 @@
 						<VALUE>http://data.consilium.europa.eu/doc/document/ST-8741-2019-ADD-1/EN/pdf</VALUE>
 					</MANIFESTATION_URI>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="pdf">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdf</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>pdf</VALUE>
 					</MANIFESTATION_TYPE>
@@ -3046,7 +3070,9 @@
 							</URI>
 						</SAMEAS>
 					</EXPRESSION_MANIFESTED_BY_MANIFESTATION>
-				<MANIFESTATION manifestation-type="URI">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>URI</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>URI</VALUE>
 					</MANIFESTATION_TYPE>
@@ -3054,7 +3080,9 @@
 						<VALUE>http://data.consilium.europa.eu/doc/document/ST-8741-2019-ADD-1/EN/pdf</VALUE>
 					</MANIFESTATION_URI>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="pdf">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdf</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>pdf</VALUE>
 					</MANIFESTATION_TYPE>
@@ -3166,7 +3194,9 @@
 						<PREFLABEL>English</PREFLABEL>
 						<ALTLABEL>English</ALTLABEL>
 					</EXPRESSION_USES_LANGUAGE>
-				<MANIFESTATION manifestation-type="URI">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>URI</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_URI type="data">
 						<VALUE>http://data.consilium.europa.eu/doc/document/ST-8741-2019-INIT/EN/pdf</VALUE>
 					</MANIFESTATION_URI>
@@ -3174,7 +3204,9 @@
 						<VALUE>URI</VALUE>
 					</MANIFESTATION_TYPE>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="pdf">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdf</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>pdf</VALUE>
 					</MANIFESTATION_TYPE>
@@ -3225,7 +3257,9 @@
 					</URI>
 				</SAMEAS>
 			</CONTAINS>
-			<TYPE type="data"><VALUE>DIS_byCONSIL</VALUE></TYPE>
+			<TYPE type="data">
+				<VALUE>DIS_byCONSIL</VALUE>
+			</TYPE>
 		</EVENT>
 		<EVENT>
 			<URI>
@@ -3972,17 +4006,23 @@
 							</URI>
 						</SAMEAS>
 					</EXPRESSION_MANIFESTED_BY_MANIFESTATION>
-				<MANIFESTATION manifestation-type="docx">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>docx</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>docx</VALUE>
 					</MANIFESTATION_TYPE>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="pdf">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdf</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>pdf</VALUE>
 					</MANIFESTATION_TYPE>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="xhtml">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>xhtml</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>xhtml</VALUE>
 					</MANIFESTATION_TYPE>
@@ -4755,17 +4795,23 @@
 							</URI>
 						</SAMEAS>
 					</EXPRESSION_MANIFESTED_BY_MANIFESTATION>
-				<MANIFESTATION manifestation-type="docx">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>docx</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>docx</VALUE>
 					</MANIFESTATION_TYPE>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="pdf">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdf</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>pdf</VALUE>
 					</MANIFESTATION_TYPE>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="xhtml">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>xhtml</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>xhtml</VALUE>
 					</MANIFESTATION_TYPE>
@@ -5501,17 +5547,23 @@
 							</URI>
 						</SAMEAS>
 					</EXPRESSION_MANIFESTED_BY_MANIFESTATION>
-				<MANIFESTATION manifestation-type="docx">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>docx</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>docx</VALUE>
 					</MANIFESTATION_TYPE>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="pdf">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdf</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>pdf</VALUE>
 					</MANIFESTATION_TYPE>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="xhtml">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>xhtml</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>xhtml</VALUE>
 					</MANIFESTATION_TYPE>
@@ -6212,17 +6264,23 @@
 						<VALUE>COMMISSION STAFF WORKING DOCUMENT Synopsis Report Stakeholder Consultation Accompanying the document Proposal for Directive of the European Parliament and of the Council on the reduction of the impact of certain plastic products on the environment</VALUE>
 						<LANG>en</LANG>
 					</EXPRESSION_TITLE>
-				<MANIFESTATION manifestation-type="docx">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>docx</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>docx</VALUE>
 					</MANIFESTATION_TYPE>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="pdf">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdf</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>pdf</VALUE>
 					</MANIFESTATION_TYPE>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="xhtml">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>xhtml</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>xhtml</VALUE>
 					</MANIFESTATION_TYPE>
@@ -6871,17 +6929,23 @@
 						<VALUE>COMMISSION STAFF WORKING DOCUMENT EXECUTIVE SUMMARY OF THE IMPACT ASSESSMENT Single Use Plastics &amp; Fishing Gear Accompanying the document Proposal for a Directive of the European Parliament and of the Council on the reduction of the impact of certain plastic products on the environment</VALUE>
 						<LANG>en</LANG>
 					</EXPRESSION_TITLE>
-				<MANIFESTATION manifestation-type="docx">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>docx</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>docx</VALUE>
 					</MANIFESTATION_TYPE>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="pdf">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdf</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>pdf</VALUE>
 					</MANIFESTATION_TYPE>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="xhtml">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>xhtml</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>xhtml</VALUE>
 					</MANIFESTATION_TYPE>
@@ -7586,17 +7650,23 @@
 							</URI>
 						</SAMEAS>
 					</EXPRESSION_MANIFESTED_BY_MANIFESTATION>
-				<MANIFESTATION manifestation-type="docx">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>docx</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>docx</VALUE>
 					</MANIFESTATION_TYPE>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="pdf">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdf</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>pdf</VALUE>
 					</MANIFESTATION_TYPE>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="xhtml">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>xhtml</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>xhtml</VALUE>
 					</MANIFESTATION_TYPE>
@@ -8273,17 +8343,23 @@
 							</URI>
 						</SAMEAS>
 					</EXPRESSION_MANIFESTED_BY_MANIFESTATION>
-				<MANIFESTATION manifestation-type="docx">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>docx</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>docx</VALUE>
 					</MANIFESTATION_TYPE>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="pdf">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdf</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>pdf</VALUE>
 					</MANIFESTATION_TYPE>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="xhtml">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>xhtml</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>xhtml</VALUE>
 					</MANIFESTATION_TYPE>
@@ -8988,17 +9064,23 @@
 							</URI>
 						</SAMEAS>
 					</EXPRESSION_MANIFESTED_BY_MANIFESTATION>
-				<MANIFESTATION manifestation-type="docx">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>docx</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>docx</VALUE>
 					</MANIFESTATION_TYPE>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="pdf">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdf</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>pdf</VALUE>
 					</MANIFESTATION_TYPE>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="xhtml">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>xhtml</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>xhtml</VALUE>
 					</MANIFESTATION_TYPE>
@@ -9647,17 +9729,23 @@
 						<VALUE>COMMISSION STAFF WORKING DOCUMENT EXECUTIVE SUMMARY OF THE IMPACT ASSESSMENT Single Use Plastics &amp; Fishing Gear Accompanying the document Proposal for a Directive of the European Parliament and of the Council on the reduction of the impact of certain plastic products on the environment</VALUE>
 						<LANG>en</LANG>
 					</EXPRESSION_TITLE>
-				<MANIFESTATION manifestation-type="docx">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>docx</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>docx</VALUE>
 					</MANIFESTATION_TYPE>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="pdf">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdf</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>pdf</VALUE>
 					</MANIFESTATION_TYPE>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="xhtml">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>xhtml</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>xhtml</VALUE>
 					</MANIFESTATION_TYPE>
@@ -10306,17 +10394,23 @@
 						<VALUE>COMMISSION STAFF WORKING DOCUMENT Synopsis Report Stakeholder Consultation Accompanying the document Proposal for Directive of the European Parliament and of the Council on the reduction of the impact of certain plastic products on the environment</VALUE>
 						<LANG>en</LANG>
 					</EXPRESSION_TITLE>
-				<MANIFESTATION manifestation-type="docx">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>docx</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>docx</VALUE>
 					</MANIFESTATION_TYPE>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="pdf">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdf</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>pdf</VALUE>
 					</MANIFESTATION_TYPE>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="xhtml">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>xhtml</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>xhtml</VALUE>
 					</MANIFESTATION_TYPE>
@@ -10354,7 +10448,9 @@
 					</URI>
 				</SAMEAS>
 			</EVENT_LEGAL_CONTAINS_WORK>
-			<TYPE type="data"><VALUE>ADP_byCOM</VALUE></TYPE>
+			<TYPE type="data">
+				<VALUE>ADP_byCOM</VALUE>
+			</TYPE>
 		</EVENT>
 		<EVENT>
 			<URI>
@@ -11129,7 +11225,9 @@
 						<VALUE>European Parliament legislative resolution of 27 March 2019 on the proposal for a directive of the European Parliament and of the Council on the reduction of the impact of certain plastic products on the environment (COM(2018)0340 – C8-0218/2018 – 2018/0172(COD))</VALUE>
 						<LANG>en</LANG>
 					</EXPRESSION_TITLE>
-				<MANIFESTATION manifestation-type="URI">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>URI</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>URI</VALUE>
 					</MANIFESTATION_TYPE>
@@ -11990,7 +12088,9 @@
 						<VALUE>European Parliament legislative resolution of 27 March 2019 on the proposal for a directive of the European Parliament and of the Council on the reduction of the impact of certain plastic products on the environment (COM(2018)0340 – C8-0218/2018 – 2018/0172(COD))</VALUE>
 						<LANG>en</LANG>
 					</EXPRESSION_TITLE>
-				<MANIFESTATION manifestation-type="URI">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>URI</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>URI</VALUE>
 					</MANIFESTATION_TYPE>
@@ -12703,7 +12803,9 @@
 						<PREFLABEL>English</PREFLABEL>
 						<ALTLABEL>English</ALTLABEL>
 					</EXPRESSION_USES_LANGUAGE>
-				<MANIFESTATION manifestation-type="URI">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>URI</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_URI type="data">
 						<VALUE>http://www.europarl.europa.eu/RegistreWeb/search/getDocument.htm?reference=ITRE_AD(2018)625401&amp;fragment=FULL&amp;language=EN</VALUE>
 					</MANIFESTATION_URI>
@@ -13471,7 +13573,9 @@
 						<PREFLABEL>English</PREFLABEL>
 						<ALTLABEL>English</ALTLABEL>
 					</EXPRESSION_USES_LANGUAGE>
-				<MANIFESTATION manifestation-type="URI">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>URI</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_URI type="data">
 						<VALUE>http://www.europarl.europa.eu/RegistreWeb/search/getDocument.htm?reference=AGRI_AD(2018)623923&amp;fragment=FULL&amp;language=EN</VALUE>
 					</MANIFESTATION_URI>
@@ -13581,7 +13685,9 @@
 						<VALUE>OPINION of the Committee on Economic and Monetary Affairs for the Committee on the Environment, Public Health and Food Safety on the proposal for a directive of the European Parliament and of the Council on the reduction of the impact of certain plastic products on the environment (COM(2018)0340 - C8-0218/2018 - 2018/0172(COD)) Rapporteur for opinion: Barbara Kappel</VALUE>
 						<LANG>en</LANG>
 					</EXPRESSION_TITLE>
-				<MANIFESTATION manifestation-type="URI">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>URI</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>URI</VALUE>
 					</MANIFESTATION_TYPE>
@@ -14463,7 +14569,9 @@
 							</URI>
 						</SAMEAS>
 					</EXPRESSION_MANIFESTED_BY_MANIFESTATION>
-				<MANIFESTATION manifestation-type="URI">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>URI</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_URI type="data">
 						<VALUE>http://www.europarl.europa.eu/RegistreWeb/search/getDocument.htm?reference=P8_A(2018)0317&amp;fragment=FULL&amp;language=EN</VALUE>
 					</MANIFESTATION_URI>
@@ -15163,7 +15271,9 @@
 						<VALUE>OPINION of the Committee on Fisheries for the Committee on the Environment, Public Health and Food Safety on the proposal for a directive of the European Parliament and of the Council on the reduction of the impact of certain plastic products on the environment (COM(2018)0340 - C8-0218/2018 - 2018/0172(COD)) Rapporteur for the opinion: Renata Briano</VALUE>
 						<LANG>en</LANG>
 					</EXPRESSION_TITLE>
-				<MANIFESTATION manifestation-type="URI">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>URI</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_URI type="data">
 						<VALUE>http://www.europarl.europa.eu/RegistreWeb/search/getDocument.htm?reference=PECH_AD(2018)625586&amp;fragment=FULL&amp;language=EN</VALUE>
 					</MANIFESTATION_URI>
@@ -15294,7 +15404,9 @@
 						<VALUE>OPINION of the Committee on Economic and Monetary Affairs for the Committee on the Environment, Public Health and Food Safety on the proposal for a directive of the European Parliament and of the Council on the reduction of the impact of certain plastic products on the environment (COM(2018)0340 - C8-0218/2018 - 2018/0172(COD)) Rapporteur for opinion: Barbara Kappel</VALUE>
 						<LANG>en</LANG>
 					</EXPRESSION_TITLE>
-				<MANIFESTATION manifestation-type="URI">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>URI</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>URI</VALUE>
 					</MANIFESTATION_TYPE>
@@ -16139,7 +16251,9 @@
 							</URI>
 						</SAMEAS>
 					</EXPRESSION_MANIFESTED_BY_MANIFESTATION>
-				<MANIFESTATION manifestation-type="URI">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>URI</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_URI type="data">
 						<VALUE>http://www.europarl.europa.eu/RegistreWeb/search/getDocument.htm?reference=P8_A(2018)0317&amp;fragment=FULL&amp;language=EN</VALUE>
 					</MANIFESTATION_URI>
@@ -16912,7 +17026,9 @@
 						<PREFLABEL>English</PREFLABEL>
 						<ALTLABEL>English</ALTLABEL>
 					</EXPRESSION_USES_LANGUAGE>
-				<MANIFESTATION manifestation-type="URI">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>URI</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_URI type="data">
 						<VALUE>http://www.europarl.europa.eu/RegistreWeb/search/getDocument.htm?reference=AGRI_AD(2018)623923&amp;fragment=FULL&amp;language=EN</VALUE>
 					</MANIFESTATION_URI>
@@ -17670,7 +17786,9 @@
 						<VALUE>OPINION of the Committee on Fisheries for the Committee on the Environment, Public Health and Food Safety on the proposal for a directive of the European Parliament and of the Council on the reduction of the impact of certain plastic products on the environment (COM(2018)0340 - C8-0218/2018 - 2018/0172(COD)) Rapporteur for the opinion: Renata Briano</VALUE>
 						<LANG>en</LANG>
 					</EXPRESSION_TITLE>
-				<MANIFESTATION manifestation-type="URI">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>URI</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_URI type="data">
 						<VALUE>http://www.europarl.europa.eu/RegistreWeb/search/getDocument.htm?reference=PECH_AD(2018)625586&amp;fragment=FULL&amp;language=EN</VALUE>
 					</MANIFESTATION_URI>
@@ -18418,7 +18536,9 @@
 						<PREFLABEL>English</PREFLABEL>
 						<ALTLABEL>English</ALTLABEL>
 					</EXPRESSION_USES_LANGUAGE>
-				<MANIFESTATION manifestation-type="URI">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>URI</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_URI type="data">
 						<VALUE>http://www.europarl.europa.eu/RegistreWeb/search/getDocument.htm?reference=ITRE_AD(2018)625401&amp;fragment=FULL&amp;language=EN</VALUE>
 					</MANIFESTATION_URI>
@@ -18525,7 +18645,9 @@
 					</URI>
 				</SAMEAS>
 			</EVENT_LEGAL_CONTAINS_WORK>
-			<TYPE type="data"><VALUE>ADP_R1_POS_byEP</VALUE></TYPE>
+			<TYPE type="data">
+				<VALUE>ADP_R1_POS_byEP</VALUE>
+			</TYPE>
 		</EVENT>
 		<EVENT>
 			<URI>
@@ -19237,7 +19359,9 @@
 							</URI>
 						</SAMEAS>
 					</EXPRESSION_MANIFESTED_BY_MANIFESTATION>
-				<MANIFESTATION manifestation-type="pdfa2a">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdfa2a</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_OFFICIAL-JOURNAL_PART_PAGE_LAST type="data">
 						<VALUE>0019</VALUE>
 					</MANIFESTATION_OFFICIAL-JOURNAL_PART_PAGE_LAST>
@@ -19257,12 +19381,16 @@
 						<VALUE>pdfa2a</VALUE>
 					</MANIFESTATION_TYPE>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="fmx4">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>fmx4</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>fmx4</VALUE>
 					</MANIFESTATION_TYPE>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="xhtml">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>xhtml</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>xhtml</VALUE>
 					</MANIFESTATION_TYPE>
@@ -19944,7 +20072,9 @@
 							</URI>
 						</SAMEAS>
 					</EXPRESSION_MANIFESTED_BY_MANIFESTATION>
-				<MANIFESTATION manifestation-type="pdfa2a">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdfa2a</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_OFFICIAL-JOURNAL_PART_PAGE_LAST type="data">
 						<VALUE>0019</VALUE>
 					</MANIFESTATION_OFFICIAL-JOURNAL_PART_PAGE_LAST>
@@ -19964,12 +20094,16 @@
 						<VALUE>pdfa2a</VALUE>
 					</MANIFESTATION_TYPE>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="fmx4">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>fmx4</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>fmx4</VALUE>
 					</MANIFESTATION_TYPE>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="xhtml">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>xhtml</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>xhtml</VALUE>
 					</MANIFESTATION_TYPE>
@@ -20007,7 +20141,9 @@
 					</URI>
 				</SAMEAS>
 			</EVENT_LEGAL_CONTAINS_WORK>
-			<TYPE type="data"><VALUE>PUB_OJ</VALUE></TYPE>
+			<TYPE type="data">
+				<VALUE>PUB_OJ</VALUE>
+			</TYPE>
 		</EVENT>
 		<EVENT>
 			<URI>
@@ -20149,7 +20285,9 @@
 							</URI>
 						</SAMEAS>
 					</EXPRESSION_MANIFESTED_BY_MANIFESTATION>
-				<MANIFESTATION manifestation-type="URI">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>URI</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>URI</VALUE>
 					</MANIFESTATION_TYPE>
@@ -20157,7 +20295,9 @@
 						<VALUE>http://data.consilium.europa.eu/doc/document/ST-11401-2018-INIT/X/pdf</VALUE>
 					</MANIFESTATION_URI>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="pdf">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdf</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>pdf</VALUE>
 					</MANIFESTATION_TYPE>
@@ -20298,7 +20438,9 @@
 							</URI>
 						</SAMEAS>
 					</EXPRESSION_MANIFESTED_BY_MANIFESTATION>
-				<MANIFESTATION manifestation-type="URI">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>URI</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>URI</VALUE>
 					</MANIFESTATION_TYPE>
@@ -20306,7 +20448,9 @@
 						<VALUE>http://data.consilium.europa.eu/doc/document/ST-11401-2018-INIT/X/pdf</VALUE>
 					</MANIFESTATION_URI>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="pdf">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdf</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>pdf</VALUE>
 					</MANIFESTATION_TYPE>
@@ -20336,7 +20480,9 @@
 					</URI>
 				</SAMEAS>
 			</EVENT_LEGAL_CONTAINS_WORK>
-			<TYPE type="data"><VALUE>DIS_byCONSIL</VALUE></TYPE>
+			<TYPE type="data">
+				<VALUE>DIS_byCONSIL</VALUE>
+			</TYPE>
 		</EVENT>
 		<EVENT>
 			<URI>
@@ -20508,7 +20654,9 @@
 						<PREFLABEL>English</PREFLABEL>
 						<ALTLABEL>English</ALTLABEL>
 					</EXPRESSION_USES_LANGUAGE>
-				<MANIFESTATION manifestation-type="URI">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>URI</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>URI</VALUE>
 					</MANIFESTATION_TYPE>
@@ -20516,7 +20664,9 @@
 						<VALUE>http://data.consilium.europa.eu/doc/document/ST-13162-2018-INIT/X/pdf</VALUE>
 					</MANIFESTATION_URI>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="pdf">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdf</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>pdf</VALUE>
 					</MANIFESTATION_TYPE>
@@ -20627,7 +20777,9 @@
 						<PREFLABEL>English</PREFLABEL>
 						<ALTLABEL>English</ALTLABEL>
 					</EXPRESSION_USES_LANGUAGE>
-				<MANIFESTATION manifestation-type="URI">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>URI</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>URI</VALUE>
 					</MANIFESTATION_TYPE>
@@ -20635,7 +20787,9 @@
 						<VALUE>http://data.consilium.europa.eu/doc/document/ST-13162-2018-INIT/X/pdf</VALUE>
 					</MANIFESTATION_URI>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="pdf">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdf</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>pdf</VALUE>
 					</MANIFESTATION_TYPE>
@@ -20665,7 +20819,9 @@
 					</URI>
 				</SAMEAS>
 			</EVENT_LEGAL_CONTAINS_WORK>
-			<TYPE type="data"><VALUE>DIS_byCONSIL</VALUE></TYPE>
+			<TYPE type="data">
+				<VALUE>DIS_byCONSIL</VALUE>
+			</TYPE>
 		</EVENT>
 		<EVENT>
 			<URI>
@@ -20759,7 +20915,9 @@
 							</URI>
 						</SAMEAS>
 					</EXPRESSION_MANIFESTED_BY_MANIFESTATION>
-				<MANIFESTATION manifestation-type="URI">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>URI</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_URI type="data">
 						<VALUE>http://data.consilium.europa.eu/doc/document/ST-9465-2018-ADD-4/EN/pdf</VALUE>
 					</MANIFESTATION_URI>
@@ -20767,7 +20925,9 @@
 						<VALUE>URI</VALUE>
 					</MANIFESTATION_TYPE>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="pdf">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdf</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>pdf</VALUE>
 					</MANIFESTATION_TYPE>
@@ -20885,7 +21045,9 @@
 						<VALUE>COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT Reducing Marine Litter: action on single use plastics and fishing gear Accompanying the document Proposal for a Directive of the European Parliament and of the Council on the reduction of the impact of certain plastic products on the environment</VALUE>
 						<LANG>en</LANG>
 					</EXPRESSION_TITLE>
-				<MANIFESTATION manifestation-type="URI">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>URI</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>URI</VALUE>
 					</MANIFESTATION_TYPE>
@@ -20893,7 +21055,9 @@
 						<VALUE>http://data.consilium.europa.eu/doc/document/ST-9465-2018-ADD-3/EN/pdf</VALUE>
 					</MANIFESTATION_URI>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="pdf">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdf</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>pdf</VALUE>
 					</MANIFESTATION_TYPE>
@@ -21005,7 +21169,9 @@
 						<PREFLABEL>English</PREFLABEL>
 						<ALTLABEL>English</ALTLABEL>
 					</EXPRESSION_USES_LANGUAGE>
-				<MANIFESTATION manifestation-type="URI">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>URI</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>URI</VALUE>
 					</MANIFESTATION_TYPE>
@@ -21013,7 +21179,9 @@
 						<VALUE>http://data.consilium.europa.eu/doc/document/ST-9465-2018-INIT/EN/pdf</VALUE>
 					</MANIFESTATION_URI>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="pdf">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdf</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>pdf</VALUE>
 					</MANIFESTATION_TYPE>
@@ -21169,7 +21337,9 @@
 						<VALUE>COMMISSION STAFF WORKING DOCUMENT EXECUTIVE SUMMARY OF THE IMPACT ASSESSMENT Single Use Plastics &amp; Fishing Gear Accompanying the document Proposal for a Directive of the European Parliament and of the Council on the reduction of the impact of certain plastic products on the environment</VALUE>
 						<LANG>en</LANG>
 					</EXPRESSION_TITLE>
-				<MANIFESTATION manifestation-type="URI">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>URI</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_URI type="data">
 						<VALUE>http://data.consilium.europa.eu/doc/document/ST-9465-2018-ADD-5/EN/pdf</VALUE>
 					</MANIFESTATION_URI>
@@ -21177,7 +21347,9 @@
 						<VALUE>URI</VALUE>
 					</MANIFESTATION_TYPE>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="pdf">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdf</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>pdf</VALUE>
 					</MANIFESTATION_TYPE>
@@ -21289,7 +21461,9 @@
 						<PREFLABEL>English</PREFLABEL>
 						<ALTLABEL>English</ALTLABEL>
 					</EXPRESSION_USES_LANGUAGE>
-				<MANIFESTATION manifestation-type="URI">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>URI</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>URI</VALUE>
 					</MANIFESTATION_TYPE>
@@ -21297,7 +21471,9 @@
 						<VALUE>http://data.consilium.europa.eu/doc/document/ST-9465-2018-ADD-6/EN/pdf</VALUE>
 					</MANIFESTATION_URI>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="pdf">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdf</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>pdf</VALUE>
 					</MANIFESTATION_TYPE>
@@ -21391,7 +21567,9 @@
 							</URI>
 						</SAMEAS>
 					</EXPRESSION_MANIFESTED_BY_MANIFESTATION>
-				<MANIFESTATION manifestation-type="URI">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>URI</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_URI type="data">
 						<VALUE>http://data.consilium.europa.eu/doc/document/ST-9465-2018-ADD-1/EN/pdf</VALUE>
 					</MANIFESTATION_URI>
@@ -21399,7 +21577,9 @@
 						<VALUE>URI</VALUE>
 					</MANIFESTATION_TYPE>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="pdf">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdf</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>pdf</VALUE>
 					</MANIFESTATION_TYPE>
@@ -21567,7 +21747,9 @@
 						<VALUE>COMMISSION STAFF WORKING DOCUMENT Synopsis Report Stakeholder Consultation Accompanying the document Proposal for Directive of the European Parliament and of the Council on the reduction of the impact of certain plastic products on the environment</VALUE>
 						<LANG>en</LANG>
 					</EXPRESSION_TITLE>
-				<MANIFESTATION manifestation-type="URI">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>URI</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>URI</VALUE>
 					</MANIFESTATION_TYPE>
@@ -21575,7 +21757,9 @@
 						<VALUE>http://data.consilium.europa.eu/doc/document/ST-9465-2018-ADD-7/EN/pdf</VALUE>
 					</MANIFESTATION_URI>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="pdf">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdf</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>pdf</VALUE>
 					</MANIFESTATION_TYPE>
@@ -21693,7 +21877,9 @@
 						<VALUE>COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT Reducing Marine Litter: action on single use plastics and fishing gear Accompanying the document Proposal for a Directive of the European Parliament and of the Council on the reduction of the impact of certain plastic products on the environment</VALUE>
 						<LANG>en</LANG>
 					</EXPRESSION_TITLE>
-				<MANIFESTATION manifestation-type="URI">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>URI</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_URI type="data">
 						<VALUE>http://data.consilium.europa.eu/doc/document/ST-9465-2018-ADD-2/EN/pdf</VALUE>
 					</MANIFESTATION_URI>
@@ -21701,7 +21887,9 @@
 						<VALUE>URI</VALUE>
 					</MANIFESTATION_TYPE>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="pdf">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdf</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>pdf</VALUE>
 					</MANIFESTATION_TYPE>
@@ -21792,7 +21980,9 @@
 						<PREFLABEL>English</PREFLABEL>
 						<ALTLABEL>English</ALTLABEL>
 					</EXPRESSION_USES_LANGUAGE>
-				<MANIFESTATION manifestation-type="URI">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>URI</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>URI</VALUE>
 					</MANIFESTATION_TYPE>
@@ -21800,7 +21990,9 @@
 						<VALUE>http://data.consilium.europa.eu/doc/document/ST-9465-2018-INIT/EN/pdf</VALUE>
 					</MANIFESTATION_URI>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="pdf">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdf</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>pdf</VALUE>
 					</MANIFESTATION_TYPE>
@@ -21912,7 +22104,9 @@
 						<VALUE>COMMISSION STAFF WORKING DOCUMENT EXECUTIVE SUMMARY OF THE IMPACT ASSESSMENT Single Use Plastics &amp; Fishing Gear Accompanying the document Proposal for a Directive of the European Parliament and of the Council on the reduction of the impact of certain plastic products on the environment</VALUE>
 						<LANG>en</LANG>
 					</EXPRESSION_TITLE>
-				<MANIFESTATION manifestation-type="URI">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>URI</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_URI type="data">
 						<VALUE>http://data.consilium.europa.eu/doc/document/ST-9465-2018-ADD-5/EN/pdf</VALUE>
 					</MANIFESTATION_URI>
@@ -21920,7 +22114,9 @@
 						<VALUE>URI</VALUE>
 					</MANIFESTATION_TYPE>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="pdf">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdf</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>pdf</VALUE>
 					</MANIFESTATION_TYPE>
@@ -22032,7 +22228,9 @@
 							</URI>
 						</SAMEAS>
 					</EXPRESSION_MANIFESTED_BY_MANIFESTATION>
-				<MANIFESTATION manifestation-type="URI">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>URI</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_URI type="data">
 						<VALUE>http://data.consilium.europa.eu/doc/document/ST-9465-2018-ADD-4/EN/pdf</VALUE>
 					</MANIFESTATION_URI>
@@ -22040,7 +22238,9 @@
 						<VALUE>URI</VALUE>
 					</MANIFESTATION_TYPE>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="pdf">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdf</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>pdf</VALUE>
 					</MANIFESTATION_TYPE>
@@ -22152,7 +22352,9 @@
 						<VALUE>COMMISSION STAFF WORKING DOCUMENT Synopsis Report Stakeholder Consultation Accompanying the document Proposal for Directive of the European Parliament and of the Council on the reduction of the impact of certain plastic products on the environment</VALUE>
 						<LANG>en</LANG>
 					</EXPRESSION_TITLE>
-				<MANIFESTATION manifestation-type="URI">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>URI</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>URI</VALUE>
 					</MANIFESTATION_TYPE>
@@ -22160,7 +22362,9 @@
 						<VALUE>http://data.consilium.europa.eu/doc/document/ST-9465-2018-ADD-7/EN/pdf</VALUE>
 					</MANIFESTATION_URI>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="pdf">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdf</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>pdf</VALUE>
 					</MANIFESTATION_TYPE>
@@ -22251,7 +22455,9 @@
 						<PREFLABEL>English</PREFLABEL>
 						<ALTLABEL>English</ALTLABEL>
 					</EXPRESSION_USES_LANGUAGE>
-				<MANIFESTATION manifestation-type="URI">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>URI</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>URI</VALUE>
 					</MANIFESTATION_TYPE>
@@ -22259,7 +22465,9 @@
 						<VALUE>http://data.consilium.europa.eu/doc/document/ST-9465-2018-ADD-6/EN/pdf</VALUE>
 					</MANIFESTATION_URI>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="pdf">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdf</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>pdf</VALUE>
 					</MANIFESTATION_TYPE>
@@ -22371,7 +22579,9 @@
 							</URI>
 						</SAMEAS>
 					</EXPRESSION_MANIFESTED_BY_MANIFESTATION>
-				<MANIFESTATION manifestation-type="URI">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>URI</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_URI type="data">
 						<VALUE>http://data.consilium.europa.eu/doc/document/ST-9465-2018-ADD-1/EN/pdf</VALUE>
 					</MANIFESTATION_URI>
@@ -22379,7 +22589,9 @@
 						<VALUE>URI</VALUE>
 					</MANIFESTATION_TYPE>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="pdf">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdf</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>pdf</VALUE>
 					</MANIFESTATION_TYPE>
@@ -22512,7 +22724,9 @@
 						<VALUE>COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT Reducing Marine Litter: action on single use plastics and fishing gear Accompanying the document Proposal for a Directive of the European Parliament and of the Council on the reduction of the impact of certain plastic products on the environment</VALUE>
 						<LANG>en</LANG>
 					</EXPRESSION_TITLE>
-				<MANIFESTATION manifestation-type="URI">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>URI</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>URI</VALUE>
 					</MANIFESTATION_TYPE>
@@ -22520,7 +22734,9 @@
 						<VALUE>http://data.consilium.europa.eu/doc/document/ST-9465-2018-ADD-3/EN/pdf</VALUE>
 					</MANIFESTATION_URI>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="pdf">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdf</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>pdf</VALUE>
 					</MANIFESTATION_TYPE>
@@ -22632,7 +22848,9 @@
 						<VALUE>COMMISSION STAFF WORKING DOCUMENT IMPACT ASSESSMENT Reducing Marine Litter: action on single use plastics and fishing gear Accompanying the document Proposal for a Directive of the European Parliament and of the Council on the reduction of the impact of certain plastic products on the environment</VALUE>
 						<LANG>en</LANG>
 					</EXPRESSION_TITLE>
-				<MANIFESTATION manifestation-type="URI">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>URI</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_URI type="data">
 						<VALUE>http://data.consilium.europa.eu/doc/document/ST-9465-2018-ADD-2/EN/pdf</VALUE>
 					</MANIFESTATION_URI>
@@ -22640,7 +22858,9 @@
 						<VALUE>URI</VALUE>
 					</MANIFESTATION_TYPE>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="pdf">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdf</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>pdf</VALUE>
 					</MANIFESTATION_TYPE>
@@ -22697,7 +22917,9 @@
 				<MONTH>05</MONTH>
 				<DAY>29</DAY>
 			</CREATIONDATE>
-			<TYPE type="data"><VALUE>DIS_byCONSIL</VALUE></TYPE>
+			<TYPE type="data">
+				<VALUE>DIS_byCONSIL</VALUE>
+			</TYPE>
 		</EVENT>
 		<EVENT>
 			<URI>
@@ -22786,7 +23008,9 @@
 						<PREFLABEL>English</PREFLABEL>
 						<ALTLABEL>English</ALTLABEL>
 					</EXPRESSION_USES_LANGUAGE>
-				<MANIFESTATION manifestation-type="URI">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>URI</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_URI type="data">
 						<VALUE>http://data.consilium.europa.eu/doc/document/ST-9541-2019-INIT/EN/pdf</VALUE>
 					</MANIFESTATION_URI>
@@ -22794,7 +23018,9 @@
 						<VALUE>URI</VALUE>
 					</MANIFESTATION_TYPE>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="pdf">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdf</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>pdf</VALUE>
 					</MANIFESTATION_TYPE>
@@ -22978,7 +23204,9 @@
 						<PREFLABEL>English</PREFLABEL>
 						<ALTLABEL>English</ALTLABEL>
 					</EXPRESSION_USES_LANGUAGE>
-				<MANIFESTATION manifestation-type="URI">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>URI</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_URI type="data">
 						<VALUE>http://data.consilium.europa.eu/doc/document/ST-9541-2019-INIT/EN/pdf</VALUE>
 					</MANIFESTATION_URI>
@@ -22986,7 +23214,9 @@
 						<VALUE>URI</VALUE>
 					</MANIFESTATION_TYPE>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="pdf">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdf</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>pdf</VALUE>
 					</MANIFESTATION_TYPE>
@@ -23028,7 +23258,9 @@
 				<ALTLABEL>Council</ALTLABEL>
 				<ALTLABEL>Council of the European Communities</ALTLABEL>
 			</EVENT_LEGAL_INITIATED_BY_INSTITUTION>
-			<TYPE type="data"><VALUE>APR_R1_byCONSIL</VALUE></TYPE>
+			<TYPE type="data">
+				<VALUE>APR_R1_byCONSIL</VALUE>
+			</TYPE>
 		</EVENT>
 		<EVENT>
 			<URI>
@@ -23142,7 +23374,9 @@
 						<VALUE>Proposal for a DIRECTIVE OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on the reduction of the impact of certain plastic products on the environment</VALUE>
 						<LANG>en</LANG>
 					</EXPRESSION_TITLE>
-				<MANIFESTATION manifestation-type="URI">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>URI</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>URI</VALUE>
 					</MANIFESTATION_TYPE>
@@ -23150,7 +23384,9 @@
 						<VALUE>http://data.consilium.europa.eu/doc/document/ST-9465-2018-COR-1/EN/pdf</VALUE>
 					</MANIFESTATION_URI>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="pdf">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdf</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>pdf</VALUE>
 					</MANIFESTATION_TYPE>
@@ -23302,7 +23538,9 @@
 						<VALUE>Proposal for a DIRECTIVE OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on the reduction of the impact of certain plastic products on the environment</VALUE>
 						<LANG>en</LANG>
 					</EXPRESSION_TITLE>
-				<MANIFESTATION manifestation-type="URI">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>URI</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>URI</VALUE>
 					</MANIFESTATION_TYPE>
@@ -23310,7 +23548,9 @@
 						<VALUE>http://data.consilium.europa.eu/doc/document/ST-9465-2018-COR-1/EN/pdf</VALUE>
 					</MANIFESTATION_URI>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="pdf">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdf</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>pdf</VALUE>
 					</MANIFESTATION_TYPE>
@@ -23361,7 +23601,9 @@
 					</URI>
 				</SAMEAS>
 			</CONTAINS>
-			<TYPE type="data"><VALUE>DIS_byCONSIL</VALUE></TYPE>
+			<TYPE type="data">
+				<VALUE>DIS_byCONSIL</VALUE>
+			</TYPE>
 		</EVENT>
 		<EVENT>
 			<URI>
@@ -23533,7 +23775,9 @@
 							</URI>
 						</SAMEAS>
 					</EXPRESSION_MANIFESTED_BY_MANIFESTATION>
-				<MANIFESTATION manifestation-type="URI">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>URI</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_URI type="data">
 						<VALUE>http://data.consilium.europa.eu/doc/document/PE-11-2019-REV-1/EN/pdf</VALUE>
 					</MANIFESTATION_URI>
@@ -23541,7 +23785,9 @@
 						<VALUE>URI</VALUE>
 					</MANIFESTATION_TYPE>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="pdf">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdf</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>pdf</VALUE>
 					</MANIFESTATION_TYPE>
@@ -23684,7 +23930,9 @@
 							</URI>
 						</SAMEAS>
 					</EXPRESSION_MANIFESTED_BY_MANIFESTATION>
-				<MANIFESTATION manifestation-type="URI">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>URI</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_URI type="data">
 						<VALUE>http://data.consilium.europa.eu/doc/document/PE-11-2019-REV-1/EN/pdf</VALUE>
 					</MANIFESTATION_URI>
@@ -23692,7 +23940,9 @@
 						<VALUE>URI</VALUE>
 					</MANIFESTATION_TYPE>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="pdf">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdf</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>pdf</VALUE>
 					</MANIFESTATION_TYPE>
@@ -23743,7 +23993,9 @@
 					</URI>
 				</SAMEAS>
 			</CONTAINS>
-			<TYPE type="data"><VALUE>SIGN_byEP_CONSIL</VALUE></TYPE>
+			<TYPE type="data">
+				<VALUE>SIGN_byEP_CONSIL</VALUE>
+			</TYPE>
 		</EVENT>
 		<EVENT>
 			<URI>
@@ -23937,7 +24189,9 @@
 							</URI>
 						</SAMEAS>
 					</EXPRESSION_MANIFESTED_BY_MANIFESTATION>
-				<MANIFESTATION manifestation-type="URI">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>URI</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>URI</VALUE>
 					</MANIFESTATION_TYPE>
@@ -23945,7 +24199,9 @@
 						<VALUE>http://data.consilium.europa.eu/doc/document/ST-5483-2019-INIT/EN/pdf</VALUE>
 					</MANIFESTATION_URI>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="pdf">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdf</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>pdf</VALUE>
 					</MANIFESTATION_TYPE>
@@ -24036,7 +24292,9 @@
 							</URI>
 						</SAMEAS>
 					</EXPRESSION_MANIFESTED_BY_MANIFESTATION>
-				<MANIFESTATION manifestation-type="URI">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>URI</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>URI</VALUE>
 					</MANIFESTATION_TYPE>
@@ -24044,7 +24302,9 @@
 						<VALUE>http://data.consilium.europa.eu/doc/document/ST-5483-2019-INIT/EN/pdf</VALUE>
 					</MANIFESTATION_URI>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="pdf">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdf</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>pdf</VALUE>
 					</MANIFESTATION_TYPE>
@@ -24074,7 +24334,9 @@
 					</URI>
 				</SAMEAS>
 			</EVENT_LEGAL_CONTAINS_WORK>
-			<TYPE type="data"><VALUE>DIS_byCONSIL</VALUE></TYPE>
+			<TYPE type="data">
+				<VALUE>DIS_byCONSIL</VALUE>
+			</TYPE>
 		</EVENT>
 		<EVENT>
 			<URI>
@@ -24207,7 +24469,9 @@
 							</URI>
 						</SAMEAS>
 					</EXPRESSION_MANIFESTED_BY_MANIFESTATION>
-				<MANIFESTATION manifestation-type="URI">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>URI</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_URI type="data">
 						<VALUE>http://data.consilium.europa.eu/doc/document/ST-7736-2019-INIT/EN/pdf</VALUE>
 					</MANIFESTATION_URI>
@@ -24215,7 +24479,9 @@
 						<VALUE>URI</VALUE>
 					</MANIFESTATION_TYPE>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="pdf">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdf</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>pdf</VALUE>
 					</MANIFESTATION_TYPE>
@@ -24350,7 +24616,9 @@
 							</URI>
 						</SAMEAS>
 					</EXPRESSION_MANIFESTED_BY_MANIFESTATION>
-				<MANIFESTATION manifestation-type="URI">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>URI</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_URI type="data">
 						<VALUE>http://data.consilium.europa.eu/doc/document/ST-7736-2019-INIT/EN/pdf</VALUE>
 					</MANIFESTATION_URI>
@@ -24358,7 +24626,9 @@
 						<VALUE>URI</VALUE>
 					</MANIFESTATION_TYPE>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="pdf">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdf</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>pdf</VALUE>
 					</MANIFESTATION_TYPE>
@@ -24405,7 +24675,9 @@
 				<MONTH>04</MONTH>
 				<DAY>02</DAY>
 			</DATE>
-			<TYPE type="data"><VALUE>DIS_byCONSIL</VALUE></TYPE>
+			<TYPE type="data">
+				<VALUE>DIS_byCONSIL</VALUE>
+			</TYPE>
 		</EVENT>
 		<EVENT>
 			<URI>
@@ -25192,7 +25464,9 @@
 							</URI>
 						</SAMEAS>
 					</EXPRESSION_MANIFESTED_BY_MANIFESTATION>
-				<MANIFESTATION manifestation-type="pdfa1a">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdfa1a</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>pdfa1a</VALUE>
 					</MANIFESTATION_TYPE>
@@ -25212,12 +25486,16 @@
 						</SAMEAS>
 					</MANIFESTATION_PART_OF_MANIFESTATION>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="fmx4">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>fmx4</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>fmx4</VALUE>
 					</MANIFESTATION_TYPE>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="xhtml">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>xhtml</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>xhtml</VALUE>
 					</MANIFESTATION_TYPE>
@@ -25262,7 +25540,9 @@
 					</URI>
 				</SAMEAS>
 			</EVENT_LEGAL_CONTAINS_WORK>
-			<TYPE type="data"><VALUE>OPI_byCOR</VALUE></TYPE>
+			<TYPE type="data">
+				<VALUE>OPI_byCOR</VALUE>
+			</TYPE>
 		</EVENT>
 		<EVENT>
 			<URI>
@@ -25913,7 +26193,9 @@
 							</URI>
 						</SAMEAS>
 					</EXPRESSION_MANIFESTED_BY_MANIFESTATION>
-				<MANIFESTATION manifestation-type="pdfa1a">
+				<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>pdfa1a</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_PART_OF_MANIFESTATION type="embedded_link">
 						<SAMEAS>
 							<URI>
@@ -25933,12 +26215,16 @@
 						<VALUE>pdfa1a</VALUE>
 					</MANIFESTATION_TYPE>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="fmx4">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>fmx4</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>fmx4</VALUE>
 					</MANIFESTATION_TYPE>
 				</MANIFESTATION>
-						<MANIFESTATION manifestation-type="xhtml">
+						<MANIFESTATION><!--match="MANIFESTATION for attribute review"--><MANIFESTATION_TYPE type="data">
+								<VALUE>xhtml</VALUE>
+							</MANIFESTATION_TYPE>
 					<MANIFESTATION_TYPE type="data">
 						<VALUE>xhtml</VALUE>
 					</MANIFESTATION_TYPE>
@@ -26128,7 +26414,9 @@
 					</URI>
 				</SAMEAS>
 			</EVENT_REPORTED_BY_PERSON>
-			<TYPE type="data"><VALUE>OPI_byEESC</VALUE></TYPE>
+			<TYPE type="data">
+				<VALUE>OPI_byEESC</VALUE>
+			</TYPE>
 		</EVENT>
 	</DOSSIER>
 </NOTICE>

@@ -1,352 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- edited with XMLSpy v2019 rel. 3 sp1 (http://www.altova.com) by DG OP (OP Publications Office of the European Union) -->
+<!-- edited with XMLSpy v2019 rel. 3 sp1 (x64) (http://www.altova.com) by Simone Gasperoni (OP Publications Office of the European Union) -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1">
 	<xs:annotation>
-		<xs:documentation xml:lang="en">This is not an XML schema. Rather it is an XML-schema template which is filled in depending the properties defined by the CDM and TDM ontology (http://publications.europa.eu/ontology/cdm# and http://publications.europa.eu/ontology/tdm). In this specification, element names (or name parts) in UPPER CASE are definite (fixed).  The lower case parts are dynamic. Also note: The order of child elements typically is NOT fixed. This schema will be reused by the more specific ones for describing particulars notices.</xs:documentation>
+		<xs:documentation xml:lang="en">This is the collection of the common components reused by the XML schema of each kind of notice. To avoid using each of the specific names of properties from the CDM, this schema makes use of "Placeholders" that represent groups of different kind of properties. Before validating, an XSLT trasformation replaces the specific names of the properties with the "Placeholders" (making use of the values of the attributes) in the XML instance to validate</xs:documentation>
 	</xs:annotation>
-	<xs:element name="OBJECT">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element ref="URI" minOccurs="0" maxOccurs="unbounded"/>
-			</xs:sequence>
-			<xs:attribute name="in" type="xs:anyURI" use="required">
-				<xs:annotation>
-					<xs:documentation xml:lang="en">The URI given on input.
-The list of alternative identifiers for this URI are requested.</xs:documentation>
-				</xs:annotation>
-			</xs:attribute>
-			<xs:attribute name="embargo-date" type="xs:dateTime">
-				<xs:annotation>
-					<xs:documentation xml:lang="en">On occasional embargo date-time set on the identified object.</xs:documentation>
-				</xs:annotation>
-			</xs:attribute>
-		</xs:complexType>
-	</xs:element>
-	<xs:simpleType name="types">
-		<xs:annotation>
-			<xs:documentation xml:lang="en">List of supported @type values</xs:documentation>
-		</xs:annotation>
-		<xs:restriction base="xs:string">
-			<xs:enumeration value="date"/>
-			<xs:enumeration value="concept_hierarchy"/>
-			<xs:enumeration value="concept_hierarchy_path"/>
-			<xs:enumeration value="concept_hierarchy_path_concept"/>
-			<xs:enumeration value="concept"/>
-			<xs:enumeration value="data"/>
-			<xs:enumeration value="memberlist"/>
-			<xs:enumeration value="link"/>
-			<xs:enumeration value="embedded_link"/>
-			<xs:enumeration value="annotation"/>
-			<xs:enumeration value="type"/>
-		</xs:restriction>
-	</xs:simpleType>
-	<xs:attribute name="type" type="xs:string">
-		<xs:annotation>
-			<xs:documentation>Determines the content model (structure) of the element.</xs:documentation>
-		</xs:annotation>
-	</xs:attribute>
 	<xs:group name="property">
 		<xs:annotation>
-			<xs:documentation xml:lang="en">groups all properties that can be used in a notice.</xs:documentation>
+			<xs:documentation xml:lang="en">It groups all properties that can be used in a notice</xs:documentation>
 		</xs:annotation>
 		<xs:choice>
-			<xs:element ref="p_name_literal">
-				<xs:annotation>
-					<xs:documentation>The name of the element is dynamic, this is not a real element name.
-The structure is set by the @type attribute.</xs:documentation>
-				</xs:annotation>
-			</xs:element>
-			<xs:element ref="p_name_date">
-				<xs:annotation>
-					<xs:documentation>The name of the element is dynamic, this is not a real element name.
-The structure is set by the @type attribute.</xs:documentation>
-				</xs:annotation>
-			</xs:element>
-			<xs:element ref="p_name_concept">
-				<xs:annotation>
-					<xs:documentation>The name of the element is dynamic, this is not a real element name.
-The structure is set by the @type attribute.</xs:documentation>
-				</xs:annotation>
-			</xs:element>
+			<xs:element ref="p_name_literal"/>
+			<xs:element ref="p_name_date"/>
+			<xs:element ref="p_name_concept"/>
 			<xs:element ref="p_name_concept_hierarchy"/>
-			<xs:element ref="p_name.MEMBERLIST">
-				<xs:annotation>
-					<xs:documentation>The name of the element is dynamic, this is not a real element name.
-The structure is set by the @type attribute of the sub-elements.</xs:documentation>
-				</xs:annotation>
-			</xs:element>
-			<xs:element ref="p_name_rel">
-				<xs:annotation>
-					<xs:documentation>A relation to a related content object.  
-e.g. an object (WORK, DOSSIER, AGENT) that is not a skos:Concept. Inverse relations are included
-
-The name of the element is dynamic and is replaced by the metadata property name. </xs:documentation>
-				</xs:annotation>
-			</xs:element>
+			<xs:element ref="p_name.MEMBERLIST"/>
+			<xs:element ref="p_name_rel"/>
 		</xs:choice>
 	</xs:group>
 	<xs:group name="embedded-property">
 		<xs:annotation>
-			<xs:documentation xml:lang="en">groups all properties that can be used in an embedded notice.</xs:documentation>
+			<xs:documentation xml:lang="en">It groups all properties that can be used in an embedded notice</xs:documentation>
 		</xs:annotation>
 		<xs:choice>
 			<xs:element ref="p_name_literal">
 				<xs:annotation>
-					<xs:documentation>The name of the element is dynamic, this is not a real element name.
-The structure is set by the @type attribute.</xs:documentation>
+					<xs:documentation>The name of the element is dynamic, this is not a real element name. The structure is set by the @type attribute.</xs:documentation>
 				</xs:annotation>
 			</xs:element>
 			<xs:element ref="p_name_date">
 				<xs:annotation>
-					<xs:documentation>The name of the element is dynamic, this is not a real element name.
-The structure is set by the @type attribute.</xs:documentation>
+					<xs:documentation>The name of the element is dynamic, this is not a real element name. The structure is set by the @type attribute.</xs:documentation>
 				</xs:annotation>
 			</xs:element>
 			<xs:element ref="p_name_concept">
 				<xs:annotation>
-					<xs:documentation>The name of the element is dynamic, this is not a real element name.
-The structure is set by the @type attribute.</xs:documentation>
+					<xs:documentation>The name of the element is dynamic, this is not a real element name. The structure is set by the @type attribute.</xs:documentation>
 				</xs:annotation>
 			</xs:element>
 			<xs:element ref="p_name_concept_hierarchy"/>
 			<xs:element ref="p_name_embedded_rel">
 				<xs:annotation>
-					<xs:documentation xml:lang="en">An embedded relation cannot be extended anymore.
-It just gives the the identifiers of the target and occasional annotations on the link.</xs:documentation>
+					<xs:documentation xml:lang="en">An embedded relation cannot be extended anymore. It just gives the the identifiers of the target and occasional annotations on the link.</xs:documentation>
 				</xs:annotation>
 			</xs:element>
 		</xs:choice>
 	</xs:group>
-	<xs:complexType name="Literal">
-		<xs:sequence>
-			<xs:element name="VALUE" type="xs:anyType">
-				<xs:annotation>
-					<xs:documentation xml:lang="en">literal value</xs:documentation>
-				</xs:annotation>
-			</xs:element>
-			<xs:element name="LANG" minOccurs="0"/>
-			<xs:element name="annotation_property" minOccurs="0" maxOccurs="unbounded">
-				<xs:annotation>
-					<xs:documentation>annotation_property is a dynamic assigned name (derived from the cdm ontology).
-it's value is a string value.</xs:documentation>
-				</xs:annotation>
-				<xs:complexType>
-					<xs:simpleContent>
-						<xs:extension base="xs:string">
-							<xs:attribute ref="type" use="required" fixed="annotation"/>
-						</xs:extension>
-					</xs:simpleContent>
-				</xs:complexType>
-			</xs:element>
-		</xs:sequence>
-		<xs:attribute ref="type" use="required" fixed="data">
-			<xs:annotation>
-				<xs:documentation xml:lang="en">fixed value = 'data'</xs:documentation>
-			</xs:annotation>
-		</xs:attribute>
-	</xs:complexType>
-	<xs:element name="p_name_literal" type="Literal">
-		<xs:annotation>
-			<xs:documentation xml:lang="en">A property that takes a literal value.
-
-The name of the element is dynamic and is replaced by the metadata property name.</xs:documentation>
-		</xs:annotation>
-	</xs:element>
-	<xs:complexType name="Date">
-		<xs:sequence>
-			<xs:element name="VALUE" type="xs:string">
-				<xs:annotation>
-					<xs:documentation>Special values are used for unknown dates
-- 9999-12-31
-- 0001-01-01</xs:documentation>
-				</xs:annotation>
-			</xs:element>
-			<xs:element name="YEAR" type="xs:gYear">
-				<xs:annotation>
-					<xs:documentation xml:lang="en">YYYY</xs:documentation>
-				</xs:annotation>
-			</xs:element>
-			<xs:element name="MONTH">
-				<xs:annotation>
-					<xs:documentation xml:lang="en">format = MM</xs:documentation>
-				</xs:annotation>
-				<xs:simpleType>
-					<xs:restriction base="xs:positiveInteger">
-						<xs:minInclusive value="1"/>
-						<xs:maxInclusive value="12"/>
-						<xs:totalDigits value="2"/>
-					</xs:restriction>
-				</xs:simpleType>
-			</xs:element>
-			<xs:element name="DAY">
-				<xs:annotation>
-					<xs:documentation xml:lang="en">format = DD</xs:documentation>
-				</xs:annotation>
-				<xs:simpleType>
-					<xs:restriction base="xs:positiveInteger">
-						<xs:minInclusive value="1"/>
-						<xs:maxInclusive value="31"/>
-						<xs:totalDigits value="2"/>
-					</xs:restriction>
-				</xs:simpleType>
-			</xs:element>
-			<xs:element ref="annotation_property" minOccurs="0" maxOccurs="unbounded"/>
-		</xs:sequence>
-		<xs:attribute ref="type" use="required" fixed="date">
-			<xs:annotation>
-				<xs:documentation xml:lang="en">fixed value = "date"</xs:documentation>
-			</xs:annotation>
-		</xs:attribute>
-	</xs:complexType>
-	<xs:element name="p_name_date" type="Date">
-		<xs:annotation>
-			<xs:documentation xml:lang="en">A property with a date range value.
-
-The name of the element is dynamic and is replaced by the metadata property name.</xs:documentation>
-		</xs:annotation>
-	</xs:element>
-	<xs:complexType name="Concept">
-		<xs:sequence>
-			<xs:element ref="URI"/>
-			<xs:element name="IDENTIFIER">
-				<xs:annotation>
-					<xs:documentation>The dc:identifier of the concept (language independent.</xs:documentation>
-				</xs:annotation>
-			</xs:element>
-			<xs:element name="PREFLABEL">
-				<xs:annotation>
-					<xs:documentation>The preferred label of the classifying concept.
-The value may be empty if the label is not available in the decoding language of the NOTICE.</xs:documentation>
-				</xs:annotation>
-			</xs:element>
-			<xs:element name="FALLBACK" minOccurs="0">
-				<xs:annotation>
-					<xs:documentation xml:lang="en">If the concept has no PREFLABEL value in the required decoding language, a fallback is given in an alternate (configurable) language.</xs:documentation>
-				</xs:annotation>
-				<xs:complexType>
-					<xs:all>
-						<xs:element name="PREFLABEL">
-							<xs:annotation>
-								<xs:documentation>The language variant of the PREFLABEL</xs:documentation>
-							</xs:annotation>
-						</xs:element>
-						<xs:element name="LANG">
-							<xs:annotation>
-								<xs:documentation>The selected best match to provide a language variant of the PREFLABEL.</xs:documentation>
-							</xs:annotation>
-						</xs:element>
-					</xs:all>
-				</xs:complexType>
-			</xs:element>
-			<xs:element name="ALTLABEL" minOccurs="0" maxOccurs="unbounded">
-				<xs:annotation>
-					<xs:documentation xml:lang="en">A synonym for the PREFLABEL
-
-Actually occurs 0 or more times.</xs:documentation>
-				</xs:annotation>
-			</xs:element>
-			<xs:element name="OP-CODE" type="xs:string" minOccurs="0">
-				<xs:annotation>
-					<xs:documentation xml:lang="en">There can be 0 or 1 OP-CODE element.
-
-Implements cellar-107</xs:documentation>
-				</xs:annotation>
-			</xs:element>
-			<xs:element name="annotation_property" minOccurs="0" maxOccurs="unbounded">
-				<xs:annotation>
-					<xs:documentation>annotation_property is a dynamic assigned name (derived from the cdm ontology).
-it's value is a string value.</xs:documentation>
-				</xs:annotation>
-				<xs:complexType>
-					<xs:simpleContent>
-						<xs:extension base="xs:string">
-							<xs:attribute ref="type" use="required" fixed="annotation"/>
-						</xs:extension>
-					</xs:simpleContent>
-				</xs:complexType>
-			</xs:element>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:element name="p_name_concept">
-		<xs:annotation>
-			<xs:documentation xml:lang="en">The metadata property with a (decoded) controlled vocabulary value.
-
-The name of the element is dynamic and is replaced by the metadata property name.</xs:documentation>
-		</xs:annotation>
-		<xs:complexType>
-			<xs:complexContent>
-				<xs:extension base="Concept">
-					<xs:attribute ref="type" use="required" fixed="concept"/>
-				</xs:extension>
-			</xs:complexContent>
-		</xs:complexType>
-	</xs:element>
-	<xs:complexType name="Level">
-		<xs:sequence>
-			<xs:annotation>
-				<xs:documentation xml:lang="en">the order of the child elements is arbitrary.</xs:documentation>
-			</xs:annotation>
-			<xs:element name="p_name_concept_hierarchy_path" maxOccurs="unbounded">
-				<xs:complexType>
-					<xs:sequence>
-						<xs:element name="p_name_concept_hierarchy_path_concept" maxOccurs="unbounded">
-							<xs:annotation>
-								<xs:documentation xml:lang="en">The prefix 'p_name' is dynamic and takes the value of the classifying property name</xs:documentation>
-							</xs:annotation>
-							<xs:complexType>
-								<xs:complexContent>
-									<xs:extension base="Concept">
-										<xs:attribute name="type" type="types" use="required" fixed="concept_hierarchy_path_concept"/>
-										<xs:attribute ref="leaf" use="required"/>
-										<xs:attribute ref="level" use="required"/>
-									</xs:extension>
-								</xs:complexContent>
-							</xs:complexType>
-						</xs:element>
-					</xs:sequence>
-					<xs:attribute name="type" type="types" use="required" fixed="concept_hierarchy_path"/>
-				</xs:complexType>
-			</xs:element>
-		</xs:sequence>
-		<xs:attribute ref="type" use="required" fixed="concept_hierarchy"/>
-	</xs:complexType>
-	<xs:element name="p_name_concept_hierarchy" type="Level">
-		<xs:annotation>
-			<xs:documentation xml:lang="en">The child elements represent a concepts hierarchy. This new type replaces the former facet type and levels type.
-</xs:documentation>
-		</xs:annotation>
-	</xs:element>
-	<xs:complexType name="Memberlist">
-		<xs:annotation>
-			<xs:documentation>XML serialization of a nested RDF list</xs:documentation>
-		</xs:annotation>
-		<xs:choice maxOccurs="unbounded">
-			<xs:element ref="p_name_concept"/>
-			<xs:element ref="p_name_concept_hierarchy"/>
-			<xs:element ref="p_name.MEMBERLIST"/>
-		</xs:choice>
-		<xs:attribute ref="type" use="required" fixed="memberlist">
-			<xs:annotation>
-				<xs:documentation xml:lang="en">fixed value 'memberlist'</xs:documentation>
-			</xs:annotation>
-		</xs:attribute>
-	</xs:complexType>
-	<xs:element name="p_name.MEMBERLIST" type="Memberlist">
-		<xs:annotation>
-			<xs:documentation xml:lang="en">This structure also captures a grouped layout of classifying statements on a subject.
-
-The 'p_name' prefix is a dynamic name.  It is the name of the properties being grouped.  The .MEMBERLIST suffix is fixed.
-A memberlist can have a nested structure (NESTEDLIST element) as well as references to classification properties.</xs:documentation>
-		</xs:annotation>
-	</xs:element>
 	<xs:group name="Identifier_with_URI_mandatory">
 		<xs:annotation>
-			<xs:documentation>Serialization of the identifiers of a resource with URI mandatory</xs:documentation>
+			<xs:documentation>It groups all properties to identify a resource with URI mandatory</xs:documentation>
 		</xs:annotation>
 		<xs:sequence>
 			<xs:annotation>
-				<xs:documentation xml:lang="en">The URI child element is optional.
-If present it must be the CELLAR URI.</xs:documentation>
+				<xs:documentation xml:lang="en">The URI child element is mandatory, it must be a Cellar ID.</xs:documentation>
 			</xs:annotation>
 			<xs:element ref="URI"/>
 			<xs:element ref="SAMEAS" maxOccurs="unbounded"/>
@@ -354,73 +59,56 @@ If present it must be the CELLAR URI.</xs:documentation>
 	</xs:group>
 	<xs:group name="Identifier">
 		<xs:annotation>
-			<xs:documentation>Serialization of the identifiers of a resource</xs:documentation>
+			<xs:documentation>It groups all properties to identify a resource without URI mandatory</xs:documentation>
 		</xs:annotation>
 		<xs:sequence>
 			<xs:annotation>
-				<xs:documentation xml:lang="en">The URI child element is optional.
-If present it must be the CELLAR URI.</xs:documentation>
+				<xs:documentation xml:lang="en">The URI child element is optional.</xs:documentation>
 			</xs:annotation>
 			<xs:element ref="URI" minOccurs="0"/>
 			<xs:element ref="SAMEAS" maxOccurs="unbounded"/>
 		</xs:sequence>
 	</xs:group>
-	<xs:complexType name="URIType">
+	<xs:group name="t_property">
 		<xs:annotation>
-			<xs:documentation xml:lang="en">TYPE and IDENTIFIER are optional in case the URI is not according a known identifier format.  (see comment on TYPE)</xs:documentation>
+			<xs:documentation xml:lang="en">It groups all properties that describe a Literal</xs:documentation>
 		</xs:annotation>
-		<xs:all>
-			<xs:element name="VALUE">
-				<xs:annotation>
-					<xs:documentation xml:lang="en">The full URI value</xs:documentation>
-				</xs:annotation>
-			</xs:element>
-			<xs:element name="TYPE" minOccurs="0">
-				<xs:annotation>
-					<xs:documentation xml:lang="en">The URI type, according to the cellar resource URI convention.
-- Eurovoc concept references has URI prefix: 'http://eurovoc.europa.eu/
-  The TYPE is EUROVOC
-- NAL resources start with a base URI that ends with resource/authority/
-  The next segment in the URI is the TYPE value
-- Other content and metadata documents have a URI ending with resource/
-  The next segment (not equal to 'authority') holds the TYPE
-
-The value is percent decoded (URI %-decoding rules).</xs:documentation>
-				</xs:annotation>
-			</xs:element>
-			<xs:element name="IDENTIFIER" minOccurs="0">
-				<xs:annotation>
-					<xs:documentation xml:lang="en">The remainder of the URI, following the TYPE segment.
-
-The value is percent decoded (URI %-decoding rules).</xs:documentation>
-				</xs:annotation>
-			</xs:element>
-		</xs:all>
-	</xs:complexType>
-	<xs:element name="URI" type="URIType">
+		<xs:choice>
+			<xs:element ref="p_name_literal"/>
+		</xs:choice>
+	</xs:group>
+	<xs:complexType name="Literal">
 		<xs:annotation>
-			<xs:documentation>URI is a reserved name and may not occur as property name.</xs:documentation>
-		</xs:annotation>
-	</xs:element>
-	<xs:element name="SAMEAS">
-		<xs:annotation>
-			<xs:documentation>SAMEAS is a reserved name and may not occur as property name.
-The contained URI is a Production System (PS) URI</xs:documentation>
-		</xs:annotation>
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element ref="URI"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:complexType name="Relation">
-		<xs:annotation>
-			<xs:documentation>XML serialization of an owl:ObjectProperty</xs:documentation>
+			<xs:documentation>Metadata related to a Literal, it consist of an XML serialization of a data type property</xs:documentation>
 		</xs:annotation>
 		<xs:sequence>
-			<xs:annotation>
-				<xs:documentation xml:lang="en">Order sub-elements is not important</xs:documentation>
-			</xs:annotation>
+			<xs:element name="VALUE" type="xs:anyType">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Literal value</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="LANG" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Language of the Literal</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="annotation_property" minOccurs="0" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:string">
+							<xs:attribute ref="type" use="required" fixed="annotation"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute ref="type" use="required" fixed="data"/>
+	</xs:complexType>
+	<xs:complexType name="Relation">
+		<xs:annotation>
+			<xs:documentation>Metadata related to a Relation, it consists of an XML serialization of an object property</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
 			<xs:group ref="Identifier">
 				<xs:annotation>
 					<xs:documentation xml:lang="en">The ideintifier of the link target</xs:documentation>
@@ -435,18 +123,12 @@ The contained URI is a Production System (PS) URI</xs:documentation>
 							<xs:element ref="TYPE" minOccurs="0" maxOccurs="unbounded"/>
 							<xs:group ref="embedded-property" minOccurs="0" maxOccurs="unbounded"/>
 							<xs:element name="EXPRESSION" minOccurs="0" maxOccurs="unbounded">
-								<xs:annotation>
-									<xs:documentation xml:lang="en">EXPRESSION is required in case the expanding property has range expression.</xs:documentation>
-								</xs:annotation>
 								<xs:complexType>
 									<xs:sequence>
 										<xs:element ref="annotation_property" minOccurs="0" maxOccurs="unbounded"/>
 										<xs:element ref="TYPE" minOccurs="0" maxOccurs="unbounded"/>
 										<xs:group ref="embedded-property" minOccurs="0" maxOccurs="unbounded"/>
 										<xs:element name="MANIFESTATION" minOccurs="0" maxOccurs="unbounded">
-											<xs:annotation>
-												<xs:documentation xml:lang="en">only used if there is a parent expression.</xs:documentation>
-											</xs:annotation>
 											<xs:complexType>
 												<xs:sequence>
 													<xs:element ref="annotation_property" minOccurs="0" maxOccurs="unbounded"/>
@@ -455,9 +137,6 @@ The contained URI is a Production System (PS) URI</xs:documentation>
 													<xs:element name="ITEM" minOccurs="0">
 														<xs:complexType>
 															<xs:sequence>
-																<xs:annotation>
-																	<xs:documentation xml:lang="en">Order of sub-element is not relevant</xs:documentation>
-																</xs:annotation>
 																<xs:element ref="annotation_property" minOccurs="0" maxOccurs="unbounded"/>
 																<xs:element ref="TYPE" maxOccurs="unbounded"/>
 																<xs:group ref="embedded-property" minOccurs="0" maxOccurs="unbounded"/>
@@ -466,7 +145,6 @@ The contained URI is a Production System (PS) URI</xs:documentation>
 														</xs:complexType>
 													</xs:element>
 												</xs:sequence>
-												<xs:attribute ref="manifestation-type"/>
 											</xs:complexType>
 										</xs:element>
 									</xs:sequence>
@@ -513,52 +191,112 @@ The contained URI is a Production System (PS) URI</xs:documentation>
 				</xs:element>
 			</xs:choice>
 		</xs:sequence>
-		<xs:attribute ref="type" fixed="link">
-			<xs:annotation>
-				<xs:documentation xml:lang="en">fixed value = 'link'</xs:documentation>
-			</xs:annotation>
-		</xs:attribute>
+		<xs:attribute ref="type" fixed="link"/>
 		<xs:assert test="if (boolean(WORK)) then (boolean(URI)) else true()" xpathDefaultNamespace="##targetNamespace"/>
 		<xs:assert test="if (boolean(DOSSIER)) then (boolean(URI)) else true()" xpathDefaultNamespace="##targetNamespace"/>
 		<xs:assert test="if (boolean(AGENT)) then (boolean(URI)) else true()" xpathDefaultNamespace="##targetNamespace"/>
 		<xs:assert test="if (boolean(EVENT)) then (boolean(URI)) else true()" xpathDefaultNamespace="##targetNamespace"/>
 	</xs:complexType>
-	<xs:element name="p_name_rel" type="Relation">
+	<xs:complexType name="Date">
 		<xs:annotation>
-			<xs:documentation xml:lang="en">A relation to a related content object.  
-I.e. an object (WORK, DOSSIER, AGENT) that is not a skos:Concept.
-
-The name of the element is dynamic and is replaced by the metadata property name.</xs:documentation>
-		</xs:annotation>
-	</xs:element>
-	<xs:complexType name="ItemRelation">
-		<xs:annotation>
-			<xs:documentation>Cellar-94</xs:documentation>
+			<xs:documentation>Metadata related to a Date, it consist of an XML serialization of a date</xs:documentation>
 		</xs:annotation>
 		<xs:sequence>
-			<xs:annotation>
-				<xs:documentation xml:lang="en">Order sub-elements is not important</xs:documentation>
-			</xs:annotation>
-			<xs:group ref="Identifier">
+			<xs:element name="VALUE" type="xs:string">
 				<xs:annotation>
-					<xs:documentation xml:lang="en">The ideintifier of the link target</xs:documentation>
+					<xs:documentation>Special values are used for unknown dates - 9999-12-31 - 0001-01-01</xs:documentation>
 				</xs:annotation>
-			</xs:group>
+			</xs:element>
+			<xs:element name="YEAR" type="xs:gYear">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">YYYY</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MONTH">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">format = MM</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:positiveInteger">
+						<xs:minInclusive value="1"/>
+						<xs:maxInclusive value="12"/>
+						<xs:totalDigits value="2"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="DAY">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">format = DD</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:positiveInteger">
+						<xs:minInclusive value="1"/>
+						<xs:maxInclusive value="31"/>
+						<xs:totalDigits value="2"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element ref="annotation_property" minOccurs="0" maxOccurs="unbounded"/>
 		</xs:sequence>
-		<xs:attribute ref="type" fixed="link">
-			<xs:annotation>
-				<xs:documentation xml:lang="en">fixed value = 'link'</xs:documentation>
-			</xs:annotation>
-		</xs:attribute>
+		<xs:attribute ref="type" use="required" fixed="date"/>
+	</xs:complexType>
+	<xs:complexType name="Concept">
+		<xs:annotation>
+			<xs:documentation>Metadata related to a Concept, it consist of an XML serialization of a concept of an Authority table (for example a skos vocabulary)</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element ref="URI"/>
+			<xs:element name="IDENTIFIER">
+				<xs:annotation>
+					<xs:documentation>The dc:identifier of the concept</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PREFLABEL">
+				<xs:annotation>
+					<xs:documentation>The preferred label of the classifying concept. The value may be empty if the label is not available in the decoding language of the NOTICE.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="FALLBACK" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">If the concept has no PREFLABEL value in the required decoding language, a fallback is given in an alternate (configurable) language.</xs:documentation>
+				</xs:annotation>
+				<xs:complexType>
+					<xs:all>
+						<xs:element name="PREFLABEL">
+							<xs:annotation>
+								<xs:documentation>The language variant of the PREFLABEL</xs:documentation>
+							</xs:annotation>
+						</xs:element>
+						<xs:element name="LANG">
+							<xs:annotation>
+								<xs:documentation>The selected best match to provide a language variant of the PREFLABEL.</xs:documentation>
+							</xs:annotation>
+						</xs:element>
+					</xs:all>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="ALTLABEL" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">A synonym for the PREFLABEL, actually occurs 0 or more times.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="OP-CODE" type="xs:string" minOccurs="0"/>
+			<xs:element name="annotation_property" minOccurs="0" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:string">
+							<xs:attribute ref="type" use="required" fixed="annotation"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="EmbeddedRelation">
 		<xs:annotation>
-			<xs:documentation>Cellar-94</xs:documentation>
+			<xs:documentation>Metadata related to the notices to embed, it consists of an XML serialization of the identifier of the properties to embed</xs:documentation>
 		</xs:annotation>
 		<xs:sequence>
-			<xs:annotation>
-				<xs:documentation xml:lang="en">Order sub-elements is not important</xs:documentation>
-			</xs:annotation>
 			<xs:group ref="Identifier">
 				<xs:annotation>
 					<xs:documentation xml:lang="en">The ideintifier of the link target</xs:documentation>
@@ -572,27 +310,162 @@ The name of the element is dynamic and is replaced by the metadata property name
 			</xs:annotation>
 		</xs:attribute>
 	</xs:complexType>
-	<xs:element name="p_name_embedded_rel" type="EmbeddedRelation">
+	<xs:complexType name="Level">
 		<xs:annotation>
-			<xs:documentation xml:lang="en">In an embedded notice, a relation to a related content object.  
-I.e. an object (WORK, DOSSIER, AGENT) that is not skos:Concept.
+			<xs:documentation>Metadata related to a hierarchy of Concepts, it consists of an XML serialization of a collection of concepts from an Authority table (for example a skos vocabulary). This complexType describes the organization of different paths along the hierarchy as well</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="p_name_concept_hierarchy_path" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Placeholder that marks the occurrence of a path in the hierarchy of Concepts</xs:documentation>
+				</xs:annotation>
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="p_name_concept_hierarchy_path_concept" maxOccurs="unbounded">
+							<xs:annotation>
+								<xs:documentation>Placeholder that marks the occurrence of a Concepts inside the path</xs:documentation>
+							</xs:annotation>
+							<xs:complexType>
+								<xs:complexContent>
+									<xs:extension base="Concept">
+										<xs:attribute name="type" type="types" use="required" fixed="concept_hierarchy_path_concept"/>
+										<xs:attribute ref="leaf" use="required"/>
+										<xs:attribute ref="level" use="required"/>
+									</xs:extension>
+								</xs:complexContent>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+					<xs:attribute name="type" type="types" use="required" fixed="concept_hierarchy_path"/>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute ref="type" use="required" fixed="concept_hierarchy"/>
+	</xs:complexType>
+	<xs:complexType name="Memberlist">
+		<xs:annotation>
+			<xs:documentation>Metadata reletad to a hierarchy of Concepts, it consists of an XML serialization of a nested RDF list</xs:documentation>
+		</xs:annotation>
+		<xs:choice maxOccurs="unbounded">
+			<xs:element ref="p_name_concept"/>
+			<xs:element ref="p_name_concept_hierarchy"/>
+			<xs:element ref="p_name.MEMBERLIST"/>
+		</xs:choice>
+		<xs:attribute ref="type" use="required" fixed="memberlist"/>
+	</xs:complexType>
+	<xs:complexType name="URIType">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Metadata related to an URI</xs:documentation>
+		</xs:annotation>
+		<xs:all>
+			<xs:element name="VALUE">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">The full URI value</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="TYPE" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">The URI type, according to the cellar resource URI convention.
+- Eurovoc concept references has URI prefix: 'http://eurovoc.europa.eu/
+  The TYPE is EUROVOC
+- NAL resources start with a base URI that ends with resource/authority/
+  The next segment in the URI is the TYPE value
+- Other content and metadata documents have a URI ending with resource/
+  The next segment (not equal to 'authority') holds the TYPE
 
-The name of the element is dynamic and is replaced by the metadata property name.</xs:documentation>
+The value is percent decoded (URI %-decoding rules).</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IDENTIFIER" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">The remainder of the URI, following the TYPE segment.
+
+The value is percent decoded (URI %-decoding rules).</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:all>
+	</xs:complexType>
+	<xs:simpleType name="types">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">It describes the kind of element making use of a set of keywords. This attribute is used during the schema validation. The name of the element will be replaced with a Placeholder (like p_name_rel, p_name_concept and so on) to avoid taking into account the specific names of the properties during the XSD validation</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="date"/>
+			<xs:enumeration value="concept_hierarchy"/>
+			<xs:enumeration value="concept_hierarchy_path"/>
+			<xs:enumeration value="concept_hierarchy_path_concept"/>
+			<xs:enumeration value="concept"/>
+			<xs:enumeration value="data"/>
+			<xs:enumeration value="memberlist"/>
+			<xs:enumeration value="link"/>
+			<xs:enumeration value="embedded_link"/>
+			<xs:enumeration value="annotation"/>
+			<xs:enumeration value="type"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:element name="p_name_concept_hierarchy" type="Level">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Placeholder that marks the occurrence of a hierarchy of Concepts</xs:documentation>
 		</xs:annotation>
 	</xs:element>
-	<xs:group name="t_property">
+	<xs:element name="p_name.MEMBERLIST" type="Memberlist">
 		<xs:annotation>
-			<xs:documentation xml:lang="en">technical metadata property
-
-The name of the element is dynamic and is replaced by the metadata property name.</xs:documentation>
+			<xs:documentation xml:lang="en">Placeholder that marks the occurence of a Memberlist
+A memberlist can have a nested structure (NESTEDLIST element) as well as references to classification properties.</xs:documentation>
 		</xs:annotation>
-		<xs:choice>
-			<xs:element ref="p_name_literal"/>
-		</xs:choice>
-	</xs:group>
+	</xs:element>
+	<xs:element name="p_name_literal" type="Literal">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Placeholder that marks the occurence of a Literal</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="p_name_concept">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Placeholder that marks the occurence of a Concept</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="Concept">
+					<xs:attribute ref="type" use="required" fixed="concept"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="p_name_date" type="Date">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Placeholder that marks the occurence of a Date</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="p_name_rel" type="Relation">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Placeholder that marks the occurence of a Relation</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="p_name_embedded_rel" type="EmbeddedRelation">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Placeholder that marks the occurence of an EmbeddedRelation</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="annotation_property">
+		<xs:annotation>
+			<xs:documentation>Placeholder that marks the occurence of an annotation</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute name="type" type="types" use="required" fixed="annotation"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="URI" type="URIType">
+		<xs:annotation>
+			<xs:documentation>URI is the Cellar ID of the resource</xs:documentation>
+		</xs:annotation>
+	</xs:element>
 	<xs:element name="TECHMD">
 		<xs:annotation>
-			<xs:documentation>TECHMD is a reserved name and may not occur as property name.</xs:documentation>
+			<xs:documentation>TECHMD contains technical metadata for the items</xs:documentation>
 		</xs:annotation>
 		<xs:complexType>
 			<xs:sequence>
@@ -600,46 +473,20 @@ The name of the element is dynamic and is replaced by the metadata property name
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
-	<xs:attribute name="manifestation-type">
+	<xs:element name="SAMEAS">
 		<xs:annotation>
-			<xs:documentation>A dynamic list of values of manifestation types (if provided).
-Typical values are:
-doc
-docx
-epub
-fmx2
-fmx3
-fmx4
-html
-jpeg
-pdf1x
-pdfa1a
-pdfa1b
-pdfx
-ppsx
-ppt
-pptx
-rdf
-rtf
-sgml
-tiff
-txt
-xhtml
-xls
-xlsx
-xml
-zip
-(and more ..)</xs:documentation>
+			<xs:documentation>SAMEAS is the Production System URI of the resource</xs:documentation>
 		</xs:annotation>
-	</xs:attribute>
-	<xs:attribute name="display"/>
-	<xs:attribute name="leaf" type="xs:boolean">
-		<xs:annotation>
-			<xs:documentation xml:lang="en">fixed value = 'concept'</xs:documentation>
-		</xs:annotation>
-	</xs:attribute>
-	<xs:attribute name="path" type="xs:integer"/>
-	<xs:attribute name="level" type="xs:integer"/>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="URI">
+					<xs:annotation>
+						<xs:documentation>Generic URI</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
 	<xs:element name="TYPE">
 		<xs:annotation>
 			<xs:documentation>This element represents the serialization of the property rdf:type</xs:documentation>
@@ -652,13 +499,20 @@ zip
 			</xs:simpleContent>
 		</xs:complexType>
 	</xs:element>
-	<xs:element name="annotation_property">
-		<xs:complexType>
-			<xs:simpleContent>
-				<xs:extension base="xs:string">
-					<xs:attribute name="type" type="types" use="required" fixed="annotation"/>
-				</xs:extension>
-			</xs:simpleContent>
-		</xs:complexType>
-	</xs:element>
+	<xs:attribute name="display">
+		<xs:annotation>
+			<xs:documentation>This attribute is set to true to point out the Expression for a given Branch notice</xs:documentation>
+		</xs:annotation>
+	</xs:attribute>
+	<xs:attribute name="leaf" type="xs:boolean">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">This attribute is set to true to point out that the concept is the most specific (least abstract) in the hierarchy</xs:documentation>
+		</xs:annotation>
+	</xs:attribute>
+	<xs:attribute name="level" type="xs:integer">
+		<xs:annotation>
+			<xs:documentation>This attribute shows the level of abstraction of the concept inside the hierarchy</xs:documentation>
+		</xs:annotation>
+	</xs:attribute>
+	<xs:attribute name="type" type="xs:string"/>
 </xs:schema>
