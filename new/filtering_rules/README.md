@@ -1,4 +1,3 @@
-
 # Filtering rules
 The [Eurlex Layer](https://citnet.tech.ec.europa.eu/CITnet/confluence/display/CELLAR/Eurlex+Layer) is responsible for building the aggregated RDF model that is transformed into the new XML format. Here there is a proposal to extract the annotations from the ontology (CDM) and use two configuration files:
 
@@ -17,7 +16,7 @@ They look like the current approach, but instead of spreading these annotations 
 -   `to_be_indexed`: the annotated property is included in the indexation notice.
 -   `is_concept_hierarchy`: triggers the serialization of a nested concept hierarchy. This serialization replaces the former "facet" and "level" representation.
 
-Based on these annotations and taking into account all the exceptions for a given class, the Eurlex Service determines which metadata to aggregate in its RDF model.
+Based on rules and taking into account all the exceptions for a given class, the Eurlex Service determines which metadata to aggregate in its RDF model.
 ### Example of entry in JSON:
 ```
 {
@@ -36,8 +35,9 @@ In some cases, Eurlex is interested in obtaining a specific behavior relative to
 -   `property`: the specific property to expand in the embedding policies. This field is not mandatory. 
 -   `class`: the owl class for which the embedding policy must follow a particular behavior. This field is mandatory.
 -   `level`: this field indicates at what level of the FRBR (or dossier/event) the exception is valid. This field is mandatory.
--   `targets_in_embedded_notice`: this is a list of properties that must exceptionally be embedded in the context defined by `class`, `level` and the `property` to expand. In case this list is empty Cellar will embed only the "URI" and the relative "same as". This field is mandatory.
--   `targets_to_be_indexed`: it is analogous to `targets_in_embedded_notice` for the 	indexation.
+-   `targets_in_embedded_notice`: this is a list of properties that must exceptionally be embedded in the context defined by `class`, `level` and the `property` to expand. In case this list is empty Cellar will embed only the "URI" and the relative SAMEAS. This field is mandatory.
+-   `targets_to_be_indexed`: it is analogous to `targets_in_embedded_notice` for the indexation.
+
 ### Example of entry in JSON:
 ```
 {

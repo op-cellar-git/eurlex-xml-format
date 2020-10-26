@@ -2,8 +2,8 @@
     "$schema": "http://json-schema.org/draft-07/schema",
     "$id": "https://raw.githubusercontent.com/op-cellar-git/eurlex-xml-format/master/new/filtering_rules/json_schema/schema_rules.json",
     "type": "object",
-    "title": "The schema for the embedding rules",
-    "description": "The fields have been documented in the README.md: https://raw.githubusercontent.com/op-cellar-git/eurlex-xml-format/master/new/filtering_rules/README.md",
+    "title": "Embedding rules",
+    "description": "In this configuration file are collected the rules for the embedding policies. They replaces the former annotations in CDM into the form of JSON",
     "default": {},
     "required": [
         "rules"
@@ -12,8 +12,8 @@
         "rules": {
             "$id": "#/properties/rules",
             "type": "array",
-            "title": "The rules schema",
-            "description": "An explanation about the purpose of this instance.",
+            "title": "Rules",
+            "description": "Based on these rules and taking into account some exceptions defined in another configuration file, the Eurlex Service determines which metadata to aggregate in its RDF model. Here there are the rules for embedding in the form of an JSON array.",
             "default": [],
             "additionalItems": false,
             "items": {
@@ -22,8 +22,8 @@
                     {
                         "$id": "#/properties/rules/items/anyOf/0",
                         "type": "object",
-                        "title": "The first anyOf schema",
-                        "description": "An explanation about the purpose of this instance.",
+                        "title": "Rule",
+                        "description": "Each rule consists of the target property and a collection of annotations that define how to proceed with the embedding.",
                         "default": {},
                         "required": [
                             "propety",
@@ -33,51 +33,51 @@
                             "propety": {
                                 "$id": "#/properties/rules/items/anyOf/0/properties/propety",
                                 "type": "string",
-                                "title": "The propety schema",
-                                "description": "An explanation about the purpose of this instance.",
+                                "title": "Target property",
+                                "description": "This is the target property for the following rules to apply.",
                                 "default": ""
                             },
                             "annotations": {
                                 "$id": "#/properties/rules/items/anyOf/0/properties/annotations",
                                 "type": "object",
                                 "title": "The annotations schema",
-                                "description": "An explanation about the purpose of this instance.",
+                                "description": "These boolean flags (annotations) describe how to handle the target property during the creation of the RDF model for Eurlex.",
                                 "default": {},
                                 "required": [],
                                 "properties": {
                                     "to_expand": {
                                         "$id": "#/properties/rules/items/anyOf/0/properties/annotations/properties/to_expand",
                                         "type": "boolean",
-                                        "title": "The to_expand schema",
-                                        "description": "An explanation about the purpose of this instance.",
+                                        "title": "to_expand",
+                                        "description": "It triggers an embedding of the target resource in all notice types.",
                                         "default": false
                                     },
 									"in_notice": {
                                         "$id": "#/properties/rules/items/anyOf/0/properties/annotations/properties/to_expand",
                                         "type": "boolean",
-                                        "title": "The to_expand schema",
-                                        "description": "An explanation about the purpose of this instance.",
+                                        "title": "to_expand",
+                                        "description": "It triggers the inclusion of a property in the tree, branch, and object notice.",
                                         "default": false
                                     },
                                     "in_embedded_notice": {
                                         "$id": "#/properties/rules/items/anyOf/0/properties/annotations/properties/in_embedded_notice",
                                         "type": "boolean",
-                                        "title": "The in_embedded_notice schema",
-                                        "description": "An explanation about the purpose of this instance.",
+                                        "title": "in_embedded_notice",
+                                        "description": "Indicates if the property will be contained within an embedded notice.",
                                         "default": false
                                     },
                                     "to_be_indexed": {
                                         "$id": "#/properties/rules/items/anyOf/0/properties/annotations/properties/to_be_indexed",
                                         "type": "boolean",
-                                        "title": "The to_be_indexed schema",
-                                        "description": "An explanation about the purpose of this instance.",
+                                        "title": "to_be_indexed",
+                                        "description": "Indicates if this fields must be indexed for IDOL.",
                                         "default": false
                                     },
                                     "is_concept_hierarchy": {
                                         "$id": "#/properties/rules/items/anyOf/0/properties/annotations/properties/is_concept_hierarchy",
                                         "type": "boolean",
-                                        "title": "The is_concept_hierarchy schema",
-                                        "description": "An explanation about the purpose of this instance.",
+                                        "title": "is_concept_hierarchy",
+                                        "description": "Indicates if this field must be treated as a hyerarircal classification. This kind of XML serialization replaces the former "facet" and "level" representation.",
                                         "default": false
                                     }
                                 },
