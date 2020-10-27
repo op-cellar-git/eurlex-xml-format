@@ -191,20 +191,6 @@
 		</xsl:element>
 	</xsl:template>
 	
-	<!--xsl:template match="*[@type='concept_hierarchy_path_concept']">
-		<xsl:element name="p_name_concept_hierarchy_path_concept">
-			<xsl:apply-templates select="@*"/>
-			<xsl:comment>match="*[@type ='concept_hierarchy_path']</xsl:comment>
-			<xsl:apply-templates select="URI"/>
-			<xsl:apply-templates select="IDENTIFIER"/>
-			<xsl:apply-templates select="PREFLABEL"/>
-			<xsl:apply-templates select="FALLBACK"/>
-			<xsl:apply-templates select="ALTLABEL"/>
-			<xsl:apply-templates select="OP-CODE"/>
-			<xsl:apply-templates select="*[local-name()!='URI' and local-name()!='IDENTIFIER' and local-name()!='PREFLABEL' and local-name()!='FALLBACK' and local-name()!='ALTLABEL' and local-name()!='OP-CODE']" mode="non_treated"/>
-		</xsl:element>
-	</xsl:template-->
-	
 	<xsl:template match="*" mode="non_treated">
 		<xsl:element name="NON_TREATED_ELEMENT">
 			<xsl:value-of select="name()"/>
