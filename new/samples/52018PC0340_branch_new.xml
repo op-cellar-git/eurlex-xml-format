@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- edited with XMLSpy v2019 rel. 3 sp1 (http://www.altova.com) by DG OP (OP Publications Office of the European Union) --><NOTICE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" decoding="eng" type="branch">
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2019 rel. 3 sp1 (http://www.altova.com) by DG OP (OP Publications Office of the European Union) -->
+<NOTICE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" decoding="eng" type="branch">
 	<WORK>
 		<URI>
 			<VALUE>http://publications.europa.eu/resource/cellar/fc5c74e0-6255-11e8-ab9c-01aa75ed71a1</VALUE>
@@ -414,26 +416,6 @@
 			<MONTH>05</MONTH>
 			<DAY>28</DAY>
 		</DATE_DOCUMENT>
-		<WORK_PART_OF_DOSSIER type="link">
-			<DOSSIER>
-				<TYPE type="type">cdm:period</TYPE>
-				<TYPE type="type">cdm:procedure_internal</TYPE>
-				<TYPE type="type">cdm:entity_temporal</TYPE>
-				<TYPE type="type">cdm:dossier</TYPE>
-			</DOSSIER>
-			<URI>
-				<VALUE>http://publications.europa.eu/resource/cellar/0099fab9-625a-11e8-ab9c-01aa75ed71a1</VALUE>
-				<IDENTIFIER>0099fab9-625a-11e8-ab9c-01aa75ed71a1</IDENTIFIER>
-				<TYPE>cellar</TYPE>
-			</URI>
-			<SAMEAS>
-				<URI>
-					<VALUE>http://publications.europa.eu/resource/internal_proc/4EA5A439811F4F0D7522C7952DFC12ECCCE0FBA14846EC9F7681F23CDA431DC9</VALUE>
-					<IDENTIFIER>4EA5A439811F4F0D7522C7952DFC12ECCCE0FBA14846EC9F7681F23CDA431DC9</IDENTIFIER>
-					<TYPE>internal_proc</TYPE>
-				</URI>
-			</SAMEAS>
-		</WORK_PART_OF_DOSSIER>
 		<DATE type="date">
 			<VALUE>2018-05-28</VALUE>
 			<YEAR>2018</YEAR>
@@ -502,43 +484,6 @@
 				</URI>
 			</SAMEAS>
 		</WORK_CITES_WORK>
-		<RESOURCE_LEGAL_COR_OPINION_CONTAINED_IN_RESOURCE_LEGAL type="link">
-			<URI>
-				<VALUE>http://publications.europa.eu/resource/cellar/ebbe9489-04e8-11e9-adde-01aa75ed71a1</VALUE>
-				<IDENTIFIER>ebbe9489-04e8-11e9-adde-01aa75ed71a1</IDENTIFIER>
-				<TYPE>cellar</TYPE>
-			</URI>
-			<SAMEAS>
-				<URI>
-					<VALUE>http://publications.europa.eu/resource/immc/COR-2018-03652</VALUE>
-					<IDENTIFIER>COR-2018-03652</IDENTIFIER>
-					<TYPE>immc</TYPE>
-				</URI>
-			</SAMEAS>
-			<SAMEAS>
-				<URI>
-					<VALUE>http://publications.europa.eu/resource/cor/COR-2018-03652</VALUE>
-					<IDENTIFIER>COR-2018-03652</IDENTIFIER>
-					<TYPE>cor</TYPE>
-				</URI>
-			</SAMEAS>
-			<SAMEAS>
-				<URI>
-					<VALUE>http://publications.europa.eu/resource/celex/52018AR3652</VALUE>
-					<IDENTIFIER>52018AR3652</IDENTIFIER>
-					<TYPE>celex</TYPE>
-				</URI>
-			</SAMEAS>
-			<SAMEAS>
-				<URI>
-					<VALUE>http://publications.europa.eu/resource/oj/JOC_2018_461_R_0017</VALUE>
-					<IDENTIFIER>JOC_2018_461_R_0017</IDENTIFIER>
-					<TYPE>oj</TYPE>
-				</URI>
-			</SAMEAS>
-			<TYPE_OF_LINK_TARGET type="annotation">EA</TYPE_OF_LINK_TARGET>
-			<ROLE2 type="annotation">{MD|http://publications.europa.eu/resource/authority/fd_375/MD}</ROLE2>
-		</RESOURCE_LEGAL_COR_OPINION_CONTAINED_IN_RESOURCE_LEGAL>
 		<WORK_CITES_WORK type="link">
 			<URI>
 				<VALUE>http://publications.europa.eu/resource/cellar/6339d1bf-a2e0-4f88-9b39-7845c82d253c</VALUE>
@@ -566,35 +511,6 @@
 			<MONTH>05</MONTH>
 			<DAY>28</DAY>
 		</CREATIONDATE>
-		<WORK_RELATED_TO_WORK type="link">
-			<URI>
-				<VALUE>http://publications.europa.eu/resource/cellar/240d5355-6257-11e8-ab9c-01aa75ed71a1</VALUE>
-				<IDENTIFIER>240d5355-6257-11e8-ab9c-01aa75ed71a1</IDENTIFIER>
-				<TYPE>cellar</TYPE>
-			</URI>
-			<SAMEAS>
-				<URI>
-					<VALUE>http://publications.europa.eu/resource/comnat/SWD_2018_0257_FIN</VALUE>
-					<IDENTIFIER>SWD_2018_0257_FIN</IDENTIFIER>
-					<TYPE>comnat</TYPE>
-				</URI>
-			</SAMEAS>
-			<SAMEAS>
-				<URI>
-					<VALUE>http://publications.europa.eu/resource/immc/SWD%282018%29257%20final</VALUE>
-					<IDENTIFIER>SWD(2018)257 final</IDENTIFIER>
-					<TYPE>immc</TYPE>
-				</URI>
-			</SAMEAS>
-			<SAMEAS>
-				<URI>
-					<VALUE>http://publications.europa.eu/resource/celex/52018SC0257</VALUE>
-					<IDENTIFIER>52018SC0257</IDENTIFIER>
-					<TYPE>celex</TYPE>
-				</URI>
-			</SAMEAS>
-			<TYPE_OF_LINK_TARGET type="annotation">RD</TYPE_OF_LINK_TARGET>
-		</WORK_RELATED_TO_WORK>
 		<WORK_CREATED_BY_AGENT type="concept">
 			<URI>
 				<VALUE>http://publications.europa.eu/resource/authority/corporate-body/COM</VALUE>
@@ -658,27 +574,6 @@
 				</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 			</WORK_IS_ABOUT_CONCEPT_EUROVOC>
 		</WORK_IS_ABOUT_CONCEPT_EUROVOC>
-		<WORK_RELATED_TO_WORK type="link">
-			<URI>
-				<VALUE>http://publications.europa.eu/resource/cellar/5136acfd-56ce-11e9-a8ed-01aa75ed71a1</VALUE>
-				<IDENTIFIER>5136acfd-56ce-11e9-a8ed-01aa75ed71a1</IDENTIFIER>
-				<TYPE>cellar</TYPE>
-			</URI>
-			<SAMEAS>
-				<URI>
-					<VALUE>http://publications.europa.eu/resource/immc/P8_TA%282019%290305</VALUE>
-					<IDENTIFIER>P8_TA(2019)0305</IDENTIFIER>
-					<TYPE>immc</TYPE>
-				</URI>
-			</SAMEAS>
-			<SAMEAS>
-				<URI>
-					<VALUE>http://publications.europa.eu/resource/ep/P8_TA%282019%290305</VALUE>
-					<IDENTIFIER>P8_TA(2019)0305</IDENTIFIER>
-					<TYPE>ep</TYPE>
-				</URI>
-			</SAMEAS>
-		</WORK_RELATED_TO_WORK>
 		<RESOURCE_LEGAL_DATE_DISPATCH type="date">
 			<VALUE>2018-05-28</VALUE>
 			<YEAR>2018</YEAR>
@@ -847,72 +742,6 @@
 			<ALTLABEL>TFEU (2012)</ALTLABEL>
 			<ALTLABEL>Consolidated version of the Treaty on the Functioning of the European Union (2012)</ALTLABEL>
 		</RESOURCE_LEGAL_BASED_ON_CONCEPT_TREATY>
-		<RESOURCE_LEGAL_ADOPTED_BY_RESOURCE_LEGAL type="link">
-			<URI>
-				<VALUE>http://publications.europa.eu/resource/cellar/ab83570c-8cc8-11e9-9369-01aa75ed71a1</VALUE>
-				<IDENTIFIER>ab83570c-8cc8-11e9-9369-01aa75ed71a1</IDENTIFIER>
-				<TYPE>cellar</TYPE>
-			</URI>
-			<SAMEAS>
-				<URI>
-					<VALUE>http://publications.europa.eu/resource/eli/dir/2019/904/oj</VALUE>
-					<IDENTIFIER>dir:2019:904:oj</IDENTIFIER>
-					<TYPE>eli</TYPE>
-				</URI>
-			</SAMEAS>
-			<SAMEAS>
-				<URI>
-					<VALUE>http://publications.europa.eu/resource/celex/32019L0904</VALUE>
-					<IDENTIFIER>32019L0904</IDENTIFIER>
-					<TYPE>celex</TYPE>
-				</URI>
-			</SAMEAS>
-			<SAMEAS>
-				<URI>
-					<VALUE>http://publications.europa.eu/resource/oj/JOL_2019_155_R_0001</VALUE>
-					<IDENTIFIER>JOL_2019_155_R_0001</IDENTIFIER>
-					<TYPE>oj</TYPE>
-				</URI>
-			</SAMEAS>
-			<TYPE_OF_LINK_TARGET type="annotation">MS</TYPE_OF_LINK_TARGET>
-			<START_OF_VALIDITY type="annotation">2019-06-05</START_OF_VALIDITY>
-		</RESOURCE_LEGAL_ADOPTED_BY_RESOURCE_LEGAL>
-		<RESOURCE_LEGAL_EESC_OPINION_CONTAINED_IN_RESOURCE_LEGAL type="link">
-			<URI>
-				<VALUE>http://publications.europa.eu/resource/cellar/eca1b3ec-30fd-11e9-8d04-01aa75ed71a1</VALUE>
-				<IDENTIFIER>eca1b3ec-30fd-11e9-8d04-01aa75ed71a1</IDENTIFIER>
-				<TYPE>cellar</TYPE>
-			</URI>
-			<SAMEAS>
-				<URI>
-					<VALUE>http://publications.europa.eu/resource/celex/52018AE3041</VALUE>
-					<IDENTIFIER>52018AE3041</IDENTIFIER>
-					<TYPE>celex</TYPE>
-				</URI>
-			</SAMEAS>
-			<SAMEAS>
-				<URI>
-					<VALUE>http://publications.europa.eu/resource/oj/JOC_2019_062_R_0034</VALUE>
-					<IDENTIFIER>JOC_2019_062_R_0034</IDENTIFIER>
-					<TYPE>oj</TYPE>
-				</URI>
-			</SAMEAS>
-			<SAMEAS>
-				<URI>
-					<VALUE>http://publications.europa.eu/resource/immc/EESC-2018-05568</VALUE>
-					<IDENTIFIER>EESC-2018-05568</IDENTIFIER>
-					<TYPE>immc</TYPE>
-				</URI>
-			</SAMEAS>
-			<SAMEAS>
-				<URI>
-					<VALUE>http://publications.europa.eu/resource/eesc/EESC-2018-05568</VALUE>
-					<IDENTIFIER>EESC-2018-05568</IDENTIFIER>
-					<TYPE>eesc</TYPE>
-				</URI>
-			</SAMEAS>
-			<TYPE_OF_LINK_TARGET type="annotation">EA</TYPE_OF_LINK_TARGET>
-		</RESOURCE_LEGAL_EESC_OPINION_CONTAINED_IN_RESOURCE_LEGAL>
 		<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy">
 			<!--match="WORK_IS_ABOUT_CONCEPT_EUROVOC[@type='concept_facet']-->
 			<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_path">
@@ -1042,35 +871,6 @@
 				</URI>
 			</SAMEAS>
 		</WORK_CITES_WORK>
-		<WORK_RELATED_TO_WORK type="link">
-			<URI>
-				<VALUE>http://publications.europa.eu/resource/cellar/4d0542a2-6256-11e8-ab9c-01aa75ed71a1</VALUE>
-				<IDENTIFIER>4d0542a2-6256-11e8-ab9c-01aa75ed71a1</IDENTIFIER>
-				<TYPE>cellar</TYPE>
-			</URI>
-			<SAMEAS>
-				<URI>
-					<VALUE>http://publications.europa.eu/resource/immc/SWD%282018%29254%20final</VALUE>
-					<IDENTIFIER>SWD(2018)254 final</IDENTIFIER>
-					<TYPE>immc</TYPE>
-				</URI>
-			</SAMEAS>
-			<SAMEAS>
-				<URI>
-					<VALUE>http://publications.europa.eu/resource/celex/52018SC0254</VALUE>
-					<IDENTIFIER>52018SC0254</IDENTIFIER>
-					<TYPE>celex</TYPE>
-				</URI>
-			</SAMEAS>
-			<SAMEAS>
-				<URI>
-					<VALUE>http://publications.europa.eu/resource/comnat/SWD_2018_0254_FIN</VALUE>
-					<IDENTIFIER>SWD_2018_0254_FIN</IDENTIFIER>
-					<TYPE>comnat</TYPE>
-				</URI>
-			</SAMEAS>
-			<TYPE_OF_LINK_TARGET type="annotation">RD</TYPE_OF_LINK_TARGET>
-		</WORK_RELATED_TO_WORK>
 		<IDENTIFIER type="data">
 			<VALUE>immc:COM(2018)340 final</VALUE>
 		</IDENTIFIER>
@@ -1237,75 +1037,9 @@
 		<WORK_ID_DOCUMENT type="data">
 			<VALUE>immc:COM(2018)340 final</VALUE>
 		</WORK_ID_DOCUMENT>
-		<RESOURCE_LEGAL_RELATED_TO_RESOURCE_LEGAL type="link">
-			<URI>
-				<VALUE>http://publications.europa.eu/resource/cellar/5136acfd-56ce-11e9-a8ed-01aa75ed71a1</VALUE>
-				<IDENTIFIER>5136acfd-56ce-11e9-a8ed-01aa75ed71a1</IDENTIFIER>
-				<TYPE>cellar</TYPE>
-			</URI>
-			<SAMEAS>
-				<URI>
-					<VALUE>http://publications.europa.eu/resource/immc/P8_TA%282019%290305</VALUE>
-					<IDENTIFIER>P8_TA(2019)0305</IDENTIFIER>
-					<TYPE>immc</TYPE>
-				</URI>
-			</SAMEAS>
-			<SAMEAS>
-				<URI>
-					<VALUE>http://publications.europa.eu/resource/ep/P8_TA%282019%290305</VALUE>
-					<IDENTIFIER>P8_TA(2019)0305</IDENTIFIER>
-					<TYPE>ep</TYPE>
-				</URI>
-			</SAMEAS>
-			<TYPE_OF_LINK_TARGET type="annotation">EA</TYPE_OF_LINK_TARGET>
-			<ROLE2 type="annotation">{PSP|http://publications.europa.eu/resource/authority/fd_375/PSP}</ROLE2>
-		</RESOURCE_LEGAL_RELATED_TO_RESOURCE_LEGAL>
 		<VERSION type="data">
 			<VALUE>final</VALUE>
 		</VERSION>
-		<WORK_PART_OF_EVENT_LEGAL type="link">
-			<URI>
-				<VALUE>http://publications.europa.eu/resource/cellar/f03de40f-6255-11e8-ab9c-01aa75ed71a1.0001</VALUE>
-				<IDENTIFIER>f03de40f-6255-11e8-ab9c-01aa75ed71a1.0001</IDENTIFIER>
-				<TYPE>cellar</TYPE>
-			</URI>
-			<SAMEAS>
-				<URI>
-					<VALUE>http://publications.europa.eu/resource/procedure-event/2018_172.2018-05-28_ADP_byCOM</VALUE>
-					<IDENTIFIER>2018_172.2018-05-28_ADP_byCOM</IDENTIFIER>
-					<TYPE>procedure-event</TYPE>
-				</URI>
-			</SAMEAS>
-		</WORK_PART_OF_EVENT_LEGAL>
-		<WORK_RELATED_TO_WORK type="link">
-			<URI>
-				<VALUE>http://publications.europa.eu/resource/cellar/daba6bc3-6256-11e8-ab9c-01aa75ed71a1</VALUE>
-				<IDENTIFIER>daba6bc3-6256-11e8-ab9c-01aa75ed71a1</IDENTIFIER>
-				<TYPE>cellar</TYPE>
-			</URI>
-			<SAMEAS>
-				<URI>
-					<VALUE>http://publications.europa.eu/resource/immc/SWD%282018%29256%20final</VALUE>
-					<IDENTIFIER>SWD(2018)256 final</IDENTIFIER>
-					<TYPE>immc</TYPE>
-				</URI>
-			</SAMEAS>
-			<SAMEAS>
-				<URI>
-					<VALUE>http://publications.europa.eu/resource/comnat/SWD_2018_0256_FIN</VALUE>
-					<IDENTIFIER>SWD_2018_0256_FIN</IDENTIFIER>
-					<TYPE>comnat</TYPE>
-				</URI>
-			</SAMEAS>
-			<SAMEAS>
-				<URI>
-					<VALUE>http://publications.europa.eu/resource/celex/52018SC0256</VALUE>
-					<IDENTIFIER>52018SC0256</IDENTIFIER>
-					<TYPE>celex</TYPE>
-				</URI>
-			</SAMEAS>
-			<TYPE_OF_LINK_TARGET type="annotation">RD</TYPE_OF_LINK_TARGET>
-		</WORK_RELATED_TO_WORK>
 		<IS_ABOUT type="concept">
 			<URI>
 				<VALUE>http://eurovoc.europa.eu/4880</VALUE>
@@ -1373,27 +1107,6 @@
 		<RESOURCE_LEGAL_REPERTOIRE type="data">
 			<VALUE>REP</VALUE>
 		</RESOURCE_LEGAL_REPERTOIRE>
-		<RESOURCE_LEGAL_EESC_OPINION_CONTAINED_IN_RESOURCE_LEGAL type="link">
-			<URI>
-				<VALUE>http://publications.europa.eu/resource/cellar/19a9150f-d012-11e8-9424-01aa75ed71a1</VALUE>
-				<IDENTIFIER>19a9150f-d012-11e8-9424-01aa75ed71a1</IDENTIFIER>
-				<TYPE>cellar</TYPE>
-			</URI>
-			<SAMEAS>
-				<URI>
-					<VALUE>http://publications.europa.eu/resource/immc/EESC-2018-03041-AS</VALUE>
-					<IDENTIFIER>EESC-2018-03041-AS</IDENTIFIER>
-					<TYPE>immc</TYPE>
-				</URI>
-			</SAMEAS>
-			<SAMEAS>
-				<URI>
-					<VALUE>http://publications.europa.eu/resource/pi_eesc/EESC-2018-03041-AS</VALUE>
-					<IDENTIFIER>EESC-2018-03041-AS</IDENTIFIER>
-					<TYPE>pi_eesc</TYPE>
-				</URI>
-			</SAMEAS>
-		</RESOURCE_LEGAL_EESC_OPINION_CONTAINED_IN_RESOURCE_LEGAL>
 		<WORK_CITES_WORK type="link">
 			<URI>
 				<VALUE>http://publications.europa.eu/resource/cellar/621f0605-a73e-11e6-aab7-01aa75ed71a1</VALUE>
@@ -1634,35 +1347,6 @@
 		<IDENTIFIER type="data">
 			<VALUE>52018PC0340</VALUE>
 		</IDENTIFIER>
-		<WORK_RELATED_TO_WORK type="link">
-			<URI>
-				<VALUE>http://publications.europa.eu/resource/cellar/18b36681-6256-11e8-ab9c-01aa75ed71a1</VALUE>
-				<IDENTIFIER>18b36681-6256-11e8-ab9c-01aa75ed71a1</IDENTIFIER>
-				<TYPE>cellar</TYPE>
-			</URI>
-			<SAMEAS>
-				<URI>
-					<VALUE>http://publications.europa.eu/resource/comnat/SWD_2018_0255_FIN</VALUE>
-					<IDENTIFIER>SWD_2018_0255_FIN</IDENTIFIER>
-					<TYPE>comnat</TYPE>
-				</URI>
-			</SAMEAS>
-			<SAMEAS>
-				<URI>
-					<VALUE>http://publications.europa.eu/resource/celex/52018SC0255</VALUE>
-					<IDENTIFIER>52018SC0255</IDENTIFIER>
-					<TYPE>celex</TYPE>
-				</URI>
-			</SAMEAS>
-			<SAMEAS>
-				<URI>
-					<VALUE>http://publications.europa.eu/resource/immc/SWD%282018%29255%20final</VALUE>
-					<IDENTIFIER>SWD(2018)255 final</IDENTIFIER>
-					<TYPE>immc</TYPE>
-				</URI>
-			</SAMEAS>
-			<TYPE_OF_LINK_TARGET type="annotation">RD</TYPE_OF_LINK_TARGET>
-		</WORK_RELATED_TO_WORK>
 		<RESOURCE_LEGAL_TYPE type="data">
 			<VALUE>PC</VALUE>
 		</RESOURCE_LEGAL_TYPE>
@@ -2098,45 +1782,6 @@
 		<IDENTIFIER type="data">
 			<VALUE>comnat:COM_2018_0340_FIN</VALUE>
 		</IDENTIFIER>
-		<WORK_PART_OF_DOSSIER type="link">
-			<DOSSIER>
-				<PROCEDURE_CODE_INTERINSTITUTIONAL_HAS_TYPE_CONCEPT_TYPE_PROCEDURE_CODE_INTERINSTITUTIONAL type="concept">
-					<URI>
-						<VALUE>http://publications.europa.eu/resource/authority/procedure/OLP</VALUE>
-						<IDENTIFIER>OLP</IDENTIFIER>
-						<TYPE>procedure</TYPE>
-					</URI>
-					<OP-CODE>OLP</OP-CODE>
-					<IDENTIFIER>OLP</IDENTIFIER>
-					<PREFLABEL>Ordinary legislative procedure (COD)</PREFLABEL>
-				</PROCEDURE_CODE_INTERINSTITUTIONAL_HAS_TYPE_CONCEPT_TYPE_PROCEDURE_CODE_INTERINSTITUTIONAL>
-				<PROCEDURE_CODE_INTERINSTITUTIONAL_NUMBER_PROCEDURE type="data">
-					<VALUE>0172</VALUE>
-				</PROCEDURE_CODE_INTERINSTITUTIONAL_NUMBER_PROCEDURE>
-				<PROCEDURE_CODE_INTERINSTITUTIONAL_REFERENCE_PROCEDURE type="data">
-					<VALUE>2018/0172/COD</VALUE>
-				</PROCEDURE_CODE_INTERINSTITUTIONAL_REFERENCE_PROCEDURE>
-				<PROCEDURE_CODE_INTERINSTITUTIONAL_YEAR_PROCEDURE type="data">
-					<VALUE>2018</VALUE>
-				</PROCEDURE_CODE_INTERINSTITUTIONAL_YEAR_PROCEDURE>
-				<TYPE type="type">cdm:period</TYPE>
-				<TYPE type="type">cdm:procedure_internal</TYPE>
-				<TYPE type="type">cdm:entity_temporal</TYPE>
-				<TYPE type="type">cdm:dossier</TYPE>
-			</DOSSIER>
-			<URI>
-				<VALUE>http://publications.europa.eu/resource/cellar/f03de40f-6255-11e8-ab9c-01aa75ed71a1</VALUE>
-				<IDENTIFIER>f03de40f-6255-11e8-ab9c-01aa75ed71a1</IDENTIFIER>
-				<TYPE>cellar</TYPE>
-			</URI>
-			<SAMEAS>
-				<URI>
-					<VALUE>http://publications.europa.eu/resource/procedure/2018_172</VALUE>
-					<IDENTIFIER>2018_172</IDENTIFIER>
-					<TYPE>procedure</TYPE>
-				</URI>
-			</SAMEAS>
-		</WORK_PART_OF_DOSSIER>
 		<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy">
 			<!--match="WORK_IS_ABOUT_CONCEPT_EUROVOC[@type='concept_facet']-->
 			<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_path">
@@ -2168,7 +1813,7 @@
 					<PREFLABEL>chemical industry</PREFLABEL>
 					<ALTLABEL>chemical production</ALTLABEL>
 				</WORK_IS_ABOUT_CONCEPT_EUROVOC>
-				<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_path_concept" level="4" leaf="true">
+				<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_path_concept" level="4" leaf="false">
 					<URI>
 						<VALUE>http://eurovoc.europa.eu/3808</VALUE>
 						<IDENTIFIER>3808</IDENTIFIER>
@@ -2177,7 +1822,7 @@
 					<IDENTIFIER>3808</IDENTIFIER>
 					<PREFLABEL>raw chemical industry</PREFLABEL>
 				</WORK_IS_ABOUT_CONCEPT_EUROVOC>
-				<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_path_concept" level="5" leaf="true">
+				<WORK_IS_ABOUT_CONCEPT_EUROVOC type="concept_hierarchy_path_concept" level="5" leaf="false">
 					<URI>
 						<VALUE>http://eurovoc.europa.eu/1383</VALUE>
 						<IDENTIFIER>1383</IDENTIFIER>

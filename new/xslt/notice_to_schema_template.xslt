@@ -158,11 +158,12 @@
 			<xsl:comment>match="*[@type ='link']"</xsl:comment>
 			<xsl:apply-templates select="URI"/>
 			<xsl:apply-templates select="SAMEAS"/>
+			<xsl:apply-templates select="*[@type[.='annotation']]"/>
 			<xsl:apply-templates select="WORK"/>
 			<xsl:apply-templates select="DOSSIER"/>
 			<xsl:apply-templates select="EVENT"/>
 			<xsl:apply-templates select="AGENT"/>
-			<xsl:apply-templates select="*[local-name()!='URI' and local-name()!='SAMEAS' and local-name()!='WORK' and local-name()!='DOSSIER' and local-name()!='EVENT' and local-name()!='AGENT']" mode="non_treated"/>
+			<xsl:apply-templates select="*[local-name()!='URI' and local-name()!='SAMEAS' and @type!='annotation' and local-name()!='WORK' and local-name()!='DOSSIER' and local-name()!='EVENT' and local-name()!='AGENT']" mode="non_treated"/>
 		</xsl:element>
 	</xsl:template>
 	
