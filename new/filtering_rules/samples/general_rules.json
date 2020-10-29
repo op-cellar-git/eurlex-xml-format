@@ -3,4057 +3,4057 @@
       {
          "propety":"http://publications.europa.eu/ontology/cdm#act_consolidated_based_on_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#advocate-general_delivers_case-law",
          "annotations":{
-            "to_be_indexed":true
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#agent_comments_case-law",
          "annotations":{
-            "to_be_indexed":true
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#agent_defends_in_case-law",
          "annotations":{
-            "to_be_indexed":true
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#agent_requests_case-law",
          "annotations":{
-            "to_be_indexed":true
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#agreement_international_has_type_comment_concept_type_comment",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#based_on",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_affects_resource_legal",
          "annotations":{
-            "to_be_indexed":true
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_amends_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_commented_by_agent",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_confirms_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_declares_incidentally_valid_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_declares_valid_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_declares_void_by_preliminary_ruling_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_declares_void_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_defended_by_agent",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_delivered_by_advocate-general",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_delivered_by_judge",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_has_type_procedure_concept_type_procedure",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_immediately_enforces_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_incidentally_declares_void_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_interpretes_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_originates_in_country",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_requested_by_agent",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_states_failure_concerning_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_suspends_application_of_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#dossier_contains_work",
          "annotations":{
-            "to_be_indexed":true
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#dossier_initiated_by_act_preparatory",
          "annotations":{
             "to_expand":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#dossier_is_about_concept_type_dossier",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#dossier_produces_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#event_legal_addresses_institution",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#event_legal_associated_with_institution",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#event_legal_associated_with_person",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#event_legal_consults_institution",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#event_legal_contains_work",
          "annotations":{
             "to_expand":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#event_legal_drafted_by_person",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#event_legal_formally-addresses_institution",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#event_legal_gets_opinion_of_institution",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#event_legal_gets_report_of_institution",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#event_legal_has_remark_concept_type_remark",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#event_legal_has_type_concept_type_event_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#event_legal_informs_institution",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#event_legal_initiated_by_institution",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#event_legal_joint-responsibility_of_institution",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#event_legal_joint-responsibility_of_person",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#event_legal_mandatorily-consults_institution",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#event_legal_on_agenda_concept_agenda_council",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#event_legal_optionally-consults_institution",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#event_legal_part_of_dossier",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#reported_by",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#event_legal_was_historically_about_concept_type_dossier",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#event_legal_responsibility_of_institution",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#event_legal_responsibility_of_person",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#event_legal_taken_over_person",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#event_legal_uses_concept_mode_decision",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#event_legal_uses_concept_type_decision",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#expression_uses_language",
          "annotations":{
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#language_used_originally_by_resource_legal",
          "annotations":{
-            "to_be_indexed":true
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#legislation_secondary_is_about_concept_directory-code",
          "annotations":{
             "is_concept_hierarchy":true,
-            "to_be_indexed":true
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#manifestation_part_of_manifestation",
          "annotations":{
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#memberList",
          "annotations":{
-            "to_be_indexed":true
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#official-journal_part_of_collection_document",
          "annotations":{
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#procedure_code_interinstitutional_based_on_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#procedure_code_interinstitutional_has_type_concept_type_procedure_code_interinstitutional",
          "annotations":{
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#procedure_without_code_interinstitutional_based_on_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#question_parliamentary_asked_by_group_parliamentary",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_added_to_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_addresses_agent",
          "annotations":{
-            "to_be_indexed":true,
-            "in_embedded_notice":true
+            "to_index":true,
+            "to_embed":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_addresses_institution",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_addresses_organization",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_adds_to_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_adopted_by_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_adopts_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_amended_by_case-law",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_amended_by_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_amendment_proposed_by_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_amends_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_application_deferred_by_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_application_extended_by_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_application_suspended_by_case-law",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_based_on_concept_treaty",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_based_on_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_completed_by_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_completes_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_confirmed_by_case-law",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_confirmed_by_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_confirms_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_contains_cor_opinion_on_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_contains_eesc_opinion_on_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_contains_ep_opinion_on_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_cor_opinion_contained_in_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_corrected_by_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_corrects_resource_legal",
          "annotations":{
             "to_expand":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_declared_valid_by_case-law",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_declared_void_by_case-law",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_declared_void_by_preliminary_ruling_case-law",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_defers_application_of_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_derogated_by_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_derogates_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_eesc_opinion_contained_in_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_ep_opinion_contained_in_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_extends_application_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_extends_validity_of_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_failure_stated_by_case-law",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_has_type_act_concept_type_act",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_immediately_enforced_by_case-law",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_implemented_by_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_implements_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_implicitly_repealed_by_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_implicitly_repeals_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_incidentally_declared_valid_case-law",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_incidentally_declared_void_by_case-law",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_incorporated_by_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_incorporates_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_interpreted_authoritatively_by_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_interpreted_by_case-law",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_interpretes_authoritatively_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_is_about_concept_directory-code",
          "annotations":{
             "is_concept_hierarchy":true,
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_is_about_subject-matter",
          "annotations":{
             "is_concept_hierarchy":true,
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_partially_adopted_by_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_partially_adopts_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_partially_referred_to_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_partially_refers_to_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_partially_suspended_by_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_partially_suspends_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_proposes_to_amend_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_published_in_official-journal",
          "annotations":{
             "to_expand":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_published_in_court-report",
          "annotations":{
             "to_expand":true,
-            "to_be_indexed":true
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_published_in_special-official-journal",
          "annotations":{
             "to_expand":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_reestablished_by_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_reestablishes_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_related_question_to_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_related_to_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_rendered_obsolete_by_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_renders_obsolete_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_repealed_by_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_repeals_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_replaced_by_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_replaces_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_suspended_by_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_suspends_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_tackles_similar_question_as_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_uses_originally_language",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_validity_extended_by_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#special-official-journal_is_about_concept_directory-code",
          "annotations":{
             "is_concept_hierarchy":true,
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#stored_by",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#work_cites_work",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#work_created_by_agent",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#work_is_about_concept_eurovoc",
          "annotations":{
-            "in_embedded_notice":true,
-            "in_notice":true,
+            "to_embed":true,
+            "to_disseminate":true,
             "is_concept_hierarchy":true,
-            "to_be_indexed":true
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#work_part_of_collection_document",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#work_part_of_dossier",
          "annotations":{
             "to_expand":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#work_part_of_event_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#work_part_of_work",
          "annotations":{
             "to_expand":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#work_has_successor_work",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#work_is_logical_successor_of_work",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
          "annotations":{
-            "in_embedded_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#summary_legislation_eu_validated_by_institution",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#summary_legislation_eu_is_about_concept_directory-code",
          "annotations":{
             "is_concept_hierarchy":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#act_consolidated_layer_constituted_by_version_act_consolidated",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_does_impact_of_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_does_deletion_of_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_does_insertion_of_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_does_renumbering_of_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_does_repeal_of_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_does_replacement_of_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#event_internal_has_type_consultation",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#type_consultation_is_type_of_procedure_internal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#concept_type_event_legal_is_type_of_event_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#type_procedure_internal_is_type_of_procedure_internal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#person_associated_with_event",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#person_reports_on_event",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#person_jointly-responsible_for_event",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#event_co-reported_by_person",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#person_co-reports_event",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#work_co-reported_by_person",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#person_co-reports_work",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#event_related_with_agent",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#agent_relates_to_event",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#work_related_with_agent",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#agent_relates_to_work",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#event_internal_uses_concept_mode_decision",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_is_about_concept_case-law",
          "annotations":{
             "is_concept_hierarchy":true,
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_is_about_concept_new_case-law",
          "annotations":{
             "is_concept_hierarchy":true,
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_affected_by_case-law",
          "annotations":{
-            "to_be_indexed":true
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#summary_summarizes_work",
          "annotations":{
             "to_expand":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#report_ep_reported_by_agent",
          "annotations":{
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#opinion_ep_reported_by_agent",
          "annotations":{
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#opinion_ep_reported_by_associated_agent",
          "annotations":{
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#act_consolidated_date",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#act_consolidated_number",
          "annotations":{
-            "to_be_indexed":true
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#act_consolidated_reference_act_consolidated",
          "annotations":{
-            "to_be_indexed":true
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#basis_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_article_journal_related",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_judgement_national",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_national_affaire_number",
          "annotations":{
-            "to_be_indexed":true
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_national_affaire_year",
          "annotations":{
-            "to_be_indexed":true
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_national_keywords",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#date",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#date_creation_legacy",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_published_in_erecueil",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#date_debate",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#date_notification",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#date_publication",
          "annotations":{
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#date_reply",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#date_request_caducity",
          "annotations":{
-            "to_be_indexed":true
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#date_transposition",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#dossier_adopted-proposal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#dossier_identifier",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#dossier_number_reference",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#dossier_pending-proposal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#dossier_type_reference",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#dossier_withdrawn-proposal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#dossier_year_reference",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#event_legal_date",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#event_legal_document_reference",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#event_legal_type",
          "annotations":{
-            "to_be_indexed":true
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#expression_title",
          "annotations":{
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#expression_title_alternative",
          "annotations":{
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#id_celex",
          "annotations":{
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_id_celex",
          "annotations":{
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#id_obsolete_document",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#id_sector",
          "annotations":{
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#identifier",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#manifestation_is-signed",
          "annotations":{
-            "to_be_indexed":true
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#manifestation_official-journal_part_page_first",
          "annotations":{
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#manifestation_official-journal_part_page_last",
          "annotations":{
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#manifestation_special-official-journal_part_page_first",
          "annotations":{
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#manifestation_special-official-journal_part_page_last",
          "annotations":{
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#manifestation_type",
          "annotations":{
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#number_procedure",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#official-journal_class",
          "annotations":{
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#official-journal_number",
          "annotations":{
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#official-journal_year",
          "annotations":{
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#procedure_code_interinstitutional_number_procedure",
          "annotations":{
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#procedure_code_interinstitutional_year_procedure",
          "annotations":{
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#question_parliamentary_nationality_mep",
          "annotations":{
-            "to_be_indexed":true
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#question_parliamentary_term_parliamentary",
          "annotations":{
-            "to_be_indexed":true
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#court-report_class",
          "annotations":{
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#court-report_number",
          "annotations":{
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#court-report_year",
          "annotations":{
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_comment_internal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_date_deadline",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_date_dispatch",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_date_end-of-validity",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_date_entry-into-force",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_date_request_opinion",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_date_signature",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_date_vote",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_in-force",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_information_miscellaneous",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_number_corrigendum",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_number_natural_celex",
          "annotations":{
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_position_eesc",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_procedure_number",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_procedure_type",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_procedure_year",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_repertoire",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_type",
          "annotations":{
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_year",
          "annotations":{
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#service_associated",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#service_responsible",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#session_council",
          "annotations":{
-            "to_be_indexed":true
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#special-official-journal_first_series_historical",
          "annotations":{
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#special-official-journal_second_series_historical",
          "annotations":{
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#special-official-journal_volume",
          "annotations":{
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#term_parliamentary",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#work_table-of-contents",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#procedure_code_interinstitutional_reference_procedure",
          "annotations":{
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#act_consolidated_layer",
          "annotations":{
-            "to_be_indexed":true
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#act_consolidated_version",
          "annotations":{
-            "to_be_indexed":true
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#id_legissum",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#summary_legislation_eu_id_doc_related",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#summary_legislation_eu_id_doc_summarized",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#summary_legislation_eu_obsolete",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#summary_legislation_eu_version",
          "annotations":{
-            "to_be_indexed":true
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#event_internal_eu_survey_identifier",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#event_internal_consultation_duration",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#expression_inherited",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#act_consolidated",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#event_title",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#ecli",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_affaire_year",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_affaire_number",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_affaire_type",
          "annotations":{
-            "to_be_indexed":true
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_affaire_jurisdiction",
          "annotations":{
-            "to_be_indexed":true
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#procedure_internal_planned_consultation_period_date_start",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#procedure_internal_planned_consultation_period_date_end",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#even_internal_objection_period",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#even_internal_objection_period_extension",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#even_internal_urgent_procedure",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_internal_number_prefix",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_internal_number_sequential_number",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_internal_number_year",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_internal_number_suffix",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#work_date_document",
          "annotations":{
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#manifestation_case-law_keywords",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#manifestation_case-law_parties",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#manifestation_case-law_subject",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#manifestation_case-law_costs_decisions",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#manifestation_case-law_operative_part",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#manifestation_case-law_grounds",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#manifestation_case-law_endorsements",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#directive_date_transposition",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#question_parliamentary_date_reply",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_national_decision_internal_identifier",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_delivered_by_institution",
          "annotations":{
-            "to_be_indexed":true
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#measure_national_implementing_implements_directive",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_is_about_concept",
          "annotations":{
             "is_concept_hierarchy":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_national_based_on_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_delivered_by_court_national",
          "annotations":{
             "to_expand":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_national_reference_publication",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#court_national_name",
          "annotations":{
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#court_national_has_type_concept_class_court_national",
          "annotations":{
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_national-judgement",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_national_act_reference_european",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#legal_effect_paper",
          "annotations":{
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_id_local",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_requests_annulment_of_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_partially_annuls_resource_lega",
          "annotations":{
-            "to_be_indexed":true
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_requests_interpretation_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_requests_validation_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_requests_for_failure_to_fulfill_an_obligation_for_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_requests_opinion_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_interpretes_judgement_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_reviews_judgement_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_corrects_judgement_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_defers_application_of_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_annulment_requested_by_case-law",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_partially_annulled_by_case-law",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_interpretation_requested_by_case-law",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_validation_requested_by_case-law",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_establishes_failure_to_fulfill_obligation_requested_by_case-law",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_opinion_requested_by_case-law",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_interpreted_by_judgement_case-law",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_judgement_corrected_by_case-law",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_application_deferred_by_case-law",
          "annotations":{
-            "to_be_indexed":true
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#expression_subtitle",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#opinion_cjeu_given_on_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_received_opinion_cjeu",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#manifestation_official-journal_part_author_printer",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#manifestation_official-journal_part_section_oj",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#manifestation_official-journal_part_typedoc_printer",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#manifestation_court-report_part_year",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#manifestation_court-report_part_type",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#manifestation_court-report_part_page_first",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#manifestation_special-court-report_part_year",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#manifestation_special-court-report_part_type",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#manifestation_special-court-report_part_page_first",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#published",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#reference_procedure",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_national_preceeding_case-law",
          "annotations":{
-            "to_be_indexed":true
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_national_following_case-law",
          "annotations":{
-            "to_be_indexed":true
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#manifestation_official-journal_part_number_publication_debate_ep",
          "annotations":{
-            "to_be_indexed":true
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_national_act_reference_national",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_reviewed_by_case-law",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#summary_legislation_eu_is_about_classification_summary",
          "annotations":{
             "is_concept_hierarchy":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#decision_date_transposition",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#cooperation_police-and-judicial_date_transposition",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#recommendation_date_transposition",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#recommendation_ecsc_date_transposition",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#regulation_date_transposition",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#expression_description_editorial",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#legislation_secondary_date_notification",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#measure_national_implementing_date_notification",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#measure_national_implementing_date_transposition",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#lastmodificationdate",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_national_judgement_reference",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#event_legal_session_council",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#event_legal_comment",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#dossier_comment",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#act_preparatory_date_debate",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#addresses",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#author_printer",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#comment",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#decision_service_associated",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#decision_service_responsible",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#directive_service_associated",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#directive_service_responsible",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#document_com_other_ec_service_associated",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#document_com_other_ec_service_responsible",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#dossier_is_about_concept_field_activity",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#event_legal_based_on_resource_legal",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#event_legal_basis_legal",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#keywords",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#manifestation_has_item",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#modified_by",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#name",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#on_agenda",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#optionally-consults",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#page_first",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#page_last",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#parties",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#procedure_number",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#procedure_type",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#procedure_year",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#regulation_service_associated",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#regulation_service_responsible",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#title",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#typedoc_printer",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#version",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#year",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#staff-working-document_service_associated",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#proposal_act_service_associated",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#proposal_act_service_responsible",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#staff-working-document_service_responsible",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#non-opposition_concentration_notified_service_responsible",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#non-opposition_joint-venture_notified_service_responsible",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#act_legislative_other_oj_c_service_responsible",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#act_legislative_other_oj_l_service_responsible",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_national_act_reference_international",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#work_reference_internal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_national_follow-up",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#act_consolidated_consolidates_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_consolidated_by_act_consolidated",
          "annotations":{
             "to_expand":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#type",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#sameAs",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#dossier_consults_agent",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#event_legal_is_about_concept_agenda_council",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#event_legal_was_historically_about_concept_type_procedure_code_interinstitutional",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#manifestation_signed_by_signature_digital",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_partially_annuls_resource_legal",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#contains",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#event_legal_reported_by_person",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#is_about",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#work_has_expression",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#work_related_to_work",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#work_summarized_by_summary",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#created_by",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true,
+            "to_disseminate":true,
+            "to_index":true,
             "to_expand":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#asked_by",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resolution_other_ep_reported_by_person",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resolution_legislative_ep_reported_by_person",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#abstract",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#date_document",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#doi",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#isbn",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#issn",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#manifestation_has_thumbnail",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#thumbnail_belongs_to_manifestation",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#work_id_document",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#expression_manifested_by_manifestation",
          "annotations":{
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#work_contains_work",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#official-journal_publishes_resource_legal",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#manifestation_source-pool",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#manifestation_manifests_expression",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#measure_national_implementing_name_official_journal",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#measure_national_implementing_number_official_journal",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#measure_national_implementing_date_official_journal",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#measure_national_implementing_page_official_journal",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#measure_national_implementing_type_act",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_basis_for_act_consolidated",
          "annotations":{
             "to_expand":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#work_has_resource-type",
          "annotations":{
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_communicated_on_by_communication_cjeu",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_decision_review_requested_by_communication_case_new",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_inapplicability_requested_by_communication_case_new",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_partial_annulment_requested_by_communication_case_new",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_preliminary_question-submitted_by_communication_case_new",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#container_case-law_id_numpub",
          "annotations":{
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#container_case-law_year_decision",
          "annotations":{
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#container_case-law_fascicule",
          "annotations":{
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#container_case-law_court",
          "annotations":{
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#container_case-law_number",
          "annotations":{
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#manifestation_official-journal_part_information_number",
          "annotations":{
-            "to_be_indexed":true
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#communication_case_new_requests_establishment_of_failure_of_obligation_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#communication_case_new_requests_inapplicability_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#communication_case_new_requests_partial_annulment_of_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#communication_case_new_requests_review_of_decision_case-law",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#communication_case_new_submits_preliminary_question_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#work_communicates_on_work",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#work_communicated_on_by_work",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#communication_cjeu_communicates_on_case-law",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#communication_cjeu_defended_by_agent",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#communication_cjeu_has_type_procedure_concept_type_procedure",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#communication_cjeu_requested_by_agent",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#communication_request_opinion_requests_opinion_on_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_referred_to_for_preliminary_ruling_case-law",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_refers_for_preliminary_ruling_case-law",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_eli",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#expression_case-law_parties",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#expression_case-law_identifier_case",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_subject_to_appeal_in_case_court",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_reexamined_by_case_court",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#eli",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#measure_national_implementing_national_website_link",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#manifestation_official-journal_part_natural_number",
          "annotations":{
-            "to_be_indexed":true
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_number_sequence",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#work_date_archived",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/annotation#in_committee",
          "annotations":{
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/annotation#order",
          "annotations":{
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_opinion_requested_by_communication_request_opinion",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_establishment_of_failure_of_obligation_requested_by_communication_case_new",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_annulment_requested_by_communication_case_new",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#communication_case_new_requests_annulment_of_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#agent_name",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#agreement_international_associated_to_resource_legal",
          "annotations":{
             "to_expand":true,
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_associates_agreement_international",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#manifestation_uri",
          "annotations":{
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_based_on_treaty",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_basis_for_resource_legal",
          "annotations":{
-            "to_be_indexed":true
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_published_in_special-court-report",
          "annotations":{
-            "to_be_indexed":true
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_number_natural",
          "annotations":{
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#com_package_reference_volume",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#complex_work_has_member_work",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_uses_procedure_language",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#expression_belongs_to_work",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#work_explains_work",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#work_explained_by_work",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#directive_implemented_by_measure_national_implementing",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_implemented_by_measure_national_implementing",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#measure_national_implementing_implements_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#work_title",
          "annotations":{
-            "to_be_indexed":true
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_influences_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_influenced_by_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#manifestation_contains_manifestation",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_number_corrigendum_eli",
          "annotations":{
-            "to_be_indexed":true
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#event_mandatorily-addresses_institution",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#event_number_session",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#event_session_date_start",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#event_session_date_end",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_date_referral",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#expression_source",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#expression_version",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#manifestation_official-journal_part_pages_total",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_produced_by_dossier",
          "annotations":{
             "to_expand":true,
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#expression_title_short",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#procedure_code_interinstitutional_european_union_competence_type",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#expression_edition",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/annotation#changed_to_identifier",
          "annotations":{
-            "in_embedded_notice":true,
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_embed":true,
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/annotation#status",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#manifestation_number_catalogue",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#number_catalogue",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#procedure_internal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#dossier_identifer",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#dossier_title",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#dossier_part_of_dossier",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/annotation#prefix",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/annotation#suffix",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_referred_to_by_agent",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#act_preparatory_eesc_priority_class",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#act_preparatory_session_date_start_planned",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#act_preparatory_session_date_end_planned",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#act_preparatory_number_session_planned",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_basis_referral",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#event_responsibility_of_institution",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_term-of-office",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/annotation#date",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#event_internal_planned_objection_period_date_end",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#event_internal_planned_objection_period_date_start",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_term-of-office",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_basis_referral",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#fragment_resource_legal_part_of_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#contributed_to_by",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true,
+            "to_disseminate":true,
+            "to_index":true,
             "to_expand":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#event_basis_legal_suggested",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#event_based_on_suggested_resource_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#work_reported_by_person",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm/cmr#lang",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#dossier_basis_legal",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_responsibility_of_agent",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#work_contributed_to_by_agent",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true,
+            "to_disseminate":true,
+            "to_index":true,
             "to_expand":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#treaty_name",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#act_preparatory_number_session",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_addresses_country",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#archive_package_internal_number_prefix",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#archive_package_reference_volume",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#archive_package_barcode",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#archive_package_has_title_from_com_final",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#com_package_barcode",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#doi",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#isbn",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#issn",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#manifestation_number_catalogue",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#manifestation_doi",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#manifestation_isbn",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#manifestation_issn",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#act_other_cor_reported_by_person",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#act_other_cor_reported_by_person",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#opinion_other_eesc_reported_by_person",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#opinion_other_cor_reported_by_person",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#opinion_eesc_reported_by_person",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#opinion_consultation_eesc_reported_by_person",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#opinion_consultation_cor_reported_by_person",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#document_budget_ep_reported_by_person",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#decision_internal_ep_reported_by_person",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#act_other_ep_reported_by_person",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#act_other_eesc_reported_by_person",
          "annotations":{
-            "in_notice":true
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#work_reported_by_agent",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#event_reported_by_person",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#event_reported_by_agent",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#resource_legal_involves_agent",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#measure_national_implementing_declaration_transposition_member-state",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#dossier_contains_dossier",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/cdm#case-law_originates_in_country_role-qualifier",
          "annotations":{
-            "in_notice":true,
-            "to_be_indexed":true
+            "to_disseminate":true,
+            "to_index":true
          }
       }
    ]

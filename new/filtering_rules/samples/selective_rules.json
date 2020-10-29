@@ -1,0 +1,66 @@
+{
+    "exceptions": 
+	[
+		{   
+			"class": "cdm:official-journal",
+            "level": ["work"],
+            "to_embed": ["cdm:date_publication", "cdm:official-journal_part_of_collection_document", "cdm:work_date_document", "cdm:work_has_resource-type", "cdm:official-journal_class", "cdm:official-journal_number", "cdm:official-journal_year", "rdf:type"]
+        },
+		{   
+			"class": "cdm:official-journal",
+            "level": ["expression"],
+            "to_embed": ["cdm:expression_title", "cdm:expression_uses_language"]
+        },
+		{   
+		    "to_expand": "cdm:dossier_initiated_by_act_preparatory",
+			"class": "cdm:act_preparatory",
+            "level": ["work"],
+            "to_embed": ["cdm:work_is_about_concept_eurovoc", "cdm:work_date_document", "cdm:resource_legal_is_about_concept_directory-code", "cdm:id_celex", "rdf:type", "cdm:resource_legal_number_natural_celex", "cdm:id_sector", "cdm:work_has_resource-type"]
+        },
+		{   
+		    "to_expand": "cdm:dossier_initiated_by_act_preparatory",
+			"class": "cdm:act_preparatory",
+            "level": ["expression"],
+            "to_embed": ["cdm:expression_title"]
+        },
+		{
+		    "to_expand": "cdm:dossier_contains_work",
+			"class": "cdm:act_preparatory",
+            "level": ["work"],
+            "to_embed": ["cdm:work_date_document", "cdm:id_celex", "rdf:type", "cdm:resource_legal_number_natural_celex", "cdm:work_has_resource-type", "cdm:id_sector"]
+        },
+		{   
+		    "to_expand": "cdm:dossier_contains_work",
+			"class": "cdm:act_preparatory",
+            "level": ["expression"],
+            "to_embed": ["cdm:expression_title"]
+        },
+		{
+		    "to_expand": "cdm:contains",
+			"class": "cdm:act_preparatory",
+            "level": ["work"],
+            "to_embed": []
+        },
+		{   
+			"class": "cdm:procedure_internal",
+            "level": ["dossier"],
+            "to_embed": []
+        },
+		{   
+			"class": "cdm:dossier",
+            "level": ["dossier"],
+            "to_embed": ["cdm:procedure_code_interinstitutional_number_procedure", "cdm:procedure_code_interinstitutional_year_procedure", "cdm:procedure_code_interinstitutional_has_type_concept_type_procedure_code_interinstitutional", "cdm:procedure_code_interinstitutional_reference_procedure", "rdf:type"]
+        },
+    ]
+}
+
+
+
+
+
+
+
+
+
+
+
