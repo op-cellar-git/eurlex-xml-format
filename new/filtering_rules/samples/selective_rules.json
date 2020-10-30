@@ -1,5 +1,5 @@
 {
-    "exceptions": 
+    "selective_rules": 
 	[
 		{   
 			"class": "cdm:official-journal",

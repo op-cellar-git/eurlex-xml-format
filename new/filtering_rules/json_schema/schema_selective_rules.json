@@ -6,22 +6,22 @@
     "description": "Additional configuration file to drive some exceptional behaviors in the embedding policies",
     "default": {},
     "required": [
-        "exceptions"
+        "selective_rules"
     ],
     "properties": {
-        "exceptions": {
-            "$id": "#/properties/exceptions",
+        "selective_rules": {
+            "$id": "#/properties/selective_rules",
             "type": "array",
             "title": "Exceptional behaviors",
             "description": "With the following rules Eurlex gets specific behaviors relative to specific classes and/or properties involved in the embedding",
             "default": [],
             "additionalItems": false,
             "items": {
-                "$id": "#/properties/exceptions/items",
+                "$id": "#/properties/selective_rules/items",
                 "anyOf": [
                     
                     {
-                        "$id": "#/properties/exceptions/items/anyOf/1",
+                        "$id": "#/properties/selective_rules/items/anyOf/1",
                         "type": "object",
                         "title": "Exceptional rules",
                         "description": "Exceptional rules consist of a class to embed that has some specific properties to embed or to index. Optionally a specific to_expand that points to the class is settable.",
@@ -33,31 +33,31 @@
                         ],
                         "properties": {
                             "to_expand": {
-                                "$id": "#/properties/exceptions/items/anyOf/1/properties/to_expand",
+                                "$id": "#/properties/selective_rules/items/anyOf/1/properties/to_expand",
                                 "type": "string",
                                 "title": "to_expand",
                                 "description": "The specific property to expand in the embedding policies. This field is not mandatory.",
                                 "default": ""
                             },
                             "class": {
-                                "$id": "#/properties/exceptions/items/anyOf/1/properties/class",
+                                "$id": "#/properties/selective_rules/items/anyOf/1/properties/class",
                                 "type": "string",
                                 "title": "class",
                                 "description": "The owl class for which the embedding policy must follow a particular behavior. This field is mandatory.",
                                 "default": ""
                             },
                             "level": {
-                                "$id": "#/properties/exceptions/items/anyOf/1/properties/level",
+                                "$id": "#/properties/selective_rules/items/anyOf/1/properties/level",
                                 "type": "array",
                                 "title": "level",
                                 "description": "This field indicates at what level of the FRBR (or dossier/event) the exception is valid. This field is mandatory.",
                                 "default": [],
                                 "additionalItems": false,
                                 "items": {
-                                    "$id": "#/properties/exceptions/items/anyOf/1/properties/level/items",
+                                    "$id": "#/properties/selective_rules/items/anyOf/1/properties/level/items",
                                     "anyOf": [
                                         {
-                                            "$id": "#/properties/exceptions/items/anyOf/1/properties/level/items/anyOf/0",
+                                            "$id": "#/properties/selective_rules/items/anyOf/1/properties/level/items/anyOf/0",
                                             "type": "string",
                                             "title": "level",
                                             "description": "A list of levels from the FRBR hierarchy or dossier/event.",
@@ -67,17 +67,17 @@
                                 }
                             },
                             "to_embed": {
-                                "$id": "#/properties/exceptions/items/anyOf/1/properties/to_embed",
+                                "$id": "#/properties/selective_rules/items/anyOf/1/properties/to_embed",
                                 "type": "array",
                                 "title": "to_embed",
                                 "description": "This is a list of properties that must exceptionally be embedded in the context defined by `class`, `level` and the `to_expand` to expand. In case this list is empty Cellar will embed only the URI and the relative SAMEAS. This field is mandatory.",
                                 "default": [],
                                 "additionalItems": false,
                                 "items": {
-                                    "$id": "#/properties/exceptions/items/anyOf/1/properties/to_embed/items",
+                                    "$id": "#/properties/selective_rules/items/anyOf/1/properties/to_embed/items",
                                     "anyOf": [
                                         {
-                                            "$id": "#/properties/exceptions/items/anyOf/1/properties/to_embed/items/anyOf/0",
+                                            "$id": "#/properties/selective_rules/items/anyOf/1/properties/to_embed/items/anyOf/0",
                                             "type": "string",
                                             "title": "",
                                             "description": "a list of URIs that exceptionally must be in the embedded notice.",
