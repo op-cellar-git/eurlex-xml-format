@@ -1,0 +1,477 @@
+{"NOTICE": {
+    "WORK": {
+        "RESOURCE_LEGAL_DATE_ENTRY-INTO-FORCE": {
+            "COMMENT_ON_DATE": {
+                "type": "annotation",
+                "content": "{DATPUB|http://publications.europa.eu/resource/authority/fd_335/DATPUB} +20 {V|http://publications.europa.eu/resource/authority/fd_335/V} {ART|http://publications.europa.eu/resource/authority/fd_335/ART} 9"
+            },
+            "MONTH": "03",
+            "YEAR": 2018,
+            "TYPE_OF_DATE": {
+                "type": "annotation",
+                "content": "{EV|http://publications.europa.eu/resource/authority/fd_335/EV}"
+            },
+            "VALUE": "2018-03-08",
+            "type": "date",
+            "DAY": "08"
+        },
+        "SAMEAS": [
+            {"URI": {
+                "VALUE": "http://publications.europa.eu/resource/oj/JOL_2018_044_R_0001",
+                "IDENTIFIER": "JOL_2018_044_R_0001",
+                "TYPE": "oj"
+            }},
+            {"URI": {
+                "VALUE": "http://publications.europa.eu/resource/eli/reg/2018/196/oj",
+                "IDENTIFIER": "reg:2018:196:oj",
+                "TYPE": "eli"
+            }},
+            {"URI": {
+                "VALUE": "http://publications.europa.eu/resource/celex/32018R0196",
+                "IDENTIFIER": "32018R0196",
+                "TYPE": "celex"
+            }}
+        ],
+        "RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE": {
+            "RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE": [
+                {
+                    "OP-CODE": "02303040",
+                    "PREFLABEL": "Reintroduction of customs duties",
+                    "path": 1,
+                    "level": 4,
+                    "IDENTIFIER": "02303040",
+                    "type": "concept_hierarchy_concept",
+                    "URI": {
+                        "VALUE": "http://publications.europa.eu/resource/authority/fd_555/02303040",
+                        "IDENTIFIER": "02303040",
+                        "TYPE": "fd_555"
+                    }
+                },
+                {
+                    "OP-CODE": "023030",
+                    "PREFLABEL": "Tariff derogations",
+                    "path": 1,
+                    "level": 3,
+                    "IDENTIFIER": "023030",
+                    "type": "concept_hierarchy_concept",
+                    "URI": {
+                        "VALUE": "http://publications.europa.eu/resource/authority/fd_555/023030",
+                        "IDENTIFIER": "023030",
+                        "TYPE": "fd_555"
+                    }
+                },
+                {
+                    "OP-CODE": "02",
+                    "PREFLABEL": "Customs Union and free movement of goods",
+                    "path": 1,
+                    "level": 1,
+                    "IDENTIFIER": "02",
+                    "type": "concept_hierarchy_concept",
+                    "URI": {
+                        "VALUE": "http://publications.europa.eu/resource/authority/fd_555/02",
+                        "IDENTIFIER": "02",
+                        "TYPE": "fd_555"
+                    }
+                },
+                {
+                    "OP-CODE": "0230",
+                    "PREFLABEL": "Application of the Common Customs Tariff",
+                    "path": 1,
+                    "level": 2,
+                    "IDENTIFIER": "0230",
+                    "type": "concept_hierarchy_concept",
+                    "URI": {
+                        "VALUE": "http://publications.europa.eu/resource/authority/fd_555/0230",
+                        "IDENTIFIER": "0230",
+                        "TYPE": "fd_555"
+                    }
+                }
+            ],
+            "type": "concept_hierarchy"
+        },
+        "URI": {
+            "VALUE": "http://publications.europa.eu/resource/cellar/fa9532bb-12e6-11e8-9253-01aa75ed71a1",
+            "IDENTIFIER": "fa9532bb-12e6-11e8-9253-01aa75ed71a1",
+            "TYPE": "cellar"
+        },
+        "DATE": [
+            {
+                "MONTH": "02",
+                "YEAR": 2018,
+                "VALUE": "2018-02-07",
+                "type": "date",
+                "DAY": "07"
+            },
+            {
+                "MONTH": "03",
+                "YEAR": 2018,
+                "VALUE": "2018-03-08",
+                "type": "date",
+                "DAY": "08"
+            }
+        ],
+        "IS_ABOUT": {
+            "PREFLABEL": "suspension of customs duties",
+            "ALTLABEL": [
+                "customs procedure suspending import duties",
+                "suspension of tariff duty",
+                "tariff dismantling"
+            ],
+            "IDENTIFIER": 4350,
+            "type": "concept",
+            "URI": {
+                "VALUE": "http://eurovoc.europa.eu/4350",
+                "IDENTIFIER": 4350,
+                "TYPE": "EUROVOC"
+            }
+        },
+        "WORK_ID_DOCUMENT": {
+            "VALUE": "immc:PE 60 2017 REV 1",
+            "type": "data"
+        },
+        "WORK_HAS_EXPRESSION": [
+            {
+                "SAMEAS": [
+                    {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/oj/JOL_2018_044_R_0001.DEU",
+                        "IDENTIFIER": "JOL_2018_044_R_0001.DEU",
+                        "TYPE": "oj"
+                    }},
+                    {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/celex/32018R0196.DEU",
+                        "IDENTIFIER": "32018R0196.DEU",
+                        "TYPE": "celex"
+                    }},
+                    {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/uriserv/OJ.L_.2018.044.01.0001.01.DEU",
+                        "IDENTIFIER": "OJ.L_.2018.044.01.0001.01.DEU",
+                        "TYPE": "uriserv"
+                    }}
+                ],
+                "URI": {
+                    "VALUE": "http://publications.europa.eu/resource/cellar/fa9532bb-12e6-11e8-9253-01aa75ed71a1.0004",
+                    "IDENTIFIER": "fa9532bb-12e6-11e8-9253-01aa75ed71a1.0004",
+                    "TYPE": "cellar"
+                }
+            },
+            {
+                "SAMEAS": [
+                    {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/uriserv/OJ.L_.2018.044.01.0001.01.ITA",
+                        "IDENTIFIER": "OJ.L_.2018.044.01.0001.01.ITA",
+                        "TYPE": "uriserv"
+                    }},
+                    {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/celex/32018R0196.ITA",
+                        "IDENTIFIER": "32018R0196.ITA",
+                        "TYPE": "celex"
+                    }},
+                    {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/oj/JOL_2018_044_R_0001.ITA",
+                        "IDENTIFIER": "JOL_2018_044_R_0001.ITA",
+                        "TYPE": "oj"
+                    }}
+                ],
+                "URI": {
+                    "VALUE": "http://publications.europa.eu/resource/cellar/fa9532bb-12e6-11e8-9253-01aa75ed71a1.0013",
+                    "IDENTIFIER": "fa9532bb-12e6-11e8-9253-01aa75ed71a1.0013",
+                    "TYPE": "cellar"
+                }
+            },
+            {
+                "SAMEAS": [
+                    {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/oj/JOL_2018_044_R_0001.SLV",
+                        "IDENTIFIER": "JOL_2018_044_R_0001.SLV",
+                        "TYPE": "oj"
+                    }},
+                    {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/celex/32018R0196.SLV",
+                        "IDENTIFIER": "32018R0196.SLV",
+                        "TYPE": "celex"
+                    }},
+                    {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/uriserv/OJ.L_.2018.044.01.0001.01.SLV",
+                        "IDENTIFIER": "OJ.L_.2018.044.01.0001.01.SLV",
+                        "TYPE": "uriserv"
+                    }}
+                ],
+                "URI": {
+                    "VALUE": "http://publications.europa.eu/resource/cellar/fa9532bb-12e6-11e8-9253-01aa75ed71a1.0022",
+                    "IDENTIFIER": "fa9532bb-12e6-11e8-9253-01aa75ed71a1.0022",
+                    "TYPE": "cellar"
+                }
+            },
+            {
+                "SAMEAS": [
+                    {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/celex/32018R0196.ELL",
+                        "IDENTIFIER": "32018R0196.ELL",
+                        "TYPE": "celex"
+                    }},
+                    {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/oj/JOL_2018_044_R_0001.ELL",
+                        "IDENTIFIER": "JOL_2018_044_R_0001.ELL",
+                        "TYPE": "oj"
+                    }},
+                    {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/uriserv/OJ.L_.2018.044.01.0001.01.ELL",
+                        "IDENTIFIER": "OJ.L_.2018.044.01.0001.01.ELL",
+                        "TYPE": "uriserv"
+                    }}
+                ],
+                "URI": {
+                    "VALUE": "http://publications.europa.eu/resource/cellar/fa9532bb-12e6-11e8-9253-01aa75ed71a1.0005",
+                    "IDENTIFIER": "fa9532bb-12e6-11e8-9253-01aa75ed71a1.0005",
+                    "TYPE": "cellar"
+                }
+            },
+            {
+                "SAMEAS": [
+                    {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/uriserv/OJ.L_.2018.044.01.0001.01.POL",
+                        "IDENTIFIER": "OJ.L_.2018.044.01.0001.01.POL",
+                        "TYPE": "uriserv"
+                    }},
+                    {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/oj/JOL_2018_044_R_0001.POL",
+                        "IDENTIFIER": "JOL_2018_044_R_0001.POL",
+                        "TYPE": "oj"
+                    }},
+                    {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/celex/32018R0196.POL",
+                        "IDENTIFIER": "32018R0196.POL",
+                        "TYPE": "celex"
+                    }}
+                ],
+                "URI": {
+                    "VALUE": "http://publications.europa.eu/resource/cellar/fa9532bb-12e6-11e8-9253-01aa75ed71a1.0018",
+                    "IDENTIFIER": "fa9532bb-12e6-11e8-9253-01aa75ed71a1.0018",
+                    "TYPE": "cellar"
+                }
+            },
+            {
+                "SAMEAS": [
+                    {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/uriserv/OJ.L_.2018.044.01.0001.01.ENG",
+                        "IDENTIFIER": "OJ.L_.2018.044.01.0001.01.ENG",
+                        "TYPE": "uriserv"
+                    }},
+                    {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/oj/JOL_2018_044_R_0001.ENG",
+                        "IDENTIFIER": "JOL_2018_044_R_0001.ENG",
+                        "TYPE": "oj"
+                    }},
+                    {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/celex/32018R0196.ENG",
+                        "IDENTIFIER": "32018R0196.ENG",
+                        "TYPE": "celex"
+                    }}
+                ],
+                "URI": {
+                    "VALUE": "http://publications.europa.eu/resource/cellar/fa9532bb-12e6-11e8-9253-01aa75ed71a1.0012",
+                    "IDENTIFIER": "fa9532bb-12e6-11e8-9253-01aa75ed71a1.0012",
+                    "TYPE": "cellar"
+                }
+            }
+        ],
+        "DATE_CREATION_LEGACY": {
+            "MONTH": "02",
+            "YEAR": 2018,
+            "VALUE": "2018-02-16",
+            "type": "date",
+            "DAY": 16
+        },
+        "VERSION": {
+            "VALUE": 1.56,
+            "type": "data"
+        },
+        "RESOURCE_LEGAL_BASIS_FOR_ACT_CONSOLIDATED": {
+            "SAMEAS": {"URI": {
+                "VALUE": "http://publications.europa.eu/resource/consolidation/2018R0196%2F20180501_0010010",
+                "IDENTIFIER": "2018R0196/20180501_0010010",
+                "TYPE": "consolidation"
+            }},
+            "WORK": {
+                "WORK_HAS_RESOURCE-TYPE": {
+                    "OP-CODE": "CONS_TEXT",
+                    "PREFLABEL": "Consolidated text",
+                    "IDENTIFIER": "CONS_TEXT",
+                    "type": "concept",
+                    "URI": {
+                        "VALUE": "http://publications.europa.eu/resource/authority/resource-type/CONS_TEXT",
+                        "IDENTIFIER": "CONS_TEXT",
+                        "TYPE": "resource-type"
+                    }
+                },
+                "WORK_DATE_DOCUMENT": {
+                    "MONTH": "05",
+                    "YEAR": 2018,
+                    "VALUE": "2018-05-01",
+                    "type": "date",
+                    "DAY": "01"
+                },
+                "TYPE": [
+                    "cdm:act_consolidated",
+                    "cdm:work",
+                    "cdm:resource_legal"
+                ],
+                "EXPRESSION": {
+                    "EXPRESSION_TITLE": {
+                        "VALUE": "Regulation (EU) 2018/196 of the European Parliament and of the Council of 7 February 2018 on additional customs duties on imports of certain products originating in the United States of America (codification)",
+                        "type": "data"
+                    },
+                    "MANIFESTATION": [
+                        {
+                            "MANIFESTATION_TYPE": {
+                                "VALUE": "pdfa1a",
+                                "type": "data"
+                            },
+                            "manifestation-type": "pdfa1a"
+                        },
+                        {
+                            "MANIFESTATION_TYPE": {
+                                "VALUE": "fmx4",
+                                "type": "data"
+                            },
+                            "manifestation-type": "fmx4"
+                        }
+                    ],
+                    "EXPRESSION_USES_LANGUAGE": {
+                        "OP-CODE": "ENG",
+                        "PREFLABEL": "English",
+                        "ALTLABEL": "English",
+                        "IDENTIFIER": "ENG",
+                        "type": "concept",
+                        "URI": {
+                            "VALUE": "http://publications.europa.eu/resource/authority/language/ENG",
+                            "IDENTIFIER": "ENG",
+                            "TYPE": "language"
+                        }
+                    },
+                    "EXPRESSION_MANIFESTED_BY_MANIFESTATION": [
+                        {
+                            "SAMEAS": {"URI": {
+                                "VALUE": "http://publications.europa.eu/resource/consolidation/2018R0196%2F20180501_0010010.ENG.pdfa1a",
+                                "IDENTIFIER": "2018R0196/20180501_0010010.ENG.pdfa1a",
+                                "TYPE": "consolidation"
+                            }},
+                            "type": "embedded_link"
+                        },
+                        {
+                            "SAMEAS": {"URI": {
+                                "VALUE": "http://publications.europa.eu/resource/consolidation/2018R0196%2F20180501_0010010.ENG.fmx4",
+                                "IDENTIFIER": "2018R0196/20180501_0010010.ENG.fmx4",
+                                "TYPE": "consolidation"
+                            }},
+                            "type": "embedded_link"
+                        }
+                    ]
+                }
+            },
+            "type": "link",
+            "URI": {
+                "VALUE": "http://publications.europa.eu/resource/cellar/aabe4f55-31d1-4085-acf5-3c12b51fbf0e",
+                "IDENTIFIER": "aabe4f55-31d1-4085-acf5-3c12b51fbf0e",
+                "TYPE": "cellar"
+            }
+        },
+        "IDENTIFIER": [
+            {
+                "VALUE": "32018R0196",
+                "type": "data"
+            },
+            {
+                "VALUE": "oj:JOL_2018_044_R_0001",
+                "type": "data"
+            },
+            {
+                "VALUE": "http://data.europa.eu/eli/reg/2018/196/oj",
+                "type": "data"
+            }
+        ],
+        "WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+            "WORK_IS_ABOUT_CONCEPT_EUROVOC": [
+                {
+                    "PREFLABEL": "codification of EU law",
+                    "path": 1,
+                    "ALTLABEL": [
+                        "codification of Community law",
+                        "codification of European Union law"
+                    ],
+                    "level": 4,
+                    "IDENTIFIER": 5498,
+                    "type": "concept_hierarchy_concept",
+                    "URI": {
+                        "VALUE": "http://eurovoc.europa.eu/5498",
+                        "IDENTIFIER": 5498,
+                        "TYPE": "EUROVOC"
+                    }
+                },
+                {
+                    "PREFLABEL": "EU law",
+                    "path": 1,
+                    "ALTLABEL": [
+                        "European law",
+                        "European Union law",
+                        "Community regulations",
+                        "Community law"
+                    ],
+                    "level": 3,
+                    "IDENTIFIER": 525,
+                    "type": "concept_hierarchy_concept",
+                    "URI": {
+                        "VALUE": "http://eurovoc.europa.eu/525",
+                        "IDENTIFIER": 525,
+                        "TYPE": "EUROVOC"
+                    }
+                },
+                {
+                    "PREFLABEL": "10 EUROPEAN UNION",
+                    "path": 1,
+                    "level": 2,
+                    "IDENTIFIER": 10,
+                    "type": "concept_hierarchy_concept",
+                    "URI": {
+                        "VALUE": "http://eurovoc.europa.eu/100144",
+                        "IDENTIFIER": 100144,
+                        "TYPE": "EUROVOC"
+                    }
+                },
+                {
+                    "PREFLABEL": "1011 European Union law",
+                    "path": 1,
+                    "level": 1,
+                    "IDENTIFIER": 1011,
+                    "type": "concept_hierarchy_concept",
+                    "URI": {
+                        "VALUE": "http://eurovoc.europa.eu/100175",
+                        "IDENTIFIER": 100175,
+                        "TYPE": "EUROVOC"
+                    }
+                }
+            ],
+            "type": "concept_hierarchy"
+        },
+        "TYPE": [
+            {
+                "type": "type",
+                "content": "cdm:legislation_secondary"
+            },
+            {
+                "type": "type",
+                "content": "R"
+            },
+            {
+                "type": "type",
+                "content": "cdm:work"
+            },
+            {
+                "type": "type",
+                "content": "cdm:resource_legal"
+            }
+        ]
+    },
+    "type": "object",
+    "decoding": "eng"
+}}

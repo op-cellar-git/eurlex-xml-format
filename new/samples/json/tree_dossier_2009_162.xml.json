@@ -1,0 +1,2523 @@
+{"NOTICE": {
+    "DOSSIER": {
+        "DATE": {
+            "MONTH": 10,
+            "YEAR": 2009,
+            "VALUE": "2009-10-29",
+            "type": "date",
+            "DAY": 29
+        },
+        "SAMEAS": [
+            {"URI": {
+                "VALUE": "http://publications.europa.eu/resource/procedure/2009_162",
+                "IDENTIFIER": "2009_162",
+                "TYPE": "procedure"
+            }},
+            {"URI": {
+                "VALUE": "http://publications.europa.eu/resource/pegase/198759",
+                "IDENTIFIER": 198759,
+                "TYPE": "pegase"
+            }}
+        ],
+        "DOSSIER_TITLE": [
+            {
+                "VALUE": "Ehdotus: NEUVOSTON PÄÄTÖS makrotaloudellisen rahoitusavun myöntämisestä Ukrainalle",
+                "type": "data",
+                "LANG": {
+                    "type": "annotation",
+                    "content": "fi"
+                }
+            },
+            {
+                "VALUE": "Πρόταση ΑΠΟΦΑΣΗ ΤΟΥ ΣΥΜΒΟΥΛΙΟΥ για τη χορήγηση μακροοικονομικής χρηματοδοτικής συνδρομής στην Ουκρανία",
+                "type": "data",
+                "LANG": {
+                    "type": "annotation",
+                    "content": "el"
+                }
+            },
+            {
+                "VALUE": "Návrh ROZHODNUTÍ RADY o poskytnutí makrofinanční pomoci Ukrajině",
+                "type": "data",
+                "LANG": {
+                    "type": "annotation",
+                    "content": "cs"
+                }
+            },
+            {
+                "VALUE": "Vorschlag für einen BESCHLUSS DES RATES über eine Makrofinanzhilfe für die Ukraine",
+                "type": "data",
+                "LANG": {
+                    "type": "annotation",
+                    "content": "de"
+                }
+            }
+        ],
+        "DATE_CREATION_LEGACY": {
+            "MONTH": 10,
+            "YEAR": 2009,
+            "VALUE": "2009-10-29",
+            "type": "date",
+            "DAY": 29
+        },
+        "DOSSIER_INITIATED_BY_ACT_PREPARATORY": {
+            "SAMEAS": [
+                {"URI": {
+                    "VALUE": "http://publications.europa.eu/resource/celex/52009PC0580",
+                    "IDENTIFIER": "52009PC0580",
+                    "TYPE": "celex"
+                }},
+                {"URI": {
+                    "VALUE": "http://publications.europa.eu/resource/com/COM_2009_627",
+                    "IDENTIFIER": "COM_2009_627",
+                    "TYPE": "com"
+                }},
+                {"URI": {
+                    "VALUE": "http://publications.europa.eu/resource/comnat/COM_2009_0580_FIN",
+                    "IDENTIFIER": "COM_2009_0580_FIN",
+                    "TYPE": "comnat"
+                }}
+            ],
+            "WORK": {
+                "RESOURCE_LEGAL_ID_CELEX": {
+                    "VALUE": "52009PC0580",
+                    "type": "data"
+                },
+                "RESOURCE_LEGAL_YEAR": {
+                    "VALUE": 2009,
+                    "type": "data"
+                },
+                "ID_CELEX": {
+                    "VALUE": "52009PC0580",
+                    "type": "data"
+                },
+                "RESOURCE_LEGAL_TYPE": {
+                    "VALUE": "PC",
+                    "type": "data"
+                },
+                "RESOURCE_LEGAL_NUMBER_NATURAL_CELEX": {
+                    "VALUE": "0580",
+                    "type": "data"
+                },
+                "WORK_HAS_RESOURCE-TYPE": {
+                    "OP-CODE": "PROP_DEC_NO_ADDRESSEE",
+                    "PREFLABEL": "Proposal for a decision without addressee",
+                    "IDENTIFIER": "PROP_DEC_NO_ADDRESSEE",
+                    "type": "concept",
+                    "URI": {
+                        "VALUE": "http://publications.europa.eu/resource/authority/resource-type/PROP_DEC_NO_ADDRESSEE",
+                        "IDENTIFIER": "PROP_DEC_NO_ADDRESSEE",
+                        "TYPE": "resource-type"
+                    }
+                },
+                "WORK_IS_ABOUT_CONCEPT_EUROVOC": [
+                    {
+                        "WORK_IS_ABOUT_CONCEPT_EUROVOC": [
+                            {
+                                "PREFLABEL": "EU aid",
+                                "path": 1,
+                                "ALTLABEL": [
+                                    "aid from the European Union",
+                                    "Community aid",
+                                    "aid from the EU",
+                                    "Community support",
+                                    "European Union aid"
+                                ],
+                                "level": 4,
+                                "IDENTIFIER": 862,
+                                "type": "concept_hierarchy_concept",
+                                "URI": {
+                                    "VALUE": "http://eurovoc.europa.eu/862",
+                                    "IDENTIFIER": 862,
+                                    "TYPE": "EUROVOC"
+                                }
+                            },
+                            {
+                                "PREFLABEL": "economic support",
+                                "path": 1,
+                                "ALTLABEL": [
+                                    "granting of aid",
+                                    "subvention",
+                                    "aid"
+                                ],
+                                "level": 3,
+                                "IDENTIFIER": 712,
+                                "type": "concept_hierarchy_concept",
+                                "URI": {
+                                    "VALUE": "http://eurovoc.europa.eu/712",
+                                    "IDENTIFIER": 712,
+                                    "TYPE": "EUROVOC"
+                                }
+                            },
+                            {
+                                "PREFLABEL": "16 ECONOMICS",
+                                "path": 1,
+                                "level": 2,
+                                "IDENTIFIER": 16,
+                                "type": "concept_hierarchy_concept",
+                                "URI": {
+                                    "VALUE": "http://eurovoc.europa.eu/100146",
+                                    "IDENTIFIER": 100146,
+                                    "TYPE": "EUROVOC"
+                                }
+                            },
+                            {
+                                "PREFLABEL": "1606 economic policy",
+                                "path": 1,
+                                "level": 1,
+                                "IDENTIFIER": 1606,
+                                "type": "concept_hierarchy_concept",
+                                "URI": {
+                                    "VALUE": "http://eurovoc.europa.eu/100185",
+                                    "IDENTIFIER": 100185,
+                                    "TYPE": "EUROVOC"
+                                }
+                            }
+                        ],
+                        "type": "concept_hierarchy"
+                    },
+                    {
+                        "WORK_IS_ABOUT_CONCEPT_EUROVOC": [
+                            {
+                                "PREFLABEL": "EU aid",
+                                "path": 1,
+                                "ALTLABEL": [
+                                    "aid from the European Union",
+                                    "Community aid",
+                                    "aid from the EU",
+                                    "Community support",
+                                    "European Union aid"
+                                ],
+                                "level": 4,
+                                "IDENTIFIER": 862,
+                                "type": "concept_hierarchy_concept",
+                                "URI": {
+                                    "VALUE": "http://eurovoc.europa.eu/862",
+                                    "IDENTIFIER": 862,
+                                    "TYPE": "EUROVOC"
+                                }
+                            },
+                            {
+                                "PREFLABEL": "economic support",
+                                "path": 1,
+                                "ALTLABEL": [
+                                    "granting of aid",
+                                    "subvention",
+                                    "aid"
+                                ],
+                                "level": 3,
+                                "IDENTIFIER": 712,
+                                "type": "concept_hierarchy_concept",
+                                "URI": {
+                                    "VALUE": "http://eurovoc.europa.eu/712",
+                                    "IDENTIFIER": 712,
+                                    "TYPE": "EUROVOC"
+                                }
+                            },
+                            {
+                                "PREFLABEL": "16 ECONOMICS",
+                                "path": 1,
+                                "level": 2,
+                                "IDENTIFIER": 16,
+                                "type": "concept_hierarchy_concept",
+                                "URI": {
+                                    "VALUE": "http://eurovoc.europa.eu/100146",
+                                    "IDENTIFIER": 100146,
+                                    "TYPE": "EUROVOC"
+                                }
+                            },
+                            {
+                                "PREFLABEL": "1606 economic policy",
+                                "path": 1,
+                                "level": 1,
+                                "IDENTIFIER": 1606,
+                                "type": "concept_hierarchy_concept",
+                                "URI": {
+                                    "VALUE": "http://eurovoc.europa.eu/100185",
+                                    "IDENTIFIER": 100185,
+                                    "TYPE": "EUROVOC"
+                                }
+                            }
+                        ],
+                        "type": "concept_hierarchy"
+                    },
+                    {
+                        "WORK_IS_ABOUT_CONCEPT_EUROVOC": [
+                            {
+                                "PREFLABEL": "EU aid",
+                                "path": 1,
+                                "ALTLABEL": [
+                                    "aid from the European Union",
+                                    "Community aid",
+                                    "aid from the EU",
+                                    "Community support",
+                                    "European Union aid"
+                                ],
+                                "level": 4,
+                                "IDENTIFIER": 862,
+                                "type": "concept_hierarchy_concept",
+                                "URI": {
+                                    "VALUE": "http://eurovoc.europa.eu/862",
+                                    "IDENTIFIER": 862,
+                                    "TYPE": "EUROVOC"
+                                }
+                            },
+                            {
+                                "PREFLABEL": "economic support",
+                                "path": 1,
+                                "ALTLABEL": [
+                                    "granting of aid",
+                                    "subvention",
+                                    "aid"
+                                ],
+                                "level": 3,
+                                "IDENTIFIER": 712,
+                                "type": "concept_hierarchy_concept",
+                                "URI": {
+                                    "VALUE": "http://eurovoc.europa.eu/712",
+                                    "IDENTIFIER": 712,
+                                    "TYPE": "EUROVOC"
+                                }
+                            },
+                            {
+                                "PREFLABEL": "16 ECONOMICS",
+                                "path": 1,
+                                "level": 2,
+                                "IDENTIFIER": 16,
+                                "type": "concept_hierarchy_concept",
+                                "URI": {
+                                    "VALUE": "http://eurovoc.europa.eu/100146",
+                                    "IDENTIFIER": 100146,
+                                    "TYPE": "EUROVOC"
+                                }
+                            },
+                            {
+                                "PREFLABEL": "1606 economic policy",
+                                "path": 1,
+                                "level": 1,
+                                "IDENTIFIER": 1606,
+                                "type": "concept_hierarchy_concept",
+                                "URI": {
+                                    "VALUE": "http://eurovoc.europa.eu/100185",
+                                    "IDENTIFIER": 100185,
+                                    "TYPE": "EUROVOC"
+                                }
+                            }
+                        ],
+                        "type": "concept_hierarchy"
+                    }
+                ],
+                "WORK_DATE_DOCUMENT": {
+                    "MONTH": 10,
+                    "YEAR": 2009,
+                    "VALUE": "2009-10-29",
+                    "type": "date",
+                    "DAY": 29
+                },
+                "ID_SECTOR": {
+                    "VALUE": 5,
+                    "type": "data"
+                },
+                "TYPE": [
+                    "cdm:proposal_act",
+                    "cdm:act_preparatory",
+                    "cdm:proposal_other",
+                    "cdm:resource_legal",
+                    "cdm:work"
+                ],
+                "EXPRESSION": {
+                    "EXPRESSION_TITLE": {
+                        "VALUE": "Proposal for a Council Decision providing macro-financial assistance to Ukraine (SEC(2009)1428)",
+                        "type": "data"
+                    },
+                    "MANIFESTATION": [
+                        {"manifestation-type": "doc"},
+                        {"manifestation-type": "html"},
+                        {"manifestation-type": "pdf"}
+                    ],
+                    "EXPRESSION_MANIFESTED_BY_MANIFESTATION": [
+                        {
+                            "SAMEAS": {"URI": {
+                                "VALUE": "http://publications.europa.eu/resource/com/COM_2009_627.ENG.html",
+                                "IDENTIFIER": "COM_2009_627.ENG.html",
+                                "TYPE": "com"
+                            }},
+                            "type": "embedded_link"
+                        },
+                        {
+                            "SAMEAS": {"URI": {
+                                "VALUE": "http://publications.europa.eu/resource/com/COM_2009_627.ENG.doc",
+                                "IDENTIFIER": "COM_2009_627.ENG.doc",
+                                "TYPE": "com"
+                            }},
+                            "type": "embedded_link"
+                        },
+                        {
+                            "SAMEAS": {"URI": {
+                                "VALUE": "http://publications.europa.eu/resource/com/COM_2009_627.ENG.pdf",
+                                "IDENTIFIER": "COM_2009_627.ENG.pdf",
+                                "TYPE": "com"
+                            }},
+                            "type": "embedded_link"
+                        }
+                    ],
+                    "EXPRESSION_USES_LANGUAGE": {
+                        "OP-CODE": "ENG",
+                        "PREFLABEL": "English",
+                        "ALTLABEL": "English",
+                        "IDENTIFIER": "ENG",
+                        "type": "concept",
+                        "URI": {
+                            "VALUE": "http://publications.europa.eu/resource/authority/language/ENG",
+                            "IDENTIFIER": "ENG",
+                            "TYPE": "language"
+                        }
+                    }
+                }
+            },
+            "type": "link",
+            "URI": {
+                "VALUE": "http://publications.europa.eu/resource/cellar/3c99bb05-fb16-4686-98a0-05abc79ef58b",
+                "IDENTIFIER": "3c99bb05-fb16-4686-98a0-05abc79ef58b",
+                "TYPE": "cellar"
+            }
+        },
+        "TITLE": [
+            {
+                "VALUE": "Proposal for a COUNCIL DECISION providing macro-financial assistance to Ukraine",
+                "type": "data"
+            },
+            {
+                "VALUE": "Förslag till RÅDETS BESLUT om makroekonomiskt stöd till Ukraina",
+                "type": "data",
+                "LANG": {
+                    "type": "annotation",
+                    "content": "sv"
+                }
+            },
+            {
+                "VALUE": "Proposta di DECISIONE DEL CONSIGLIO relativa alla concessione di assistenza macrofinanziaria a favore dell\u2019Ucraina",
+                "type": "data",
+                "LANG": {
+                    "type": "annotation",
+                    "content": "it"
+                }
+            }
+        ],
+        "BASIS_LEGAL": {
+            "VALUE": "TFUE/art 212",
+            "type": "data"
+        },
+        "CONTAINS": [
+            {
+                "SAMEAS": [
+                    {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/eli/dec/2010/388/oj",
+                        "IDENTIFIER": "dec:2010:388:oj",
+                        "TYPE": "eli"
+                    }},
+                    {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/oj/JOL_2010_179_R_0001_01",
+                        "IDENTIFIER": "JOL_2010_179_R_0001_01",
+                        "TYPE": "oj"
+                    }},
+                    {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/celex/32010D0388",
+                        "IDENTIFIER": "32010D0388",
+                        "TYPE": "celex"
+                    }}
+                ],
+                "type": "link",
+                "URI": {
+                    "VALUE": "http://publications.europa.eu/resource/cellar/3055b8ca-9faf-47ad-837b-d16508381c7a",
+                    "IDENTIFIER": "3055b8ca-9faf-47ad-837b-d16508381c7a",
+                    "TYPE": "cellar"
+                }
+            },
+            {
+                "SAMEAS": [
+                    {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/comnat/COM_2009_0665_FIN",
+                        "IDENTIFIER": "COM_2009_0665_FIN",
+                        "TYPE": "comnat"
+                    }},
+                    {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/com/COM_2009_704",
+                        "IDENTIFIER": "COM_2009_704",
+                        "TYPE": "com"
+                    }},
+                    {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/celex/52009DC0665",
+                        "IDENTIFIER": "52009DC0665",
+                        "TYPE": "celex"
+                    }}
+                ],
+                "type": "link",
+                "URI": {
+                    "VALUE": "http://publications.europa.eu/resource/cellar/bb26d801-2972-4ae6-b504-159451553692",
+                    "IDENTIFIER": "bb26d801-2972-4ae6-b504-159451553692",
+                    "TYPE": "cellar"
+                }
+            },
+            {
+                "SAMEAS": [
+                    {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/celex/52009PC0580",
+                        "IDENTIFIER": "52009PC0580",
+                        "TYPE": "celex"
+                    }},
+                    {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/com/COM_2009_627",
+                        "IDENTIFIER": "COM_2009_627",
+                        "TYPE": "com"
+                    }},
+                    {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/comnat/COM_2009_0580_FIN",
+                        "IDENTIFIER": "COM_2009_0580_FIN",
+                        "TYPE": "comnat"
+                    }}
+                ],
+                "type": "link",
+                "URI": {
+                    "VALUE": "http://publications.europa.eu/resource/cellar/3c99bb05-fb16-4686-98a0-05abc79ef58b",
+                    "IDENTIFIER": "3c99bb05-fb16-4686-98a0-05abc79ef58b",
+                    "TYPE": "cellar"
+                }
+            },
+            {
+                "SAMEAS": [
+                    {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/celex/52009SC1428",
+                        "IDENTIFIER": "52009SC1428",
+                        "TYPE": "celex"
+                    }},
+                    {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/swd/SEC_2009_1428",
+                        "IDENTIFIER": "SEC_2009_1428",
+                        "TYPE": "swd"
+                    }},
+                    {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/comnat/SEC_2009_1428_FIN",
+                        "IDENTIFIER": "SEC_2009_1428_FIN",
+                        "TYPE": "comnat"
+                    }}
+                ],
+                "type": "link",
+                "URI": {
+                    "VALUE": "http://publications.europa.eu/resource/cellar/40163816-9591-4460-b69d-b96c2c8330fa",
+                    "IDENTIFIER": "40163816-9591-4460-b69d-b96c2c8330fa",
+                    "TYPE": "cellar"
+                }
+            },
+            {
+                "SAMEAS": [
+                    {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/oj/JOC_2011_161_E_0256_01",
+                        "IDENTIFIER": "JOC_2011_161_E_0256_01",
+                        "TYPE": "oj"
+                    }},
+                    {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/celex/52010AP0169",
+                        "IDENTIFIER": "52010AP0169",
+                        "TYPE": "celex"
+                    }}
+                ],
+                "type": "link",
+                "URI": {
+                    "VALUE": "http://publications.europa.eu/resource/cellar/f7f3366d-1e3b-4101-a675-125848917580",
+                    "IDENTIFIER": "f7f3366d-1e3b-4101-a675-125848917580",
+                    "TYPE": "cellar"
+                }
+            },
+            {
+                "SAMEAS": [
+                    {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/celex/52010DC0147",
+                        "IDENTIFIER": "52010DC0147",
+                        "TYPE": "celex"
+                    }},
+                    {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/comnat/COM_2010_0147_FIN",
+                        "IDENTIFIER": "COM_2010_0147_FIN",
+                        "TYPE": "comnat"
+                    }},
+                    {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/com/COM_2010_165",
+                        "IDENTIFIER": "COM_2010_165",
+                        "TYPE": "com"
+                    }}
+                ],
+                "type": "link",
+                "URI": {
+                    "VALUE": "http://publications.europa.eu/resource/cellar/b46af963-46f5-42aa-b8ab-3e5c800b3856",
+                    "IDENTIFIER": "b46af963-46f5-42aa-b8ab-3e5c800b3856",
+                    "TYPE": "cellar"
+                }
+            },
+            {
+                "SAMEAS": {"URI": {
+                    "VALUE": "http://publications.europa.eu/resource/oj/JOC_2011_026_R_0015_01",
+                    "IDENTIFIER": "JOC_2011_026_R_0015_01",
+                    "TYPE": "oj"
+                }},
+                "type": "link"
+            }
+        ],
+        "DOSSIER_PENDING-PROPOSAL": {
+            "VALUE": false,
+            "type": "data"
+        },
+        "URI": {
+            "VALUE": "http://publications.europa.eu/resource/cellar/7980e781-d354-11e1-905c-01aa75ed71a1",
+            "IDENTIFIER": "7980e781-d354-11e1-905c-01aa75ed71a1",
+            "TYPE": "cellar"
+        },
+        "TYPE": [
+            {
+                "type": "type",
+                "content": "cdm:entity_temporal"
+            },
+            {
+                "type": "type",
+                "content": "cdm:period"
+            },
+            {
+                "type": "type",
+                "content": "cdm:procedure_code_interinstitutional"
+            },
+            {
+                "type": "type",
+                "content": "cdm:dossier"
+            }
+        ],
+        "EVENT": [
+            {
+                "SAMEAS": {"URI": {
+                    "VALUE": "http://publications.europa.eu/resource/pegase/198759.406028",
+                    "IDENTIFIER": 198759.406028,
+                    "TYPE": "pegase"
+                }},
+                "CREATIONDATE": {
+                    "MONTH": "01",
+                    "YEAR": 1001,
+                    "VALUE": "1001-01-01T00:00:00.000+00:00",
+                    "type": "date",
+                    "DAY": "01"
+                },
+                "EVENT_LEGAL_SESSION_COUNCIL": {
+                    "VALUE": 3025,
+                    "type": "data"
+                },
+                "EVENT_LEGAL_INITIATED_BY_INSTITUTION": {
+                    "OP-CODE": "CONSIL",
+                    "PREFLABEL": "Council of the European Union",
+                    "ALTLABEL": [
+                        "Council",
+                        "Council of the European Communities"
+                    ],
+                    "IDENTIFIER": "CONSIL",
+                    "type": "concept",
+                    "URI": {
+                        "VALUE": "http://publications.europa.eu/resource/authority/corporate-body/CONSIL",
+                        "IDENTIFIER": "CONSIL",
+                        "TYPE": "corporate-body"
+                    }
+                },
+                "EVENT_LEGAL_PART_OF_DOSSIER": {
+                    "SAMEAS": [
+                        {"URI": {
+                            "VALUE": "http://publications.europa.eu/resource/procedure/2009_162",
+                            "IDENTIFIER": "2009_162",
+                            "TYPE": "procedure"
+                        }},
+                        {"URI": {
+                            "VALUE": "http://publications.europa.eu/resource/pegase/198759",
+                            "IDENTIFIER": 198759,
+                            "TYPE": "pegase"
+                        }}
+                    ],
+                    "type": "link",
+                    "URI": {
+                        "VALUE": "http://publications.europa.eu/resource/cellar/7980e781-d354-11e1-905c-01aa75ed71a1",
+                        "IDENTIFIER": "7980e781-d354-11e1-905c-01aa75ed71a1",
+                        "TYPE": "cellar"
+                    }
+                },
+                "EVENT_LEGAL_DATE": {
+                    "MONTH": "06",
+                    "YEAR": 2010,
+                    "VALUE": "2010-06-29",
+                    "type": "date",
+                    "DAY": 29
+                },
+                "URI": {
+                    "VALUE": "http://publications.europa.eu/resource/cellar/7980e781-d354-11e1-905c-01aa75ed71a1.0009",
+                    "IDENTIFIER": "7980e781-d354-11e1-905c-01aa75ed71a1.0009",
+                    "TYPE": "cellar"
+                },
+                "DATE": {
+                    "MONTH": "06",
+                    "YEAR": 2010,
+                    "VALUE": "2010-06-29",
+                    "type": "date",
+                    "DAY": 29
+                },
+                "ON_AGENDA": {
+                    "OP-CODE": 10004,
+                    "PREFLABEL": "ITEM \"A\" ON COUNCIL AGENDA",
+                    "ALTLABEL": "POINT \"A\" ON COUNCIL AGENDA",
+                    "IDENTIFIER": 10004,
+                    "type": "concept",
+                    "URI": {
+                        "VALUE": "http://publications.europa.eu/resource/authority/fd_600/10004",
+                        "IDENTIFIER": 10004,
+                        "TYPE": "fd_600"
+                    }
+                },
+                "IS_ABOUT": {
+                    "OP-CODE": 102949,
+                    "PREFLABEL": "AGRICULTURE/FISHERIES",
+                    "ALTLABEL": "AGRICULTURE/FISHERIES",
+                    "IDENTIFIER": 102949,
+                    "type": "concept",
+                    "URI": {
+                        "VALUE": "http://publications.europa.eu/resource/authority/fd_600/102949",
+                        "IDENTIFIER": 102949,
+                        "TYPE": "fd_600"
+                    }
+                },
+                "EVENT_LEGAL_ON_AGENDA_CONCEPT_AGENDA_COUNCIL": {
+                    "OP-CODE": 10004,
+                    "PREFLABEL": "ITEM \"A\" ON COUNCIL AGENDA",
+                    "ALTLABEL": "POINT \"A\" ON COUNCIL AGENDA",
+                    "IDENTIFIER": 10004,
+                    "type": "concept",
+                    "URI": {
+                        "VALUE": "http://publications.europa.eu/resource/authority/fd_600/10004",
+                        "IDENTIFIER": 10004,
+                        "TYPE": "fd_600"
+                    }
+                },
+                "EVENT_LEGAL_DOCUMENT_REFERENCE": [
+                    {
+                        "VALUE": "PRES/2010/192",
+                        "type": "data"
+                    },
+                    {
+                        "VALUE": "CS/2010/11377",
+                        "type": "data"
+                    }
+                ],
+                "LASTMODIFICATIONDATE": {
+                    "MONTH": "03",
+                    "YEAR": 2014,
+                    "VALUE": "2014-03-14T14:53:11.359+01:00",
+                    "type": "date",
+                    "DAY": 14
+                },
+                "EVENT_LEGAL_IS_ABOUT_CONCEPT_AGENDA_COUNCIL": {
+                    "OP-CODE": 102949,
+                    "PREFLABEL": "AGRICULTURE/FISHERIES",
+                    "ALTLABEL": "AGRICULTURE/FISHERIES",
+                    "IDENTIFIER": 102949,
+                    "type": "concept",
+                    "URI": {
+                        "VALUE": "http://publications.europa.eu/resource/authority/fd_600/102949",
+                        "IDENTIFIER": 102949,
+                        "TYPE": "fd_600"
+                    }
+                },
+                "EVENT_LEGAL_HAS_TYPE_CONCEPT_TYPE_EVENT_LEGAL": {
+                    "OP-CODE": "APR_R1_byCONSIL",
+                    "PREFLABEL": "Approval by the Council of the EP position at 1st reading",
+                    "ALTLABEL": "Council approval 1st rdg",
+                    "IDENTIFIER": "APR_R1_byCONSIL",
+                    "type": "concept",
+                    "URI": {
+                        "VALUE": "http://publications.europa.eu/resource/authority/event/APR_R1_byCONSIL",
+                        "IDENTIFIER": "APR_R1_byCONSIL",
+                        "TYPE": "event"
+                    }
+                },
+                "TYPE": {
+                    "type": "type",
+                    "content": "Approbation du Conseil en 1ère  lecture"
+                }
+            },
+            {
+                "SAMEAS": {"URI": {
+                    "VALUE": "http://publications.europa.eu/resource/pegase/198759.405164",
+                    "IDENTIFIER": 198759.405164,
+                    "TYPE": "pegase"
+                }},
+                "CREATIONDATE": {
+                    "MONTH": "01",
+                    "YEAR": 1001,
+                    "VALUE": "1001-01-01T00:00:00.000+00:00",
+                    "type": "date",
+                    "DAY": "01"
+                },
+                "EVENT_LEGAL_INITIATED_BY_INSTITUTION": {
+                    "OP-CODE": "EP",
+                    "PREFLABEL": "European Parliament",
+                    "ALTLABEL": [
+                        "Common Assembly of the European Coal and Steel Community",
+                        "Common Assembly",
+                        "European Parliamentary Assembly",
+                        "EP"
+                    ],
+                    "IDENTIFIER": "EP",
+                    "type": "concept",
+                    "URI": {
+                        "VALUE": "http://publications.europa.eu/resource/authority/corporate-body/EP",
+                        "IDENTIFIER": "EP",
+                        "TYPE": "corporate-body"
+                    }
+                },
+                "EVENT_LEGAL_PART_OF_DOSSIER": {
+                    "SAMEAS": [
+                        {"URI": {
+                            "VALUE": "http://publications.europa.eu/resource/procedure/2009_162",
+                            "IDENTIFIER": "2009_162",
+                            "TYPE": "procedure"
+                        }},
+                        {"URI": {
+                            "VALUE": "http://publications.europa.eu/resource/pegase/198759",
+                            "IDENTIFIER": 198759,
+                            "TYPE": "pegase"
+                        }}
+                    ],
+                    "type": "link",
+                    "URI": {
+                        "VALUE": "http://publications.europa.eu/resource/cellar/7980e781-d354-11e1-905c-01aa75ed71a1",
+                        "IDENTIFIER": "7980e781-d354-11e1-905c-01aa75ed71a1",
+                        "TYPE": "cellar"
+                    }
+                },
+                "EVENT_LEGAL_REPORTED_BY_PERSON": {
+                    "SAMEAS": {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/agent/Vital%20MOREIRA",
+                        "IDENTIFIER": "Vital MOREIRA",
+                        "TYPE": "agent"
+                    }},
+                    "type": "link",
+                    "URI": {
+                        "VALUE": "http://publications.europa.eu/resource/cellar/33ec0e1f-d29a-11e1-905c-01aa75ed71a1",
+                        "IDENTIFIER": "33ec0e1f-d29a-11e1-905c-01aa75ed71a1",
+                        "TYPE": "cellar"
+                    }
+                },
+                "EVENT_LEGAL_USES_CONCEPT_TYPE_DECISION": {
+                    "OP-CODE": 1010,
+                    "PREFLABEL": "Approval with amendments",
+                    "ALTLABEL": "Approval with amendments",
+                    "IDENTIFIER": 1010,
+                    "type": "concept",
+                    "URI": {
+                        "VALUE": "http://publications.europa.eu/resource/authority/fd_602/1010",
+                        "IDENTIFIER": 1010,
+                        "TYPE": "fd_602"
+                    }
+                },
+                "EVENT_REPORTED_BY_PERSON": {
+                    "SAMEAS": {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/agent/Vital%20MOREIRA",
+                        "IDENTIFIER": "Vital MOREIRA",
+                        "TYPE": "agent"
+                    }},
+                    "type": "link",
+                    "URI": {
+                        "VALUE": "http://publications.europa.eu/resource/cellar/33ec0e1f-d29a-11e1-905c-01aa75ed71a1",
+                        "IDENTIFIER": "33ec0e1f-d29a-11e1-905c-01aa75ed71a1",
+                        "TYPE": "cellar"
+                    }
+                },
+                "EVENT_LEGAL_DATE": {
+                    "MONTH": "05",
+                    "YEAR": 2010,
+                    "VALUE": "2010-05-18",
+                    "type": "date",
+                    "DAY": 18
+                },
+                "REPORTED_BY": {
+                    "SAMEAS": {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/agent/Vital%20MOREIRA",
+                        "IDENTIFIER": "Vital MOREIRA",
+                        "TYPE": "agent"
+                    }},
+                    "type": "link",
+                    "URI": {
+                        "VALUE": "http://publications.europa.eu/resource/cellar/33ec0e1f-d29a-11e1-905c-01aa75ed71a1",
+                        "IDENTIFIER": "33ec0e1f-d29a-11e1-905c-01aa75ed71a1",
+                        "TYPE": "cellar"
+                    }
+                },
+                "CONTAINS": {
+                    "SAMEAS": [
+                        {"URI": {
+                            "VALUE": "http://publications.europa.eu/resource/oj/JOC_2011_161_E_0256_01",
+                            "IDENTIFIER": "JOC_2011_161_E_0256_01",
+                            "TYPE": "oj"
+                        }},
+                        {"URI": {
+                            "VALUE": "http://publications.europa.eu/resource/celex/52010AP0169",
+                            "IDENTIFIER": "52010AP0169",
+                            "TYPE": "celex"
+                        }}
+                    ],
+                    "type": "link",
+                    "URI": {
+                        "VALUE": "http://publications.europa.eu/resource/cellar/f7f3366d-1e3b-4101-a675-125848917580",
+                        "IDENTIFIER": "f7f3366d-1e3b-4101-a675-125848917580",
+                        "TYPE": "cellar"
+                    }
+                },
+                "URI": {
+                    "VALUE": "http://publications.europa.eu/resource/cellar/7980e781-d354-11e1-905c-01aa75ed71a1.0008",
+                    "IDENTIFIER": "7980e781-d354-11e1-905c-01aa75ed71a1.0008",
+                    "TYPE": "cellar"
+                },
+                "EVENT_LEGAL_CONTAINS_WORK": {
+                    "SAMEAS": [
+                        {"URI": {
+                            "VALUE": "http://publications.europa.eu/resource/oj/JOC_2011_161_E_0256_01",
+                            "IDENTIFIER": "JOC_2011_161_E_0256_01",
+                            "TYPE": "oj"
+                        }},
+                        {"URI": {
+                            "VALUE": "http://publications.europa.eu/resource/celex/52010AP0169",
+                            "IDENTIFIER": "52010AP0169",
+                            "TYPE": "celex"
+                        }}
+                    ],
+                    "WORK": {
+                        "RESOURCE_LEGAL_ID_CELEX": {
+                            "VALUE": "52010AP0169",
+                            "type": "data"
+                        },
+                        "ID_CELEX": {
+                            "VALUE": "52010AP0169",
+                            "type": "data"
+                        },
+                        "RESOURCE_LEGAL_YEAR": {
+                            "VALUE": 2010,
+                            "type": "data"
+                        },
+                        "RESOURCE_LEGAL_TYPE": {
+                            "VALUE": "AP",
+                            "type": "data"
+                        },
+                        "RESOURCE_LEGAL_NUMBER_NATURAL_CELEX": {
+                            "VALUE": "0169",
+                            "type": "data"
+                        },
+                        "ID_SECTOR": {
+                            "VALUE": 5,
+                            "type": "data"
+                        },
+                        "WORK_IS_ABOUT_CONCEPT_EUROVOC": [
+                            {
+                                "WORK_IS_ABOUT_CONCEPT_EUROVOC": [
+                                    {
+                                        "PREFLABEL": "EU aid",
+                                        "path": 1,
+                                        "ALTLABEL": [
+                                            "aid from the European Union",
+                                            "Community aid",
+                                            "aid from the EU",
+                                            "Community support",
+                                            "European Union aid"
+                                        ],
+                                        "level": 4,
+                                        "IDENTIFIER": 862,
+                                        "type": "concept_hierarchy_concept",
+                                        "URI": {
+                                            "VALUE": "http://eurovoc.europa.eu/862",
+                                            "IDENTIFIER": 862,
+                                            "TYPE": "EUROVOC"
+                                        }
+                                    },
+                                    {
+                                        "PREFLABEL": "economic support",
+                                        "path": 1,
+                                        "ALTLABEL": [
+                                            "granting of aid",
+                                            "subvention",
+                                            "aid"
+                                        ],
+                                        "level": 3,
+                                        "IDENTIFIER": 712,
+                                        "type": "concept_hierarchy_concept",
+                                        "URI": {
+                                            "VALUE": "http://eurovoc.europa.eu/712",
+                                            "IDENTIFIER": 712,
+                                            "TYPE": "EUROVOC"
+                                        }
+                                    },
+                                    {
+                                        "PREFLABEL": "16 ECONOMICS",
+                                        "path": 1,
+                                        "level": 2,
+                                        "IDENTIFIER": 16,
+                                        "type": "concept_hierarchy_concept",
+                                        "URI": {
+                                            "VALUE": "http://eurovoc.europa.eu/100146",
+                                            "IDENTIFIER": 100146,
+                                            "TYPE": "EUROVOC"
+                                        }
+                                    },
+                                    {
+                                        "PREFLABEL": "1606 economic policy",
+                                        "path": 1,
+                                        "level": 1,
+                                        "IDENTIFIER": 1606,
+                                        "type": "concept_hierarchy_concept",
+                                        "URI": {
+                                            "VALUE": "http://eurovoc.europa.eu/100185",
+                                            "IDENTIFIER": 100185,
+                                            "TYPE": "EUROVOC"
+                                        }
+                                    }
+                                ],
+                                "type": "concept_hierarchy"
+                            },
+                            {
+                                "WORK_IS_ABOUT_CONCEPT_EUROVOC": [
+                                    {
+                                        "PREFLABEL": "EU aid",
+                                        "path": 1,
+                                        "ALTLABEL": [
+                                            "aid from the European Union",
+                                            "Community aid",
+                                            "aid from the EU",
+                                            "Community support",
+                                            "European Union aid"
+                                        ],
+                                        "level": 4,
+                                        "IDENTIFIER": 862,
+                                        "type": "concept_hierarchy_concept",
+                                        "URI": {
+                                            "VALUE": "http://eurovoc.europa.eu/862",
+                                            "IDENTIFIER": 862,
+                                            "TYPE": "EUROVOC"
+                                        }
+                                    },
+                                    {
+                                        "PREFLABEL": "economic support",
+                                        "path": 1,
+                                        "ALTLABEL": [
+                                            "granting of aid",
+                                            "subvention",
+                                            "aid"
+                                        ],
+                                        "level": 3,
+                                        "IDENTIFIER": 712,
+                                        "type": "concept_hierarchy_concept",
+                                        "URI": {
+                                            "VALUE": "http://eurovoc.europa.eu/712",
+                                            "IDENTIFIER": 712,
+                                            "TYPE": "EUROVOC"
+                                        }
+                                    },
+                                    {
+                                        "PREFLABEL": "16 ECONOMICS",
+                                        "path": 1,
+                                        "level": 2,
+                                        "IDENTIFIER": 16,
+                                        "type": "concept_hierarchy_concept",
+                                        "URI": {
+                                            "VALUE": "http://eurovoc.europa.eu/100146",
+                                            "IDENTIFIER": 100146,
+                                            "TYPE": "EUROVOC"
+                                        }
+                                    },
+                                    {
+                                        "PREFLABEL": "1606 economic policy",
+                                        "path": 1,
+                                        "level": 1,
+                                        "IDENTIFIER": 1606,
+                                        "type": "concept_hierarchy_concept",
+                                        "URI": {
+                                            "VALUE": "http://eurovoc.europa.eu/100185",
+                                            "IDENTIFIER": 100185,
+                                            "TYPE": "EUROVOC"
+                                        }
+                                    }
+                                ],
+                                "type": "concept_hierarchy"
+                            }
+                        ],
+                        "WORK_DATE_DOCUMENT": {
+                            "COMMENT_ON_DATE": {
+                                "type": "annotation",
+                                "content": "{DATVOT|http://publications.europa.eu/resource/authority/fd_365/DATVOT}"
+                            },
+                            "BUILD_INFO": {
+                                "type": "annotation",
+                                "content": "cdm:CDM_2.1.7  tdm:1523  xslt:3945 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:1.1.9 builddate:12/01/2014 14:00:09"
+                            },
+                            "MONTH": "05",
+                            "YEAR": 2011,
+                            "VALUE": "2011-05-18",
+                            "type": "date",
+                            "DAY": 18
+                        },
+                        "EXPRESSION": {
+                            "EXPRESSION_TITLE": {
+                                "VALUE": "Macro-financial assistance for Ukraine ***I European Parliament legislative resolution of 18 May 2010 on the proposal for a decision of the European Parliament and of the Council providing macro-financial assistance to Ukraine (COM(2009)0580 \u2013 C7-0277/2009 \u2013 2009/0162(COD))#P7_TC1-COD(2009)0162 Position of the European Parliament adopted at first reading on 18 May 2010 with a view to the adoption of Decision No \u2026/2010/EU of the European Parliament and of the Council providing macro-financial assistance to Ukraine",
+                                "type": "data"
+                            },
+                            "MANIFESTATION": [
+                                {"manifestation-type": "pdfa1a"},
+                                {"manifestation-type": "xhtml"},
+                                {
+                                    "MANIFESTATION_PART_OF_MANIFESTATION": {
+                                        "SAMEAS": {"URI": {
+                                            "VALUE": "http://publications.europa.eu/resource/oj/JOC_2011_161_E.ENG.print",
+                                            "IDENTIFIER": "JOC_2011_161_E.ENG.print",
+                                            "TYPE": "oj"
+                                        }},
+                                        "type": "embedded_link"
+                                    },
+                                    "MANIFESTATION_OFFICIAL-JOURNAL_PART_PAGE_LAST": {
+                                        "VALUE": "0257",
+                                        "type": "data"
+                                    },
+                                    "MANIFESTATION_OFFICIAL-JOURNAL_PART_PAGE_FIRST": {
+                                        "VALUE": "0256",
+                                        "type": "data"
+                                    },
+                                    "manifestation-type": "print"
+                                },
+                                {"manifestation-type": "fmx4"}
+                            ],
+                            "EXPRESSION_USES_LANGUAGE": {
+                                "OP-CODE": "ENG",
+                                "PREFLABEL": "English",
+                                "IDENTIFIER": "ENG",
+                                "type": "concept",
+                                "URI": {
+                                    "VALUE": "http://publications.europa.eu/resource/authority/language/ENG",
+                                    "IDENTIFIER": "ENG",
+                                    "TYPE": "language"
+                                }
+                            }
+                        },
+                        "TYPE": [
+                            "cdm:work",
+                            "cdm:resource_legal",
+                            "cdm:resolution_legislative_ep",
+                            "cdm:act_preparatory"
+                        ]
+                    },
+                    "type": "link",
+                    "URI": {
+                        "VALUE": "http://publications.europa.eu/resource/cellar/f7f3366d-1e3b-4101-a675-125848917580",
+                        "IDENTIFIER": "f7f3366d-1e3b-4101-a675-125848917580",
+                        "TYPE": "cellar"
+                    }
+                },
+                "DATE": {
+                    "MONTH": "05",
+                    "YEAR": 2010,
+                    "VALUE": "2010-05-18",
+                    "type": "date",
+                    "DAY": 18
+                },
+                "EVENT_LEGAL_DOCUMENT_REFERENCE": [
+                    {
+                        "VALUE": "A7/2010/58",
+                        "type": "data"
+                    },
+                    {
+                        "VALUE": "JO C E/2011/161/256",
+                        "type": "data"
+                    },
+                    {
+                        "VALUE": "TA/2010/169/P7",
+                        "type": "data"
+                    }
+                ],
+                "LASTMODIFICATIONDATE": {
+                    "MONTH": 10,
+                    "YEAR": 2019,
+                    "VALUE": "2019-10-08T15:39:12.107+02:00",
+                    "type": "date",
+                    "DAY": "08"
+                },
+                "EVENT_LEGAL_RESPONSIBILITY_OF_PERSON": {
+                    "SAMEAS": {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/agent/Olli%20REHN",
+                        "IDENTIFIER": "Olli REHN",
+                        "TYPE": "agent"
+                    }},
+                    "type": "link",
+                    "URI": {
+                        "VALUE": "http://publications.europa.eu/resource/cellar/fd728e4d-d1be-11e1-905c-01aa75ed71a1",
+                        "IDENTIFIER": "fd728e4d-d1be-11e1-905c-01aa75ed71a1",
+                        "TYPE": "cellar"
+                    }
+                },
+                "EVENT_LEGAL_HAS_TYPE_CONCEPT_TYPE_EVENT_LEGAL": {
+                    "OP-CODE": "OPI_R1_byEP",
+                    "PREFLABEL": "EP opinion on 1st reading",
+                    "ALTLABEL": "EP opinion 1st rdg",
+                    "IDENTIFIER": "OPI_R1_byEP",
+                    "type": "concept",
+                    "URI": {
+                        "VALUE": "http://publications.europa.eu/resource/authority/event/OPI_R1_byEP",
+                        "IDENTIFIER": "OPI_R1_byEP",
+                        "TYPE": "event"
+                    }
+                },
+                "TYPE": {
+                    "type": "type",
+                    "content": "Avis du Parlement européen en 1ère lecture"
+                }
+            },
+            {
+                "SAMEAS": {"URI": {
+                    "VALUE": "http://publications.europa.eu/resource/pegase/198759.406206",
+                    "IDENTIFIER": 198759.406206,
+                    "TYPE": "pegase"
+                }},
+                "EVENT_LEGAL_WAS_HISTORICALLY_ABOUT_CONCEPT_TYPE_DOSSIER": {
+                    "OP-CODE": 1085,
+                    "PREFLABEL": "Decision",
+                    "ALTLABEL": "Decision",
+                    "IDENTIFIER": 1085,
+                    "type": "concept",
+                    "URI": {
+                        "VALUE": "http://publications.europa.eu/resource/authority/fd_612/1085",
+                        "IDENTIFIER": 1085,
+                        "TYPE": "fd_612"
+                    }
+                },
+                "CREATIONDATE": {
+                    "MONTH": "01",
+                    "YEAR": 1001,
+                    "VALUE": "1001-01-01T00:00:00.000+00:00",
+                    "type": "date",
+                    "DAY": "01"
+                },
+                "EVENT_LEGAL_INITIATED_BY_INSTITUTION": [
+                    {
+                        "OP-CODE": "EP",
+                        "PREFLABEL": "European Parliament",
+                        "ALTLABEL": [
+                            "Common Assembly of the European Coal and Steel Community",
+                            "Common Assembly",
+                            "European Parliamentary Assembly",
+                            "EP"
+                        ],
+                        "IDENTIFIER": "EP",
+                        "type": "concept",
+                        "URI": {
+                            "VALUE": "http://publications.europa.eu/resource/authority/corporate-body/EP",
+                            "IDENTIFIER": "EP",
+                            "TYPE": "corporate-body"
+                        }
+                    },
+                    {
+                        "OP-CODE": "CONSIL",
+                        "PREFLABEL": "Council of the European Union",
+                        "ALTLABEL": [
+                            "Council",
+                            "Council of the European Communities"
+                        ],
+                        "IDENTIFIER": "CONSIL",
+                        "type": "concept",
+                        "URI": {
+                            "VALUE": "http://publications.europa.eu/resource/authority/corporate-body/CONSIL",
+                            "IDENTIFIER": "CONSIL",
+                            "TYPE": "corporate-body"
+                        }
+                    }
+                ],
+                "EVENT_LEGAL_PART_OF_DOSSIER": {
+                    "SAMEAS": [
+                        {"URI": {
+                            "VALUE": "http://publications.europa.eu/resource/procedure/2009_162",
+                            "IDENTIFIER": "2009_162",
+                            "TYPE": "procedure"
+                        }},
+                        {"URI": {
+                            "VALUE": "http://publications.europa.eu/resource/pegase/198759",
+                            "IDENTIFIER": 198759,
+                            "TYPE": "pegase"
+                        }}
+                    ],
+                    "type": "link",
+                    "URI": {
+                        "VALUE": "http://publications.europa.eu/resource/cellar/7980e781-d354-11e1-905c-01aa75ed71a1",
+                        "IDENTIFIER": "7980e781-d354-11e1-905c-01aa75ed71a1",
+                        "TYPE": "cellar"
+                    }
+                },
+                "EVENT_LEGAL_DATE": {
+                    "MONTH": "07",
+                    "YEAR": 2010,
+                    "VALUE": "2010-07-07",
+                    "type": "date",
+                    "DAY": "07"
+                },
+                "CONTAINS": {
+                    "SAMEAS": [
+                        {"URI": {
+                            "VALUE": "http://publications.europa.eu/resource/eli/dec/2010/388/oj",
+                            "IDENTIFIER": "dec:2010:388:oj",
+                            "TYPE": "eli"
+                        }},
+                        {"URI": {
+                            "VALUE": "http://publications.europa.eu/resource/oj/JOL_2010_179_R_0001_01",
+                            "IDENTIFIER": "JOL_2010_179_R_0001_01",
+                            "TYPE": "oj"
+                        }},
+                        {"URI": {
+                            "VALUE": "http://publications.europa.eu/resource/celex/32010D0388",
+                            "IDENTIFIER": "32010D0388",
+                            "TYPE": "celex"
+                        }}
+                    ],
+                    "type": "link",
+                    "URI": {
+                        "VALUE": "http://publications.europa.eu/resource/cellar/3055b8ca-9faf-47ad-837b-d16508381c7a",
+                        "IDENTIFIER": "3055b8ca-9faf-47ad-837b-d16508381c7a",
+                        "TYPE": "cellar"
+                    }
+                },
+                "URI": {
+                    "VALUE": "http://publications.europa.eu/resource/cellar/7980e781-d354-11e1-905c-01aa75ed71a1.0010",
+                    "IDENTIFIER": "7980e781-d354-11e1-905c-01aa75ed71a1.0010",
+                    "TYPE": "cellar"
+                },
+                "EVENT_LEGAL_CONTAINS_WORK": {
+                    "SAMEAS": [
+                        {"URI": {
+                            "VALUE": "http://publications.europa.eu/resource/eli/dec/2010/388/oj",
+                            "IDENTIFIER": "dec:2010:388:oj",
+                            "TYPE": "eli"
+                        }},
+                        {"URI": {
+                            "VALUE": "http://publications.europa.eu/resource/oj/JOL_2010_179_R_0001_01",
+                            "IDENTIFIER": "JOL_2010_179_R_0001_01",
+                            "TYPE": "oj"
+                        }},
+                        {"URI": {
+                            "VALUE": "http://publications.europa.eu/resource/celex/32010D0388",
+                            "IDENTIFIER": "32010D0388",
+                            "TYPE": "celex"
+                        }}
+                    ],
+                    "WORK": {
+                        "RESOURCE_LEGAL_ID_CELEX": {
+                            "VALUE": "32010D0388",
+                            "type": "data"
+                        },
+                        "RESOURCE_LEGAL_YEAR": {
+                            "VALUE": 2010,
+                            "type": "data"
+                        },
+                        "ID_CELEX": {
+                            "VALUE": "32010D0388",
+                            "type": "data"
+                        },
+                        "RESOURCE_LEGAL_TYPE": {
+                            "VALUE": "D",
+                            "type": "data"
+                        },
+                        "RESOURCE_LEGAL_NUMBER_NATURAL_CELEX": {
+                            "VALUE": "0388",
+                            "type": "data"
+                        },
+                        "WORK_HAS_RESOURCE-TYPE": {
+                            "OP-CODE": "DEC",
+                            "PREFLABEL": "Decision",
+                            "ALTLABEL": "Decisions",
+                            "IDENTIFIER": "DEC",
+                            "type": "concept",
+                            "URI": {
+                                "VALUE": "http://publications.europa.eu/resource/authority/resource-type/DEC",
+                                "IDENTIFIER": "DEC",
+                                "TYPE": "resource-type"
+                            }
+                        },
+                        "WORK_IS_ABOUT_CONCEPT_EUROVOC": [
+                            {
+                                "WORK_IS_ABOUT_CONCEPT_EUROVOC": [
+                                    {
+                                        "PREFLABEL": "EU aid",
+                                        "path": 1,
+                                        "ALTLABEL": [
+                                            "aid from the European Union",
+                                            "Community aid",
+                                            "aid from the EU",
+                                            "Community support",
+                                            "European Union aid"
+                                        ],
+                                        "level": 4,
+                                        "IDENTIFIER": 862,
+                                        "type": "concept_hierarchy_concept",
+                                        "URI": {
+                                            "VALUE": "http://eurovoc.europa.eu/862",
+                                            "IDENTIFIER": 862,
+                                            "TYPE": "EUROVOC"
+                                        }
+                                    },
+                                    {
+                                        "PREFLABEL": "economic support",
+                                        "path": 1,
+                                        "ALTLABEL": [
+                                            "granting of aid",
+                                            "subvention",
+                                            "aid"
+                                        ],
+                                        "level": 3,
+                                        "IDENTIFIER": 712,
+                                        "type": "concept_hierarchy_concept",
+                                        "URI": {
+                                            "VALUE": "http://eurovoc.europa.eu/712",
+                                            "IDENTIFIER": 712,
+                                            "TYPE": "EUROVOC"
+                                        }
+                                    },
+                                    {
+                                        "PREFLABEL": "16 ECONOMICS",
+                                        "path": 1,
+                                        "level": 2,
+                                        "IDENTIFIER": 16,
+                                        "type": "concept_hierarchy_concept",
+                                        "URI": {
+                                            "VALUE": "http://eurovoc.europa.eu/100146",
+                                            "IDENTIFIER": 100146,
+                                            "TYPE": "EUROVOC"
+                                        }
+                                    },
+                                    {
+                                        "PREFLABEL": "1606 economic policy",
+                                        "path": 1,
+                                        "level": 1,
+                                        "IDENTIFIER": 1606,
+                                        "type": "concept_hierarchy_concept",
+                                        "URI": {
+                                            "VALUE": "http://eurovoc.europa.eu/100185",
+                                            "IDENTIFIER": 100185,
+                                            "TYPE": "EUROVOC"
+                                        }
+                                    }
+                                ],
+                                "type": "concept_hierarchy"
+                            },
+                            {
+                                "WORK_IS_ABOUT_CONCEPT_EUROVOC": [
+                                    {
+                                        "PREFLABEL": "EU aid",
+                                        "path": 1,
+                                        "ALTLABEL": [
+                                            "aid from the European Union",
+                                            "Community aid",
+                                            "aid from the EU",
+                                            "Community support",
+                                            "European Union aid"
+                                        ],
+                                        "level": 4,
+                                        "IDENTIFIER": 862,
+                                        "type": "concept_hierarchy_concept",
+                                        "URI": {
+                                            "VALUE": "http://eurovoc.europa.eu/862",
+                                            "IDENTIFIER": 862,
+                                            "TYPE": "EUROVOC"
+                                        }
+                                    },
+                                    {
+                                        "PREFLABEL": "economic support",
+                                        "path": 1,
+                                        "ALTLABEL": [
+                                            "granting of aid",
+                                            "subvention",
+                                            "aid"
+                                        ],
+                                        "level": 3,
+                                        "IDENTIFIER": 712,
+                                        "type": "concept_hierarchy_concept",
+                                        "URI": {
+                                            "VALUE": "http://eurovoc.europa.eu/712",
+                                            "IDENTIFIER": 712,
+                                            "TYPE": "EUROVOC"
+                                        }
+                                    },
+                                    {
+                                        "PREFLABEL": "16 ECONOMICS",
+                                        "path": 1,
+                                        "level": 2,
+                                        "IDENTIFIER": 16,
+                                        "type": "concept_hierarchy_concept",
+                                        "URI": {
+                                            "VALUE": "http://eurovoc.europa.eu/100146",
+                                            "IDENTIFIER": 100146,
+                                            "TYPE": "EUROVOC"
+                                        }
+                                    },
+                                    {
+                                        "PREFLABEL": "1606 economic policy",
+                                        "path": 1,
+                                        "level": 1,
+                                        "IDENTIFIER": 1606,
+                                        "type": "concept_hierarchy_concept",
+                                        "URI": {
+                                            "VALUE": "http://eurovoc.europa.eu/100185",
+                                            "IDENTIFIER": 100185,
+                                            "TYPE": "EUROVOC"
+                                        }
+                                    }
+                                ],
+                                "type": "concept_hierarchy"
+                            },
+                            {
+                                "WORK_IS_ABOUT_CONCEPT_EUROVOC": [
+                                    {
+                                        "PREFLABEL": "EU aid",
+                                        "path": 1,
+                                        "ALTLABEL": [
+                                            "aid from the European Union",
+                                            "Community aid",
+                                            "aid from the EU",
+                                            "Community support",
+                                            "European Union aid"
+                                        ],
+                                        "level": 4,
+                                        "IDENTIFIER": 862,
+                                        "type": "concept_hierarchy_concept",
+                                        "URI": {
+                                            "VALUE": "http://eurovoc.europa.eu/862",
+                                            "IDENTIFIER": 862,
+                                            "TYPE": "EUROVOC"
+                                        }
+                                    },
+                                    {
+                                        "PREFLABEL": "economic support",
+                                        "path": 1,
+                                        "ALTLABEL": [
+                                            "granting of aid",
+                                            "subvention",
+                                            "aid"
+                                        ],
+                                        "level": 3,
+                                        "IDENTIFIER": 712,
+                                        "type": "concept_hierarchy_concept",
+                                        "URI": {
+                                            "VALUE": "http://eurovoc.europa.eu/712",
+                                            "IDENTIFIER": 712,
+                                            "TYPE": "EUROVOC"
+                                        }
+                                    },
+                                    {
+                                        "PREFLABEL": "16 ECONOMICS",
+                                        "path": 1,
+                                        "level": 2,
+                                        "IDENTIFIER": 16,
+                                        "type": "concept_hierarchy_concept",
+                                        "URI": {
+                                            "VALUE": "http://eurovoc.europa.eu/100146",
+                                            "IDENTIFIER": 100146,
+                                            "TYPE": "EUROVOC"
+                                        }
+                                    },
+                                    {
+                                        "PREFLABEL": "1606 economic policy",
+                                        "path": 1,
+                                        "level": 1,
+                                        "IDENTIFIER": 1606,
+                                        "type": "concept_hierarchy_concept",
+                                        "URI": {
+                                            "VALUE": "http://eurovoc.europa.eu/100185",
+                                            "IDENTIFIER": 100185,
+                                            "TYPE": "EUROVOC"
+                                        }
+                                    }
+                                ],
+                                "type": "concept_hierarchy"
+                            },
+                            {
+                                "WORK_IS_ABOUT_CONCEPT_EUROVOC": [
+                                    {
+                                        "PREFLABEL": "EU aid",
+                                        "path": 1,
+                                        "ALTLABEL": [
+                                            "aid from the European Union",
+                                            "Community aid",
+                                            "aid from the EU",
+                                            "Community support",
+                                            "European Union aid"
+                                        ],
+                                        "level": 4,
+                                        "IDENTIFIER": 862,
+                                        "type": "concept_hierarchy_concept",
+                                        "URI": {
+                                            "VALUE": "http://eurovoc.europa.eu/862",
+                                            "IDENTIFIER": 862,
+                                            "TYPE": "EUROVOC"
+                                        }
+                                    },
+                                    {
+                                        "PREFLABEL": "economic support",
+                                        "path": 1,
+                                        "ALTLABEL": [
+                                            "granting of aid",
+                                            "subvention",
+                                            "aid"
+                                        ],
+                                        "level": 3,
+                                        "IDENTIFIER": 712,
+                                        "type": "concept_hierarchy_concept",
+                                        "URI": {
+                                            "VALUE": "http://eurovoc.europa.eu/712",
+                                            "IDENTIFIER": 712,
+                                            "TYPE": "EUROVOC"
+                                        }
+                                    },
+                                    {
+                                        "PREFLABEL": "16 ECONOMICS",
+                                        "path": 1,
+                                        "level": 2,
+                                        "IDENTIFIER": 16,
+                                        "type": "concept_hierarchy_concept",
+                                        "URI": {
+                                            "VALUE": "http://eurovoc.europa.eu/100146",
+                                            "IDENTIFIER": 100146,
+                                            "TYPE": "EUROVOC"
+                                        }
+                                    },
+                                    {
+                                        "PREFLABEL": "1606 economic policy",
+                                        "path": 1,
+                                        "level": 1,
+                                        "IDENTIFIER": 1606,
+                                        "type": "concept_hierarchy_concept",
+                                        "URI": {
+                                            "VALUE": "http://eurovoc.europa.eu/100185",
+                                            "IDENTIFIER": 100185,
+                                            "TYPE": "EUROVOC"
+                                        }
+                                    }
+                                ],
+                                "type": "concept_hierarchy"
+                            },
+                            {
+                                "WORK_IS_ABOUT_CONCEPT_EUROVOC": [
+                                    {
+                                        "PREFLABEL": "EU aid",
+                                        "path": 1,
+                                        "ALTLABEL": [
+                                            "aid from the European Union",
+                                            "Community aid",
+                                            "aid from the EU",
+                                            "Community support",
+                                            "European Union aid"
+                                        ],
+                                        "level": 4,
+                                        "IDENTIFIER": 862,
+                                        "type": "concept_hierarchy_concept",
+                                        "URI": {
+                                            "VALUE": "http://eurovoc.europa.eu/862",
+                                            "IDENTIFIER": 862,
+                                            "TYPE": "EUROVOC"
+                                        }
+                                    },
+                                    {
+                                        "PREFLABEL": "economic support",
+                                        "path": 1,
+                                        "ALTLABEL": [
+                                            "granting of aid",
+                                            "subvention",
+                                            "aid"
+                                        ],
+                                        "level": 3,
+                                        "IDENTIFIER": 712,
+                                        "type": "concept_hierarchy_concept",
+                                        "URI": {
+                                            "VALUE": "http://eurovoc.europa.eu/712",
+                                            "IDENTIFIER": 712,
+                                            "TYPE": "EUROVOC"
+                                        }
+                                    },
+                                    {
+                                        "PREFLABEL": "16 ECONOMICS",
+                                        "path": 1,
+                                        "level": 2,
+                                        "IDENTIFIER": 16,
+                                        "type": "concept_hierarchy_concept",
+                                        "URI": {
+                                            "VALUE": "http://eurovoc.europa.eu/100146",
+                                            "IDENTIFIER": 100146,
+                                            "TYPE": "EUROVOC"
+                                        }
+                                    },
+                                    {
+                                        "PREFLABEL": "1606 economic policy",
+                                        "path": 1,
+                                        "level": 1,
+                                        "IDENTIFIER": 1606,
+                                        "type": "concept_hierarchy_concept",
+                                        "URI": {
+                                            "VALUE": "http://eurovoc.europa.eu/100185",
+                                            "IDENTIFIER": 100185,
+                                            "TYPE": "EUROVOC"
+                                        }
+                                    }
+                                ],
+                                "type": "concept_hierarchy"
+                            }
+                        ],
+                        "WORK_DATE_DOCUMENT": {
+                            "MONTH": "07",
+                            "YEAR": 2010,
+                            "VALUE": "2010-07-07",
+                            "type": "date",
+                            "DAY": "07"
+                        },
+                        "ID_SECTOR": {
+                            "VALUE": 3,
+                            "type": "data"
+                        },
+                        "TYPE": [
+                            "cdm:legislation_secondary",
+                            "cdm:decision",
+                            "cdm:resource_legal",
+                            "cdm:work"
+                        ],
+                        "EXPRESSION": {
+                            "EXPRESSION_TITLE": {
+                                "VALUE": "Decision No 388/2010/EU of the European Parliament and of the Council of 7 July 2010 providing macrofinancial assistance to Ukraine",
+                                "type": "data"
+                            },
+                            "MANIFESTATION": [
+                                {"manifestation-type": "fmx4"},
+                                {"manifestation-type": "pdfa1a"},
+                                {"manifestation-type": "xhtml"},
+                                {
+                                    "MANIFESTATION_PART_OF_MANIFESTATION": {
+                                        "SAMEAS": {"URI": {
+                                            "VALUE": "http://publications.europa.eu/resource/oj/JOL_2010_179_R.ENG.print",
+                                            "IDENTIFIER": "JOL_2010_179_R.ENG.print",
+                                            "TYPE": "oj"
+                                        }},
+                                        "type": "embedded_link"
+                                    },
+                                    "MANIFESTATION_OFFICIAL-JOURNAL_PART_PAGE_LAST": {
+                                        "VALUE": "0003",
+                                        "type": "data"
+                                    },
+                                    "MANIFESTATION_OFFICIAL-JOURNAL_PART_PAGE_FIRST": {
+                                        "VALUE": "0001",
+                                        "type": "data"
+                                    },
+                                    "manifestation-type": "print"
+                                }
+                            ],
+                            "EXPRESSION_MANIFESTED_BY_MANIFESTATION": [
+                                {
+                                    "SAMEAS": {"URI": {
+                                        "VALUE": "http://publications.europa.eu/resource/oj/JOL_2010_179_R_0001_01.ENG.fmx4",
+                                        "IDENTIFIER": "JOL_2010_179_R_0001_01.ENG.fmx4",
+                                        "TYPE": "oj"
+                                    }},
+                                    "type": "embedded_link",
+                                    "URI": {
+                                        "VALUE": "http://publications.europa.eu/resource/cellar/3055b8ca-9faf-47ad-837b-d16508381c7a.0009.01",
+                                        "IDENTIFIER": "3055b8ca-9faf-47ad-837b-d16508381c7a.0009.01",
+                                        "TYPE": "cellar"
+                                    }
+                                },
+                                {
+                                    "SAMEAS": {"URI": {
+                                        "VALUE": "http://publications.europa.eu/resource/oj/JOL_2010_179_R_0001_01.ENG.print",
+                                        "IDENTIFIER": "JOL_2010_179_R_0001_01.ENG.print",
+                                        "TYPE": "oj"
+                                    }},
+                                    "type": "embedded_link",
+                                    "URI": {
+                                        "VALUE": "http://publications.europa.eu/resource/cellar/3055b8ca-9faf-47ad-837b-d16508381c7a.0009.04",
+                                        "IDENTIFIER": "3055b8ca-9faf-47ad-837b-d16508381c7a.0009.04",
+                                        "TYPE": "cellar"
+                                    }
+                                },
+                                {
+                                    "SAMEAS": {"URI": {
+                                        "VALUE": "http://publications.europa.eu/resource/oj/JOL_2010_179_R_0001_01.ENG.xhtml",
+                                        "IDENTIFIER": "JOL_2010_179_R_0001_01.ENG.xhtml",
+                                        "TYPE": "oj"
+                                    }},
+                                    "type": "embedded_link",
+                                    "URI": {
+                                        "VALUE": "http://publications.europa.eu/resource/cellar/3055b8ca-9faf-47ad-837b-d16508381c7a.0009.03",
+                                        "IDENTIFIER": "3055b8ca-9faf-47ad-837b-d16508381c7a.0009.03",
+                                        "TYPE": "cellar"
+                                    }
+                                },
+                                {
+                                    "SAMEAS": {"URI": {
+                                        "VALUE": "http://publications.europa.eu/resource/oj/JOL_2010_179_R_0001_01.ENG.pdfa1a",
+                                        "IDENTIFIER": "JOL_2010_179_R_0001_01.ENG.pdfa1a",
+                                        "TYPE": "oj"
+                                    }},
+                                    "type": "embedded_link",
+                                    "URI": {
+                                        "VALUE": "http://publications.europa.eu/resource/cellar/3055b8ca-9faf-47ad-837b-d16508381c7a.0009.02",
+                                        "IDENTIFIER": "3055b8ca-9faf-47ad-837b-d16508381c7a.0009.02",
+                                        "TYPE": "cellar"
+                                    }
+                                }
+                            ],
+                            "EXPRESSION_USES_LANGUAGE": {
+                                "OP-CODE": "ENG",
+                                "PREFLABEL": "English",
+                                "IDENTIFIER": "ENG",
+                                "type": "concept",
+                                "URI": {
+                                    "VALUE": "http://publications.europa.eu/resource/authority/language/ENG",
+                                    "IDENTIFIER": "ENG",
+                                    "TYPE": "language"
+                                }
+                            }
+                        }
+                    },
+                    "type": "link",
+                    "URI": {
+                        "VALUE": "http://publications.europa.eu/resource/cellar/3055b8ca-9faf-47ad-837b-d16508381c7a",
+                        "IDENTIFIER": "3055b8ca-9faf-47ad-837b-d16508381c7a",
+                        "TYPE": "cellar"
+                    }
+                },
+                "DATE": {
+                    "MONTH": "07",
+                    "YEAR": 2010,
+                    "VALUE": "2010-07-07",
+                    "type": "date",
+                    "DAY": "07"
+                },
+                "EVENT_LEGAL_DOCUMENT_REFERENCE": [
+                    {
+                        "VALUE": "PE-CONS/2010/20",
+                        "type": "data"
+                    },
+                    {
+                        "VALUE": "JO L/2010/189/28",
+                        "type": "data"
+                    },
+                    {
+                        "VALUE": "JO L/2010/179/1",
+                        "type": "data"
+                    }
+                ],
+                "LASTMODIFICATIONDATE": {
+                    "MONTH": 10,
+                    "YEAR": 2019,
+                    "VALUE": "2019-10-08T15:39:12.108+02:00",
+                    "type": "date",
+                    "DAY": "08"
+                },
+                "EVENT_LEGAL_HAS_TYPE_CONCEPT_TYPE_EVENT_LEGAL": {
+                    "OP-CODE": "SIGN_byEP_CONSIL",
+                    "PREFLABEL": "Signature by the President of the EP and by the President of the Council",
+                    "ALTLABEL": "Signature by EP and Council",
+                    "IDENTIFIER": "SIGN_byEP_CONSIL",
+                    "type": "concept",
+                    "URI": {
+                        "VALUE": "http://publications.europa.eu/resource/authority/event/SIGN_byEP_CONSIL",
+                        "IDENTIFIER": "SIGN_byEP_CONSIL",
+                        "TYPE": "event"
+                    }
+                },
+                "TYPE": {
+                    "type": "type",
+                    "content": "Signature par le Parlement européen et le Conseil"
+                }
+            },
+            {
+                "SAMEAS": {"URI": {
+                    "VALUE": "http://publications.europa.eu/resource/pegase/198759.402253",
+                    "IDENTIFIER": 198759.402253,
+                    "TYPE": "pegase"
+                }},
+                "EVENT_LEGAL_WAS_HISTORICALLY_ABOUT_CONCEPT_TYPE_DOSSIER": {
+                    "OP-CODE": 1095,
+                    "PREFLABEL": "Proposal for a Decision",
+                    "ALTLABEL": "Proposal for a Decision",
+                    "IDENTIFIER": 1095,
+                    "type": "concept",
+                    "URI": {
+                        "VALUE": "http://publications.europa.eu/resource/authority/fd_612/1095",
+                        "IDENTIFIER": 1095,
+                        "TYPE": "fd_612"
+                    }
+                },
+                "EVENT_LEGAL_INITIATED_BY_INSTITUTION": {
+                    "OP-CODE": "COM",
+                    "PREFLABEL": "European Commission",
+                    "ALTLABEL": [
+                        "EC",
+                        "Commission of the European Communities",
+                        "European Commission",
+                        "Commission"
+                    ],
+                    "IDENTIFIER": "COM",
+                    "type": "concept",
+                    "URI": {
+                        "VALUE": "http://publications.europa.eu/resource/authority/corporate-body/COM",
+                        "IDENTIFIER": "COM",
+                        "TYPE": "corporate-body"
+                    }
+                },
+                "EVENT_LEGAL_WAS_HISTORICALLY_ABOUT_CONCEPT_TYPE_PROCEDURE_CODE_INTERINSTITUTIONAL": {
+                    "OP-CODE": "COD",
+                    "PREFLABEL": "Co-decision procedure (COD)",
+                    "IDENTIFIER": "COD",
+                    "type": "concept",
+                    "URI": {
+                        "VALUE": "http://publications.europa.eu/resource/authority/procedure/COD",
+                        "IDENTIFIER": "COD",
+                        "TYPE": "procedure"
+                    }
+                },
+                "CONTAINS": [
+                    {
+                        "SAMEAS": {"URI": {
+                            "VALUE": "http://publications.europa.eu/resource/oj/JOC_2011_026_R_0015_01",
+                            "IDENTIFIER": "JOC_2011_026_R_0015_01",
+                            "TYPE": "oj"
+                        }},
+                        "type": "link"
+                    },
+                    {
+                        "SAMEAS": [
+                            {"URI": {
+                                "VALUE": "http://publications.europa.eu/resource/celex/52009PC0580",
+                                "IDENTIFIER": "52009PC0580",
+                                "TYPE": "celex"
+                            }},
+                            {"URI": {
+                                "VALUE": "http://publications.europa.eu/resource/com/COM_2009_627",
+                                "IDENTIFIER": "COM_2009_627",
+                                "TYPE": "com"
+                            }},
+                            {"URI": {
+                                "VALUE": "http://publications.europa.eu/resource/comnat/COM_2009_0580_FIN",
+                                "IDENTIFIER": "COM_2009_0580_FIN",
+                                "TYPE": "comnat"
+                            }}
+                        ],
+                        "type": "link",
+                        "URI": {
+                            "VALUE": "http://publications.europa.eu/resource/cellar/3c99bb05-fb16-4686-98a0-05abc79ef58b",
+                            "IDENTIFIER": "3c99bb05-fb16-4686-98a0-05abc79ef58b",
+                            "TYPE": "cellar"
+                        }
+                    }
+                ],
+                "EVENT_LEGAL_MANDATORILY-CONSULTS_INSTITUTION": {
+                    "OP-CODE": "EP",
+                    "PREFLABEL": "European Parliament",
+                    "ALTLABEL": [
+                        "Common Assembly of the European Coal and Steel Community",
+                        "Common Assembly",
+                        "European Parliamentary Assembly",
+                        "EP"
+                    ],
+                    "IDENTIFIER": "EP",
+                    "type": "concept",
+                    "URI": {
+                        "VALUE": "http://publications.europa.eu/resource/authority/corporate-body/EP",
+                        "IDENTIFIER": "EP",
+                        "TYPE": "corporate-body"
+                    }
+                },
+                "EVENT_RESPONSIBILITY_OF_INSTITUTION": {
+                    "OP-CODE": "ECFIN",
+                    "PREFLABEL": "Directorate-General for Economic and Financial Affairs",
+                    "ALTLABEL": "DG Economic and Financial Affairs",
+                    "IDENTIFIER": "ECFIN",
+                    "type": "concept",
+                    "URI": {
+                        "VALUE": "http://publications.europa.eu/resource/authority/corporate-body/ECFIN",
+                        "IDENTIFIER": "ECFIN",
+                        "TYPE": "corporate-body"
+                    }
+                },
+                "URI": {
+                    "VALUE": "http://publications.europa.eu/resource/cellar/7980e781-d354-11e1-905c-01aa75ed71a1.0002",
+                    "IDENTIFIER": "7980e781-d354-11e1-905c-01aa75ed71a1.0002",
+                    "TYPE": "cellar"
+                },
+                "EVENT_LEGAL_CONTAINS_WORK": [
+                    {
+                        "SAMEAS": [
+                            {"URI": {
+                                "VALUE": "http://publications.europa.eu/resource/celex/52009PC0580",
+                                "IDENTIFIER": "52009PC0580",
+                                "TYPE": "celex"
+                            }},
+                            {"URI": {
+                                "VALUE": "http://publications.europa.eu/resource/com/COM_2009_627",
+                                "IDENTIFIER": "COM_2009_627",
+                                "TYPE": "com"
+                            }},
+                            {"URI": {
+                                "VALUE": "http://publications.europa.eu/resource/comnat/COM_2009_0580_FIN",
+                                "IDENTIFIER": "COM_2009_0580_FIN",
+                                "TYPE": "comnat"
+                            }}
+                        ],
+                        "WORK": {
+                            "RESOURCE_LEGAL_ID_CELEX": {
+                                "VALUE": "52009PC0580",
+                                "type": "data"
+                            },
+                            "RESOURCE_LEGAL_YEAR": {
+                                "VALUE": 2009,
+                                "type": "data"
+                            },
+                            "ID_CELEX": {
+                                "VALUE": "52009PC0580",
+                                "type": "data"
+                            },
+                            "RESOURCE_LEGAL_TYPE": {
+                                "VALUE": "PC",
+                                "type": "data"
+                            },
+                            "RESOURCE_LEGAL_NUMBER_NATURAL_CELEX": {
+                                "VALUE": "0580",
+                                "type": "data"
+                            },
+                            "WORK_HAS_RESOURCE-TYPE": {
+                                "OP-CODE": "PROP_DEC_NO_ADDRESSEE",
+                                "PREFLABEL": "Proposal for a decision without addressee",
+                                "IDENTIFIER": "PROP_DEC_NO_ADDRESSEE",
+                                "type": "concept",
+                                "URI": {
+                                    "VALUE": "http://publications.europa.eu/resource/authority/resource-type/PROP_DEC_NO_ADDRESSEE",
+                                    "IDENTIFIER": "PROP_DEC_NO_ADDRESSEE",
+                                    "TYPE": "resource-type"
+                                }
+                            },
+                            "WORK_IS_ABOUT_CONCEPT_EUROVOC": [
+                                {
+                                    "WORK_IS_ABOUT_CONCEPT_EUROVOC": [
+                                        {
+                                            "PREFLABEL": "EU aid",
+                                            "path": 1,
+                                            "ALTLABEL": [
+                                                "aid from the European Union",
+                                                "Community aid",
+                                                "aid from the EU",
+                                                "Community support",
+                                                "European Union aid"
+                                            ],
+                                            "level": 4,
+                                            "IDENTIFIER": 862,
+                                            "type": "concept_hierarchy_concept",
+                                            "URI": {
+                                                "VALUE": "http://eurovoc.europa.eu/862",
+                                                "IDENTIFIER": 862,
+                                                "TYPE": "EUROVOC"
+                                            }
+                                        },
+                                        {
+                                            "PREFLABEL": "economic support",
+                                            "path": 1,
+                                            "ALTLABEL": [
+                                                "granting of aid",
+                                                "subvention",
+                                                "aid"
+                                            ],
+                                            "level": 3,
+                                            "IDENTIFIER": 712,
+                                            "type": "concept_hierarchy_concept",
+                                            "URI": {
+                                                "VALUE": "http://eurovoc.europa.eu/712",
+                                                "IDENTIFIER": 712,
+                                                "TYPE": "EUROVOC"
+                                            }
+                                        },
+                                        {
+                                            "PREFLABEL": "16 ECONOMICS",
+                                            "path": 1,
+                                            "level": 2,
+                                            "IDENTIFIER": 16,
+                                            "type": "concept_hierarchy_concept",
+                                            "URI": {
+                                                "VALUE": "http://eurovoc.europa.eu/100146",
+                                                "IDENTIFIER": 100146,
+                                                "TYPE": "EUROVOC"
+                                            }
+                                        },
+                                        {
+                                            "PREFLABEL": "1606 economic policy",
+                                            "path": 1,
+                                            "level": 1,
+                                            "IDENTIFIER": 1606,
+                                            "type": "concept_hierarchy_concept",
+                                            "URI": {
+                                                "VALUE": "http://eurovoc.europa.eu/100185",
+                                                "IDENTIFIER": 100185,
+                                                "TYPE": "EUROVOC"
+                                            }
+                                        }
+                                    ],
+                                    "type": "concept_hierarchy"
+                                },
+                                {
+                                    "WORK_IS_ABOUT_CONCEPT_EUROVOC": [
+                                        {
+                                            "PREFLABEL": "EU aid",
+                                            "path": 1,
+                                            "ALTLABEL": [
+                                                "aid from the European Union",
+                                                "Community aid",
+                                                "aid from the EU",
+                                                "Community support",
+                                                "European Union aid"
+                                            ],
+                                            "level": 4,
+                                            "IDENTIFIER": 862,
+                                            "type": "concept_hierarchy_concept",
+                                            "URI": {
+                                                "VALUE": "http://eurovoc.europa.eu/862",
+                                                "IDENTIFIER": 862,
+                                                "TYPE": "EUROVOC"
+                                            }
+                                        },
+                                        {
+                                            "PREFLABEL": "economic support",
+                                            "path": 1,
+                                            "ALTLABEL": [
+                                                "granting of aid",
+                                                "subvention",
+                                                "aid"
+                                            ],
+                                            "level": 3,
+                                            "IDENTIFIER": 712,
+                                            "type": "concept_hierarchy_concept",
+                                            "URI": {
+                                                "VALUE": "http://eurovoc.europa.eu/712",
+                                                "IDENTIFIER": 712,
+                                                "TYPE": "EUROVOC"
+                                            }
+                                        },
+                                        {
+                                            "PREFLABEL": "16 ECONOMICS",
+                                            "path": 1,
+                                            "level": 2,
+                                            "IDENTIFIER": 16,
+                                            "type": "concept_hierarchy_concept",
+                                            "URI": {
+                                                "VALUE": "http://eurovoc.europa.eu/100146",
+                                                "IDENTIFIER": 100146,
+                                                "TYPE": "EUROVOC"
+                                            }
+                                        },
+                                        {
+                                            "PREFLABEL": "1606 economic policy",
+                                            "path": 1,
+                                            "level": 1,
+                                            "IDENTIFIER": 1606,
+                                            "type": "concept_hierarchy_concept",
+                                            "URI": {
+                                                "VALUE": "http://eurovoc.europa.eu/100185",
+                                                "IDENTIFIER": 100185,
+                                                "TYPE": "EUROVOC"
+                                            }
+                                        }
+                                    ],
+                                    "type": "concept_hierarchy"
+                                },
+                                {
+                                    "WORK_IS_ABOUT_CONCEPT_EUROVOC": [
+                                        {
+                                            "PREFLABEL": "EU aid",
+                                            "path": 1,
+                                            "ALTLABEL": [
+                                                "aid from the European Union",
+                                                "Community aid",
+                                                "aid from the EU",
+                                                "Community support",
+                                                "European Union aid"
+                                            ],
+                                            "level": 4,
+                                            "IDENTIFIER": 862,
+                                            "type": "concept_hierarchy_concept",
+                                            "URI": {
+                                                "VALUE": "http://eurovoc.europa.eu/862",
+                                                "IDENTIFIER": 862,
+                                                "TYPE": "EUROVOC"
+                                            }
+                                        },
+                                        {
+                                            "PREFLABEL": "economic support",
+                                            "path": 1,
+                                            "ALTLABEL": [
+                                                "granting of aid",
+                                                "subvention",
+                                                "aid"
+                                            ],
+                                            "level": 3,
+                                            "IDENTIFIER": 712,
+                                            "type": "concept_hierarchy_concept",
+                                            "URI": {
+                                                "VALUE": "http://eurovoc.europa.eu/712",
+                                                "IDENTIFIER": 712,
+                                                "TYPE": "EUROVOC"
+                                            }
+                                        },
+                                        {
+                                            "PREFLABEL": "16 ECONOMICS",
+                                            "path": 1,
+                                            "level": 2,
+                                            "IDENTIFIER": 16,
+                                            "type": "concept_hierarchy_concept",
+                                            "URI": {
+                                                "VALUE": "http://eurovoc.europa.eu/100146",
+                                                "IDENTIFIER": 100146,
+                                                "TYPE": "EUROVOC"
+                                            }
+                                        },
+                                        {
+                                            "PREFLABEL": "1606 economic policy",
+                                            "path": 1,
+                                            "level": 1,
+                                            "IDENTIFIER": 1606,
+                                            "type": "concept_hierarchy_concept",
+                                            "URI": {
+                                                "VALUE": "http://eurovoc.europa.eu/100185",
+                                                "IDENTIFIER": 100185,
+                                                "TYPE": "EUROVOC"
+                                            }
+                                        }
+                                    ],
+                                    "type": "concept_hierarchy"
+                                }
+                            ],
+                            "WORK_DATE_DOCUMENT": {
+                                "MONTH": 10,
+                                "YEAR": 2009,
+                                "VALUE": "2009-10-29",
+                                "type": "date",
+                                "DAY": 29
+                            },
+                            "ID_SECTOR": {
+                                "VALUE": 5,
+                                "type": "data"
+                            },
+                            "TYPE": [
+                                "cdm:proposal_act",
+                                "cdm:act_preparatory",
+                                "cdm:proposal_other",
+                                "cdm:resource_legal",
+                                "cdm:work"
+                            ],
+                            "EXPRESSION": {
+                                "EXPRESSION_TITLE": {
+                                    "VALUE": "Proposal for a Council Decision providing macro-financial assistance to Ukraine (SEC(2009)1428)",
+                                    "type": "data"
+                                },
+                                "MANIFESTATION": [
+                                    {"manifestation-type": "doc"},
+                                    {"manifestation-type": "html"},
+                                    {"manifestation-type": "pdf"}
+                                ],
+                                "EXPRESSION_MANIFESTED_BY_MANIFESTATION": [
+                                    {
+                                        "SAMEAS": {"URI": {
+                                            "VALUE": "http://publications.europa.eu/resource/com/COM_2009_627.ENG.html",
+                                            "IDENTIFIER": "COM_2009_627.ENG.html",
+                                            "TYPE": "com"
+                                        }},
+                                        "type": "embedded_link"
+                                    },
+                                    {
+                                        "SAMEAS": {"URI": {
+                                            "VALUE": "http://publications.europa.eu/resource/com/COM_2009_627.ENG.doc",
+                                            "IDENTIFIER": "COM_2009_627.ENG.doc",
+                                            "TYPE": "com"
+                                        }},
+                                        "type": "embedded_link"
+                                    },
+                                    {
+                                        "SAMEAS": {"URI": {
+                                            "VALUE": "http://publications.europa.eu/resource/com/COM_2009_627.ENG.pdf",
+                                            "IDENTIFIER": "COM_2009_627.ENG.pdf",
+                                            "TYPE": "com"
+                                        }},
+                                        "type": "embedded_link"
+                                    }
+                                ],
+                                "EXPRESSION_USES_LANGUAGE": {
+                                    "OP-CODE": "ENG",
+                                    "PREFLABEL": "English",
+                                    "ALTLABEL": "English",
+                                    "IDENTIFIER": "ENG",
+                                    "type": "concept",
+                                    "URI": {
+                                        "VALUE": "http://publications.europa.eu/resource/authority/language/ENG",
+                                        "IDENTIFIER": "ENG",
+                                        "TYPE": "language"
+                                    }
+                                }
+                            }
+                        },
+                        "type": "link",
+                        "URI": {
+                            "VALUE": "http://publications.europa.eu/resource/cellar/3c99bb05-fb16-4686-98a0-05abc79ef58b",
+                            "IDENTIFIER": "3c99bb05-fb16-4686-98a0-05abc79ef58b",
+                            "TYPE": "cellar"
+                        }
+                    },
+                    {
+                        "SAMEAS": {"URI": {
+                            "VALUE": "http://publications.europa.eu/resource/oj/JOC_2011_026_R_0015_01",
+                            "IDENTIFIER": "JOC_2011_026_R_0015_01",
+                            "TYPE": "oj"
+                        }},
+                        "type": "link"
+                    }
+                ],
+                "EVENT_LEGAL_USES_CONCEPT_MODE_DECISION": {
+                    "OP-CODE": 1010,
+                    "PREFLABEL": "Written procedure",
+                    "ALTLABEL": "Written procedure",
+                    "IDENTIFIER": 1010,
+                    "type": "concept",
+                    "URI": {
+                        "VALUE": "http://publications.europa.eu/resource/authority/fd_606/1010",
+                        "IDENTIFIER": 1010,
+                        "TYPE": "fd_606"
+                    }
+                },
+                "EVENT_LEGAL_DOCUMENT_REFERENCE": [
+                    {
+                        "VALUE": "CS/2009/15429",
+                        "type": "data"
+                    },
+                    {
+                        "VALUE": "COM/2009/580/FINAL",
+                        "type": "data"
+                    },
+                    {
+                        "VALUE": "JO C/2011/26/15",
+                        "type": "data"
+                    }
+                ],
+                "EVENT_LEGAL_BASED_ON_RESOURCE_LEGAL": [
+                    {
+                        "SAMEAS": [
+                            {"URI": {
+                                "VALUE": "http://publications.europa.eu/resource/eli/treaty/tec_2006/art_251/oj",
+                                "IDENTIFIER": "treaty:tec_2006:art_251:oj",
+                                "TYPE": "eli"
+                            }},
+                            {"URI": {
+                                "VALUE": "http://publications.europa.eu/resource/celex/12006E251",
+                                "IDENTIFIER": 1.2006E255,
+                                "TYPE": "celex"
+                            }}
+                        ],
+                        "type": "link",
+                        "URI": {
+                            "VALUE": "http://publications.europa.eu/resource/cellar/171e521a-3ffe-46ac-90eb-ed97dbb7dcd2",
+                            "IDENTIFIER": "171e521a-3ffe-46ac-90eb-ed97dbb7dcd2",
+                            "TYPE": "cellar"
+                        }
+                    },
+                    {
+                        "SAMEAS": [
+                            {"URI": {
+                                "VALUE": "http://publications.europa.eu/resource/eli/treaty/tec_2006/art_308/oj",
+                                "IDENTIFIER": "treaty:tec_2006:art_308:oj",
+                                "TYPE": "eli"
+                            }},
+                            {"URI": {
+                                "VALUE": "http://publications.europa.eu/resource/celex/12006E308",
+                                "IDENTIFIER": "12006E308",
+                                "TYPE": "celex"
+                            }}
+                        ],
+                        "type": "link",
+                        "URI": {
+                            "VALUE": "http://publications.europa.eu/resource/cellar/25668d5e-b354-4087-b611-3756007fd5d9",
+                            "IDENTIFIER": "25668d5e-b354-4087-b611-3756007fd5d9",
+                            "TYPE": "cellar"
+                        }
+                    }
+                ],
+                "BASED_ON": [
+                    {
+                        "SAMEAS": [
+                            {"URI": {
+                                "VALUE": "http://publications.europa.eu/resource/eli/treaty/tec_2006/art_251/oj",
+                                "IDENTIFIER": "treaty:tec_2006:art_251:oj",
+                                "TYPE": "eli"
+                            }},
+                            {"URI": {
+                                "VALUE": "http://publications.europa.eu/resource/celex/12006E251",
+                                "IDENTIFIER": 1.2006E255,
+                                "TYPE": "celex"
+                            }}
+                        ],
+                        "type": "link",
+                        "URI": {
+                            "VALUE": "http://publications.europa.eu/resource/cellar/171e521a-3ffe-46ac-90eb-ed97dbb7dcd2",
+                            "IDENTIFIER": "171e521a-3ffe-46ac-90eb-ed97dbb7dcd2",
+                            "TYPE": "cellar"
+                        }
+                    },
+                    {
+                        "SAMEAS": [
+                            {"URI": {
+                                "VALUE": "http://publications.europa.eu/resource/eli/treaty/tec_2006/art_308/oj",
+                                "IDENTIFIER": "treaty:tec_2006:art_308:oj",
+                                "TYPE": "eli"
+                            }},
+                            {"URI": {
+                                "VALUE": "http://publications.europa.eu/resource/celex/12006E308",
+                                "IDENTIFIER": "12006E308",
+                                "TYPE": "celex"
+                            }}
+                        ],
+                        "type": "link",
+                        "URI": {
+                            "VALUE": "http://publications.europa.eu/resource/cellar/25668d5e-b354-4087-b611-3756007fd5d9",
+                            "IDENTIFIER": "25668d5e-b354-4087-b611-3756007fd5d9",
+                            "TYPE": "cellar"
+                        }
+                    }
+                ],
+                "EVENT_LEGAL_RESPONSIBILITY_OF_PERSON": {
+                    "SAMEAS": {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/agent/Joaquin%20ALMUNIA",
+                        "IDENTIFIER": "Joaquin ALMUNIA",
+                        "TYPE": "agent"
+                    }},
+                    "type": "link",
+                    "URI": {
+                        "VALUE": "http://publications.europa.eu/resource/cellar/2fabfb78-d28c-11e1-905c-01aa75ed71a1",
+                        "IDENTIFIER": "2fabfb78-d28c-11e1-905c-01aa75ed71a1",
+                        "TYPE": "cellar"
+                    }
+                },
+                "TYPE": {
+                    "type": "type",
+                    "content": "Adoption par Commission"
+                },
+                "EVENT_LEGAL_BASIS_LEGAL": [
+                    {
+                        "VALUE": "TFUE/art 212 par 2",
+                        "type": "data"
+                    },
+                    {
+                        "VALUE": "TFUE/art 212",
+                        "type": "data"
+                    }
+                ],
+                "EVENT_LEGAL_FORMALLY-ADDRESSES_INSTITUTION": {
+                    "OP-CODE": "CONSIL",
+                    "PREFLABEL": "Council of the European Union",
+                    "ALTLABEL": [
+                        "Council",
+                        "Council of the European Communities"
+                    ],
+                    "IDENTIFIER": "CONSIL",
+                    "type": "concept",
+                    "URI": {
+                        "VALUE": "http://publications.europa.eu/resource/authority/corporate-body/CONSIL",
+                        "IDENTIFIER": "CONSIL",
+                        "TYPE": "corporate-body"
+                    }
+                },
+                "CREATIONDATE": {
+                    "MONTH": "01",
+                    "YEAR": 1001,
+                    "VALUE": "1001-01-01T00:00:00.000+00:00",
+                    "type": "date",
+                    "DAY": "01"
+                },
+                "EVENT_LEGAL_PART_OF_DOSSIER": {
+                    "SAMEAS": [
+                        {"URI": {
+                            "VALUE": "http://publications.europa.eu/resource/procedure/2009_162",
+                            "IDENTIFIER": "2009_162",
+                            "TYPE": "procedure"
+                        }},
+                        {"URI": {
+                            "VALUE": "http://publications.europa.eu/resource/pegase/198759",
+                            "IDENTIFIER": 198759,
+                            "TYPE": "pegase"
+                        }}
+                    ],
+                    "type": "link",
+                    "URI": {
+                        "VALUE": "http://publications.europa.eu/resource/cellar/7980e781-d354-11e1-905c-01aa75ed71a1",
+                        "IDENTIFIER": "7980e781-d354-11e1-905c-01aa75ed71a1",
+                        "TYPE": "cellar"
+                    }
+                },
+                "BASIS_LEGAL": [
+                    {
+                        "VALUE": "TFUE/art 212",
+                        "type": "data"
+                    },
+                    {
+                        "VALUE": "TFUE/art 212 par 2",
+                        "type": "data"
+                    }
+                ],
+                "EVENT_LEGAL_DATE": {
+                    "MONTH": 10,
+                    "YEAR": 2009,
+                    "VALUE": "2009-10-29",
+                    "type": "date",
+                    "DAY": 29
+                },
+                "DATE": {
+                    "MONTH": 10,
+                    "YEAR": 2009,
+                    "VALUE": "2009-10-29",
+                    "type": "date",
+                    "DAY": 29
+                },
+                "LASTMODIFICATIONDATE": {
+                    "MONTH": 10,
+                    "YEAR": 2019,
+                    "VALUE": "2019-10-08T15:39:12.111+02:00",
+                    "type": "date",
+                    "DAY": "08"
+                },
+                "EVENT_LEGAL_HAS_TYPE_CONCEPT_TYPE_EVENT_LEGAL": {
+                    "OP-CODE": "ADP_byCOM",
+                    "PREFLABEL": "Adoption by Commission",
+                    "ALTLABEL": "Adoption by Commission",
+                    "IDENTIFIER": "ADP_byCOM",
+                    "type": "concept",
+                    "URI": {
+                        "VALUE": "http://publications.europa.eu/resource/authority/event/ADP_byCOM",
+                        "IDENTIFIER": "ADP_byCOM",
+                        "TYPE": "event"
+                    }
+                },
+                "EVENT_LEGAL_RESPONSIBILITY_OF_INSTITUTION": {
+                    "OP-CODE": "ECFIN",
+                    "PREFLABEL": "Directorate-General for Economic and Financial Affairs",
+                    "ALTLABEL": "DG Economic and Financial Affairs",
+                    "IDENTIFIER": "ECFIN",
+                    "type": "concept",
+                    "URI": {
+                        "VALUE": "http://publications.europa.eu/resource/authority/corporate-body/ECFIN",
+                        "IDENTIFIER": "ECFIN",
+                        "TYPE": "corporate-body"
+                    }
+                }
+            }
+        ]
+    },
+    "type": "tree",
+    "decoding": "eng"
+}}

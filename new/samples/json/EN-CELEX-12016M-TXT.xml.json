@@ -1,0 +1,384 @@
+{"NOTICE": {
+    "WORK": {
+        "SAMEAS": [
+            {"URI": {
+                "VALUE": "http://publications.europa.eu/resource/celex/12016M%2FTXT",
+                "IDENTIFIER": "12016M/TXT",
+                "TYPE": "celex"
+            }},
+            {"URI": {
+                "VALUE": "http://publications.europa.eu/resource/eli/treaty/teu_2016/oj",
+                "IDENTIFIER": "treaty:teu_2016:oj",
+                "TYPE": "eli"
+            }}
+        ],
+        "RESOURCE_LEGAL_ID_CELEX": {
+            "VALUE": "12016M/TXT",
+            "type": "data"
+        },
+        "ELI": {
+            "VALUE": "http://data.europa.eu/eli/treaty/teu_2016/oj",
+            "type": "data"
+        },
+        "RESOURCE_LEGAL_AMENDMENT_PROPOSED_BY_RESOURCE_LEGAL": {
+            "SAMEAS": [
+                {"URI": {
+                    "VALUE": "http://publications.europa.eu/resource/celex/22013A0302%2801%29",
+                    "IDENTIFIER": "22013A0302(01)",
+                    "TYPE": "celex"
+                }},
+                {"URI": {
+                    "VALUE": "http://publications.europa.eu/resource/eli/prot/2013/106/oj",
+                    "IDENTIFIER": "prot:2013:106:oj",
+                    "TYPE": "eli"
+                }}
+            ],
+            "WORK": {
+                "ROLE2": {
+                    "VALUE": "{J|http://publications.europa.eu/resource/authority/fd_375/J}",
+                    "type": "annotation"
+                },
+                "REFERENCE_TO_MODIFIED_LOCATION": {
+                    "VALUE": "{PROT|http://publications.europa.eu/resource/authority/fd_370/PROT} 38",
+                    "type": "annotation"
+                },
+                "TYPE_OF_LINK_TARGET": {
+                    "VALUE": "EA",
+                    "type": "annotation"
+                }
+            },
+            "type": "link",
+            "URI": {
+                "VALUE": "http://publications.europa.eu/resource/cellar/5193658b-20a6-4a72-b46f-6167ff953974",
+                "IDENTIFIER": "5193658b-20a6-4a72-b46f-6167ff953974",
+                "TYPE": "cellar"
+            }
+        },
+        "WORK_CREATED_BY_AGENT": {
+            "OP-CODE": "OP_DATPRO",
+            "PREFLABEL": "Provisional data",
+            "IDENTIFIER": "OP_DATPRO",
+            "type": "concept",
+            "URI": {
+                "VALUE": "http://publications.europa.eu/resource/authority/corporate-body/OP_DATPRO",
+                "IDENTIFIER": "OP_DATPRO",
+                "TYPE": "corporate-body"
+            }
+        },
+        "RESOURCE_LEGAL_CORRECTED_BY_RESOURCE_LEGAL": {
+            "SAMEAS": {"URI": {
+                "VALUE": "http://publications.europa.eu/resource/celex/12016E%2FTXTR%2803%29",
+                "IDENTIFIER": "12016E/TXTR(03)",
+                "TYPE": "celex"
+            }},
+            "WORK": {
+                "TYPE_OF_LINK_TARGET": {
+                    "VALUE": "MS",
+                    "type": "annotation"
+                },
+                "LANGUAGE_LIST": {
+                    "VALUE": "DA",
+                    "type": "data"
+                }
+            },
+            "type": "link",
+            "URI": {
+                "VALUE": "http://publications.europa.eu/resource/cellar/5ba18b86-df2a-4959-9ee0-29f9f27369f4",
+                "IDENTIFIER": "5ba18b86-df2a-4959-9ee0-29f9f27369f4",
+                "TYPE": "cellar"
+            }
+        },
+        "WORK_RELATED_TO_WORK": {
+            "SAMEAS": [
+                {"URI": {
+                    "VALUE": "http://publications.europa.eu/resource/celex/11992M%2FTXT",
+                    "IDENTIFIER": "11992M/TXT",
+                    "TYPE": "celex"
+                }},
+                {"URI": {
+                    "VALUE": "http://publications.europa.eu/resource/oj/JOC_1992_191_R_0001_01",
+                    "IDENTIFIER": "JOC_1992_191_R_0001_01",
+                    "TYPE": "oj"
+                }},
+                {"URI": {
+                    "VALUE": "http://publications.europa.eu/resource/eli/treaty/teu/sign",
+                    "IDENTIFIER": "treaty:teu:sign",
+                    "TYPE": "eli"
+                }}
+            ],
+            "WORK": {
+                "ROLE2": {
+                    "VALUE": "{CL_VERSION|http://publications.europa.eu/resource/authority/fd_375/CL_VERSION}",
+                    "type": "annotation"
+                },
+                "TYPE_OF_LINK_TARGET": {
+                    "VALUE": "RD",
+                    "type": "annotation"
+                }
+            },
+            "type": "link",
+            "URI": {
+                "VALUE": "http://publications.europa.eu/resource/cellar/433f7aeb-00a2-49a6-bbbf-9cd6859a4cd1",
+                "IDENTIFIER": "433f7aeb-00a2-49a6-bbbf-9cd6859a4cd1",
+                "TYPE": "cellar"
+            }
+        },
+        "RESOURCE_LEGAL_PRELIMINARY_QUESTION-SUBMITTED_BY_COMMUNICATION_CASE_NEW": {
+            "SAMEAS": [
+                {"URI": {
+                    "VALUE": "http://publications.europa.eu/resource/oj/JOC_2018_249_R_0021",
+                    "IDENTIFIER": "JOC_2018_249_R_0021",
+                    "TYPE": "oj"
+                }},
+                {"URI": {
+                    "VALUE": "http://publications.europa.eu/resource/celex/62018CN0311",
+                    "IDENTIFIER": "62018CN0311",
+                    "TYPE": "celex"
+                }}
+            ],
+            "WORK": {"TYPE_OF_LINK_TARGET": {
+                "VALUE": "AJ",
+                "type": "annotation"
+            }},
+            "type": "link",
+            "URI": {
+                "VALUE": "http://publications.europa.eu/resource/cellar/93b71c76-88fb-11e8-ac6a-01aa75ed71a1",
+                "IDENTIFIER": "93b71c76-88fb-11e8-ac6a-01aa75ed71a1",
+                "TYPE": "cellar"
+            }
+        },
+        "WORK_HAS_RESOURCE-TYPE": {
+            "OP-CODE": "TREATY",
+            "PREFLABEL": "Treaty",
+            "ALTLABLE": "Treaties",
+            "IDENTIFIER": "TREATY",
+            "type": "concept",
+            "URI": {
+                "VALUE": "http://publications.europa.eu/resource/authority/resource-type/TREATY",
+                "IDENTIFIER": "TREATY",
+                "TYPE": "resource-type"
+            }
+        },
+        "URI": {
+            "VALUE": "http://publications.europa.eu/resource/cellar/2021d50a-3468-11e6-969e-01aa75ed71a1",
+            "IDENTIFIER": "2021d50a-3468-11e6-969e-01aa75ed71a1",
+            "TYPE": "cellar"
+        },
+        "RESOURCE_LEGAL_TYPE": {
+            "VALUE": "M",
+            "type": "data"
+        },
+        "RESOURCE_LEGAL_IN-FORCE": {
+            "VALUE": true,
+            "type": "data"
+        },
+        "RESOURCE_LEGAL_BASIS_FOR_ACT_CONSOLIDATED": {
+            "SAMEAS": [
+                {"URI": {
+                    "VALUE": "http://publications.europa.eu/resource/celex/02016M%2FTXT-20200301",
+                    "IDENTIFIER": "02016M/TXT-20200301",
+                    "TYPE": "celex"
+                }},
+                {"URI": {
+                    "VALUE": "http://publications.europa.eu/resource/consolidation/2016M%2FTXT%2F20200301",
+                    "IDENTIFIER": "2016M/TXT/20200301",
+                    "TYPE": "consolidation"
+                }}
+            ],
+            "WORK": {"WORK_DATE_DOCUMENT": {
+                "MONTH": "03",
+                "YEAR": 2020,
+                "VALUE": "2020-03-01",
+                "type": "date",
+                "DAY": "01"
+            }},
+            "type": "link",
+            "URI": {
+                "VALUE": "http://publications.europa.eu/resource/cellar/f0644d0c-5d85-11ea-b735-01aa75ed71a1",
+                "IDENTIFIER": "f0644d0c-5d85-11ea-b735-01aa75ed71a1",
+                "TYPE": "cellar"
+            }
+        },
+        "ID_SECTOR": {
+            "VALUE": 1,
+            "type": "data"
+        },
+        "TYPE": [
+            {
+                "type": "type",
+                "content": "cdm:treaty"
+            },
+            {
+                "type": "type",
+                "content": "cdm:resource_legal"
+            },
+            {
+                "type": "type",
+                "content": "cdm:work"
+            },
+            "M"
+        ],
+        "RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER": {
+            "type": "concept_hierarchy",
+            "RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER": {
+                "OP-CODE": "PRIN",
+                "PREFLABEL": "Principles, objectives and tasks of the Treaties",
+                "path": 1,
+                "level": 1,
+                "IDENTIFIER": "PRIN",
+                "type": "concept_hierarchy_concept",
+                "URI": {
+                    "VALUE": "http://publications.europa.eu/resource/authority/fd_070/PRIN",
+                    "IDENTIFIER": "PRIN",
+                    "TYPE": "fd_070"
+                }
+            }
+        },
+        "EXPRESSION": [
+            {
+                "EXPRESSION_TITLE": {
+                    "VALUE": "Consolidated version of the Treaty on European Union",
+                    "type": "data"
+                },
+                "SAMEAS": {"URI": {
+                    "VALUE": "http://publications.europa.eu/resource/celex/12016M%2FTXT.ENG",
+                    "IDENTIFIER": "12016M/TXT.ENG",
+                    "TYPE": "celex"
+                }},
+                "MANIFESTATION": [
+                    {
+                        "SAMEAS": {"URI": {
+                            "VALUE": "http://publications.europa.eu/resource/celex/12016M%2FTXT.ENG.xhtml",
+                            "IDENTIFIER": "12016M/TXT.ENG.xhtml",
+                            "TYPE": "celex"
+                        }},
+                        "URI": {
+                            "VALUE": "http://publications.europa.eu/resource/cellar/2021d50a-3468-11e6-969e-01aa75ed71a1.0005.01",
+                            "IDENTIFIER": "2021d50a-3468-11e6-969e-01aa75ed71a1.0005.01",
+                            "TYPE": "cellar"
+                        },
+                        "TYPE": [
+                            {
+                                "type": "type",
+                                "content": "cdm:manifestation"
+                            },
+                            {
+                                "VALUE": "xhtml",
+                                "type": "data"
+                            }
+                        ]
+                    },
+                    {
+                        "SAMEAS": {"URI": {
+                            "VALUE": "http://publications.europa.eu/resource/celex/12016M%2FTXT.ENG.pdfa1a",
+                            "IDENTIFIER": "12016M/TXT.ENG.pdfa1a",
+                            "TYPE": "celex"
+                        }},
+                        "URI": {
+                            "VALUE": "http://publications.europa.eu/resource/cellar/2021d50a-3468-11e6-969e-01aa75ed71a1.0005.02",
+                            "IDENTIFIER": "2021d50a-3468-11e6-969e-01aa75ed71a1.0005.02",
+                            "TYPE": "cellar"
+                        },
+                        "TYPE": [
+                            {
+                                "type": "type",
+                                "content": "cdm:manifestation"
+                            },
+                            {
+                                "VALUE": "pdfa1a",
+                                "type": "data"
+                            }
+                        ]
+                    }
+                ],
+                "display": true,
+                "URI": {
+                    "VALUE": "http://publications.europa.eu/resource/cellar/2021d50a-3468-11e6-969e-01aa75ed71a1.0005",
+                    "IDENTIFIER": "2021d50a-3468-11e6-969e-01aa75ed71a1.0005",
+                    "TYPE": "cellar"
+                },
+                "TYPE": {
+                    "type": "type",
+                    "content": "cdm:expression"
+                },
+                "LANG": {
+                    "VALUE": "ENG",
+                    "type": "data"
+                }
+            },
+            {
+                "EXPRESSION_TITLE": {
+                    "VALUE": "Wersja skonsolidowana Traktatu o Unii Europejskiej",
+                    "type": "data"
+                },
+                "SAMEAS": {"URI": {
+                    "VALUE": "http://publications.europa.eu/resource/celex/12016M%2FTXT.POL.pdfa1a",
+                    "IDENTIFIER": "12016M/TXT.POL.pdfa1a",
+                    "TYPE": "celex"
+                }},
+                "MANIFESTATION": [
+                    {
+                        "SAMEAS": {"URI": {
+                            "VALUE": "http://publications.europa.eu/resource/celex/12016M%2FTXT.POL.pdfa1a",
+                            "IDENTIFIER": "12016M/TXT.POL.pdfa1a",
+                            "TYPE": "celex"
+                        }},
+                        "URI": {
+                            "VALUE": "http://publications.europa.eu/resource/cellar/2021d50a-3468-11e6-969e-01aa75ed71a1.0001.01",
+                            "IDENTIFIER": "2021d50a-3468-11e6-969e-01aa75ed71a1.0001.01",
+                            "TYPE": "cellar"
+                        },
+                        "TYPE": [
+                            {
+                                "type": "type",
+                                "content": "cdm:manifestation"
+                            },
+                            {
+                                "VALUE": "pdfa1a",
+                                "type": "data"
+                            }
+                        ]
+                    },
+                    {
+                        "SAMEAS": {"URI": {
+                            "VALUE": "http://publications.europa.eu/resource/celex/12016M%2FTXT.POL.xhtml",
+                            "IDENTIFIER": "12016M/TXT.POL.xhtml",
+                            "TYPE": "celex"
+                        }},
+                        "URI": {
+                            "VALUE": "http://publications.europa.eu/resource/cellar/2021d50a-3468-11e6-969e-01aa75ed71a1.0001.01",
+                            "IDENTIFIER": "2021d50a-3468-11e6-969e-01aa75ed71a1.0001.02",
+                            "TYPE": "cellar"
+                        },
+                        "TYPE": [
+                            {
+                                "type": "type",
+                                "content": "cdm:manifestation"
+                            },
+                            {
+                                "VALUE": "xhtml",
+                                "type": "data"
+                            }
+                        ]
+                    }
+                ],
+                "display": false,
+                "URI": {
+                    "VALUE": "http://publications.europa.eu/resource/cellar/2021d50a-3468-11e6-969e-01aa75ed71a1.0001",
+                    "IDENTIFIER": "2021d50a-3468-11e6-969e-01aa75ed71a1.0001",
+                    "TYPE": "cellar"
+                },
+                "TYPE": {
+                    "type": "type",
+                    "content": "cdm:expression"
+                },
+                "LANG": {
+                    "VALUE": "POL",
+                    "type": "data"
+                }
+            }
+        ]
+    },
+    "type": "branch",
+    "decoding": "eng"
+}}

@@ -1,0 +1,247 @@
+{"NOTICE": {
+    "WORK": {
+        "RESOURCE_LEGAL_DATE_ENTRY-INTO-FORCE": {
+            "MONTH": 12,
+            "YEAR": 2019,
+            "VALUE": "2019-12-18",
+            "type": "date",
+            "DAY": 18
+        },
+        "SAMEAS": [
+            {"URI": {
+                "VALUE": "http://publications.europa.eu/resource/celex/02009R1223-20191218",
+                "IDENTIFIER": "02009R1223-20191218",
+                "TYPE": "celex"
+            }},
+            {"URI": {
+                "VALUE": "http://publications.europa.eu/resource/consolidation/2009R1223%2F20191218",
+                "IDENTIFIER": "2009R1223/20191218",
+                "TYPE": "consolidation"
+            }}
+        ],
+        "RESOURCE_LEGAL_ID_CELEX": {
+            "VALUE": "02009R1223-20191218",
+            "type": "data"
+        },
+        "ELI": {
+            "VALUE": "http://data.europa.eu/eli/reg/2009/1223/2019-12-18",
+            "type": "data"
+        },
+        "WORK_CREATED_BY_AGENT": {
+            "OP-CODE": "OP_DATPRO",
+            "PREFLABEL": "Provisional data",
+            "IDENTIFIER": "OP_DATPRO",
+            "type": "concept",
+            "URI": {
+                "VALUE": "http://publications.europa.eu/resource/authority/corporate-body/OP_DATPRO",
+                "IDENTIFIER": "OP_DATPRO",
+                "TYPE": "corporate-body"
+            }
+        },
+        "RESOURCE_LEGAL_NUMBER_NATURAL_CELEX": {
+            "VALUE": 1223,
+            "type": "data"
+        },
+        "WORK_HAS_RESOURCE-TYPE": {
+            "OP-CODE": "CONS_TEXT",
+            "PREFLABEL": "Consolidated text",
+            "IDENTIFIER": "CONS_TEXT",
+            "type": "concept",
+            "URI": {
+                "VALUE": "http://publications.europa.eu/resource/authority/resource-type/CONS_TEXT",
+                "IDENTIFIER": "CONS_TEXT",
+                "TYPE": "resource-type"
+            }
+        },
+        "WORK_DATE_DOCUMENT": {
+            "MONTH": 12,
+            "YEAR": 2019,
+            "VALUE": "2019-12-18",
+            "type": "date",
+            "DAY": 18
+        },
+        "ACT_CONSOLIDATED_BASED_ON_RESOURCE_LEGAL": {
+            "SAMEAS": [
+                {"URI": {
+                    "VALUE": "http://publications.europa.eu/resource/oj/JOL_2009_342_R_0059_01",
+                    "IDENTIFIER": "JOL_2009_342_R_0059_01",
+                    "TYPE": "oj"
+                }},
+                {"URI": {
+                    "VALUE": "http://publications.europa.eu/resource/eli/reg/2009/1223/oj",
+                    "IDENTIFIER": "reg:2009:1223:oj",
+                    "TYPE": "eli"
+                }},
+                {"URI": {
+                    "VALUE": "http://publications.europa.eu/resource/celex/32009R1223",
+                    "IDENTIFIER": "32009R1223",
+                    "TYPE": "celex"
+                }}
+            ],
+            "type": "link",
+            "URI": {
+                "VALUE": "http://publications.europa.eu/resource/cellar/4100396c-575c-4150-8d92-e7c23ab1ce97",
+                "IDENTIFIER": "4100396c-575c-4150-8d92-e7c23ab1ce97",
+                "TYPE": "cellar"
+            }
+        },
+        "URI": {
+            "VALUE": "http://publications.europa.eu/resource/cellar/f59cb92a-64d2-11ea-b735-01aa75ed71a1",
+            "IDENTIFIER": "f59cb92a-64d2-11ea-b735-01aa75ed71a1",
+            "TYPE": "cellar"
+        },
+        "RESOURCE_LEGAL_YEAR": {
+            "VALUE": 2009,
+            "type": "data"
+        },
+        "RESOURCE_LEGAL_TYPE": {
+            "VALUE": "R",
+            "type": "data"
+        },
+        "DATE_CREATION_LEGACY": {
+            "MONTH": "03",
+            "YEAR": 2020,
+            "VALUE": "2020-03-13",
+            "type": "date",
+            "DAY": 13
+        },
+        "LASTMODIFICATIONDATE": {
+            "MONTH": "06",
+            "YEAR": 2020,
+            "VALUE": "2020-06-16",
+            "type": "date",
+            "DAY": 16
+        },
+        "ID_SECTOR": {
+            "VALUE": 0,
+            "type": "data"
+        },
+        "TYPE": [
+            {
+                "type": "type",
+                "content": "cdm:work"
+            },
+            {
+                "type": "type",
+                "content": "cdm:act_consolidated"
+            },
+            {
+                "type": "type",
+                "content": "cdm:resource_legal"
+            },
+            {
+                "VALUE": "R",
+                "type": "data"
+            }
+        ],
+        "EXPRESSION": [
+            {
+                "EXPRESSION_TITLE": {
+                    "VALUE": "Regulation (EC) No 1223/2009 of the European Parliament and of the Council of 30 November 2009 on cosmetic products (recast) (Text with EEA relevance)Text with EEA relevance\r\n         en",
+                    "type": "data"
+                },
+                "SAMEAS": [
+                    {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/celex/02009R1223-20191218.ENG",
+                        "IDENTIFIER": "02009R1223-20191218.ENG",
+                        "TYPE": "celex"
+                    }},
+                    {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/consolidation/2009R1223%2F20191218.ENG",
+                        "IDENTIFIER": "2009R1223/20191218.ENG",
+                        "TYPE": "consolidation"
+                    }}
+                ],
+                "MANIFESTATION": {
+                    "SAMEAS": [
+                        {"URI": {
+                            "VALUE": "http://publications.europa.eu/resource/celex/02009R1223-20191218.ENG.xhtml",
+                            "IDENTIFIER": "02009R1223-20191218.ENG.xhtml",
+                            "TYPE": "celex"
+                        }},
+                        {"URI": {
+                            "VALUE": "http://publications.europa.eu/resource/consolidation/2009R1223%2F20191218.ENG.xhtml",
+                            "IDENTIFIER": "2009R1223/20191218.ENG.xhtml",
+                            "TYPE": "consolidation"
+                        }}
+                    ],
+                    "TYPE": [
+                        {
+                            "VALUE": "xhtml",
+                            "type": "data"
+                        },
+                        {
+                            "type": "type",
+                            "content": "cdm:manifestation"
+                        }
+                    ],
+                    "URI": {
+                        "VALUE": "http://publications.europa.eu/resource/cellar/f59cb92a-64d2-11ea-b735-01aa75ed71a1.0001.01",
+                        "IDENTIFIER": "f59cb92a-64d2-11ea-b735-01aa75ed71a1.0001.01",
+                        "TYPE": "cellar"
+                    }
+                },
+                "display": true,
+                "URI": {
+                    "VALUE": "http://publications.europa.eu/resource/cellar/f59cb92a-64d2-11ea-b735-01aa75ed71a1.0001",
+                    "IDENTIFIER": "f59cb92a-64d2-11ea-b735-01aa75ed71a1.0001",
+                    "TYPE": "cellar"
+                },
+                "TYPE": {
+                    "type": "type",
+                    "content": "cdm:expression"
+                },
+                "LANG": "ENG"
+            },
+            {
+                "EXPRESSION_TITLE": {
+                    "VALUE": "Rialachán (CE) Uimh. 1223/2009 ó Pharlaimint na hEorpa agus ón gComhairle an 30 Samhain 2009 maidir le táirgí cosmaideacha (athmhúnlú) (Téacs atá ábhartha maidir leis an LEE)Téacs atá ábhartha maidir leis an LEE",
+                    "type": "data"
+                },
+                "SAMEAS": [
+                    {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/celex/02009R1223-20191218.GLE",
+                        "IDENTIFIER": "02009R1223-20191218.GLE",
+                        "TYPE": "celex"
+                    }},
+                    {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/consolidation/2009R1223%2F20191218.GLE",
+                        "IDENTIFIER": "2009R1223/20191218.GLE",
+                        "TYPE": "consolidation"
+                    }}
+                ],
+                "MANIFESTATION": {
+                    "SAMEAS": {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/celex/02009R1223-20191218.GLE.fmx4",
+                        "IDENTIFIER": "02009R1223-20191218.GLE.fmx4",
+                        "TYPE": "celex"
+                    }},
+                    "TYPE": [
+                        {
+                            "VALUE": "fmx4",
+                            "type": "data"
+                        },
+                        {
+                            "type": "type",
+                            "content": "cdm:manifestation"
+                        }
+                    ]
+                },
+                "display": false,
+                "URI": {
+                    "VALUE": "http://publications.europa.eu/resource/cellar/f59cb92a-64d2-11ea-b735-01aa75ed71a1.0002",
+                    "IDENTIFIER": "f59cb92a-64d2-11ea-b735-01aa75ed71a1.0001",
+                    "TYPE": "cellar"
+                },
+                "TYPE": {
+                    "type": "type",
+                    "content": "cdm:expression"
+                },
+                "LANG": "GLE"
+            }
+        ]
+    },
+    "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "type": "branch",
+    "decoding": "eng"
+}}

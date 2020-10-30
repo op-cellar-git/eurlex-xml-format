@@ -1,0 +1,158 @@
+{"NOTICE": {
+    "type": "object",
+    "EXPRESSION": {
+        "EXPRESSION_TITLE": {
+            "VALUE": "Regulation (EU) 2018/196 of the European Parliament and of the Council of 7 February 2018 on additional customs duties on imports of certain products originating in the United States of America",
+            "type": "data"
+        },
+        "SAMEAS": [
+            {"URI": {
+                "VALUE": "http://publications.europa.eu/resource/celex/32018R0196.ENG",
+                "IDENTIFIER": "32018R0196.ENG",
+                "TYPE": "celex"
+            }},
+            {"URI": {
+                "VALUE": "http://publications.europa.eu/resource/oj/JOL_2018_044_R_0001.ENG",
+                "IDENTIFIER": "JOL_2018_044_R_0001.ENG",
+                "TYPE": "oj"
+            }},
+            {"URI": {
+                "VALUE": "http://publications.europa.eu/resource/uriserv/OJ.L_.2018.044.01.0001.01.ENG",
+                "IDENTIFIER": "OJ.L_.2018.044.01.0001.01.ENG",
+                "TYPE": "uriserv"
+            }}
+        ],
+        "EXPRESSION_BELONGS_TO_WORK": {
+            "SAMEAS": [
+                {"URI": {
+                    "VALUE": "http://publications.europa.eu/resource/oj/JOL_2018_044_R_0001",
+                    "IDENTIFIER": "JOL_2018_044_R_0001",
+                    "TYPE": "oj"
+                }},
+                {"URI": {
+                    "VALUE": "http://publications.europa.eu/resource/eli/reg/2018/196/oj",
+                    "IDENTIFIER": "reg:2018:196:oj",
+                    "TYPE": "eli"
+                }},
+                {"URI": {
+                    "VALUE": "http://publications.europa.eu/resource/celex/32018R0196",
+                    "IDENTIFIER": "32018R0196",
+                    "TYPE": "celex"
+                }}
+            ],
+            "URI": {
+                "VALUE": "http://publications.europa.eu/resource/cellar/fa9532bb-12e6-11e8-9253-01aa75ed71a1",
+                "IDENTIFIER": "fa9532bb-12e6-11e8-9253-01aa75ed71a1",
+                "TYPE": "cellar"
+            }
+        },
+        "CREATIONDATE": {
+            "MONTH": "02",
+            "YEAR": 2018,
+            "VALUE": "2018-02-16T08:00:11.887+01:00",
+            "type": "date",
+            "DAY": 16
+        },
+        "EXPRESSION_MANIFESTED_BY_MANIFESTATION": [
+            {
+                "SAMEAS": [
+                    {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/uriserv/OJ.L_.2018.044.01.0001.01.ENG.fmx4",
+                        "IDENTIFIER": "OJ.L_.2018.044.01.0001.01.ENG.fmx4",
+                        "TYPE": "uriserv"
+                    }},
+                    {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/celex/32018R0196.ENG.fmx4",
+                        "IDENTIFIER": "32018R0196.ENG.fmx4",
+                        "TYPE": "celex"
+                    }},
+                    {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/oj/JOL_2018_044_R_0001.ENG.fmx4",
+                        "IDENTIFIER": "JOL_2018_044_R_0001.ENG.fmx4",
+                        "TYPE": "oj"
+                    }}
+                ],
+                "URI": {
+                    "VALUE": "http://publications.europa.eu/resource/cellar/fa9532bb-12e6-11e8-9253-01aa75ed71a1.0006.01",
+                    "IDENTIFIER": "fa9532bb-12e6-11e8-9253-01aa75ed71a1.0006.01",
+                    "TYPE": "cellar"
+                }
+            },
+            {
+                "SAMEAS": [
+                    {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/celex/32018R0196.ENG.pdfa1a",
+                        "IDENTIFIER": "32018R0196.ENG.pdfa1a",
+                        "TYPE": "celex"
+                    }},
+                    {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/uriserv/OJ.L_.2018.044.01.0001.01.ENG.pdfa1a",
+                        "IDENTIFIER": "OJ.L_.2018.044.01.0001.01.ENG.pdfa1a",
+                        "TYPE": "uriserv"
+                    }},
+                    {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/oj/JOL_2018_044_R_0001.ENG.pdfa1a",
+                        "IDENTIFIER": "JOL_2018_044_R_0001.ENG.pdfa1a",
+                        "TYPE": "oj"
+                    }}
+                ],
+                "URI": {
+                    "VALUE": "http://publications.europa.eu/resource/cellar/fa9532bb-12e6-11e8-9253-01aa75ed71a1.0006.03",
+                    "IDENTIFIER": "fa9532bb-12e6-11e8-9253-01aa75ed71a1.0006.03",
+                    "TYPE": "cellar"
+                }
+            },
+            {
+                "SAMEAS": [
+                    {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/oj/JOL_2018_044_R_0001.ENG.xhtml",
+                        "IDENTIFIER": "JOL_2018_044_R_0001.ENG.xhtml",
+                        "TYPE": "oj"
+                    }},
+                    {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/uriserv/OJ.L_.2018.044.01.0001.01.ENG.xhtml",
+                        "IDENTIFIER": "OJ.L_.2018.044.01.0001.01.ENG.xhtml",
+                        "TYPE": "uriserv"
+                    }},
+                    {"URI": {
+                        "VALUE": "http://publications.europa.eu/resource/celex/32018R0196.ENG.xhtml",
+                        "IDENTIFIER": "32018R0196.ENG.xhtml",
+                        "TYPE": "celex"
+                    }}
+                ],
+                "URI": {
+                    "VALUE": "http://publications.europa.eu/resource/cellar/fa9532bb-12e6-11e8-9253-01aa75ed71a1.0006.02",
+                    "IDENTIFIER": "fa9532bb-12e6-11e8-9253-01aa75ed71a1.0006.02",
+                    "TYPE": "cellar"
+                }
+            }
+        ],
+        "LASTMODIFICATIONDATE": {
+            "MONTH": "02",
+            "YEAR": 2018,
+            "VALUE": "2018-02-16T08:18:30.944+01:00",
+            "type": "date",
+            "DAY": 16
+        },
+        "TITLE": {
+            "VALUE": "Regulation (EU) 2018/196 of the European Parliament and of the Council of 7 February 2018 on additional customs duties on imports of certain products originating in the United States of America",
+            "type": "data"
+        },
+        "URI": {
+            "VALUE": "http://publications.europa.eu/resource/cellar/fa9532bb-12e6-11e8-9253-01aa75ed71a1.0006",
+            "IDENTIFIER": "fa9532bb-12e6-11e8-9253-01aa75ed71a1.0006",
+            "TYPE": "cellar"
+        },
+        "LANG": [
+            {
+                "VALUE": "en",
+                "type": "data"
+            },
+            {
+                "VALUE": "eng",
+                "type": "data"
+            }
+        ]
+    },
+    "decoding": "eng"
+}}
