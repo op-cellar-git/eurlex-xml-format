@@ -1,2602 +1,2633 @@
-{"NOTICE": {
-    "DOSSIER": {
-        "NUMBER_PROCEDURE": {
-            "VALUE": "0449",
-            "type": "data"
-        },
-        "SAMEAS": [
-            {"URI": {
-                "VALUE": "http://publications.europa.eu/resource/pegase/1041573",
-                "IDENTIFIER": 1041573,
-                "TYPE": "pegase"
-            }},
-            {"URI": {
-                "VALUE": "http://publications.europa.eu/resource/procedure/2013_449",
-                "IDENTIFIER": "2013_449",
-                "TYPE": "procedure"
-            }}
-        ],
-        "DOSSIER_ADOPTED-PROPOSAL": {
-            "VALUE": true,
-            "type": "data"
-        },
-        "DOSSIER_TITLE": [
-            {
-                "VALUE": "Proposal for a Regulation of the European Parliament and of the Council on payments",
-                "type": "data",
-                "LANG": "fr"
-            },
-            {
-                "VALUE": "Proposal for a&#13;\r\nREGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL&#13;\r\namending Regulation (EU) N° 260/2012 as regards the migration to Union-wide credit&#13;\r\ntransfers and direct debits",
-                "type": "data",
-                "LANG": "en"
-            }
-        ],
-        "REFERENCE_PROCEDURE": {
-            "VALUE": "2013/0449/COD",
-            "type": "data"
-        },
-        "CONTAINS": [
-            {
-                "SAMEAS": {"URI": {
-                    "VALUE": "http://publications.europa.eu/resource/oj/JOC_2014_177_R_0041_01",
-                    "IDENTIFIER": "JOC_2014_177_R_0041_01",
-                    "TYPE": "oj"
-                }},
-                "type": "link"
-            },
-            {
-                "SAMEAS": [
-                    {"URI": {
-                        "VALUE": "http://publications.europa.eu/resource/celex/32014R0248",
-                        "IDENTIFIER": "32014R0248",
-                        "TYPE": "celex"
-                    }},
-                    {"URI": {
-                        "VALUE": "http://publications.europa.eu/resource/eli/reg/2014/248/oj",
-                        "IDENTIFIER": "reg:2014:248:oj",
-                        "TYPE": "eli"
-                    }},
-                    {"URI": {
-                        "VALUE": "http://publications.europa.eu/resource/oj/JOL_2014_084_R_0001_01",
-                        "IDENTIFIER": "JOL_2014_084_R_0001_01",
-                        "TYPE": "oj"
-                    }}
-                ],
-                "type": "link",
-                "URI": {
-                    "VALUE": "http://publications.europa.eu/resource/cellar/8eaf8eb4-b002-11e3-86f9-01aa75ed71a1",
-                    "IDENTIFIER": "8eaf8eb4-b002-11e3-86f9-01aa75ed71a1",
-                    "TYPE": "cellar"
-                }
-            },
-            {
-                "SAMEAS": {"URI": {
-                    "VALUE": "http://publications.europa.eu/resource/pegase/CSST_2014_5210_0000_0000_0000",
-                    "IDENTIFIER": "CSST_2014_5210_0000_0000_0000",
-                    "TYPE": "pegase"
-                }},
-                "type": "link"
-            },
-            {
-                "SAMEAS": [
-                    {"URI": {
-                        "VALUE": "http://publications.europa.eu/resource/celex/52014IE0238",
-                        "IDENTIFIER": "52014IE0238",
-                        "TYPE": "celex"
-                    }},
-                    {"URI": {
-                        "VALUE": "http://publications.europa.eu/resource/oj/JOC_2014_177_R_0007",
-                        "IDENTIFIER": "JOC_2014_177_R_0007",
-                        "TYPE": "oj"
-                    }},
-                    {"URI": {
-                        "VALUE": "http://publications.europa.eu/resource/planjo/20140512-006",
-                        "IDENTIFIER": "20140512-006",
-                        "TYPE": "planjo"
-                    }},
-                    {"URI": {
-                        "VALUE": "http://publications.europa.eu/resource/immc/planjo%3A20140512-006",
-                        "IDENTIFIER": "planjo:20140512-006",
-                        "TYPE": "immc"
-                    }}
-                ],
-                "type": "link",
-                "URI": {
-                    "VALUE": "http://publications.europa.eu/resource/cellar/cd9fac52-f12e-11e3-8cd4-01aa75ed71a1",
-                    "IDENTIFIER": "cd9fac52-f12e-11e3-8cd4-01aa75ed71a1",
-                    "TYPE": "cellar"
-                }
-            },
-            {
-                "SAMEAS": {"URI": {
-                    "VALUE": "http://publications.europa.eu/resource/oj/JOC_2017_093_R_0163_01",
-                    "IDENTIFIER": "JOC_2017_093_R_0163_01",
-                    "TYPE": "oj"
-                }},
-                "type": "link"
-            },
-            {
-                "SAMEAS": [
-                    {"URI": {
-                        "VALUE": "http://publications.europa.eu/resource/oj/JOC_2017_093_R_0034",
-                        "IDENTIFIER": "JOC_2017_093_R_0034",
-                        "TYPE": "oj"
-                    }},
-                    {"URI": {
-                        "VALUE": "http://publications.europa.eu/resource/celex/52014AP0049",
-                        "IDENTIFIER": "52014AP0049",
-                        "TYPE": "celex"
-                    }}
-                ],
-                "type": "link",
-                "URI": {
-                    "VALUE": "http://publications.europa.eu/resource/cellar/ac9186ea-1061-11e7-8a35-01aa75ed71a1",
-                    "IDENTIFIER": "ac9186ea-1061-11e7-8a35-01aa75ed71a1",
-                    "TYPE": "cellar"
-                }
-            },
-            {
-                "SAMEAS": [
-                    {"URI": {
-                        "VALUE": "http://publications.europa.eu/resource/celex/52014AB0003",
-                        "IDENTIFIER": "52014AB0003",
-                        "TYPE": "celex"
-                    }},
-                    {"URI": {
-                        "VALUE": "http://publications.europa.eu/resource/oj/JOC_2014_080_R_0001_01",
-                        "IDENTIFIER": "JOC_2014_080_R_0001_01",
-                        "TYPE": "oj"
-                    }}
-                ],
-                "type": "link",
-                "URI": {
-                    "VALUE": "http://publications.europa.eu/resource/cellar/1efeba0b-af63-11e3-86f9-01aa75ed71a1",
-                    "IDENTIFIER": "1efeba0b-af63-11e3-86f9-01aa75ed71a1",
-                    "TYPE": "cellar"
-                }
-            },
-            {
-                "SAMEAS": {"URI": {
-                    "VALUE": "http://publications.europa.eu/resource/pegase/1041573.2014-03-20_PUB_OJ",
-                    "IDENTIFIER": "1041573.2014-03-20_PUB_OJ",
-                    "TYPE": "pegase"
-                }},
-                "type": "link",
-                "URI": {
-                    "VALUE": "http://publications.europa.eu/resource/cellar/9c2763b8-796d-11e3-b889-01aa75ed71a1.0009",
-                    "IDENTIFIER": "9c2763b8-796d-11e3-b889-01aa75ed71a1.0009",
-                    "TYPE": "cellar"
-                }
-            },
-            {
-                "SAMEAS": [
-                    {"URI": {
-                        "VALUE": "http://publications.europa.eu/resource/celex/52013PC0937",
-                        "IDENTIFIER": "52013PC0937",
-                        "TYPE": "celex"
-                    }},
-                    {"URI": {
-                        "VALUE": "http://publications.europa.eu/resource/comnat/COM_2013_0937_FIN",
-                        "IDENTIFIER": "COM_2013_0937_FIN",
-                        "TYPE": "comnat"
-                    }},
-                    {"URI": {
-                        "VALUE": "http://publications.europa.eu/resource/com/COM_2014_028",
-                        "IDENTIFIER": "COM_2014_028",
-                        "TYPE": "com"
-                    }}
-                ],
-                "type": "link",
-                "URI": {
-                    "VALUE": "http://publications.europa.eu/resource/cellar/2731f50a-7dfd-11e3-b889-01aa75ed71a1",
-                    "IDENTIFIER": "2731f50a-7dfd-11e3-b889-01aa75ed71a1",
-                    "TYPE": "cellar"
-                }
-            }
-        ],
-        "DOSSIER_PENDING-PROPOSAL": {
-            "VALUE": false,
-            "type": "data"
-        },
-        "URI": {
-            "VALUE": "http://publications.europa.eu/resource/cellar/9c2763b8-796d-11e3-b889-01aa75ed71a1",
-            "IDENTIFIER": "9c2763b8-796d-11e3-b889-01aa75ed71a1",
-            "TYPE": "cellar"
-        },
-        "DOSSIER_PRODUCES_RESOURCE_LEGAL": {
-            "SAMEAS": [
-                {"URI": {
-                    "VALUE": "http://publications.europa.eu/resource/celex/32014R0248",
-                    "IDENTIFIER": "32014R0248",
-                    "TYPE": "celex"
-                }},
-                {"URI": {
-                    "VALUE": "http://publications.europa.eu/resource/eli/reg/2014/248/oj",
-                    "IDENTIFIER": "reg:2014:248:oj",
-                    "TYPE": "eli"
-                }},
-                {"URI": {
-                    "VALUE": "http://publications.europa.eu/resource/oj/JOL_2014_084_R_0001_01",
-                    "IDENTIFIER": "JOL_2014_084_R_0001_01",
-                    "TYPE": "oj"
-                }}
-            ],
-            "type": "link",
-            "URI": {
-                "VALUE": "http://publications.europa.eu/resource/cellar/8eaf8eb4-b002-11e3-86f9-01aa75ed71a1",
-                "IDENTIFIER": "8eaf8eb4-b002-11e3-86f9-01aa75ed71a1",
-                "TYPE": "cellar"
-            }
-        },
-        "DOSSIER_YEAR_REFERENCE": {
-            "VALUE": 2013,
-            "type": "data"
-        },
-        "EVENT": [
-            {
-                "DATE": {
-                    "MONTH": "01",
-                    "YEAR": 2014,
-                    "VALUE": "2014-01-09",
-                    "type": "date",
-                    "DAY": "09"
-                },
-                "SAMEAS": {"URI": {
-                    "VALUE": "http://publications.europa.eu/resource/pegase/1041573.1212789",
-                    "IDENTIFIER": 1041573.1212789,
-                    "TYPE": "pegase"
-                }},
-                "CREATIONDATE": {
-                    "MONTH": "01",
-                    "YEAR": 1001,
-                    "VALUE": "1001-01-01T00:00:00.000+00:00",
-                    "type": "date",
-                    "DAY": "01"
-                },
-                "EVENT_LEGAL_INITIATED_BY_INSTITUTION": {
-                    "OP-CODE": "COM",
-                    "PREFLABEL": "European Commission",
-                    "ALTLABEL": [
-                        "EC",
-                        "Commission of the European Communities",
-                        "European Commission",
-                        "Commission"
-                    ],
-                    "IDENTIFIER": "COM",
-                    "type": "concept",
-                    "URI": {
-                        "VALUE": "http://publications.europa.eu/resource/authority/corporate-body/COM",
-                        "IDENTIFIER": "COM",
-                        "TYPE": "corporate-body"
-                    }
-                },
-                "EVENT_LEGAL_PART_OF_DOSSIER": {
-                    "SAMEAS": [
-                        {"URI": {
-                            "VALUE": "http://publications.europa.eu/resource/pegase/1041573",
-                            "IDENTIFIER": 1041573,
-                            "TYPE": "pegase"
-                        }},
-                        {"URI": {
-                            "VALUE": "http://publications.europa.eu/resource/procedure/2013_449",
-                            "IDENTIFIER": "2013_449",
-                            "TYPE": "procedure"
-                        }}
-                    ],
-                    "type": "link",
-                    "URI": {
-                        "VALUE": "http://publications.europa.eu/resource/cellar/9c2763b8-796d-11e3-b889-01aa75ed71a1",
-                        "IDENTIFIER": "9c2763b8-796d-11e3-b889-01aa75ed71a1",
-                        "TYPE": "cellar"
-                    }
-                },
-                "LASTMODIFICATIONDATE": {
-                    "MONTH": "06",
-                    "YEAR": 2014,
-                    "VALUE": "2014-06-12T00:49:30.642+02:00",
-                    "type": "date",
-                    "DAY": 12
-                },
-                "EVENT_LEGAL_DATE": {
-                    "MONTH": "01",
-                    "YEAR": 2014,
-                    "VALUE": "2014-01-09",
-                    "type": "date",
-                    "DAY": "09"
-                },
-                "URI": {
-                    "VALUE": "http://publications.europa.eu/resource/cellar/9c2763b8-796d-11e3-b889-01aa75ed71a1.0002",
-                    "IDENTIFIER": "9c2763b8-796d-11e3-b889-01aa75ed71a1.0002",
-                    "TYPE": "cellar"
-                },
-                "TYPE": [
-                    {
-                        "type": "type",
-                        "content": "cdm:event"
-                    },
-                    {
-                        "VALUE": "Transmission au Conseil",
-                        "type": "data"
-                    }
-                ],
-                "EVENT_LEGAL_HAS_TYPE_CONCEPT_TYPE_EVENT_LEGAL": {
-                    "OP-CODE": "TRS_toCONSIL_byCOM",
-                    "PREFLABEL": "Transmission to Council",
-                    "ALTLABEL": "Transmission to Council",
-                    "IDENTIFIER": "TRS_toCONSIL_byCOM",
-                    "type": "concept",
-                    "URI": {
-                        "VALUE": "http://publications.europa.eu/resource/authority/event/TRS_toCONSIL_byCOM",
-                        "IDENTIFIER": "TRS_toCONSIL_byCOM",
-                        "TYPE": "event"
-                    }
-                }
-            },
-            {
-                "SAMEAS": {"URI": {
-                    "VALUE": "http://publications.europa.eu/resource/pegase/1041573.1212788",
-                    "IDENTIFIER": 1041573.1212788,
-                    "TYPE": "pegase"
-                }},
-                "EVENT_LEGAL_WAS_HISTORICALLY_ABOUT_CONCEPT_TYPE_DOSSIER": {
-                    "OP-CODE": 1260,
-                    "PREFLABEL": "Proposal for a Regulation",
-                    "ALTLABEL": "Proposal for a Regulation",
-                    "IDENTIFIER": 1260,
-                    "type": "concept",
-                    "URI": {
-                        "VALUE": "http://publications.europa.eu/resource/authority/fd_612/1260",
-                        "IDENTIFIER": 1260,
-                        "TYPE": "fd_612"
-                    }
-                },
-                "EVENT_LEGAL_INITIATED_BY_INSTITUTION": {
-                    "OP-CODE": "COM",
-                    "PREFLABEL": "European Commission",
-                    "ALTLABEL": [
-                        "EC",
-                        "Commission of the European Communities",
-                        "European Commission",
-                        "Commission"
-                    ],
-                    "IDENTIFIER": "COM",
-                    "type": "concept",
-                    "URI": {
-                        "VALUE": "http://publications.europa.eu/resource/authority/corporate-body/COM",
-                        "IDENTIFIER": "COM",
-                        "TYPE": "corporate-body"
-                    }
-                },
-                "EVENT_LEGAL_WAS_HISTORICALLY_ABOUT_CONCEPT_TYPE_PROCEDURE_CODE_INTERINSTITUTIONAL": {
-                    "OP-CODE": "OLP",
-                    "PREFLABEL": "Ordinary legislative procedure (COD)",
-                    "IDENTIFIER": "OLP",
-                    "type": "concept",
-                    "URI": {
-                        "VALUE": "http://publications.europa.eu/resource/authority/procedure/OLP",
-                        "IDENTIFIER": "OLP",
-                        "TYPE": "procedure"
-                    }
-                },
-                "EVENT_LEGAL_MANDATORILY-CONSULTS_INSTITUTION": {
-                    "OP-CODE": "EESC",
-                    "PREFLABEL": "European Economic and Social Committee",
-                    "ALTLABEL": [
-                        "EESC",
-                        "Economic and Social Committee",
-                        "Economic and Social Committee of the European Communities"
-                    ],
-                    "IDENTIFIER": "EESC",
-                    "type": "concept",
-                    "URI": {
-                        "VALUE": "http://publications.europa.eu/resource/authority/corporate-body/EESC",
-                        "IDENTIFIER": "EESC",
-                        "TYPE": "corporate-body"
-                    }
-                },
-                "CONTAINS": [
-                    {
-                        "SAMEAS": [
-                            {"URI": {
-                                "VALUE": "http://publications.europa.eu/resource/celex/52013PC0937",
-                                "IDENTIFIER": "52013PC0937",
-                                "TYPE": "celex"
-                            }},
-                            {"URI": {
-                                "VALUE": "http://publications.europa.eu/resource/comnat/COM_2013_0937_FIN",
-                                "IDENTIFIER": "COM_2013_0937_FIN",
-                                "TYPE": "comnat"
-                            }},
-                            {"URI": {
-                                "VALUE": "http://publications.europa.eu/resource/com/COM_2014_028",
-                                "IDENTIFIER": "COM_2014_028",
-                                "TYPE": "com"
-                            }}
-                        ],
-                        "type": "link",
-                        "URI": {
-                            "VALUE": "http://publications.europa.eu/resource/cellar/2731f50a-7dfd-11e3-b889-01aa75ed71a1",
-                            "IDENTIFIER": "2731f50a-7dfd-11e3-b889-01aa75ed71a1",
-                            "TYPE": "cellar"
-                        }
-                    },
-                    {
-                        "SAMEAS": {"URI": {
-                            "VALUE": "http://publications.europa.eu/resource/pegase/CSST_2014_5210_0000_0000_0000",
-                            "IDENTIFIER": "CSST_2014_5210_0000_0000_0000",
-                            "TYPE": "pegase"
-                        }},
-                        "type": "link"
-                    }
-                ],
-                "EVENT_RESPONSIBILITY_OF_INSTITUTION": {
-                    "OP-CODE": "MARKT",
-                    "PREFLABEL": "Directorate-General for the Internal Market and Services",
-                    "ALTLABEL": [
-                        "DG Internal Market and Services",
-                        "Directorate-General for the Internal Market",
-                        "Internal Market DG"
-                    ],
-                    "IDENTIFIER": "MARKT",
-                    "type": "concept",
-                    "URI": {
-                        "VALUE": "http://publications.europa.eu/resource/authority/corporate-body/MARKT",
-                        "IDENTIFIER": "MARKT",
-                        "TYPE": "corporate-body"
-                    }
-                },
-                "URI": {
-                    "VALUE": "http://publications.europa.eu/resource/cellar/9c2763b8-796d-11e3-b889-01aa75ed71a1.0001",
-                    "IDENTIFIER": "9c2763b8-796d-11e3-b889-01aa75ed71a1.0001",
-                    "TYPE": "cellar"
-                },
-                "EVENT_LEGAL_CONTAINS_WORK": [
-                    {
-                        "SAMEAS": [
-                            {"URI": {
-                                "VALUE": "http://publications.europa.eu/resource/celex/52013PC0937",
-                                "IDENTIFIER": "52013PC0937",
-                                "TYPE": "celex"
-                            }},
-                            {"URI": {
-                                "VALUE": "http://publications.europa.eu/resource/comnat/COM_2013_0937_FIN",
-                                "IDENTIFIER": "COM_2013_0937_FIN",
-                                "TYPE": "comnat"
-                            }},
-                            {"URI": {
-                                "VALUE": "http://publications.europa.eu/resource/com/COM_2014_028",
-                                "IDENTIFIER": "COM_2014_028",
-                                "TYPE": "com"
-                            }}
-                        ],
-                        "WORK": {
-                            "ID_CELEX": {
-                                "VALUE": "52013PC0937",
-                                "type": "data"
-                            },
-                            "RESOURCE_LEGAL_NUMBER_NATURAL_CELEX": {
-                                "VALUE": "0937",
-                                "type": "data"
-                            },
-                            "WORK_HAS_RESOURCE-TYPE": {
-                                "OP-CODE": "PROP_REG",
-                                "PREFLABEL": "Proposal for a regulation",
-                                "IDENTIFIER": "PROP_REG",
-                                "type": "concept",
-                                "URI": {
-                                    "VALUE": "http://publications.europa.eu/resource/authority/resource-type/PROP_REG",
-                                    "IDENTIFIER": "PROP_REG",
-                                    "TYPE": "resource-type"
-                                }
-                            },
-                            "WORK_DATE_DOCUMENT": {
-                                "MONTH": "01",
-                                "YEAR": 2014,
-                                "VALUE": "2014-01-09",
-                                "type": "date",
-                                "DAY": "09"
-                            },
-                            "ID_SECTOR": {
-                                "VALUE": 5,
-                                "type": "data"
-                            },
-                            "TYPE": {
-                                "type": "type",
-                                "content": "cdm:work"
-                            },
-                            "EXPRESSION": {"EXPRESSION_TITLE": {
-                                "VALUE": "Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL amending Regulation (EU) N° 260/2012 as regards the migration to Union-wide credit transfers and direct debits",
-                                "type": "data"
-                            }}
-                        },
-                        "type": "link",
-                        "URI": {
-                            "VALUE": "http://publications.europa.eu/resource/cellar/2731f50a-7dfd-11e3-b889-01aa75ed71a1",
-                            "IDENTIFIER": "2731f50a-7dfd-11e3-b889-01aa75ed71a1",
-                            "TYPE": "cellar"
-                        }
-                    },
-                    {
-                        "SAMEAS": {"URI": {
-                            "VALUE": "http://publications.europa.eu/resource/pegase/CSST_2014_5210_0000_0000_0000",
-                            "IDENTIFIER": "CSST_2014_5210_0000_0000_0000",
-                            "TYPE": "pegase"
-                        }},
-                        "type": "link"
-                    }
-                ],
-                "EVENT_LEGAL_OPTIONALLY-CONSULTS_INSTITUTION": {
-                    "OP-CODE": "ECB",
-                    "PREFLABEL": "European Central Bank",
-                    "ALTLABEL": "ECB",
-                    "IDENTIFIER": "ECB",
-                    "type": "concept",
-                    "URI": {
-                        "VALUE": "http://publications.europa.eu/resource/authority/corporate-body/ECB",
-                        "IDENTIFIER": "ECB",
-                        "TYPE": "corporate-body"
-                    }
-                },
-                "EVENT_LEGAL_USES_CONCEPT_MODE_DECISION": {
-                    "OP-CODE": 1010,
-                    "PREFLABEL": "Written procedure",
-                    "ALTLABEL": "Written procedure",
-                    "IDENTIFIER": 1010,
-                    "type": "concept",
-                    "URI": {
-                        "VALUE": "http://publications.europa.eu/resource/authority/fd_606/1010",
-                        "IDENTIFIER": 1010,
-                        "TYPE": "fd_606"
-                    }
-                },
-                "EVENT_LEGAL_DOCUMENT_REFERENCE": [
-                    {
-                        "VALUE": "IP/2014/6",
-                        "type": "data"
-                    },
-                    {
-                        "VALUE": "CSST/2014/5210",
-                        "type": "data"
-                    },
-                    {
-                        "VALUE": "COM/2013/937/FINAL",
-                        "type": "data"
-                    }
-                ],
-                "EVENT_LEGAL_RESPONSIBILITY_OF_PERSON": {
-                    "SAMEAS": {"URI": {
-                        "VALUE": "http://publications.europa.eu/resource/agent/Michel%20BARNIER%20",
-                        "IDENTIFIER": "Michel BARNIER",
-                        "TYPE": "agent"
-                    }},
-                    "type": "link",
-                    "URI": {
-                        "VALUE": "http://publications.europa.eu/resource/cellar/eaf2f71d-d1db-11e1-905c-01aa75ed71a1",
-                        "IDENTIFIER": "eaf2f71d-d1db-11e1-905c-01aa75ed71a1",
-                        "TYPE": "cellar"
-                    }
-                },
-                "TYPE": [
-                    {
-                        "type": "type",
-                        "content": "cdm:event"
-                    },
-                    {
-                        "VALUE": "Adoption par Commission",
-                        "type": "data"
-                    }
-                ],
-                "EVENT_LEGAL_BASIS_LEGAL": {
-                    "VALUE": "TFUE/art 114",
-                    "type": "data"
-                },
-                "EVENT_LEGAL_FORMALLY-ADDRESSES_INSTITUTION": [
-                    {
-                        "OP-CODE": "CONSIL",
-                        "PREFLABEL": "Council of the European Union",
-                        "ALTLABEL": [
-                            "Council",
-                            "Council of the European Communities"
-                        ],
-                        "IDENTIFIER": "CONSIL",
-                        "type": "concept",
-                        "URI": {
-                            "VALUE": "http://publications.europa.eu/resource/authority/corporate-body/CONSIL",
-                            "IDENTIFIER": "CONSIL",
-                            "TYPE": "corporate-body"
-                        }
-                    },
-                    {
-                        "OP-CODE": "EP",
-                        "PREFLABEL": "European Parliament",
-                        "ALTLABEL": [
-                            "Common Assembly of the European Coal and Steel Community",
-                            "Common Assembly",
-                            "European Parliamentary Assembly",
-                            "EP"
-                        ],
-                        "IDENTIFIER": "EP",
-                        "type": "concept",
-                        "URI": {
-                            "VALUE": "http://publications.europa.eu/resource/authority/corporate-body/EP",
-                            "IDENTIFIER": "EP",
-                            "TYPE": "corporate-body"
-                        }
-                    }
-                ],
-                "CREATIONDATE": {
-                    "MONTH": "01",
-                    "YEAR": 1001,
-                    "VALUE": "1001-01-01T00:00:00.000+00:00",
-                    "type": "date",
-                    "DAY": "01"
-                },
-                "EVENT_LEGAL_PART_OF_DOSSIER": {
-                    "SAMEAS": [
-                        {"URI": {
-                            "VALUE": "http://publications.europa.eu/resource/pegase/1041573",
-                            "IDENTIFIER": 1041573,
-                            "TYPE": "pegase"
-                        }},
-                        {"URI": {
-                            "VALUE": "http://publications.europa.eu/resource/procedure/2013_449",
-                            "IDENTIFIER": "2013_449",
-                            "TYPE": "procedure"
-                        }}
-                    ],
-                    "type": "link",
-                    "URI": {
-                        "VALUE": "http://publications.europa.eu/resource/cellar/9c2763b8-796d-11e3-b889-01aa75ed71a1",
-                        "IDENTIFIER": "9c2763b8-796d-11e3-b889-01aa75ed71a1",
-                        "TYPE": "cellar"
-                    }
-                },
-                "OPTIONALLY-CONSULTS": {
-                    "OP-CODE": "ECB",
-                    "PREFLABEL": "European Central Bank",
-                    "ALTLABEL": "ECB",
-                    "IDENTIFIER": "ECB",
-                    "type": "concept",
-                    "URI": {
-                        "VALUE": "http://publications.europa.eu/resource/authority/corporate-body/ECB",
-                        "IDENTIFIER": "ECB",
-                        "TYPE": "corporate-body"
-                    }
-                },
-                "BASIS_LEGAL": {
-                    "VALUE": "TFUE/art 114",
-                    "type": "data"
-                },
-                "EVENT_LEGAL_DATE": {
-                    "MONTH": "01",
-                    "YEAR": 2014,
-                    "VALUE": "2014-01-09",
-                    "type": "date",
-                    "DAY": "09"
-                },
-                "DATE": {
-                    "MONTH": "01",
-                    "YEAR": 2014,
-                    "VALUE": "2014-01-09",
-                    "type": "date",
-                    "DAY": "09"
-                },
-                "LASTMODIFICATIONDATE": {
-                    "MONTH": "06",
-                    "YEAR": 2014,
-                    "VALUE": "2014-06-12T00:49:30.642+02:00",
-                    "type": "date",
-                    "DAY": 12
-                },
-                "EVENT_LEGAL_HAS_TYPE_CONCEPT_TYPE_EVENT_LEGAL": {
-                    "OP-CODE": "ADP_byCOM",
-                    "PREFLABEL": "Adoption by Commission",
-                    "ALTLABEL": "Adoption by Commission",
-                    "IDENTIFIER": "ADP_byCOM",
-                    "type": "concept",
-                    "URI": {
-                        "VALUE": "http://publications.europa.eu/resource/authority/event/ADP_byCOM",
-                        "IDENTIFIER": "ADP_byCOM",
-                        "TYPE": "event"
-                    }
-                },
-                "EVENT_LEGAL_RESPONSIBILITY_OF_INSTITUTION": {
-                    "OP-CODE": "MARKT",
-                    "PREFLABEL": "Directorate-General for the Internal Market and Services",
-                    "ALTLABEL": [
-                        "DG Internal Market and Services",
-                        "Directorate-General for the Internal Market",
-                        "Internal Market DG"
-                    ],
-                    "IDENTIFIER": "MARKT",
-                    "type": "concept",
-                    "URI": {
-                        "VALUE": "http://publications.europa.eu/resource/authority/corporate-body/MARKT",
-                        "IDENTIFIER": "MARKT",
-                        "TYPE": "corporate-body"
-                    }
-                }
-            },
-            {
-                "SAMEAS": [
-                    {"URI": {
-                        "VALUE": "http://publications.europa.eu/resource/pegase/1041573.1213171",
-                        "IDENTIFIER": 1041573.1213171,
-                        "TYPE": "pegase"
-                    }},
-                    {"URI": {
-                        "VALUE": "http://publications.europa.eu/resource/procedure-event/2013_449.2014-01-21_OPI_byEESC",
-                        "IDENTIFIER": "2013_449.2014-01-21_OPI_byEESC",
-                        "TYPE": "procedure-event"
-                    }}
-                ],
-                "CREATIONDATE": {
-                    "MONTH": "01",
-                    "YEAR": 1001,
-                    "VALUE": "1001-01-01T00:00:00.000+00:00",
-                    "type": "date",
-                    "DAY": "01"
-                },
-                "EVENT_LEGAL_INITIATED_BY_INSTITUTION": {
-                    "OP-CODE": "EESC",
-                    "PREFLABEL": "European Economic and Social Committee",
-                    "ALTLABEL": [
-                        "EESC",
-                        "Economic and Social Committee",
-                        "Economic and Social Committee of the European Communities"
-                    ],
-                    "IDENTIFIER": "EESC",
-                    "type": "concept",
-                    "URI": {
-                        "VALUE": "http://publications.europa.eu/resource/authority/corporate-body/EESC",
-                        "IDENTIFIER": "EESC",
-                        "TYPE": "corporate-body"
-                    }
-                },
-                "EVENT_LEGAL_PART_OF_DOSSIER": {
-                    "SAMEAS": [
-                        {"URI": {
-                            "VALUE": "http://publications.europa.eu/resource/pegase/1041573",
-                            "IDENTIFIER": 1041573,
-                            "TYPE": "pegase"
-                        }},
-                        {"URI": {
-                            "VALUE": "http://publications.europa.eu/resource/procedure/2013_449",
-                            "IDENTIFIER": "2013_449",
-                            "TYPE": "procedure"
-                        }}
-                    ],
-                    "type": "link",
-                    "URI": {
-                        "VALUE": "http://publications.europa.eu/resource/cellar/9c2763b8-796d-11e3-b889-01aa75ed71a1",
-                        "IDENTIFIER": "9c2763b8-796d-11e3-b889-01aa75ed71a1",
-                        "TYPE": "cellar"
-                    }
-                },
-                "CONTAINS": [
-                    {
-                        "SAMEAS": [
-                            {"URI": {
-                                "VALUE": "http://publications.europa.eu/resource/celex/52014IE0238",
-                                "IDENTIFIER": "52014IE0238",
-                                "TYPE": "celex"
-                            }},
-                            {"URI": {
-                                "VALUE": "http://publications.europa.eu/resource/oj/JOC_2014_177_R_0007",
-                                "IDENTIFIER": "JOC_2014_177_R_0007",
-                                "TYPE": "oj"
-                            }},
-                            {"URI": {
-                                "VALUE": "http://publications.europa.eu/resource/planjo/20140512-006",
-                                "IDENTIFIER": "20140512-006",
-                                "TYPE": "planjo"
-                            }},
-                            {"URI": {
-                                "VALUE": "http://publications.europa.eu/resource/immc/planjo%3A20140512-006",
-                                "IDENTIFIER": "planjo:20140512-006",
-                                "TYPE": "immc"
-                            }}
-                        ],
-                        "type": "link",
-                        "URI": {
-                            "VALUE": "http://publications.europa.eu/resource/cellar/cd9fac52-f12e-11e3-8cd4-01aa75ed71a1",
-                            "IDENTIFIER": "cd9fac52-f12e-11e3-8cd4-01aa75ed71a1",
-                            "TYPE": "cellar"
-                        }
-                    },
-                    {
-                        "SAMEAS": {"URI": {
-                            "VALUE": "http://publications.europa.eu/resource/oj/JOC_2014_177_R_0041_01",
-                            "IDENTIFIER": "JOC_2014_177_R_0041_01",
-                            "TYPE": "oj"
-                        }},
-                        "type": "link"
-                    }
-                ],
-                "EVENT_LEGAL_DATE": {
-                    "MONTH": "01",
-                    "YEAR": 2014,
-                    "VALUE": "2014-01-21",
-                    "type": "date",
-                    "DAY": 21
-                },
-                "URI": {
-                    "VALUE": "http://publications.europa.eu/resource/cellar/9c2763b8-796d-11e3-b889-01aa75ed71a1.0004",
-                    "IDENTIFIER": "9c2763b8-796d-11e3-b889-01aa75ed71a1.0004",
-                    "TYPE": "cellar"
-                },
-                "EVENT_LEGAL_CONTAINS_WORK": [
-                    {
-                        "SAMEAS": {"URI": {
-                            "VALUE": "http://publications.europa.eu/resource/oj/JOC_2014_177_R_0041_01",
-                            "IDENTIFIER": "JOC_2014_177_R_0041_01",
-                            "TYPE": "oj"
-                        }},
-                        "type": "link"
-                    },
-                    {
-                        "SAMEAS": [
-                            {"URI": {
-                                "VALUE": "http://publications.europa.eu/resource/celex/52014IE0238",
-                                "IDENTIFIER": "52014IE0238",
-                                "TYPE": "celex"
-                            }},
-                            {"URI": {
-                                "VALUE": "http://publications.europa.eu/resource/oj/JOC_2014_177_R_0007",
-                                "IDENTIFIER": "JOC_2014_177_R_0007",
-                                "TYPE": "oj"
-                            }},
-                            {"URI": {
-                                "VALUE": "http://publications.europa.eu/resource/planjo/20140512-006",
-                                "IDENTIFIER": "20140512-006",
-                                "TYPE": "planjo"
-                            }},
-                            {"URI": {
-                                "VALUE": "http://publications.europa.eu/resource/immc/planjo%3A20140512-006",
-                                "IDENTIFIER": "planjo:20140512-006",
-                                "TYPE": "immc"
-                            }}
-                        ],
-                        "WORK": {
-                            "ID_CELEX": {
-                                "VALUE": "52014IE0238",
-                                "type": "data"
-                            },
-                            "RESOURCE_LEGAL_NUMBER_NATURAL_CELEX": {
-                                "VALUE": "0238",
-                                "type": "data"
-                            },
-                            "WORK_HAS_RESOURCE-TYPE": {
-                                "OP-CODE": "OPIN",
-                                "PREFLABEL": "Opinion",
-                                "ALTLABEL": "Opinions",
-                                "IDENTIFIER": "OPIN",
-                                "type": "concept",
-                                "URI": {
-                                    "VALUE": "http://publications.europa.eu/resource/authority/resource-type/OPIN",
-                                    "IDENTIFIER": "OPIN",
-                                    "TYPE": "resource-type"
-                                }
-                            },
-                            "WORK_DATE_DOCUMENT": {
-                                "COMMENT_ON_DATE": {
-                                    "type": "annotation",
-                                    "content": "{DATVOT|http://publications.europa.eu/resource/authority/fd_365/DATVOT}"
-                                },
-                                "BUILD_INFO": {
-                                    "type": "annotation",
-                                    "content": "cdm:CDM_2.1.7  tdm:1523  xslt:3945 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:1.2.0 builddate:07/07/2014 09:57:24"
-                                },
-                                "MONTH": "01",
-                                "YEAR": 2014,
-                                "VALUE": "2014-01-21",
-                                "type": "date",
-                                "DAY": 21
-                            },
-                            "WORK_IS_ABOUT_CONCEPT_EUROVOC": {
-                                "WORK_IS_ABOUT_CONCEPT_EUROVOC": {
-                                    "WORK_IS_ABOUT_CONCEPT_EUROVOC": [
-                                        {
-                                            "PREFLABEL": "24 FINANCE",
-                                            "level": 1,
-                                            "IDENTIFIER": 24,
-                                            "type": "concept_hierarchy_path_concept",
-                                            "leaf": false,
-                                            "URI": {
-                                                "VALUE": "http://eurovoc.europa.eu/100148",
-                                                "IDENTIFIER": 100148,
-                                                "TYPE": "EUROVOC"
-                                            }
-                                        },
-                                        {
-                                            "PREFLABEL": "2411 monetary economics",
-                                            "level": 2,
-                                            "IDENTIFIER": 2411,
-                                            "type": "concept_hierarchy_path_concept",
-                                            "leaf": false,
-                                            "URI": {
-                                                "VALUE": "http://eurovoc.europa.eu/100199",
-                                                "IDENTIFIER": 100199,
-                                                "TYPE": "EUROVOC"
-                                            }
-                                        },
-                                        {
-                                            "PREFLABEL": "Economic and Monetary Union",
-                                            "ALTLABEL": [
-                                                "Werner plan",
-                                                "EMU",
-                                                "Werner report"
-                                            ],
-                                            "level": 3,
-                                            "IDENTIFIER": 4602,
-                                            "type": "concept_hierarchy_path_concept",
-                                            "leaf": false,
-                                            "URI": {
-                                                "VALUE": "http://eurovoc.europa.eu/4602",
-                                                "IDENTIFIER": 4602,
-                                                "TYPE": "EUROVOC"
-                                            }
-                                        },
-                                        {
-                                            "PREFLABEL": "intra-EU payment",
-                                            "ALTLABEL": [
-                                                "intra-Community payment",
-                                                "Target system",
-                                                "Trans-European Automated Real-time Gross settlement Express Transfer system",
-                                                "intra-Eurosystem transaction",
-                                                "Target payment system",
-                                                "TARGET2"
-                                            ],
-                                            "level": 4,
-                                            "IDENTIFIER": 2220,
-                                            "type": "concept_hierarchy_path_concept",
-                                            "leaf": true,
-                                            "URI": {
-                                                "VALUE": "http://eurovoc.europa.eu/2220",
-                                                "IDENTIFIER": 2220,
-                                                "TYPE": "EUROVOC"
-                                            }
-                                        }
-                                    ],
-                                    "type": "concept_hierarchy_path"
-                                },
-                                "type": "concept_hierarchy"
-                            },
-                            "ID_SECTOR": {
-                                "VALUE": 5,
-                                "type": "data"
-                            },
-                            "TYPE": {
-                                "type": "type",
-                                "content": "cdm:work"
-                            },
-                            "EXPRESSION": {"EXPRESSION_TITLE": {
-                                "VALUE": "Opinion of the European Economic and Social Committee on the Proposal for a Regulation of the European Parliament and of the Council amending Regulation (EU) No 260/2012 as regards the migration to Union-wide credit transfers and direct debits COM(2013) 937 final 2013/0449 (COD)",
-                                "type": "data"
-                            }}
-                        },
-                        "type": "link",
-                        "URI": {
-                            "VALUE": "http://publications.europa.eu/resource/cellar/cd9fac52-f12e-11e3-8cd4-01aa75ed71a1",
-                            "IDENTIFIER": "cd9fac52-f12e-11e3-8cd4-01aa75ed71a1",
-                            "TYPE": "cellar"
-                        }
-                    }
-                ],
-                "DATE": {
-                    "MONTH": "01",
-                    "YEAR": 2014,
-                    "VALUE": "2014-01-21",
-                    "type": "date",
-                    "DAY": 21
-                },
-                "EVENT_LEGAL_USES_CONCEPT_MODE_DECISION": {
-                    "OP-CODE": 1020,
-                    "PREFLABEL": "Adoption without debate",
-                    "ALTLABEL": "Adoption without debate",
-                    "IDENTIFIER": 1020,
-                    "type": "concept",
-                    "URI": {
-                        "VALUE": "http://publications.europa.eu/resource/authority/fd_606/1020",
-                        "IDENTIFIER": 1020,
-                        "TYPE": "fd_606"
-                    }
-                },
-                "EVENT_LEGAL_DOCUMENT_REFERENCE": [
-                    {
-                        "VALUE": "JO C/2014/177/41",
-                        "type": "data"
-                    },
-                    {
-                        "VALUE": "CESE/2013/238",
-                        "type": "data"
-                    }
-                ],
-                "LASTMODIFICATIONDATE": {
-                    "MONTH": "03",
-                    "YEAR": 2017,
-                    "VALUE": "2017-03-27T19:05:52.767+02:00",
-                    "type": "date",
-                    "DAY": 27
-                },
-                "TYPE": [
-                    {
-                        "type": "type",
-                        "content": "cdm:event"
-                    },
-                    {
-                        "VALUE": "Avis du Comité économique et social européen",
-                        "type": "data"
-                    }
-                ],
-                "EVENT_LEGAL_HAS_TYPE_CONCEPT_TYPE_EVENT_LEGAL": {
-                    "OP-CODE": "OPI_byEESC",
-                    "PREFLABEL": "European Economic and Social Committee opinion",
-                    "ALTLABEL": "EESC opinion",
-                    "IDENTIFIER": "OPI_byEESC",
-                    "type": "concept",
-                    "URI": {
-                        "VALUE": "http://publications.europa.eu/resource/authority/event/OPI_byEESC",
-                        "IDENTIFIER": "OPI_byEESC",
-                        "TYPE": "event"
-                    }
-                }
-            },
-            {
-                "DATE": {
-                    "MONTH": "01",
-                    "YEAR": 2014,
-                    "VALUE": "2014-01-09",
-                    "type": "date",
-                    "DAY": "09"
-                },
-                "SAMEAS": {"URI": {
-                    "VALUE": "http://publications.europa.eu/resource/pegase/1041573.1212790",
-                    "IDENTIFIER": 1041573.121279,
-                    "TYPE": "pegase"
-                }},
-                "CREATIONDATE": {
-                    "MONTH": "01",
-                    "YEAR": 1001,
-                    "VALUE": "1001-01-01T00:00:00.000+00:00",
-                    "type": "date",
-                    "DAY": "01"
-                },
-                "EVENT_LEGAL_INITIATED_BY_INSTITUTION": {
-                    "OP-CODE": "COM",
-                    "PREFLABEL": "European Commission",
-                    "ALTLABEL": [
-                        "EC",
-                        "Commission of the European Communities",
-                        "European Commission",
-                        "Commission"
-                    ],
-                    "IDENTIFIER": "COM",
-                    "type": "concept",
-                    "URI": {
-                        "VALUE": "http://publications.europa.eu/resource/authority/corporate-body/COM",
-                        "IDENTIFIER": "COM",
-                        "TYPE": "corporate-body"
-                    }
-                },
-                "EVENT_LEGAL_PART_OF_DOSSIER": {
-                    "SAMEAS": [
-                        {"URI": {
-                            "VALUE": "http://publications.europa.eu/resource/pegase/1041573",
-                            "IDENTIFIER": 1041573,
-                            "TYPE": "pegase"
-                        }},
-                        {"URI": {
-                            "VALUE": "http://publications.europa.eu/resource/procedure/2013_449",
-                            "IDENTIFIER": "2013_449",
-                            "TYPE": "procedure"
-                        }}
-                    ],
-                    "type": "link",
-                    "URI": {
-                        "VALUE": "http://publications.europa.eu/resource/cellar/9c2763b8-796d-11e3-b889-01aa75ed71a1",
-                        "IDENTIFIER": "9c2763b8-796d-11e3-b889-01aa75ed71a1",
-                        "TYPE": "cellar"
-                    }
-                },
-                "LASTMODIFICATIONDATE": {
-                    "MONTH": "06",
-                    "YEAR": 2014,
-                    "VALUE": "2014-06-12T00:49:30.642+02:00",
-                    "type": "date",
-                    "DAY": 12
-                },
-                "EVENT_LEGAL_DATE": {
-                    "MONTH": "01",
-                    "YEAR": 2014,
-                    "VALUE": "2014-01-09",
-                    "type": "date",
-                    "DAY": "09"
-                },
-                "URI": {
-                    "VALUE": "http://publications.europa.eu/resource/cellar/9c2763b8-796d-11e3-b889-01aa75ed71a1.0003",
-                    "IDENTIFIER": "9c2763b8-796d-11e3-b889-01aa75ed71a1.0003",
-                    "TYPE": "cellar"
-                },
-                "TYPE": [
-                    {
-                        "type": "type",
-                        "content": "cdm:event"
-                    },
-                    {
-                        "VALUE": "Transmission au Parlement européen",
-                        "type": "data"
-                    }
-                ],
-                "EVENT_LEGAL_HAS_TYPE_CONCEPT_TYPE_EVENT_LEGAL": {
-                    "OP-CODE": "TRS_EP_byCOM",
-                    "PREFLABEL": "Transmission to Parliament",
-                    "ALTLABEL": "Transmission to EP",
-                    "IDENTIFIER": "TRS_EP_byCOM",
-                    "type": "concept",
-                    "URI": {
-                        "VALUE": "http://publications.europa.eu/resource/authority/event/TRS_EP_byCOM",
-                        "IDENTIFIER": "TRS_EP_byCOM",
-                        "TYPE": "event"
-                    }
-                }
-            },
-            {
-                "SAMEAS": [
-                    {"URI": {
-                        "VALUE": "http://publications.europa.eu/resource/procedure-event/2013_449.2014-02-04_OPI_R1_byEP",
-                        "IDENTIFIER": "2013_449.2014-02-04_OPI_R1_byEP",
-                        "TYPE": "procedure-event"
-                    }},
-                    {"URI": {
-                        "VALUE": "http://publications.europa.eu/resource/pegase/1041573.1213246",
-                        "IDENTIFIER": 1041573.1213246,
-                        "TYPE": "pegase"
-                    }}
-                ],
-                "CREATIONDATE": {
-                    "MONTH": "01",
-                    "YEAR": 1001,
-                    "VALUE": "1001-01-01T00:00:00.000+00:00",
-                    "type": "date",
-                    "DAY": "01"
-                },
-                "EVENT_LEGAL_INITIATED_BY_INSTITUTION": {
-                    "OP-CODE": "EP",
-                    "PREFLABEL": "European Parliament",
-                    "ALTLABEL": [
-                        "Common Assembly of the European Coal and Steel Community",
-                        "Common Assembly",
-                        "European Parliamentary Assembly",
-                        "EP"
-                    ],
-                    "IDENTIFIER": "EP",
-                    "type": "concept",
-                    "URI": {
-                        "VALUE": "http://publications.europa.eu/resource/authority/corporate-body/EP",
-                        "IDENTIFIER": "EP",
-                        "TYPE": "corporate-body"
-                    }
-                },
-                "EVENT_LEGAL_REPORTED_BY_PERSON": {
-                    "SAMEAS": {"URI": {
-                        "VALUE": "http://publications.europa.eu/resource/agent/Sharon%20Margaret%20BOWLES",
-                        "IDENTIFIER": "Sharon Margaret BOWLES",
-                        "TYPE": "agent"
-                    }},
-                    "type": "link",
-                    "URI": {
-                        "VALUE": "http://publications.europa.eu/resource/cellar/7cebec9a-d331-11e1-905c-01aa75ed71a1",
-                        "IDENTIFIER": "7cebec9a-d331-11e1-905c-01aa75ed71a1",
-                        "TYPE": "cellar"
-                    }
-                },
-                "EVENT_LEGAL_PART_OF_DOSSIER": {
-                    "SAMEAS": [
-                        {"URI": {
-                            "VALUE": "http://publications.europa.eu/resource/pegase/1041573",
-                            "IDENTIFIER": 1041573,
-                            "TYPE": "pegase"
-                        }},
-                        {"URI": {
-                            "VALUE": "http://publications.europa.eu/resource/procedure/2013_449",
-                            "IDENTIFIER": "2013_449",
-                            "TYPE": "procedure"
-                        }}
-                    ],
-                    "type": "link",
-                    "URI": {
-                        "VALUE": "http://publications.europa.eu/resource/cellar/9c2763b8-796d-11e3-b889-01aa75ed71a1",
-                        "IDENTIFIER": "9c2763b8-796d-11e3-b889-01aa75ed71a1",
-                        "TYPE": "cellar"
-                    }
-                },
-                "EVENT_LEGAL_USES_CONCEPT_TYPE_DECISION": {
-                    "OP-CODE": 1005,
-                    "PREFLABEL": "Approval without amendment",
-                    "ALTLABEL": "Approval without amendment",
-                    "IDENTIFIER": 1005,
-                    "type": "concept",
-                    "URI": {
-                        "VALUE": "http://publications.europa.eu/resource/authority/fd_602/1005",
-                        "IDENTIFIER": 1005,
-                        "TYPE": "fd_602"
-                    }
-                },
-                "CONTAINS": [
-                    {
-                        "SAMEAS": [
-                            {"URI": {
-                                "VALUE": "http://publications.europa.eu/resource/oj/JOC_2017_093_R_0034",
-                                "IDENTIFIER": "JOC_2017_093_R_0034",
-                                "TYPE": "oj"
-                            }},
-                            {"URI": {
-                                "VALUE": "http://publications.europa.eu/resource/celex/52014AP0049",
-                                "IDENTIFIER": "52014AP0049",
-                                "TYPE": "celex"
-                            }}
-                        ],
-                        "type": "link",
-                        "URI": {
-                            "VALUE": "http://publications.europa.eu/resource/cellar/ac9186ea-1061-11e7-8a35-01aa75ed71a1",
-                            "IDENTIFIER": "ac9186ea-1061-11e7-8a35-01aa75ed71a1",
-                            "TYPE": "cellar"
-                        }
-                    },
-                    {
-                        "SAMEAS": {"URI": {
-                            "VALUE": "http://publications.europa.eu/resource/oj/JOC_2017_093_R_0163_01",
-                            "IDENTIFIER": "JOC_2017_093_R_0163_01",
-                            "TYPE": "oj"
-                        }},
-                        "type": "link"
-                    }
-                ],
-                "REPORTED_BY": {
-                    "SAMEAS": {"URI": {
-                        "VALUE": "http://publications.europa.eu/resource/agent/Sharon%20Margaret%20BOWLES",
-                        "IDENTIFIER": "Sharon Margaret BOWLES",
-                        "TYPE": "agent"
-                    }},
-                    "type": "link",
-                    "URI": {
-                        "VALUE": "http://publications.europa.eu/resource/cellar/7cebec9a-d331-11e1-905c-01aa75ed71a1",
-                        "IDENTIFIER": "7cebec9a-d331-11e1-905c-01aa75ed71a1",
-                        "TYPE": "cellar"
-                    }
-                },
-                "EVENT_LEGAL_DATE": {
-                    "MONTH": "02",
-                    "YEAR": 2014,
-                    "VALUE": "2014-02-04",
-                    "type": "date",
-                    "DAY": "04"
-                },
-                "URI": {
-                    "VALUE": "http://publications.europa.eu/resource/cellar/9c2763b8-796d-11e3-b889-01aa75ed71a1.0006",
-                    "IDENTIFIER": "9c2763b8-796d-11e3-b889-01aa75ed71a1.0006",
-                    "TYPE": "cellar"
-                },
-                "EVENT_LEGAL_CONTAINS_WORK": [
-                    {
-                        "SAMEAS": {"URI": {
-                            "VALUE": "http://publications.europa.eu/resource/oj/JOC_2017_093_R_0163_01",
-                            "IDENTIFIER": "JOC_2017_093_R_0163_01",
-                            "TYPE": "oj"
-                        }},
-                        "type": "link"
-                    },
-                    {
-                        "SAMEAS": [
-                            {"URI": {
-                                "VALUE": "http://publications.europa.eu/resource/oj/JOC_2017_093_R_0034",
-                                "IDENTIFIER": "JOC_2017_093_R_0034",
-                                "TYPE": "oj"
-                            }},
-                            {"URI": {
-                                "VALUE": "http://publications.europa.eu/resource/celex/52014AP0049",
-                                "IDENTIFIER": "52014AP0049",
-                                "TYPE": "celex"
-                            }}
-                        ],
-                        "WORK": {
-                            "ID_CELEX": {
-                                "VALUE": "52014AP0049",
-                                "type": "data"
-                            },
-                            "RESOURCE_LEGAL_NUMBER_NATURAL_CELEX": {
-                                "VALUE": "0049",
-                                "type": "data"
-                            },
-                            "WORK_HAS_RESOURCE-TYPE": {
-                                "OP-CODE": "RES_LEGIS",
-                                "PREFLABEL": "Legislative resolution",
-                                "IDENTIFIER": "RES_LEGIS",
-                                "type": "concept",
-                                "URI": {
-                                    "VALUE": "http://publications.europa.eu/resource/authority/resource-type/RES_LEGIS",
-                                    "IDENTIFIER": "RES_LEGIS",
-                                    "TYPE": "resource-type"
-                                }
-                            },
-                            "WORK_DATE_DOCUMENT": {
-                                "COMMENT_ON_DATE": {
-                                    "type": "annotation",
-                                    "content": "{DATVOT|http://publications.europa.eu/resource/authority/fd_365/DATVOT}"
-                                },
-                                "MONTH": "02",
-                                "YEAR": 2014,
-                                "VALUE": "2014-02-04",
-                                "type": "date",
-                                "DAY": "04"
-                            },
-                            "ID_SECTOR": {
-                                "VALUE": 5,
-                                "type": "data"
-                            },
-                            "TYPE": {
-                                "type": "type",
-                                "content": "cdm:work"
-                            },
-                            "EXPRESSION": {"EXPRESSION_TITLE": {
-                                "VALUE": "P7_TA(2014)0049 Migration to Union-wide credit transfers and direct debits ***I European Parliament legislative resolution of 4 February 2014 on the proposal for a regulation of the European Parliament and of the Council amending Regulation (EU) No 260/2012 as regards the migration to Union-wide credit transfers and direct debits (COM(2013)0937 \u2014 C7-0008/2014 \u2014 2013/0449(COD)) P7_TC1-COD(2013)0449 Position of the European Parliament adopted at first reading on 4 February 2014 with a view to the adoption of Regulation (EU) No \u2026/2014 of the European Parliament and of the Council amending Regulation (EU) No 260/2012 as regards the migration to Union-wide credit transfers and direct debits",
-                                "type": "data"
-                            }}
-                        },
-                        "type": "link",
-                        "URI": {
-                            "VALUE": "http://publications.europa.eu/resource/cellar/ac9186ea-1061-11e7-8a35-01aa75ed71a1",
-                            "IDENTIFIER": "ac9186ea-1061-11e7-8a35-01aa75ed71a1",
-                            "TYPE": "cellar"
-                        }
-                    }
-                ],
-                "DATE": {
-                    "MONTH": "02",
-                    "YEAR": 2014,
-                    "VALUE": "2014-02-04",
-                    "type": "date",
-                    "DAY": "04"
-                },
-                "EVENT_LEGAL_DOCUMENT_REFERENCE": [
-                    {
-                        "VALUE": "TA/2014/49/P7",
-                        "type": "data"
-                    },
-                    {
-                        "VALUE": "A7/2014/36",
-                        "type": "data"
-                    },
-                    {
-                        "VALUE": "JO C/2017/93/163",
-                        "type": "data"
-                    }
-                ],
-                "LASTMODIFICATIONDATE": {
-                    "MONTH": "03",
-                    "YEAR": 2017,
-                    "VALUE": "2017-03-27T19:05:52.767+02:00",
-                    "type": "date",
-                    "DAY": 27
-                },
-                "EVENT_LEGAL_RESPONSIBILITY_OF_PERSON": {
-                    "SAMEAS": {"URI": {
-                        "VALUE": "http://publications.europa.eu/resource/agent/Michel%20BARNIER",
-                        "IDENTIFIER": "Michel BARNIER",
-                        "TYPE": "agent"
-                    }},
-                    "type": "link",
-                    "URI": {
-                        "VALUE": "http://publications.europa.eu/resource/cellar/03fa84f1-c817-11e4-bbe1-01aa75ed71a1",
-                        "IDENTIFIER": "03fa84f1-c817-11e4-bbe1-01aa75ed71a1",
-                        "TYPE": "cellar"
-                    }
-                },
-                "TYPE": [
-                    {
-                        "type": "type",
-                        "content": "cdm:event"
-                    },
-                    {
-                        "VALUE": "Avis du Parlement européen en 1ère lecture",
-                        "type": "data"
-                    }
-                ],
-                "EVENT_LEGAL_HAS_TYPE_CONCEPT_TYPE_EVENT_LEGAL": {
-                    "OP-CODE": "OPI_R1_byEP",
-                    "PREFLABEL": "EP opinion on 1st reading",
-                    "ALTLABEL": "EP opinion 1st rdg",
-                    "IDENTIFIER": "OPI_R1_byEP",
-                    "type": "concept",
-                    "URI": {
-                        "VALUE": "http://publications.europa.eu/resource/authority/event/OPI_R1_byEP",
-                        "IDENTIFIER": "OPI_R1_byEP",
-                        "TYPE": "event"
-                    }
-                }
-            },
-            {
-                "SAMEAS": [
-                    {"URI": {
-                        "VALUE": "http://publications.europa.eu/resource/pegase/1041573.1214603",
-                        "IDENTIFIER": 1041573.1214603,
-                        "TYPE": "pegase"
-                    }},
-                    {"URI": {
-                        "VALUE": "http://publications.europa.eu/resource/procedure-event/2013_449.2014-01-22_OPI_byECB",
-                        "IDENTIFIER": "2013_449.2014-01-22_OPI_byECB",
-                        "TYPE": "procedure-event"
-                    }}
-                ],
-                "CREATIONDATE": {
-                    "MONTH": "01",
-                    "YEAR": 1001,
-                    "VALUE": "1001-01-01T00:00:00.000+00:00",
-                    "type": "date",
-                    "DAY": "01"
-                },
-                "EVENT_LEGAL_INITIATED_BY_INSTITUTION": {
-                    "OP-CODE": "ECB",
-                    "PREFLABEL": "European Central Bank",
-                    "ALTLABEL": "ECB",
-                    "IDENTIFIER": "ECB",
-                    "type": "concept",
-                    "URI": {
-                        "VALUE": "http://publications.europa.eu/resource/authority/corporate-body/ECB",
-                        "IDENTIFIER": "ECB",
-                        "TYPE": "corporate-body"
-                    }
-                },
-                "EVENT_LEGAL_PART_OF_DOSSIER": {
-                    "SAMEAS": [
-                        {"URI": {
-                            "VALUE": "http://publications.europa.eu/resource/pegase/1041573",
-                            "IDENTIFIER": 1041573,
-                            "TYPE": "pegase"
-                        }},
-                        {"URI": {
-                            "VALUE": "http://publications.europa.eu/resource/procedure/2013_449",
-                            "IDENTIFIER": "2013_449",
-                            "TYPE": "procedure"
-                        }}
-                    ],
-                    "type": "link",
-                    "URI": {
-                        "VALUE": "http://publications.europa.eu/resource/cellar/9c2763b8-796d-11e3-b889-01aa75ed71a1",
-                        "IDENTIFIER": "9c2763b8-796d-11e3-b889-01aa75ed71a1",
-                        "TYPE": "cellar"
-                    }
-                },
-                "EVENT_LEGAL_DATE": {
-                    "MONTH": "01",
-                    "YEAR": 2014,
-                    "VALUE": "2014-01-22",
-                    "type": "date",
-                    "DAY": 22
-                },
-                "CONTAINS": {
-                    "SAMEAS": [
-                        {"URI": {
-                            "VALUE": "http://publications.europa.eu/resource/celex/52014AB0003",
-                            "IDENTIFIER": "52014AB0003",
-                            "TYPE": "celex"
-                        }},
-                        {"URI": {
-                            "VALUE": "http://publications.europa.eu/resource/oj/JOC_2014_080_R_0001_01",
-                            "IDENTIFIER": "JOC_2014_080_R_0001_01",
-                            "TYPE": "oj"
-                        }}
-                    ],
-                    "type": "link",
-                    "URI": {
-                        "VALUE": "http://publications.europa.eu/resource/cellar/1efeba0b-af63-11e3-86f9-01aa75ed71a1",
-                        "IDENTIFIER": "1efeba0b-af63-11e3-86f9-01aa75ed71a1",
-                        "TYPE": "cellar"
-                    }
-                },
-                "URI": {
-                    "VALUE": "http://publications.europa.eu/resource/cellar/9c2763b8-796d-11e3-b889-01aa75ed71a1.0005",
-                    "IDENTIFIER": "9c2763b8-796d-11e3-b889-01aa75ed71a1.0005",
-                    "TYPE": "cellar"
-                },
-                "EVENT_LEGAL_CONTAINS_WORK": {
-                    "SAMEAS": [
-                        {"URI": {
-                            "VALUE": "http://publications.europa.eu/resource/celex/52014AB0003",
-                            "IDENTIFIER": "52014AB0003",
-                            "TYPE": "celex"
-                        }},
-                        {"URI": {
-                            "VALUE": "http://publications.europa.eu/resource/oj/JOC_2014_080_R_0001_01",
-                            "IDENTIFIER": "JOC_2014_080_R_0001_01",
-                            "TYPE": "oj"
-                        }}
-                    ],
-                    "WORK": {
-                        "ID_CELEX": {
-                            "VALUE": "52014AB0003",
-                            "type": "data"
-                        },
-                        "RESOURCE_LEGAL_NUMBER_NATURAL_CELEX": {
-                            "VALUE": "0003",
-                            "type": "data"
-                        },
-                        "WORK_HAS_RESOURCE-TYPE": {
-                            "OP-CODE": "OPIN",
-                            "PREFLABEL": "Opinion",
-                            "ALTLABEL": "Opinions",
-                            "IDENTIFIER": "OPIN",
-                            "type": "concept",
-                            "URI": {
-                                "VALUE": "http://publications.europa.eu/resource/authority/resource-type/OPIN",
-                                "IDENTIFIER": "OPIN",
-                                "TYPE": "resource-type"
-                            }
-                        },
-                        "WORK_DATE_DOCUMENT": {
-                            "MONTH": "01",
-                            "YEAR": 2014,
-                            "VALUE": "2014-01-22",
-                            "type": "date",
-                            "DAY": 22
-                        },
-                        "ID_SECTOR": {
-                            "VALUE": 5,
-                            "type": "data"
-                        },
-                        "TYPE": {
-                            "type": "type",
-                            "content": "cdm:work"
-                        },
-                        "EXPRESSION": {"EXPRESSION_TITLE": {
-                            "VALUE": "Opinion of the European Central Bank of 22 January 2014 on a proposal for a regulation on the postponement of SEPA migration date (CON/2014/3)",
-                            "type": "data"
-                        }}
-                    },
-                    "type": "link",
-                    "URI": {
-                        "VALUE": "http://publications.europa.eu/resource/cellar/1efeba0b-af63-11e3-86f9-01aa75ed71a1",
-                        "IDENTIFIER": "1efeba0b-af63-11e3-86f9-01aa75ed71a1",
-                        "TYPE": "cellar"
-                    }
-                },
-                "DATE": {
-                    "MONTH": "01",
-                    "YEAR": 2014,
-                    "VALUE": "2014-01-22",
-                    "type": "date",
-                    "DAY": 22
-                },
-                "EVENT_LEGAL_DOCUMENT_REFERENCE": {
-                    "VALUE": "JO C/2014/80/1",
-                    "type": "data"
-                },
-                "LASTMODIFICATIONDATE": {
-                    "MONTH": "03",
-                    "YEAR": 2017,
-                    "VALUE": "2017-03-27T19:05:52.767+02:00",
-                    "type": "date",
-                    "DAY": 27
-                },
-                "TYPE": [
-                    {
-                        "type": "type",
-                        "content": "cdm:event"
-                    },
-                    {
-                        "VALUE": "Avis Banque Centrale Européenne",
-                        "type": "data"
-                    }
-                ],
-                "EVENT_LEGAL_HAS_TYPE_CONCEPT_TYPE_EVENT_LEGAL": {
-                    "OP-CODE": "OPI_byECB",
-                    "PREFLABEL": "European Central Bank opinion",
-                    "ALTLABEL": "European Central Bank opinion",
-                    "IDENTIFIER": "OPI_byECB",
-                    "type": "concept",
-                    "URI": {
-                        "VALUE": "http://publications.europa.eu/resource/authority/event/OPI_byECB",
-                        "IDENTIFIER": "OPI_byECB",
-                        "TYPE": "event"
-                    }
-                }
-            },
-            {
-                "DATE": {
-                    "MONTH": "02",
-                    "YEAR": 2014,
-                    "VALUE": "2014-02-26",
-                    "type": "date",
-                    "DAY": 26
-                },
-                "SAMEAS": {"URI": {
-                    "VALUE": "http://publications.europa.eu/resource/pegase/1041573.1213976",
-                    "IDENTIFIER": 1041573.1213976,
-                    "TYPE": "pegase"
-                }},
-                "EVENT_LEGAL_WAS_HISTORICALLY_ABOUT_CONCEPT_TYPE_DOSSIER": {
-                    "OP-CODE": 1245,
-                    "PREFLABEL": "Regulation",
-                    "ALTLABEL": "Regulation",
-                    "IDENTIFIER": 1245,
-                    "type": "concept",
-                    "URI": {
-                        "VALUE": "http://publications.europa.eu/resource/authority/fd_612/1245",
-                        "IDENTIFIER": 1245,
-                        "TYPE": "fd_612"
-                    }
-                },
-                "CREATIONDATE": {
-                    "MONTH": "01",
-                    "YEAR": 1001,
-                    "VALUE": "1001-01-01T00:00:00.000+00:00",
-                    "type": "date",
-                    "DAY": "01"
-                },
-                "EVENT_LEGAL_DOCUMENT_REFERENCE": [
-                    {
-                        "VALUE": "JO L/2014/84/1",
-                        "type": "data"
-                    },
-                    {
-                        "VALUE": "CSPE/2014/9",
-                        "type": "data"
-                    },
-                    {
-                        "VALUE": "PE-CONS/2014/9",
-                        "type": "data"
-                    }
-                ],
-                "EVENT_LEGAL_INITIATED_BY_INSTITUTION": [
-                    {
-                        "OP-CODE": "CONSIL",
-                        "PREFLABEL": "Council of the European Union",
-                        "ALTLABEL": [
-                            "Council",
-                            "Council of the European Communities"
-                        ],
-                        "IDENTIFIER": "CONSIL",
-                        "type": "concept",
-                        "URI": {
-                            "VALUE": "http://publications.europa.eu/resource/authority/corporate-body/CONSIL",
-                            "IDENTIFIER": "CONSIL",
-                            "TYPE": "corporate-body"
-                        }
-                    },
-                    {
-                        "OP-CODE": "EP",
-                        "PREFLABEL": "European Parliament",
-                        "ALTLABEL": [
-                            "Common Assembly of the European Coal and Steel Community",
-                            "Common Assembly",
-                            "European Parliamentary Assembly",
-                            "EP"
-                        ],
-                        "IDENTIFIER": "EP",
-                        "type": "concept",
-                        "URI": {
-                            "VALUE": "http://publications.europa.eu/resource/authority/corporate-body/EP",
-                            "IDENTIFIER": "EP",
-                            "TYPE": "corporate-body"
-                        }
-                    }
-                ],
-                "EVENT_LEGAL_PART_OF_DOSSIER": {
-                    "SAMEAS": [
-                        {"URI": {
-                            "VALUE": "http://publications.europa.eu/resource/pegase/1041573",
-                            "IDENTIFIER": 1041573,
-                            "TYPE": "pegase"
-                        }},
-                        {"URI": {
-                            "VALUE": "http://publications.europa.eu/resource/procedure/2013_449",
-                            "IDENTIFIER": "2013_449",
-                            "TYPE": "procedure"
-                        }}
-                    ],
-                    "type": "link",
-                    "URI": {
-                        "VALUE": "http://publications.europa.eu/resource/cellar/9c2763b8-796d-11e3-b889-01aa75ed71a1",
-                        "IDENTIFIER": "9c2763b8-796d-11e3-b889-01aa75ed71a1",
-                        "TYPE": "cellar"
-                    }
-                },
-                "LASTMODIFICATIONDATE": {
-                    "MONTH": 10,
-                    "YEAR": 2018,
-                    "VALUE": "2018-10-05T19:40:13.365+02:00",
-                    "type": "date",
-                    "DAY": "05"
-                },
-                "EVENT_LEGAL_DATE": {
-                    "MONTH": "02",
-                    "YEAR": 2014,
-                    "VALUE": "2014-02-26",
-                    "type": "date",
-                    "DAY": 26
-                },
-                "URI": {
-                    "VALUE": "http://publications.europa.eu/resource/cellar/9c2763b8-796d-11e3-b889-01aa75ed71a1.0008",
-                    "IDENTIFIER": "9c2763b8-796d-11e3-b889-01aa75ed71a1.0008",
-                    "TYPE": "cellar"
-                },
-                "TYPE": [
-                    {
-                        "type": "type",
-                        "content": "cdm:event"
-                    },
-                    {
-                        "VALUE": "Signature par le Parlement européen et le Conseil",
-                        "type": "data"
-                    }
-                ],
-                "EVENT_LEGAL_HAS_TYPE_CONCEPT_TYPE_EVENT_LEGAL": {
-                    "OP-CODE": "SIGN_byEP_CONSIL",
-                    "PREFLABEL": "Signature by the President of the EP and by the President of the Council",
-                    "ALTLABEL": "Signature by EP and Council",
-                    "IDENTIFIER": "SIGN_byEP_CONSIL",
-                    "type": "concept",
-                    "URI": {
-                        "VALUE": "http://publications.europa.eu/resource/authority/event/SIGN_byEP_CONSIL",
-                        "IDENTIFIER": "SIGN_byEP_CONSIL",
-                        "TYPE": "event"
-                    }
-                }
-            },
-            {
-                "DATE": {
-                    "MONTH": "02",
-                    "YEAR": 2014,
-                    "VALUE": "2014-02-18",
-                    "type": "date",
-                    "DAY": 18
-                },
-                "SAMEAS": {"URI": {
-                    "VALUE": "http://publications.europa.eu/resource/pegase/1041573.1213621",
-                    "IDENTIFIER": 1041573.1213621,
-                    "TYPE": "pegase"
-                }},
-                "EVENT_LEGAL_WAS_HISTORICALLY_ABOUT_CONCEPT_TYPE_DOSSIER": {
-                    "OP-CODE": 1245,
-                    "PREFLABEL": "Regulation",
-                    "ALTLABEL": "Regulation",
-                    "IDENTIFIER": 1245,
-                    "type": "concept",
-                    "URI": {
-                        "VALUE": "http://publications.europa.eu/resource/authority/fd_612/1245",
-                        "IDENTIFIER": 1245,
-                        "TYPE": "fd_612"
-                    }
-                },
-                "CREATIONDATE": {
-                    "MONTH": "01",
-                    "YEAR": 1001,
-                    "VALUE": "1001-01-01T00:00:00.000+00:00",
-                    "type": "date",
-                    "DAY": "01"
-                },
-                "EVENT_LEGAL_DOCUMENT_REFERENCE": [
-                    {
-                        "VALUE": "CS-PRES/2014/6566",
-                        "type": "data"
-                    },
-                    {
-                        "VALUE": "CSST/2014/6458",
-                        "type": "data"
-                    },
-                    {
-                        "VALUE": "CSST/2014/6624",
-                        "type": "data"
-                    }
-                ],
-                "EVENT_LEGAL_INITIATED_BY_INSTITUTION": {
-                    "OP-CODE": "CONSIL",
-                    "PREFLABEL": "Council of the European Union",
-                    "ALTLABEL": [
-                        "Council",
-                        "Council of the European Communities"
-                    ],
-                    "IDENTIFIER": "CONSIL",
-                    "type": "concept",
-                    "URI": {
-                        "VALUE": "http://publications.europa.eu/resource/authority/corporate-body/CONSIL",
-                        "IDENTIFIER": "CONSIL",
-                        "TYPE": "corporate-body"
-                    }
-                },
-                "EVENT_LEGAL_PART_OF_DOSSIER": {
-                    "SAMEAS": [
-                        {"URI": {
-                            "VALUE": "http://publications.europa.eu/resource/pegase/1041573",
-                            "IDENTIFIER": 1041573,
-                            "TYPE": "pegase"
-                        }},
-                        {"URI": {
-                            "VALUE": "http://publications.europa.eu/resource/procedure/2013_449",
-                            "IDENTIFIER": "2013_449",
-                            "TYPE": "procedure"
-                        }}
-                    ],
-                    "type": "link",
-                    "URI": {
-                        "VALUE": "http://publications.europa.eu/resource/cellar/9c2763b8-796d-11e3-b889-01aa75ed71a1",
-                        "IDENTIFIER": "9c2763b8-796d-11e3-b889-01aa75ed71a1",
-                        "TYPE": "cellar"
-                    }
-                },
-                "LASTMODIFICATIONDATE": {
-                    "MONTH": "06",
-                    "YEAR": 2014,
-                    "VALUE": "2014-06-12T00:49:30.642+02:00",
-                    "type": "date",
-                    "DAY": 12
-                },
-                "EVENT_LEGAL_DATE": {
-                    "MONTH": "02",
-                    "YEAR": 2014,
-                    "VALUE": "2014-02-18",
-                    "type": "date",
-                    "DAY": 18
-                },
-                "URI": {
-                    "VALUE": "http://publications.europa.eu/resource/cellar/9c2763b8-796d-11e3-b889-01aa75ed71a1.0007",
-                    "IDENTIFIER": "9c2763b8-796d-11e3-b889-01aa75ed71a1.0007",
-                    "TYPE": "cellar"
-                },
-                "TYPE": [
-                    {
-                        "type": "type",
-                        "content": "cdm:event"
-                    },
-                    {
-                        "VALUE": "Approbation du Conseil en 1ère  lecture",
-                        "type": "data"
-                    }
-                ],
-                "EVENT_LEGAL_HAS_TYPE_CONCEPT_TYPE_EVENT_LEGAL": {
-                    "OP-CODE": "APR_R1_byCONSIL",
-                    "PREFLABEL": "Approval by the Council of the EP position at 1st reading",
-                    "ALTLABEL": "Council approval 1st rdg",
-                    "IDENTIFIER": "APR_R1_byCONSIL",
-                    "type": "concept",
-                    "URI": {
-                        "VALUE": "http://publications.europa.eu/resource/authority/event/APR_R1_byCONSIL",
-                        "IDENTIFIER": "APR_R1_byCONSIL",
-                        "TYPE": "event"
-                    }
-                }
-            },
-            {
-                "DATE": {
-                    "MONTH": "03",
-                    "YEAR": 2014,
-                    "VALUE": "2014-03-20",
-                    "type": "date",
-                    "DAY": 20
-                },
-                "SAMEAS": {"URI": {
-                    "VALUE": "http://publications.europa.eu/resource/pegase/1041573.2014-03-20_PUB_OJ",
-                    "IDENTIFIER": "1041573.2014-03-20_PUB_OJ",
-                    "TYPE": "pegase"
-                }},
-                "CREATIONDATE": {
-                    "MONTH": 10,
-                    "YEAR": 2018,
-                    "VALUE": "2018-10-05T18:25:26.306+02:00",
-                    "type": "date",
-                    "DAY": "05"
-                },
-                "EVENT_LEGAL_PART_OF_DOSSIER": {
-                    "SAMEAS": [
-                        {"URI": {
-                            "VALUE": "http://publications.europa.eu/resource/pegase/1041573",
-                            "IDENTIFIER": 1041573,
-                            "TYPE": "pegase"
-                        }},
-                        {"URI": {
-                            "VALUE": "http://publications.europa.eu/resource/procedure/2013_449",
-                            "IDENTIFIER": "2013_449",
-                            "TYPE": "procedure"
-                        }}
-                    ],
-                    "type": "link",
-                    "URI": {
-                        "VALUE": "http://publications.europa.eu/resource/cellar/9c2763b8-796d-11e3-b889-01aa75ed71a1",
-                        "IDENTIFIER": "9c2763b8-796d-11e3-b889-01aa75ed71a1",
-                        "TYPE": "cellar"
-                    }
-                },
-                "LASTMODIFICATIONDATE": {
-                    "MONTH": 10,
-                    "YEAR": 2018,
-                    "VALUE": "2018-10-05T18:25:26.306+02:00",
-                    "type": "date",
-                    "DAY": "05"
-                },
-                "CONTAINS": {
-                    "SAMEAS": [
-                        {"URI": {
-                            "VALUE": "http://publications.europa.eu/resource/celex/32014R0248",
-                            "IDENTIFIER": "32014R0248",
-                            "TYPE": "celex"
-                        }},
-                        {"URI": {
-                            "VALUE": "http://publications.europa.eu/resource/eli/reg/2014/248/oj",
-                            "IDENTIFIER": "reg:2014:248:oj",
-                            "TYPE": "eli"
-                        }},
-                        {"URI": {
-                            "VALUE": "http://publications.europa.eu/resource/oj/JOL_2014_084_R_0001_01",
-                            "IDENTIFIER": "JOL_2014_084_R_0001_01",
-                            "TYPE": "oj"
-                        }}
-                    ],
-                    "type": "link",
-                    "URI": {
-                        "VALUE": "http://publications.europa.eu/resource/cellar/8eaf8eb4-b002-11e3-86f9-01aa75ed71a1",
-                        "IDENTIFIER": "8eaf8eb4-b002-11e3-86f9-01aa75ed71a1",
-                        "TYPE": "cellar"
-                    }
-                },
-                "EVENT_LEGAL_DATE": {
-                    "MONTH": "03",
-                    "YEAR": 2014,
-                    "VALUE": "2014-03-20",
-                    "type": "date",
-                    "DAY": 20
-                },
-                "URI": {
-                    "VALUE": "http://publications.europa.eu/resource/cellar/9c2763b8-796d-11e3-b889-01aa75ed71a1.0009",
-                    "IDENTIFIER": "9c2763b8-796d-11e3-b889-01aa75ed71a1.0009",
-                    "TYPE": "cellar"
-                },
-                "TYPE": {
-                    "type": "type",
-                    "content": "cdm:event"
-                },
-                "EVENT_LEGAL_HAS_TYPE_CONCEPT_TYPE_EVENT_LEGAL": {
-                    "OP-CODE": "PUB_OJ",
-                    "PREFLABEL": "Publication in the Official Journal",
-                    "IDENTIFIER": "PUB_OJ",
-                    "type": "concept",
-                    "URI": {
-                        "VALUE": "http://publications.europa.eu/resource/authority/event/PUB_OJ",
-                        "IDENTIFIER": "PUB_OJ",
-                        "TYPE": "event"
-                    }
-                },
-                "EVENT_LEGAL_CONTAINS_WORK": {
-                    "SAMEAS": [
-                        {"URI": {
-                            "VALUE": "http://publications.europa.eu/resource/celex/32014R0248",
-                            "IDENTIFIER": "32014R0248",
-                            "TYPE": "celex"
-                        }},
-                        {"URI": {
-                            "VALUE": "http://publications.europa.eu/resource/eli/reg/2014/248/oj",
-                            "IDENTIFIER": "reg:2014:248:oj",
-                            "TYPE": "eli"
-                        }},
-                        {"URI": {
-                            "VALUE": "http://publications.europa.eu/resource/oj/JOL_2014_084_R_0001_01",
-                            "IDENTIFIER": "JOL_2014_084_R_0001_01",
-                            "TYPE": "oj"
-                        }}
-                    ],
-                    "WORK": {
-                        "ID_CELEX": {
-                            "VALUE": "32014R0248",
-                            "type": "data"
-                        },
-                        "RESOURCE_LEGAL_NUMBER_NATURAL_CELEX": {
-                            "VALUE": "0248",
-                            "type": "data"
-                        },
-                        "WORK_HAS_RESOURCE-TYPE": {
-                            "OP-CODE": "REG",
-                            "PREFLABEL": "Regulation",
-                            "ALTLABEL": "Regulations",
-                            "IDENTIFIER": "REG",
-                            "type": "concept",
-                            "URI": {
-                                "VALUE": "http://publications.europa.eu/resource/authority/resource-type/REG",
-                                "IDENTIFIER": "REG",
-                                "TYPE": "resource-type"
-                            }
-                        },
-                        "ID_SECTOR": {
-                            "VALUE": 3,
-                            "type": "data"
-                        },
-                        "WORK_DATE_DOCUMENT": {
-                            "MONTH": "02",
-                            "YEAR": 2014,
-                            "VALUE": "2014-02-26",
-                            "type": "date",
-                            "DAY": 26
-                        },
-                        "TYPE": {
-                            "type": "type",
-                            "content": "cdm:work"
-                        },
-                        "EXPRESSION": {"EXPRESSION_TITLE": {
-                            "VALUE": "Regulation (EU) No 248/2014 of the European Parliament and of the Council of 26 February 2014 amending Regulation (EU) No 260/2012 as regards the migration to Union-wide credit transfers and direct debits  Text with EEA relevance",
-                            "type": "data"
-                        }}
-                    },
-                    "type": "link",
-                    "URI": {
-                        "VALUE": "http://publications.europa.eu/resource/cellar/8eaf8eb4-b002-11e3-86f9-01aa75ed71a1",
-                        "IDENTIFIER": "8eaf8eb4-b002-11e3-86f9-01aa75ed71a1",
-                        "TYPE": "cellar"
-                    }
-                }
-            }
-        ],
-        "IDENTIFIER": [
-            {
-                "VALUE": "pegase:1041573",
-                "type": "data"
-            },
-            {
-                "VALUE": "procedure:2013_449",
-                "type": "data"
-            }
-        ],
-        "DOSSIER_TYPE_REFERENCE": {
-            "VALUE": "COM",
-            "type": "data"
-        },
-        "DOSSIER_IDENTIFIER": [
-            {
-                "VALUE": "procedure:2013_449",
-                "type": "data"
-            },
-            {
-                "VALUE": "pegase:1041573",
-                "type": "data"
-            }
-        ],
-        "TYPE": [
-            {
-                "type": "type",
-                "content": "cdm:period"
-            },
-            {
-                "type": "type",
-                "content": "cdm:procedure_code_interinstitutional"
-            },
-            {
-                "type": "type",
-                "content": "cdm:dossier"
-            },
-            {
-                "type": "type",
-                "content": "cdm:entity_temporal"
-            }
-        ],
-        "CREATIONDATE": {
-            "MONTH": "01",
-            "YEAR": 1001,
-            "VALUE": "1001-01-01T00:00:00.000+00:00",
-            "type": "date",
-            "DAY": "01"
-        },
-        "DOSSIER_NUMBER_REFERENCE": {
-            "VALUE": 937,
-            "type": "data"
-        },
-        "BASIS_LEGAL": {
-            "VALUE": "TFUE/art 114",
-            "type": "data"
-        },
-        "PROCEDURE_CODE_INTERINSTITUTIONAL_HAS_TYPE_CONCEPT_TYPE_PROCEDURE_CODE_INTERINSTITUTIONAL": {
-            "OP-CODE": "OLP",
-            "PREFLABEL": "Ordinary legislative procedure (COD)",
-            "IDENTIFIER": "OLP",
-            "type": "concept",
-            "URI": {
-                "VALUE": "http://publications.europa.eu/resource/authority/procedure/OLP",
-                "IDENTIFIER": "OLP",
-                "TYPE": "procedure"
-            }
-        },
-        "PROCEDURE_CODE_INTERINSTITUTIONAL_YEAR_PROCEDURE": {
-            "VALUE": 2013,
-            "type": "data"
-        },
-        "DATE": {
-            "MONTH": "01",
-            "YEAR": 2014,
-            "VALUE": "2014-01-09",
-            "type": "date",
-            "DAY": "09"
-        },
-        "PROCEDURE_CODE_INTERINSTITUTIONAL_NUMBER_PROCEDURE": {
-            "VALUE": "0449",
-            "type": "data"
-        },
-        "DATE_CREATION_LEGACY": {
-            "MONTH": "01",
-            "YEAR": 2014,
-            "VALUE": "2014-01-09",
-            "type": "date",
-            "DAY": "09"
-        },
-        "DOSSIER_INITIATED_BY_ACT_PREPARATORY": {
-            "SAMEAS": [
-                {"URI": {
-                    "VALUE": "http://publications.europa.eu/resource/celex/52013PC0937",
-                    "IDENTIFIER": "52013PC0937",
-                    "TYPE": "celex"
-                }},
-                {"URI": {
-                    "VALUE": "http://publications.europa.eu/resource/comnat/COM_2013_0937_FIN",
-                    "IDENTIFIER": "COM_2013_0937_FIN",
-                    "TYPE": "comnat"
-                }},
-                {"URI": {
-                    "VALUE": "http://publications.europa.eu/resource/com/COM_2014_028",
-                    "IDENTIFIER": "COM_2014_028",
-                    "TYPE": "com"
-                }}
-            ],
-            "WORK": {
-                "ID_CELEX": {
-                    "VALUE": "52013PC0937",
-                    "type": "data"
-                },
-                "RESOURCE_LEGAL_NUMBER_NATURAL_CELEX": {
-                    "VALUE": "0937",
-                    "type": "data"
-                },
-                "WORK_HAS_RESOURCE-TYPE": {
-                    "OP-CODE": "PROP_REG",
-                    "PREFLABEL": "Proposal for a regulation",
-                    "IDENTIFIER": "PROP_REG",
-                    "type": "concept",
-                    "URI": {
-                        "VALUE": "http://publications.europa.eu/resource/authority/resource-type/PROP_REG",
-                        "IDENTIFIER": "PROP_REG",
-                        "TYPE": "resource-type"
-                    }
-                },
-                "RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE": {
-                    "RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE": {
-                        "RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE": [
-                            {
-                                "OP-CODE": "06202020",
-                                "PREFLABEL": "Banks",
-                                "level": 4,
-                                "IDENTIFIER": "06202020",
-                                "type": "concept_hierarchy_path_concept",
-                                "leaf": true,
-                                "URI": {
-                                    "VALUE": "http://publications.europa.eu/resource/authority/fd_555/06202020",
-                                    "IDENTIFIER": "06202020",
-                                    "TYPE": "fd_555"
-                                }
-                            },
-                            {
-                                "OP-CODE": "0620",
-                                "PREFLABEL": "Sectoral application",
-                                "level": 2,
-                                "IDENTIFIER": "0620",
-                                "type": "concept_hierarchy_path_concept",
-                                "leaf": false,
-                                "URI": {
-                                    "VALUE": "http://publications.europa.eu/resource/authority/fd_555/0620",
-                                    "IDENTIFIER": "0620",
-                                    "TYPE": "fd_555"
-                                }
-                            },
-                            {
-                                "OP-CODE": "06",
-                                "PREFLABEL": "Right of establishment and freedom to provide services",
-                                "level": 1,
-                                "IDENTIFIER": "06",
-                                "type": "concept_hierarchy_path_concept",
-                                "leaf": false,
-                                "URI": {
-                                    "VALUE": "http://publications.europa.eu/resource/authority/fd_555/06",
-                                    "IDENTIFIER": "06",
-                                    "TYPE": "fd_555"
-                                }
-                            },
-                            {
-                                "OP-CODE": "062020",
-                                "PREFLABEL": "Service activities",
-                                "level": 3,
-                                "IDENTIFIER": "062020",
-                                "type": "concept_hierarchy_path_concept",
-                                "leaf": false,
-                                "URI": {
-                                    "VALUE": "http://publications.europa.eu/resource/authority/fd_555/062020",
-                                    "IDENTIFIER": "062020",
-                                    "TYPE": "fd_555"
-                                }
-                            }
-                        ],
-                        "type": "concept_hierarchy_path"
-                    },
-                    "type": "concept_hierarchy"
-                },
-                "WORK_IS_ABOUT_CONCEPT_EUROVOC": [
-                    {
-                        "WORK_IS_ABOUT_CONCEPT_EUROVOC": {
-                            "WORK_IS_ABOUT_CONCEPT_EUROVOC": [
-                                {
-                                    "PREFLABEL": "24 FINANCE",
-                                    "level": 1,
-                                    "IDENTIFIER": 24,
-                                    "type": "concept_hierarchy_path_concept",
-                                    "leaf": false,
-                                    "URI": {
-                                        "VALUE": "http://eurovoc.europa.eu/100148",
-                                        "IDENTIFIER": 100148,
-                                        "TYPE": "EUROVOC"
-                                    }
-                                },
-                                {
-                                    "PREFLABEL": "2421 free movement of capital",
-                                    "level": 2,
-                                    "IDENTIFIER": 2421,
-                                    "type": "concept_hierarchy_path_concept",
-                                    "leaf": false,
-                                    "URI": {
-                                        "VALUE": "http://eurovoc.europa.eu/100201",
-                                        "IDENTIFIER": 100201,
-                                        "TYPE": "EUROVOC"
-                                    }
-                                },
-                                {
-                                    "PREFLABEL": "free movement of capital",
-                                    "level": 3,
-                                    "IDENTIFIER": 1630,
-                                    "type": "concept_hierarchy_path_concept",
-                                    "leaf": false,
-                                    "URI": {
-                                        "VALUE": "http://eurovoc.europa.eu/1630",
-                                        "IDENTIFIER": 1630,
-                                        "TYPE": "EUROVOC"
-                                    }
-                                },
-                                {
-                                    "PREFLABEL": "capital transfer",
-                                    "ALTLABEL": "financial transfer",
-                                    "level": 4,
-                                    "IDENTIFIER": 4493,
-                                    "type": "concept_hierarchy_path_concept",
-                                    "leaf": true,
-                                    "URI": {
-                                        "VALUE": "http://eurovoc.europa.eu/4493",
-                                        "IDENTIFIER": 4493,
-                                        "TYPE": "EUROVOC"
-                                    }
-                                }
-                            ],
-                            "type": "concept_hierarchy_path"
-                        },
-                        "type": "concept_hierarchy"
-                    },
-                    {
-                        "WORK_IS_ABOUT_CONCEPT_EUROVOC": {
-                            "WORK_IS_ABOUT_CONCEPT_EUROVOC": [
-                                {
-                                    "PREFLABEL": "24 FINANCE",
-                                    "level": 1,
-                                    "IDENTIFIER": 24,
-                                    "type": "concept_hierarchy_path_concept",
-                                    "leaf": false,
-                                    "URI": {
-                                        "VALUE": "http://eurovoc.europa.eu/100148",
-                                        "IDENTIFIER": 100148,
-                                        "TYPE": "EUROVOC"
-                                    }
-                                },
-                                {
-                                    "PREFLABEL": "2411 monetary economics",
-                                    "level": 2,
-                                    "IDENTIFIER": 2411,
-                                    "type": "concept_hierarchy_path_concept",
-                                    "leaf": false,
-                                    "URI": {
-                                        "VALUE": "http://eurovoc.europa.eu/100199",
-                                        "IDENTIFIER": 100199,
-                                        "TYPE": "EUROVOC"
-                                    }
-                                },
-                                {
-                                    "PREFLABEL": "money market",
-                                    "ALTLABEL": "international money market",
-                                    "level": 3,
-                                    "IDENTIFIER": 1809,
-                                    "type": "concept_hierarchy_path_concept",
-                                    "leaf": false,
-                                    "URI": {
-                                        "VALUE": "http://eurovoc.europa.eu/1809",
-                                        "IDENTIFIER": 1809,
-                                        "TYPE": "EUROVOC"
-                                    }
-                                },
-                                {
-                                    "PREFLABEL": "electronic money",
-                                    "ALTLABEL": [
-                                        "credit card",
-                                        "e-money payment",
-                                        "payment card",
-                                        "cash card",
-                                        "multiservices card",
-                                        "e-money",
-                                        "electronic purse",
-                                        "auto-bank card",
-                                        "delayed debit card",
-                                        "debit card",
-                                        "charge card",
-                                        "defered debit card"
-                                    ],
-                                    "level": 4,
-                                    "IDENTIFIER": 1971,
-                                    "type": "concept_hierarchy_path_concept",
-                                    "leaf": true,
-                                    "URI": {
-                                        "VALUE": "http://eurovoc.europa.eu/1971",
-                                        "IDENTIFIER": 1971,
-                                        "TYPE": "EUROVOC"
-                                    }
-                                }
-                            ],
-                            "type": "concept_hierarchy_path"
-                        },
-                        "type": "concept_hierarchy"
-                    },
-                    {
-                        "WORK_IS_ABOUT_CONCEPT_EUROVOC": {
-                            "WORK_IS_ABOUT_CONCEPT_EUROVOC": [
-                                {
-                                    "PREFLABEL": "24 FINANCE",
-                                    "level": 1,
-                                    "IDENTIFIER": 24,
-                                    "type": "concept_hierarchy_path_concept",
-                                    "leaf": false,
-                                    "URI": {
-                                        "VALUE": "http://eurovoc.europa.eu/100148",
-                                        "IDENTIFIER": 100148,
-                                        "TYPE": "EUROVOC"
-                                    }
-                                },
-                                {
-                                    "PREFLABEL": "2416 financial institutions and credit",
-                                    "level": 2,
-                                    "IDENTIFIER": 2416,
-                                    "type": "concept_hierarchy_path_concept",
-                                    "leaf": false,
-                                    "URI": {
-                                        "VALUE": "http://eurovoc.europa.eu/100200",
-                                        "IDENTIFIER": 100200,
-                                        "TYPE": "EUROVOC"
-                                    }
-                                },
-                                {
-                                    "PREFLABEL": "financial services",
-                                    "level": 3,
-                                    "IDENTIFIER": 8469,
-                                    "type": "concept_hierarchy_path_concept",
-                                    "leaf": true,
-                                    "URI": {
-                                        "VALUE": "http://eurovoc.europa.eu/8469",
-                                        "IDENTIFIER": 8469,
-                                        "TYPE": "EUROVOC"
-                                    }
-                                }
-                            ],
-                            "type": "concept_hierarchy_path"
-                        },
-                        "type": "concept_hierarchy"
-                    },
-                    {
-                        "WORK_IS_ABOUT_CONCEPT_EUROVOC": {
-                            "WORK_IS_ABOUT_CONCEPT_EUROVOC": [
-                                {
-                                    "PREFLABEL": "24 FINANCE",
-                                    "level": 1,
-                                    "IDENTIFIER": 24,
-                                    "type": "concept_hierarchy_path_concept",
-                                    "leaf": false,
-                                    "URI": {
-                                        "VALUE": "http://eurovoc.europa.eu/100148",
-                                        "IDENTIFIER": 100148,
-                                        "TYPE": "EUROVOC"
-                                    }
-                                },
-                                {
-                                    "PREFLABEL": "2421 free movement of capital",
-                                    "level": 2,
-                                    "IDENTIFIER": 2421,
-                                    "type": "concept_hierarchy_path_concept",
-                                    "leaf": false,
-                                    "URI": {
-                                        "VALUE": "http://eurovoc.europa.eu/100201",
-                                        "IDENTIFIER": 100201,
-                                        "TYPE": "EUROVOC"
-                                    }
-                                },
-                                {
-                                    "PREFLABEL": "free movement of capital",
-                                    "level": 3,
-                                    "IDENTIFIER": 1630,
-                                    "type": "concept_hierarchy_path_concept",
-                                    "leaf": false,
-                                    "URI": {
-                                        "VALUE": "http://eurovoc.europa.eu/1630",
-                                        "IDENTIFIER": 1630,
-                                        "TYPE": "EUROVOC"
-                                    }
-                                },
-                                {
-                                    "PREFLABEL": "financial legislation",
-                                    "ALTLABEL": "transaction regulations",
-                                    "level": 4,
-                                    "IDENTIFIER": 560,
-                                    "type": "concept_hierarchy_path_concept",
-                                    "leaf": true,
-                                    "URI": {
-                                        "VALUE": "http://eurovoc.europa.eu/560",
-                                        "IDENTIFIER": 560,
-                                        "TYPE": "EUROVOC"
-                                    }
-                                }
-                            ],
-                            "type": "concept_hierarchy_path"
-                        },
-                        "type": "concept_hierarchy"
-                    },
-                    {
-                        "WORK_IS_ABOUT_CONCEPT_EUROVOC": {
-                            "WORK_IS_ABOUT_CONCEPT_EUROVOC": [
-                                {
-                                    "PREFLABEL": "24 FINANCE",
-                                    "level": 1,
-                                    "IDENTIFIER": 24,
-                                    "type": "concept_hierarchy_path_concept",
-                                    "leaf": false,
-                                    "URI": {
-                                        "VALUE": "http://eurovoc.europa.eu/100148",
-                                        "IDENTIFIER": 100148,
-                                        "TYPE": "EUROVOC"
-                                    }
-                                },
-                                {
-                                    "PREFLABEL": "2411 monetary economics",
-                                    "level": 2,
-                                    "IDENTIFIER": 2411,
-                                    "type": "concept_hierarchy_path_concept",
-                                    "leaf": false,
-                                    "URI": {
-                                        "VALUE": "http://eurovoc.europa.eu/100199",
-                                        "IDENTIFIER": 100199,
-                                        "TYPE": "EUROVOC"
-                                    }
-                                },
-                                {
-                                    "PREFLABEL": "Economic and Monetary Union",
-                                    "ALTLABEL": [
-                                        "Werner plan",
-                                        "EMU",
-                                        "Werner report"
-                                    ],
-                                    "level": 3,
-                                    "IDENTIFIER": 4602,
-                                    "type": "concept_hierarchy_path_concept",
-                                    "leaf": false,
-                                    "URI": {
-                                        "VALUE": "http://eurovoc.europa.eu/4602",
-                                        "IDENTIFIER": 4602,
-                                        "TYPE": "EUROVOC"
-                                    }
-                                },
-                                {
-                                    "PREFLABEL": "intra-EU payment",
-                                    "ALTLABEL": [
-                                        "intra-Community payment",
-                                        "Target system",
-                                        "Trans-European Automated Real-time Gross settlement Express Transfer system",
-                                        "intra-Eurosystem transaction",
-                                        "TARGET2",
-                                        "Target payment system"
-                                    ],
-                                    "level": 4,
-                                    "IDENTIFIER": 2220,
-                                    "type": "concept_hierarchy_path_concept",
-                                    "leaf": true,
-                                    "URI": {
-                                        "VALUE": "http://eurovoc.europa.eu/2220",
-                                        "IDENTIFIER": 2220,
-                                        "TYPE": "EUROVOC"
-                                    }
-                                }
-                            ],
-                            "type": "concept_hierarchy_path"
-                        },
-                        "type": "concept_hierarchy"
-                    }
-                ],
-                "WORK_DATE_DOCUMENT": {
-                    "MONTH": "01",
-                    "YEAR": 2014,
-                    "VALUE": "2014-01-09",
-                    "type": "date",
-                    "DAY": "09"
-                },
-                "ID_SECTOR": {
-                    "VALUE": 5,
-                    "type": "data"
-                },
-                "TYPE": [
-                    {
-                        "type": "type",
-                        "content": "cdm:proposal_regulation_ec"
-                    },
-                    {
-                        "type": "type",
-                        "content": "cdm:resource_legal"
-                    },
-                    {
-                        "type": "type",
-                        "content": "cdm:act_preparatory"
-                    },
-                    {
-                        "type": "type",
-                        "content": "cdm:proposal_act"
-                    },
-                    {
-                        "type": "type",
-                        "content": "cdm:work"
-                    }
-                ],
-                "EXPRESSION": {"EXPRESSION_TITLE": {
-                    "VALUE": "Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL amending Regulation (EU) N° 260/2012 as regards the migration to Union-wide credit transfers and direct debits",
-                    "type": "data"
-                }}
-            },
-            "type": "link",
-            "URI": {
-                "VALUE": "http://publications.europa.eu/resource/cellar/2731f50a-7dfd-11e3-b889-01aa75ed71a1",
-                "IDENTIFIER": "2731f50a-7dfd-11e3-b889-01aa75ed71a1",
-                "TYPE": "cellar"
-            }
-        },
-        "TITLE": [
-            {
-                "VALUE": "Proposal for a&#13;\r\nREGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL&#13;\r\namending Regulation (EU) N° 260/2012 as regards the migration to Union-wide credit&#13;\r\ntransfers and direct debits",
-                "type": "data",
-                "LANG": "en"
-            },
-            {
-                "VALUE": "Proposal for a Regulation of the European Parliament and of the Council on payments",
-                "type": "data",
-                "LANG": "fr"
-            }
-        ],
-        "LASTMODIFICATIONDATE": {
-            "MONTH": 10,
-            "YEAR": 2018,
-            "VALUE": "2018-10-05T19:40:13.362+02:00",
-            "type": "date",
-            "DAY": "05"
-        },
-        "PROCEDURE_CODE_INTERINSTITUTIONAL_REFERENCE_PROCEDURE": {
-            "VALUE": "2013/0449/COD",
-            "type": "data"
-        },
-        "DOSSIER_WITHDRAWN-PROPOSAL": {
-            "VALUE": false,
-            "type": "data"
-        }
-    },
-    "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
-    "type": "tree",
-    "decoding": "eng"
-}}
+{
+	"NOTICE": {
+		"@decoding": "eng",
+		"@type": "tree",
+		"DOSSIER": {
+			"URI": {
+				"VALUE": "http://publications.europa.eu/resource/cellar/9c2763b8-796d-11e3-b889-01aa75ed71a1",
+				"IDENTIFIER": "9c2763b8-796d-11e3-b889-01aa75ed71a1",
+				"TYPE": "cellar"
+			},
+			"SAMEAS": {
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/pegase/1041573",
+					"IDENTIFIER": "1041573",
+					"TYPE": "pegase"
+				}
+			},
+			"SAMEAS": {
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/procedure/2013_449",
+					"IDENTIFIER": "2013_449",
+					"TYPE": "procedure"
+				}
+			},
+			"CREATIONDATE": {
+				"@type": "date",
+				"VALUE": "1001-01-01T00:00:00.000+00:00",
+				"YEAR": "1001",
+				"MONTH": "01",
+				"DAY": "01"
+			},
+			"PROCEDURE_CODE_INTERINSTITUTIONAL_NUMBER_PROCEDURE": {
+				"@type": "data",
+				"VALUE": "0449"
+			},
+			"PROCEDURE_CODE_INTERINSTITUTIONAL_YEAR_PROCEDURE": {
+				"@type": "data",
+				"VALUE": "2013"
+			},
+			"PROCEDURE_CODE_INTERINSTITUTIONAL_REFERENCE_PROCEDURE": {
+				"@type": "data",
+				"VALUE": "2013/0449/COD"
+			},
+			"IDENTIFIER": {
+				"@type": "data",
+				"VALUE": "pegase:1041573"
+			},
+			"NUMBER_PROCEDURE": {
+				"@type": "data",
+				"VALUE": "0449"
+			},
+			"CONTAINS": {
+				"@type": "link",
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/oj/JOC_2014_177_R_0041_01",
+						"IDENTIFIER": "JOC_2014_177_R_0041_01",
+						"TYPE": "oj"
+					}
+				}
+			},
+			"CONTAINS": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/8eaf8eb4-b002-11e3-86f9-01aa75ed71a1",
+					"IDENTIFIER": "8eaf8eb4-b002-11e3-86f9-01aa75ed71a1",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/celex/32014R0248",
+						"IDENTIFIER": "32014R0248",
+						"TYPE": "celex"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/eli/reg/2014/248/oj",
+						"IDENTIFIER": "reg:2014:248:oj",
+						"TYPE": "eli"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/oj/JOL_2014_084_R_0001_01",
+						"IDENTIFIER": "JOL_2014_084_R_0001_01",
+						"TYPE": "oj"
+					}
+				}
+			},
+			"TITLE": {
+				"@type": "data",
+				"VALUE": "Proposal for a&#13;\nREGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL&#13;\namending Regulation (EU) N° 260/2012 as regards the migration to Union-wide credit&#13;\ntransfers and direct debits",
+				"LANG": "en"
+			},
+			"DOSSIER_TITLE": {
+				"@type": "data",
+				"VALUE": "Proposal for a Regulation of the European Parliament and of the Council on payments",
+				"LANG": "fr"
+			},
+			"DOSSIER_PENDING-PROPOSAL": {
+				"@type": "data",
+				"VALUE": "false"
+			},
+			"CONTAINS": {
+				"@type": "link",
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/pegase/CSST_2014_5210_0000_0000_0000",
+						"IDENTIFIER": "CSST_2014_5210_0000_0000_0000",
+						"TYPE": "pegase"
+					}
+				}
+			},
+			"DATE": {
+				"@type": "date",
+				"VALUE": "2014-01-09",
+				"YEAR": "2014",
+				"MONTH": "01",
+				"DAY": "09"
+			},
+			"DOSSIER_INITIATED_BY_ACT_PREPARATORY": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/2731f50a-7dfd-11e3-b889-01aa75ed71a1",
+					"IDENTIFIER": "2731f50a-7dfd-11e3-b889-01aa75ed71a1",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/celex/52013PC0937",
+						"IDENTIFIER": "52013PC0937",
+						"TYPE": "celex"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/comnat/COM_2013_0937_FIN",
+						"IDENTIFIER": "COM_2013_0937_FIN",
+						"TYPE": "comnat"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/com/COM_2014_028",
+						"IDENTIFIER": "COM_2014_028",
+						"TYPE": "com"
+					}
+				},
+				"WORK": {
+					"TYPE": {
+						"@type": "type",
+						"$": "cdm:proposal_regulation_ec"
+					},
+					"TYPE": {
+						"@type": "type",
+						"$": "cdm:resource_legal"
+					},
+					"TYPE": {
+						"@type": "type",
+						"$": "cdm:act_preparatory"
+					},
+					"TYPE": {
+						"@type": "type",
+						"$": "cdm:proposal_act"
+					},
+					"TYPE": {
+						"@type": "type",
+						"$": "cdm:work"
+					},
+					"RESOURCE_LEGAL_NUMBER_NATURAL_CELEX": {
+						"@type": "data",
+						"VALUE": "0937"
+					},
+					"WORK_HAS_RESOURCE-TYPE": {
+						"@type": "concept",
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/authority/resource-type/PROP_REG",
+							"IDENTIFIER": "PROP_REG",
+							"TYPE": "resource-type"
+						},
+						"OP-CODE": "PROP_REG",
+						"IDENTIFIER": "PROP_REG",
+						"PREFLABEL": "Proposal for a regulation"
+					},
+					"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+						"@type": "concept_hierarchy",
+						"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+							"@type": "concept_hierarchy_path",
+							"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+								"@type": "concept_hierarchy_path_concept",
+								"@level": 1,
+								"@leaf": "false",
+								"URI": {
+									"VALUE": "http://eurovoc.europa.eu/100148",
+									"IDENTIFIER": "100148",
+									"TYPE": "EUROVOC"
+								},
+								"IDENTIFIER": "24",
+								"PREFLABEL": "24 FINANCE"
+							},
+							"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+								"@type": "concept_hierarchy_path_concept",
+								"@level": 2,
+								"@leaf": "false",
+								"URI": {
+									"VALUE": "http://eurovoc.europa.eu/100201",
+									"IDENTIFIER": "100201",
+									"TYPE": "EUROVOC"
+								},
+								"IDENTIFIER": "2421",
+								"PREFLABEL": "2421 free movement of capital"
+							},
+							"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+								"@type": "concept_hierarchy_path_concept",
+								"@level": 3,
+								"@leaf": "false",
+								"URI": {
+									"VALUE": "http://eurovoc.europa.eu/1630",
+									"IDENTIFIER": "1630",
+									"TYPE": "EUROVOC"
+								},
+								"IDENTIFIER": "1630",
+								"PREFLABEL": "free movement of capital"
+							},
+							"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+								"@type": "concept_hierarchy_path_concept",
+								"@level": 4,
+								"@leaf": "true",
+								"URI": {
+									"VALUE": "http://eurovoc.europa.eu/4493",
+									"IDENTIFIER": "4493",
+									"TYPE": "EUROVOC"
+								},
+								"IDENTIFIER": "4493",
+								"PREFLABEL": "capital transfer",
+								"ALTLABEL": "financial transfer"
+							}
+						}
+					},
+					"WORK_DATE_DOCUMENT": {
+						"@type": "date",
+						"VALUE": "2014-01-09",
+						"YEAR": "2014",
+						"MONTH": "01",
+						"DAY": "09"
+					},
+					"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+						"@type": "concept_hierarchy",
+						"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+							"@type": "concept_hierarchy_path",
+							"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+								"@type": "concept_hierarchy_path_concept",
+								"@level": 1,
+								"@leaf": "false",
+								"URI": {
+									"VALUE": "http://eurovoc.europa.eu/100148",
+									"IDENTIFIER": "100148",
+									"TYPE": "EUROVOC"
+								},
+								"IDENTIFIER": "24",
+								"PREFLABEL": "24 FINANCE"
+							},
+							"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+								"@type": "concept_hierarchy_path_concept",
+								"@level": 2,
+								"@leaf": "false",
+								"URI": {
+									"VALUE": "http://eurovoc.europa.eu/100199",
+									"IDENTIFIER": "100199",
+									"TYPE": "EUROVOC"
+								},
+								"IDENTIFIER": "2411",
+								"PREFLABEL": "2411 monetary economics"
+							},
+							"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+								"@type": "concept_hierarchy_path_concept",
+								"@level": 3,
+								"@leaf": "false",
+								"URI": {
+									"VALUE": "http://eurovoc.europa.eu/1809",
+									"IDENTIFIER": "1809",
+									"TYPE": "EUROVOC"
+								},
+								"IDENTIFIER": "1809",
+								"PREFLABEL": "money market",
+								"ALTLABEL": "international money market"
+							},
+							"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+								"@type": "concept_hierarchy_path_concept",
+								"@level": 4,
+								"@leaf": "true",
+								"URI": {
+									"VALUE": "http://eurovoc.europa.eu/1971",
+									"IDENTIFIER": "1971",
+									"TYPE": "EUROVOC"
+								},
+								"IDENTIFIER": "1971",
+								"PREFLABEL": "electronic money",
+								"ALTLABEL": "credit card",
+								"ALTLABEL": "e-money payment",
+								"ALTLABEL": "payment card",
+								"ALTLABEL": "cash card",
+								"ALTLABEL": "multiservices card",
+								"ALTLABEL": "e-money",
+								"ALTLABEL": "electronic purse",
+								"ALTLABEL": "auto-bank card",
+								"ALTLABEL": "delayed debit card",
+								"ALTLABEL": "debit card",
+								"ALTLABEL": "charge card",
+								"ALTLABEL": "defered debit card"
+							}
+						}
+					},
+					"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+						"@type": "concept_hierarchy",
+						"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+							"@type": "concept_hierarchy_path",
+							"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+								"@type": "concept_hierarchy_path_concept",
+								"@level": 1,
+								"@leaf": "false",
+								"URI": {
+									"VALUE": "http://eurovoc.europa.eu/100148",
+									"IDENTIFIER": "100148",
+									"TYPE": "EUROVOC"
+								},
+								"IDENTIFIER": "24",
+								"PREFLABEL": "24 FINANCE"
+							},
+							"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+								"@type": "concept_hierarchy_path_concept",
+								"@level": 2,
+								"@leaf": "false",
+								"URI": {
+									"VALUE": "http://eurovoc.europa.eu/100200",
+									"IDENTIFIER": "100200",
+									"TYPE": "EUROVOC"
+								},
+								"IDENTIFIER": "2416",
+								"PREFLABEL": "2416 financial institutions and credit"
+							},
+							"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+								"@type": "concept_hierarchy_path_concept",
+								"@level": 3,
+								"@leaf": "true",
+								"URI": {
+									"VALUE": "http://eurovoc.europa.eu/8469",
+									"IDENTIFIER": "8469",
+									"TYPE": "EUROVOC"
+								},
+								"IDENTIFIER": "8469",
+								"PREFLABEL": "financial services"
+							}
+						}
+					},
+					"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+						"@type": "concept_hierarchy",
+						"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+							"@type": "concept_hierarchy_path",
+							"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+								"@type": "concept_hierarchy_path_concept",
+								"@level": 1,
+								"@leaf": "false",
+								"URI": {
+									"VALUE": "http://eurovoc.europa.eu/100148",
+									"IDENTIFIER": "100148",
+									"TYPE": "EUROVOC"
+								},
+								"IDENTIFIER": "24",
+								"PREFLABEL": "24 FINANCE"
+							},
+							"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+								"@type": "concept_hierarchy_path_concept",
+								"@level": 2,
+								"@leaf": "false",
+								"URI": {
+									"VALUE": "http://eurovoc.europa.eu/100201",
+									"IDENTIFIER": "100201",
+									"TYPE": "EUROVOC"
+								},
+								"IDENTIFIER": "2421",
+								"PREFLABEL": "2421 free movement of capital"
+							},
+							"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+								"@type": "concept_hierarchy_path_concept",
+								"@level": 3,
+								"@leaf": "false",
+								"URI": {
+									"VALUE": "http://eurovoc.europa.eu/1630",
+									"IDENTIFIER": "1630",
+									"TYPE": "EUROVOC"
+								},
+								"IDENTIFIER": "1630",
+								"PREFLABEL": "free movement of capital"
+							},
+							"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+								"@type": "concept_hierarchy_path_concept",
+								"@level": 4,
+								"@leaf": "true",
+								"URI": {
+									"VALUE": "http://eurovoc.europa.eu/560",
+									"IDENTIFIER": "560",
+									"TYPE": "EUROVOC"
+								},
+								"IDENTIFIER": "560",
+								"PREFLABEL": "financial legislation",
+								"ALTLABEL": "transaction regulations"
+							}
+						}
+					},
+					"ID_CELEX": {
+						"@type": "data",
+						"VALUE": "52013PC0937"
+					},
+					"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+						"@type": "concept_hierarchy",
+						"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+							"@type": "concept_hierarchy_path",
+							"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+								"@type": "concept_hierarchy_path_concept",
+								"@level": 1,
+								"@leaf": "false",
+								"URI": {
+									"VALUE": "http://eurovoc.europa.eu/100148",
+									"IDENTIFIER": "100148",
+									"TYPE": "EUROVOC"
+								},
+								"IDENTIFIER": "24",
+								"PREFLABEL": "24 FINANCE"
+							},
+							"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+								"@type": "concept_hierarchy_path_concept",
+								"@level": 2,
+								"@leaf": "false",
+								"URI": {
+									"VALUE": "http://eurovoc.europa.eu/100199",
+									"IDENTIFIER": "100199",
+									"TYPE": "EUROVOC"
+								},
+								"IDENTIFIER": "2411",
+								"PREFLABEL": "2411 monetary economics"
+							},
+							"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+								"@type": "concept_hierarchy_path_concept",
+								"@level": 3,
+								"@leaf": "false",
+								"URI": {
+									"VALUE": "http://eurovoc.europa.eu/4602",
+									"IDENTIFIER": "4602",
+									"TYPE": "EUROVOC"
+								},
+								"IDENTIFIER": "4602",
+								"PREFLABEL": "Economic and Monetary Union",
+								"ALTLABEL": "Werner plan",
+								"ALTLABEL": "EMU",
+								"ALTLABEL": "Werner report"
+							},
+							"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+								"@type": "concept_hierarchy_path_concept",
+								"@level": 4,
+								"@leaf": "true",
+								"URI": {
+									"VALUE": "http://eurovoc.europa.eu/2220",
+									"IDENTIFIER": "2220",
+									"TYPE": "EUROVOC"
+								},
+								"IDENTIFIER": "2220",
+								"PREFLABEL": "intra-EU payment",
+								"ALTLABEL": "intra-Community payment",
+								"ALTLABEL": "Target system",
+								"ALTLABEL": "Trans-European Automated Real-time Gross settlement Express Transfer system",
+								"ALTLABEL": "intra-Eurosystem transaction",
+								"ALTLABEL": "TARGET2",
+								"ALTLABEL": "Target payment system"
+							}
+						}
+					},
+					"RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE": {
+						"@type": "concept_hierarchy",
+						"RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE": {
+							"@type": "concept_hierarchy_path",
+							"RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE": {
+								"@type": "concept_hierarchy_path_concept",
+								"@level": 4,
+								"@leaf": "true",
+								"URI": {
+									"VALUE": "http://publications.europa.eu/resource/authority/fd_555/06202020",
+									"IDENTIFIER": "06202020",
+									"TYPE": "fd_555"
+								},
+								"OP-CODE": "06202020",
+								"IDENTIFIER": "06202020",
+								"PREFLABEL": "Banks"
+							},
+							"RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE": {
+								"@type": "concept_hierarchy_path_concept",
+								"@level": 2,
+								"@leaf": "false",
+								"URI": {
+									"VALUE": "http://publications.europa.eu/resource/authority/fd_555/0620",
+									"IDENTIFIER": "0620",
+									"TYPE": "fd_555"
+								},
+								"OP-CODE": "0620",
+								"IDENTIFIER": "0620",
+								"PREFLABEL": "Sectoral application"
+							},
+							"RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE": {
+								"@type": "concept_hierarchy_path_concept",
+								"@level": 1,
+								"@leaf": "false",
+								"URI": {
+									"VALUE": "http://publications.europa.eu/resource/authority/fd_555/06",
+									"IDENTIFIER": "06",
+									"TYPE": "fd_555"
+								},
+								"OP-CODE": "06",
+								"IDENTIFIER": "06",
+								"PREFLABEL": "Right of establishment and freedom to provide services"
+							},
+							"RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE": {
+								"@type": "concept_hierarchy_path_concept",
+								"@level": 3,
+								"@leaf": "false",
+								"URI": {
+									"VALUE": "http://publications.europa.eu/resource/authority/fd_555/062020",
+									"IDENTIFIER": "062020",
+									"TYPE": "fd_555"
+								},
+								"OP-CODE": "062020",
+								"IDENTIFIER": "062020",
+								"PREFLABEL": "Service activities"
+							}
+						}
+					},
+					"ID_SECTOR": {
+						"@type": "data",
+						"VALUE": "5"
+					},
+					"EXPRESSION": {
+						"EXPRESSION_TITLE": {
+							"@type": "data",
+							"VALUE": "Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL amending Regulation (EU) N° 260/2012 as regards the migration to Union-wide credit transfers and direct debits"
+						}
+					}
+				}
+			},
+			"CONTAINS": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/cd9fac52-f12e-11e3-8cd4-01aa75ed71a1",
+					"IDENTIFIER": "cd9fac52-f12e-11e3-8cd4-01aa75ed71a1",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/celex/52014IE0238",
+						"IDENTIFIER": "52014IE0238",
+						"TYPE": "celex"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/oj/JOC_2014_177_R_0007",
+						"IDENTIFIER": "JOC_2014_177_R_0007",
+						"TYPE": "oj"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/planjo/20140512-006",
+						"IDENTIFIER": "20140512-006",
+						"TYPE": "planjo"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/immc/planjo%3A20140512-006",
+						"IDENTIFIER": "planjo:20140512-006",
+						"TYPE": "immc"
+					}
+				}
+			},
+			"DOSSIER_TYPE_REFERENCE": {
+				"@type": "data",
+				"VALUE": "COM"
+			},
+			"DOSSIER_IDENTIFIER": {
+				"@type": "data",
+				"VALUE": "procedure:2013_449"
+			},
+			"DATE_CREATION_LEGACY": {
+				"@type": "date",
+				"VALUE": "2014-01-09",
+				"YEAR": "2014",
+				"MONTH": "01",
+				"DAY": "09"
+			},
+			"DOSSIER_NUMBER_REFERENCE": {
+				"@type": "data",
+				"VALUE": "937"
+			},
+			"DOSSIER_YEAR_REFERENCE": {
+				"@type": "data",
+				"VALUE": "2013"
+			},
+			"BASIS_LEGAL": {
+				"@type": "data",
+				"VALUE": "TFUE/art 114"
+			},
+			"DOSSIER_WITHDRAWN-PROPOSAL": {
+				"@type": "data",
+				"VALUE": "false"
+			},
+			"DOSSIER_TITLE": {
+				"@type": "data",
+				"VALUE": "Proposal for a&#13;\nREGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL&#13;\namending Regulation (EU) N° 260/2012 as regards the migration to Union-wide credit&#13;\ntransfers and direct debits",
+				"LANG": "en"
+			},
+			"TITLE": {
+				"@type": "data",
+				"VALUE": "Proposal for a Regulation of the European Parliament and of the Council on payments",
+				"LANG": "fr"
+			},
+			"DOSSIER_ADOPTED-PROPOSAL": {
+				"@type": "data",
+				"VALUE": "true"
+			},
+			"CONTAINS": {
+				"@type": "link",
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/oj/JOC_2017_093_R_0163_01",
+						"IDENTIFIER": "JOC_2017_093_R_0163_01",
+						"TYPE": "oj"
+					}
+				}
+			},
+			"DOSSIER_IDENTIFIER": {
+				"@type": "data",
+				"VALUE": "pegase:1041573"
+			},
+			"REFERENCE_PROCEDURE": {
+				"@type": "data",
+				"VALUE": "2013/0449/COD"
+			},
+			"CONTAINS": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/ac9186ea-1061-11e7-8a35-01aa75ed71a1",
+					"IDENTIFIER": "ac9186ea-1061-11e7-8a35-01aa75ed71a1",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/oj/JOC_2017_093_R_0034",
+						"IDENTIFIER": "JOC_2017_093_R_0034",
+						"TYPE": "oj"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/celex/52014AP0049",
+						"IDENTIFIER": "52014AP0049",
+						"TYPE": "celex"
+					}
+				}
+			},
+			"CONTAINS": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/1efeba0b-af63-11e3-86f9-01aa75ed71a1",
+					"IDENTIFIER": "1efeba0b-af63-11e3-86f9-01aa75ed71a1",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/celex/52014AB0003",
+						"IDENTIFIER": "52014AB0003",
+						"TYPE": "celex"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/oj/JOC_2014_080_R_0001_01",
+						"IDENTIFIER": "JOC_2014_080_R_0001_01",
+						"TYPE": "oj"
+					}
+				}
+			},
+			"LASTMODIFICATIONDATE": {
+				"@type": "date",
+				"VALUE": "2018-10-05T19:40:13.362+02:00",
+				"YEAR": "2018",
+				"MONTH": "10",
+				"DAY": "05"
+			},
+			"CONTAINS": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/9c2763b8-796d-11e3-b889-01aa75ed71a1.0009",
+					"IDENTIFIER": "9c2763b8-796d-11e3-b889-01aa75ed71a1.0009",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/pegase/1041573.2014-03-20_PUB_OJ",
+						"IDENTIFIER": "1041573.2014-03-20_PUB_OJ",
+						"TYPE": "pegase"
+					}
+				}
+			},
+			"IDENTIFIER": {
+				"@type": "data",
+				"VALUE": "procedure:2013_449"
+			},
+			"PROCEDURE_CODE_INTERINSTITUTIONAL_HAS_TYPE_CONCEPT_TYPE_PROCEDURE_CODE_INTERINSTITUTIONAL": {
+				"@type": "concept",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/authority/procedure/OLP",
+					"IDENTIFIER": "OLP",
+					"TYPE": "procedure"
+				},
+				"OP-CODE": "OLP",
+				"IDENTIFIER": "OLP",
+				"PREFLABEL": "Ordinary legislative procedure (COD)"
+			},
+			"CONTAINS": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/2731f50a-7dfd-11e3-b889-01aa75ed71a1",
+					"IDENTIFIER": "2731f50a-7dfd-11e3-b889-01aa75ed71a1",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/celex/52013PC0937",
+						"IDENTIFIER": "52013PC0937",
+						"TYPE": "celex"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/comnat/COM_2013_0937_FIN",
+						"IDENTIFIER": "COM_2013_0937_FIN",
+						"TYPE": "comnat"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/com/COM_2014_028",
+						"IDENTIFIER": "COM_2014_028",
+						"TYPE": "com"
+					}
+				}
+			},
+			"DOSSIER_PRODUCES_RESOURCE_LEGAL": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/8eaf8eb4-b002-11e3-86f9-01aa75ed71a1",
+					"IDENTIFIER": "8eaf8eb4-b002-11e3-86f9-01aa75ed71a1",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/celex/32014R0248",
+						"IDENTIFIER": "32014R0248",
+						"TYPE": "celex"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/eli/reg/2014/248/oj",
+						"IDENTIFIER": "reg:2014:248:oj",
+						"TYPE": "eli"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/oj/JOL_2014_084_R_0001_01",
+						"IDENTIFIER": "JOL_2014_084_R_0001_01",
+						"TYPE": "oj"
+					}
+				}
+			},
+			"EVENT": {
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/9c2763b8-796d-11e3-b889-01aa75ed71a1.0002",
+					"IDENTIFIER": "9c2763b8-796d-11e3-b889-01aa75ed71a1.0002",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/pegase/1041573.1212789",
+						"IDENTIFIER": "1041573.1212789",
+						"TYPE": "pegase"
+					}
+				},
+				"TYPE": {
+					"@type": "type",
+					"$": "cdm:event"
+				},
+				"EVENT_LEGAL_INITIATED_BY_INSTITUTION": {
+					"@type": "concept",
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/authority/corporate-body/COM",
+						"IDENTIFIER": "COM",
+						"TYPE": "corporate-body"
+					},
+					"OP-CODE": "COM",
+					"IDENTIFIER": "COM",
+					"PREFLABEL": "European Commission",
+					"ALTLABEL": "EC",
+					"ALTLABEL": "Commission of the European Communities",
+					"ALTLABEL": "European Commission",
+					"ALTLABEL": "Commission"
+				},
+				"EVENT_LEGAL_HAS_TYPE_CONCEPT_TYPE_EVENT_LEGAL": {
+					"@type": "concept",
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/authority/event/TRS_toCONSIL_byCOM",
+						"IDENTIFIER": "TRS_toCONSIL_byCOM",
+						"TYPE": "event"
+					},
+					"OP-CODE": "TRS_toCONSIL_byCOM",
+					"IDENTIFIER": "TRS_toCONSIL_byCOM",
+					"PREFLABEL": "Transmission to Council",
+					"ALTLABEL": "Transmission to Council"
+				},
+				"EVENT_LEGAL_DATE": {
+					"@type": "date",
+					"VALUE": "2014-01-09",
+					"YEAR": "2014",
+					"MONTH": "01",
+					"DAY": "09"
+				},
+				"EVENT_LEGAL_PART_OF_DOSSIER": {
+					"@type": "link",
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/cellar/9c2763b8-796d-11e3-b889-01aa75ed71a1",
+						"IDENTIFIER": "9c2763b8-796d-11e3-b889-01aa75ed71a1",
+						"TYPE": "cellar"
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/pegase/1041573",
+							"IDENTIFIER": "1041573",
+							"TYPE": "pegase"
+						}
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/procedure/2013_449",
+							"IDENTIFIER": "2013_449",
+							"TYPE": "procedure"
+						}
+					}
+				},
+				"LASTMODIFICATIONDATE": {
+					"@type": "date",
+					"VALUE": "2014-06-12T00:49:30.642+02:00",
+					"YEAR": "2014",
+					"MONTH": "06",
+					"DAY": "12"
+				},
+				"DATE": {
+					"@type": "date",
+					"VALUE": "2014-01-09",
+					"YEAR": "2014",
+					"MONTH": "01",
+					"DAY": "09"
+				},
+				"CREATIONDATE": {
+					"@type": "date",
+					"VALUE": "1001-01-01T00:00:00.000+00:00",
+					"YEAR": "1001",
+					"MONTH": "01",
+					"DAY": "01"
+				},
+				"TYPE": {
+					"@type": "data",
+					"VALUE": "Transmission au Conseil"
+				}
+			},
+			"EVENT": {
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/9c2763b8-796d-11e3-b889-01aa75ed71a1.0001",
+					"IDENTIFIER": "9c2763b8-796d-11e3-b889-01aa75ed71a1.0001",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/pegase/1041573.1212788",
+						"IDENTIFIER": "1041573.1212788",
+						"TYPE": "pegase"
+					}
+				},
+				"TYPE": {
+					"@type": "type",
+					"$": "cdm:event"
+				},
+				"EVENT_LEGAL_PART_OF_DOSSIER": {
+					"@type": "link",
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/cellar/9c2763b8-796d-11e3-b889-01aa75ed71a1",
+						"IDENTIFIER": "9c2763b8-796d-11e3-b889-01aa75ed71a1",
+						"TYPE": "cellar"
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/pegase/1041573",
+							"IDENTIFIER": "1041573",
+							"TYPE": "pegase"
+						}
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/procedure/2013_449",
+							"IDENTIFIER": "2013_449",
+							"TYPE": "procedure"
+						}
+					}
+				},
+				"EVENT_LEGAL_DOCUMENT_REFERENCE": {
+					"@type": "data",
+					"VALUE": "IP/2014/6"
+				},
+				"LASTMODIFICATIONDATE": {
+					"@type": "date",
+					"VALUE": "2014-06-12T00:49:30.642+02:00",
+					"YEAR": "2014",
+					"MONTH": "06",
+					"DAY": "12"
+				},
+				"EVENT_LEGAL_HAS_TYPE_CONCEPT_TYPE_EVENT_LEGAL": {
+					"@type": "concept",
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/authority/event/ADP_byCOM",
+						"IDENTIFIER": "ADP_byCOM",
+						"TYPE": "event"
+					},
+					"OP-CODE": "ADP_byCOM",
+					"IDENTIFIER": "ADP_byCOM",
+					"PREFLABEL": "Adoption by Commission",
+					"ALTLABEL": "Adoption by Commission"
+				},
+				"EVENT_LEGAL_FORMALLY-ADDRESSES_INSTITUTION": {
+					"@type": "concept",
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/authority/corporate-body/CONSIL",
+						"IDENTIFIER": "CONSIL",
+						"TYPE": "corporate-body"
+					},
+					"OP-CODE": "CONSIL",
+					"IDENTIFIER": "CONSIL",
+					"PREFLABEL": "Council of the European Union",
+					"ALTLABEL": "Council",
+					"ALTLABEL": "Council of the European Communities"
+				},
+				"CREATIONDATE": {
+					"@type": "date",
+					"VALUE": "1001-01-01T00:00:00.000+00:00",
+					"YEAR": "1001",
+					"MONTH": "01",
+					"DAY": "01"
+				},
+				"BASIS_LEGAL": {
+					"@type": "data",
+					"VALUE": "TFUE/art 114"
+				},
+				"EVENT_LEGAL_DOCUMENT_REFERENCE": {
+					"@type": "data",
+					"VALUE": "CSST/2014/5210"
+				},
+				"EVENT_LEGAL_DATE": {
+					"@type": "date",
+					"VALUE": "2014-01-09",
+					"YEAR": "2014",
+					"MONTH": "01",
+					"DAY": "09"
+				},
+				"EVENT_LEGAL_CONTAINS_WORK": {
+					"@type": "link",
+					"WORK": {
+						"TYPE": {
+							"@type": "type",
+							"$": "cdm:work"
+						},
+						"WORK_HAS_RESOURCE-TYPE": {
+							"@type": "concept",
+							"URI": {
+								"VALUE": "http://publications.europa.eu/resource/authority/resource-type/PROP_REG",
+								"IDENTIFIER": "PROP_REG",
+								"TYPE": "resource-type"
+							},
+							"OP-CODE": "PROP_REG",
+							"IDENTIFIER": "PROP_REG",
+							"PREFLABEL": "Proposal for a regulation"
+						},
+						"WORK_DATE_DOCUMENT": {
+							"@type": "date",
+							"VALUE": "2014-01-09",
+							"YEAR": "2014",
+							"MONTH": "01",
+							"DAY": "09"
+						},
+						"ID_CELEX": {
+							"@type": "data",
+							"VALUE": "52013PC0937"
+						},
+						"ID_SECTOR": {
+							"@type": "data",
+							"VALUE": "5"
+						},
+						"RESOURCE_LEGAL_NUMBER_NATURAL_CELEX": {
+							"@type": "data",
+							"VALUE": "0937"
+						},
+						"EXPRESSION": {
+							"EXPRESSION_TITLE": {
+								"@type": "data",
+								"VALUE": "Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL amending Regulation (EU) N° 260/2012 as regards the migration to Union-wide credit transfers and direct debits"
+							}
+						}
+					},
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/cellar/2731f50a-7dfd-11e3-b889-01aa75ed71a1",
+						"IDENTIFIER": "2731f50a-7dfd-11e3-b889-01aa75ed71a1",
+						"TYPE": "cellar"
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/celex/52013PC0937",
+							"IDENTIFIER": "52013PC0937",
+							"TYPE": "celex"
+						}
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/comnat/COM_2013_0937_FIN",
+							"IDENTIFIER": "COM_2013_0937_FIN",
+							"TYPE": "comnat"
+						}
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/com/COM_2014_028",
+							"IDENTIFIER": "COM_2014_028",
+							"TYPE": "com"
+						}
+					}
+				},
+				"EVENT_LEGAL_WAS_HISTORICALLY_ABOUT_CONCEPT_TYPE_PROCEDURE_CODE_INTERINSTITUTIONAL": {
+					"@type": "concept",
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/authority/procedure/OLP",
+						"IDENTIFIER": "OLP",
+						"TYPE": "procedure"
+					},
+					"OP-CODE": "OLP",
+					"IDENTIFIER": "OLP",
+					"PREFLABEL": "Ordinary legislative procedure (COD)"
+				},
+				"EVENT_LEGAL_MANDATORILY-CONSULTS_INSTITUTION": {
+					"@type": "concept",
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/authority/corporate-body/EESC",
+						"IDENTIFIER": "EESC",
+						"TYPE": "corporate-body"
+					},
+					"OP-CODE": "EESC",
+					"IDENTIFIER": "EESC",
+					"PREFLABEL": "European Economic and Social Committee",
+					"ALTLABEL": "EESC",
+					"ALTLABEL": "Economic and Social Committee",
+					"ALTLABEL": "Economic and Social Committee of the European Communities"
+				},
+				"EVENT_LEGAL_OPTIONALLY-CONSULTS_INSTITUTION": {
+					"@type": "concept",
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/authority/corporate-body/ECB",
+						"IDENTIFIER": "ECB",
+						"TYPE": "corporate-body"
+					},
+					"OP-CODE": "ECB",
+					"IDENTIFIER": "ECB",
+					"PREFLABEL": "European Central Bank",
+					"ALTLABEL": "ECB"
+				},
+				"CONTAINS": {
+					"@type": "link",
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/cellar/2731f50a-7dfd-11e3-b889-01aa75ed71a1",
+						"IDENTIFIER": "2731f50a-7dfd-11e3-b889-01aa75ed71a1",
+						"TYPE": "cellar"
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/celex/52013PC0937",
+							"IDENTIFIER": "52013PC0937",
+							"TYPE": "celex"
+						}
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/comnat/COM_2013_0937_FIN",
+							"IDENTIFIER": "COM_2013_0937_FIN",
+							"TYPE": "comnat"
+						}
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/com/COM_2014_028",
+							"IDENTIFIER": "COM_2014_028",
+							"TYPE": "com"
+						}
+					}
+				},
+				"EVENT_LEGAL_BASIS_LEGAL": {
+					"@type": "data",
+					"VALUE": "TFUE/art 114"
+				},
+				"EVENT_LEGAL_RESPONSIBILITY_OF_PERSON": {
+					"@type": "link",
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/cellar/eaf2f71d-d1db-11e1-905c-01aa75ed71a1",
+						"IDENTIFIER": "eaf2f71d-d1db-11e1-905c-01aa75ed71a1",
+						"TYPE": "cellar"
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/agent/Michel%20BARNIER%20",
+							"IDENTIFIER": "Michel BARNIER ",
+							"TYPE": "agent"
+						}
+					}
+				},
+				"EVENT_LEGAL_DOCUMENT_REFERENCE": {
+					"@type": "data",
+					"VALUE": "COM/2013/937/FINAL"
+				},
+				"EVENT_LEGAL_CONTAINS_WORK": {
+					"@type": "link",
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/pegase/CSST_2014_5210_0000_0000_0000",
+							"IDENTIFIER": "CSST_2014_5210_0000_0000_0000",
+							"TYPE": "pegase"
+						}
+					}
+				},
+				"EVENT_LEGAL_INITIATED_BY_INSTITUTION": {
+					"@type": "concept",
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/authority/corporate-body/COM",
+						"IDENTIFIER": "COM",
+						"TYPE": "corporate-body"
+					},
+					"OP-CODE": "COM",
+					"IDENTIFIER": "COM",
+					"PREFLABEL": "European Commission",
+					"ALTLABEL": "EC",
+					"ALTLABEL": "Commission of the European Communities",
+					"ALTLABEL": "European Commission",
+					"ALTLABEL": "Commission"
+				},
+				"OPTIONALLY-CONSULTS": {
+					"@type": "concept",
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/authority/corporate-body/ECB",
+						"IDENTIFIER": "ECB",
+						"TYPE": "corporate-body"
+					},
+					"OP-CODE": "ECB",
+					"IDENTIFIER": "ECB",
+					"PREFLABEL": "European Central Bank",
+					"ALTLABEL": "ECB"
+				},
+				"EVENT_LEGAL_RESPONSIBILITY_OF_INSTITUTION": {
+					"@type": "concept",
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/authority/corporate-body/MARKT",
+						"IDENTIFIER": "MARKT",
+						"TYPE": "corporate-body"
+					},
+					"OP-CODE": "MARKT",
+					"IDENTIFIER": "MARKT",
+					"PREFLABEL": "Directorate-General for the Internal Market and Services",
+					"ALTLABEL": "DG Internal Market and Services",
+					"ALTLABEL": "Directorate-General for the Internal Market",
+					"ALTLABEL": "Internal Market DG"
+				},
+				"EVENT_LEGAL_FORMALLY-ADDRESSES_INSTITUTION": {
+					"@type": "concept",
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/authority/corporate-body/EP",
+						"IDENTIFIER": "EP",
+						"TYPE": "corporate-body"
+					},
+					"OP-CODE": "EP",
+					"IDENTIFIER": "EP",
+					"PREFLABEL": "European Parliament",
+					"ALTLABEL": "Common Assembly of the European Coal and Steel Community",
+					"ALTLABEL": "Common Assembly",
+					"ALTLABEL": "European Parliamentary Assembly",
+					"ALTLABEL": "EP"
+				},
+				"DATE": {
+					"@type": "date",
+					"VALUE": "2014-01-09",
+					"YEAR": "2014",
+					"MONTH": "01",
+					"DAY": "09"
+				},
+				"EVENT_LEGAL_WAS_HISTORICALLY_ABOUT_CONCEPT_TYPE_DOSSIER": {
+					"@type": "concept",
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/authority/fd_612/1260",
+						"IDENTIFIER": "1260",
+						"TYPE": "fd_612"
+					},
+					"OP-CODE": "1260",
+					"IDENTIFIER": "1260",
+					"PREFLABEL": "Proposal for a Regulation",
+					"ALTLABEL": "Proposal for a Regulation"
+				},
+				"EVENT_LEGAL_USES_CONCEPT_MODE_DECISION": {
+					"@type": "concept",
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/authority/fd_606/1010",
+						"IDENTIFIER": "1010",
+						"TYPE": "fd_606"
+					},
+					"OP-CODE": "1010",
+					"IDENTIFIER": "1010",
+					"PREFLABEL": "Written procedure",
+					"ALTLABEL": "Written procedure"
+				},
+				"CONTAINS": {
+					"@type": "link",
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/pegase/CSST_2014_5210_0000_0000_0000",
+							"IDENTIFIER": "CSST_2014_5210_0000_0000_0000",
+							"TYPE": "pegase"
+						}
+					}
+				},
+				"EVENT_RESPONSIBILITY_OF_INSTITUTION": {
+					"@type": "concept",
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/authority/corporate-body/MARKT",
+						"IDENTIFIER": "MARKT",
+						"TYPE": "corporate-body"
+					},
+					"OP-CODE": "MARKT",
+					"IDENTIFIER": "MARKT",
+					"PREFLABEL": "Directorate-General for the Internal Market and Services",
+					"ALTLABEL": "DG Internal Market and Services",
+					"ALTLABEL": "Directorate-General for the Internal Market",
+					"ALTLABEL": "Internal Market DG"
+				},
+				"TYPE": {
+					"@type": "data",
+					"VALUE": "Adoption par Commission"
+				}
+			},
+			"EVENT": {
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/9c2763b8-796d-11e3-b889-01aa75ed71a1.0004",
+					"IDENTIFIER": "9c2763b8-796d-11e3-b889-01aa75ed71a1.0004",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/pegase/1041573.1213171",
+						"IDENTIFIER": "1041573.1213171",
+						"TYPE": "pegase"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/procedure-event/2013_449.2014-01-21_OPI_byEESC",
+						"IDENTIFIER": "2013_449.2014-01-21_OPI_byEESC",
+						"TYPE": "procedure-event"
+					}
+				},
+				"TYPE": {
+					"@type": "type",
+					"$": "cdm:event"
+				},
+				"CONTAINS": {
+					"@type": "link",
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/cellar/cd9fac52-f12e-11e3-8cd4-01aa75ed71a1",
+						"IDENTIFIER": "cd9fac52-f12e-11e3-8cd4-01aa75ed71a1",
+						"TYPE": "cellar"
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/celex/52014IE0238",
+							"IDENTIFIER": "52014IE0238",
+							"TYPE": "celex"
+						}
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/oj/JOC_2014_177_R_0007",
+							"IDENTIFIER": "JOC_2014_177_R_0007",
+							"TYPE": "oj"
+						}
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/planjo/20140512-006",
+							"IDENTIFIER": "20140512-006",
+							"TYPE": "planjo"
+						}
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/immc/planjo%3A20140512-006",
+							"IDENTIFIER": "planjo:20140512-006",
+							"TYPE": "immc"
+						}
+					}
+				},
+				"LASTMODIFICATIONDATE": {
+					"@type": "date",
+					"VALUE": "2017-03-27T19:05:52.767+02:00",
+					"YEAR": "2017",
+					"MONTH": "03",
+					"DAY": "27"
+				},
+				"EVENT_LEGAL_DATE": {
+					"@type": "date",
+					"VALUE": "2014-01-21",
+					"YEAR": "2014",
+					"MONTH": "01",
+					"DAY": "21"
+				},
+				"EVENT_LEGAL_HAS_TYPE_CONCEPT_TYPE_EVENT_LEGAL": {
+					"@type": "concept",
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/authority/event/OPI_byEESC",
+						"IDENTIFIER": "OPI_byEESC",
+						"TYPE": "event"
+					},
+					"OP-CODE": "OPI_byEESC",
+					"IDENTIFIER": "OPI_byEESC",
+					"PREFLABEL": "European Economic and Social Committee opinion",
+					"ALTLABEL": "EESC opinion"
+				},
+				"EVENT_LEGAL_DOCUMENT_REFERENCE": {
+					"@type": "data",
+					"VALUE": "JO C/2014/177/41"
+				},
+				"EVENT_LEGAL_USES_CONCEPT_MODE_DECISION": {
+					"@type": "concept",
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/authority/fd_606/1020",
+						"IDENTIFIER": "1020",
+						"TYPE": "fd_606"
+					},
+					"OP-CODE": "1020",
+					"IDENTIFIER": "1020",
+					"PREFLABEL": "Adoption without debate",
+					"ALTLABEL": "Adoption without debate"
+				},
+				"EVENT_LEGAL_CONTAINS_WORK": {
+					"@type": "link",
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/oj/JOC_2014_177_R_0041_01",
+							"IDENTIFIER": "JOC_2014_177_R_0041_01",
+							"TYPE": "oj"
+						}
+					}
+				},
+				"CONTAINS": {
+					"@type": "link",
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/oj/JOC_2014_177_R_0041_01",
+							"IDENTIFIER": "JOC_2014_177_R_0041_01",
+							"TYPE": "oj"
+						}
+					}
+				},
+				"CREATIONDATE": {
+					"@type": "date",
+					"VALUE": "1001-01-01T00:00:00.000+00:00",
+					"YEAR": "1001",
+					"MONTH": "01",
+					"DAY": "01"
+				},
+				"EVENT_LEGAL_PART_OF_DOSSIER": {
+					"@type": "link",
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/cellar/9c2763b8-796d-11e3-b889-01aa75ed71a1",
+						"IDENTIFIER": "9c2763b8-796d-11e3-b889-01aa75ed71a1",
+						"TYPE": "cellar"
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/pegase/1041573",
+							"IDENTIFIER": "1041573",
+							"TYPE": "pegase"
+						}
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/procedure/2013_449",
+							"IDENTIFIER": "2013_449",
+							"TYPE": "procedure"
+						}
+					}
+				},
+				"EVENT_LEGAL_INITIATED_BY_INSTITUTION": {
+					"@type": "concept",
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/authority/corporate-body/EESC",
+						"IDENTIFIER": "EESC",
+						"TYPE": "corporate-body"
+					},
+					"OP-CODE": "EESC",
+					"IDENTIFIER": "EESC",
+					"PREFLABEL": "European Economic and Social Committee",
+					"ALTLABEL": "EESC",
+					"ALTLABEL": "Economic and Social Committee",
+					"ALTLABEL": "Economic and Social Committee of the European Communities"
+				},
+				"DATE": {
+					"@type": "date",
+					"VALUE": "2014-01-21",
+					"YEAR": "2014",
+					"MONTH": "01",
+					"DAY": "21"
+				},
+				"EVENT_LEGAL_DOCUMENT_REFERENCE": {
+					"@type": "data",
+					"VALUE": "CESE/2013/238"
+				},
+				"EVENT_LEGAL_CONTAINS_WORK": {
+					"@type": "link",
+					"WORK": {
+						"TYPE": {
+							"@type": "type",
+							"$": "cdm:work"
+						},
+						"WORK_DATE_DOCUMENT": {
+							"@type": "date",
+							"VALUE": "2014-01-21",
+							"YEAR": "2014",
+							"MONTH": "01",
+							"DAY": "21",
+							"COMMENT_ON_DATE": {
+								"@type": "annotation",
+								"$": "{DATVOT|http://publications.europa.eu/resource/authority/fd_365/DATVOT}"
+							},
+							"BUILD_INFO": {
+								"@type": "annotation",
+								"$": "cdm:CDM_2.1.7  tdm:1523  xslt:3945 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:1.2.0 builddate:07/07/2014 09:57:24"
+							}
+						},
+						"WORK_HAS_RESOURCE-TYPE": {
+							"@type": "concept",
+							"URI": {
+								"VALUE": "http://publications.europa.eu/resource/authority/resource-type/OPIN",
+								"IDENTIFIER": "OPIN",
+								"TYPE": "resource-type"
+							},
+							"OP-CODE": "OPIN",
+							"IDENTIFIER": "OPIN",
+							"PREFLABEL": "Opinion",
+							"ALTLABEL": "Opinions"
+						},
+						"RESOURCE_LEGAL_NUMBER_NATURAL_CELEX": {
+							"@type": "data",
+							"VALUE": "0238"
+						},
+						"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+							"@type": "concept_hierarchy",
+							"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+								"@type": "concept_hierarchy_path",
+								"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+									"@type": "concept_hierarchy_path_concept",
+									"@level": 1,
+									"@leaf": "false",
+									"URI": {
+										"VALUE": "http://eurovoc.europa.eu/100148",
+										"IDENTIFIER": "100148",
+										"TYPE": "EUROVOC"
+									},
+									"IDENTIFIER": "24",
+									"PREFLABEL": "24 FINANCE"
+								},
+								"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+									"@type": "concept_hierarchy_path_concept",
+									"@level": 2,
+									"@leaf": "false",
+									"URI": {
+										"VALUE": "http://eurovoc.europa.eu/100199",
+										"IDENTIFIER": "100199",
+										"TYPE": "EUROVOC"
+									},
+									"IDENTIFIER": "2411",
+									"PREFLABEL": "2411 monetary economics"
+								},
+								"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+									"@type": "concept_hierarchy_path_concept",
+									"@level": 3,
+									"@leaf": "false",
+									"URI": {
+										"VALUE": "http://eurovoc.europa.eu/4602",
+										"IDENTIFIER": "4602",
+										"TYPE": "EUROVOC"
+									},
+									"IDENTIFIER": "4602",
+									"PREFLABEL": "Economic and Monetary Union",
+									"ALTLABEL": "Werner plan",
+									"ALTLABEL": "EMU",
+									"ALTLABEL": "Werner report"
+								},
+								"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+									"@type": "concept_hierarchy_path_concept",
+									"@level": 4,
+									"@leaf": "true",
+									"URI": {
+										"VALUE": "http://eurovoc.europa.eu/2220",
+										"IDENTIFIER": "2220",
+										"TYPE": "EUROVOC"
+									},
+									"IDENTIFIER": "2220",
+									"PREFLABEL": "intra-EU payment",
+									"ALTLABEL": "intra-Community payment",
+									"ALTLABEL": "Target system",
+									"ALTLABEL": "Trans-European Automated Real-time Gross settlement Express Transfer system",
+									"ALTLABEL": "intra-Eurosystem transaction",
+									"ALTLABEL": "Target payment system",
+									"ALTLABEL": "TARGET2"
+								}
+							}
+						},
+						"ID_SECTOR": {
+							"@type": "data",
+							"VALUE": "5"
+						},
+						"ID_CELEX": {
+							"@type": "data",
+							"VALUE": "52014IE0238"
+						},
+						"EXPRESSION": {
+							"EXPRESSION_TITLE": {
+								"@type": "data",
+								"VALUE": "Opinion of the European Economic and Social Committee on the Proposal for a Regulation of the European Parliament and of the Council amending Regulation (EU) No 260/2012 as regards the migration to Union-wide credit transfers and direct debits COM(2013) 937 final 2013/0449 (COD)"
+							}
+						}
+					},
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/cellar/cd9fac52-f12e-11e3-8cd4-01aa75ed71a1",
+						"IDENTIFIER": "cd9fac52-f12e-11e3-8cd4-01aa75ed71a1",
+						"TYPE": "cellar"
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/celex/52014IE0238",
+							"IDENTIFIER": "52014IE0238",
+							"TYPE": "celex"
+						}
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/oj/JOC_2014_177_R_0007",
+							"IDENTIFIER": "JOC_2014_177_R_0007",
+							"TYPE": "oj"
+						}
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/planjo/20140512-006",
+							"IDENTIFIER": "20140512-006",
+							"TYPE": "planjo"
+						}
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/immc/planjo%3A20140512-006",
+							"IDENTIFIER": "planjo:20140512-006",
+							"TYPE": "immc"
+						}
+					}
+				},
+				"TYPE": {
+					"@type": "data",
+					"VALUE": "Avis du Comité économique et social européen"
+				}
+			},
+			"EVENT": {
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/9c2763b8-796d-11e3-b889-01aa75ed71a1.0003",
+					"IDENTIFIER": "9c2763b8-796d-11e3-b889-01aa75ed71a1.0003",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/pegase/1041573.1212790",
+						"IDENTIFIER": "1041573.1212790",
+						"TYPE": "pegase"
+					}
+				},
+				"TYPE": {
+					"@type": "type",
+					"$": "cdm:event"
+				},
+				"EVENT_LEGAL_PART_OF_DOSSIER": {
+					"@type": "link",
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/cellar/9c2763b8-796d-11e3-b889-01aa75ed71a1",
+						"IDENTIFIER": "9c2763b8-796d-11e3-b889-01aa75ed71a1",
+						"TYPE": "cellar"
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/pegase/1041573",
+							"IDENTIFIER": "1041573",
+							"TYPE": "pegase"
+						}
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/procedure/2013_449",
+							"IDENTIFIER": "2013_449",
+							"TYPE": "procedure"
+						}
+					}
+				},
+				"DATE": {
+					"@type": "date",
+					"VALUE": "2014-01-09",
+					"YEAR": "2014",
+					"MONTH": "01",
+					"DAY": "09"
+				},
+				"CREATIONDATE": {
+					"@type": "date",
+					"VALUE": "1001-01-01T00:00:00.000+00:00",
+					"YEAR": "1001",
+					"MONTH": "01",
+					"DAY": "01"
+				},
+				"EVENT_LEGAL_HAS_TYPE_CONCEPT_TYPE_EVENT_LEGAL": {
+					"@type": "concept",
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/authority/event/TRS_EP_byCOM",
+						"IDENTIFIER": "TRS_EP_byCOM",
+						"TYPE": "event"
+					},
+					"OP-CODE": "TRS_EP_byCOM",
+					"IDENTIFIER": "TRS_EP_byCOM",
+					"PREFLABEL": "Transmission to Parliament",
+					"ALTLABEL": "Transmission to EP"
+				},
+				"EVENT_LEGAL_INITIATED_BY_INSTITUTION": {
+					"@type": "concept",
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/authority/corporate-body/COM",
+						"IDENTIFIER": "COM",
+						"TYPE": "corporate-body"
+					},
+					"OP-CODE": "COM",
+					"IDENTIFIER": "COM",
+					"PREFLABEL": "European Commission",
+					"ALTLABEL": "EC",
+					"ALTLABEL": "Commission of the European Communities",
+					"ALTLABEL": "European Commission",
+					"ALTLABEL": "Commission"
+				},
+				"LASTMODIFICATIONDATE": {
+					"@type": "date",
+					"VALUE": "2014-06-12T00:49:30.642+02:00",
+					"YEAR": "2014",
+					"MONTH": "06",
+					"DAY": "12"
+				},
+				"EVENT_LEGAL_DATE": {
+					"@type": "date",
+					"VALUE": "2014-01-09",
+					"YEAR": "2014",
+					"MONTH": "01",
+					"DAY": "09"
+				},
+				"TYPE": {
+					"@type": "data",
+					"VALUE": "Transmission au Parlement européen"
+				}
+			},
+			"EVENT": {
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/9c2763b8-796d-11e3-b889-01aa75ed71a1.0006",
+					"IDENTIFIER": "9c2763b8-796d-11e3-b889-01aa75ed71a1.0006",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/procedure-event/2013_449.2014-02-04_OPI_R1_byEP",
+						"IDENTIFIER": "2013_449.2014-02-04_OPI_R1_byEP",
+						"TYPE": "procedure-event"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/pegase/1041573.1213246",
+						"IDENTIFIER": "1041573.1213246",
+						"TYPE": "pegase"
+					}
+				},
+				"TYPE": {
+					"@type": "type",
+					"$": "cdm:event"
+				},
+				"CREATIONDATE": {
+					"@type": "date",
+					"VALUE": "1001-01-01T00:00:00.000+00:00",
+					"YEAR": "1001",
+					"MONTH": "01",
+					"DAY": "01"
+				},
+				"CONTAINS": {
+					"@type": "link",
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/cellar/ac9186ea-1061-11e7-8a35-01aa75ed71a1",
+						"IDENTIFIER": "ac9186ea-1061-11e7-8a35-01aa75ed71a1",
+						"TYPE": "cellar"
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/oj/JOC_2017_093_R_0034",
+							"IDENTIFIER": "JOC_2017_093_R_0034",
+							"TYPE": "oj"
+						}
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/celex/52014AP0049",
+							"IDENTIFIER": "52014AP0049",
+							"TYPE": "celex"
+						}
+					}
+				},
+				"EVENT_LEGAL_CONTAINS_WORK": {
+					"@type": "link",
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/oj/JOC_2017_093_R_0163_01",
+							"IDENTIFIER": "JOC_2017_093_R_0163_01",
+							"TYPE": "oj"
+						}
+					}
+				},
+				"REPORTED_BY": {
+					"@type": "link",
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/cellar/7cebec9a-d331-11e1-905c-01aa75ed71a1",
+						"IDENTIFIER": "7cebec9a-d331-11e1-905c-01aa75ed71a1",
+						"TYPE": "cellar"
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/agent/Sharon%20Margaret%20BOWLES",
+							"IDENTIFIER": "Sharon Margaret BOWLES",
+							"TYPE": "agent"
+						}
+					}
+				},
+				"EVENT_LEGAL_HAS_TYPE_CONCEPT_TYPE_EVENT_LEGAL": {
+					"@type": "concept",
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/authority/event/OPI_R1_byEP",
+						"IDENTIFIER": "OPI_R1_byEP",
+						"TYPE": "event"
+					},
+					"OP-CODE": "OPI_R1_byEP",
+					"IDENTIFIER": "OPI_R1_byEP",
+					"PREFLABEL": "EP opinion on 1st reading",
+					"ALTLABEL": "EP opinion 1st rdg"
+				},
+				"EVENT_LEGAL_DOCUMENT_REFERENCE": {
+					"@type": "data",
+					"VALUE": "TA/2014/49/P7"
+				},
+				"EVENT_LEGAL_REPORTED_BY_PERSON": {
+					"@type": "link",
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/cellar/7cebec9a-d331-11e1-905c-01aa75ed71a1",
+						"IDENTIFIER": "7cebec9a-d331-11e1-905c-01aa75ed71a1",
+						"TYPE": "cellar"
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/agent/Sharon%20Margaret%20BOWLES",
+							"IDENTIFIER": "Sharon Margaret BOWLES",
+							"TYPE": "agent"
+						}
+					}
+				},
+				"EVENT_LEGAL_RESPONSIBILITY_OF_PERSON": {
+					"@type": "link",
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/cellar/03fa84f1-c817-11e4-bbe1-01aa75ed71a1",
+						"IDENTIFIER": "03fa84f1-c817-11e4-bbe1-01aa75ed71a1",
+						"TYPE": "cellar"
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/agent/Michel%20BARNIER",
+							"IDENTIFIER": "Michel BARNIER",
+							"TYPE": "agent"
+						}
+					}
+				},
+				"EVENT_LEGAL_DATE": {
+					"@type": "date",
+					"VALUE": "2014-02-04",
+					"YEAR": "2014",
+					"MONTH": "02",
+					"DAY": "04"
+				},
+				"EVENT_LEGAL_DOCUMENT_REFERENCE": {
+					"@type": "data",
+					"VALUE": "A7/2014/36"
+				},
+				"EVENT_LEGAL_DOCUMENT_REFERENCE": {
+					"@type": "data",
+					"VALUE": "JO C/2017/93/163"
+				},
+				"LASTMODIFICATIONDATE": {
+					"@type": "date",
+					"VALUE": "2017-03-27T19:05:52.767+02:00",
+					"YEAR": "2017",
+					"MONTH": "03",
+					"DAY": "27"
+				},
+				"DATE": {
+					"@type": "date",
+					"VALUE": "2014-02-04",
+					"YEAR": "2014",
+					"MONTH": "02",
+					"DAY": "04"
+				},
+				"EVENT_LEGAL_USES_CONCEPT_TYPE_DECISION": {
+					"@type": "concept",
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/authority/fd_602/1005",
+						"IDENTIFIER": "1005",
+						"TYPE": "fd_602"
+					},
+					"OP-CODE": "1005",
+					"IDENTIFIER": "1005",
+					"PREFLABEL": "Approval without amendment",
+					"ALTLABEL": "Approval without amendment"
+				},
+				"EVENT_LEGAL_CONTAINS_WORK": {
+					"@type": "link",
+					"WORK": {
+						"TYPE": {
+							"@type": "type",
+							"$": "cdm:work"
+						},
+						"WORK_HAS_RESOURCE-TYPE": {
+							"@type": "concept",
+							"URI": {
+								"VALUE": "http://publications.europa.eu/resource/authority/resource-type/RES_LEGIS",
+								"IDENTIFIER": "RES_LEGIS",
+								"TYPE": "resource-type"
+							},
+							"OP-CODE": "RES_LEGIS",
+							"IDENTIFIER": "RES_LEGIS",
+							"PREFLABEL": "Legislative resolution"
+						},
+						"WORK_DATE_DOCUMENT": {
+							"@type": "date",
+							"VALUE": "2014-02-04",
+							"YEAR": "2014",
+							"MONTH": "02",
+							"DAY": "04",
+							"COMMENT_ON_DATE": {
+								"@type": "annotation",
+								"$": "{DATVOT|http://publications.europa.eu/resource/authority/fd_365/DATVOT}"
+							}
+						},
+						"RESOURCE_LEGAL_NUMBER_NATURAL_CELEX": {
+							"@type": "data",
+							"VALUE": "0049"
+						},
+						"ID_SECTOR": {
+							"@type": "data",
+							"VALUE": "5"
+						},
+						"ID_CELEX": {
+							"@type": "data",
+							"VALUE": "52014AP0049"
+						},
+						"EXPRESSION": {
+							"EXPRESSION_TITLE": {
+								"@type": "data",
+								"VALUE": "P7_TA(2014)0049 Migration to Union-wide credit transfers and direct debits ***I European Parliament legislative resolution of 4 February 2014 on the proposal for a regulation of the European Parliament and of the Council amending Regulation (EU) No 260/2012 as regards the migration to Union-wide credit transfers and direct debits (COM(2013)0937 — C7-0008/2014 — 2013/0449(COD)) P7_TC1-COD(2013)0449 Position of the European Parliament adopted at first reading on 4 February 2014 with a view to the adoption of Regulation (EU) No …/2014 of the European Parliament and of the Council amending Regulation (EU) No 260/2012 as regards the migration to Union-wide credit transfers and direct debits"
+							}
+						}
+					},
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/cellar/ac9186ea-1061-11e7-8a35-01aa75ed71a1",
+						"IDENTIFIER": "ac9186ea-1061-11e7-8a35-01aa75ed71a1",
+						"TYPE": "cellar"
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/oj/JOC_2017_093_R_0034",
+							"IDENTIFIER": "JOC_2017_093_R_0034",
+							"TYPE": "oj"
+						}
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/celex/52014AP0049",
+							"IDENTIFIER": "52014AP0049",
+							"TYPE": "celex"
+						}
+					}
+				},
+				"EVENT_LEGAL_INITIATED_BY_INSTITUTION": {
+					"@type": "concept",
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/authority/corporate-body/EP",
+						"IDENTIFIER": "EP",
+						"TYPE": "corporate-body"
+					},
+					"OP-CODE": "EP",
+					"IDENTIFIER": "EP",
+					"PREFLABEL": "European Parliament",
+					"ALTLABEL": "Common Assembly of the European Coal and Steel Community",
+					"ALTLABEL": "Common Assembly",
+					"ALTLABEL": "European Parliamentary Assembly",
+					"ALTLABEL": "EP"
+				},
+				"CONTAINS": {
+					"@type": "link",
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/oj/JOC_2017_093_R_0163_01",
+							"IDENTIFIER": "JOC_2017_093_R_0163_01",
+							"TYPE": "oj"
+						}
+					}
+				},
+				"EVENT_LEGAL_PART_OF_DOSSIER": {
+					"@type": "link",
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/cellar/9c2763b8-796d-11e3-b889-01aa75ed71a1",
+						"IDENTIFIER": "9c2763b8-796d-11e3-b889-01aa75ed71a1",
+						"TYPE": "cellar"
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/pegase/1041573",
+							"IDENTIFIER": "1041573",
+							"TYPE": "pegase"
+						}
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/procedure/2013_449",
+							"IDENTIFIER": "2013_449",
+							"TYPE": "procedure"
+						}
+					}
+				},
+				"TYPE": {
+					"@type": "data",
+					"VALUE": "Avis du Parlement européen en 1ère lecture"
+				}
+			},
+			"EVENT": {
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/9c2763b8-796d-11e3-b889-01aa75ed71a1.0005",
+					"IDENTIFIER": "9c2763b8-796d-11e3-b889-01aa75ed71a1.0005",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/pegase/1041573.1214603",
+						"IDENTIFIER": "1041573.1214603",
+						"TYPE": "pegase"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/procedure-event/2013_449.2014-01-22_OPI_byECB",
+						"IDENTIFIER": "2013_449.2014-01-22_OPI_byECB",
+						"TYPE": "procedure-event"
+					}
+				},
+				"TYPE": {
+					"@type": "type",
+					"$": "cdm:event"
+				},
+				"EVENT_LEGAL_INITIATED_BY_INSTITUTION": {
+					"@type": "concept",
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/authority/corporate-body/ECB",
+						"IDENTIFIER": "ECB",
+						"TYPE": "corporate-body"
+					},
+					"OP-CODE": "ECB",
+					"IDENTIFIER": "ECB",
+					"PREFLABEL": "European Central Bank",
+					"ALTLABEL": "ECB"
+				},
+				"EVENT_LEGAL_DATE": {
+					"@type": "date",
+					"VALUE": "2014-01-22",
+					"YEAR": "2014",
+					"MONTH": "01",
+					"DAY": "22"
+				},
+				"EVENT_LEGAL_PART_OF_DOSSIER": {
+					"@type": "link",
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/cellar/9c2763b8-796d-11e3-b889-01aa75ed71a1",
+						"IDENTIFIER": "9c2763b8-796d-11e3-b889-01aa75ed71a1",
+						"TYPE": "cellar"
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/pegase/1041573",
+							"IDENTIFIER": "1041573",
+							"TYPE": "pegase"
+						}
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/procedure/2013_449",
+							"IDENTIFIER": "2013_449",
+							"TYPE": "procedure"
+						}
+					}
+				},
+				"CREATIONDATE": {
+					"@type": "date",
+					"VALUE": "1001-01-01T00:00:00.000+00:00",
+					"YEAR": "1001",
+					"MONTH": "01",
+					"DAY": "01"
+				},
+				"EVENT_LEGAL_HAS_TYPE_CONCEPT_TYPE_EVENT_LEGAL": {
+					"@type": "concept",
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/authority/event/OPI_byECB",
+						"IDENTIFIER": "OPI_byECB",
+						"TYPE": "event"
+					},
+					"OP-CODE": "OPI_byECB",
+					"IDENTIFIER": "OPI_byECB",
+					"PREFLABEL": "European Central Bank opinion",
+					"ALTLABEL": "European Central Bank opinion"
+				},
+				"EVENT_LEGAL_DOCUMENT_REFERENCE": {
+					"@type": "data",
+					"VALUE": "JO C/2014/80/1"
+				},
+				"CONTAINS": {
+					"@type": "link",
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/cellar/1efeba0b-af63-11e3-86f9-01aa75ed71a1",
+						"IDENTIFIER": "1efeba0b-af63-11e3-86f9-01aa75ed71a1",
+						"TYPE": "cellar"
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/celex/52014AB0003",
+							"IDENTIFIER": "52014AB0003",
+							"TYPE": "celex"
+						}
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/oj/JOC_2014_080_R_0001_01",
+							"IDENTIFIER": "JOC_2014_080_R_0001_01",
+							"TYPE": "oj"
+						}
+					}
+				},
+				"EVENT_LEGAL_CONTAINS_WORK": {
+					"@type": "link",
+					"WORK": {
+						"TYPE": {
+							"@type": "type",
+							"$": "cdm:work"
+						},
+						"WORK_HAS_RESOURCE-TYPE": {
+							"@type": "concept",
+							"URI": {
+								"VALUE": "http://publications.europa.eu/resource/authority/resource-type/OPIN",
+								"IDENTIFIER": "OPIN",
+								"TYPE": "resource-type"
+							},
+							"OP-CODE": "OPIN",
+							"IDENTIFIER": "OPIN",
+							"PREFLABEL": "Opinion",
+							"ALTLABEL": "Opinions"
+						},
+						"RESOURCE_LEGAL_NUMBER_NATURAL_CELEX": {
+							"@type": "data",
+							"VALUE": "0003"
+						},
+						"WORK_DATE_DOCUMENT": {
+							"@type": "date",
+							"VALUE": "2014-01-22",
+							"YEAR": "2014",
+							"MONTH": "01",
+							"DAY": "22"
+						},
+						"ID_CELEX": {
+							"@type": "data",
+							"VALUE": "52014AB0003"
+						},
+						"ID_SECTOR": {
+							"@type": "data",
+							"VALUE": "5"
+						},
+						"EXPRESSION": {
+							"EXPRESSION_TITLE": {
+								"@type": "data",
+								"VALUE": "Opinion of the European Central Bank of 22 January 2014 on a proposal for a regulation on the postponement of SEPA migration date (CON/2014/3)"
+							}
+						}
+					},
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/cellar/1efeba0b-af63-11e3-86f9-01aa75ed71a1",
+						"IDENTIFIER": "1efeba0b-af63-11e3-86f9-01aa75ed71a1",
+						"TYPE": "cellar"
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/celex/52014AB0003",
+							"IDENTIFIER": "52014AB0003",
+							"TYPE": "celex"
+						}
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/oj/JOC_2014_080_R_0001_01",
+							"IDENTIFIER": "JOC_2014_080_R_0001_01",
+							"TYPE": "oj"
+						}
+					}
+				},
+				"LASTMODIFICATIONDATE": {
+					"@type": "date",
+					"VALUE": "2017-03-27T19:05:52.767+02:00",
+					"YEAR": "2017",
+					"MONTH": "03",
+					"DAY": "27"
+				},
+				"DATE": {
+					"@type": "date",
+					"VALUE": "2014-01-22",
+					"YEAR": "2014",
+					"MONTH": "01",
+					"DAY": "22"
+				},
+				"TYPE": {
+					"@type": "data",
+					"VALUE": "Avis Banque Centrale Européenne"
+				}
+			},
+			"EVENT": {
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/9c2763b8-796d-11e3-b889-01aa75ed71a1.0008",
+					"IDENTIFIER": "9c2763b8-796d-11e3-b889-01aa75ed71a1.0008",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/pegase/1041573.1213976",
+						"IDENTIFIER": "1041573.1213976",
+						"TYPE": "pegase"
+					}
+				},
+				"TYPE": {
+					"@type": "type",
+					"$": "cdm:event"
+				},
+				"EVENT_LEGAL_INITIATED_BY_INSTITUTION": {
+					"@type": "concept",
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/authority/corporate-body/CONSIL",
+						"IDENTIFIER": "CONSIL",
+						"TYPE": "corporate-body"
+					},
+					"OP-CODE": "CONSIL",
+					"IDENTIFIER": "CONSIL",
+					"PREFLABEL": "Council of the European Union",
+					"ALTLABEL": "Council",
+					"ALTLABEL": "Council of the European Communities"
+				},
+				"EVENT_LEGAL_DOCUMENT_REFERENCE": {
+					"@type": "data",
+					"VALUE": "JO L/2014/84/1"
+				},
+				"EVENT_LEGAL_HAS_TYPE_CONCEPT_TYPE_EVENT_LEGAL": {
+					"@type": "concept",
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/authority/event/SIGN_byEP_CONSIL",
+						"IDENTIFIER": "SIGN_byEP_CONSIL",
+						"TYPE": "event"
+					},
+					"OP-CODE": "SIGN_byEP_CONSIL",
+					"IDENTIFIER": "SIGN_byEP_CONSIL",
+					"PREFLABEL": "Signature by the President of the EP and by the President of the Council",
+					"ALTLABEL": "Signature by EP and Council"
+				},
+				"EVENT_LEGAL_DATE": {
+					"@type": "date",
+					"VALUE": "2014-02-26",
+					"YEAR": "2014",
+					"MONTH": "02",
+					"DAY": "26"
+				},
+				"LASTMODIFICATIONDATE": {
+					"@type": "date",
+					"VALUE": "2018-10-05T19:40:13.365+02:00",
+					"YEAR": "2018",
+					"MONTH": "10",
+					"DAY": "05"
+				},
+				"CREATIONDATE": {
+					"@type": "date",
+					"VALUE": "1001-01-01T00:00:00.000+00:00",
+					"YEAR": "1001",
+					"MONTH": "01",
+					"DAY": "01"
+				},
+				"EVENT_LEGAL_DOCUMENT_REFERENCE": {
+					"@type": "data",
+					"VALUE": "CSPE/2014/9"
+				},
+				"EVENT_LEGAL_PART_OF_DOSSIER": {
+					"@type": "link",
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/cellar/9c2763b8-796d-11e3-b889-01aa75ed71a1",
+						"IDENTIFIER": "9c2763b8-796d-11e3-b889-01aa75ed71a1",
+						"TYPE": "cellar"
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/pegase/1041573",
+							"IDENTIFIER": "1041573",
+							"TYPE": "pegase"
+						}
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/procedure/2013_449",
+							"IDENTIFIER": "2013_449",
+							"TYPE": "procedure"
+						}
+					}
+				},
+				"EVENT_LEGAL_INITIATED_BY_INSTITUTION": {
+					"@type": "concept",
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/authority/corporate-body/EP",
+						"IDENTIFIER": "EP",
+						"TYPE": "corporate-body"
+					},
+					"OP-CODE": "EP",
+					"IDENTIFIER": "EP",
+					"PREFLABEL": "European Parliament",
+					"ALTLABEL": "Common Assembly of the European Coal and Steel Community",
+					"ALTLABEL": "Common Assembly",
+					"ALTLABEL": "European Parliamentary Assembly",
+					"ALTLABEL": "EP"
+				},
+				"EVENT_LEGAL_DOCUMENT_REFERENCE": {
+					"@type": "data",
+					"VALUE": "PE-CONS/2014/9"
+				},
+				"EVENT_LEGAL_WAS_HISTORICALLY_ABOUT_CONCEPT_TYPE_DOSSIER": {
+					"@type": "concept",
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/authority/fd_612/1245",
+						"IDENTIFIER": "1245",
+						"TYPE": "fd_612"
+					},
+					"OP-CODE": "1245",
+					"IDENTIFIER": "1245",
+					"PREFLABEL": "Regulation",
+					"ALTLABEL": "Regulation"
+				},
+				"DATE": {
+					"@type": "date",
+					"VALUE": "2014-02-26",
+					"YEAR": "2014",
+					"MONTH": "02",
+					"DAY": "26"
+				},
+				"TYPE": {
+					"@type": "data",
+					"VALUE": "Signature par le Parlement européen et le Conseil"
+				}
+			},
+			"EVENT": {
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/9c2763b8-796d-11e3-b889-01aa75ed71a1.0007",
+					"IDENTIFIER": "9c2763b8-796d-11e3-b889-01aa75ed71a1.0007",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/pegase/1041573.1213621",
+						"IDENTIFIER": "1041573.1213621",
+						"TYPE": "pegase"
+					}
+				},
+				"TYPE": {
+					"@type": "type",
+					"$": "cdm:event"
+				},
+				"EVENT_LEGAL_INITIATED_BY_INSTITUTION": {
+					"@type": "concept",
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/authority/corporate-body/CONSIL",
+						"IDENTIFIER": "CONSIL",
+						"TYPE": "corporate-body"
+					},
+					"OP-CODE": "CONSIL",
+					"IDENTIFIER": "CONSIL",
+					"PREFLABEL": "Council of the European Union",
+					"ALTLABEL": "Council",
+					"ALTLABEL": "Council of the European Communities"
+				},
+				"EVENT_LEGAL_DATE": {
+					"@type": "date",
+					"VALUE": "2014-02-18",
+					"YEAR": "2014",
+					"MONTH": "02",
+					"DAY": "18"
+				},
+				"EVENT_LEGAL_DOCUMENT_REFERENCE": {
+					"@type": "data",
+					"VALUE": "CS-PRES/2014/6566"
+				},
+				"EVENT_LEGAL_PART_OF_DOSSIER": {
+					"@type": "link",
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/cellar/9c2763b8-796d-11e3-b889-01aa75ed71a1",
+						"IDENTIFIER": "9c2763b8-796d-11e3-b889-01aa75ed71a1",
+						"TYPE": "cellar"
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/pegase/1041573",
+							"IDENTIFIER": "1041573",
+							"TYPE": "pegase"
+						}
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/procedure/2013_449",
+							"IDENTIFIER": "2013_449",
+							"TYPE": "procedure"
+						}
+					}
+				},
+				"EVENT_LEGAL_DOCUMENT_REFERENCE": {
+					"@type": "data",
+					"VALUE": "CSST/2014/6458"
+				},
+				"EVENT_LEGAL_WAS_HISTORICALLY_ABOUT_CONCEPT_TYPE_DOSSIER": {
+					"@type": "concept",
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/authority/fd_612/1245",
+						"IDENTIFIER": "1245",
+						"TYPE": "fd_612"
+					},
+					"OP-CODE": "1245",
+					"IDENTIFIER": "1245",
+					"PREFLABEL": "Regulation",
+					"ALTLABEL": "Regulation"
+				},
+				"CREATIONDATE": {
+					"@type": "date",
+					"VALUE": "1001-01-01T00:00:00.000+00:00",
+					"YEAR": "1001",
+					"MONTH": "01",
+					"DAY": "01"
+				},
+				"EVENT_LEGAL_DOCUMENT_REFERENCE": {
+					"@type": "data",
+					"VALUE": "CSST/2014/6624"
+				},
+				"LASTMODIFICATIONDATE": {
+					"@type": "date",
+					"VALUE": "2014-06-12T00:49:30.642+02:00",
+					"YEAR": "2014",
+					"MONTH": "06",
+					"DAY": "12"
+				},
+				"EVENT_LEGAL_HAS_TYPE_CONCEPT_TYPE_EVENT_LEGAL": {
+					"@type": "concept",
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/authority/event/APR_R1_byCONSIL",
+						"IDENTIFIER": "APR_R1_byCONSIL",
+						"TYPE": "event"
+					},
+					"OP-CODE": "APR_R1_byCONSIL",
+					"IDENTIFIER": "APR_R1_byCONSIL",
+					"PREFLABEL": "Approval by the Council of the EP position at 1st reading",
+					"ALTLABEL": "Council approval 1st rdg"
+				},
+				"DATE": {
+					"@type": "date",
+					"VALUE": "2014-02-18",
+					"YEAR": "2014",
+					"MONTH": "02",
+					"DAY": "18"
+				},
+				"TYPE": {
+					"@type": "data",
+					"VALUE": "Approbation du Conseil en 1ère  lecture"
+				}
+			},
+			"EVENT": {
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/9c2763b8-796d-11e3-b889-01aa75ed71a1.0009",
+					"IDENTIFIER": "9c2763b8-796d-11e3-b889-01aa75ed71a1.0009",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/pegase/1041573.2014-03-20_PUB_OJ",
+						"IDENTIFIER": "1041573.2014-03-20_PUB_OJ",
+						"TYPE": "pegase"
+					}
+				},
+				"TYPE": {
+					"@type": "type",
+					"$": "cdm:event"
+				},
+				"EVENT_LEGAL_HAS_TYPE_CONCEPT_TYPE_EVENT_LEGAL": {
+					"@type": "concept",
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/authority/event/PUB_OJ",
+						"IDENTIFIER": "PUB_OJ",
+						"TYPE": "event"
+					},
+					"OP-CODE": "PUB_OJ",
+					"IDENTIFIER": "PUB_OJ",
+					"PREFLABEL": "Publication in the Official Journal"
+				},
+				"CONTAINS": {
+					"@type": "link",
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/cellar/8eaf8eb4-b002-11e3-86f9-01aa75ed71a1",
+						"IDENTIFIER": "8eaf8eb4-b002-11e3-86f9-01aa75ed71a1",
+						"TYPE": "cellar"
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/celex/32014R0248",
+							"IDENTIFIER": "32014R0248",
+							"TYPE": "celex"
+						}
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/eli/reg/2014/248/oj",
+							"IDENTIFIER": "reg:2014:248:oj",
+							"TYPE": "eli"
+						}
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/oj/JOL_2014_084_R_0001_01",
+							"IDENTIFIER": "JOL_2014_084_R_0001_01",
+							"TYPE": "oj"
+						}
+					}
+				},
+				"DATE": {
+					"@type": "date",
+					"VALUE": "2014-03-20",
+					"YEAR": "2014",
+					"MONTH": "03",
+					"DAY": "20"
+				},
+				"EVENT_LEGAL_PART_OF_DOSSIER": {
+					"@type": "link",
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/cellar/9c2763b8-796d-11e3-b889-01aa75ed71a1",
+						"IDENTIFIER": "9c2763b8-796d-11e3-b889-01aa75ed71a1",
+						"TYPE": "cellar"
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/pegase/1041573",
+							"IDENTIFIER": "1041573",
+							"TYPE": "pegase"
+						}
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/procedure/2013_449",
+							"IDENTIFIER": "2013_449",
+							"TYPE": "procedure"
+						}
+					}
+				},
+				"CREATIONDATE": {
+					"@type": "date",
+					"VALUE": "2018-10-05T18:25:26.306+02:00",
+					"YEAR": "2018",
+					"MONTH": "10",
+					"DAY": "05"
+				},
+				"EVENT_LEGAL_CONTAINS_WORK": {
+					"@type": "link",
+					"WORK": {
+						"TYPE": {
+							"@type": "type",
+							"$": "cdm:work"
+						},
+						"ID_CELEX": {
+							"@type": "data",
+							"VALUE": "32014R0248"
+						},
+						"ID_SECTOR": {
+							"@type": "data",
+							"VALUE": "3"
+						},
+						"WORK_DATE_DOCUMENT": {
+							"@type": "date",
+							"VALUE": "2014-02-26",
+							"YEAR": "2014",
+							"MONTH": "02",
+							"DAY": "26"
+						},
+						"WORK_HAS_RESOURCE-TYPE": {
+							"@type": "concept",
+							"URI": {
+								"VALUE": "http://publications.europa.eu/resource/authority/resource-type/REG",
+								"IDENTIFIER": "REG",
+								"TYPE": "resource-type"
+							},
+							"OP-CODE": "REG",
+							"IDENTIFIER": "REG",
+							"PREFLABEL": "Regulation",
+							"ALTLABEL": "Regulations"
+						},
+						"RESOURCE_LEGAL_NUMBER_NATURAL_CELEX": {
+							"@type": "data",
+							"VALUE": "0248"
+						},
+						"EXPRESSION": {
+							"EXPRESSION_TITLE": {
+								"@type": "data",
+								"VALUE": "Regulation (EU) No 248/2014 of the European Parliament and of the Council of 26 February 2014 amending Regulation (EU) No 260/2012 as regards the migration to Union-wide credit transfers and direct debits  Text with EEA relevance"
+							}
+						}
+					},
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/cellar/8eaf8eb4-b002-11e3-86f9-01aa75ed71a1",
+						"IDENTIFIER": "8eaf8eb4-b002-11e3-86f9-01aa75ed71a1",
+						"TYPE": "cellar"
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/celex/32014R0248",
+							"IDENTIFIER": "32014R0248",
+							"TYPE": "celex"
+						}
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/eli/reg/2014/248/oj",
+							"IDENTIFIER": "reg:2014:248:oj",
+							"TYPE": "eli"
+						}
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/oj/JOL_2014_084_R_0001_01",
+							"IDENTIFIER": "JOL_2014_084_R_0001_01",
+							"TYPE": "oj"
+						}
+					}
+				},
+				"EVENT_LEGAL_DATE": {
+					"@type": "date",
+					"VALUE": "2014-03-20",
+					"YEAR": "2014",
+					"MONTH": "03",
+					"DAY": "20"
+				},
+				"LASTMODIFICATIONDATE": {
+					"@type": "date",
+					"VALUE": "2018-10-05T18:25:26.306+02:00",
+					"YEAR": "2018",
+					"MONTH": "10",
+					"DAY": "05"
+				}
+			},
+			"TYPE": {
+				"@type": "type",
+				"$": "cdm:period"
+			},
+			"TYPE": {
+				"@type": "type",
+				"$": "cdm:procedure_code_interinstitutional"
+			},
+			"TYPE": {
+				"@type": "type",
+				"$": "cdm:dossier"
+			},
+			"TYPE": {
+				"@type": "type",
+				"$": "cdm:entity_temporal"
+			}
+		}
+	}
+}
