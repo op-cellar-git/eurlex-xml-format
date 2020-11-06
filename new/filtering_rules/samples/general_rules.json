@@ -4056,206 +4056,177 @@
             "to_index":true
          }
       },
-	  {
+      {
          "propety":"http://publications.europa.eu/ontology/tdm#format_designated_by_format_designation",
-		 "annotations":{
-            "to_disseminate":true,
-            "to_expand":true
+	 "annotations":{
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/tdm#format_registered_by_format_registry",
-		 "annotations":{
-            "to_disseminate":true,
-            "to_expand":true
+	 "annotations":{
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/tdm#stream_created_by_creating_application",
-		 "annotations":{
-            "to_disseminate":true,
-            "to_expand":true
+	 "annotations":{
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/tdm#stream_fixity",
-		 "annotations":{
-            "to_disseminate":true,
-            "to_expand":true
+	 "annotations":{
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/tdm#stream_format",
-		 "annotations":{
-            "to_disseminate":true,
-            "to_expand":true
+	 "annotations":{
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/tdm#stream_inhibited_by_inhibitors",
-		 "annotations":{
-            "to_disseminate":true,
-            "to_expand":true
+	 "annotations":{
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/tdm#stream_page_version_linguistic", 
-         "annotations":{
-            "to_disseminate":true,
-            "to_expand":true
+	 "annotations":{
+            "to_disseminate":true
          }
       },		 
       {
          "propety":"http://www.w3.org/2002/07/owl#topObjectProperty",
-         "annotations":{
-            "to_disseminate":true,
-            "to_expand":true
+	 "annotations":{
+            "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/tdm#creating_application_creating_application_extension",
-		 "annotations":{
-            "to_embed":true,
+	 "annotations":{
             "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/tdm#formex_document_type",
-		 "annotations":{
-            "to_embed":true,
+	 "annotations":{
             "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/tdm#formex_number_production",
-		 "annotations":{
-            "to_embed":true,
+	 "annotations":{
             "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/tdm#image_bits-per-sample",
-		 "annotations":{
-            "to_embed":true,
+	 "annotations":{
             "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/tdm#image_compression",
-		 "annotations":{
-            "to_embed":true,
+	 "annotations":{
             "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/tdm#image_resolution-unit",
-		 "annotations":{
-            "to_embed":true,
+	 "annotations":{
             "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/tdm#image_resolution-x",
-		 "annotations":{
-            "to_embed":true,
+	 "annotations":{
             "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/tdm#image_resolution-y",
-		 "annotations":{
-            "to_embed":true,
+	 "annotations":{
             "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/tdm#image_samples-per-pixel",
-		 "annotations":{
-            "to_embed":true,
+	 "annotations":{
             "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/tdm#inhibitors_inhibitor_key",
-		 "annotations":{
-            "to_embed":true,
+	 "annotations":{
             "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/tdm#inhibitors_inhibitor_target",
-		 "annotations":{
-            "to_embed":true,
+	 "annotations":{
             "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/tdm#stream_page_number_physical",
-		 "annotations":{
-            "to_embed":true,
+	 "annotations":{
             "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/tdm#stream_page_orientation",
-		 "annotations":{
-            "to_embed":true,
+	 "annotations":{
             "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/tdm#stream_page_physical_first",
-		 "annotations":{
-            "to_embed":true,
+	 "annotations":{
             "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/tdm#stream_page_physical_last",
-		 "annotations":{
-            "to_embed":true,
+	 "annotations":{
             "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/tdm#stream_page_total",
-		 "annotations":{
-            "to_embed":true,
+	 "annotations":{
             "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/tdm#stream_page_type",
-		 "annotations":{
-            "to_embed":true,
+	 "annotations":{
             "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/tdm#stream_pagination_manual",
-		 "annotations":{
-            "to_embed":true,
+	 "annotations":{
             "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/tdm#stream_sequence_official-journal",
-		 "annotations":{
-            "to_embed":true,
+	 "annotations":{
             "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/tdm#stream_sequence_page",
-		 "annotations":{
-            "to_embed":true,
+	 "annotations":{
             "to_disseminate":true
          }
       },
       {
          "propety":"http://publications.europa.eu/ontology/tdm#stream_size",
-		 "annotations":{
-            "to_embed":true,
+	 "annotations":{
             "to_disseminate":true
          }
       }
