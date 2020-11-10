@@ -28,8 +28,7 @@
                         "default": {},
                         "required": [
                             "class",
-                            "level",
-                            "to_embed"
+                            "level"
                         ],
                         "properties": {
                             "to_expand": {
