@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema",
-    "$id": "https://raw.githubusercontent.com/op-cellar-git/eurlex-xml-format/master/new/filtering_rules/json_schema/schema_rules.json",
+    "$id": "https://raw.githubusercontent.com/op-cellar-git/eurlex-xml-format/master/new/filtering_rules/json_schema/schema_general_rules.json",
     "type": "object",
     "title": "Embedding rules",
     "description": "In this configuration file are collected the rules for the embedding policies. They replaces the former annotations in CDM into the form of JSON",
@@ -52,24 +52,24 @@
                                         "description": "It triggers an embedding of the target resource in all notice types.",
                                         "default": false
                                     },
-									"in_notice": {
-                                        "$id": "#/properties/rules/items/anyOf/0/properties/annotations/properties/to_expand",
+									"to_disseminate": {
+                                        "$id": "#/properties/rules/items/anyOf/0/properties/annotations/properties/to_disseminate",
                                         "type": "boolean",
-                                        "title": "to_expand",
+                                        "title": "to_disseminate",
                                         "description": "It triggers the inclusion of a property in the tree, branch, and object notice.",
                                         "default": false
                                     },
-                                    "in_embedded_notice": {
-                                        "$id": "#/properties/rules/items/anyOf/0/properties/annotations/properties/in_embedded_notice",
+                                    "to_embed": {
+                                        "$id": "#/properties/rules/items/anyOf/0/properties/annotations/properties/to_embed",
                                         "type": "boolean",
-                                        "title": "in_embedded_notice",
+                                        "title": "to_embed",
                                         "description": "Indicates if the property will be contained within an embedded notice.",
                                         "default": false
                                     },
-                                    "to_be_indexed": {
-                                        "$id": "#/properties/rules/items/anyOf/0/properties/annotations/properties/to_be_indexed",
+                                    "to_index": {
+                                        "$id": "#/properties/rules/items/anyOf/0/properties/annotations/properties/to_index",
                                         "type": "boolean",
-                                        "title": "to_be_indexed",
+                                        "title": "to_index",
                                         "description": "Indicates if this fields must be indexed for IDOL.",
                                         "default": false
                                     },
@@ -77,7 +77,7 @@
                                         "$id": "#/properties/rules/items/anyOf/0/properties/annotations/properties/is_concept_hierarchy",
                                         "type": "boolean",
                                         "title": "is_concept_hierarchy",
-                                        "description": "Indicates if this field must be treated as a hyerarircal classification. This kind of XML serialization replaces the former "facet" and "level" representation.",
+                                        "description": "Indicates if this field must be treated as a hyerarircal classification. This kind of XML serialization replaces the former facet and level representation.",
                                         "default": false
                                     }
                                 },

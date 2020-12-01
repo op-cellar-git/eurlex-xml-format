@@ -1,0 +1,2857 @@
+{
+	"NOTICE": {
+		"@decoding": "eng",
+		"@type": "branch",
+		"WORK": {
+			"URI": {
+				"VALUE": "http://publications.europa.eu/resource/cellar/fc5c74e0-6255-11e8-ab9c-01aa75ed71a1",
+				"IDENTIFIER": "fc5c74e0-6255-11e8-ab9c-01aa75ed71a1",
+				"TYPE": "cellar"
+			},
+			"SAMEAS": {
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/immc/COM%282018%29340%20final",
+					"IDENTIFIER": "COM(2018)340 final",
+					"TYPE": "immc"
+				}
+			},
+			"SAMEAS": {
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/comnat/COM_2018_0340_FIN",
+					"IDENTIFIER": "COM_2018_0340_FIN",
+					"TYPE": "comnat"
+				}
+			},
+			"SAMEAS": {
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/celex/52018PC0340",
+					"IDENTIFIER": "52018PC0340",
+					"TYPE": "celex"
+				}
+			},
+			"RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE": {
+				"@type": "concept_hierarchy",
+				"RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE": {
+					"@type": "concept_hierarchy_path",
+					"RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE": {
+						"@type": "concept_hierarchy_path_concept",
+						"@level": 4,
+						"@leaf": "true",
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/authority/fd_555/15103030",
+							"IDENTIFIER": "15103030",
+							"TYPE": "fd_555"
+						},
+						"OP-CODE": "15103030",
+						"IDENTIFIER": "15103030",
+						"PREFLABEL": "Waste management and clean technology"
+					},
+					"RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE": {
+						"@type": "concept_hierarchy_path_concept",
+						"@level": 3,
+						"@leaf": "false",
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/authority/fd_555/151030",
+							"IDENTIFIER": "151030",
+							"TYPE": "fd_555"
+						},
+						"OP-CODE": "151030",
+						"IDENTIFIER": "151030",
+						"PREFLABEL": "Space, environment and natural resources"
+					},
+					"RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE": {
+						"@type": "concept_hierarchy_path_concept",
+						"@level": 1,
+						"@leaf": "false",
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/authority/fd_555/15",
+							"IDENTIFIER": "15",
+							"TYPE": "fd_555"
+						},
+						"OP-CODE": "15",
+						"IDENTIFIER": "15",
+						"PREFLABEL": "Environment, consumers and health protection"
+					},
+					"RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE": {
+						"@type": "concept_hierarchy_path_concept",
+						"@level": 2,
+						"@leaf": "false",
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/authority/fd_555/1510",
+							"IDENTIFIER": "1510",
+							"TYPE": "fd_555"
+						},
+						"OP-CODE": "1510",
+						"IDENTIFIER": "1510",
+						"PREFLABEL": "Environment"
+					}
+				}
+			},
+			"DATE_CREATION_LEGACY": {
+				"@type": "date",
+				"VALUE": "2018-05-28",
+				"YEAR": "2018",
+				"MONTH": "05",
+				"DAY": "28"
+			},
+			"LASTMODIFICATIONDATE": {
+				"@type": "date",
+				"VALUE": "2020-09-27T17:43:28.234+02:00",
+				"YEAR": "2020",
+				"MONTH": "09",
+				"DAY": "27"
+			},
+			"CREATED_BY": {
+				"@type": "concept",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/authority/corporate-body/COM",
+					"IDENTIFIER": "COM",
+					"TYPE": "corporate-body"
+				},
+				"OP-CODE": "COM",
+				"IDENTIFIER": "COM",
+				"PREFLABEL": "European Commission",
+				"ALTLABEL": "Commission",
+				"ALTLABEL": "European Commission",
+				"ALTLABEL": "Commission of the European Communities",
+				"ALTLABEL": "EC"
+			},
+			"IS_ABOUT": {
+				"@type": "concept",
+				"URI": {
+					"VALUE": "http://eurovoc.europa.eu/1837",
+					"IDENTIFIER": "1837",
+					"TYPE": "EUROVOC"
+				},
+				"IDENTIFIER": "1837",
+				"PREFLABEL": "plastics",
+				"ALTLABEL": "polyurethane",
+				"ALTLABEL": "polyurethane foam",
+				"ALTLABEL": "polypropylene",
+				"ALTLABEL": "plastic",
+				"ALTLABEL": "PVC",
+				"ALTLABEL": "polyethylene",
+				"ALTLABEL": "polyvinyl chloride",
+				"ALTLABEL": "polyester"
+			},
+			"IS_ABOUT": {
+				"@type": "concept",
+				"URI": {
+					"VALUE": "http://eurovoc.europa.eu/5794",
+					"IDENTIFIER": "5794",
+					"TYPE": "EUROVOC"
+				},
+				"IDENTIFIER": "5794",
+				"PREFLABEL": "EU environmental policy",
+				"ALTLABEL": "EU environment policy",
+				"ALTLABEL": "European Union environment policy",
+				"ALTLABEL": "European Union environmental policy",
+				"ALTLABEL": "Community environmental policy"
+			},
+			"IS_ABOUT": {
+				"@type": "concept",
+				"URI": {
+					"VALUE": "http://eurovoc.europa.eu/2535",
+					"IDENTIFIER": "2535",
+					"TYPE": "EUROVOC"
+				},
+				"IDENTIFIER": "2535",
+				"PREFLABEL": "marine pollution",
+				"ALTLABEL": "pollution of the seas",
+				"ALTLABEL": "disposal of waste at sea"
+			},
+			"IS_ABOUT": {
+				"@type": "concept",
+				"URI": {
+					"VALUE": "http://eurovoc.europa.eu/1158",
+					"IDENTIFIER": "1158",
+					"TYPE": "EUROVOC"
+				},
+				"IDENTIFIER": "1158",
+				"PREFLABEL": "waste management",
+				"ALTLABEL": "rubbish dump",
+				"ALTLABEL": "landfill site",
+				"ALTLABEL": "waste treatment"
+			},
+			"IS_ABOUT": {
+				"@type": "concept",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/authority/fd_555/15102020",
+					"IDENTIFIER": "15102020",
+					"TYPE": "fd_555"
+				},
+				"OP-CODE": "15102020",
+				"IDENTIFIER": "15102020",
+				"PREFLABEL": "Water protection and management"
+			},
+			"SERVICE_RESPONSIBLE": {
+				"@type": "data",
+				"VALUE": "ENV"
+			},
+			"WORK_ID_DOCUMENT": {
+				"@type": "data",
+				"VALUE": "comnat:COM_2018_0340_FIN"
+			},
+			"WORK_ID_DOCUMENT": {
+				"@type": "data",
+				"VALUE": "celex:52018PC0340"
+			},
+			"WORK_CITES_WORK": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/591f82a6-a6a1-4398-b531-41ac8b97ffa9",
+					"IDENTIFIER": "591f82a6-a6a1-4398-b531-41ac8b97ffa9",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/eli/convention/1993/98/oj",
+						"IDENTIFIER": "convention:1993:98:oj",
+						"TYPE": "eli"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/celex/21993A0216%2802%29",
+						"IDENTIFIER": "21993A0216(02)",
+						"TYPE": "celex"
+					}
+				}
+			},
+			"WORK_CITES_WORK": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/65bee8e7-6e37-49c9-a431-67083fe22157",
+					"IDENTIFIER": "65bee8e7-6e37-49c9-a431-67083fe22157",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/eli/dir/2003/4/oj",
+						"IDENTIFIER": "dir:2003:4:oj",
+						"TYPE": "eli"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/oj/JOL_2003_041_R_0026_01",
+						"IDENTIFIER": "JOL_2003_041_R_0026_01",
+						"TYPE": "oj"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/celex/32003L0004",
+						"IDENTIFIER": "32003L0004",
+						"TYPE": "celex"
+					}
+				}
+			},
+			"WORK_CITES_WORK": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/a32ddb30-1a98-4911-964a-e4f4f638f20d",
+					"IDENTIFIER": "a32ddb30-1a98-4911-964a-e4f4f638f20d",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/oj/JOL_2008_312_R_0003_01",
+						"IDENTIFIER": "JOL_2008_312_R_0003_01",
+						"TYPE": "oj"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/celex/32008L0098",
+						"IDENTIFIER": "32008L0098",
+						"TYPE": "celex"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/eli/dir/2008/98/oj",
+						"IDENTIFIER": "dir:2008:98:oj",
+						"TYPE": "eli"
+					}
+				}
+			},
+			"WORK_CITES_WORK": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/af47b123-2eed-44a4-9079-c232e318f5ad",
+					"IDENTIFIER": "af47b123-2eed-44a4-9079-c232e318f5ad",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/celex/22005A0517%2801%29",
+						"IDENTIFIER": "22005A0517(01)",
+						"TYPE": "celex"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/eli/convention/2005/370/oj",
+						"IDENTIFIER": "convention:2005:370:oj",
+						"TYPE": "eli"
+					}
+				}
+			},
+			"WORK_CITES_WORK": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/2df5d1d2-fac7-11e7-b8f5-01aa75ed71a1",
+					"IDENTIFIER": "2df5d1d2-fac7-11e7-b8f5-01aa75ed71a1",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/celex/52018DC0028",
+						"IDENTIFIER": "52018DC0028",
+						"TYPE": "celex"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/comnat/COM_2018_0028_FIN",
+						"IDENTIFIER": "COM_2018_0028_FIN",
+						"TYPE": "comnat"
+					}
+				}
+			},
+			"WORK_CITES_WORK": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/127ceea5-76cc-11e3-b889-01aa75ed71a1",
+					"IDENTIFIER": "127ceea5-76cc-11e3-b889-01aa75ed71a1",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/eli/reg/2013/1380/oj",
+						"IDENTIFIER": "reg:2013:1380:oj",
+						"TYPE": "eli"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/oj/JOL_2013_354_R_0022_01",
+						"IDENTIFIER": "JOL_2013_354_R_0022_01",
+						"TYPE": "oj"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/celex/32013R1380",
+						"IDENTIFIER": "32013R1380",
+						"TYPE": "celex"
+					}
+				}
+			},
+			"RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER": {
+				"@type": "concept_hierarchy",
+				"RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER": {
+					"@type": "concept_hierarchy_path",
+					"RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER": {
+						"@type": "concept_hierarchy_path_concept",
+						"@level": 1,
+						"@leaf": "true",
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/authority/fd_070/DECH",
+							"IDENTIFIER": "DECH",
+							"TYPE": "fd_070"
+						},
+						"OP-CODE": "DECH",
+						"IDENTIFIER": "DECH",
+						"PREFLABEL": "Waste"
+					}
+				}
+			},
+			"WORK_CITES_WORK": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/571a59f5-fac7-11e7-b8f5-01aa75ed71a1",
+					"IDENTIFIER": "571a59f5-fac7-11e7-b8f5-01aa75ed71a1",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/celex/52018PC0033",
+						"IDENTIFIER": "52018PC0033",
+						"TYPE": "celex"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/comnat/COM_2018_0033_FIN",
+						"IDENTIFIER": "COM_2018_0033_FIN",
+						"TYPE": "comnat"
+					}
+				}
+			},
+			"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+				"@type": "concept_hierarchy",
+				"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+					"@type": "concept_hierarchy_path",
+					"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+						"@type": "concept_hierarchy_path_concept",
+						"@level": 3,
+						"@leaf": "true",
+						"URI": {
+							"VALUE": "http://eurovoc.europa.eu/1707",
+							"IDENTIFIER": "1707",
+							"TYPE": "EUROVOC"
+						},
+						"IDENTIFIER": "1707",
+						"PREFLABEL": "pollution control measures",
+						"ALTLABEL": "reduction of pollution"
+					},
+					"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+						"@type": "concept_hierarchy_path_concept",
+						"@level": 1,
+						"@leaf": "false",
+						"URI": {
+							"VALUE": "http://eurovoc.europa.eu/100155",
+							"IDENTIFIER": "100155",
+							"TYPE": "EUROVOC"
+						},
+						"IDENTIFIER": "52",
+						"PREFLABEL": "52 ENVIRONMENT"
+					},
+					"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+						"@type": "concept_hierarchy_path_concept",
+						"@level": 2,
+						"@leaf": "false",
+						"URI": {
+							"VALUE": "http://eurovoc.europa.eu/100242",
+							"IDENTIFIER": "100242",
+							"TYPE": "EUROVOC"
+						},
+						"IDENTIFIER": "5206",
+						"PREFLABEL": "5206 environmental policy"
+					}
+				}
+			},
+			"RESOURCE_LEGAL_INFORMATION_MISCELLANEOUS": {
+				"@type": "data",
+				"VALUE": "{P/EEE|http://publications.europa.eu/resource/authority/fd_400/P%2FEEE}"
+			},
+			"RESOURCE_LEGAL_BASED_ON_RESOURCE_LEGAL": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/cdbccbd7-06ae-4c9b-9076-57fc645256c2",
+					"IDENTIFIER": "cdbccbd7-06ae-4c9b-9076-57fc645256c2",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/celex/12016E192",
+						"IDENTIFIER": "12016E192",
+						"TYPE": "celex"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/eli/treaty/tfeu_2016/art_192/oj",
+						"IDENTIFIER": "treaty:tfeu_2016:art_192:oj",
+						"TYPE": "eli"
+					}
+				},
+				"PARAGRAPH": {
+					"@type": "annotation",
+					"$": "1"
+				},
+				"COMMENT_ON_LEGAL_BASIS": {
+					"@type": "annotation",
+					"$": "P1"
+				}
+			},
+			"DATE_DOCUMENT": {
+				"@type": "date",
+				"VALUE": "2018-05-28",
+				"YEAR": "2018",
+				"MONTH": "05",
+				"DAY": "28"
+			},
+			"DATE": {
+				"@type": "date",
+				"VALUE": "2018-05-28",
+				"YEAR": "2018",
+				"MONTH": "05",
+				"DAY": "28"
+			},
+			"RESOURCE_LEGAL_NUMBER_NATURAL_CELEX": {
+				"@type": "data",
+				"VALUE": "340"
+			},
+			"WORK_CITES_WORK": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/49604e33-fec8-11e4-a4c8-01aa75ed71a1",
+					"IDENTIFIER": "49604e33-fec8-11e4-a4c8-01aa75ed71a1",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/comnat/SWD_2015_0111_FIN",
+						"IDENTIFIER": "SWD_2015_0111_FIN",
+						"TYPE": "comnat"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/celex/52015SC0111",
+						"IDENTIFIER": "52015SC0111",
+						"TYPE": "celex"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/swd/SWD_2015_0111",
+						"IDENTIFIER": "SWD_2015_0111",
+						"TYPE": "swd"
+					}
+				}
+			},
+			"RESOURCE_LEGAL_ID_CELEX": {
+				"@type": "data",
+				"VALUE": "52018PC0340"
+			},
+			"WORK_CITES_WORK": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/f07ab00e-3795-4146-8739-07dc585b97ad",
+					"IDENTIFIER": "f07ab00e-3795-4146-8739-07dc585b97ad",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/oj/JOL_1998_179_R_0003_002",
+						"IDENTIFIER": "JOL_1998_179_R_0003_002",
+						"TYPE": "oj"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/celex/21998A0623%2801%29",
+						"IDENTIFIER": "21998A0623(01)",
+						"TYPE": "celex"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/eli/convention/1998/392/oj",
+						"IDENTIFIER": "convention:1998:392:oj",
+						"TYPE": "eli"
+					}
+				}
+			},
+			"WORK_CITES_WORK": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/6339d1bf-a2e0-4f88-9b39-7845c82d253c",
+					"IDENTIFIER": "6339d1bf-a2e0-4f88-9b39-7845c82d253c",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/celex/12016P047",
+						"IDENTIFIER": "12016P047",
+						"TYPE": "celex"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/eli/treaty/char_2016/art_47/oj",
+						"IDENTIFIER": "treaty:char_2016:art_47:oj",
+						"TYPE": "eli"
+					}
+				}
+			},
+			"CREATIONDATE": {
+				"@type": "date",
+				"VALUE": "2018-05-28T11:03:29.778+02:00",
+				"YEAR": "2018",
+				"MONTH": "05",
+				"DAY": "28"
+			},
+			"WORK_CREATED_BY_AGENT": {
+				"@type": "concept",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/authority/corporate-body/COM",
+					"IDENTIFIER": "COM",
+					"TYPE": "corporate-body"
+				},
+				"OP-CODE": "COM",
+				"IDENTIFIER": "COM",
+				"PREFLABEL": "European Commission",
+				"ALTLABEL": "Commission",
+				"ALTLABEL": "European Commission",
+				"ALTLABEL": "Commission of the European Communities",
+				"ALTLABEL": "EC"
+			},
+			"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+				"@type": "concept_hierarchy",
+				"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+					"@type": "concept_hierarchy_path",
+					"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+						"@type": "concept_hierarchy_path_concept",
+						"@level": 1,
+						"@leaf": "false",
+						"URI": {
+							"VALUE": "http://eurovoc.europa.eu/100155",
+							"IDENTIFIER": "100155",
+							"TYPE": "EUROVOC"
+						},
+						"IDENTIFIER": "52",
+						"PREFLABEL": "52 ENVIRONMENT"
+					},
+					"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+						"@type": "concept_hierarchy_path_concept",
+						"@level": 2,
+						"@leaf": "false",
+						"URI": {
+							"VALUE": "http://eurovoc.europa.eu/100242",
+							"IDENTIFIER": "100242",
+							"TYPE": "EUROVOC"
+						},
+						"IDENTIFIER": "5206",
+						"PREFLABEL": "5206 environmental policy"
+					},
+					"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+						"@type": "concept_hierarchy_path_concept",
+						"@level": 3,
+						"@leaf": "false",
+						"URI": {
+							"VALUE": "http://eurovoc.europa.eu/2470",
+							"IDENTIFIER": "2470",
+							"TYPE": "EUROVOC"
+						},
+						"IDENTIFIER": "2470",
+						"PREFLABEL": "environmental policy",
+						"ALTLABEL": "environmental management"
+					},
+					"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+						"@type": "concept_hierarchy_path_concept",
+						"@level": 4,
+						"@leaf": "true",
+						"URI": {
+							"VALUE": "http://eurovoc.europa.eu/3139",
+							"IDENTIFIER": "3139",
+							"TYPE": "EUROVOC"
+						},
+						"IDENTIFIER": "3139",
+						"PREFLABEL": "environmental impact",
+						"ALTLABEL": "effect on the environment",
+						"ALTLABEL": "ecological balance sheet",
+						"ALTLABEL": "eco-balance",
+						"ALTLABEL": "environmental assessment",
+						"ALTLABEL": "ecological assessment",
+						"ALTLABEL": "environmental footprint",
+						"ALTLABEL": "environmental effect"
+					}
+				}
+			},
+			"RESOURCE_LEGAL_DATE_DISPATCH": {
+				"@type": "date",
+				"VALUE": "2018-05-28",
+				"YEAR": "2018",
+				"MONTH": "05",
+				"DAY": "28",
+				"COMMENT_ON_DATE": {
+					"@type": "annotation",
+					"$": "{TRANS/PARL|http://publications.europa.eu/resource/authority/fd_340/TRANS%2FPARL}"
+				},
+				"COMMENT_ON_DATE": {
+					"@type": "annotation",
+					"$": "{TRANS/CONS|http://publications.europa.eu/resource/authority/fd_340/TRANS%2FCONS}"
+				}
+			},
+			"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+				"@type": "concept_hierarchy",
+				"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+					"@type": "concept_hierarchy_path",
+					"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+						"@type": "concept_hierarchy_path_concept",
+						"@level": 1,
+						"@leaf": "false",
+						"URI": {
+							"VALUE": "http://eurovoc.europa.eu/100156",
+							"IDENTIFIER": "100156",
+							"TYPE": "EUROVOC"
+						},
+						"IDENTIFIER": "56",
+						"PREFLABEL": "56 AGRICULTURE, FORESTRY AND FISHERIES"
+					},
+					"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+						"@type": "concept_hierarchy_path_concept",
+						"@level": 2,
+						"@leaf": "false",
+						"URI": {
+							"VALUE": "http://eurovoc.europa.eu/100252",
+							"IDENTIFIER": "100252",
+							"TYPE": "EUROVOC"
+						},
+						"IDENTIFIER": "5641",
+						"PREFLABEL": "5641 fisheries"
+					},
+					"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+						"@type": "concept_hierarchy_path_concept",
+						"@level": 3,
+						"@leaf": "true",
+						"URI": {
+							"VALUE": "http://eurovoc.europa.eu/1372",
+							"IDENTIFIER": "1372",
+							"TYPE": "EUROVOC"
+						},
+						"IDENTIFIER": "1372",
+						"PREFLABEL": "fishing industry",
+						"ALTLABEL": "fishing",
+						"ALTLABEL": "fishing activity"
+					}
+				}
+			},
+			"WORK_CITES_WORK": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/bfae6994-0c12-11e3-8d1c-01aa75ed71a1",
+					"IDENTIFIER": "bfae6994-0c12-11e3-8d1c-01aa75ed71a1",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/eli/reco/2013/396/oj",
+						"IDENTIFIER": "reco:2013:396:oj",
+						"TYPE": "eli"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/celex/32013H0396",
+						"IDENTIFIER": "32013H0396",
+						"TYPE": "celex"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/oj/JOL_2013_201_R_NS0013",
+						"IDENTIFIER": "JOL_2013_201_R_NS0013",
+						"TYPE": "oj"
+					}
+				}
+			},
+			"WORK_CITES_WORK": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/f082e37e-180d-11e6-ba9a-01aa75ed71a1",
+					"IDENTIFIER": "f082e37e-180d-11e6-ba9a-01aa75ed71a1",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/celex/32016Q0512%2801%29",
+						"IDENTIFIER": "32016Q0512(01)",
+						"TYPE": "celex"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/oj/JOL_2016_123_R_0001",
+						"IDENTIFIER": "JOL_2016_123_R_0001",
+						"TYPE": "oj"
+					}
+				}
+			},
+			"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+				"@type": "concept_hierarchy",
+				"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+					"@type": "concept_hierarchy_path",
+					"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+						"@type": "concept_hierarchy_path_concept",
+						"@level": 1,
+						"@leaf": "false",
+						"URI": {
+							"VALUE": "http://eurovoc.europa.eu/100147",
+							"IDENTIFIER": "100147",
+							"TYPE": "EUROVOC"
+						},
+						"IDENTIFIER": "20",
+						"PREFLABEL": "20 TRADE"
+					},
+					"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+						"@type": "concept_hierarchy_path_concept",
+						"@level": 2,
+						"@leaf": "false",
+						"URI": {
+							"VALUE": "http://eurovoc.europa.eu/100195",
+							"IDENTIFIER": "100195",
+							"TYPE": "EUROVOC"
+						},
+						"IDENTIFIER": "2026",
+						"PREFLABEL": "2026 consumption"
+					},
+					"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+						"@type": "concept_hierarchy_path_concept",
+						"@level": 3,
+						"@leaf": "false",
+						"URI": {
+							"VALUE": "http://eurovoc.europa.eu/3193",
+							"IDENTIFIER": "3193",
+							"TYPE": "EUROVOC"
+						},
+						"IDENTIFIER": "3193",
+						"PREFLABEL": "goods and services"
+					},
+					"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+						"@type": "concept_hierarchy_path_concept",
+						"@level": 4,
+						"@leaf": "true",
+						"URI": {
+							"VALUE": "http://eurovoc.europa.eu/4880",
+							"IDENTIFIER": "4880",
+							"TYPE": "EUROVOC"
+						},
+						"IDENTIFIER": "4880",
+						"PREFLABEL": "non-durable goods",
+						"ALTLABEL": "disposable article",
+						"ALTLABEL": "expendable goods",
+						"ALTLABEL": "non-durables",
+						"ALTLABEL": "disposable goods"
+					}
+				}
+			},
+			"WORK_CITES_WORK": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/5db3ea5e-1358-4f47-a4a8-875497618631",
+					"IDENTIFIER": "5db3ea5e-1358-4f47-a4a8-875497618631",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/eli/treaty/tfeu_2016/art_288/oj",
+						"IDENTIFIER": "treaty:tfeu_2016:art_288:oj",
+						"TYPE": "eli"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/celex/12016E288",
+						"IDENTIFIER": "12016E288",
+						"TYPE": "celex"
+					}
+				}
+			},
+			"RESOURCE_LEGAL_BASED_ON_CONCEPT_TREATY": {
+				"@type": "concept",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/authority/treaty/TFEU_2012",
+					"IDENTIFIER": "TFEU_2012",
+					"TYPE": "treaty"
+				},
+				"OP-CODE": "TFEU_2012",
+				"IDENTIFIER": "TFEU_2012",
+				"PREFLABEL": "Treaty on the Functioning of the European Union (consolidated version 2012)",
+				"ALTLABEL": "TFEU (2012)",
+				"ALTLABEL": "Consolidated version of the Treaty on the Functioning of the European Union (2012)"
+			},
+			"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+				"@type": "concept_hierarchy",
+				"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+					"@type": "concept_hierarchy_path",
+					"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+						"@type": "concept_hierarchy_path_concept",
+						"@level": 1,
+						"@leaf": "false",
+						"URI": {
+							"VALUE": "http://eurovoc.europa.eu/100155",
+							"IDENTIFIER": "100155",
+							"TYPE": "EUROVOC"
+						},
+						"IDENTIFIER": "52",
+						"PREFLABEL": "52 ENVIRONMENT"
+					},
+					"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+						"@type": "concept_hierarchy_path_concept",
+						"@level": 2,
+						"@leaf": "false",
+						"URI": {
+							"VALUE": "http://eurovoc.europa.eu/100242",
+							"IDENTIFIER": "100242",
+							"TYPE": "EUROVOC"
+						},
+						"IDENTIFIER": "5206",
+						"PREFLABEL": "5206 environmental policy"
+					},
+					"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+						"@type": "concept_hierarchy_path_concept",
+						"@level": 3,
+						"@leaf": "true",
+						"URI": {
+							"VALUE": "http://eurovoc.europa.eu/2825",
+							"IDENTIFIER": "2825",
+							"TYPE": "EUROVOC"
+						},
+						"IDENTIFIER": "2825",
+						"PREFLABEL": "environmental protection",
+						"ALTLABEL": "protection of nature",
+						"ALTLABEL": "preservation of the environment",
+						"ALTLABEL": "conservation of nature",
+						"ALTLABEL": "nature protection"
+					}
+				}
+			},
+			"TITLE": {
+				"@type": "data",
+				"VALUE": "Proposition de directive du Parlement européen et du Conseil relative à la réduction de l'incidence de certains produits en plastique sur l'environnement"
+			},
+			"IS_ABOUT": {
+				"@type": "concept",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/authority/fd_070/DECH",
+					"IDENTIFIER": "DECH",
+					"TYPE": "fd_070"
+				},
+				"OP-CODE": "DECH",
+				"IDENTIFIER": "DECH",
+				"PREFLABEL": "Waste"
+			},
+			"BASED_ON": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/cdbccbd7-06ae-4c9b-9076-57fc645256c2",
+					"IDENTIFIER": "cdbccbd7-06ae-4c9b-9076-57fc645256c2",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/celex/12016E192",
+						"IDENTIFIER": "12016E192",
+						"TYPE": "celex"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/eli/treaty/tfeu_2016/art_192/oj",
+						"IDENTIFIER": "treaty:tfeu_2016:art_192:oj",
+						"TYPE": "eli"
+					}
+				}
+			},
+			"WORK_CITES_WORK": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/d78a7890-06c9-434c-8c6b-e7c865bd2b28",
+					"IDENTIFIER": "d78a7890-06c9-434c-8c6b-e7c865bd2b28",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/oj/JOL_2009_343_R_0001_01",
+						"IDENTIFIER": "JOL_2009_343_R_0001_01",
+						"TYPE": "oj"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/eli/reg/2009/1224/oj",
+						"IDENTIFIER": "reg:2009:1224:oj",
+						"TYPE": "eli"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/celex/32009R1224",
+						"IDENTIFIER": "32009R1224",
+						"TYPE": "celex"
+					}
+				}
+			},
+			"ID_SECTOR": {
+				"@type": "data",
+				"VALUE": "5"
+			},
+			"WORK_CITES_WORK": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/72de3b0c-c182-4754-9a9c-8cc5217c60f8",
+					"IDENTIFIER": "72de3b0c-c182-4754-9a9c-8cc5217c60f8",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/oj/JOL_2002_031_R_0001_01",
+						"IDENTIFIER": "JOL_2002_031_R_0001_01",
+						"TYPE": "oj"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/eli/reg/2002/178/oj",
+						"IDENTIFIER": "reg:2002:178:oj",
+						"TYPE": "eli"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/celex/32002R0178",
+						"IDENTIFIER": "32002R0178",
+						"TYPE": "celex"
+					}
+				}
+			},
+			"IDENTIFIER": {
+				"@type": "data",
+				"VALUE": "immc:COM(2018)340 final"
+			},
+			"WORK_CITES_WORK": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/1d7cd2ba-cce0-4977-be4b-d5042e1dea0c",
+					"IDENTIFIER": "1d7cd2ba-cce0-4977-be4b-d5042e1dea0c",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/oj/JOL_1994_365_R_0010_010",
+						"IDENTIFIER": "JOL_1994_365_R_0010_010",
+						"TYPE": "oj"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/celex/31994L0062",
+						"IDENTIFIER": "31994L0062",
+						"TYPE": "celex"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/eli/dir/1994/62/oj",
+						"IDENTIFIER": "dir:1994:62:oj",
+						"TYPE": "eli"
+					}
+				}
+			},
+			"WORK_CITES_WORK": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/15945efb-a7e8-4840-ab4d-0535f12692a8",
+					"IDENTIFIER": "15945efb-a7e8-4840-ab4d-0535f12692a8",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/eli/dir/2000/59/oj",
+						"IDENTIFIER": "dir:2000:59:oj",
+						"TYPE": "eli"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/celex/32000L0059",
+						"IDENTIFIER": "32000L0059",
+						"TYPE": "celex"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/oj/JOL_2000_332_R_0081_01",
+						"IDENTIFIER": "JOL_2000_332_R_0081_01",
+						"TYPE": "oj"
+					}
+				}
+			},
+			"ID_CELEX": {
+				"@type": "data",
+				"VALUE": "52018PC0340"
+			},
+			"WORK_CITES_WORK": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/08e6cf53-2e33-11e2-ad46-01aa75ed71a1",
+					"IDENTIFIER": "08e6cf53-2e33-11e2-ad46-01aa75ed71a1",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/celex/32012R1025",
+						"IDENTIFIER": "32012R1025",
+						"TYPE": "celex"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/oj/JOL_2012_316_R_0012_01",
+						"IDENTIFIER": "JOL_2012_316_R_0012_01",
+						"TYPE": "oj"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/eli/reg/2012/1025/oj",
+						"IDENTIFIER": "reg:2012:1025:oj",
+						"TYPE": "eli"
+					}
+				}
+			},
+			"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+				"@type": "concept_hierarchy",
+				"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+					"@type": "concept_hierarchy_path",
+					"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+						"@type": "concept_hierarchy_path_concept",
+						"@level": 1,
+						"@leaf": "false",
+						"URI": {
+							"VALUE": "http://eurovoc.europa.eu/100155",
+							"IDENTIFIER": "100155",
+							"TYPE": "EUROVOC"
+						},
+						"IDENTIFIER": "52",
+						"PREFLABEL": "52 ENVIRONMENT"
+					},
+					"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+						"@type": "concept_hierarchy_path_concept",
+						"@level": 2,
+						"@leaf": "false",
+						"URI": {
+							"VALUE": "http://eurovoc.europa.eu/100244",
+							"IDENTIFIER": "100244",
+							"TYPE": "EUROVOC"
+						},
+						"IDENTIFIER": "5216",
+						"PREFLABEL": "5216 deterioration of the environment"
+					},
+					"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+						"@type": "concept_hierarchy_path_concept",
+						"@level": 3,
+						"@leaf": "true",
+						"URI": {
+							"VALUE": "http://eurovoc.europa.eu/343",
+							"IDENTIFIER": "343",
+							"TYPE": "EUROVOC"
+						},
+						"IDENTIFIER": "343",
+						"PREFLABEL": "waste",
+						"ALTLABEL": "refuse",
+						"ALTLABEL": "residue"
+					}
+				}
+			},
+			"WORK_CITES_WORK": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/1521e39a-a206-41fb-afb0-ac8973511bf8",
+					"IDENTIFIER": "1521e39a-a206-41fb-afb0-ac8973511bf8",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/eli/dir/2007/2/oj",
+						"IDENTIFIER": "dir:2007:2:oj",
+						"TYPE": "eli"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/celex/32007L0002",
+						"IDENTIFIER": "32007L0002",
+						"TYPE": "celex"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/oj/JOL_2007_108_R_0001_01",
+						"IDENTIFIER": "JOL_2007_108_R_0001_01",
+						"TYPE": "oj"
+					}
+				}
+			},
+			"IS_ABOUT": {
+				"@type": "concept",
+				"URI": {
+					"VALUE": "http://eurovoc.europa.eu/343",
+					"IDENTIFIER": "343",
+					"TYPE": "EUROVOC"
+				},
+				"IDENTIFIER": "343",
+				"PREFLABEL": "waste",
+				"ALTLABEL": "refuse",
+				"ALTLABEL": "residue"
+			},
+			"WORK_ID_DOCUMENT": {
+				"@type": "data",
+				"VALUE": "immc:COM(2018)340 final"
+			},
+			"VERSION": {
+				"@type": "data",
+				"VALUE": "final"
+			},
+			"IS_ABOUT": {
+				"@type": "concept",
+				"URI": {
+					"VALUE": "http://eurovoc.europa.eu/4880",
+					"IDENTIFIER": "4880",
+					"TYPE": "EUROVOC"
+				},
+				"IDENTIFIER": "4880",
+				"PREFLABEL": "non-durable goods",
+				"ALTLABEL": "disposable article",
+				"ALTLABEL": "expendable goods",
+				"ALTLABEL": "non-durables",
+				"ALTLABEL": "disposable goods"
+			},
+			"WORK_CITES_WORK": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/6c8e7593-7a75-4b58-b709-542f06ee7a28",
+					"IDENTIFIER": "6c8e7593-7a75-4b58-b709-542f06ee7a28",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/celex/32011L0083",
+						"IDENTIFIER": "32011L0083",
+						"TYPE": "celex"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/eli/dir/2011/83/oj",
+						"IDENTIFIER": "dir:2011:83:oj",
+						"TYPE": "eli"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/oj/JOL_2011_304_R_0064_01",
+						"IDENTIFIER": "JOL_2011_304_R_0064_01",
+						"TYPE": "oj"
+					}
+				}
+			},
+			"IS_ABOUT": {
+				"@type": "concept",
+				"URI": {
+					"VALUE": "http://eurovoc.europa.eu/2825",
+					"IDENTIFIER": "2825",
+					"TYPE": "EUROVOC"
+				},
+				"IDENTIFIER": "2825",
+				"PREFLABEL": "environmental protection",
+				"ALTLABEL": "protection of nature",
+				"ALTLABEL": "preservation of the environment",
+				"ALTLABEL": "conservation of nature",
+				"ALTLABEL": "nature protection"
+			},
+			"IS_ABOUT": {
+				"@type": "concept",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/authority/fd_555/15103030",
+					"IDENTIFIER": "15103030",
+					"TYPE": "fd_555"
+				},
+				"OP-CODE": "15103030",
+				"IDENTIFIER": "15103030",
+				"PREFLABEL": "Waste management and clean technology"
+			},
+			"RESOURCE_LEGAL_REPERTOIRE": {
+				"@type": "data",
+				"VALUE": "REP"
+			},
+			"WORK_CITES_WORK": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/621f0605-a73e-11e6-aab7-01aa75ed71a1",
+					"IDENTIFIER": "621f0605-a73e-11e6-aab7-01aa75ed71a1",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/celex/52016SC0352",
+						"IDENTIFIER": "52016SC0352",
+						"TYPE": "celex"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/comnat/SWD_2016_0352_FIN",
+						"IDENTIFIER": "SWD_2016_0352_FIN",
+						"TYPE": "comnat"
+					}
+				}
+			},
+			"RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE": {
+				"@type": "concept_hierarchy",
+				"RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE": {
+					"@type": "concept_hierarchy_path",
+					"RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE": {
+						"@type": "concept_hierarchy_path_concept",
+						"@level": 4,
+						"@leaf": "true",
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/authority/fd_555/15102020",
+							"IDENTIFIER": "15102020",
+							"TYPE": "fd_555"
+						},
+						"OP-CODE": "15102020",
+						"IDENTIFIER": "15102020",
+						"PREFLABEL": "Water protection and management"
+					},
+					"RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE": {
+						"@type": "concept_hierarchy_path_concept",
+						"@level": 3,
+						"@leaf": "false",
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/authority/fd_555/151020",
+							"IDENTIFIER": "151020",
+							"TYPE": "fd_555"
+						},
+						"OP-CODE": "151020",
+						"IDENTIFIER": "151020",
+						"PREFLABEL": "Pollution and nuisances"
+					},
+					"RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE": {
+						"@type": "concept_hierarchy_path_concept",
+						"@level": 2,
+						"@leaf": "false",
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/authority/fd_555/1510",
+							"IDENTIFIER": "1510",
+							"TYPE": "fd_555"
+						},
+						"OP-CODE": "1510",
+						"IDENTIFIER": "1510",
+						"PREFLABEL": "Environment"
+					},
+					"RESOURCE_LEGAL_IS_ABOUT_CONCEPT_DIRECTORY-CODE": {
+						"@type": "concept_hierarchy_path_concept",
+						"@level": 1,
+						"@leaf": "false",
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/authority/fd_555/15",
+							"IDENTIFIER": "15",
+							"TYPE": "fd_555"
+						},
+						"OP-CODE": "15",
+						"IDENTIFIER": "15",
+						"PREFLABEL": "Environment, consumers and health protection"
+					}
+				}
+			},
+			"IS_ABOUT": {
+				"@type": "concept",
+				"URI": {
+					"VALUE": "http://eurovoc.europa.eu/1372",
+					"IDENTIFIER": "1372",
+					"TYPE": "EUROVOC"
+				},
+				"IDENTIFIER": "1372",
+				"PREFLABEL": "fishing industry",
+				"ALTLABEL": "fishing",
+				"ALTLABEL": "fishing activity"
+			},
+			"WORK_PART_OF_COLLECTION_DOCUMENT": {
+				"@type": "concept",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/authority/document-collection/COM_NAT",
+					"IDENTIFIER": "COM_NAT",
+					"TYPE": "document-collection"
+				},
+				"OP-CODE": "COM_NAT",
+				"IDENTIFIER": "COM_NAT",
+				"PREFLABEL": "COM_NAT"
+			},
+			"WORK_CITES_WORK": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/08a6f2ca-ddae-4630-801b-debd699a5af2",
+					"IDENTIFIER": "08a6f2ca-ddae-4630-801b-debd699a5af2",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/celex/32004R1935",
+						"IDENTIFIER": "32004R1935",
+						"TYPE": "celex"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/eli/reg/2004/1935/oj",
+						"IDENTIFIER": "reg:2004:1935:oj",
+						"TYPE": "eli"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/oj/JOL_2004_338_R_0004_01",
+						"IDENTIFIER": "JOL_2004_338_R_0004_01",
+						"TYPE": "oj"
+					}
+				}
+			},
+			"WORK_CITES_WORK": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/b8e613ef-76de-11e3-b889-01aa75ed71a1",
+					"IDENTIFIER": "b8e613ef-76de-11e3-b889-01aa75ed71a1",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/celex/32013D1386",
+						"IDENTIFIER": "32013D1386",
+						"TYPE": "celex"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/oj/JOL_2013_354_R_0171_01",
+						"IDENTIFIER": "JOL_2013_354_R_0171_01",
+						"TYPE": "oj"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/eli/dec/2013/1386/oj",
+						"IDENTIFIER": "dec:2013:1386:oj",
+						"TYPE": "eli"
+					}
+				}
+			},
+			"WORK_CITES_WORK": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/8a8ef5e8-99a0-11e5-b3b7-01aa75ed71a1",
+					"IDENTIFIER": "8a8ef5e8-99a0-11e5-b3b7-01aa75ed71a1",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/celex/52015DC0614",
+						"IDENTIFIER": "52015DC0614",
+						"TYPE": "celex"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/comnat/COM_2015_0614_FIN",
+						"IDENTIFIER": "COM_2015_0614_FIN",
+						"TYPE": "comnat"
+					}
+				}
+			},
+			"BASED_ON": {
+				"@type": "concept",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/authority/treaty/TFEU_2012",
+					"IDENTIFIER": "TFEU_2012",
+					"TYPE": "treaty"
+				},
+				"OP-CODE": "TFEU_2012",
+				"IDENTIFIER": "TFEU_2012",
+				"PREFLABEL": "Treaty on the Functioning of the European Union (consolidated version 2012)",
+				"ALTLABEL": "TFEU (2012)",
+				"ALTLABEL": "Consolidated version of the Treaty on the Functioning of the European Union (2012)"
+			},
+			"WORK_HAS_RESOURCE-TYPE": {
+				"@type": "concept",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/authority/resource-type/PROP_DIR",
+					"IDENTIFIER": "PROP_DIR",
+					"TYPE": "resource-type"
+				},
+				"OP-CODE": "PROP_DIR",
+				"IDENTIFIER": "PROP_DIR",
+				"PREFLABEL": "Proposal for a directive"
+			},
+			"RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER": {
+				"@type": "concept_hierarchy",
+				"RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER": {
+					"@type": "concept_hierarchy_path",
+					"RESOURCE_LEGAL_IS_ABOUT_SUBJECT-MATTER": {
+						"@type": "concept_hierarchy_path_concept",
+						"@level": 1,
+						"@leaf": "true",
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/authority/fd_070/ENV",
+							"IDENTIFIER": "ENV",
+							"TYPE": "fd_070"
+						},
+						"OP-CODE": "ENV",
+						"IDENTIFIER": "ENV",
+						"PREFLABEL": "Environment"
+					}
+				}
+			},
+			"WORK_CREATED_BY_AGENT": {
+				"@type": "concept",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/authority/corporate-body/ENV",
+					"IDENTIFIER": "ENV",
+					"TYPE": "corporate-body"
+				},
+				"OP-CODE": "ENV",
+				"IDENTIFIER": "ENV",
+				"PREFLABEL": "Directorate-General for Environment",
+				"ALTLABEL": "DG XI – Environment, Nuclear Safety and Civil Protection",
+				"ALTLABEL": "Directorate-General \"Environment, Consumer Protection and Nuclear Safety\"",
+				"ALTLABEL": "DG Environment",
+				"ALTLABEL": "DG XI – Environment, Consumer Protection and Nuclear Safety",
+				"ALTLABEL": "Directorate-General \"Environment, Nuclear Safety and Civil Protection\""
+			},
+			"IS_ABOUT": {
+				"@type": "concept",
+				"URI": {
+					"VALUE": "http://eurovoc.europa.eu/3139",
+					"IDENTIFIER": "3139",
+					"TYPE": "EUROVOC"
+				},
+				"IDENTIFIER": "3139",
+				"PREFLABEL": "environmental impact",
+				"ALTLABEL": "effect on the environment",
+				"ALTLABEL": "ecological balance sheet",
+				"ALTLABEL": "eco-balance",
+				"ALTLABEL": "environmental assessment",
+				"ALTLABEL": "ecological assessment",
+				"ALTLABEL": "environmental footprint",
+				"ALTLABEL": "environmental effect"
+			},
+			"IDENTIFIER": {
+				"@type": "data",
+				"VALUE": "52018PC0340"
+			},
+			"RESOURCE_LEGAL_TYPE": {
+				"@type": "data",
+				"VALUE": "PC"
+			},
+			"WORK_CITES_WORK": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/34860b42-95cc-4a57-b998-2e445d5befa9",
+					"IDENTIFIER": "34860b42-95cc-4a57-b998-2e445d5befa9",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/oj/JOL_1991_135_R_0040_045",
+						"IDENTIFIER": "JOL_1991_135_R_0040_045",
+						"TYPE": "oj"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/celex/31991L0271",
+						"IDENTIFIER": "31991L0271",
+						"TYPE": "celex"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/eli/dir/1991/271/oj",
+						"IDENTIFIER": "dir:1991:271:oj",
+						"TYPE": "eli"
+					}
+				}
+			},
+			"WORK_DATE_DOCUMENT": {
+				"@type": "date",
+				"VALUE": "2018-05-28",
+				"YEAR": "2018",
+				"MONTH": "05",
+				"DAY": "28"
+			},
+			"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+				"@type": "concept_hierarchy",
+				"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+					"@type": "concept_hierarchy_path",
+					"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+						"@type": "concept_hierarchy_path_concept",
+						"@level": 1,
+						"@leaf": "false",
+						"URI": {
+							"VALUE": "http://eurovoc.europa.eu/100155",
+							"IDENTIFIER": "100155",
+							"TYPE": "EUROVOC"
+						},
+						"IDENTIFIER": "52",
+						"PREFLABEL": "52 ENVIRONMENT"
+					},
+					"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+						"@type": "concept_hierarchy_path_concept",
+						"@level": 2,
+						"@leaf": "false",
+						"URI": {
+							"VALUE": "http://eurovoc.europa.eu/100242",
+							"IDENTIFIER": "100242",
+							"TYPE": "EUROVOC"
+						},
+						"IDENTIFIER": "5206",
+						"PREFLABEL": "5206 environmental policy"
+					},
+					"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+						"@type": "concept_hierarchy_path_concept",
+						"@level": 3,
+						"@leaf": "true",
+						"URI": {
+							"VALUE": "http://eurovoc.europa.eu/1158",
+							"IDENTIFIER": "1158",
+							"TYPE": "EUROVOC"
+						},
+						"IDENTIFIER": "1158",
+						"PREFLABEL": "waste management",
+						"ALTLABEL": "rubbish dump",
+						"ALTLABEL": "landfill site",
+						"ALTLABEL": "waste treatment"
+					}
+				}
+			},
+			"IDENTIFIER": {
+				"@type": "data",
+				"VALUE": "celex:52018PC0340"
+			},
+			"WORK_CITES_WORK": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/32f72786-b980-11e7-a7f8-01aa75ed71a1",
+					"IDENTIFIER": "32f72786-b980-11e7-a7f8-01aa75ed71a1",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/comnat/COM_2017_0623_FIN",
+						"IDENTIFIER": "COM_2017_0623_FIN",
+						"TYPE": "comnat"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/celex/52017DC0623",
+						"IDENTIFIER": "52017DC0623",
+						"TYPE": "celex"
+					}
+				}
+			},
+			"WORK_CITES_WORK": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/8984490e-4d06-11e7-a5ca-01aa75ed71a1",
+					"IDENTIFIER": "8984490e-4d06-11e7-a5ca-01aa75ed71a1",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/comnat/COM_2017_0312_FIN",
+						"IDENTIFIER": "COM_2017_0312_FIN",
+						"TYPE": "comnat"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/celex/52017DC0312",
+						"IDENTIFIER": "52017DC0312",
+						"TYPE": "celex"
+					}
+				}
+			},
+			"WORK_CITES_WORK": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/cccf5222-feb3-4dc3-a4ca-9a5ec75e49af",
+					"IDENTIFIER": "cccf5222-feb3-4dc3-a4ca-9a5ec75e49af",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/oj/JOL_2011_055_R_0013_01",
+						"IDENTIFIER": "JOL_2011_055_R_0013_01",
+						"TYPE": "oj"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/eli/reg/2011/182/oj",
+						"IDENTIFIER": "reg:2011:182:oj",
+						"TYPE": "eli"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/celex/32011R0182",
+						"IDENTIFIER": "32011R0182",
+						"TYPE": "celex"
+					}
+				}
+			},
+			"RESOURCE_LEGAL_DATE_END-OF-VALIDITY": {
+				"@type": "date",
+				"VALUE": "2019-06-05",
+				"YEAR": "2019",
+				"MONTH": "06",
+				"DAY": "05",
+				"COMMENT_ON_DATE": {
+					"@type": "annotation",
+					"$": "{YD|http://publications.europa.eu/resource/authority/fd_330/YD} 32019L0904"
+				}
+			},
+			"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+				"@type": "concept_hierarchy",
+				"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+					"@type": "concept_hierarchy_path",
+					"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+						"@type": "concept_hierarchy_path_concept",
+						"@level": 1,
+						"@leaf": "false",
+						"URI": {
+							"VALUE": "http://eurovoc.europa.eu/100155",
+							"IDENTIFIER": "100155",
+							"TYPE": "EUROVOC"
+						},
+						"IDENTIFIER": "52",
+						"PREFLABEL": "52 ENVIRONMENT"
+					},
+					"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+						"@type": "concept_hierarchy_path_concept",
+						"@level": 2,
+						"@leaf": "false",
+						"URI": {
+							"VALUE": "http://eurovoc.europa.eu/100242",
+							"IDENTIFIER": "100242",
+							"TYPE": "EUROVOC"
+						},
+						"IDENTIFIER": "5206",
+						"PREFLABEL": "5206 environmental policy"
+					},
+					"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+						"@type": "concept_hierarchy_path_concept",
+						"@level": 3,
+						"@leaf": "false",
+						"URI": {
+							"VALUE": "http://eurovoc.europa.eu/2470",
+							"IDENTIFIER": "2470",
+							"TYPE": "EUROVOC"
+						},
+						"IDENTIFIER": "2470",
+						"PREFLABEL": "environmental policy",
+						"ALTLABEL": "environmental management"
+					},
+					"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+						"@type": "concept_hierarchy_path_concept",
+						"@level": 4,
+						"@leaf": "true",
+						"URI": {
+							"VALUE": "http://eurovoc.europa.eu/5794",
+							"IDENTIFIER": "5794",
+							"TYPE": "EUROVOC"
+						},
+						"IDENTIFIER": "5794",
+						"PREFLABEL": "EU environmental policy",
+						"ALTLABEL": "EU environment policy",
+						"ALTLABEL": "European Union environment policy",
+						"ALTLABEL": "European Union environmental policy",
+						"ALTLABEL": "Community environmental policy"
+					}
+				}
+			},
+			"WORK_CITES_WORK": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/5c835afb-2ec6-4577-bdf8-756d3d694eeb",
+					"IDENTIFIER": "5c835afb-2ec6-4577-bdf8-756d3d694eeb",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/eli/dir/2000/60/oj",
+						"IDENTIFIER": "dir:2000:60:oj",
+						"TYPE": "eli"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/oj/JOL_2000_327_R_0001_01",
+						"IDENTIFIER": "JOL_2000_327_R_0001_01",
+						"TYPE": "oj"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/celex/32000L0060",
+						"IDENTIFIER": "32000L0060",
+						"TYPE": "celex"
+					}
+				}
+			},
+			"RESOURCE_LEGAL_YEAR": {
+				"@type": "data",
+				"VALUE": "2018"
+			},
+			"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+				"@type": "concept_hierarchy",
+				"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+					"@type": "concept_hierarchy_path",
+					"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+						"@type": "concept_hierarchy_path_concept",
+						"@level": 1,
+						"@leaf": "false",
+						"URI": {
+							"VALUE": "http://eurovoc.europa.eu/100155",
+							"IDENTIFIER": "100155",
+							"TYPE": "EUROVOC"
+						},
+						"IDENTIFIER": "52",
+						"PREFLABEL": "52 ENVIRONMENT"
+					},
+					"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+						"@type": "concept_hierarchy_path_concept",
+						"@level": 2,
+						"@leaf": "false",
+						"URI": {
+							"VALUE": "http://eurovoc.europa.eu/100244",
+							"IDENTIFIER": "100244",
+							"TYPE": "EUROVOC"
+						},
+						"IDENTIFIER": "5216",
+						"PREFLABEL": "5216 deterioration of the environment"
+					},
+					"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+						"@type": "concept_hierarchy_path_concept",
+						"@level": 3,
+						"@leaf": "false",
+						"URI": {
+							"VALUE": "http://eurovoc.europa.eu/2524",
+							"IDENTIFIER": "2524",
+							"TYPE": "EUROVOC"
+						},
+						"IDENTIFIER": "2524",
+						"PREFLABEL": "pollution",
+						"ALTLABEL": "contamination",
+						"ALTLABEL": "discharge of pollutants"
+					},
+					"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+						"@type": "concept_hierarchy_path_concept",
+						"@level": 4,
+						"@leaf": "false",
+						"URI": {
+							"VALUE": "http://eurovoc.europa.eu/2530",
+							"IDENTIFIER": "2530",
+							"TYPE": "EUROVOC"
+						},
+						"IDENTIFIER": "2530",
+						"PREFLABEL": "water pollution"
+					},
+					"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+						"@type": "concept_hierarchy_path_concept",
+						"@level": 5,
+						"@leaf": "true",
+						"URI": {
+							"VALUE": "http://eurovoc.europa.eu/2535",
+							"IDENTIFIER": "2535",
+							"TYPE": "EUROVOC"
+						},
+						"IDENTIFIER": "2535",
+						"PREFLABEL": "marine pollution",
+						"ALTLABEL": "pollution of the seas",
+						"ALTLABEL": "disposal of waste at sea"
+					}
+				}
+			},
+			"YEAR": {
+				"@type": "data",
+				"VALUE": "2018"
+			},
+			"WORK_CITES_WORK": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/6d308a02-5fa9-4bf6-815b-b1fc40431a18",
+					"IDENTIFIER": "6d308a02-5fa9-4bf6-815b-b1fc40431a18",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/celex/32000L0056",
+						"IDENTIFIER": "32000L0056",
+						"TYPE": "celex"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/eli/dir/2000/56/oj",
+						"IDENTIFIER": "dir:2000:56:oj",
+						"TYPE": "eli"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/oj/JOL_2000_237_R_0045_01",
+						"IDENTIFIER": "JOL_2000_237_R_0045_01",
+						"TYPE": "oj"
+					}
+				}
+			},
+			"WORK_CITES_WORK": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/6a6b2a43-24c4-47b6-a602-40ca8c461a82",
+					"IDENTIFIER": "6a6b2a43-24c4-47b6-a602-40ca8c461a82",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/eli/dir/2008/56/oj",
+						"IDENTIFIER": "dir:2008:56:oj",
+						"TYPE": "eli"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/oj/JOL_2008_164_R_0019_01",
+						"IDENTIFIER": "JOL_2008_164_R_0019_01",
+						"TYPE": "oj"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/celex/32008L0056",
+						"IDENTIFIER": "32008L0056",
+						"TYPE": "celex"
+					}
+				}
+			},
+			"DATE": {
+				"@type": "date",
+				"VALUE": "2019-06-05",
+				"YEAR": "2019",
+				"MONTH": "06",
+				"DAY": "05"
+			},
+			"IS_ABOUT": {
+				"@type": "concept",
+				"URI": {
+					"VALUE": "http://eurovoc.europa.eu/1707",
+					"IDENTIFIER": "1707",
+					"TYPE": "EUROVOC"
+				},
+				"IDENTIFIER": "1707",
+				"PREFLABEL": "pollution control measures",
+				"ALTLABEL": "reduction of pollution"
+			},
+			"WORK_CITES_WORK": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/c404f9ba-4b2f-403c-8517-f911d61cbbd7",
+					"IDENTIFIER": "c404f9ba-4b2f-403c-8517-f911d61cbbd7",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/celex/12016M005",
+						"IDENTIFIER": "12016M005",
+						"TYPE": "celex"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/eli/treaty/teu_2016/art_5/oj",
+						"IDENTIFIER": "treaty:teu_2016:art_5:oj",
+						"TYPE": "eli"
+					}
+				}
+			},
+			"WORK_CITES_WORK": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/5a380587-970b-46c6-80b0-985dd1d4812d",
+					"IDENTIFIER": "5a380587-970b-46c6-80b0-985dd1d4812d",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/eli/reg/2006/1907/oj",
+						"IDENTIFIER": "reg:2006:1907:oj",
+						"TYPE": "eli"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/oj/JOL_2006_396_R_NS001",
+						"IDENTIFIER": "JOL_2006_396_R_NS001",
+						"TYPE": "oj"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/celex/32006R1907",
+						"IDENTIFIER": "32006R1907",
+						"TYPE": "celex"
+					}
+				}
+			},
+			"IS_ABOUT": {
+				"@type": "concept",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/authority/fd_070/ENV",
+					"IDENTIFIER": "ENV",
+					"TYPE": "fd_070"
+				},
+				"OP-CODE": "ENV",
+				"IDENTIFIER": "ENV",
+				"PREFLABEL": "Environment"
+			},
+			"CREATED_BY": {
+				"@type": "concept",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/authority/corporate-body/ENV",
+					"IDENTIFIER": "ENV",
+					"TYPE": "corporate-body"
+				},
+				"OP-CODE": "ENV",
+				"IDENTIFIER": "ENV",
+				"PREFLABEL": "Directorate-General for Environment",
+				"ALTLABEL": "DG XI – Environment, Nuclear Safety and Civil Protection",
+				"ALTLABEL": "Directorate-General \"Environment, Consumer Protection and Nuclear Safety\"",
+				"ALTLABEL": "DG Environment",
+				"ALTLABEL": "DG XI – Environment, Consumer Protection and Nuclear Safety",
+				"ALTLABEL": "Directorate-General \"Environment, Nuclear Safety and Civil Protection\""
+			},
+			"IDENTIFIER": {
+				"@type": "data",
+				"VALUE": "comnat:COM_2018_0340_FIN"
+			},
+			"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+				"@type": "concept_hierarchy",
+				"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+					"@type": "concept_hierarchy_path",
+					"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+						"@type": "concept_hierarchy_path_concept",
+						"@level": 1,
+						"@leaf": "false",
+						"URI": {
+							"VALUE": "http://eurovoc.europa.eu/100160",
+							"IDENTIFIER": "100160",
+							"TYPE": "EUROVOC"
+						},
+						"IDENTIFIER": "68",
+						"PREFLABEL": "68 INDUSTRY"
+					},
+					"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+						"@type": "concept_hierarchy_path_concept",
+						"@level": 2,
+						"@leaf": "false",
+						"URI": {
+							"VALUE": "http://eurovoc.europa.eu/100269",
+							"IDENTIFIER": "100269",
+							"TYPE": "EUROVOC"
+						},
+						"IDENTIFIER": "6811",
+						"PREFLABEL": "6811 chemistry"
+					},
+					"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+						"@type": "concept_hierarchy_path_concept",
+						"@level": 3,
+						"@leaf": "false",
+						"URI": {
+							"VALUE": "http://eurovoc.europa.eu/1362",
+							"IDENTIFIER": "1362",
+							"TYPE": "EUROVOC"
+						},
+						"IDENTIFIER": "1362",
+						"PREFLABEL": "chemical industry",
+						"ALTLABEL": "chemical production"
+					},
+					"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+						"@type": "concept_hierarchy_path_concept",
+						"@level": 4,
+						"@leaf": "false",
+						"URI": {
+							"VALUE": "http://eurovoc.europa.eu/3808",
+							"IDENTIFIER": "3808",
+							"TYPE": "EUROVOC"
+						},
+						"IDENTIFIER": "3808",
+						"PREFLABEL": "raw chemical industry"
+					},
+					"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+						"@type": "concept_hierarchy_path_concept",
+						"@level": 5,
+						"@leaf": "false",
+						"URI": {
+							"VALUE": "http://eurovoc.europa.eu/1383",
+							"IDENTIFIER": "1383",
+							"TYPE": "EUROVOC"
+						},
+						"IDENTIFIER": "1383",
+						"PREFLABEL": "plastics industry"
+					},
+					"WORK_IS_ABOUT_CONCEPT_EUROVOC": {
+						"@type": "concept_hierarchy_path_concept",
+						"@level": 6,
+						"@leaf": "true",
+						"URI": {
+							"VALUE": "http://eurovoc.europa.eu/1837",
+							"IDENTIFIER": "1837",
+							"TYPE": "EUROVOC"
+						},
+						"IDENTIFIER": "1837",
+						"PREFLABEL": "plastics",
+						"ALTLABEL": "polyurethane",
+						"ALTLABEL": "polyurethane foam",
+						"ALTLABEL": "polypropylene",
+						"ALTLABEL": "plastic",
+						"ALTLABEL": "PVC",
+						"ALTLABEL": "polyethylene",
+						"ALTLABEL": "polyvinyl chloride",
+						"ALTLABEL": "polyester"
+					}
+				}
+			},
+			"TYPE": {
+				"@type": "type",
+				"$": "cdm:act_preparatory"
+			},
+			"TYPE": {
+				"@type": "data",
+				"VALUE": "PC"
+			},
+			"TYPE": {
+				"@type": "type",
+				"$": "cdm:resource_legal"
+			},
+			"TYPE": {
+				"@type": "type",
+				"$": "cdm:work"
+			},
+			"RESOURCE_LEGAL_COR_OPINION_CONTAINED_IN_RESOURCE_LEGAL": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/ebbe9489-04e8-11e9-adde-01aa75ed71a1",
+					"IDENTIFIER": "ebbe9489-04e8-11e9-adde-01aa75ed71a1",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/celex/52018AR3652",
+						"IDENTIFIER": "52018AR3652",
+						"TYPE": "celex"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/cor/COR-2018-03652",
+						"IDENTIFIER": "COR-2018-03652",
+						"TYPE": "cor"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/immc/COR-2018-03652",
+						"IDENTIFIER": "COR-2018-03652",
+						"TYPE": "immc"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/oj/JOC_2018_461_R_0017",
+						"IDENTIFIER": "JOC_2018_461_R_0017",
+						"TYPE": "oj"
+					}
+				},
+				"ROLE2": {
+					"@type": "annotation",
+					"$": "{MD|http://publications.europa.eu/resource/authority/fd_375/MD}"
+				},
+				"TYPE_OF_LINK_TARGET": {
+					"@type": "annotation",
+					"$": "EA"
+				}
+			},
+			"WORK_RELATED_TO_WORK": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/240d5355-6257-11e8-ab9c-01aa75ed71a1",
+					"IDENTIFIER": "240d5355-6257-11e8-ab9c-01aa75ed71a1",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/comnat/SWD_2018_0257_FIN",
+						"IDENTIFIER": "SWD_2018_0257_FIN",
+						"TYPE": "comnat"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/celex/52018SC0257",
+						"IDENTIFIER": "52018SC0257",
+						"TYPE": "celex"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/immc/SWD%282018%29257%20final",
+						"IDENTIFIER": "SWD(2018)257 final",
+						"TYPE": "immc"
+					}
+				},
+				"TYPE_OF_LINK_TARGET": {
+					"@type": "annotation",
+					"$": "RD"
+				}
+			},
+			"WORK_RELATED_TO_WORK": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/5136acfd-56ce-11e9-a8ed-01aa75ed71a1",
+					"IDENTIFIER": "5136acfd-56ce-11e9-a8ed-01aa75ed71a1",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/immc/P8_TA%282019%290305",
+						"IDENTIFIER": "P8_TA(2019)0305",
+						"TYPE": "immc"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/ep/P8_TA%282019%290305",
+						"IDENTIFIER": "P8_TA(2019)0305",
+						"TYPE": "ep"
+					}
+				}
+			},
+			"RESOURCE_LEGAL_RELATED_TO_RESOURCE_LEGAL": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/5136acfd-56ce-11e9-a8ed-01aa75ed71a1",
+					"IDENTIFIER": "5136acfd-56ce-11e9-a8ed-01aa75ed71a1",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/immc/P8_TA%282019%290305",
+						"IDENTIFIER": "P8_TA(2019)0305",
+						"TYPE": "immc"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/ep/P8_TA%282019%290305",
+						"IDENTIFIER": "P8_TA(2019)0305",
+						"TYPE": "ep"
+					}
+				},
+				"ROLE2": {
+					"@type": "annotation",
+					"$": "{PSP|http://publications.europa.eu/resource/authority/fd_375/PSP}"
+				},
+				"TYPE_OF_LINK_TARGET": {
+					"@type": "annotation",
+					"$": "EA"
+				}
+			},
+			"WORK_PART_OF_EVENT_LEGAL": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/f03de40f-6255-11e8-ab9c-01aa75ed71a1.0001",
+					"IDENTIFIER": "f03de40f-6255-11e8-ab9c-01aa75ed71a1.0001",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/procedure-event/2018_172.2018-05-28_ADP_byCOM",
+						"IDENTIFIER": "2018_172.2018-05-28_ADP_byCOM",
+						"TYPE": "procedure-event"
+					}
+				}
+			},
+			"WORK_RELATED_TO_WORK": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/daba6bc3-6256-11e8-ab9c-01aa75ed71a1",
+					"IDENTIFIER": "daba6bc3-6256-11e8-ab9c-01aa75ed71a1",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/immc/SWD%282018%29256%20final",
+						"IDENTIFIER": "SWD(2018)256 final",
+						"TYPE": "immc"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/comnat/SWD_2018_0256_FIN",
+						"IDENTIFIER": "SWD_2018_0256_FIN",
+						"TYPE": "comnat"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/celex/52018SC0256",
+						"IDENTIFIER": "52018SC0256",
+						"TYPE": "celex"
+					}
+				},
+				"TYPE_OF_LINK_TARGET": {
+					"@type": "annotation",
+					"$": "RD"
+				}
+			},
+			"RESOURCE_LEGAL_EESC_OPINION_CONTAINED_IN_RESOURCE_LEGAL": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/19a9150f-d012-11e8-9424-01aa75ed71a1",
+					"IDENTIFIER": "19a9150f-d012-11e8-9424-01aa75ed71a1",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/immc/EESC-2018-03041-AS",
+						"IDENTIFIER": "EESC-2018-03041-AS",
+						"TYPE": "immc"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/pi_eesc/EESC-2018-03041-AS",
+						"IDENTIFIER": "EESC-2018-03041-AS",
+						"TYPE": "pi_eesc"
+					}
+				}
+			},
+			"RESOURCE_LEGAL_ADOPTED_BY_RESOURCE_LEGAL": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/ab83570c-8cc8-11e9-9369-01aa75ed71a1",
+					"IDENTIFIER": "ab83570c-8cc8-11e9-9369-01aa75ed71a1",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/eli/dir/2019/904/oj",
+						"IDENTIFIER": "dir:2019:904:oj",
+						"TYPE": "eli"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/celex/32019L0904",
+						"IDENTIFIER": "32019L0904",
+						"TYPE": "celex"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/oj/JOL_2019_155_R_0001",
+						"IDENTIFIER": "JOL_2019_155_R_0001",
+						"TYPE": "oj"
+					}
+				},
+				"START_OF_VALIDITY": "2019-06-05",
+				"TYPE_OF_LINK_TARGET": {
+					"@type": "annotation",
+					"$": "MS"
+				}
+			},
+			"RESOURCE_LEGAL_EESC_OPINION_CONTAINED_IN_RESOURCE_LEGAL": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/eca1b3ec-30fd-11e9-8d04-01aa75ed71a1",
+					"IDENTIFIER": "eca1b3ec-30fd-11e9-8d04-01aa75ed71a1",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/celex/52018AE3041",
+						"IDENTIFIER": "52018AE3041",
+						"TYPE": "celex"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/immc/EESC-2018-05568",
+						"IDENTIFIER": "EESC-2018-05568",
+						"TYPE": "immc"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/oj/JOC_2019_062_R_0034",
+						"IDENTIFIER": "JOC_2019_062_R_0034",
+						"TYPE": "oj"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/eesc/EESC-2018-05568",
+						"IDENTIFIER": "EESC-2018-05568",
+						"TYPE": "eesc"
+					}
+				},
+				"TYPE_OF_LINK_TARGET": {
+					"@type": "annotation",
+					"$": "EA"
+				}
+			},
+			"WORK_PART_OF_DOSSIER": {
+				"@type": "link",
+				"DOSSIER": {
+					"PROCEDURE_CODE_INTERINSTITUTIONAL_HAS_TYPE_CONCEPT_TYPE_PROCEDURE_CODE_INTERINSTITUTIONAL": {
+						"@type": "concept",
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/authority/procedure/OLP",
+							"IDENTIFIER": "OLP",
+							"TYPE": "procedure"
+						},
+						"OP-CODE": "OLP",
+						"IDENTIFIER": "OLP",
+						"PREFLABEL": "Ordinary legislative procedure (COD)"
+					},
+					"PROCEDURE_CODE_INTERINSTITUTIONAL_NUMBER_PROCEDURE": {
+						"@type": "data",
+						"VALUE": "0172"
+					},
+					"PROCEDURE_CODE_INTERINSTITUTIONAL_REFERENCE_PROCEDURE": {
+						"@type": "data",
+						"VALUE": "2018/0172/COD"
+					},
+					"PROCEDURE_CODE_INTERINSTITUTIONAL_YEAR_PROCEDURE": {
+						"@type": "data",
+						"VALUE": "2018"
+					},
+					"TYPE": {
+						"@type": "type",
+						"$": "cdm:period"
+					},
+					"TYPE": {
+						"@type": "type",
+						"$": "cdm:procedure_internal"
+					},
+					"TYPE": {
+						"@type": "type",
+						"$": "cdm:entity_temporal"
+					},
+					"TYPE": {
+						"@type": "type",
+						"$": "cdm:dossier"
+					}
+				},
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/f03de40f-6255-11e8-ab9c-01aa75ed71a1",
+					"IDENTIFIER": "f03de40f-6255-11e8-ab9c-01aa75ed71a1",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/procedure/2018_172",
+						"IDENTIFIER": "2018_172",
+						"TYPE": "procedure"
+					}
+				},
+				"TYPE": "cdm:period",
+				"TYPE": "cdm:procedure_internal",
+				"TYPE": "cdm:entity_temporal",
+				"TYPE": "cdm:dossier"
+			},
+			"WORK_RELATED_TO_WORK": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/4d0542a2-6256-11e8-ab9c-01aa75ed71a1",
+					"IDENTIFIER": "4d0542a2-6256-11e8-ab9c-01aa75ed71a1",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/immc/SWD%282018%29254%20final",
+						"IDENTIFIER": "SWD(2018)254 final",
+						"TYPE": "immc"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/celex/52018SC0254",
+						"IDENTIFIER": "52018SC0254",
+						"TYPE": "celex"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/comnat/SWD_2018_0254_FIN",
+						"IDENTIFIER": "SWD_2018_0254_FIN",
+						"TYPE": "comnat"
+					}
+				},
+				"TYPE_OF_LINK_TARGET": {
+					"@type": "annotation",
+					"$": "RD"
+				}
+			},
+			"WORK_RELATED_TO_WORK": {
+				"@type": "link",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/18b36681-6256-11e8-ab9c-01aa75ed71a1",
+					"IDENTIFIER": "18b36681-6256-11e8-ab9c-01aa75ed71a1",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/comnat/SWD_2018_0255_FIN",
+						"IDENTIFIER": "SWD_2018_0255_FIN",
+						"TYPE": "comnat"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/celex/52018SC0255",
+						"IDENTIFIER": "52018SC0255",
+						"TYPE": "celex"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/immc/SWD%282018%29255%20final",
+						"IDENTIFIER": "SWD(2018)255 final",
+						"TYPE": "immc"
+					}
+				},
+				"TYPE_OF_LINK_TARGET": {
+					"@type": "annotation",
+					"$": "RD"
+				}
+			},
+			"WORK_PART_OF_DOSSIER": {
+				"@type": "link",
+				"DOSSIER": {
+					"TYPE": {
+						"@type": "type",
+						"$": "cdm:period"
+					},
+					"TYPE": {
+						"@type": "type",
+						"$": "cdm:procedure_internal"
+					},
+					"TYPE": {
+						"@type": "type",
+						"$": "cdm:entity_temporal"
+					},
+					"TYPE": {
+						"@type": "type",
+						"$": "cdm:dossier"
+					}
+				},
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/0099fab9-625a-11e8-ab9c-01aa75ed71a1",
+					"IDENTIFIER": "0099fab9-625a-11e8-ab9c-01aa75ed71a1",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/internal_proc/4EA5A439811F4F0D7522C7952DFC12ECCCE0FBA14846EC9F7681F23CDA431DC9",
+						"IDENTIFIER": "4EA5A439811F4F0D7522C7952DFC12ECCCE0FBA14846EC9F7681F23CDA431DC9",
+						"TYPE": "internal_proc"
+					}
+				}
+			},
+			"EXPRESSION": {
+				"@display": "true",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002",
+					"IDENTIFIER": "fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/comnat/COM_2018_0340_FIN.ENG",
+						"IDENTIFIER": "COM_2018_0340_FIN.ENG",
+						"TYPE": "comnat"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/immc/COM%282018%29340%20final.ENG",
+						"IDENTIFIER": "COM(2018)340 final.ENG",
+						"TYPE": "immc"
+					}
+				},
+				"TYPE": {
+					"@type": "type",
+					"$": "cdm:expression"
+				},
+				"LANG": {
+					"@type": "data",
+					"VALUE": "eng"
+				},
+				"CREATIONDATE": {
+					"@type": "date",
+					"VALUE": "2018-05-28T11:03:29.778+02:00",
+					"YEAR": "2018",
+					"MONTH": "05",
+					"DAY": "28"
+				},
+				"EXPRESSION_SUBTITLE": {
+					"@type": "data",
+					"VALUE": "COM/2018/340 final - 2018/0172 (COD)"
+				},
+				"EXPRESSION_TITLE": {
+					"@type": "data",
+					"VALUE": "Proposal for a DIRECTIVE OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on the reduction of the impact of certain plastic products on the environment",
+					"LANG": "en"
+				},
+				"EXPRESSION_BELONGS_TO_WORK": {
+					"@type": "link",
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/cellar/fc5c74e0-6255-11e8-ab9c-01aa75ed71a1",
+						"IDENTIFIER": "fc5c74e0-6255-11e8-ab9c-01aa75ed71a1",
+						"TYPE": "cellar"
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/comnat/COM_2018_0340_FIN",
+							"IDENTIFIER": "COM_2018_0340_FIN",
+							"TYPE": "comnat"
+						}
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/immc/COM%282018%29340%20final",
+							"IDENTIFIER": "COM(2018)340 final",
+							"TYPE": "immc"
+						}
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/celex/52018PC0340",
+							"IDENTIFIER": "52018PC0340",
+							"TYPE": "celex"
+						}
+					}
+				},
+				"EXPRESSION_USES_LANGUAGE": {
+					"@type": "concept",
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/authority/language/ENG",
+						"IDENTIFIER": "ENG",
+						"TYPE": "language"
+					},
+					"OP-CODE": "ENG",
+					"IDENTIFIER": "ENG",
+					"PREFLABEL": "English",
+					"ALTLABEL": "English"
+				},
+				"LANG": {
+					"@type": "data",
+					"VALUE": "en"
+				},
+				"TITLE": {
+					"@type": "data",
+					"VALUE": "Proposal for a DIRECTIVE OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on the reduction of the impact of certain plastic products on the environment",
+					"LANG": "en"
+				},
+				"LASTMODIFICATIONDATE": {
+					"@type": "date",
+					"VALUE": "2020-09-27T17:43:28.234+02:00",
+					"YEAR": "2020",
+					"MONTH": "09",
+					"DAY": "27"
+				},
+				"TITLE": {
+					"@type": "data",
+					"VALUE": "COM/2018/340 final - 2018/0172 (COD)"
+				},
+				"MANIFESTATION": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/cellar/fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.03",
+						"IDENTIFIER": "fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.03",
+						"TYPE": "cellar"
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/immc/COM%282018%29340%20final.ENG.xhtml",
+							"IDENTIFIER": "COM(2018)340 final.ENG.xhtml",
+							"TYPE": "immc"
+						}
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/comnat/COM_2018_0340_FIN.ENG.xhtml",
+							"IDENTIFIER": "COM_2018_0340_FIN.ENG.xhtml",
+							"TYPE": "comnat"
+						}
+					},
+					"TYPE": {
+						"@type": "type",
+						"$": "cdm:manifestation"
+					},
+					"MANIFESTATION_TYPE": {
+						"@type": "data",
+						"VALUE": "xhtml"
+					}
+				},
+				"MANIFESTATION": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/cellar/fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.02",
+						"IDENTIFIER": "fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.02",
+						"TYPE": "cellar"
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/immc/COM%282018%29340%20final.ENG.pdf",
+							"IDENTIFIER": "COM(2018)340 final.ENG.pdf",
+							"TYPE": "immc"
+						}
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/comnat/COM_2018_0340_FIN.ENG.pdf",
+							"IDENTIFIER": "COM_2018_0340_FIN.ENG.pdf",
+							"TYPE": "comnat"
+						}
+					},
+					"TYPE": {
+						"@type": "type",
+						"$": "cdm:manifestation"
+					},
+					"MANIFESTATION_TYPE": {
+						"@type": "data",
+						"VALUE": "pdf"
+					}
+				},
+				"MANIFESTATION": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/cellar/fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.01",
+						"IDENTIFIER": "fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0002.01",
+						"TYPE": "cellar"
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/immc/COM%282018%29340%20final.ENG.docx",
+							"IDENTIFIER": "COM(2018)340 final.ENG.docx",
+							"TYPE": "immc"
+						}
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/comnat/COM_2018_0340_FIN.ENG.docx",
+							"IDENTIFIER": "COM_2018_0340_FIN.ENG.docx",
+							"TYPE": "comnat"
+						}
+					},
+					"TYPE": {
+						"@type": "type",
+						"$": "cdm:manifestation"
+					},
+					"MANIFESTATION_TYPE": {
+						"@type": "data",
+						"VALUE": "docx"
+					}
+				}
+			},
+			"EXPRESSION": {
+				"@display": "false",
+				"URI": {
+					"VALUE": "http://publications.europa.eu/resource/cellar/fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0003",
+					"IDENTIFIER": "fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0003",
+					"TYPE": "cellar"
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/immc/COM%282018%29340%20final.DEU",
+						"IDENTIFIER": "COM(2018)340 final.DEU",
+						"TYPE": "immc"
+					}
+				},
+				"SAMEAS": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/comnat/COM_2018_0340_FIN.DEU",
+						"IDENTIFIER": "COM_2018_0340_FIN.DEU",
+						"TYPE": "comnat"
+					}
+				},
+				"TYPE": {
+					"@type": "type",
+					"$": "cdm:expression"
+				},
+				"EXPRESSION_USES_LANGUAGE": {
+					"@type": "concept",
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/authority/language/DEU",
+						"IDENTIFIER": "DEU",
+						"TYPE": "language"
+					},
+					"OP-CODE": "DEU",
+					"IDENTIFIER": "DEU",
+					"PREFLABEL": "German"
+				},
+				"EXPRESSION_TITLE": {
+					"@type": "data",
+					"VALUE": "Vorschlag für eine RICHTLINIE DES EUROPÄISCHEN PARLAMENTS UND DES RATES über die Verringerung der Auswirkungen bestimmter Kunststoffprodukte auf die Umwelt",
+					"LANG": "de"
+				},
+				"MANIFESTATION": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/cellar/fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0003.02"
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/immc/COM%282018%29340%20final.DEU.pdf",
+							"IDENTIFIER": "COM(2018)340 final.DEU.pdf",
+							"TYPE": "immc"
+						}
+					},
+					"TYPE": {
+						"@type": "type",
+						"$": "cdm:manifestation"
+					},
+					"MANIFESTATION_TYPE": {
+						"@type": "data",
+						"VALUE": "pdf"
+					}
+				},
+				"MANIFESTATION": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/cellar/fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0003.01"
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/immc/COM%282018%29340%20final.DEU.docx",
+							"IDENTIFIER": "COM(2018)340 final.DEU.docx",
+							"TYPE": "immc"
+						}
+					},
+					"TYPE": {
+						"@type": "type",
+						"$": "cdm:manifestation"
+					},
+					"MANIFESTATION_TYPE": {
+						"@type": "data",
+						"VALUE": "docx"
+					}
+				},
+				"MANIFESTATION": {
+					"URI": {
+						"VALUE": "http://publications.europa.eu/resource/cellar/fc5c74e0-6255-11e8-ab9c-01aa75ed71a1.0003.03"
+					},
+					"SAMEAS": {
+						"URI": {
+							"VALUE": "http://publications.europa.eu/resource/immc/COM%282018%29340%20final.DEU.xhtml",
+							"IDENTIFIER": "COM(2018)340 final.DEU.xhtml",
+							"TYPE": "immc"
+						}
+					},
+					"TYPE": {
+						"@type": "type",
+						"$": "cdm:manifestation"
+					},
+					"MANIFESTATION_TYPE": {
+						"@type": "data",
+						"VALUE": "xhtml"
+					}
+				}
+			}
+		}
+	}
+}
