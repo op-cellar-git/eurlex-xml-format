@@ -98,15 +98,15 @@
 					</xs:complexType>
 				</xs:element>
 			</xs:choice>
-			<xs:attribute name="type" use="required" fixed="tree">
+			<xs:attribute name="type" use="required">
 				<xs:annotation>
 					<xs:documentation xml:lang="en">The type of notice. Possible values are enumerated in this schema.</xs:documentation>
 				</xs:annotation>
 				<xs:simpleType>
 					<xs:restriction base="xs:string">
 						<xs:enumeration value="tree"/>
-						<!-- [TBD - removal of indentifier notice] -->
-						<!-- xs:enumeration value="identifier"/ -->
+						<xs:enumeration value="eurlex"/>
+						<!--xs:enumeration value="op-portal"/-->
 					</xs:restriction>
 				</xs:simpleType>
 			</xs:attribute>
@@ -115,6 +115,8 @@
 					<xs:documentation xml:lang="en">Decoding language used to build the notice. The language is provided using the ISO 639.2 code (terminology)</xs:documentation>
 				</xs:annotation>
 			</xs:attribute>
+			<xs:assert test="if (@type='eurlex') then (not(boolean(WORK/EXPRESSION/MANIFESTATION/ITEM))) else true()" xpathDefaultNamespace="##targetNamespace"/>
+			<xs:assert test="if (@type='eurlex') then (not(boolean(EVENT))) else true()" xpathDefaultNamespace="##targetNamespace"/>
 		</xs:complexType>
 	</xs:element>
 </xs:schema>
